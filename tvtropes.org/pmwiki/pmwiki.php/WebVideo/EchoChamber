@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Echo Chamber (Web Video) - TV Tropes</title>
+<meta name="description" content="Echo Chamber: The Adventures of a TV Tropes Vlogger is a TV Tropes video show. The show is about the travails of a group of tropers trying to make a &quot;Trope &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/WebVideo/EchoChamber" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Echo Chamber (Web Video) - TV Tropes" />
+<meta name="twitter:description" content="Echo Chamber: The Adventures of a TV Tropes Vlogger is a TV Tropes video show. The show is about the travails of a group of tropers trying to make a &quot;Trope &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Echo Chamber (Web Video) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/WebVideo/EchoChamber" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Echo Chamber: The Adventures of a TV Tropes Vlogger is a TV Tropes video show. The show is about the travails of a group of tropers trying to make a &quot;Trope of the Week&quot; video series. Which they do. Sort of. In spite of their best efforts. Season &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/EliminatedFromTheRace" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Literature/PreludeToDune" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/WebVideo/EchoChamber?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=WebVideo/EchoChamber">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=WebVideo.EchoChamber">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=WebVideo&target_title=EchoChamber">
+<i class="fa fa-star-half-o"></i> 1 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=WebVideo.EchoChamber">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/WebVideo/EchoChamber?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="WebVideo" />
+<input type="hidden" id="title-hidden" value="EchoChamber" />
+<input type="hidden" id="article_id" value="342524" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/WebVideo/EchoChamber</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Web Video / </strong>
+Echo Chamber
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WebVideo",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/WebVideo"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Echo Chamber"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/EchoChamber" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/EchoChamber" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Fridge/EchoChamber" class="subpage-link " title="The Fridge page">
+<span class="wrapper"><span class="spi fridge"></span>Fridge</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/EchoChamber" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Headscratchers/EchoChamber" class="subpage-link " title="The Headscratchers page">
+<span class="wrapper"><span class="spi headscratchers"></span>Headscratchers</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/EchoChamber" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/EchoChamber" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/EchoChamber" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/EchoChamber" class="subpage-link curr-subpage" title="The WebVideo page">
+<span class="wrapper"><span class="spi webvideo"></span>WebVideo</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/EchoChamber" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/EchoChamber" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageLinks/EchoChamber" class="subpage-link " title="The ImageLinks page">
+<span class="wrapper">ImageLinks</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TropesThatWillNeverHappen/EchoChamber" class="subpage-link " title="The TropesThatWillNeverHappen page">
+<span class="wrapper">TropesThatWill&#8230;</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/EchoChamber?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/EchoChamber?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/EchoChamber?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Haiku/EchoChamber?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/EchoChamber?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/EchoChamber?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/EchoChamber?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/EchoChamber?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/EchoChamber?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/EchoChamber?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="indent"><em>"<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForYourPeopleByYourPeople" title="/pmwiki/pmwiki.php/Main/ForYourPeopleByYourPeople">Created for Tropers, by Tropers.</a>"</em></div><p><em>Echo Chamber: The Adventures of a TV Tropes Vlogger</em> is a <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TVTropes" title="/pmwiki/pmwiki.php/Wiki/TVTropes">TV Tropes</a> video show. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">The show is about the travails of a group of tropers trying to make a "Trope of the Week" video series</a>. Which they do. Sort of. In spite of their best efforts.</p><p></p><center><strong>Season 2-12: Season Finale! Mind Screw</strong></center><div id="vidholder" style="width:671px;margin:0 auto;"> <iframe width="666" height="374" src="https://sharetv.com/embed/865426/666/374/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><center> Be sure to check out the rest of this season on <a class="urllink" href="http://sharetv.com/shows/echo_chamber">our ShareTV page.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></center><p></p><div class="folderlabel" onclick="toggleAllFolders();">&nbsp;&nbsp;&nbsp;&nbsp;open/close all folders&nbsp; </div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;Tropes used by the series in general&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;"><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllLoveIsUnrequited" title="/pmwiki/pmwiki.php/Main/AllLoveIsUnrequited">All Love Is Unrequited</a>:<ul><li> Shannon for Tom, Tom for Porn Girl, Zack for Dana, and (possibly) Dana for Tom.</li><li> As of the second episode of season two, we have Dave for Gaelyn, and Gaelyn for Zack.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllMenArePerverts" title="/pmwiki/pmwiki.php/Main/AllMenArePerverts">All Men Are Perverts</a>:<ul><li> In episode 6, Tom is terrified of Shannon... until he sleeps with her again. At which point he no longer cares that she's stalking him, because she has great boobs.</li><li> Zack:<div class="indent"><strong>Episode 5:</strong> I'd do 'er. <strong>Episode 5:</strong> Bend over backwards to accommodate <em>me!</em> <strong>Episode 6:</strong> It's like she couldn't even <em>see</em> my boner!</div></li></ul></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrickJoke" title="/pmwiki/pmwiki.php/Main/BrickJoke">Brick Joke</a>:<ul><li> In Episode 4, Tom tells Dana that the only food he has is rice, but that she could put salt on it. In Episode 6, you see Tom first cooking rice and later pouring copious amounts of salt onto it.</li><li> In Episode 1 Zack makes a joke about keeping a dead cat in a box (Schrodinger's Cat). In episode 16, <span class="spoiler" title="you can set spoilers visible by default on your profile"> he gives said box to Dana for her birthday.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrutalHonesty" title="/pmwiki/pmwiki.php/Main/BrutalHonesty">Brutal Honesty</a>: Dana apparently feels no need to be nice with anything she says to Tom, and tells him that he's completely incompetent, his videos are awful and she hates his guts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BunnyEarsLawyer" title="/pmwiki/pmwiki.php/Main/BunnyEarsLawyer">Bunny-Ears Lawyer</a>: Zack. He is good with After Effects, has a PhD, and delivered a baby once. He was also making amazing, heart-wrenching films when he was nine years old.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchPhrase" title="/pmwiki/pmwiki.php/Main/CatchPhrase">Catchphrase</a>: Dana has the word "suck".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">Cerebus Syndrome</a>: Slides into this gradually; the first somewhat serious arc begins in episode 3, but the arc episodes get somewhat more common and serious in season 2. The last four episodes of season 2 each advance at least one of the show's arcs, all of them are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a> than any of the episodes that came before them, and <span class="spoiler" title="you can set spoilers visible by default on your profile">the season 2 finale in particular implies that there will be much more of this syndrome</span> in the third season, (which <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> says will be the last one).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterBlog" title="/pmwiki/pmwiki.php/Main/CharacterBlog">Character Blog</a>: Both Zack's <a class="urllink" href="http://twitter.com/#!/deadcatinabox">in-character Twitter account<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and the <a class="urllink" href="http://tvtropes.info/echochamber/">Production Blog which seems to be written by Shannon<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">Cloudcuckoolander</a>: Zack. And judging by his uncle Bill, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItRunsInTheFamily" title="/pmwiki/pmwiki.php/Main/ItRunsInTheFamily">It Runs in the Family</a>.<div class="indent"><strong>Zack:</strong> You keep your dead cat in a box, too?</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConversationalTroping" title="/pmwiki/pmwiki.php/Main/ConversationalTroping">Conversational Troping</a>: Happens a lot with this being about tropes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadpanSnarker" title="/pmwiki/pmwiki.php/Main/DeadpanSnarker">Deadpan Snarker</a>: Dana.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DomesticAbuse" title="/pmwiki/pmwiki.php/Main/DomesticAbuse">Domestic Abuse</a>: Shannon towards Tom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DramaBomb" title="/pmwiki/pmwiki.php/Main/DramaBomb">Drama Bomb</a>: The last four episodes of season 2 are more serious than all the preceding episodes.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryoneOwnsAMac" title="/pmwiki/pmwiki.php/Main/EveryoneOwnsAMac">Everyone Owns a Mac</a>:<ul><li> Tom is shown using an Apple laptop in episodes 4, 5, 6 and 10. Presumably, this trope will continue to show up in every episode where his computer is shown.</li><li> The Editing Suite where they speak to the Administrator also seems to be full of iMacs.</li><li> Dana is using an Apple laptop in Episode 10.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExecutiveMeddling" title="/pmwiki/pmwiki.php/Main/ExecutiveMeddling">Executive Meddling</a>:<span style="display:none">invoked</span> Mr. Administrator sometimes orders Tom and Dana to change their show in some way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>: Mr. Administrator is somewhat reminiscent of The Chief from <em><a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/AgentsOfCracked" title="/pmwiki/pmwiki.php/WebVideo/AgentsOfCracked">Agents of Cracked</a></em>, another webseries that depicts a fictionalized version of two people working to create content for a website.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFaceless" title="/pmwiki/pmwiki.php/Main/TheFaceless">The Faceless</a>:<ul><li> Zack. Except <span class="spoiler" title="you can set spoilers visible by default on your profile">episode 2. And even then, it's so dark that you don't really see anything</span>. You also see him briefly in episode 4 <span class="spoiler" title="you can set spoilers visible by default on your profile"> when Dana leaves for the night and it cuts to a view of him holding the camera</span>. And again partially <span class="spoiler" title="you can set spoilers visible by default on your profile"> episode 6 due to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisibleBoomMic" title="/pmwiki/pmwiki.php/Main/VisibleBoomMic">Visible Boom Mic</a> moment</span>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lampshaded" title="/pmwiki/pmwiki.php/Main/Lampshaded">Lampshaded</a> in episode 10; the only defining features of Zack's sock puppet are a derpy tongue poking out and a camera. The Season 1 finale has Zack <span class="spoiler" title="you can set spoilers visible by default on your profile"> talking with his face partially obscured by his camera and then when he pulls it down he is facing opposite the camera</span>. Zack starts to avert this slightly more as of Season 2, in several episodes (notably 2x09), there are moments where you can see pretty much all of him except his eyes. In 2.11, Zack is finally fully visible. <span class="spoiler" title="you can set spoilers visible by default on your profile">And in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>, so is Mr. Administrator.</span></li><li> The Administrator, who is both out of frame from just below the eyes and up, and back-lit so that his features are almost completely obscured by shadow. That's all we're saying about him. He scares us.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FacePalm" title="/pmwiki/pmwiki.php/Main/FacePalm">Face Palm</a>: Dana, <em>a lot</em>. In <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage" title="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage">Terrible Interviewees Montage</a>, she does the two-handed version.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianExcuse" title="/pmwiki/pmwiki.php/Main/FreudianExcuse">Freudian Excuse</a>: Both Tom and Zack have these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunWithSubtitles" title="/pmwiki/pmwiki.php/Main/FunWithSubtitles">Fun with Subtitles</a>: On <a class="twikilink" href="/pmwiki/pmwiki.php/Website/YouTube" title="/pmwiki/pmwiki.php/Website/YouTube">YouTube</a>, you can add subtitles, which are sometimes funny or sarcastic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GotVolunteered" title="/pmwiki/pmwiki.php/Main/GotVolunteered">Got Volunteered</a>: Zack.<div class="indent"><strong>Dana (to Tom):</strong> If you don't like him, why is he doing this with us? <strong>Tom:</strong> His dad owns the equipment, and he made me let him tag along.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HugeGuyTinyGirl" title="/pmwiki/pmwiki.php/Main/HugeGuyTinyGirl">Huge Guy, Tiny Girl</a>: Tom is a good foot taller than Dana.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IdiosyncraticEpisodeNaming" title="/pmwiki/pmwiki.php/Main/IdiosyncraticEpisodeNaming">Idiosyncratic Episode Naming</a>: Every episode is named after a Trope central to the episode, which is almost always <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitleDrop" title="/pmwiki/pmwiki.php/Main/TitleDrop">discussed by name</a> in the episode.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverseCamera" title="/pmwiki/pmwiki.php/Main/InUniverseCamera">In-Universe Camera</a>: Most of the shots are done by the in-universe cameraman Zack or Gaelyn, but there are some overall shots as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a>: Dana calls Tom one in episode 1.2. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">She's correct.</a></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlySaneEmployee" title="/pmwiki/pmwiki.php/Main/OnlySaneEmployee">Only Sane Employee</a>: Dana. Justified twice - Tom recruits her specifically to fill this role, and she mentions in episode 3 that being one makes her feel much more useful than any of her other jobs did.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyalWe" title="/pmwiki/pmwiki.php/Main/RoyalWe">Royal "We"</a>: Mr. Administrator's speech pattern, <span class="spoiler" title="you can set spoilers visible by default on your profile">except for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a> of episode 10</span>. Bonus points for being an example of the trope <em>and</em> a meta gag.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>:<ul><li> Dana telling Tom that he or his works suck.</li><li> Tom filming without pants. There's a blink-and-you-miss-it shot in episode 2.5 where the camera pans down and you see he's in his boxers again - with his tuxedo shirt and jacket.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: In the production blog, Shannon refers to Dana as <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/HarryPotter" title="/pmwiki/pmwiki.php/Franchise/HarryPotter">She-Who-Must-Not-Be-Named</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a>:<ul><li> Type 1. In the first episode Dana suggests they have a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a> in their first vlog in order to demonstrate the trope, which from the viewer's perspective would make it a Show Within A Show Within A Show, but Tom decides against it. In the other episodes, we see them making the vlog, but we never see the finished vlog itself.</li><li> Season 2 has <em>[citation needed]</em>, a competing vlog from <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TheOtherWiki" title="/pmwiki/pmwiki.php/Wiki/TheOtherWiki">The Other Wiki</a>. <em>[citation needed]</em> itself has a Show Within A Show, as the excerpt played is explaining that trope by doing a Show Within A Show of its own. <em>[citation needed]</em> also talks about <em>Echo Chamber</em> in a different episode.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StalkerWithACrush" title="/pmwiki/pmwiki.php/Main/StalkerWithACrush">Stalker with a Crush</a>: Zack follows Dana around because he loves her. Not that she cares.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>: The outtakes, following the final credits. The ones in episodes 1.5, 1.10 and 2.8 have actual plot relevance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrictlyFormula" title="/pmwiki/pmwiki.php/Main/StrictlyFormula">Strictly Formula</a>: Dana, Tom and Zack start talking about a trope. Trope occurs. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilarityEnsues" title="/pmwiki/pmwiki.php/Main/HilarityEnsues">Hilarity Ensues</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Which, according to 2.12, is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouCantThwartStageOne" title="/pmwiki/pmwiki.php/Main/YouCantThwartStageOne">the first stage of Mr. Administrator's plan in action</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTeaser" title="/pmwiki/pmwiki.php/Main/TheTeaser">The Teaser</a>: So far, all but episodes 1.5 and 1.7 have started with one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TherapyIsForTheWeak" title="/pmwiki/pmwiki.php/Main/TherapyIsForTheWeak"> Therapy Is for the Weak</a>: Zack. But he could really use some.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrademarkFavoriteFood" title="/pmwiki/pmwiki.php/Main/TrademarkFavoriteFood">Trademark Favorite Food</a>: Tom doesn't seem to eat anything but rice and salt. He does vary it in episode 1.6 with some breadcrumbs and grated parmesan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UrbanFantasy" title="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a>: The show has elements of this from the beginning, thanks to Mr. Administrator's presence. It becomes especially prevalent with the revelations about him at the end of the second season.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteVoidRoom" title="/pmwiki/pmwiki.php/Main/WhiteVoidRoom">White Void Room</a>: Mr. Administrator's headquarters.</li></ul></div><p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;First Season&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;"><p></p><h3>Episode 1.1: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864305/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBigBoard" title="/pmwiki/pmwiki.php/Main/TheBigBoard">The Big Board</a>: The chalkboard in the planning scene.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigShutUp" title="/pmwiki/pmwiki.php/Main/BigShutUp">Big "SHUT UP!"</a>: Dana does this repeatedly while Tom tries to explain <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/SchrodingersCat" title="/pmwiki/pmwiki.php/UsefulNotes/SchrodingersCat">Schr&ouml;dinger's Cat</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrosteImage" title="/pmwiki/pmwiki.php/Main/DrosteImage">Droste Image</a>: Tom refers to the "David Hasselhoff's crotch" video version of this while trying to explain the trope. Even though it's completely irrelevant.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EEqualsMCHammer" title="/pmwiki/pmwiki.php/Main/EEqualsMCHammer">E = MC Hammer</a>: On <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBigBoard" title="/pmwiki/pmwiki.php/Main/TheBigBoard">The Big Board</a> in the planning scene. Includes a pie chart that is turned into a Venn diagram, chemical and mathematical formulae, and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrecisionFStrike" title="/pmwiki/pmwiki.php/Main/PrecisionFStrike">Precision F-Strike</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EstablishingCharacterMoment" title="/pmwiki/pmwiki.php/Main/EstablishingCharacterMoment">Establishing Character Moment</a>: Zack gets his in the first 30 seconds.<div class="indent"><strong>Tom:</strong> Zack, thank you for ruining the 20th take. <br><strong>Zack:</strong> <em>(<a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoesNotUnderstandSarcasm" title="/pmwiki/pmwiki.php/Main/DoesNotUnderstandSarcasm">Totally missing the sarcasm.</a>)</em> You're welcome, man. <br><strong>Tom:</strong> Are you sorry? <br><strong>Zack:</strong> Nah. <br><strong>Tom:</strong> Yeah, I didn't think so. <br></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExecutiveMeddling" title="/pmwiki/pmwiki.php/Main/ExecutiveMeddling">Executive Meddling</a>: In-universe. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFaceless" title="/pmwiki/pmwiki.php/Main/TheFaceless">The faceless</a> administrator telling the hero what to do/not to do.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FilmTheHand" title="/pmwiki/pmwiki.php/Main/FilmTheHand">Film the Hand</a>: Dana to Zack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandPuppet" title="/pmwiki/pmwiki.php/Main/HandPuppet">Hand Puppet</a>: Zack's... whatever it is.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HorribleJudgeOfCharacter" title="/pmwiki/pmwiki.php/Main/HorribleJudgeOfCharacter">Horrible Judge of Character</a>: Zack expressing sympathy for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShadowDictator" title="/pmwiki/pmwiki.php/Main/ShadowDictator">administrator</a>. It actually is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foreshadowing" title="/pmwiki/pmwiki.php/Main/Foreshadowing">foreshadowing</a> future events.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MatryoshkaObject" title="/pmwiki/pmwiki.php/Main/MatryoshkaObject">Matryoshka Object</a>: Tom tries to explain the trope as one of these. Like the "box within a box" and the matryoshka dolls on the board.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Pilot" title="/pmwiki/pmwiki.php/Main/Pilot">Pilot</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: Quite a few of them on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBigBoard" title="/pmwiki/pmwiki.php/Main/TheBigBoard">The Big Board</a>.</li></ul><p></p><h3>Episode 1.2: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianExcuse" title="/pmwiki/pmwiki.php/Main/FreudianExcuse">Freudian Excuse</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864306/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigLittleBrother" title="/pmwiki/pmwiki.php/Main/BigLittleBrother">Big Little Brother</a>: Tom uses this as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianExcuse" title="/pmwiki/pmwiki.php/Main/FreudianExcuse">Freudian Excuse</a>.<div class="indent"><strong>Dana:</strong> Everyone has an older brother that overshadows&mdash; <strong>Tom:</strong> I... I didn't say he was older.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallingTheOldManOut" title="/pmwiki/pmwiki.php/Main/CallingTheOldManOut">Calling the Old Man Out</a>: Surprisingly averted as a solution to Zack's problem.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InferioritySuperiorityComplex" title="/pmwiki/pmwiki.php/Main/InferioritySuperiorityComplex">Inferiority Superiority Complex</a>: Tom treats Zack so harshly because his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianExcuse" title="/pmwiki/pmwiki.php/Main/FreudianExcuse">Freudian Excuse</a> means he "needs to be better than someone".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a>: Tom mentions that Dana thinks he is this. Dana confirms it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JitterCam" title="/pmwiki/pmwiki.php/Main/JitterCam">Jitter Cam</a>: Mostly unintentional.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManChild" title="/pmwiki/pmwiki.php/Main/ManChild">Manchild</a>: Dana thinks this of Zack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NostrilShot" title="/pmwiki/pmwiki.php/Main/NostrilShot">Nostril Shot</a>: Of Tom in the storeroom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaintingTheMedium" title="/pmwiki/pmwiki.php/Main/PaintingTheMedium">Painting the Medium</a>: By making the cameraman a character in this <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a>. There's a scene showing Dana and Tom saying some very private things about Zack, and eventually revealing that Zack was there filming the whole thing. A later scene lampshades the fact that we the audience cannot see what Zack cannot film. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WillingSuspensionOfDisbelief" title="/pmwiki/pmwiki.php/Main/WillingSuspensionOfDisbelief">Don't ask</a> how he can jump between cuts mid-sentence in unedited footage or remain unseen while filming Tom at face level in that closet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PantsFree" title="/pmwiki/pmwiki.php/Main/PantsFree">Pants-Free</a>: Tom records the vlog wearing his Batman boxers and spends the whole episode like this, including when they are outside.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecordNeedleScratch" title="/pmwiki/pmwiki.php/Main/RecordNeedleScratch">Record Needle Scratch</a>: Played as Dana says "That's it?" in response to Tom's self-pity story about his brother being generally superior to him throughout his childhood.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SarcasmMode" title="/pmwiki/pmwiki.php/Main/SarcasmMode">Sarcasm Mode</a>: "Aww, how tragic. Watch as my hatred turns to pity."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TroubledProduction" title="/pmwiki/pmwiki.php/Main/TroubledProduction">Troubled Production</a>: In-universe. Tom and Zack can't get along on the set.</li></ul><p></p><h3>Episode 1.3: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage" title="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage">Terrible Interviewees Montage</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864307/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsideGlance" title="/pmwiki/pmwiki.php/Main/AsideGlance">Aside Glance</a>: A blink-and-you'll-miss-it example by Tom around three minutes into the video.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BelligerentSexualTension" title="/pmwiki/pmwiki.php/Main/BelligerentSexualTension">Belligerent Sexual Tension</a>: Invoked by the Administrator.<div class="indent"><strong>Administrator:</strong> You need conflict. Someone to argue with. Someone with whom you can have a very particular kind of <em>tension</em>. Ms. Shaw will appear in your next video.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolBoat" title="/pmwiki/pmwiki.php/Main/CoolBoat">Cool Boat</a>: On the board in the background in the interview montage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExecutiveMeddling" title="/pmwiki/pmwiki.php/Main/ExecutiveMeddling">Executive Meddling</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked</a>. Mr. Administrator insisting the show needs a female co-star.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foreshadowing" title="/pmwiki/pmwiki.php/Main/Foreshadowing">Foreshadowing</a>: The "tension" mentioned by the Administrator appears in episode 5.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadeMyselfSad" title="/pmwiki/pmwiki.php/Main/MadeMyselfSad">Made Myself Sad</a>: Zack.<div class="indent"><strong>Zack:</strong> Therapy is for losers... I <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadeMyselfSad" title="/pmwiki/pmwiki.php/Main/MadeMyselfSad">Made Myself Sad</a>.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnifeNut" title="/pmwiki/pmwiki.php/Main/KnifeNut">Knife Nut</a>: One of the interviewees plays with a folding knife throughout his scenes, then lampshades the trope:<div class="indent"><strong>Interviewee:</strong> Are you afraid of the knife?</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend" title="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend">Psycho Ex-Girlfriend</a>: Tom's Ex Shannon pops up, pissed off because Tom didn't tell her about the casting for a female actress and she had to find out about it on <a class="twikilink" href="/pmwiki/pmwiki.php/Website/Facebook" title="/pmwiki/pmwiki.php/Website/Facebook">Facebook</a>. She also seems to think they're still together.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SilenceYouFool" title="/pmwiki/pmwiki.php/Main/SilenceYouFool">Silence, You Fool!</a>: Said by the Administrator.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>: An attempt of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilariousOuttakes" title="/pmwiki/pmwiki.php/Main/HilariousOuttakes">Hilarious Outtakes</a> can be seen after the credits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThatUs" title="/pmwiki/pmwiki.php/Main/TakeThatUs">Take That, Us</a>: Dana points out that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage" title="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage">Terrible Interviewees Montages</a> are never funny.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage" title="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage">Terrible Interviewees Montage</a>: The actual montage included Zack's uncle (who's just as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloudCuckooLander" title="/pmwiki/pmwiki.php/Main/CloudCuckooLander">strange</a> as he is), a porn-star, a girl who <em>may</em> have come for the counseling session the team hijacked, and possibly a serial-killer.</li></ul><p></p><h3>Episode 1.4: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumbassHasAPoint" title="/pmwiki/pmwiki.php/Main/DumbassHasAPoint">Dumbass Has a Point</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864308/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuffySpeak" title="/pmwiki/pmwiki.php/Main/BuffySpeak">Buffy Speak</a>: Zack trying to explain what "After Effects" is.<div class="indent"><strong>Zack:</strong> It's... the&#65279; thing with the things!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CannotSpitItOut" title="/pmwiki/pmwiki.php/Main/CannotSpitItOut">Cannot Spit It Out</a>: Dana.<div class="indent"><strong>Dana:</strong> Sorry I was... <em>(long <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Beat" title="/pmwiki/pmwiki.php/Main/Beat">beat</a>)</em> ...yeah.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConfusingMultipleNegatives" title="/pmwiki/pmwiki.php/Main/ConfusingMultipleNegatives">Confusing Multiple Negatives</a>: Dana initially calls the final intro "not unimpressive", but then corrects herself to "really good".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreditsGag" title="/pmwiki/pmwiki.php/Main/CreditsGag">Credits Gag</a>: In the final credits, Zack's position has been changed from "Director of Photography" to "Doctor of Photography". The credits card also notes that he is responsible for the "Crap Titles".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumbassHasAPoint" title="/pmwiki/pmwiki.php/Main/DumbassHasAPoint">Dumbass Has a Point</a>: Who would have thought Zack would know about After Effects?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExecutiveMeddling" title="/pmwiki/pmwiki.php/Main/ExecutiveMeddling">Executive Meddling</a>:<span style="display:none">invoked</span> Mr. Administrator insisting the title screen be changed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlippingTheBird" title="/pmwiki/pmwiki.php/Main/FlippingTheBird">Flipping the Bird</a>: Tom does this in frustration with Dana.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenDepths" title="/pmwiki/pmwiki.php/Main/HiddenDepths">Hidden Depths</a>: Zack's knowledge of After Effects and his degree in art, which may or may not be real.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HypocriticalHumor" title="/pmwiki/pmwiki.php/Main/HypocriticalHumor">Hypocritical Humor</a>: Tom tells Dana that anyone who always assumes a person can't do something right will eventually be proven wrong...right before Tom immediately scolds Zack for talking, as if assuming he can't possibly contribute.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Administrivia/SquarePegRoundTrope" title="/pmwiki/pmwiki.php/Administrivia/SquarePegRoundTrope">Square Peg, Round Trope</a>: Tom tries to invoke <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumbassHasAPoint" title="/pmwiki/pmwiki.php/Main/DumbassHasAPoint">Dumbass Has a Point</a> on himself, but Dana reminds him he's severely lacking in the point department.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StylisticSuck" title="/pmwiki/pmwiki.php/Main/StylisticSuck">Stylistic Suck</a>: The first intros Tom makes for the vlog.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrongGenreSavvy" title="/pmwiki/pmwiki.php/Main/WrongGenreSavvy">Wrong Genre Savvy</a>: Tom assumes he's the dumbass when it's clearly Zack.<div class="indent"><strong>Tom:</strong> If you keep assuming someone can't do anything right, sooner or later you're going to get proven wrong. <strong>Zack:</strong> Yeah! <strong>Tom:</strong> God, I wish I had some duct tape right now! <strong>Zack:</strong> Why? <strong>Tom:</strong> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigShutUp" title="/pmwiki/pmwiki.php/Main/BigShutUp">To shut you up!</a></em></div><div class="indent"><strong>Dana:</strong> To be a "dumbass with a point", you need to have a point, dumbass. <strong>Tom:</strong> Trope still applies. <strong>Dana:</strong> Does not.</div></li></ul><p></p><h3>Episode 1.5: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnresolvedSexualTension" title="/pmwiki/pmwiki.php/Main/UnresolvedSexualTension">Unresolved Sexual Tension</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864309/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Beat" title="/pmwiki/pmwiki.php/Main/Beat">Beat</a>: There is a long one after Dana's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HairFlip" title="/pmwiki/pmwiki.php/Main/HairFlip">Hair Flip</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BelligerentSexualTension" title="/pmwiki/pmwiki.php/Main/BelligerentSexualTension">Belligerent Sexual Tension</a>: Dana flat out says she hates Tom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a>: The phone call that interrupt's Tom's moment with Dana could be seen as one, seeing as the next episode features phone calls from his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend" title="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend">Psycho Ex-Girlfriend</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DropTheCow" title="/pmwiki/pmwiki.php/Main/DropTheCow">Drop the Cow</a>: "I'd do 'er."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HairFlip" title="/pmwiki/pmwiki.php/Main/HairFlip">Hair Flip</a>: Referenced and demonstrated by Dana.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsistentTerminology" title="/pmwiki/pmwiki.php/Main/InsistentTerminology">Insistent Terminology</a>: Dana and Tom are trying to discuss their characters separately from themselves, in order to keep themselves distant from their roles. It leads to a lot of "I will... I mean <em>she</em> will..."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LettingHerHairDown" title="/pmwiki/pmwiki.php/Main/LettingHerHairDown">Letting Her Hair Down</a>: Dana in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>, when they're watching TV together.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MomentKiller" title="/pmwiki/pmwiki.php/Main/MomentKiller">Moment Killer</a>: Basically mandatory, courtesy of a cell phone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShakingHerHairLoose" title="/pmwiki/pmwiki.php/Main/ShakingHerHairLoose">Shaking Her Hair Loose</a>: Dana does this, accompanied by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HairFlip" title="/pmwiki/pmwiki.php/Main/HairFlip">Hair Flip</a>, in discussion how to use <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UST" title="/pmwiki/pmwiki.php/Main/UST">UST</a>, which backfires and totally works for Tom.</li></ul><p></p><h3>Episode 1.6: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend" title="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend">Psycho Ex-Girlfriend</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864310/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion" title="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion">Armor-Piercing Question</a>: When Shannon confronts Dana alone, Dana offhandedly said that Shannon could do better than Tom. Shannon's reaction to that made Dana realize that she was a "multi-stalker."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuxomIsBetter" title="/pmwiki/pmwiki.php/Main/BuxomIsBetter">Buxom Is Better</a>: Tom, about Shannon.<div class="indent"><strong>Tom:</strong> Have you <em>seen</em> her boobs, Dana? They are <em>so</em> good!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>: Meta example. One viewer mistook the reflection of Dave in the window for Shannon and commented on it. The comment is now a top-rated comment and gets regular snarky replies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCameo" title="/pmwiki/pmwiki.php/Main/TheCameo">The Cameo</a>: Zack's brother, Dave <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisibleBoomMic" title="/pmwiki/pmwiki.php/Main/VisibleBoomMic">is visible holding a boom</a> during the kitchen scene.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreditsGag" title="/pmwiki/pmwiki.php/Main/CreditsGag">Credits Gag</a>: Titles by Justin Hill &amp; Zack Wallnau, Music by Justin Hill, Sound by Dave Unrelated Hill</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustHaveSex" title="/pmwiki/pmwiki.php/Main/DidYouJustHaveSex">Did You Just Have Sex?</a>: How did Dana know Tom was sleeping with Shannon again? He was <em>way</em> too happy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleStandard" title="/pmwiki/pmwiki.php/Main/DoubleStandard">Double Standard</a>: Mentioned in the beginning of the video, where Dana says how psycho exes are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedForLaughs" title="/pmwiki/pmwiki.php/Main/PlayedForLaughs">Played for Laughs</a> if they're female and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedForDrama" title="/pmwiki/pmwiki.php/Main/PlayedForDrama">Played for Drama</a> if they're male.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunTShirt" title="/pmwiki/pmwiki.php/Main/FunTShirt">Fun T-Shirt</a>: Tom wears one that depicts the sinking of the Titanic and the caption "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhyWeCantHaveNiceThings" title="/pmwiki/pmwiki.php/Main/WhyWeCantHaveNiceThings">This is why we can't have nice things</a>."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IDidWhatIHadToDo" title="/pmwiki/pmwiki.php/Main/IDidWhatIHadToDo">I Did What I Had to Do</a>: Said by Tom, referring to his breakup with his fiance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Leitmotif" title="/pmwiki/pmwiki.php/Main/Leitmotif">Leitmotif</a>: Shannon gets a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoStrings" title="/pmwiki/pmwiki.php/Main/PsychoStrings">"Psycho" Strings</a> sting whenever she enters a scene.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveConfession" title="/pmwiki/pmwiki.php/Main/LoveConfession">Love Confession</a>: Zack to Dana.<div class="indent"><strong>Zack:</strong> Dana, I followed you all day with my camera... because I love you. <br><strong>Dana:</strong> That's nice, Zack.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaleGaze" title="/pmwiki/pmwiki.php/Main/MaleGaze">Male Gaze</a>: Zack keeps the focus on Shannon's butt as she walks away after the first confrontation, dropping both Dana and Tom out of focus and out of frame briefly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SarcasmMode" title="/pmwiki/pmwiki.php/Main/SarcasmMode">Sarcasm Mode</a>: Dana's response when Shannon claims that Dana doesn't know anything about love.<div class="indent"><strong>Dana:</strong> Oh, no. My heart, she breaks. (<em>Traces the outline of a teardrop down her cheek</em>)</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SayMyName" title="/pmwiki/pmwiki.php/Main/SayMyName">Say My Name</a>:<div class="indent"><strong>Dana:</strong> What the hell was that? <strong>Tom:</strong> <em>Shannon.</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SkewedPriorities" title="/pmwiki/pmwiki.php/Main/SkewedPriorities">Skewed Priorities</a>: All Tom can think about is boobs. Lampshaded by Dana.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StalkingIsLove" title="/pmwiki/pmwiki.php/Main/StalkingIsLove">Stalking Is Love</a>: This is what Shannon seems to believe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThatUs" title="/pmwiki/pmwiki.php/Main/TakeThatUs">Take That, Us</a>: More mild than in some other episodes, but Dana does bring up the sexist <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleStandard" title="/pmwiki/pmwiki.php/Main/DoubleStandard">Double Standard</a> behind the trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisibleBoomMic" title="/pmwiki/pmwiki.php/Main/VisibleBoomMic">Visible Boom Mic</a>: In the scene in the kitchen as Tom describes how crazy Shannon is, you can see Zack's brother Dave holding the boom mic <em>and</em> Zack off and on throughout the scene. Their reflection in the window is right in the middle of most of the shots to boot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VertigoEffect" title="/pmwiki/pmwiki.php/Main/VertigoEffect">Vertigo Effect</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a> tries to invoke this along with an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">Oh, Crap!</a> look from Tom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatDoesSheSeeInHim" title="/pmwiki/pmwiki.php/Main/WhatDoesSheSeeInHim">What Does She See in Him?</a>: Dana asks this to Shannon because in her eyes, Tom is gross and kinda of a loser.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yandere" title="/pmwiki/pmwiki.php/Main/Yandere">Yandere</a>: Shanon is implied to have elements of this.<div class="indent"><strong>Tom:</strong> But can you imagine what she would've done to me if I just told her? She would've thrown me off the tower!</div></li></ul><p></p><h3>Episode 1.7: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkAndTalk" title="/pmwiki/pmwiki.php/Main/WalkAndTalk">Walk and Talk</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864311/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall" title="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall">Breaking the Fourth Wall</a>: Plot relevant, as soon as Dana realizes the camera is on she bails, due to not being prepared (clothes and makeup) for filming.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilariousOuttakes" title="/pmwiki/pmwiki.php/Main/HilariousOuttakes">Hilarious Outtakes</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>, where Zack falls over.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked Trope</a>: Tom invokes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkAndTalk" title="/pmwiki/pmwiki.php/Main/WalkAndTalk">Walk and Talk</a>; Dana is not pleased at all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlderThanTheyThink" title="/pmwiki/pmwiki.php/Main/OlderThanTheyThink">Older Than They Think</a>: In-universe example:<div class="indent"><strong>Tom:</strong> This week's trope is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkAndTalk" title="/pmwiki/pmwiki.php/Main/WalkAndTalk">Walk and Talk</a>. <strong>Dana:</strong> Oh, like <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheWestWing" title="/pmwiki/pmwiki.php/Series/TheWestWing">West Wing</a></em>. <strong>Tom:</strong>"No! <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/KennethBranagh" title="/pmwiki/pmwiki.php/Creator/KennethBranagh">Kenneth Branagh</a> did it first!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOner" title="/pmwiki/pmwiki.php/Main/TheOner">The Oner</a>: Except for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>, the entire video is one continuous shot. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a> itself was another one.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThrowItIn" title="/pmwiki/pmwiki.php/Main/ThrowItIn">Throw It In!</a>: One can only imagine the stinger was a happy accident.</li></ul><br><br><h3>Episode 1.8: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticFalseLead" title="/pmwiki/pmwiki.php/Main/RomanticFalseLead">Romantic False Lead</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864318/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AtrociousAlias" title="/pmwiki/pmwiki.php/Main/AtrociousAlias">Atrocious Alias</a>: Shannon, or "Crazyfuck McStalkerson."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BareYourMidriff" title="/pmwiki/pmwiki.php/Main/BareYourMidriff">Bare Your Midriff</a>: One of Porn Girl's outfits in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallingInLoveMontage" title="/pmwiki/pmwiki.php/Main/FallingInLoveMontage">Falling-in-Love Montage</a> is a red shirt that displays this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: "Porn Girl" first appeared in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage" title="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage">Terrible Interviewees Montage</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurseCutShort" title="/pmwiki/pmwiki.php/Main/CurseCutShort">Curse Cut Short</a>: Dana's opinion of Shannon hasn't improved.<div class="indent"> <strong>Dana:</strong> She's kind of a who&mdash;<em>[Opening titles]</em></div></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FourthDateMarriage" title="/pmwiki/pmwiki.php/Main/FourthDateMarriage">Fourth Date Marriage</a>: Tom believes this will happen with him and Porn Girl. He's dead wrong. <span class="spoiler" title="you can set spoilers visible by default on your profile">Not only is she ticked off about Zack following them around, she's also very annoyed that Tom hasn't tried to sleep with her yet.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GirlOfTheWeek" title="/pmwiki/pmwiki.php/Main/GirlOfTheWeek">Girl of the Week</a>: Mentioned, and Porn Girl becomes this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodivaHair" title="/pmwiki/pmwiki.php/Main/GodivaHair">Godiva Hair</a>: Dana's hair covers up most of the 'Fucked' on the back of her shirt in the intro.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldDigger" title="/pmwiki/pmwiki.php/Main/GoldDigger">Gold Digger</a>: Porn Girl.<div class="indent"><strong>Porn Girl</strong>: Let's go buy me things!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">Lampshade Hanging</a>: After filming Tom and Porn Girl's dates, Zack audibly wonders, "Why <em>am</em> I here?"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Malaproper" title="/pmwiki/pmwiki.php/Main/Malaproper">Malaproper</a>: Porn Girl says she doesn't do sex tapes "pro boner". It's not clear whether she <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustForPun" title="/pmwiki/pmwiki.php/Main/JustForPun">intended the pun</a> or just got the phrase "pro bono" ("for free") wrong.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaleGaze" title="/pmwiki/pmwiki.php/Main/MaleGaze">Male Gaze</a>: Is Zack zooming in on Porn Girl's ass for it's own sake, or is he artistically signalling the shallowness of Tom's attraction to her? We may never know.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MetafictionalDevice" title="/pmwiki/pmwiki.php/Main/MetafictionalDevice">Metafictional Device</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/NinjaProp" title="/pmwiki/pmwiki.php/Main/NinjaProp">Ninja Prop</a>: After the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallingInLoveMontage" title="/pmwiki/pmwiki.php/Main/FallingInLoveMontage">Falling-in-Love Montage</a>, Porn Girl is angry that Tom invited Zack to film their dates. Otherwise, we wouldn't have seen them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MotorMouth" title="/pmwiki/pmwiki.php/Main/MotorMouth">Motor Mouth</a>: When Tom is explaining <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticFalseLead" title="/pmwiki/pmwiki.php/Main/RomanticFalseLead">Romantic False Lead</a> to Porno Girl.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlyKnownByTheirNickname" title="/pmwiki/pmwiki.php/Main/OnlyKnownByTheirNickname">Only Known by Their Nickname</a>: While in the third episode, she's introduced as Alyssa (Another <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDanza" title="/pmwiki/pmwiki.php/Main/TheDanza">The Danza</a>), in this episode Porn Girl is always Porn Girl. Tom even addresses her as "Porn Girl".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutdatedOutfit" title="/pmwiki/pmwiki.php/Main/OutdatedOutfit">Outdated Outfit</a>: Tom's plaid suit jacket and bow tie combo.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RhetoricalQuestionBlunder" title="/pmwiki/pmwiki.php/Main/RhetoricalQuestionBlunder">Rhetorical Question Blunder</a>: Porn Girl's question about how Tom's show is going prompts him to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MotorMouth" title="/pmwiki/pmwiki.php/Main/MotorMouth">Motor Mouth</a> details of his project which she didn't actually wanted to hear.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SweetheartSipping" title="/pmwiki/pmwiki.php/Main/SweetheartSipping">Sweetheart Sipping</a>: Tom and Porn Girl sharing the milkshake during the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallingInLoveMontage" title="/pmwiki/pmwiki.php/Main/FallingInLoveMontage">Falling-in-Love Montage</a>.</li></ul><p></p><h3>Episode 1.9: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouThinkICantFeel" title="/pmwiki/pmwiki.php/Main/DidYouThinkICantFeel">Did You Think I Can't Feel?</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864319/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnachronicOrder" title="/pmwiki/pmwiki.php/Main/AnachronicOrder">Anachronic Order</a>: The episode goes back and forth between Tom arguing with Dana in the evening and Tom arguing with Shannon in the afternoon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GetARoom" title="/pmwiki/pmwiki.php/Main/GetARoom">Get a Room!</a>: "Just <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrecisionFStrike" title="/pmwiki/pmwiki.php/Main/PrecisionFStrike">fuck</a> already, <em>Jesus!</em>"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InMediasRes" title="/pmwiki/pmwiki.php/Main/InMediasRes">In Medias Res</a>: The episode begins with Tom referring to an argument that he and Dana already had offscreen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall" title="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall">Leaning on the Fourth Wall</a>: The stinger, where Shannon looks at Zack's camera.<div class="indent"> <strong>Zack:</strong> Why are you looking at me?</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SarcasmMode" title="/pmwiki/pmwiki.php/Main/SarcasmMode">Sarcasm Mode</a>: Dana's snarky remark about how much the internet is short of arguing.</li></ul><p></p><h3>Episode 1.10/Season Finale: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MysteriousEmployer" title="/pmwiki/pmwiki.php/Main/MysteriousEmployer">Mysterious Employer</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864320/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComfortingComforter" title="/pmwiki/pmwiki.php/Main/ComfortingComforter">Comforting Comforter</a>: Tom covering up Dana with the blanket.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreditsGag" title="/pmwiki/pmwiki.php/Main/CreditsGag">Credits Gag</a>: Zack is responsible for the "Horrible Puppets".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFantasticTropeOfWonderousTitles" title="/pmwiki/pmwiki.php/Main/TheFantasticTropeOfWonderousTitles">The Fantastic Trope of Wonderous Titles</a>: The Super Magical Quest Show.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinaleCredits" title="/pmwiki/pmwiki.php/Main/FinaleCredits">Finale Credits</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClosingCredits" title="/pmwiki/pmwiki.php/Main/ClosingCredits">Closing Credits</a> to the finale has an adapted version of the ending music.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandSignals" title="/pmwiki/pmwiki.php/Main/HandSignals">Hand Signals</a>: Tom signaling a kill gesture to Dana during the opening confrontation with Mr. Administrator.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Handpuppet" title="/pmwiki/pmwiki.php/Main/Handpuppet">Handpuppet</a>: Sockpuppets, actually. Literally. Socks with faces painted on them during "Puppet Adventure, Episode 10: 'Mysterious Balloon' "</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InternalReveal" title="/pmwiki/pmwiki.php/Main/InternalReveal">Internal Reveal</a>: We learn that Zack is secretly collaborating with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MysteriousEmployer" title="/pmwiki/pmwiki.php/Main/MysteriousEmployer">Mysterious Employer</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SequelHook" title="/pmwiki/pmwiki.php/Main/SequelHook">which provides for new conflicts to arise in Season 2</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LimitedAnimation" title="/pmwiki/pmwiki.php/Main/LimitedAnimation">Limited Animation</a>: <em>Really</em> limited, in "TV Tropes Cartoony Fun Times".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManBehindTheMan" title="/pmwiki/pmwiki.php/Main/TheManBehindTheMan">The Man Behind the Man</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a> implies that the Administrator may be being pressured into finding a capable vlog maker by a power higher up the ladder.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MediumBlending" title="/pmwiki/pmwiki.php/Main/MediumBlending">Medium Blending</a>: Including animation style and a sockpuppet show.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMole" title="/pmwiki/pmwiki.php/Main/TheMole">The Mole</a>: Zack appears to be this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NothingIsScarier" title="/pmwiki/pmwiki.php/Main/NothingIsScarier">Nothing Is Scarier</a>: The unseen creature in the tunnel.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoDifferent" title="/pmwiki/pmwiki.php/Main/NotSoDifferent">Not So Different</a>: Mr. Administrator tells this to Zack in that both their fathers forced them into doing something they don't want.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PottyDance" title="/pmwiki/pmwiki.php/Main/PottyDance">Potty Dance</a>: Zack, at the very end.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerMakesYourVoiceDeep" title="/pmwiki/pmwiki.php/Main/PowerMakesYourVoiceDeep">Power Makes Your Voice Deep</a>: The Voice From The Tunnel, along with the usual <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoiceOfTheLegion" title="/pmwiki/pmwiki.php/Main/VoiceOfTheLegion">Voice of the Legion</a>.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SilenceYouFool" title="/pmwiki/pmwiki.php/Main/SilenceYouFool">Silence, You Fool!</a>: Mr. Administrator does this to Zack when he tries to ask where's the bathroom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SleepCute" title="/pmwiki/pmwiki.php/Main/SleepCute">Sleep Cute</a>: Dana on Tom's shoulder.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StylisticSuck" title="/pmwiki/pmwiki.php/Main/StylisticSuck">Stylistic Suck</a>: All of their attempts to re-invent the show are progressively worse and sillier, eventually ending with a horrendous sock-puppet show with horrendously stilted dialog.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Sting" title="/pmwiki/pmwiki.php/Main/Sting">Sting</a>: A dramatic one while the Administrator loses his temper with Tom and Dana and issues them an ultimatum.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThat" title="/pmwiki/pmwiki.php/Main/TakeThat">Take That!</a>: A majority of the episode is devoted to Tom and Dana poking fun at the Administrator.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThroatSlittingGesture" title="/pmwiki/pmwiki.php/Main/ThroatSlittingGesture">Throat-Slitting Gesture</a>: Tom gives this gesture to Dana signaling her to shut up when she is calling their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MysteriousEmployer" title="/pmwiki/pmwiki.php/Main/MysteriousEmployer">Mysterious Employer</a> out.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisibleBoomMic" title="/pmwiki/pmwiki.php/Main/VisibleBoomMic">Visible Boom Mic</a>: After filming the puppet show, part of the mic is visible in the top right hand corner of the frame.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoiceOfTheLegion" title="/pmwiki/pmwiki.php/Main/VoiceOfTheLegion">Voice of the Legion</a>: Mr. Administrator speaks with it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouHaveFailedMe" title="/pmwiki/pmwiki.php/Main/YouHaveFailedMe">You Have Failed Me</a>: The Administrator uses a variation on this.<div class="indent"> <strong>Administrator</strong>: You have angered us, Mr. Pike, <em>for the last time!</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouShallNotPass" title="/pmwiki/pmwiki.php/Main/YouShallNotPass">You Shall Not Pass!</a>: The voice from the tunnel demands this.</li></ul><p></p></div><p></p><div class="folderlabel" onclick="togglefolder('folder2');">&nbsp;&nbsp;&nbsp;&nbsp;Second Season&nbsp;</div><div id="folder2" class="folder" isfolder="true" style="display:block;"><p></p><h3>Episode 2.1: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysSomeoneBetter" title="/pmwiki/pmwiki.php/Main/AlwaysSomeoneBetter">Always Someone Better</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864327/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Exactly What It Says on the Tin</a>: How Ace describes the episode's trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Flashback" title="/pmwiki/pmwiki.php/Main/Flashback">Flashback</a>: To the very first episode.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandyRemoteControl" title="/pmwiki/pmwiki.php/Main/HandyRemoteControl">Handy Remote Control</a>: Ace uses one during his discussion of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InherentlyFunnyWord" title="/pmwiki/pmwiki.php/Main/InherentlyFunnyWord">Inherently Funny Word</a>: "gurt".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAce" title="/pmwiki/pmwiki.php/Main/TheAce">Ace</a>, who, well... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShapedLikeItself" title="/pmwiki/pmwiki.php/Main/ShapedLikeItself">is.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MurderIsTheBestSolution" title="/pmwiki/pmwiki.php/Main/MurderIsTheBestSolution">Murder Is the Best Solution</a>: Tom sees only one solution for getting Ace out of the way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoStoic" title="/pmwiki/pmwiki.php/Main/NotSoStoic">Not So Stoic</a>: Mr. Administrator, of all people, laughs at one of Ace's videos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Portmanteau" title="/pmwiki/pmwiki.php/Main/Portmanteau">Portmanteau</a>: Conversed within one of Ace's videos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TradeSnark" title="/pmwiki/pmwiki.php/Main/TradeSnark">Trade Snark</a>: Played with; the name of Ace's vlog series could be considered this with reference to <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TheOtherWiki" title="/pmwiki/pmwiki.php/Wiki/TheOtherWiki">The Other Wiki</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualPun" title="/pmwiki/pmwiki.php/Main/VisualPun">Visual Pun</a>: Tom attempted to literally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">invoke</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrowingTheBeard" title="/pmwiki/pmwiki.php/Main/GrowingTheBeard">Growing the Beard</a> in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>. Dana shoots him down by pushing him into a bathroom and tossing in a razor.</li></ul><p></p><h3>Episode 2.2: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAce" title="/pmwiki/pmwiki.php/Main/TheAce">The Ace</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864406/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalMisnaming" title="/pmwiki/pmwiki.php/Main/AccidentalMisnaming">Accidental Misnaming</a>: Ace is good at everything... except getting Tom's name right. And <em>Echo Chamber</em> becomes <em>Ego Chamber</em>. Or was it all <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaliciousMisnaming" title="/pmwiki/pmwiki.php/Main/MaliciousMisnaming">intentional</a>?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BirdsOfAFeather" title="/pmwiki/pmwiki.php/Main/BirdsOfAFeather">Birds of a Feather</a>: It seems Gaelyn thought she and Zack would be this until Zack said they <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustFriends" title="/pmwiki/pmwiki.php/Main/JustFriends">should be best friends</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: "Where are we going?" "Somewhere specific."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComicallyMissingThePoint" title="/pmwiki/pmwiki.php/Main/ComicallyMissingThePoint">Comically Missing the Point</a>: Gaelyn asks Zack to meet her for a date. He misses the "date" bit and concludes that they should be best friends. She's disappointed, but goes along with it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DistaffCounterpart" title="/pmwiki/pmwiki.php/Main/DistaffCounterpart">Distaff Counterpart</a>: Ace has a camera<em>woman</em> who's just as dorky as Zack. Zack comes to the conclusion that they should be best friends.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDoorSlamsYou" title="/pmwiki/pmwiki.php/Main/TheDoorSlamsYou">The Door Slams You</a>: Tom slams the door at Zack's face for, it seems, daring to say Ace is a nice guy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFaceless" title="/pmwiki/pmwiki.php/Main/TheFaceless">The Faceless</a>: Zack's Dad, who is briefly seen from behind. <span class="spoiler" title="you can set spoilers visible by default on your profile">Zack's face is mostly seen in a blink-or-you-miss-it moment.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveTriangle" title="/pmwiki/pmwiki.php/Main/LoveTriangle">Love Triangle</a>:<ul><li> Possible one between Zack, Gaelyn, and Dave.</li><li> Possibly between Tom, Dana and Ace.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeetCute" title="/pmwiki/pmwiki.php/Main/MeetCute">Meet Cute</a>: How Gaelyn and Zack make contact across the room while filming.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ObliviousToLove" title="/pmwiki/pmwiki.php/Main/ObliviousToLove">Oblivious to Love</a>: Zack, in Gaelyn's case.</li></ul><p></p><h3>Episode 2.3: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADayInTheLimelight" title="/pmwiki/pmwiki.php/Main/ADayInTheLimelight">A Day in the Limelight</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864724/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuffySpeak" title="/pmwiki/pmwiki.php/Main/BuffySpeak">Buffy Speak</a>: Gaelyn asks Dana if she sees Zack as a "potential romantic...thing".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: Dana mentions the time Zack followed her home and told her he loves her in the "Psycho Ex-Girlfriend" episode.</li></ul><ul><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DawsonCasting" title="/pmwiki/pmwiki.php/Main/DawsonCasting">Dawson Casting</a>: Stephen says he will play his younger self in a video instead of a child actor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Diary" title="/pmwiki/pmwiki.php/Main/Diary">Diary</a>: Gaelyn keeps a video diary.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFaceless" title="/pmwiki/pmwiki.php/Main/TheFaceless">The Faceless</a>: Subverted this episode with Zack. His face is still usually blocked by his camera, but in one scene it's visible <em>very</em> briefly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HappilyAdopted" title="/pmwiki/pmwiki.php/Main/HappilyAdopted">Happily Adopted</a>: Gaelyn is Ace's cousin and adopted sister. It's unclear which one was the adopted one but they seem to like each other like siblings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ICallHerVera" title="/pmwiki/pmwiki.php/Main/ICallHerVera">I Call Her "Vera"</a>: Zack call his camera lens "Lindsay".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Megane" title="/pmwiki/pmwiki.php/Main/Megane">Megane</a>: Zack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunctuatedForEmphasis" title="/pmwiki/pmwiki.php/Main/PunctuatedForEmphasis">Punctuated! For! Emphasis!</a>: "Pick. Dana. Up". Our first clue of Gaelyn's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClingyJealousGirl" title="/pmwiki/pmwiki.php/Main/ClingyJealousGirl">true nature</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TangledFamilyTree" title="/pmwiki/pmwiki.php/Main/TangledFamilyTree">Tangled Family Tree</a>: Stephen and Gaelyn are cousins and adopted siblings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamLine" title="/pmwiki/pmwiki.php/Main/WhamLine">Wham Line</a>: Dana gives one to Gaelyn, mentioning that Zack once following her home to declare his love.</li></ul><p></p><h3>Episode 2.4: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConflictingLoyalty" title="/pmwiki/pmwiki.php/Main/ConflictingLoyalty">Conflicting Loyalty</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864795/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuffySpeak" title="/pmwiki/pmwiki.php/Main/BuffySpeak">Buffy Speak</a>:<div class="indent"> <strong>Stephen:</strong> I'm gonna need you <em>a lot</em>. For stuff. To do stuffs.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>: Zack.<div class="indent"> <strong>Zack:</strong> A lot of people step on me, and I don't bitch about it.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DudeWheresMyRespect" title="/pmwiki/pmwiki.php/Main/DudeWheresMyRespect">Dude, Where's My Respect?</a>: Poor Zack hasn't had a single nice word for filming great videos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianSlip" title="/pmwiki/pmwiki.php/Main/FreudianSlip">Freudian Slip</a>: Tom, after discovering Dana will also produce for <em>[citation needed]</em>.<div class="indent"> <strong>Tom:</strong> A stepping stone. So <em>I'm</em> just a stepping stone to you.</div><div class="indent"> <strong>Dana:</strong> The show, Tom. The <em>show</em>.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunnyBackgroundEvent" title="/pmwiki/pmwiki.php/Main/FunnyBackgroundEvent">Funny Background Event</a>: The ice polisher doesn't have a driver and crashes out of the ice rink into the street.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteralMinded" title="/pmwiki/pmwiki.php/Main/LiteralMinded">Literal-Minded</a>: Zack actually thought Gaelyn was talking about fruit when she tried to invite him on a date.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LonelyPianoPiece" title="/pmwiki/pmwiki.php/Main/LonelyPianoPiece">Lonely Piano Piece</a>: A very brief one is heard during <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceHat" title="/pmwiki/pmwiki.php/Main/NiceHat">Nice Hat</a>: Both Dana and Tom wear these.</li></ul><p></p><h3>Episode 2.5: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864847/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrickJoke" title="/pmwiki/pmwiki.php/Main/BrickJoke">Brick Joke</a>:<div class="indent"> <strong>Dana</strong>: Why is there a gun in the fridge?</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: Knife Guy, just this time, he has a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrenchWhack" title="/pmwiki/pmwiki.php/Main/WrenchWhack">wrench</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConversationCut" title="/pmwiki/pmwiki.php/Main/ConversationCut">Conversation Cut</a>: At the office, Tom tries to bring Zack back to his senses. Cut to the forest, where the conversation seamlessly continues.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreditsGag" title="/pmwiki/pmwiki.php/Main/CreditsGag">Credits Gag</a>: Plantboot as herself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingIsTryingToKillYou" title="/pmwiki/pmwiki.php/Main/EverythingIsTryingToKillYou">Everything Is Trying to Kill You</a>: Zack, thinking a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a> was a real gun that could kill, thought that everything Tom was painting as Chekhov's gun could actually kill him.<div class="indent"> <strong>Zack:</strong> You tried to kill me with <em>stripes</em>!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/INeedAFreakingDrink" title="/pmwiki/pmwiki.php/Main/INeedAFreakingDrink">I Need a Freaking Drink</a>: Dana, after hearing how Tom screwed up the video by letting Zack act in it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteralMinded" title="/pmwiki/pmwiki.php/Main/LiteralMinded">Literal-Minded</a>: Zack, and it drives the plot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveHurts" title="/pmwiki/pmwiki.php/Main/LoveHurts">Love Hurts</a>: Dave crying for Gaelyn in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeanwhileScene" title="/pmwiki/pmwiki.php/Main/MeanwhileScene">Meanwhile Scene</a>: Dana is seen drinking <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpotOfTea" title="/pmwiki/pmwiki.php/Main/SpotOfTea">tea</a> in the meanwhile. That or maybe <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MustHaveCaffeine" title="/pmwiki/pmwiki.php/Main/MustHaveCaffeine">coffee</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PantsFree" title="/pmwiki/pmwiki.php/Main/PantsFree">Pants-Free</a>: Again Tom records the vlog wearing boxers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PocketProtector" title="/pmwiki/pmwiki.php/Main/PocketProtector">Pocket Protector</a>: Apparently, the book in Tom's pocket protected him from Zack's bullet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScareChord" title="/pmwiki/pmwiki.php/Main/ScareChord">Scare Chord</a>: When Zack picks up the gun.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife" title="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife">TV Tropes Will Ruin Your Life</a>: It almost ends Tom's.</li></ul><p></p><h3>Episode 2.6: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForgottenBirthday" title="/pmwiki/pmwiki.php/Main/ForgottenBirthday">Forgotten Birthday</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/864866/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: Zack's dead cat in a box.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItMeantSomethingToMe" title="/pmwiki/pmwiki.php/Main/ItMeantSomethingToMe">It Meant Something to Me</a>: Tom can't see the bad thing about forgetting to at least say "Happy Birthday", but Dana clearly can.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a>: The last scene is actually pretty sweet... until <span class="spoiler" title="you can set spoilers visible by default on your profile">Dana opens the box</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotNowKiddo" title="/pmwiki/pmwiki.php/Main/NotNowKiddo">Not Now, Kiddo</a>: Zack tries to remind Tom that is was Dana's birthday, but Tom doesn't let him explain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThatUs" title="/pmwiki/pmwiki.php/Main/TakeThatUs">Take That, Us</a>: Tom drones on in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a> out how unrealistic the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForgottenBirthday" title="/pmwiki/pmwiki.php/Main/ForgottenBirthday">Forgotten Birthday</a> trope is.</li></ul><br><br><p></p><h3>Episode 2.7: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoirEpisode" title="/pmwiki/pmwiki.php/Main/NoirEpisode">Noir Episode</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/865298/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnswerCut" title="/pmwiki/pmwiki.php/Main/AnswerCut">Answer Cut</a>: What could "D" have stood for? Dinner? Dining? ... cut to Ace and Dana kissing. &mdash; Date!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: Dave still crying about how <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveHurts" title="/pmwiki/pmwiki.php/Main/LoveHurts">Love Hurts</a>.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeliberatelyMonochrome" title="/pmwiki/pmwiki.php/Main/DeliberatelyMonochrome">Deliberately Monochrome</a>: Lampshaded. <span class="spoiler" title="you can set spoilers visible by default on your profile">Subverted in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>, which reveals that Zack just couldn't find the color button.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmergingFromTheShadows" title="/pmwiki/pmwiki.php/Main/EmergingFromTheShadows">Emerging from the Shadows</a>: Stephen, when <span class="spoiler" title="you can set spoilers visible by default on your profile">he shows up for his date with Dana.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FemmeFatale" title="/pmwiki/pmwiki.php/Main/FemmeFatale">Femme Fatale</a>: Dana is a parody of this trope in this episode.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrayRainOfDepression" title="/pmwiki/pmwiki.php/Main/GrayRainOfDepression">Gray Rain of Depression</a>:<div class="indent">"The Pittsburgh autumn rain had stopped just long enough for the sun to poke its head out and say, 'Hey, how's it going?' and for me to answer, 'Where were you the last four days?'"</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteralMinded" title="/pmwiki/pmwiki.php/Main/LiteralMinded">Literal-Minded</a>: Tom, for asking if their boss wanted <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SomethingCompletelyDifferent" title="/pmwiki/pmwiki.php/Main/SomethingCompletelyDifferent">Something Completely Different</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaleGaze" title="/pmwiki/pmwiki.php/Main/MaleGaze">Male Gaze</a>: When demonstrating how the dolly works, Zack zooms in on Dana's breasts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Metaphorgotten" title="/pmwiki/pmwiki.php/Main/Metaphorgotten">Metaphorgotten</a>: "And like that, she was gone... like a... Kleenex... caught in the wind."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodMotif" title="/pmwiki/pmwiki.php/Main/MoodMotif">Mood Motif</a>: The saxophone music sets the noir mood.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceHat" title="/pmwiki/pmwiki.php/Main/NiceHat">Nice Hat</a>: Tom and Stephen both sport fedoras. Dana has a cloche hat.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmokingIsCool" title="/pmwiki/pmwiki.php/Main/SmokingIsCool">Smoking Is Cool</a>: Zack tries to invoke this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Dana and Ace are now dating</span>.</li></ul><p></p><h3>Episode 2.8: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TyrantTakesTheHelm" title="/pmwiki/pmwiki.php/Main/TyrantTakesTheHelm">Tyrant Takes the Helm</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/865358/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadBoss" title="/pmwiki/pmwiki.php/Main/BadBoss">Bad Boss</a>: Umphrey.<span class="spoiler" title="you can set spoilers visible by default on your profile">..although it's all an act. However, Mr. Administrator qualifies for real when he refuses to pay Umphrey.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BatmanGambit" title="/pmwiki/pmwiki.php/Main/BatmanGambit">Batman Gambit</a>: A complicated plan to make Dana and Tom become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FireForgedFriends" title="/pmwiki/pmwiki.php/Main/FireForgedFriends">Fire-Forged Friends</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigWordShout" title="/pmwiki/pmwiki.php/Main/BigWordShout">Big Word Shout</a>: "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/GetOut" title="/pmwiki/pmwiki.php/Main/GetOut">Get Out!</a>!!!!"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The newspaper from the Noir Episode.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DudeWheresMyRespect" title="/pmwiki/pmwiki.php/Main/DudeWheresMyRespect">Dude, Where's My Respect?</a>: Zack, as usual. Tom and Dana don't include him in their high five after Umphrey quits, even though Zack is the one who drove him away.<div class="indent"> <strong>Tom:</strong> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SarcasmMode" title="/pmwiki/pmwiki.php/Main/SarcasmMode">Thanks for being annoying, Zack.</a></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilBrit" title="/pmwiki/pmwiki.php/Main/EvilBrit">Evil Brit</a>: Umphrey has a British accent.<span class="spoiler" title="you can set spoilers visible by default on your profile">..a fake one.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCripple" title="/pmwiki/pmwiki.php/Main/EvilCripple">Evil Cripple</a>: Umphrey walks with a cane.<span class="spoiler" title="you can set spoilers visible by default on your profile">..which he doesn't really need.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExecutiveMeddling" title="/pmwiki/pmwiki.php/Main/ExecutiveMeddling">Executive Meddling</a>:<span style="display:none">invoked</span> Mr. Administrator does this by installing Umphrey as the new executive producer of Echo Chamber. Umphrey then does it by completely re-writing the new episode.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeBrit" title="/pmwiki/pmwiki.php/Main/FakeBrit">Fake Brit</a>: Tom in Umphrey's video.<span class="spoiler" title="you can set spoilers visible by default on your profile">..as well as Umphrey himself.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FireForgedFriends" title="/pmwiki/pmwiki.php/Main/FireForgedFriends">Fire-Forged Friends</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> In <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>, we learn that Mr. Administrator contracted Umphrey so Tom and Dana could have a common enemy, which would motivate them to work better together</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MythologyGag" title="/pmwiki/pmwiki.php/Main/MythologyGag">Mythology Gag</a>: Hey, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUmbridge" title="/pmwiki/pmwiki.php/Main/TheUmbridge">Mr. Umbridge</a>!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceHat" title="/pmwiki/pmwiki.php/Main/NiceHat">Nice Hat</a>: Dana wears one in the final scene.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OohMeAccentsSlipping" title="/pmwiki/pmwiki.php/Main/OohMeAccentsSlipping">Ooh, Me Accent's Slipping</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Umphrey</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PleaseDumpMe" title="/pmwiki/pmwiki.php/Main/PleaseDumpMe">Please Dump Me</a>: Tom and Dana, knowing they can't just fire Umphrey, make <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">Zack</a> annoy him enough to quit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoicSpectacles" title="/pmwiki/pmwiki.php/Main/StoicSpectacles">Stoic Spectacles</a>: Umphrey.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToiletHumour" title="/pmwiki/pmwiki.php/Main/ToiletHumour">Toilet Humour</a>: Zack follows Umphrey to the restroom. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilarityEnsues" title="/pmwiki/pmwiki.php/Main/HilarityEnsues">Hilarity Ensues</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TokenMinority" title="/pmwiki/pmwiki.php/Main/TokenMinority">Token Minority</a>: Umphrey is the only non-white character to appear on the show so far.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TormentByAnnoyance" title="/pmwiki/pmwiki.php/Main/TormentByAnnoyance">Torment by Annoyance</a>: Zack annoys Umphrey by constant questioning to the point where the latter has enough and quits.</li></ul><p></p><h3>Episode 2.9: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyBelovedSmother" title="/pmwiki/pmwiki.php/Main/MyBelovedSmother">My Beloved Smother</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/865359/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbusiveParents" title="/pmwiki/pmwiki.php/Main/AbusiveParents">Abusive Parents</a>: Zack and Dave's father. In the psychological and controlling way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsenteeActor" title="/pmwiki/pmwiki.php/Main/AbsenteeActor">Absentee Actor</a>: Neither Tom nor Dana appear in this episode.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigFancyHouse" title="/pmwiki/pmwiki.php/Main/BigFancyHouse">Big Fancy House</a>: Zack lives in one of this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuxomIsBetter" title="/pmwiki/pmwiki.php/Main/BuxomIsBetter">Buxom Is Better</a>: Zack is not interested in Gaelyn, but she has great boobs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: Zack's PhD in art.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChildProdigy" title="/pmwiki/pmwiki.php/Main/ChildProdigy">Child Prodigy</a>: Mark says Zack made heart-wrenching films at the age of nine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">Cloudcuckoolander</a>: Zack as always.<div class="indent"> <strong>Zack:</strong> Dad, your name's Mark? I thought it was "Dad".</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADayInTheLimelight" title="/pmwiki/pmwiki.php/Main/ADayInTheLimelight">A Day in the Limelight</a>: Essentially one for Zack- Tom and Dana aren't even mentioned in this episode.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DramaBomb" title="/pmwiki/pmwiki.php/Main/DramaBomb">Drama Bomb</a>: Although there's some humor, this episode is more serious than usual.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyForbiddingFather" title="/pmwiki/pmwiki.php/Main/FantasyForbiddingFather">Fantasy-Forbidding Father</a>: Mark thinks that there's no such thing as a PhD in art, and he's disappointed that Zack got one instead of "fulfilling his potential" by focusing on his cinematography career.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianExcuse" title="/pmwiki/pmwiki.php/Main/FreudianExcuse">Freudian Excuse</a>: With this kind of father, it's no surprise that Zack and Dave are such <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Manchild" title="/pmwiki/pmwiki.php/Main/Manchild">Manchildren</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GetOut" title="/pmwiki/pmwiki.php/Main/GetOut">Get Out!</a>: Zack's father demands this of Gaelyn after she <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallingTheOldManOut" title="/pmwiki/pmwiki.php/Main/CallingTheOldManOut">speaks out</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/INeedToGoIronMyDog" title="/pmwiki/pmwiki.php/Main/INeedToGoIronMyDog">I Need to Go Iron My Dog</a>:<div class="indent"><strong>Gaelyn:</strong> "Um, Zack can you tell me where your bathroom is?"</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Manchild" title="/pmwiki/pmwiki.php/Main/Manchild">Manchild</a>: Dave gets scared with a mouse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoodleIncident" title="/pmwiki/pmwiki.php/Main/NoodleIncident">Noodle Incident</a>: Zack says it isn't his fault that Gaelyn's dog got covered in spaghetti.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheReveal" title="/pmwiki/pmwiki.php/Main/TheReveal">The Reveal</a>: Zack's dad, Mark <span class="spoiler" title="you can set spoilers visible by default on your profile"> is the producer of <em>[citation needed]</em></span>.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TableSpace" title="/pmwiki/pmwiki.php/Main/TableSpace">Table Space</a>: Zack's father talks to Gaelyn across a long table in his living room.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUnfavorite" title="/pmwiki/pmwiki.php/Main/TheUnfavorite">The Unfavorite</a>: Dave is implied to be this.<div class="indent"> <strong>Zack:</strong> But, I can't leave. Who's gonna feed Dave?</div></li></ul><p></p><h3>Episode 2.10: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrokenAce" title="/pmwiki/pmwiki.php/Main/BrokenAce">Broken Ace</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/865390/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilariousOuttakes" title="/pmwiki/pmwiki.php/Main/HilariousOuttakes">Hilarious Outtakes</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStinger" title="/pmwiki/pmwiki.php/Main/TheStinger">The Stinger</a>, in which Ace spits on Dana.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a>: Stephen was implied before to be one, but this episode sells it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingSick" title="/pmwiki/pmwiki.php/Main/PlayingSick">Playing Sick</a>: Dana follows Tom's advice to see if <em>[citation needed]</em> really needs her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PornStache" title="/pmwiki/pmwiki.php/Main/PornStache">Porn Stache</a>: Dana and Ace wear one for the <em>[citation needed]</em> shoot.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubordinateExcuse" title="/pmwiki/pmwiki.php/Main/SubordinateExcuse">Subordinate Excuse</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Stephen hired Dana just because he likes her, not because he needed a producer</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Workaholic" title="/pmwiki/pmwiki.php/Main/Workaholic">Workaholic</a>: Dana finds herself with a whole free day and we found that she barely has any hobbies, she just works on the shows.</li></ul><br><br><h3>Episode 2.11: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingOfAgeStory" title="/pmwiki/pmwiki.php/Main/ComingOfAgeStory">Coming-of-Age Story</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/865425/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffairHair" title="/pmwiki/pmwiki.php/Main/AffairHair">Affair Hair</a>: Zack's dad keeps finding "Blue locks of hair" between Zack's stuff.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion" title="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion">Armor-Piercing Question</a>: Mark to <span class="spoiler" title="you can set spoilers visible by default on your profile">Mr. Administrator</span>.<div class="indent"> "<em>Why</em> do you need <em>my son!?</em>"</div></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaitAndSwitch" title="/pmwiki/pmwiki.php/Main/BaitAndSwitch">Bait-and-Switch</a>: "Ready to make this kiss happen?" <span class="spoiler" title="you can set spoilers visible by default on your profile">Turns out they're talking about making a Hershey kiss.</span> Lampshaded.<div class="indent">"They're gonna be <em>pissed</em>!"</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBigDamnKiss" title="/pmwiki/pmwiki.php/Main/TheBigDamnKiss">The Big Damn Kiss</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Subverted. Tom and Dana make a Big Damn <em>Hershey</em> Kiss.</span><ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Played straight, albeit with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KissingDiscretionShot" title="/pmwiki/pmwiki.php/Main/KissingDiscretionShot">Kissing Discretion Shot</a>, for Zack and Gaelyn.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallingTheOldManOut" title="/pmwiki/pmwiki.php/Main/CallingTheOldManOut">Calling the Old Man Out</a>: Zack finally finds the guts to face his father to tell him that he will move out.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterDevelopment" title="/pmwiki/pmwiki.php/Main/CharacterDevelopment">Character Development</a>: Since this is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingOfAgeStory" title="/pmwiki/pmwiki.php/Main/ComingOfAgeStory">Coming-of-Age Story</a>, this can't lack , specifically <span class="spoiler" title="you can set spoilers visible by default on your profile"> Zack leave his dad's house, quits Echo Chamber and thinks to have a real job</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFaceless" title="/pmwiki/pmwiki.php/Main/TheFaceless">The Faceless</a>: Subverted. Thanks to Gaelyn's filming, we finally get to see Zack's whole face. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Also, Mr. Administrator is seen very briefly from the side in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteVoidRoom" title="/pmwiki/pmwiki.php/Main/WhiteVoidRoom">White Void Room</a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FadeToWhite" title="/pmwiki/pmwiki.php/Main/FadeToWhite">Fade to White</a>: As Zack <span class="spoiler" title="you can set spoilers visible by default on your profile"> throws the camera to the floor after quitting</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KissingDiscretionShot" title="/pmwiki/pmwiki.php/Main/KissingDiscretionShot">Kissing Discretion Shot</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Gaelyn and Zack's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShutUpKiss" title="/pmwiki/pmwiki.php/Main/ShutUpKiss">"Shut Up" Kiss</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManBehindTheMan" title="/pmwiki/pmwiki.php/Main/TheManBehindTheMan">The Man Behind the Man</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Mr. Administrator is behind Zack's dad.</span></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RagingStiffie" title="/pmwiki/pmwiki.php/Main/RagingStiffie">Raging Stiffie</a>:<div class="indent"> <strong>Zack:</strong> I feel tingly. Tingly in my pants.</div></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: Where do we start? <span class="spoiler" title="you can set spoilers visible by default on your profile">Zack quits Echo Chamber and moves in with Gaelyn. Gaelyn kisses Zack, and Zack apparently returns her feelings. Mr. Administrator is an admin for <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TheOtherWiki" title="/pmwiki/pmwiki.php/Wiki/TheOtherWiki">The Other Wiki</a>. It's vital to Mr. Administrator's plan (which doesn't get revealed until the next episode) for Zack to return to Echo Chamber. <em>[citation needed]</em> is cancelled.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhoAreYou" title="/pmwiki/pmwiki.php/Main/WhoAreYou">Who Are You?</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Zack's dad</span> gives an anguished one to <span class="spoiler" title="you can set spoilers visible by default on your profile"> Mr. Administrator</span> in the last seconds of the episode.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WillingSuspensionOfDisbelief" title="/pmwiki/pmwiki.php/Main/WillingSuspensionOfDisbelief">Willing Suspension of Disbelief</a>: Brought up by Mr. Administrator when talking about Zack's qualities.</li></ul><p></p><h3>Episode 2.12: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a></h3><p></p><div id="vidholder" style="width:517px;float:right;margin-left:6px;;"> <iframe width="512" height="288" src="https://sharetv.com/embed/865426/512/288/0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsenteeActor" title="/pmwiki/pmwiki.php/Main/AbsenteeActor">Absentee Actor</a>: Everyone except Mr. Administrator.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActingForTwo" title="/pmwiki/pmwiki.php/Main/ActingForTwo">Acting for Two</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Patrick Kane plays Administrator Prime and all of Prime's instantiations.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackOfThe50FootWhatever" title="/pmwiki/pmwiki.php/Main/AttackOfThe50FootWhatever">Attack of the 50-Foot Whatever</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Administrator Prime</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking" title="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking">Authority Equals Asskicking</a>: Mr. Administrator <span class="spoiler" title="you can set spoilers visible by default on your profile"> Prime's disintegration powers</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BizarroEpisode" title="/pmwiki/pmwiki.php/Main/BizarroEpisode">Bizarro Episode</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked</a> as the title suggests.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">Blue-and-Orange Morality</a>: Mr. Administrator's plans don't sound all that threatening or sinister, although he seems to sell them as such. <span class="spoiler" title="you can set spoilers visible by default on your profile">That is, the "infection" of multiple planes of reality with fiction, or Tropes. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife" title="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife">TVTropes will ruin our lives?</a> A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a> indeed.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: "Gurt"; the fact that the BRIGHTWHITELIGHT doesn't have a bathroom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreativeClosingCredits" title="/pmwiki/pmwiki.php/Main/CreativeClosingCredits">Creative Closing Credits</a>: The credits are as warped as the episode itself, venturing into <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrueArtIsIncomprehensible" title="/pmwiki/pmwiki.php/Main/TrueArtIsIncomprehensible">True Art Is Incomprehensible</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreditsGag" title="/pmwiki/pmwiki.php/Main/CreditsGag">Credits Gag</a>: MR. ADMINISTRATOR as MR. ADMINISTRATOR <span class="spoiler" title="you can set spoilers visible by default on your profile"> repeated 5 times.</span><ul><li> Filmed at location <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteVoidRoom" title="/pmwiki/pmwiki.php/Main/WhiteVoidRoom">The White Void</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADayInTheLimelight" title="/pmwiki/pmwiki.php/Main/ADayInTheLimelight">A Day in the Limelight</a>: for Mr. Administrator</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmergingFromTheShadows" title="/pmwiki/pmwiki.php/Main/EmergingFromTheShadows">Emerging from the Shadows</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Mr. Administrator and his instantiations</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards" title="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards">Even Evil Has Standards</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> One of the instantiations is called "weirdo" for the rest because of his exaggerated like of the word "gurt"</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FacialMarkings" title="/pmwiki/pmwiki.php/Main/FacialMarkings">Facial Markings</a>: One of the ways to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DistinguishingMark" title="/pmwiki/pmwiki.php/Main/DistinguishingMark">distinguish</a> <span class="spoiler" title="you can set spoilers visible by default on your profile">Mr. Administrator's instantiations. Naturally they are at the temples, which are above where Mr. Administrators face is normally seen by the other characters.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFourthWallWillNotProtectYou" title="/pmwiki/pmwiki.php/Main/TheFourthWallWillNotProtectYou">The Fourth Wall Will Not Protect You</a>: In-Universe. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Administrator Prime</span> went out of the screen to punish <span class="spoiler" title="you can set spoilers visible by default on your profile"> one of his instatiations</span> for his silliness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreShift" title="/pmwiki/pmwiki.php/Main/GenreShift">Genre Shift</a>: This episode veers more into Sci-Fi territory than previous episodes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveQueen" title="/pmwiki/pmwiki.php/Main/HiveQueen">Hive Queen</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Administrator Prime</span>.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManBehindTheMan" title="/pmwiki/pmwiki.php/Main/ManBehindTheMan">Man Behind the Man</a>: Apparently, Administrator Prime is behind Mr. Administrator, the latter also being a copy of the former. Plus, there are lots of other copies of Administrator Prime and he's behind all of them.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MesACrowd" title="/pmwiki/pmwiki.php/Main/MesACrowd">Me's a Crowd</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Mr. Administrator</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerGlows" title="/pmwiki/pmwiki.php/Main/PowerGlows">Power Glows</a>: The disintegration <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuffySpeak" title="/pmwiki/pmwiki.php/Main/BuffySpeak">wobbly thing</a>.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecursiveReality" title="/pmwiki/pmwiki.php/Main/RecursiveReality">Recursive Reality</a>: Administrator Prime explains that there are infinite story layers, possibly implying that the viewer's reality may be one such layer. In other words, it's turtles all the way down.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retcon" title="/pmwiki/pmwiki.php/Main/Retcon">Retcon</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/SnapBack" title="/pmwiki/pmwiki.php/Main/SnapBack">Snap Back</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/StatusQuoIsGod" title="/pmwiki/pmwiki.php/Main/StatusQuoIsGod">Status Quo Is God</a>: Forcing this <span class="spoiler" title="you can set spoilers visible by default on your profile">on Zack</span> is Mr. Administrator's plan for getting <em>Echo Chamber</em> back "on track", whatever that means. Unfortuantely, that requires a lot more work than a simple <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Handwave" title="/pmwiki/pmwiki.php/Main/Handwave">Handwave</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeasonFinale" title="/pmwiki/pmwiki.php/Main/SeasonFinale">Season Finale</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharpDressedMan" title="/pmwiki/pmwiki.php/Main/SharpDressedMan">Sharp-Dressed Man</a>: Mr. Administrator.<span class="spoiler" title="you can set spoilers visible by default on your profile">..and his instantiations</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SilenceYouFool" title="/pmwiki/pmwiki.php/Main/SilenceYouFool">Silence, You Fool!</a>: One of Administrator Prime's instantiations loudly demands "Silence!".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoicSpectacles" title="/pmwiki/pmwiki.php/Main/StoicSpectacles">Stoic Spectacles</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> One of Mr. Administrator's instantiations</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatKindOfLamePowerIsHeartAnyway" title="/pmwiki/pmwiki.php/Main/WhatKindOfLamePowerIsHeartAnyway">What Kind of Lame Power Is Heart, Anyway?</a>: Zack occupies a crucial role in Mr. Administrator's plans because of his unconventional ability. <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WillingSuspensionOfDisbelief" title="/pmwiki/pmwiki.php/Main/WillingSuspensionOfDisbelief">Suspension of Disbelief</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAreNumberSix" title="/pmwiki/pmwiki.php/Main/YouAreNumberSix">You Are Number 6</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Mr. Administrator's instantiations</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouHaveFailedMe" title="/pmwiki/pmwiki.php/Main/YouHaveFailedMe">You Have Failed Me</a>: Mr. Administrator applies this in effect (if not using the direct phrase) <span class="spoiler" title="you can set spoilers visible by default on your profile">on one of his instantiations</span> and threatens it <span class="spoiler" title="you can set spoilers visible by default on your profile">on a different instantiation.</span></li></ul><p></p><h2> Echo Chamber Overdose:</h2><ul><li> <a class="createlink" href="/pmwiki/pmwiki.php/Recap/EchoChamber" title="/pmwiki/pmwiki.php/Recap/EchoChamber">Read episode recaps. </a></li><li> <a class="urllink" href="https://tvtropes.org/pmwiki/posts.php?discussion=13054801740A92145700&amp;page=1">Discuss it.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="https://tvtropes.org/pmwiki/posts.php?discussion=13080030120A02080100">Write for it.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://tvtropes.info/echochamber/2011/10/03/open-auditions-for-season-two/">Act in it.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="https://twitter.com/#!/deadcatinabox">Be tweeted by Zack's Twitter account.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://twitter.com/#!/YouHaveFailedUs">Or Mr. Administrator's.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://tvtropes.info/echochamber/">Be blogged by production staff.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.facebook.com/EchoChamber">Stalk it on Facebook.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul><p></p><h2>Season 1 Episode Tropes</h2><div class="quoteright" style="width:200px;"><div class="lazy_load_img_box" style="padding-top:100%"><img src="https://static.tvtropes.org/pmwiki/pub/images/Echo_Chamber_5380.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/Echo_Chamber_5380.jpg" width="200" height="200"></div></div><div class="acaptionright" style="width:200px;">Left to right: Dave, Tom, Zack and Dana.</div><ul><li> Episode 1: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a>, in which the series and characters are introduced, and the cast struggle with the production of the TV Tropes vlog series.</li><li> Episode 2: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianExcuse" title="/pmwiki/pmwiki.php/Main/FreudianExcuse">Freudian Excuse</a>, in which the characters try to shoot a video about the aforementioned subject, but fail repeatedly as they examine their bad childhoods.</li><li> Episode 3: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage" title="/pmwiki/pmwiki.php/Main/TerribleIntervieweesMontage">Terrible Interviewees Montage</a>, in which the characters must find a new cast member for a female role; however, unfortunate circumstances lead to terrible applicants, causing a... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Terrible Interviewees Montage</a>.</li><li> Episode 4: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumbassHasAPoint" title="/pmwiki/pmwiki.php/Main/DumbassHasAPoint">Dumbass Has a Point</a>, in which the gang is working on trying to come up with a better graphic effects opening montage. Tom is frustrated and is baffled as to how to make the montage work, until Zack&mdash;of all people&mdash;comes up with a surprisingly insightful suggestion.</li><li> Episode 5: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnresolvedSexualTension" title="/pmwiki/pmwiki.php/Main/UnresolvedSexualTension">Unresolved Sexual Tension</a>, in which Dana and Tom try to determine whether there should be any between their characters on the show. Things get complicated when he reveals he's attracted to Dana. And Zack will always be alone.</li><li> Episode 6: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend" title="/pmwiki/pmwiki.php/Main/PsychoExGirlfriend">Psycho Ex-Girlfriend</a>, in which Shannon reappears and is just generally creepy. Also, Dana snarks a lot.</li><li> Episode 7: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkAndTalk" title="/pmwiki/pmwiki.php/Main/WalkAndTalk">Walk and Talk</a>, in which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Tom tricks Dana into walking and/or talking</a>.</li><li> Episode 8: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticFalseLead" title="/pmwiki/pmwiki.php/Main/RomanticFalseLead">Romantic False Lead</a>, in which Tom gets a date, and Dana may or may not care.</li><li> Episode 9: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouThinkICantFeel" title="/pmwiki/pmwiki.php/Main/DidYouThinkICantFeel">Did You Think I Can't Feel?</a>, in which Tom and Dana hash it out, and someone leaves the show forever&mdash;all leading up to the season finale of Echo Chamber.</li><li> Episode 10, The Season Finale: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MysteriousEmployer" title="/pmwiki/pmwiki.php/Main/MysteriousEmployer">Mysterious Employer</a>, in which Mr. Administrator threatens to end the web show forever, unless Tom and Dana create something of transcendent beauty.</li></ul><p></p><h2>Season 2 Episodes</h2><ul><li> Preview: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverTrustATrailer" title="/pmwiki/pmwiki.php/Main/NeverTrustATrailer">Never Trust a Trailer</a>.</li><li> Episode 1: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysSomeoneBetter" title="/pmwiki/pmwiki.php/Main/AlwaysSomeoneBetter">Always Someone Better</a>, in which the gang finds out about a competitor vlog from The Other Wiki, who seems to be much better than Echo Chamber.</li><li> Episode 2: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAce" title="/pmwiki/pmwiki.php/Main/TheAce">The Ace</a>, where Tom and Dana try to persuade Ace (maker of the competitor vlog) to act as an ace in <em>Echo Chamber</em> so they can demonstrate that trope.</li><li> Episode 3: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADayInTheLimelight" title="/pmwiki/pmwiki.php/Main/ADayInTheLimelight">A Day in the Limelight</a>, where Gaelyn takes the role of the main camera and she discovers Zack likes Dana.</li><li> Episode 4: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConflictingLoyalty" title="/pmwiki/pmwiki.php/Main/ConflictingLoyalty">Conflicting Loyalty</a>: Dana now has to balance her life under the pressure of producing two web shows, and Gaelyn tries to invite Zack on a date.</li><li> Episode 5: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a>, in which Zack's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteralMinded" title="/pmwiki/pmwiki.php/Main/LiteralMinded">Literal Mindedness</a> puts Tom in danger.</li><li> Episode 6: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForgottenBirthday" title="/pmwiki/pmwiki.php/Main/ForgottenBirthday">Forgotten Birthday</a>: Dana teaches Tom that forgetting someone's birthday is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriousBusiness" title="/pmwiki/pmwiki.php/Main/SeriousBusiness">Serious Business</a>.</li><li> Episode 7: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoirEpisode" title="/pmwiki/pmwiki.php/Main/NoirEpisode">Noir Episode</a>, in which Tom and Zack learn that Dana has a secret.</li><li> Episode 8: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TyrantTakesTheHelm" title="/pmwiki/pmwiki.php/Main/TyrantTakesTheHelm">Tyrant Takes the Helm</a>: The gang has to deal with an ill-tempered new producer.</li><li> Episode 9: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyBelovedSmother" title="/pmwiki/pmwiki.php/Main/MyBelovedSmother">My Beloved Smother</a>: Zack takes Gaelyn to meet his tyrannical father. Drama ensues.</li><li> Episode 10: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrokenAce" title="/pmwiki/pmwiki.php/Main/BrokenAce">Broken Ace</a>: Tom challenges Dana to find out if <em>[citation needed]</em> really needs her.</li><li> Episode 11: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingOfAgeStory" title="/pmwiki/pmwiki.php/Main/ComingOfAgeStory">Coming-of-Age Story</a>: Zack makes choices that will determine his future&mdash;and the future of <em>Echo Chamber</em>.</li><li> Episode 12, The Season's Finale: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a>: When Mr. Administrator is forced to deal with the fallout of Zack's decision, the secrets of his identity, his motives, and the nature of <em>Echo Chamber</em> itself are revealed.</li></ul></div><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/SFDebris">SF Debris</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/BlipTV">Website/Blip.tv</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/OddityArchive">Oddity Archive</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/EbonWard">Ebon Ward</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WebVideoSeries">Web Video Series</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/Eckva">Eckva</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FutureImperfect">Future Imperfect</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoSource/Internet">VideoSource/Internet</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheAce">The Ace</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ActionHoggingOpening">Action-Hogging Opening</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/QuoteSource/Internet">QuoteSource/Internet</a>
+</li>
+<li>
+ <a href="/pmwiki/pmwiki.php/Main/TherapyIsForTheWeak"> Therapy Is for the Weak</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/DresdensHauntedForest">Dresden's Haunted Forest</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TroperWorks">Troper Works</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebOriginal/EdeValley">Ede Valley</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/EtceteraGroup">Etcetera Group</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Producers">Producers</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/FeatureFilmsForFamilies">Feature Films For Families</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/CityOnTheEdgeOfNowhere">City on the Edge of Nowhere</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebOriginal/EdeValley">Ede Valley</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

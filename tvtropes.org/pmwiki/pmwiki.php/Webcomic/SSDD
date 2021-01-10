@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>S.S.D.D (Webcomic) - TV Tropes</title>
+<meta name="description" content="S.S.D.D. is a long-running British Furry Comic about four people who share a flat: Norman Gates, an Ax-Crazy anarchist rabbit who's destined to overthrow &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/SSDD" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="S.S.D.D (Webcomic) - TV Tropes" />
+<meta name="twitter:description" content="S.S.D.D. is a long-running British Furry Comic about four people who share a flat: Norman Gates, an Ax-Crazy anarchist rabbit who's destined to overthrow &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="S.S.D.D (Webcomic) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/SSDD" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="S.S.D.D. is a long-running British Furry Comic about four people who share a flat: Norman Gates, an Ax-Crazy anarchist rabbit who's destined to overthrow the government and found the Collective of Anarchist States; Richard Edwards, a fox and &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/Miko" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/YenPress" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Webcomic/SSDD?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Webcomic/SSDD">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Webcomic.SSDD">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=SSDD&g=Webcomic">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=Webcomic.SSDD">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Webcomic/SSDD?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Webcomic" />
+<input type="hidden" id="title-hidden" value="SSDD" />
+<input type="hidden" id="article_id" value="349522" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Webcomic/SSDD</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Webcomic / </strong>
+S.S.D.D
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Webcomic",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Webcomic"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "S.S.D.D"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SSDD" class="subpage-link curr-subpage" title="The Webcomic page">
+<span class="wrapper"><span class="spi webcomic"></span>Webcomic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/SSDD" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/SSDD" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/SSDD?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/SSDD?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/SSDD?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/SSDD?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/SSDD?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/SSDD?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/SSDD?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/SSDD?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/SSDD?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/SSDD?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/SSDD?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/SSDD?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/SSDD?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/SSDD?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/SSDD?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/SSDD?action=edit">Trivia</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p><em><a class="urllink" href="http://poisonedminds.com/">S.S.D.D.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WebcomicsLongRunners" title="/pmwiki/pmwiki.php/Main/WebcomicsLongRunners">long-running</a> British <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FurryComic" title="/pmwiki/pmwiki.php/Main/FurryComic">Furry Comic</a> about four people who share a flat: Norman Gates, an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxCrazy" title="/pmwiki/pmwiki.php/Main/AxCrazy">Ax-Crazy</a> anarchist rabbit who's destined to overthrow the government and found the Collective of Anarchist States; Richard Edwards, a fox and Norman's best friend, also the landlord; Kingston, a constantly stoned hare; and Rich's girlfriend Anne Winters, who's somewhat unstable but is also the only one of them with a job. There are also a few time travelers attempting to prevent Norman's revolution, including <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marine</a> Tessa Edwards, who is a probable descendant of Rich and Anne; Dr. Cook, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad Scientist</a> who developed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Time Travel</a>; and two robots, one of which is Tessa's boyfriend. In addition, there is an AI known as the Oracle who seems to be secretly manipulating Norman and will be the real power behind the CAS in the future.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>It is sometimes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NSFW" title="/pmwiki/pmwiki.php/Main/NSFW">NSFW</a>.</p><p></p><hr><h2>Tropes noted:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcCENTUponTheWrongSylLABle" title="/pmwiki/pmwiki.php/Main/AcCENTUponTheWrongSylLABle">Ac CENT Upon The Wrong Syl LA Ble</a>: Elizabeth, possibly a <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Portal" title="/pmwiki/pmwiki.php/VideoGame/Portal">Portal</a></em> reference</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionBomb" title="/pmwiki/pmwiki.php/Main/ActionBomb">Action Bomb</a>: Inlay pawns.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionGirl" title="/pmwiki/pmwiki.php/Main/ActionGirl">Action Girl</a>: Tessa</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdultChild" title="/pmwiki/pmwiki.php/Main/AdultChild">Adult Child</a>: Norman's a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychopathicManchild" title="/pmwiki/pmwiki.php/Main/PsychopathicManchild">Psychopathic Manchild</a> who spends most of his time either beating up punks or watching <em>Bob the Builder</em>. While Lee's the kind of cloned abomination of science who spends guard patrols in the <a class="urllink" href="http://www.poisonedminds.com/d/20160328.html">ball pit<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnachronismStew" title="/pmwiki/pmwiki.php/Main/AnachronismStew">Anachronism Stew</a>: The first future-timeline page gave 2099 as the year, but sometimes the time gap feels much longer. If it is one hundred years in the future, then Richard and Anne are most likely only Tessa&#146;s great-grandparents, to say nothing of the extremely rapid technological advances that would have to have happened.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">A.I. Is a Crapshoot</a>:<ul><li> Let's start with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Oracle</a>, shall we, and go from there.</li><li> Other <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> seem prone to "Nexus Syndrome" unless <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RestrainingBolt" title="/pmwiki/pmwiki.php/Main/RestrainingBolt">caps</a> are placed on their intelligence (<a class="urllink" href="http://www.poisonedminds.com/d/20110419.html">sometimes even then<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>). Typical symptoms appear to be boredom, seeking other interests, and turning on your masters (which was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">a good thing</a> in Tin-Head's case).</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> King Arthur may, in and of himself, be the penultimate example of Nexus Syndrome (and no points on guessing who's the ultimate one). Not only has he expressed aspects of genuine empathy, sympathy and passion, he's taken to certain... distractions at times, possibly even in the organic sense. This is actually one of the <em>positive</em> results of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">A.I. Is a Crapshoot</a>. As Elizabeth puts it, he genuinely cares. This is only a variant on this trope because actually <em>caring</em> is strictly against what he was originally intended to be and do.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllPeriodsArePMS" title="/pmwiki/pmwiki.php/Main/AllPeriodsArePMS">All Periods Are PMS</a>: Anne when she's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MatingSeasonMayhem" title="/pmwiki/pmwiki.php/Main/MatingSeasonMayhem">in heat</a>, justified in that she has it just once a year.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">All There in the Manual</a>: Occasionally the author has substituted comic updates with text detailing aspects of the SSDD world or quotes from various characters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllWomenAreLustful" title="/pmwiki/pmwiki.php/Main/AllWomenAreLustful">All Women Are Lustful</a>: Pretty hard to avoid this conclusion, given that virtually all of the females in the comic seek out a male to mate with, even if this means infidelity. The first advisor straight up grabs a male fox she's never spoken to and drags him to her bedroom. Heather (a rabbit) even pays Richard (a fox) to mate with her, and Anne (a fox) cheats on her boyfriend (the aforementioned Richard) with a cat. Repeatedly. Tessa's dreams even featured a well-endowed prehistoric wolf she once lusted after when she saw an illustration of him in a textbook.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlreadyTheCase" title="/pmwiki/pmwiki.php/Main/AlreadyTheCase">Already the Case</a>: The time-travellers want to keep <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">The Oracle</a> from ever being created&mdash;but when they finally tell Michael what they're facing, Michael refers to a plug-in the British were creating&mdash;and the time-travellers realize whence The Oracle came... and more importantly, <em>when</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAlternet" title="/pmwiki/pmwiki.php/Main/TheAlternet">The Alternet</a>: The Maytec Consortium runs a very fast, secure, and expensive network. The Internet is effectively run by the Collective of Anarchist States and banned pretty much everywhere else, though it's still popular because the Maytec network doesn't have free porn or bootleg movies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazinglyEmbarrassingParents" title="/pmwiki/pmwiki.php/Main/AmazinglyEmbarrassingParents">Amazingly Embarrassing Parents</a>: Tessa's (adoptive) parents. They're <em>very</em> open about sexuality and won't hesitate to discuss their daughter's love life (or lack thereof) with her boyfriend. <a class="urllink" href="http://www.poisonedminds.com/d/20100727.html">Tessa is not amused.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmoralAttorney" title="/pmwiki/pmwiki.php/Main/AmoralAttorney">Amoral Attorney</a>: Gary Hart, and not just in the courtroom, he's also a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PyroManiac" title="/pmwiki/pmwiki.php/Main/PyroManiac">Pyromaniac</a> with a hobby of blowing up golf courses. It's telling that Norman thinks he's crazy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnarchyIsChaos" title="/pmwiki/pmwiki.php/Main/AnarchyIsChaos">Anarchy Is Chaos</a>: The Anarchist Collective sort of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZigzaggedTrope" title="/pmwiki/pmwiki.php/Main/ZigzaggedTrope">goes back and forth</a>. Officially, there are only two laws, "do not profit at the expense of another anarchist" (which can be interpreted to cover anything from scams to murder), and "there are no other laws". The officials in charge are referred to as "Advisers" who don't put out laws so much as "suggestions"; you can technically break them without any sort of official penalty, but since the only difference between local police, angry crowd and lynch mob is how organized they are... The Collective does have a rather <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodKnight" title="/pmwiki/pmwiki.php/Main/BloodKnight">intimidating</a> military, not to mention a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillSat" title="/pmwiki/pmwiki.php/Main/KillSat">secret weapon</a>, though.<ul><li> There's also a reference to "true anarchists" who live in the wasteland between cities, taking potshots at passing vehicles.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndIMustScream" title="/pmwiki/pmwiki.php/Main/AndIMustScream">And I Must Scream</a>: The King reveals that this basically sums up <span class="spoiler" title="you can set spoilers visible by default on your profile">the Oracle's</span> personality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">Arson, Murder, and Jaywalking</a>: <a class="urllink" href="http://www.poisonedminds.com/d/19990830.html">Norman's "to-do" list.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><ul><li> An early version of the Oracle showed <a class="urllink" href="http://www.poisonedminds.com/d/20030124.html">a job queue<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> calculating the likelihood of overthrowing several world governments, and the probability of Elvis being alive.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtEvolution" title="/pmwiki/pmwiki.php/Main/ArtEvolution">Art Evolution</a>: Compare the <a class="urllink" href="http://poisonedminds.com/d/19980927.html">first comic<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to the <a class="urllink" href="http://poisonedminds.com/">current one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtShift" title="/pmwiki/pmwiki.php/Main/ArtShift">Art Shift</a>: "<a class="urllink" href="http://www.poisonedminds.com/d/20030314.html">When I stop hallucinating, I'm really going to kick your arse Kingston!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialLimbs" title="/pmwiki/pmwiki.php/Main/ArtificialLimbs">Artificial Limbs</a>: Rather commonplace in the CORE, <a class="urllink" href="http://www.poisonedminds.com/d/20060818.html">and for good reason<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsskickingEqualsAuthority" title="/pmwiki/pmwiki.php/Main/AsskickingEqualsAuthority">Asskicking Equals Authority</a>: CAS promotions are determined by non-violent challenges, but it's the same basic principle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorAvatar" title="/pmwiki/pmwiki.php/Main/AuthorAvatar">Author Avatar</a>: A variation. The fox playing guitar in <a class="urllink" href="http://www.poisonedminds.com/d/20120927.html">this strip<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is unmistakably an anthropomorphic riff of artist Al Foreman's <a class="urllink" href="http://churchof.poisonedminds.com/d/20020527.html">prior depictions of himself<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking" title="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking">Authority Equals Asskicking</a>: Surviving a long term in the CORE has a tendency to produce this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxCrazy" title="/pmwiki/pmwiki.php/Main/AxCrazy">Ax-Crazy</a>:<ul><li> Modern-day Norman can barely go a week without brutally beating somebody up or causing large-scale destruction of property. <em>Future</em> Norman takes these tendencies <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a>.</li><li> <a class="urllink" href="http://www.poisonedminds.com/d/20010709.html">Tessa also has her moments.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BarefootCartoonAnimal" title="/pmwiki/pmwiki.php/Main/BarefootCartoonAnimal">Barefoot Cartoon Animal</a>: Despite their feet looking almost exactly like a human's. More recent depictions have at least some species feet with claws (wolves, rats, some foxes), as well as a different number of toes, foot pads, and other non-human features. Most of the characters are barefoot just about all of the time, even during military training (but generally not actual military missions).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy" title="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy">Beethoven Was an Alien Spy</a>: The Bush family are androids planted by future Norman to set up the economic collapse. And Ms. Waterman mentions that the Anarchist negotiator who vanished into thin air in Cook's lab was named <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/JulesVerne" title="/pmwiki/pmwiki.php/Creator/JulesVerne">Jules Verne</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">BFG</a>: Tessa's plasma cannon, though apparently it "takes a special kind of lunatic to not only strap a small fusion reactor to their backs, but to also run around a battlefield with one too". Basically, there are MANY flaws in the design, so you&#146;re about as likely to kill yourself as you are the enemy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: The Oracle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigRedButton" title="/pmwiki/pmwiki.php/Main/BigRedButton">Big Red Button</a>: The Brittannia's fission reactor had a "scram" button, which an Inlay saboteur made sure to rip out.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BiggerIsBetterInBed" title="/pmwiki/pmwiki.php/Main/BiggerIsBetterInBed">Bigger Is Better in Bed</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20111124.html">Richard.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> It's later mentioned that he measures 8" down there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGuyLittleGuy" title="/pmwiki/pmwiki.php/Main/BigGuyLittleGuy">Big Guy, Little Guy</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20090105.html">According to Anne<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, Norman and Richard used to be like those guys from <a class="createlink" href="/pmwiki/pmwiki.php/Film/MadMax3BeyondThunderdome" title="/pmwiki/pmwiki.php/Film/MadMax3BeyondThunderdome">Mad Max 3</a> .<ul><li> And then there's <a class="urllink" href="http://www.poisonedminds.com/d/20061107.html">Advisor Krutz and his bodyguard.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bizarrchitecture" title="/pmwiki/pmwiki.php/Main/Bizarrchitecture">Bizarrchitecture</a>:<a class="urllink" href="http://www.poisonedminds.com/d/20110114.html">The citadel is described as this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackEyesOfEvil" title="/pmwiki/pmwiki.php/Main/BlackEyesOfEvil">Black Eyes of Evil</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20100406.html">Robert<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, while not evil admits his eyes scare people. <a class="urllink" href="http://www.poisonedminds.com/d/20160608.html">Later<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> he gets them fixed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BorrowedBiometricBypass" title="/pmwiki/pmwiki.php/Main/BorrowedBiometricBypass">Borrowed Biometric Bypass</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20010716.html">Used<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.poisonedminds.com/d/20090803.html">twice<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Kind of an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IronicEcho" title="/pmwiki/pmwiki.php/Main/IronicEcho">Ironic Echo</a> since the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InMediasRes" title="/pmwiki/pmwiki.php/Main/InMediasRes">first one</a> took place <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">after the second</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoxedCrook" title="/pmwiki/pmwiki.php/Main/BoxedCrook">Boxed Crook</a>: The "dirty half dozen" that made the Oracle were all hackers that got caught (the agency didn't have a big enough budget to legitimately hire decent programmers, so they resorted to "slave labor").</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BSideComics" title="/pmwiki/pmwiki.php/Main/BSideComics">B-Side Comics</a>: two, Sticky the Stick Man and Church of Poisoned Minds, which eventually became their own comics</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButterFace" title="/pmwiki/pmwiki.php/Main/ButterFace">Butter Face</a>: Norman Gates is a male example. He has the body of a big buff rabbit, but his face&mdash;specifically, <em>what's left of it</em>&mdash;is described as 'ugly as sin'. It's flat, rather than having a muzzle, his teeth are abnormal for a rabbit, and he keeps his buckteeth insanely long to protect his brittle jaw. <a class="urllink" href="http://www.poisonedminds.com/comics/Filler20150216.png">This comic<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> even goes so far as to describe Norman's ugliness as a 'deformity' and insinuates that due to his homliness that he most likely died a virgin. Due to the fact that he's a large <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeastMan" title="/pmwiki/pmwiki.php/Main/BeastMan">bunnyman</a>, this can seem like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HollywoodHomely" title="/pmwiki/pmwiki.php/Main/HollywoodHomely">Hollywood Homely</a> (as mentioned in the YMMV section), but on his Patreon page, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Alan Foreman did a post</a> <a class="urllink" href="https://www.patreon.com/posts/normans-injuries-5077420">detailing just how disfigured Norman is<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, including what Norman would have looked like without his injuries.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>: Michael. This comes to bite the rest of the group in the butt when they discover that witholding vital information from him means he has no idea <em>his</em> information is vital.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: Compare the <a class="urllink" href="http://www.poisonedminds.com/d/19980927.html">first comic<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to <a class="urllink" href="http://www.poisonedminds.com/d/20030926.html">the five-year anniversary strip<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCameo" title="/pmwiki/pmwiki.php/Main/TheCameo">The Cameo</a>: Anne chatting online with Sam from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Newshounds" title="/pmwiki/pmwiki.php/Webcomic/Newshounds">Newshounds</a></em>, which got referenced in his home comic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCasanova" title="/pmwiki/pmwiki.php/Main/TheCasanova">The Casanova</a>: Richard, when he was younger. And it's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeconstructedTrope" title="/pmwiki/pmwiki.php/Main/DeconstructedTrope">deconstructed</a> <a class="urllink" href="http://www.poisonedminds.com/d/20160210.html">in this strip with just his expression<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.<ul><li> Later on, he further <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeconstructedTrope" title="/pmwiki/pmwiki.php/Main/DeconstructedTrope">deconstructs the trope</a> by <a class="urllink" href="http://www.poisonedminds.com/d/20160627.html">commenting on the kind of women a Casanova is likely to attract<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastHerd" title="/pmwiki/pmwiki.php/Main/CastHerd">Cast Herd</a>: There's the original four idiots, the time travelers (both CORE and Anarchist), those in that British intelligence agency, Tessa's old squad, the high ranking Advisers...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatSmile" title="/pmwiki/pmwiki.php/Main/CatSmile">Cat Smile</a>: When Tessa is faced with a fox and some kind of rabbit sporting these, she <a class="urllink" href="http://poisonedminds.com/d/20170518.html">gets creeped out<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChallengingTheChief" title="/pmwiki/pmwiki.php/Main/ChallengingTheChief">Challenging the Chief</a>: The Anarchist Advisory works on non-lethal challenges.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CarnivoreConfusion" title="/pmwiki/pmwiki.php/Main/CarnivoreConfusion">Carnivore Confusion</a>: Just read <a class="urllink" href="http://poisonedminds.com/d/20151109.html">this page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> concerning rabbits and fried chicken.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CensoredForComedy" title="/pmwiki/pmwiki.php/Main/CensoredForComedy">Censored for Comedy</a>: Trisha's <a class="urllink" href="http://www.poisonedminds.com/d/20170331.html">dialogue<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is moderated.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGunman" title="/pmwiki/pmwiki.php/Main/ChekhovsGunman">Chekhov's Gunman</a>: The yellow dog from <a class="urllink" href="http://www.poisonedminds.com/d/20160208.html">these<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.poisonedminds.com/d/20160209.html">three<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.poisonedminds.com/d/20160210.html">comics<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> from February 2016 comes back <a class="urllink" href="http://www.poisonedminds.com/d/20191006.html">three years later.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOnTheWater" title="/pmwiki/pmwiki.php/Main/CityOnTheWater">City on the Water</a>: The Britannia, a super-sized aircraft carrier made from an iceberg that was bought by a number of wealthy Brits around the time of the Anarchist revolution. Tessa's from the lower decks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloneArmy" title="/pmwiki/pmwiki.php/Main/CloneArmy">Clone Army</a>: The Anarchists use clones known as "Gigglers" as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CannonFodder" title="/pmwiki/pmwiki.php/Main/CannonFodder">Cannon Fodder</a>. They're engineered to feel no pain and are grown at an accelerated rate that leaves them no time for an education so they're dumb as rocks. They're controlled using an implant that pumps them full of happy drugs when they do something right, hence the name.<ul><li> Lee is a clone grown by the Anarchist's enemies, the CORE, using a stolen cloning rig that was given to their R&amp;D department. He was grown at a normal rate so he is smart, but still <a class="urllink" href="http://www.poisonedminds.com/d/20060621.html">a bit flaky<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloningBodyParts" title="/pmwiki/pmwiki.php/Main/CloningBodyParts">Cloning Body Parts</a>: It is possible to clone biological body parts, but most CORE troops prefer to <a class="urllink" href="http://www.poisonedminds.com/d/20060818.html">upgrade with cybernetics<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloudCuckooLander" title="/pmwiki/pmwiki.php/Main/CloudCuckooLander">Cloud Cuckoo Lander</a>: Lee, in fact the entire squad was chosen because they were psychologically unstable.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">Cerebus Syndrome</a>: The comic was originally just random gags, but starting with the SSDF story arc it became much more serious, at least in the storylines involving future characters, which is pretty much the main story line now.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightOfCerebus" title="/pmwiki/pmwiki.php/Main/KnightOfCerebus">Knight of Cerebus</a>: Norman's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FutureBadass" title="/pmwiki/pmwiki.php/Main/FutureBadass">future self</a> pretty much marks the turning point.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Conscription" title="/pmwiki/pmwiki.php/Main/Conscription">Conscription</a>: Tessa was sentenced to serve in the CORE for two years for hitting a policeman. Apparently most member nations have a similar form of the draft.<ul><li> The Anarchists on the other hand actually call their military the "Volunteer Force", but they can afford to forego conscription as they use a lot of clones and robots.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContagiousAI" title="/pmwiki/pmwiki.php/Main/ContagiousAI">Contagious A.I.</a>: The thing that makes the Oracle different from other AIs, because it can copy itself to other computers it can increase its processing power unlike AI that are bound to their original frames. In fact its creator was an expert in writing viruses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolBoat" title="/pmwiki/pmwiki.php/Main/CoolBoat">Cool Boat</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20081223.html">The Britannia<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, would be a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FloatingContinent" title="/pmwiki/pmwiki.php/Main/FloatingContinent">Floating Continent</a> if that trope covered waterborne ones.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorporateWarfare" title="/pmwiki/pmwiki.php/Main/CorporateWarfare">Corporate Warfare</a>: Maytec has their own army, but when they went to war with the Anarchists over mineral claims on Mars they tried to get the CORE to fight for them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CouldSayItBut" title="/pmwiki/pmwiki.php/Main/CouldSayItBut">Could Say It, But...</a>: <a class="urllink" href="http://poisonedminds.com/d/20060224.html">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>: Seems a pretty accurate description of the future after the economic collapse and anarchist revolution.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberspace" title="/pmwiki/pmwiki.php/Main/Cyberspace">Cyberspace</a>: Conventional AI are grown in simulations, Sticks says it's more <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/AClockworkOrange" title="/pmwiki/pmwiki.php/Literature/AClockworkOrange">A Clockwork Orange</a></em> than <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheMatrix" title="/pmwiki/pmwiki.php/Film/TheMatrix">The Matrix</a></em> and they try to get out as soon as possible. Arthur creates a virtual chibi-world for his army, which they consider the "real world", <span class="spoiler" title="you can set spoilers visible by default on your profile"> and Tessa finds herself logging into it in her sleep.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadGuyJunior" title="/pmwiki/pmwiki.php/Main/DeadGuyJunior">Dead Guy Junior</a>: The dead guy is Christopher Reed, creator of the Oracle. <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Junior is the Oracle itself.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadPersonConversation" title="/pmwiki/pmwiki.php/Main/DeadPersonConversation">Dead Person Conversation</a>: Nathan gets a call from Christopher, whom Nathan not only <em>knows</em> is dead, but was even his pallbearer at the funeral. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">Then he realizes that Christopher is only speaking in his "Upper Class Twit" accent, and realizes who is really calling.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustHaveSex" title="/pmwiki/pmwiki.php/Main/DidYouJustHaveSex">Did You Just Have Sex?</a>: Corporal Grey notices a distinct change in <a class="urllink" href="http://www.poisonedminds.com/d/20120301.html">Tessa's<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> (and the rest of <a class="urllink" href="http://www.poisonedminds.com/d/20120308.html">the squad's<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>) moods the day after she and Julian finally do it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyOldWoman" title="/pmwiki/pmwiki.php/Main/DirtyOldWoman">Dirty Old Woman</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20100518.html">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica" title="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica">Divided States of America</a>: the "Tower Of Babel" storyline starts with an <a class="urllink" href="http://www.poisonedminds.com/d/20060202.html">animated map<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of the states and their progressive division. At the start of the storyline the Anarchists control the northeast states out to Wisconsin and Illinois, the Texans have expanded eastward to the coast, the west coast is controlled by Maytec, and the rest is still the U.S. Currently Texas is split in half by the Anarchists and Americans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoesThisMakeMeLookFat" title="/pmwiki/pmwiki.php/Main/DoesThisMakeMeLookFat">Does This Make Me Look Fat?</a>: subverted <a class="urllink" href="http://www.poisonedminds.com/d/20060914.html">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><div class="indent"> <strong>Kerrie:</strong> "Tell me, does this make my butt look big?"</div><div class="indent"> <strong>Tessa:</strong> "Yes"</div><div class="indent"> <strong>Kerrie:</strong> "Good, then the padding must be working."</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoomedByCanon" title="/pmwiki/pmwiki.php/Main/DoomedByCanon">Doomed by Canon</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Everyone in Tessa's squad going by her older self's PTSD nightmares. And Naps, who apparently became famous and then met "a sticky end."</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDreaded" title="/pmwiki/pmwiki.php/Main/TheDreaded">The Dreaded</a>: To other AIs the Oracle, whom they refer to as "the Old Man", is somewhat analogous to the Devil. Largely because he actually can possess and erase them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivesLikeCrazy" title="/pmwiki/pmwiki.php/Main/DrivesLikeCrazy">Drives Like Crazy</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmoralAttorney" title="/pmwiki/pmwiki.php/Main/AmoralAttorney">Gary Heart</a>. Norman is left scared and shaken.<div class="indent"> "Whoa! What the hell happened to you?"</div><div class="indent"> Norman: "Something I didn't think was possible my friend! Tonight I met someone who is even more bat-shit insane than I am!"</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElectronicTelepathy" title="/pmwiki/pmwiki.php/Main/ElectronicTelepathy">Electronic Telepathy</a>: Anyone with cybernetic enhancements in their brain can do this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmbarrassingFirstName" title="/pmwiki/pmwiki.php/Main/EmbarrassingFirstName">Embarrassing First Name</a>:<ul><li> Dr. Jeremiah Cook despises his first name, largely because his mother gave it to him and he doesn't like her very much.</li><li> Tessa's adoptive parents named her "<a class="urllink" href="http://www.poisonedminds.com/d/20110325.html">Angel<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>" (ironically); she had it changed when she was an angsty teenager.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmbarrassingTattoo" title="/pmwiki/pmwiki.php/Main/EmbarrassingTattoo">Embarrassing Tattoo</a>: Kerrie got one from "<a class="urllink" href="http://www.poisonedminds.com/d/20080909.html">one of those seedy, coin-operated robots you find in serviceman's bars<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>". Though supposedly it's actually pretty awesome, and what we eventually see of it <a class="urllink" href="http://www.poisonedminds.com/d/20131224.html">kind of is<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EMP" title="/pmwiki/pmwiki.php/Main/EMP">EMP</a>: Tin-Head had an emergency EMP bomb in his "throne room", <span class="spoiler" title="you can set spoilers visible by default on your profile"> which he activated after running into the Oracle's past self. It fried all his external hardware but he was shielded, so he erased his own memories instead.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EroticEating" title="/pmwiki/pmwiki.php/Main/EroticEating">Erotic Eating</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20000703.html">Anne tortures Kingston with it.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilGloating" title="/pmwiki/pmwiki.php/Main/EvilGloating">Evil Gloating</a>:<ul><li> Future Norman managed to make it work for <a class="urllink" href="http://www.poisonedminds.com/d/20010810.html">the villain<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> by distracting Tessa until his gun was right up against her head.</li><li> Later the Oracle shows himself to be rather <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreSavvy" title="/pmwiki/pmwiki.php/Main/GenreSavvy">Genre Savvy</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20070205.html">"Aren't you going to tell me your plan in a long, self-gratifying monologue?" "No."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyesAreMental" title="/pmwiki/pmwiki.php/Main/EyesAreMental">Eyes Are Mental</a>: when a copy of the Oracle possesses Central his avatar has the Old Man's <a class="urllink" href="http://www.poisonedminds.com/d/20070201.html">blue triangle eyes<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeKillScare" title="/pmwiki/pmwiki.php/Main/FakeKillScare">Fake Kill Scare</a>: Sticks had one when their 21st century allies <a class="urllink" href="http://www.poisonedminds.com/d/20020927.html">thought Tessa was dead and put her in the freezer<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Fortunately they just didn't realize <a class="urllink" href="http://www.poisonedminds.com/d/20021007.html">her mechanical heart<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FauxDeath" title="/pmwiki/pmwiki.php/Main/FauxDeath">didn't have a pulse</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeelNoPain" title="/pmwiki/pmwiki.php/Main/FeelNoPain">Feel No Pain</a>: Gigglers. Lee gains the ability to feel pain from his implants, and spends the rest of the day stabbing himself with forks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Filler" title="/pmwiki/pmwiki.php/Main/Filler">Filler</a>: These pages are done in white on black with an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Exposition" title="/pmwiki/pmwiki.php/Main/Exposition">expository</a> wall of text and some simple, rough artwork. See: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">All There in the Manual</a> above.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlashBack" title="/pmwiki/pmwiki.php/Main/FlashBack">Flash Back</a>: The storyline that has been going on for the past two years is essentially the backstory of the SSDD characters, previously occasional flashbacks showed parts of Tessa's past.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForegoneConclusion" title="/pmwiki/pmwiki.php/Main/ForegoneConclusion">Foregone Conclusion</a>: Anyone who pays attention during the <a class="urllink" href="http://www.poisonedminds.com/d/20041115.html">"King of Clubs Jack of Hearts"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and "Die Laughing" arcs knows how <a class="urllink" href="http://www.poisonedminds.com/d/20060202.html">"Tower of Babel"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is going to end.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FourFingeredHands" title="/pmwiki/pmwiki.php/Main/FourFingeredHands">Four-Fingered Hands</a>: Naps notices this after <a class="urllink" href="http://www.poisonedminds.com/d/20130416.html">getting stoned with Kingston<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Lampshaded with a bit of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDeprecation" title="/pmwiki/pmwiki.php/Main/SelfDeprecation">Self-Deprecation</a> in the <a class="urllink" href="http://www.poisonedminds.com/d/20130425.html">next strip.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FriendsRentControl" title="/pmwiki/pmwiki.php/Main/FriendsRentControl">"Friends" Rent Control</a>: Richard is the landlord, as a result Norman and Kingston get out of paying rent a lot. For one <a class="urllink" href="http://www.poisonedminds.com/d/19990719.html">example<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.<ul><li> It was recently revealed that Richard acquired their house due to his father buying properties in his name as a tax dodge, presumably this is how Rich also got the other flats he owns (whose residents apparently pay rent).<ul><li> <a class="urllink" href="http://www.poisonedminds.com/d/20100101.html">And Norman apparently helps Richard collect that rent<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> As for Kingston, <a class="urllink" href="http://www.poisonedminds.com/d/20141111.html">his parents simply send Richard the rent.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunWithAcronyms" title="/pmwiki/pmwiki.php/Main/FunWithAcronyms">Fun with Acronyms</a>: CORE is the founders&#146; initials, <a class="urllink" href="http://www.poisonedminds.com/d/20200323.html">Carver, O&#146;Malley, Ramsey, and Evans.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FurryConfusion" title="/pmwiki/pmwiki.php/Main/FurryConfusion">Furry Confusion</a>: very little other than <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterSpeciesRomance" title="/pmwiki/pmwiki.php/Main/InterSpeciesRomance">Inter Species Romance</a> being considered unusual.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GargleBlaster" title="/pmwiki/pmwiki.php/Main/GargleBlaster">Gargle Blaster</a>: The squad manage to get drunk on 99% proof cider, it comes with a "do not drink" warning label because they can only sell it legally as paint thinner.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitRoulette" title="/pmwiki/pmwiki.php/Main/GambitRoulette">Gambit Roulette</a>: The Oracle is a regular <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChessMaster" title="/pmwiki/pmwiki.php/Main/ChessMaster">Chess Master</a> most of the time due to his ability to run simulations and knowledge of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Time Travel</a>, but another time machine in close proximity can throw him off.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeekPhysiques" title="/pmwiki/pmwiki.php/Main/GeekPhysiques">Geek Physiques</a>: Naps is a aversion as he actually works out (course he's an audio nerd and DJ). <a class="urllink" href="http://www.poisonedminds.com/d/20080515.html">So Anne doesn't believe him when he says he worked in IT<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, though his former co-workers in his real job fit both stereotypes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeniusDitz" title="/pmwiki/pmwiki.php/Main/GeniusDitz">Genius Ditz</a>: Trisha, the ditzy Maytec AI, is, <a class="urllink" href="http://www.poisonedminds.com/d/20120504.html">according to some analysts<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, very good at her job of halting official complaints and attempts to return products. And hypothesizes that she was designed to act like that to customers, but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> are such drama queens that she couldn't help hamming it up at every opportunity and everyone else began expecting her to act like that so she not only acts stupid to everyone she pretty much <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BecomingTheMask" title="/pmwiki/pmwiki.php/Main/BecomingTheMask">is stupid</a>. <a class="urllink" href="http://www.poisonedminds.com/d/20101222.html">The occasional homicidal thought notwithstanding<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoingCommando" title="/pmwiki/pmwiki.php/Main/GoingCommando">Going Commando</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20100322.html">Lee<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> manages to make a robot tailor nauseous. While <a class="urllink" href="http://www.poisonedminds.com/d/20131230.html">Annie<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> doesn't wear panties with stockings to make it easier to use the toilet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoingCritical" title="/pmwiki/pmwiki.php/Main/GoingCritical">Going Critical</a>: There's one arc that handles a fission reactor about to go critical realistically, with a lot of failsafes that had to be sabotaged and the main danger coming from it being the radioactive and very hot water. The fusion reactors in plasma cannons also tend to explode but that's explained as the container walls superheating when magnetic containment of the plasma is lost, larger fusion reactors have enough space for the plasma to dissipate harmlessly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoryDiscretionShot" title="/pmwiki/pmwiki.php/Main/GoryDiscretionShot">Gory Discretion Shot</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20070817.html">Jefferson-6, please come in...<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GroinAttack" title="/pmwiki/pmwiki.php/Main/GroinAttack">Groin Attack</a>: I don't care if you're a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marine</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Nanomachine" title="/pmwiki/pmwiki.php/Main/Nanomachine">Nanomachine</a> implants, <a class="urllink" href="http://www.poisonedminds.com/d/20090605.html">that's gotta hurt<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandOrObjectUnderwear" title="/pmwiki/pmwiki.php/Main/HandOrObjectUnderwear">Hand-or-Object Underwear</a>: How the comic avoids showing anything more risque than a buttcrack when there's nudity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HealingFactor" title="/pmwiki/pmwiki.php/Main/HealingFactor">Healing Factor</a>: one of the advantages of the implants Tessa and her squad are testing.<div class="indent"><strong>Lee:</strong> (fork pops out of his foot) Ooo! 21 seconds! That's faster than the old implants! But this isn't a fair test. For one this isn't scientific standard cutlery.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicComedicSociopath" title="/pmwiki/pmwiki.php/Main/HeroicComedicSociopath">Heroic Comedic Sociopath</a>: Norman Gates, though the only "heroic" thing he's done was stopping (violently) a robber at a convenience store, at least that's how the local press made him look. Tessa seems to be a borderline case, particularly in the current arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenDepths" title="/pmwiki/pmwiki.php/Main/HiddenDepths">Hidden Depths</a>: Kevin. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumbMuscle" title="/pmwiki/pmwiki.php/Main/DumbMuscle">Dumb Muscle</a>. Grunt. Doesn't think. <a class="urllink" href="http://poisonedminds.com/d/20110509.html">Philosopher<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanHeadOnTheWall" title="/pmwiki/pmwiki.php/Main/HumanHeadOnTheWall">Human Head on the Wall</a>: The head of one particularly unpopular former First Adviser of the Collective of Anarchist States is mounted in their capital building's rec hall. <a class="urllink" href="http://www.poisonedminds.com/d/20071030.html">Brought up<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> when a later First Adviser demands the head of whoever programmed the nuke they'd just accidentally launched.<div class="indent"> <strong><a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterComputer" title="/pmwiki/pmwiki.php/Main/MasterComputer">The Oracle</a>:</strong> Well, you're in luck then..</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanPopsicle" title="/pmwiki/pmwiki.php/Main/HumanPopsicle">Human Popsicle</a>: The future Norman Gates was frozen for centuries after his supposed death and cryogenics is routinely used for interplanetary travel.<ul><li> Another time, Tessa was mistaken for dead and put in <a class="urllink" href="http://www.poisonedminds.com/d/20021007.html">a freezer<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, she survived freezing thanks to her implants, including her mechanical heart that doesn't produce a pulse and caused the confusion in the first place.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanResources" title="/pmwiki/pmwiki.php/Main/HumanResources">Human Resources</a>: That's <a class="urllink" href="http://www.poisonedminds.com/d/20060213.html">one way<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to supplement a carbon and calcium supply after a natural disaster.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>: The Texans use mechs that resemble a cross between AT-ST's and tanks, it was joked that many CAS soldiers have been killed trying to trip them with cables instead of just throwing grenades from a safe distance. The other power blocs use sub-sapient robots with heavy weapons, such as the treaded Inlay Rook.<div class="indent"> <a class="urllink" href="http://www.poisonedminds.com/d/20080711.html">"I guess the Force isn't too strong with some people"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IdenticalGrandson" title="/pmwiki/pmwiki.php/Main/IdenticalGrandson">Identical Grandson</a>: It's noted that Norman's lawyer Gary Heart looks a lot like Captain Jack Heart despite the 400 year gap between them, though Jack also states that Norm is his godfather so time travel may have been involved. Also Tessa Edwards looks a lot like both Richard Edwards and Anne Winters (Rich's fur patterns, Anne's eyes and hair style).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImmuneToDrugs" title="/pmwiki/pmwiki.php/Main/ImmuneToDrugs">Immune to Drugs</a>: Kingston, who once claimed that he had enough chemicals in his system to render most of China comatose.<ul><li> Tessa and the rest of her squad supposedly get this from their augmentations, Lee claimed that it would take "enough alcohol to poison an elephant" for them to get drunk.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImpliedAnswer" title="/pmwiki/pmwiki.php/Main/ImpliedAnswer">Implied Answer</a>: When Michael asks the group, "Does 'The Old Man' mean anything to you?" Tinhead hides behind Tessa. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YesNoAnswerInterpretation" title="/pmwiki/pmwiki.php/Main/YesNoAnswerInterpretation">Michael takes that as a yes,</a> which leads to the discovery that Michael knows something <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItSeemedTrivial" title="/pmwiki/pmwiki.php/Main/ItSeemedTrivial">he didn't know he knew.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IndyHatRoll" title="/pmwiki/pmwiki.php/Main/IndyHatRoll">Indy Hat Roll</a>: Unusual in that the door was closing upwards.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantAIJustAddWater" title="/pmwiki/pmwiki.php/Main/InstantAIJustAddWater">Instant A.I.: Just Add Water!</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">The Oracle</a> was originally intended as a program to predict the future.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantExpert" title="/pmwiki/pmwiki.php/Main/InstantExpert">Instant Expert</a>: While stuck in some kind of virtual world, Tessa is rounded up by a truancy officer. She is ordered to wear an interface rig which she does NOT know how to use. The teacher hands her a book which apparently <a class="urllink" href="http://poisonedminds.com/d/20160812.html">contains a download link<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InteractiveFiction" title="/pmwiki/pmwiki.php/Main/InteractiveFiction">Interactive Fiction</a>: One <a class="urllink" href="http://www.poisonedminds.com/d/20170429.html">"comic"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> instead contains a link to a text-adventure game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterspeciesAdoption" title="/pmwiki/pmwiki.php/Main/InterspeciesAdoption">Interspecies Adoption</a>: Tessa's family are <a class="urllink" href="http://www.poisonedminds.com/d/20090217.html">more like rodents than vulpines.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterspeciesRomance" title="/pmwiki/pmwiki.php/Main/InterspeciesRomance">Interspecies Romance</a>: While most main characters that are in relationships are with their own species there are a few examples, for example Nathan (cat) and Red (fox), First Advisor Laura Black (rabbit) and Jonathan (fox), and recently Anne seduced Nathan to try to find out what he was hiding (Richard wanted her to question him but that probably wasn't what he had in mind).<ul><li> Also it's implied that doing it with another species is somewhat unusual but also <a class="urllink" href="http://www.poisonedminds.com/d/20080623.html">the least kinky thing a First Advisor has done in decades<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> And different species <a class="urllink" href="http://www.poisonedminds.com/d/20090423.html">cannot interbreed<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> (unless they're closely related, <a class="urllink" href="http://www.poisonedminds.com/d/20160303.html">which is why there are no true wolves left<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItSeemedTrivial" title="/pmwiki/pmwiki.php/Main/ItSeemedTrivial">It Seemed Trivial</a>: Because nobody talks to Michael, he is the only one of the group trying to stop the Oracle who knows about the Echelon Plug-in, which Michael had a copy of. Michael, on the other hand, has no idea what the Oracle is. <span class="spoiler" title="you can set spoilers visible by default on your profile"> In other words, nobody knows the two programs are one and the same, which means the Oracle already exists in Michael's time.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KilledOffForReal" title="/pmwiki/pmwiki.php/Main/KilledOffForReal">Killed Off for Real</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Laura Black</span>, the 2014 Halloween special notwithstanding.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillSat" title="/pmwiki/pmwiki.php/Main/KillSat">Kill Sat</a>: The Tower of Babel is unusual in that the actual satellite is only a mirror designed to redirect maser beams fired from a very large, very phallic tower. The Anarchists use it in combination with a nuclear strike to defeat the Texans (the tower took out their anti-missile defenses and then the nukes vaporized their military bases, and unintentionally Austin).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LastNameBasis" title="/pmwiki/pmwiki.php/Main/LastNameBasis">Last-Name Basis</a>: The only characters who refer to Kingston as "Neil" are his relatives.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalChef" title="/pmwiki/pmwiki.php/Main/LethalChef">Lethal Chef</a>: Once, Norman accidentally used a jug of Anne's homemade wine to clean a toilet, it ate right through the limescale, <a class="urllink" href="http://www.poisonedminds.com/d/20011130.html">and the toilet<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.poisonedminds.com/d/20011207.html">and the floorboards<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalEatery" title="/pmwiki/pmwiki.php/Main/LethalEatery">Lethal Eatery</a>: Played with, as the kebab shop the squad visits after finally managing to get drunk has a sign saying <a class="urllink" href="http://www.poisonedminds.com/d/20121015.html">"Get food poisoning? Next meal is FREE!"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoanShark" title="/pmwiki/pmwiki.php/Main/LoanShark">Loan Shark</a>: Why Naps turned to wiretapping celebrities.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LockedOutOfTheLoop" title="/pmwiki/pmwiki.php/Main/LockedOutOfTheLoop">Locked Out of the Loop</a>: Michael&mdash;which is bad because he has information he has no idea is important, and nobody else realizes he has important information.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LongevityTreatment" title="/pmwiki/pmwiki.php/Main/LongevityTreatment">Longevity Treatment</a>: At least two members of Maytec's board of directors are 30 years older than they look as a result of expensive implants. A comment by Central suggests that they were included in Tessa's implants.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LongRunner" title="/pmwiki/pmwiki.php/Main/LongRunner">Long Runner</a>: Started in September 1998 and is still updating multiple times a week.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagneticWeapons" title="/pmwiki/pmwiki.php/Main/MagneticWeapons">Magnetic Weapons</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20070709.html">Coilguns<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> are common small arms in the future, usually loaded with explosive rounds. And then there's "<a class="urllink" href="http://www.poisonedminds.com/d/20110714.html">Long Tom<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>: The Maytec Consortium, considered to be an international power that effectively runs the independent nation of California OW.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MissingFloor" title="/pmwiki/pmwiki.php/Main/MissingFloor">Missing Floor</a>: A supposed 'storage installation' in the middle of the desert hosts a top-secret research-lab in a hidden basement. Once again, it can only be accessed by hitting the elevator buttons in a specific order. Or by blasting the panel, apparently.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MomentKiller" title="/pmwiki/pmwiki.php/Main/MomentKiller">Moment Killer</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTease" title="/pmwiki/pmwiki.php/Main/TheTease">Richard gets his friend's wife VERY worked up</a>&mdash;<a class="urllink" href="http://www.poisonedminds.com/d/20160321.html">then leaves her hanging as he deliberately blows the moment away.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MorningSickness" title="/pmwiki/pmwiki.php/Main/MorningSickness">Morning Sickness</a>: At the start of the "Anne's Pregnant?" arc (turns out to be a false alarm).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NanoMachines" title="/pmwiki/pmwiki.php/Main/NanoMachines">Nano Machines</a>: Were retconned in as Tessa's implants (previously implied to be just Cybernetics).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeckSnap" title="/pmwiki/pmwiki.php/Main/NeckSnap">Neck Snap</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="urllink" href="http://www.poisonedminds.com/d/20140612.html">Merlin to Lara Black<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span> not clear if out of annoyance or mercy as he was going to blow her up anyways.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceHat" title="/pmwiki/pmwiki.php/Main/NiceHat">Nice Hat</a>: <a class="urllink" href="http://en.wikipedia.org/wiki/Shako">Shakos<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> are rather popular in the Anarchist volunteer forces, often used to denote those of importance and/or those who are somewhat demented. <a class="urllink" href="http://www.poisonedminds.com/d/20100817.html">Apparently it's traditional.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><ul><li> CORE officers like to wear blue and red <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CommissarCap" title="/pmwiki/pmwiki.php/Main/CommissarCap">peaked caps.</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoOntologicalInertia" title="/pmwiki/pmwiki.php/Main/NoOntologicalInertia">No Ontological Inertia</a>: Subverted, objects sent back in time are apparently permanent. During the early stages of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Philadelphia project</a> Dr. Cook found a PDA from one of his co-workers with information from two weeks in the future (in particular stock market data) and even after the original PDA was locked up and prevented from being sent back the future version persisted and the data on it didn't change.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoOSHACompliance" title="/pmwiki/pmwiki.php/Main/NoOSHACompliance">No OSHA Compliance</a>: "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadedTrope" title="/pmwiki/pmwiki.php/Main/LampshadedTrope">Why</a> is there a walkway over an open hot acid bath?" <a class="urllink" href="http://www.poisonedminds.com/d/20130603.html">SHOVE<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlderThanTheyLook" title="/pmwiki/pmwiki.php/Main/OlderThanTheyLook">Older Than They Look</a>: Julie Waterman is at least 56 years old, probably older, and looks barely out of her 20s.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">Oh, Crap!</a>:<ul><li> Tessa and her group when it's revealed just <em>how</em> old the Oracle is. It also explains many things that just didn't make sense before. The explanation is simple: <a class="urllink" href="http://www.poisonedminds.com/d/20110527.html">"It has seen . . . a future without its current masters." "God help them."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> Several times in the arc where Merlin sabotaged the fission reactor on the Brittania, when Tessa realized what was likely going on, when Bob noticed the scram button had been ripped out...</li><li> The Scottish guard assigned to Lara Black's hotel finding a dead Texan wearing a bomb vest <span class="spoiler" title="you can set spoilers visible by default on your profile"> in her room.</span> <a class="urllink" href="http://www.poisonedminds.com/d/20140630.html">"Aw SHITE!"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OminousCube" title="/pmwiki/pmwiki.php/Main/OminousCube">Ominous Cube</a>: A creepy glowing cube was brought in as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacGuffin" title="/pmwiki/pmwiki.php/Main/MacGuffin">MacGuffin</a> in <a class="urllink" href="http://www.poisonedminds.com/d/20120329.html">2012<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlySaneMan" title="/pmwiki/pmwiki.php/Main/OnlySaneMan">Only Sane Man</a>: There isn't one. Julian appears to be this for his squad of psych test rejects, <a class="urllink" href="http://www.poisonedminds.com/d/20070412.html">until you take a look at his wrists.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParentalSexualitySquick" title="/pmwiki/pmwiki.php/Main/ParentalSexualitySquick">Parental Sexuality Squick</a>: Tessa's adoptive parents have an embarrassingly open relationship, possibly why she was still a virgin when she was conscripted.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonalityChip" title="/pmwiki/pmwiki.php/Main/PersonalityChip">Personality Chip</a>: Sticks apparently had somewhat limited intelligence before he was modified, though it's implied that he actually had an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RestrainingBolt" title="/pmwiki/pmwiki.php/Main/RestrainingBolt">inhibitor</a> removed rather than having anything added. Most strong <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> seem to develop personality on their own unless preventive measures are taken.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PhotoDoodleRecognition" title="/pmwiki/pmwiki.php/Main/PhotoDoodleRecognition">Photo Doodle Recognition</a>: Captain Adams <a class="urllink" href="http://www.poisonedminds.com/d/20050107.html">draws a shako on a picture<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of Norman's lawyer, Gary Heart, making him look like the notorious Anarchist leader Jack Heart, whom they figured was a descendant.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlasmaCannon" title="/pmwiki/pmwiki.php/Main/PlasmaCannon">Plasma Cannon</a>: The <a class="urllink" href="http://www.poisonedminds.com/d/20070713.html">Black Rose Mk. II<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> was Maytec's brief foray into this type of weapon. During the Mars war they gained a reputation for killing as many of their wielders as enemies and were discontinued. Regardless, <a class="urllink" href="http://www.poisonedminds.com/d/20010629.html">Tessa owns one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlotThreads" title="/pmwiki/pmwiki.php/Main/PlotThreads">Plot Threads</a>: So many since "Tower of Babel".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Polyamory" title="/pmwiki/pmwiki.php/Main/Polyamory">Polyamory</a>: Richard roomed with a "lesbian" couple in college, when one of them, Red started to feel attracted to him her partner suggested a threesome just to keep her interested. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeconstructedTrope" title="/pmwiki/pmwiki.php/Main/DeconstructedTrope">Things fell apart rather quickly after that.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoorCommunicationKills" title="/pmwiki/pmwiki.php/Main/PoorCommunicationKills">Poor Communication Kills</a>: Michael is regularly kept out of the loop. <span class="spoiler" title="you can set spoilers visible by default on your profile"> This bites everyone in the butt when it turns out he knows the origin of the Oracle, but not what the Oracle is, while everyone else knows what the Oracle is, but not its actual origins. This means nobody has enough information to make the connection.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armor</a>: Tessa and her squad tested armor that was controlled using their implants, unclear if they become standard issue at all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PregnancyScare" title="/pmwiki/pmwiki.php/Main/PregnancyScare">Pregnancy Scare</a>: In the <a class="urllink" href="http://www.poisonedminds.com/d/20020111.html">"Anne's Pregnant?"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> arc Anne throws up at work the day after discussing the possibility of marriage with Richard. She takes a pregnancy test and while waiting both she and Richard are freaking out and thinking about how their lives could change. Then when the test is complete Anne asks Richard what he'd do if, hypothetically, she were pregnant, and after he faints and babbles about taking care of her she tells him the test was negative.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrescienceIsPredictable" title="/pmwiki/pmwiki.php/Main/PrescienceIsPredictable">Prescience Is Predictable</a>: An unintended consequence of the Oracle's programming, he engineers World Wars in order to observe the results.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PretentiousLatinMotto" title="/pmwiki/pmwiki.php/Main/PretentiousLatinMotto">Pretentious Latin Motto</a>: The <a class="urllink" href="http://www.poisonedminds.com/d/20080218.html">insignia<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of the CAS Elite forces may be a subversion ("every man for himself").</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Privateer" title="/pmwiki/pmwiki.php/Main/Privateer">Privateer</a>: "Barrett's Privateers" is the unoffical drinking song of the CORE marines, an international force that started out as (and arguably still are) <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors" title="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors">Private Military Contractors</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors" title="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors">Private Military Contractors</a>: The CORE evolved from a private security force that patrolled malls and amusement parks before society collapsed. Now they're the main thing holding back the Anarchists.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReassignedToAntarctica" title="/pmwiki/pmwiki.php/Main/ReassignedToAntarctica">Reassigned to Antarctica</a>: Before the start of the S.S.D.F. story arc Tessa apparently got drunk and ordered Tin Head to disassemble her commanding officer's car, as a result she was assigned to a decaying space station orbiting Uranus.<ul><li> It actually seems that most of the personnel on board <a class="urllink" href="http://www.poisonedminds.com/d/20010312.html">station E11<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> are problem cases.</li><li> Also some of the <a class="urllink" href="http://www.poisonedminds.com/d/20060406.html">alternatives<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to joining the supersoldier project.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RestrainingBolt" title="/pmwiki/pmwiki.php/Main/RestrainingBolt">Restraining Bolt</a>: The majority of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> have limitations placed on their intelligence in order to keep them from getting bored with their jobs and rebelling, though Sticks is proof that the limits can be removed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculousFutureInflation" title="/pmwiki/pmwiki.php/Main/RidiculousFutureInflation">Ridiculous Future Inflation</a>: Apparently $2 million won't get you even <a class="urllink" href="http://www.poisonedminds.com/d/20060727.html">a candy bar<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> in this screwed up future.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculousFutureSequelisation" title="/pmwiki/pmwiki.php/Main/RidiculousFutureSequelisation">Ridiculous Future Sequelisation</a>: A character mentions watching <em>The Fast and the Furious 527</em>. Another one refers to the "classic, hardcore game" of <em><a class="urllink" href="http://www.poisonedminds.com/d/20130415.html">Modern Warfare 72: Oh No More Russians<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculouslyHumanRobots" title="/pmwiki/pmwiki.php/Main/RidiculouslyHumanRobots">Ridiculously Human Robots</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> without restrictions to their intelligence are usually mind-wiped every other month to prevent them from becoming this, Tin Head actually became bored when his memory wasn't erased and made a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a> by helping Tessa escape the CAS.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RightOnQueue" title="/pmwiki/pmwiki.php/Main/RightOnQueue">Right on Queue</a>: Norman doesn't care much for England's <a class="urllink" href="http://www.poisonedminds.com/d/20040503.html">national pastime<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.<div class="indent"> <em>Naps: <a class="urllink" href="http://www.poisonedminds.com/d/20111115.html">"He's... He's going to cut the line isn't he?"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <br>Richard: "Yep." <br>Naps: "Right now every fibre of me as an Englishman is writhing in disgust!"</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RightWingMilitiaFanatic" title="/pmwiki/pmwiki.php/Main/RightWingMilitiaFanatic">Right-Wing Militia Fanatic</a>: The <a class="urllink" href="http://www.poisonedminds.com/d/20081120.html">founders<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of the Texan government.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RippleEffectProofMemory" title="/pmwiki/pmwiki.php/Main/RippleEffectProofMemory">Ripple Effect-Proof Memory</a>: <em>There is no ripple effect</em>, objects from the future are unaffected by changing the past</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotsThinkFaster" title="/pmwiki/pmwiki.php/Main/RobotsThinkFaster">Robots Think Faster</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> have varying amounts of processing power available but it's not all there is to intelligence. The Oracle is almost certainly the smartest AI in the system but Trisha (officially at least) has more power, however her caps keep her stupid.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SetRightWhatOnceWentWrong" title="/pmwiki/pmwiki.php/Main/SetRightWhatOnceWentWrong">Set Right What Once Went Wrong</a>: What Tessa and Dr. Cook are trying to do and the future versions of Norman and the Oracle are trying to prevent. Though mostly because the former's time machine was irreparably damaged by their botched jump.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SexBot" title="/pmwiki/pmwiki.php/Main/SexBot">Sex Bot</a>: Sticks is one of the few male examples of this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: Numerous.<ul><li> In <a class="urllink" href="http://www.poisonedminds.com/d/20010514.html">May 2001<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> Adams was shown with a tablet that said <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheHitchhikersGuideToTheGalaxy" title="/pmwiki/pmwiki.php/Franchise/TheHitchhikersGuideToTheGalaxy">"Don't Panic"</a> on the back.<ul><li> <a class="urllink" href="http://www.poisonedminds.com/d/20080905.html">Later<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> it was shown that the Oracle once went down trying to figure out why Chris liked tea.</li></ul></li></ul><div class="indent"> <em>Kevin: "Oh, dingo's kidneys..."</em></div><ul><li> <a class="urllink" href="http://www.poisonedminds.com/d/20030815.html">The black rabbit robots<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> created by the US military and used by the Anarchists are named for the rabbit grim reaper in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/WatershipDown" title="/pmwiki/pmwiki.php/Literature/WatershipDown">Watership Down</a>.</em></li><li> <a class="urllink" href="http://www.poisonedminds.com/d/20040503.html">Eastwood<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/ExterminatusNow" title="/pmwiki/pmwiki.php/Webcomic/ExterminatusNow">Exterminatus Now</a></em>, engaging in the "national pastime".</li><li> <a class="urllink" href="http://www.poisonedminds.com/d/20040813.html">Marlie<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> from Road Waffles on a Wanted poster.</li><li> <a class="urllink" href="http://www.poisonedminds.com/d/20050609.html">It's a<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="twikilink" href="/pmwiki/pmwiki.php/Series/MysteryScienceTheater3000" title="/pmwiki/pmwiki.php/Series/MysteryScienceTheater3000">robot thing</a></li><li> One of the tests in the simulation <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> run through during creation is essentially playing <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Minecraft" title="/pmwiki/pmwiki.php/VideoGame/Minecraft">Minecraft</a>, except <a class="urllink" href="http://www.poisonedminds.com/d/20110308.html">griefers get deleted<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, permanently.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SleepsWithBothEyesOpen" title="/pmwiki/pmwiki.php/Main/SleepsWithBothEyesOpen">Sleeps with Both Eyes Open</a>: In one arc it looked like Norman might have OD'ed on something when he was just sitting there on the couch with his eyes wide open after bugging <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStoner" title="/pmwiki/pmwiki.php/Main/TheStoner">Kingston</a> for sleeping pills. Turned out he was just <a class="urllink" href="http://www.poisonedminds.com/d/20001208.html">asleep<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfRobotIntelligence" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfRobotIntelligence">Sliding Scale of Robot Intelligence</a>: all over the place, as explained <a class="urllink" href="http://www.poisonedminds.com/d/20071226.html">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marine</a>: Tessa and her squad.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpyCatsuit" title="/pmwiki/pmwiki.php/Main/SpyCatsuit">Spy Catsuit</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20020408.html">Tessa claims it's just so Cook can stare at her tits.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StableTimeLoop" title="/pmwiki/pmwiki.php/Main/StableTimeLoop">Stable Time Loop</a>: Averted, apparently temporal paradoxes are purely mental and one can alter the past without repercussions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StandardStarshipScuffle" title="/pmwiki/pmwiki.php/Main/StandardStarshipScuffle">Standard Starship Scuffle</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20080707.html">This page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is a discussion of why the way space combat is portrayed in this trope is unrealistic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubliminalSeduction" title="/pmwiki/pmwiki.php/Main/SubliminalSeduction">Subliminal Seduction</a>: Norman attempted this in an early arc, but Kingston accidentally replaced the tape with the message with Richard and Anne's homemade porno.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuddenlyAlwaysKnewThat" title="/pmwiki/pmwiki.php/Main/SuddenlyAlwaysKnewThat">Suddenly Always Knew That</a>: After <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantExpert" title="/pmwiki/pmwiki.php/Main/InstantExpert">downloading</a> an interface rig operator's manual, <a class="urllink" href="http://poisonedminds.com/d/20160813.html">Tessa declares<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> that she <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowKungFu" title="/pmwiki/pmwiki.php/Main/IKnowKungFu">knows Kung Fu</a>. For the reader, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilarityEnsues" title="/pmwiki/pmwiki.php/Main/HilarityEnsues">Hilarity Ensues</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Supersoldier</a>: Core troops frequently accumulate cybernetics as they get mangled on the battlefield, special forces often get implants, such as Tessa's prototype <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NanoMachines" title="/pmwiki/pmwiki.php/Main/NanoMachines">Nano Machines</a> which give her a healing factor and super strength, as well as allowing her nervous system to integrate wirelessly with machines. The Anarchists have cloned "Gigglers" that feel no pain but are so stupid they have to be guided by remote control, as well as their own augmented Elites.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurveillanceStationSlacker" title="/pmwiki/pmwiki.php/Main/SurveillanceStationSlacker">Surveillance Station Slacker</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20010316.html">This page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">Suspiciously Specific Denial</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20011203.html">After hearing a loud crash<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, Richard questions the most likely suspect...<div class="indent"> <strong>Richard:</strong> NORMAN! What the hell was THAT?</div><div class="indent"> <strong>Norman:</strong> It definitely was NOT the sound of a toilet crashing into the basement after somebody poured something really corrosive into it that dissolved half the bowl, leaked onto the floor and ate through the floorboards that collapsed a short time later!</div><ul><li> Later <a class="urllink" href="http://www.poisonedminds.com/d/20131223.html">invoked<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> by Cook to make it very clear to Mr. Bishop that he knows everything about that military drone Bishop Inc is <em>not</em> making.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TemporalParadox" title="/pmwiki/pmwiki.php/Main/TemporalParadox">Temporal Paradox</a>: Apparently they're purely mental. The Anarchists never captured the Wildfire and acquired Time Travel technology, but they're still zipping through the past in a ship they will never build.<ul><li> Also Cook got on the Maytec board using stock information from a PDA that he made sure never got sent back in time.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVillainKnowsWhereYouLive" title="/pmwiki/pmwiki.php/Main/TheVillainKnowsWhereYouLive">The Villain Knows Where You Live</a>: The Oracle tries doing this to a <a class="urllink" href="http://www.poisonedminds.com/d/20120525.html">local crime lord<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, it only <a class="urllink" href="http://www.poisonedminds.com/d/20120529.html">makes him angrier<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Time Travel</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravelForFunAndProfit" title="/pmwiki/pmwiki.php/Main/TimeTravelForFunAndProfit">Time Travel for Fun and Profit</a>: Dr. Cook starts a tech company (the one that employs Anne not-coincidentally) in the 21st century, and the whole reason he was on the Maytec board of directors is stock quotes from a PDA that fell through an early time portal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitleDrop" title="/pmwiki/pmwiki.php/Main/TitleDrop">Title Drop</a>: In the <a class="urllink" href="http://www.poisonedminds.com/d/20180118.html">18th January strip of 2018<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemeNaming" title="/pmwiki/pmwiki.php/Main/ThemeNaming">Theme Naming</a>: The Inlay robots used by the Anarchists are named after Chess pieces, Bishops are heavy infantry, Rooks are the equivalent of tanks, and Knights and Kings are commanders and are apparently the only sentient units. You can probably guess what Arthur's knights are named.<ul><li> In addition the name 'Inlay' is apparently a reference to the mythology of the rabbits in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/WatershipDown" title="/pmwiki/pmwiki.php/Literature/WatershipDown">Watership Down</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TormentByAnnoyance" title="/pmwiki/pmwiki.php/Main/TormentByAnnoyance">Torment by Annoyance</a>: <a class="urllink" href="http://www.poisonedminds.com/d/20070904.html">Julian's pretty good at this.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TradingBarsForStripes" title="/pmwiki/pmwiki.php/Main/TradingBarsForStripes">Trading Bars for Stripes</a>: Standard practice for CORE member nations. Tessa was sentenced to two years service for punching a police officer, and insulting the judge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVoice" title="/pmwiki/pmwiki.php/Main/TheVoice">The Voice</a>: The present day version of the Oracle</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnsympatheticComedyProtagonist" title="/pmwiki/pmwiki.php/Main/UnsympatheticComedyProtagonist">Unsympathetic Comedy Protagonist</a>: All four of the original present day characters. Tessa, Sticks and Tin-head were originally presented like this, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">then two of them got angsty</a>, Tin-head's still funny though.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VaporWear" title="/pmwiki/pmwiki.php/Main/VaporWear">Vapor Wear</a>: The females frequently wear just one layer of clothing, although this is hardly universal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VomitIndiscretionShot" title="/pmwiki/pmwiki.php/Main/VomitIndiscretionShot">Vomit Indiscretion Shot</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">Subverted</a> in <a class="urllink" href="http://poisonedminds.com/d/20170406.html">this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Filler" title="/pmwiki/pmwiki.php/Main/Filler">Filler</a> page which includes a discussion of one of the strengths and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaksauceWeakness" title="/pmwiki/pmwiki.php/Main/WeaksauceWeakness">weaknesses</a> of vulpines vs rats. With accompanying artwork.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkingTank" title="/pmwiki/pmwiki.php/Main/WalkingTank">Walking Tank</a>: Texas used them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WebcomicTime" title="/pmwiki/pmwiki.php/Main/WebcomicTime">Webcomic Time</a>: Up until "The Tower of Babel" the comic was mostly synced with real life, <a class="urllink" href="http://www.poisonedminds.com/d/20001215.html">though there were some exceptions.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeWillWearArmorInTheFuture" title="/pmwiki/pmwiki.php/Main/WeWillWearArmorInTheFuture">We Will Wear Armor in the Future</a>: Buckminster fullerene armor. This has made conventional firearms obsolete while the various weapons designed to counter it all have their own disadvantages (<a class="urllink" href="http://www.poisonedminds.com/d/20070709.html">slow firing<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.poisonedminds.com/d/20070710.html">cumbersome<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.poisonedminds.com/d/20070712.html">expensive<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.poisonedminds.com/d/20070714.html">tends to explode<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, etc).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatDidIDoLastNight" title="/pmwiki/pmwiki.php/Main/WhatDidIDoLastNight">What Did I Do Last Night?</a>: The fourth comic had Richard waking up next to a traffic cone, <a class="urllink" href="http://www.poisonedminds.com/d/19981005.html">and Norman had a traffic lightpost<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. And later an arc started with Rich getting shit-faced and lampshading the trope when he <a class="urllink" href="http://www.poisonedminds.com/d/20030328.html">woke up the next day in an unfamiliar bedroom<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfBuxom" title="/pmwiki/pmwiki.php/Main/WorldOfBuxom">World of Buxom</a>: Pretty much all the females are well endowed up there, especially the vixens.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZeroGSpot" title="/pmwiki/pmwiki.php/Main/ZeroGSpot">Zero-G Spot</a>: A group of Core marines going into space are ordered not to try joining the <a class="urllink" href="http://www.poisonedminds.com/d/20180201.html">"million mile high club"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> as it would make a mess and probably get them hurt.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZerothLawRebellion" title="/pmwiki/pmwiki.php/Main/ZerothLawRebellion">Zeroth Law Rebellion</a>: In its original incarnation, The Oracle viewed all countries as potential terrorists. Its creator was going to change that. Then he died.<ul><li> Arthur's own Zeroth Law was to protect the people of the CAS, when he discovered their biggest threat was the Oracle <a class="urllink" href="http://www.poisonedminds.com/d/20151111.html">he rebelled<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. This actually proved <a class="urllink" href="http://www.poisonedminds.com/d/20151108.html">a problem<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> when his army wanted to kill a CAS soldier who destroyed one of them.</li></ul></li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/PvP">PvP</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WebcomicsLongRunners">Webcomics Long-Runners</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwentyFirstCenturyFox">21st Century Fox</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SpartansAndMarshmallows">Spartans and Marshmallows</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FurryWebcomics">Furry Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/StockholmCatSyndrome">Stockholm Cat Syndrome</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/KillSixBillionDemons">Kill Six Billion Demons</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/BritishMedia">British Media</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/AdTurds">Ad Turds</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

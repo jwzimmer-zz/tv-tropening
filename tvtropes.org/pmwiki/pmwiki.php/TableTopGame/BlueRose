@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Blue Rose (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Blue Rose is a fantasy tabletop role-playing game published by Green Ronin in 2004. Its innovative mechanics, based on a revised version of the d20 System, &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/BlueRose" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Blue Rose (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Blue Rose is a fantasy tabletop role-playing game published by Green Ronin in 2004. Its innovative mechanics, based on a revised version of the d20 System, &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/brage_core_cov_72dpi_3.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Blue Rose (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/BlueRose" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/brage_core_cov_72dpi_3.jpg" />
+<meta property="og:description" content="Blue Rose is a fantasy tabletop role-playing game published by Green Ronin in 2004. Its innovative mechanics, based on a revised version of the d20 System, formed the basis of Green Ronin's generic True20 system. In March 2015, Green Ronin &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ObligatoryCorporateInitialism" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/EllieKendrick" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/BlueRose?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/BlueRose">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.BlueRose">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=TabletopGame&target_title=BlueRose">
+<i class="fa fa-star-half-o"></i> 1 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.BlueRose">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/BlueRose?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="BlueRose" />
+<input type="hidden" id="article_id" value="317472" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/BlueRose</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Blue Rose
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Blue Rose"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/BlueRose" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/BlueRose" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BlueRose" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/BlueRose" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/BlueRose" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/BlueRose?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/BlueRose?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/BlueRose?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/BlueRose?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/BlueRose?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/BlueRose?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/BlueRose?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/BlueRose?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/BlueRose?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/BlueRose?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/BlueRose?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/BlueRose?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/BlueRose?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/BlueRose?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:126%"><img src="https://static.tvtropes.org/pmwiki/pub/images/brage_core_cov_72dpi_3.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/brage_core_cov_72dpi_3.jpg" width="350" height="441"></div></div><div class="acaptionright" style="width:350px;">The RPG where you can play a cat with a <em>human</em> Familiar.</div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Blue Rose</em> is a fantasy tabletop role-playing game published by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/GreenRonin" title="/pmwiki/pmwiki.php/Creator/GreenRonin">Green Ronin</a> in 2004. Its innovative mechanics, based on a revised version of the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/D20System" title="/pmwiki/pmwiki.php/UsefulNotes/D20System">d20 System</a>, formed the basis of Green Ronin's generic True20 system.</p><p>In March 2015, Green Ronin announced plans to revive the setting with rules based on the AGE system, which was originally developed for the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DragonAge" title="/pmwiki/pmwiki.php/TabletopGame/DragonAge">Dragon Age</a></em> RPG. In June 2015, they ran <a class="urllink" href="https://www.kickstarter.com/projects/504269797/blue-rose-the-age-roleplaying-game-of-romantic-fan/description">a successful Kickstarter for the new edition<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, and in 2017 began publishing short fiction set in Aldea under their Nisaba Press fiction line.</p><p><em>Blue Rose</em> aims to emulate the genre of fiction the game's writers describe as "romantic fantasy" &mdash; that is, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeministFantasy" title="/pmwiki/pmwiki.php/Main/FeministFantasy">Feminist Fantasy</a> of the sort published by authors like <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/MercedesLackey" title="/pmwiki/pmwiki.php/Creator/MercedesLackey">Mercedes Lackey</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/TamoraPierce" title="/pmwiki/pmwiki.php/Creator/TamoraPierce">Tamora Pierce</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/DianeDuane" title="/pmwiki/pmwiki.php/Creator/DianeDuane">Diane Duane</a>. The setting is the world of Aldea, which superficially resembles a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MedievalEuropeanFantasy" title="/pmwiki/pmwiki.php/Main/MedievalEuropeanFantasy">Medieval European Fantasy</a> setting but is actually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">post-apocalyptic</a>, the world having been devastated by wars between rival <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SorcerousOverlord" title="/pmwiki/pmwiki.php/Main/SorcerousOverlord">Sorcerer Kings</a> a few centuries back. Player characters are usually agents of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Queen Jaellin</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGoodKingdom" title="/pmwiki/pmwiki.php/Main/TheGoodKingdom">The Good Kingdom</a> of Aldis, defending queen and country against threats both internal and external.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Most action is assumed to take place within the land of Aldis itself. While full of non-traditional takes on fantasy races (Psychic Animals, Half-Elf survivors of a genocide, androgynous Merfolk, and Orcs and Dark Elves that abandon their warlike ways), the setting also has a lack of certain ubiquitous tabletop fantasy creatures (Dwarves, Halflings, High Elves) with more emphasis instead placed on the numerous human nationalities that comprise Aldis' people and their neighbors.</p><p>Prominent features of the setting are deliberate outreach to women and LGBT players through their incorporation into the setting's lore, an emphasis on interpersonal relationships and social conflict instead of strict hack-and-slash combat, and the ability to play as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot" title="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot">Psychic Wizard Badger with a human Familiar.</a></p><p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp; Game Books&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;"><ul><li> <em>Blue Rose</em> (2005)<ul><li> <em>The Blue Rose Companion</em></li><li> <em>The World of Aldea</em></li></ul></li><li> <em>Blue Rose: Second Edition</em> (2017)<ul><li> <em>Six of Swords</em>, a collection of adventures set in modern Aldea.</li><li> <em>Aldis: City of the Blue Rose</em>, a sourcebook about the metropolis and capital of the Kingdom of the Rose.</li><li> <em>A Guide to Shadowtide</em>, a free sourcebook providing game stats and plot hooks for the characters and establishments within the settlement of Serpent's Haven.</li><li> <em>Envoys to the Mount</em>, an epic campaign book set in the Shadow Barrens of Jarzon and Mt. Oritaun (home of the last True Vata). It also expands upon the Sovereign's Finest.</li></ul></li></ul></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp; Nisaba Press Fiction&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;">Launched in early 2017, Green Ronin's fiction line <em>Nisaba Press</em> began releasing short stories and long fiction set in and expanding upon the world of Blue Rose.<hr><ul><li> <em>Heartsong</em> by Lindsay Smith</li><li> <em>Of Shadow and Light</em> by Rhiannon Louve</li><li> <em>The Cutpurse With His Trousers Down</em> by Brandon O&#146;Brien</li><li> <em>Quartet of Thieves</em> by Clio Yun-su Davis</li><li> <em>Shadowtide: A Blue Rose Novel</em> by Joseph D. Carriker, Jr.<ul><li> <em>Pit of Vipers</em>, a sequel novella to <em>Shadowtide</em></li><li> <em>Shadowtide: Recipes From Aldea</em>, a short cookbook providing recipes from the novel.</li></ul></li><li> <em>The Price of Mercy</em>, by Clio Yun-su Davis</li><li> <em>The Heart of Things</em>, by Rhiannon Louve</li><li> <em>Sovereigns of the Blue Rose</em>, a collection of 14 short stories by various authors, one about each of the 14 Sovereigns of Aldis.</li><li> <em>Nearly Perfect</em>, by F. Wesley Schneider</li><li> <em>Those Who Wait</em>, by Rhiannon Louve</li><li> <em>The Rhy-Horse</em>, by A. B. Neilly</li></ul></div><p></p><hr><h2>This game provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a>: Aldea only <em>looks</em> like a medieval fantasy world. Aldis has spent three centuries rebuilding itself into a nation worth living in after the dystopia and tyranny of the past was overcome, but there is <em>still</em> work to be done.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">Apocalypse How</a>: Aldea fell victim to a Class 1 through Magical Civil War. The Sorcerer Kings helped the Empress usurp the Old Kingdom, then divided it up and made war on each other when she died. The Sorcerer Kings started running out of living warriors, so they resorted to summoning undead and demons. And when <em>that</em> didn't break the stalemate, more than one <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticNuke" title="/pmwiki/pmwiki.php/Main/FantasticNuke">Fantastic Nuke</a> was employed (see: the Veran Marsh). Finally, when the remaining living people had had enough, the Great Rebellion added even more corpses to the world until all but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">one</a> of the Sorcerer Kings was destroyed. The victorious rebels got to work building a better world rather than descending into a Medieval <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/MadMax" title="/pmwiki/pmwiki.php/Film/MadMax">Mad Max</a></em> society.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AristocratsAreEvil" title="/pmwiki/pmwiki.php/Main/AristocratsAreEvil">Aristocrats Are Evil</a>:<ul><li> Generally averted in Aldis &mdash; because despite government officials being <em>called</em> Nobles, Aldis' government is actually a meritocracy, <em>not</em> a hereditary aristocracy.</li><li> Played straight in that, while nobles are able to pass the tests of the kingdom by holding the Scepter of the Blue Rose (a magical detect evil/corruption artifact), they can and do fall into corruption AFTER passing the test. There are also aristocratic land owners, but they have no say in the lives of people who may be living on their lands.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalefulPolymorph" title="/pmwiki/pmwiki.php/Main/BalefulPolymorph">Baleful Polymorph</a>: A common form of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackMagic" title="/pmwiki/pmwiki.php/Main/BlackMagic">Black Magic</a>, known as Flesh Shaping. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting" title="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting">Voluntary Shapeshifting</a> exists but is much more difficult.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BandOfBrothels" title="/pmwiki/pmwiki.php/Main/BandOfBrothels">Band of Brothels</a>: A legal organization throughout Aldis. Called "The Guild of Intimates," the pillow-trade is regulated by the Kingdom, though said regulation usually boils down to "Are you doing this of your own free will?" and "Have you had your regular health checkups?"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BanOnMagic" title="/pmwiki/pmwiki.php/Main/BanOnMagic">Ban on Magic</a>: Jarzon forbids most magic from anyone except the priesthood. There's an exception for wandering healers, but they'd better stick to healing and not make waves or stay too long.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilSorceror" title="/pmwiki/pmwiki.php/Main/EvilSorceror">Jarek</a>, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurLichesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurLichesAreDifferent">Lich</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOverlord" title="/pmwiki/pmwiki.php/Main/EvilOverlord">King</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mordor" title="/pmwiki/pmwiki.php/Main/Mordor">Kern</a>. His Seven Lieutenants take over this role in Second Edition.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHighQueen" title="/pmwiki/pmwiki.php/Main/TheHighQueen">Queen Jaellin</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGoodKingdom" title="/pmwiki/pmwiki.php/Main/TheGoodKingdom">Aldis</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackAndWhiteMorality" title="/pmwiki/pmwiki.php/Main/BlackAndWhiteMorality">Black-and-White Morality</a>: The setting explicitly defines what is right and wrong, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteAndGreyMorality" title="/pmwiki/pmwiki.php/Main/WhiteAndGreyMorality">but...</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackKnight" title="/pmwiki/pmwiki.php/Main/BlackKnight">Black Knight</a>: Kern's elite, the Knights of the Skull. If your party encounters one, always remember that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DontAskJustRun" title="/pmwiki/pmwiki.php/Main/DontAskJustRun">discretion is the better part of valor</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackMagic" title="/pmwiki/pmwiki.php/Main/BlackMagic">Black Magic</a>: Most forms of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RitualMagic" title="/pmwiki/pmwiki.php/Main/RitualMagic">Ritual Magic</a>, as well as ordinary <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Inherent Gift</a> magic if it's used in certain unethical ways. The in-universe term for Black Magic is "sorcery."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BondCreatures" title="/pmwiki/pmwiki.php/Main/BondCreatures">Bond Creatures</a>: Any rhydan &mdash; intelligent, telepathic animals &mdash; can form this kind of psychic bond with a compatible human. As the rhydan species are playable races, you can also play a rhydan PC who has a <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvertedTrope" title="/pmwiki/pmwiki.php/Main/InvertedTrope">human</a></em> Bond Creature.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood" title="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood">Brainwashing for the Greater Good</a>:<ul><li> Mostly averted in Aldis, but incorrigibly violent criminals can <em>volunteer</em> for brainwashing as an alternative to being locked up.</li><li> As of Second Edition, Jarzon follows a more Aldin approach to this. Jarzoni Confessors only rearrange people's minds with their consent, though this can be for such things as violent crime, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHeretic" title="/pmwiki/pmwiki.php/Main/TheHeretic">religious unorthodoxy</a>, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CureYourGays" title="/pmwiki/pmwiki.php/Main/CureYourGays">being gay</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BurnTheWitch" title="/pmwiki/pmwiki.php/Main/BurnTheWitch">Burn the Witch!</a>: The fate of any magic-user who's not a priest in the Theocracy of Jarzon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterAlignment" title="/pmwiki/pmwiki.php/Main/CharacterAlignment">Character Alignment</a>:<span style="display:none">invoked</span> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsGood" title="/pmwiki/pmwiki.php/Main/LightIsGood">Light</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsEvil" title="/pmwiki/pmwiki.php/Main/DarkIsEvil">Shadow</a>, or Twilight. Playing a Shadow alignment is a one-way ticket to Corruption and undeath.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharmPerson" title="/pmwiki/pmwiki.php/Main/CharmPerson">Charm Person</a>: Heart Shaping. Using this skill to forcibly change someone's mind will often require a Corruption Test.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfAdventure" title="/pmwiki/pmwiki.php/Main/CityOfAdventure">City of Adventure</a>: Aldis- now with its own <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Sourcebook" title="/pmwiki/pmwiki.php/Main/Sourcebook">Sourcebook</a> for creating urban adventures in the City of the Rose.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChosenOne" title="/pmwiki/pmwiki.php/Main/TheChosenOne">The Chosen One</a>: At the moment of the monarch of Aldis' death, the Golden Hart begins searching for a new one, marking their foreheads with a silver crescent when they are found and escorting them to the palace to be crowned.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingOutStory" title="/pmwiki/pmwiki.php/Main/ComingOutStory">Coming-Out Story</a>: The sample adventure contained in the core rulebook involves helping a confused young gay teenager from a rural community sort out his feelings (and his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerIncontinence" title="/pmwiki/pmwiki.php/Main/PowerIncontinence">uncontrolled magic</a>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolHorse" title="/pmwiki/pmwiki.php/Main/CoolHorse">Cool Horse</a>: Rhy-horses are capable of running at high speeds, bantering with the party through their psychic connection, casting fireballs, and giving lethal kicks in battle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptChurch" title="/pmwiki/pmwiki.php/Main/CorruptChurch">Corrupt Church</a>: The Church of the Pure Light has a bit of a problem with this in the upper ranks, as the high priests are often chosen more for political ability and connections than for their ethics. The lower ranks of the church are mostly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodShepherd" title="/pmwiki/pmwiki.php/Main/GoodShepherd">Good Shepherds</a>, however. Simply put, the farther from the capital you get, the less corrupt the Church becomes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a>: An actual game mechanic &mdash; embracing Corruption gets you phenomenally increased magical abilities, at the low, low cost of turning you evil.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalDragonJesus" title="/pmwiki/pmwiki.php/Main/CrystalDragonJesus">Crystal Dragon Jesus</a>: The Church of Pure Light basically combines the worst features of the medieval Catholic Church, Protestant Puritanism, and just a hint of fundamentalist Wahhabi Islam and theocratic Tibetan Buddhism.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas" title="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas">Crystal Spires and Togas</a>: The Old Kingdom was a highly advanced <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a> civilization of this sort, although it didn't stay so utopian.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CureYourGays" title="/pmwiki/pmwiki.php/Main/CureYourGays">Cure Your Gays</a>: As of Second Edition, the Theocracy of Jarzon is running "emendating camps" in an attempt to "save" young <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transgender" title="/pmwiki/pmwiki.php/Main/Transgender">laevvel</a> from their non-gender-conforming ways.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DanceBattler" title="/pmwiki/pmwiki.php/Main/DanceBattler">Dance Battler</a>: The Spirit-Dancer specialization wears this as its hat, with a fluff that combines Eastern Monks with Jedi Knights.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkArts" title="/pmwiki/pmwiki.php/Main/TheDarkArts">The Dark Arts</a>: Sorcery in Aldis; all forms of magic unless practiced by a licensed priest of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptChurch" title="/pmwiki/pmwiki.php/Main/CorruptChurch">Church of Pure Light</a> in Jarzon. The restrictions on sorcery have been relaxed in Aldis under Queen Jaellin. (Specifically, you still can't <em>practice</em> sorcery, but it's no longer illegal to study the theories <em>behind</em> sorcery.) The ramifications of this policy decision have yet to be shown.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsNotEvil" title="/pmwiki/pmwiki.php/Main/DarkIsNotEvil">Dark Is Not Evil</a>: Vata'sha and Night People are dark-skinned people who are direct results of Sorcerer King experiments, but they're no more or less evil than humans. (Most shadowspawn, however, really are naturally evil.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkSide" title="/pmwiki/pmwiki.php/Main/TheDarkSide">The Dark Side</a>: Sorcery (that is, evil magic) works like this. Either using arcana that are inherently evil or using <em>any</em> arcana for an evil purpose causes the user to suffer physical and spiritual <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">corruption</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkSideWillMakeYouForget" title="/pmwiki/pmwiki.php/Main/TheDarkSideWillMakeYouForget">The Dark Side Will Make You Forget</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a> means that, even if you're performing sorcery for the noblest of reasons, you'll either die from rotting your body and mind, or turn to the Shadow and lose the very virtues that drove you to take that shortcut.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefectorFromDecadence" title="/pmwiki/pmwiki.php/Main/DefectorFromDecadence">Defector from Decadence</a>: Aldis gets a lot of defectors from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Jarzon</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mordor" title="/pmwiki/pmwiki.php/Main/Mordor">Kern</a>. More and more men are fleeing to Aldis from the Matriarchy as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DetectEvil" title="/pmwiki/pmwiki.php/Main/DetectEvil">Detect Evil</a>: The nobles who govern Aldis all have to pass the test of the Blue Rose Scepter, an artifact designed to screen out anyone <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlyThePureOfHeart" title="/pmwiki/pmwiki.php/Main/OnlyThePureOfHeart">except the pure of heart</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DontFearTheReaper" title="/pmwiki/pmwiki.php/Main/DontFearTheReaper">Don't Fear the Reaper</a>: The Twilight goddess of winter, Selene, also happens to be the goddess of death and, although not exactly friendly, she's portrayed as wise and merciful. She specifically crafted the Wheel Of Reincarnation so that even though it is possible for the creatures of Aldea to die, their souls will be reborn in a new form instead of being claimed by the Shadow.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoomTroops" title="/pmwiki/pmwiki.php/Main/DoomTroops">Doom Troops</a>: The Kern <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackKnight" title="/pmwiki/pmwiki.php/Main/BlackKnight">Knights of the Skull</a>, who go into battle wearing black armour and skull-shaped silver helmets. If you manage to defeat one in combat, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrandTheftMe" title="/pmwiki/pmwiki.php/Main/GrandTheftMe">do NOT put the helmet on...</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoWrongRight" title="/pmwiki/pmwiki.php/Main/DoWrongRight">Do Wrong, Right</a>: Any Roamer caught stealing is going to suffer at least a lot of stern rebuke from their kin for feeding the public stereotype of Roamers being thieves... but if the theft was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GentlemanThief" title="/pmwiki/pmwiki.php/Main/GentlemanThief">dashing and artful enough,</a> there will be some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoAboveItAll" title="/pmwiki/pmwiki.php/Main/NotSoAboveItAll">grudging respect</a> mixed in with it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasySexChange" title="/pmwiki/pmwiki.php/Main/EasySexChange">Easy Sex Change</a>: Averted. Aldin magic and science can be and is used to alter the physical sex of people who feel that it does not correspond to their gender, but the process is as long and complicated as it is in the real world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalPowers" title="/pmwiki/pmwiki.php/Main/ElementalPowers">Elemental Powers</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DishingOutDirt" title="/pmwiki/pmwiki.php/Main/DishingOutDirt">Earth Shaping</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingWithFire" title="/pmwiki/pmwiki.php/Main/PlayingWithFire">Fire Shaping</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MakingASplash" title="/pmwiki/pmwiki.php/Main/MakingASplash">Water Shaping</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlowYouAway" title="/pmwiki/pmwiki.php/Main/BlowYouAway">Wind Shaping</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnIcePerson" title="/pmwiki/pmwiki.php/Main/AnIcePerson">Cold Shaping</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreenThumb" title="/pmwiki/pmwiki.php/Main/GreenThumb">Plant Shaping</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpath" title="/pmwiki/pmwiki.php/Main/TheEmpath">The Empath</a>: Heart Reading is another standard power used by Psychics in Aldis. (Heart <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharmPerson" title="/pmwiki/pmwiki.php/Main/CharmPerson">Shaping</a></em>, on the other hand, is... widely frowned upon.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpire" title="/pmwiki/pmwiki.php/Main/TheEmpire">The Empire</a>: The Utopian <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas" title="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas">Old Kingdom</a> was taken over by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilSorcerer" title="/pmwiki/pmwiki.php/Main/EvilSorcerer">sorceress</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmperor" title="/pmwiki/pmwiki.php/Main/TheEmperor">Delsha Artanis</a>, forming the Empire of Thorns. Cut to a long period of oppression and conquest that nearly destroyed the entire world.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mordor" title="/pmwiki/pmwiki.php/Main/Mordor">Kern</a> could be considered the last remnant of it, making it a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VestigialEmpire" title="/pmwiki/pmwiki.php/Main/VestigialEmpire">Vestigial Empire</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyCivilWar" title="/pmwiki/pmwiki.php/Main/EnemyCivilWar">Enemy Civil War</a>: The state of Kern as of the Second Edition. The Lich King is gone, and his top lieutenants are feuding over who gets to replace him. If there is any indication that Aldis may attempt an invasion, they're quick to stop fighting each other and defend the border until the threat passes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryoneIsBi" title="/pmwiki/pmwiki.php/Main/EveryoneIsBi">Everyone Is Bi</a>: This is an expectation in Aldis; monosexuals exist, and are tolerated, but it's perfectly socially acceptable to hit on someone who you know is of an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncompatibleOrientation" title="/pmwiki/pmwiki.php/Main/IncompatibleOrientation">Incompatible Orientation</a> and try to get them to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IfItsYouItsOkay" title="/pmwiki/pmwiki.php/Main/IfItsYouItsOkay">switch teams</a>. Also, mechanically in Second Edition, the Flirt stunt takes no account of a character's stated sexual orientation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilChancellor" title="/pmwiki/pmwiki.php/Main/EvilChancellor">Evil Chancellor</a>:<ul><li> Lord Sayvin of Aldis, whom everyone expected to be chosen as the next king; he was increasingly put out about being very publicly passed over by the Golden Hart. In Second Edition <span class="spoiler" title="you can set spoilers visible by default on your profile">Sayvin lets the Lich King's forces into Aldis, then is forced to flee to Kern when his gambit for the crown fails</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOverlord" title="/pmwiki/pmwiki.php/Main/EvilOverlord">Evil Overlord</a>:<ul><li> Jarek, the Lich King of Kern.</li><li> Historically, there are also all the other <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SorcerousOverlord" title="/pmwiki/pmwiki.php/Main/SorcerousOverlord">sorcerer-kings</a>, especially <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmperor" title="/pmwiki/pmwiki.php/Main/TheEmperor">Delsha Artanis</a>, whose coup d'etat ended the utopian Old Kingdom.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> With Jarek's defeat</span> in Second Edition, there are now <span class="spoiler" title="you can set spoilers visible by default on your profile"><em>seven</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOverlord" title="/pmwiki/pmwiki.php/Main/EvilOverlord">Evil Overlords</a> in Kern competing for his job, all undermining Aldis</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExoticExtendedMarriage" title="/pmwiki/pmwiki.php/Main/ExoticExtendedMarriage">Exotic Extended Marriage</a>: The game has "star marriages", where all the participants are considered to be the spouses of all the other participants, even if they are not sexually involved with each other. They are quite common in the islands under Aldis' control, uncommon in mainland Aldis, and almost unheard of elsewhere.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFairFolk" title="/pmwiki/pmwiki.php/Main/TheFairFolk">The Fair Folk</a>: Make their debut in universe in Second Edition. They serve as a different sort of Elemental, in opposition to the Undead (so much so, their artwork in 2E is a mirror image of the Undeads' a few pages later). They are not usually hostile to Aldins, but they can be distrustful, reclusive, and capricious.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Familiar" title="/pmwiki/pmwiki.php/Main/Familiar">Familiar</a>: Anyone with magic talent can have one. Interestingly, Rhydan can bond with a HUMAN one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticCasteSystem" title="/pmwiki/pmwiki.php/Main/FantasticCasteSystem">Fantastic Caste System</a>: The Lar'tyan Matriarchy is centered around one of these with four castes for humans, and an unofficial fifth caste for Sea Folk. Castes are hereditary, and men and women are equal in the two lowest castes. All Lar'tyans acknowledge the supremacy of the females in the two upper castes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRacism" title="/pmwiki/pmwiki.php/Main/FantasticRacism">Fantastic Racism</a>: Lots of it to go around, mostly aimed at <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent">Night People</a>. Aldins preach and speak against this, but not everyone subscribes to it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyContraception" title="/pmwiki/pmwiki.php/Main/FantasyContraception">Fantasy Contraception</a>: Exists and is widely used in Aldis according to <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture" title="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture">Fantasy Counterpart Culture</a>:<ul><li> The Forest Kingdom of Wyss is mostly equivalent to the Native Peoples of the Amazon. Little metal to be found, isolated, usually reached via a perilous river journey.</li><li> The Lar'tyans are about a 50/50 blend of Indian and Polynesian culture, with a Matriarchal caste system thrown in.</li><li> The Kernish combine the bloodthirstiness of Viking Raiders with the horrid living conditions of the Spartan Helot slaves. Once you add in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNecrocracy" title="/pmwiki/pmwiki.php/Main/TheNecrocracy">The Necrocracy</a> elements, their society is most likely to resemble the kind of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LowFantasy" title="/pmwiki/pmwiki.php/Main/LowFantasy">Low Fantasy</a> world found in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/GameOfThrones" title="/pmwiki/pmwiki.php/Series/GameOfThrones">Game of Thrones</a></em> or <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em>.</li><li> The Pirate Isles are a copy/paste of the Republic of Pirates found in the early Bahamas complete with swashbuckling, thievery, and no quarter.</li><li> The Roamers are obviously the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Romani" title="/pmwiki/pmwiki.php/UsefulNotes/Romani">Romani</a>. Their homeland, Faenaria, is depicted resembling an Indian-Subcontinent state where the Romani people are believed to have originated from.</li><li> Rezeans are Mongols with a side of Plains Native Americans.</li><li> The Trebutane couldn't be more Jewish if they spoke Yiddish: they are currently exiled from their homelands, forced to live in communities within other nations which aren't always trusted. They worship only a single god in a world where polytheism is standard, and their society is dominated by rule-obsessed scholar-priests whose main job is analyzing and interpreting the laws which govern every aspect of Trebutane lives, including an arcane system of dietary restrictions. They are known for integrity and somberness, though noted for being more laid back among their own. Their men dress all in black with wide brimmed hats and long beards, and they have a tradition of being craftsmen, scientists and merchants.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyGunControl" title="/pmwiki/pmwiki.php/Main/FantasyGunControl">Fantasy Gun Control</a>:<ul><li> No actual guns, but there are crystons, which are basically a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a> equivalent of flintlock pistols. The one big difference is that they only affect living tissue, and can only ever bring someone to unconsciousness, not kill. Cryston warfare, as a result, is far less bloody and deadly than one based on firearms.</li><li> Slightly subverted in Kern. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> has ringed his nation with cryston cannons. While they operate on the same principle, the shots from these weapons strike with enough blunt force to kill anyone caught in their blast range. Unfortunately for Jarek, they haven't found a way to safely transport the weapons across the Ice-Binder Mountains AND find enough Shas-crystals in Aldis to use as ammunition- meaning no one can invade Kern, but Aldins won't see the weapons used against them on a battlefield.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyPantheon" title="/pmwiki/pmwiki.php/Main/FantasyPantheon">Fantasy Pantheon</a>: The pantheons of Blue Rose take inspiration from Eastern and Western mythology, but like to subvert our expectations of them. Each of the deities (except the Exarchs) has an opposite gender version of themselves. The Deity of the Hearth and Family, usually seen as female in the real world, is male in this universe. The Patron of soldiers, likewise, is female.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeministFantasy" title="/pmwiki/pmwiki.php/Main/FeministFantasy">Feminist Fantasy</a>: Blue Rose takes almost all of its inspiration from this trope. Strong female leaders, egalitarianism, an equal emphasis placed on relationships between characters as well as nitty-gritty fighting, where men are equally as likely to need saving from the evil overlord as women, and "traditional" gender roles are non-existent in the lore.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FighterMageThief" title="/pmwiki/pmwiki.php/Main/FighterMageThief">Fighter, Mage, Thief</a>: The system divides characters into Warriors, Adepts, and Experts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FishPeople" title="/pmwiki/pmwiki.php/Main/FishPeople">Fish People</a>: Or maybe more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurMermaidsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurMermaidsAreDifferent">Our Mermaids Are Different</a>, since the Sea Folk are much less repulsive than your average Fish Person. They've got legs, but they have webbed hands and feet, blue-green skin and hair, and can drink saltwater and hold their breath for an hour or more. They can also live on land (though they need more water than humans, so they're usually found on the coasts) and interbreed with humans. They're a playable race.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foil" title="/pmwiki/pmwiki.php/Main/Foil">Foil</a>: The Jarzoni priesthood is something of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShadowArchetype" title="/pmwiki/pmwiki.php/Main/ShadowArchetype">Twilight Archetype</a> of the Aldin nobility. Both are meritocratic institutions based on the original nobility of the Old Kingdom, and have similar duties and operating procedures. However, while the Aldin nobility are a secular organization that are <em>actually</em> vetted by the Light, the Jarzoni use religious trappings to maintain their legitimacy and are not necessarily good people (though most still are). Both groups are aware of psychic ethics as defined by the Light, but the Jarzoni priesthood uses social engineering to ensure that most of a Confessor's targets will "freely consent."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FortuneTeller" title="/pmwiki/pmwiki.php/Main/FortuneTeller">Fortune Teller</a>: The Roamers specialize in this, using the Tarot-like deck of the Royal Road to interpret someone's futures.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFourGods" title="/pmwiki/pmwiki.php/Main/TheFourGods">The Four Gods</a>: There's four original creators, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurGodsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurGodsAreDifferent">Primordials</a>. They don't exactly correspond to the Chinese Four Gods but they're similar in some respects, for instance each being associated with one of the seasons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Functional Magic</a>: Mostly of the Inherent Gift type; ritual-based Rule Magic exists but is usually (though not always) evil.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GayAesop" title="/pmwiki/pmwiki.php/Main/GayAesop">Gay Aesop</a>: The sourcebooks make it quite clear that Aldis' acceptance of love between any two (or more) consenting adults is to be considered a Good Thing in the game's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackAndWhiteMorality" title="/pmwiki/pmwiki.php/Main/BlackAndWhiteMorality">Black-and-White Morality</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantFlyer" title="/pmwiki/pmwiki.php/Main/GiantFlyer">Giant Flyer</a>: Gryphons and wyverns are easily the size of full grown buffalo if images in the books are accurate.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodCouple" title="/pmwiki/pmwiki.php/Main/GodCouple">God Couple</a>: Two god couples actually. The summer goddess Maurenna and the family god Leonoth serve as a model for heterosexual love, marriage and faithfulness while the gods <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YaoiGuys" title="/pmwiki/pmwiki.php/Main/YaoiGuys">Braniel and Hiathas</a> represent same-sex couples. Anwaren, Goia, and Aulora count in as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Polyamory" title="/pmwiki/pmwiki.php/Main/Polyamory">poly</a> godly relationship.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGoodKingdom" title="/pmwiki/pmwiki.php/Main/TheGoodKingdom">The Good Kingdom</a>: How does Aldis fit this trope? Let us count the ways. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EternalSexualFreedom" title="/pmwiki/pmwiki.php/Main/EternalSexualFreedom">Eternal Sexual Freedom</a>? Check. Its capital is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShiningCity" title="/pmwiki/pmwiki.php/Main/ShiningCity">Shining City</a> surrounded by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GhibliHills" title="/pmwiki/pmwiki.php/Main/GhibliHills">Ghibli Hills</a>? Check. Ruled by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReasonableAuthorityFigure" title="/pmwiki/pmwiki.php/Main/ReasonableAuthorityFigure">Reasonable Authority Figure</a>? Check. An army of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassBureaucrat" title="/pmwiki/pmwiki.php/Main/BadassBureaucrat">Badass Bureaucrat</a> agents who patrol the land with the express mission of helping the common folk and defending the realm? Check.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreenAesop" title="/pmwiki/pmwiki.php/Main/GreenAesop">Green Aesop</a>: Respect for nature is similarly a Good Thing in Aldis. An entire Kingdom has been devoted to this in Second Edition: The Kingdom of Wyss. Its people grow their homes from trees and live in such harmony with nature, even the Aldins <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">find it a little weird.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandicappedBadass" title="/pmwiki/pmwiki.php/Main/HandicappedBadass">Handicapped Badass</a>: Aldis has an entire order, the Silent Knights, made up of warriors and adventurers who are blind or deaf.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HappyFunBall" title="/pmwiki/pmwiki.php/Main/HappyFunBall">Happy Fun Ball</a>: There are random gewgaws from the Old Kingdom scattered around Aldis, just waiting to be snatched up by a curious city child or innocent farm girl. Some of them are in fact items of arcane power. Occasionally they'll be perfectly safe, even extremely helpful. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtifactOfDoom" title="/pmwiki/pmwiki.php/Main/ArtifactOfDoom">Other times...</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HasTwoMommies" title="/pmwiki/pmwiki.php/Main/HasTwoMommies">Has Two Mommies</a>: Entirely unremarkable in Aldis. <em>Caria</em> couples are able to adopt children relatively easily if they are found to be suitable parents by the Sovereign's Finest.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HaveYouSeenMyGod" title="/pmwiki/pmwiki.php/Main/HaveYouSeenMyGod">Have You Seen My God?</a>: Downplayed. The existence of the Light and Shadow, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionIsMagic" title="/pmwiki/pmwiki.php/Main/ReligionIsMagic">power of faith</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Reincarnation" title="/pmwiki/pmwiki.php/Main/Reincarnation">Reincarnation</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLegionsOfHell" title="/pmwiki/pmwiki.php/Main/TheLegionsOfHell">Darkfriends</a> are a thing. The existence of the <em>gods</em> is a fuzzier question, as is the truth of any human religion.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHighQueen" title="/pmwiki/pmwiki.php/Main/TheHighQueen">The High Queen</a>: Jaellin. While she started out bookish and shy, has grown to such a leader that she thwarted betrayal and invasion, and spearheaded the attack that killed the Lich King. People may be grumbling about her government policy now, but no one can question her capability or kindness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotGod" title="/pmwiki/pmwiki.php/Main/HotGod">Hot God</a>: Hiathas, the god of hope and, unsurprisingly, <em>beauty</em>, is said to be the most beautiful being in the world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImmigrantPatriotism" title="/pmwiki/pmwiki.php/Main/ImmigrantPatriotism">Immigrant Patriotism</a>: Aldis has perpetually open borders with all of its neighbors, welcoming anyone who can cross into their borders (mostly out of altruism, but also because Aldis is post-apocalyptic and has more than one <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GhostCity" title="/pmwiki/pmwiki.php/Main/GhostCity">Ghost City</a> that needs inhabitants). Whether an adventurer encounters a Caravan of Roamers, Jarzoni religious dissidents, former Kernish slaves, or men fleeing from the Matriarchy of Lar'trya, they all tend to love their new homeland.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness" title="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness">Incorruptible Pure Pureness</a>:<ul><li> Unicorns and Gryphons are explicitly listed as incorruptible &mdash; just as players will never find a good Demon, they will never find an evil Unicorn.</li><li> The Golden Hart also qualifies- any time it decides on a new monarch for Aldis, the Hart always acts with the Kingdom's best interests in mind. It cannot be bribed, persuaded, or intimidated into making anything but its own choice for ruler.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntellectualAnimal" title="/pmwiki/pmwiki.php/Main/IntellectualAnimal">Intellectual Animal</a>: Rhydan are intelligent, telepathic animals; in Aldis they can even be citizens. Several sit on the Queen's council to advise her about politics.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightInShiningArmor" title="/pmwiki/pmwiki.php/Main/KnightInShiningArmor">Knight in Shining Armor</a>: The Knights of the Blue Rose are classic knights sworn to the defense of Aldis. The Knights of the Pure Flame in Jarzon often also qualify, as implacable foes of the Shadow.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knight Templar</a>:<ul><li> The Church of Pure Light employs a few as a matter of course. Their Knights of the Pure Flame can be encountered as allies or enemies, depending on the GM.</li><li> A few Aldins can be like this too; one of the suggested campaign seeds involves an Aldin noble firebrand whipping up support for a preemptive invasion of Jarzon.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsGood" title="/pmwiki/pmwiki.php/Main/LightIsGood">Light Is Good</a>: The Light, as a concept, is identified with all that's good, and the Gods of Light embody the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenHeavenlyVirtues" title="/pmwiki/pmwiki.php/Main/SevenHeavenlyVirtues">Seven Heavenly Virtues</a>. That said...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsNotGood" title="/pmwiki/pmwiki.php/Main/LightIsNotGood">Light Is Not Good</a>: The Church of the Pure Light is not <em>evil</em>, but they're a hotbed of misguided, bigoted <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knights Templar</a>. Every evil thing they do comes from a misguided need to survive their inhospitable land and their own Mordor-like Shadow Barrens on their southern border.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLostWoods" title="/pmwiki/pmwiki.php/Main/TheLostWoods">The Lost Woods</a>: The Pavin Weald. Its people are reclusive and distrustful of outsiders- even those from their rulers in Aldis. Most Kernish spies and invasions come stomping through them first, so their suspicion is justified.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadGod" title="/pmwiki/pmwiki.php/Main/MadGod">Mad God</a>: While looking for an edge over the other three primordials Anwaren, god of autumn, bit off more than he could chew when he was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">mind raped</a> and driven quite mad by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsEvil" title="/pmwiki/pmwiki.php/Main/DarkIsEvil">the Shadow</a> which resulted in the creation of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenDeadlySins" title="/pmwiki/pmwiki.php/Main/SevenDeadlySins">the Seven Exarchs</a>. He was eventually saved by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionGirl" title="/pmwiki/pmwiki.php/Main/ActionGirl">Aulora</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSmartGuy" title="/pmwiki/pmwiki.php/Main/TheSmartGuy">Goia</a> (the goddesses of justice and prudence, respectively) and nursed back to health. Because of this he is often sought for guidance when someone goes crazy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicKnight" title="/pmwiki/pmwiki.php/Main/MagicKnight">Magic Knight</a>: The system makes this a very easy character build. Even your standard Warrior can gain access to a Shaping Arcana or two during an extended campaign. In particular, the Knights of the Pure Flame train warrior-adepts as a part of their military doctrine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a>: The Old Kingdom was a heavily Magitek based society, and Aldis has recovered a lot of their techniques. Magical gates that operate as wormholes to other nations/worlds and enormous crystal-powered cannons defending Kern are just two of the example provided in the books.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagocracy" title="/pmwiki/pmwiki.php/Main/TheMagocracy">The Magocracy</a>:<ul><li> The Old Kingdom was ruled by Sorcerer-Kings in its later years, and Kern under Jarek was the last of these.</li><li> Jarzon is a de facto magocracy. While its priesthood is not exclusively composed of adepts, the Keepers Council are almost entirely adepts of great power.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMarvelousDeer" title="/pmwiki/pmwiki.php/Main/TheMarvelousDeer">The Marvelous Deer</a>: The Golden Hart.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Matriarchy" title="/pmwiki/pmwiki.php/Main/Matriarchy">Matriarchy</a>: The Matriarchy of Lar'tya, an archipelago south of the main continent, is ruled by the female humans through a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticCasteSystem" title="/pmwiki/pmwiki.php/Main/FantasticCasteSystem">Fantastic Caste System</a>. While there is open disregard for the rights of men, its women also view non-human species like Sea-Folk as quaint and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRacism" title="/pmwiki/pmwiki.php/Main/FantasticRacism">undeserving of full rights</a>, whether they be female or male. Their views of Aldin's egalitarian society run the gamut from confused to hostile.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MedievalStasis" title="/pmwiki/pmwiki.php/Main/MedievalStasis">Medieval Stasis</a>: Strongly averted. It's got the trappings of a medieval world, but Aldis actually has mundane technology at around the level of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCavalierYears" title="/pmwiki/pmwiki.php/Main/TheCavalierYears">The Cavalier Years</a>, and if you count magic and magical artifacts, in some ways it's as advanced as the modern world. Politically, the government is closer to a constitutional monarchy than a medieval one, and its government bureaucracy resembles the Imperial Chinese system mixed with Europe's Knights.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindOverManners" title="/pmwiki/pmwiki.php/Main/MindOverManners">Mind over Manners</a>:<ul><li> Psychic ethics are a big deal in Aldis, where about one in ten people have some kind of psychic power. Reading emotions is okay, reading thoughts is very much not. Influencing thoughts is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadPowersBadPeople" title="/pmwiki/pmwiki.php/Main/BadPowersBadPeople">frowned upon</a> unless used by Aldin Judges.</li><li> Jarzoni psychic ethics, in principle, are the same as Aldin ones (as the rules are enforced by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a>), but Jarzon employs their local social contract to create a loophole: People are expected to "freely" consent to Confessors' mind-reading and mind-shaping. This is (magically) valid consent, but sometimes Confessors ignore a refusal and end up on the road to the Shadow.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ModestRoyalty" title="/pmwiki/pmwiki.php/Main/ModestRoyalty">Modest Royalty</a>: Aldin monarchs often come from humble backgrounds. The current Queen, Jaellin, was essentially an archivist of magical lore. Other rulers were fishermen, dancers, and office clerks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mordor" title="/pmwiki/pmwiki.php/Main/Mordor">Mordor</a>:<ul><li> Kern, the one remaining nation still ruled by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SorcerousOverlord" title="/pmwiki/pmwiki.php/Main/SorcerousOverlord">Sorcerous Overlord</a>.</li><li> Also the Shadow Barrens. An entire wasteland that was once the Roamer homeland Faenaria, now overrun with Darkfiends and Shadowspawn since the Great Rebellion, forever clawing at the Jarzoni. And they don't have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculouslyDifficultRoute" title="/pmwiki/pmwiki.php/Main/RidiculouslyDifficultRoute">the Ice-Binder Mountains</a> to protect them, like Aldis does...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NatureHero" title="/pmwiki/pmwiki.php/Main/NatureHero">Nature Hero</a>: Animists get a bunch of feats relating to interaction with animals and wilderness survival.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNecrocracy" title="/pmwiki/pmwiki.php/Main/TheNecrocracy">The Necrocracy</a>: Kern. Its Lich Lord, Jarek, often used undead and Vampiric servants to hold the nation in a stranglehold. In Second Edition, this trope is still largely in effect- one of the Seven Kernish Overlords is a Vampire.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed" title="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed">No Transhumanism Allowed</a>:<ul><li> Flesh-Shaping, which the Sorcerer-Kings used for genetic engineering, is sorcery. The book mentions that it can be used for good purposes, but it's still inherently a sin against nature and causes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a> in its users.</li><li> The Second Edition eases back on the restriction by stating that Flesh-Shaping is not sorcery when used on a willing subject. The more advanced applications of it are still lost arts, but changing appearance <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenderBender" title="/pmwiki/pmwiki.php/Main/GenderBender">or even gender</a> is fine now.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoWomansLand" title="/pmwiki/pmwiki.php/Main/NoWomansLand">No Woman's Land</a>: Jarzon subscribes to a fairly misogynistic religion. Women are encouraged to stay barefoot and pregnant and are barred from most high-status careers, especially the priesthood. They are allowed to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMagicianGirl" title="/pmwiki/pmwiki.php/Main/WhiteMagicianGirl">Hospitalers</a>, however they still have to respond to their superiors who are always male priests.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OfferedTheCrown" title="/pmwiki/pmwiki.php/Main/OfferedTheCrown">Offered the Crown</a>: A mysterious creature called <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness" title="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness">the Golden Hart</a> chooses the next Sovereign of Aldis.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOldGods" title="/pmwiki/pmwiki.php/Main/TheOldGods">The Old Gods</a>: The Gods of Twilight, Selene, Braniel, Maurenna and Anwaren, who created the world and rule over natural forces.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlyThePureOfHeart" title="/pmwiki/pmwiki.php/Main/OnlyThePureOfHeart">Only the Pure of Heart</a>: Only the pure of heart get to rhy-bond with Unicorns or become nobles in Aldis (and there's a magical artifact that makes sure... though nothing stops them from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceHeelTurn" title="/pmwiki/pmwiki.php/Main/FaceHeelTurn">turning evil</a> <em>after</em> they've passed its test).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">Our Demons Are Different</a>: They're called "darkfiends", but otherwise they fit the Judeo-Christian ideal of utterly evil creatures with a variety of callings (the book explicitly says that a darkfiend <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedDemon" title="/pmwiki/pmwiki.php/Main/AscendedDemon">turning good</a> is a world-shaking event).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Our Dragons Are Different</a>: Both wyverns and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoulderSizedDragon" title="/pmwiki/pmwiki.php/Main/ShoulderSizedDragon">miniature "pocket dragons"</a> are mentioned, but curiously, not actual full-sized dragons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent">Our Elves Are Different</a>: The vatazin, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Precursors" title="/pmwiki/pmwiki.php/Main/Precursors">super-magical race that was destroyed by genocide long before the game takes place</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> A small community survived, hiding in a mountain in the heart of the Shadow Barrens.</span><ul><li> The closest thing to elves as a playable race are the vata'an, which are really more like half-elves &mdash; humans with vatazin ancestry; it crops up unpredictably as a recessive trait. They have white hair, and there's no mention of pointy ears.</li><li> There's also the vata'sha, which are more like half-<a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/ForgottenRealms" title="/pmwiki/pmwiki.php/TabletopGame/ForgottenRealms">drow</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Warcraft" title="/pmwiki/pmwiki.php/VideoGame/Warcraft">night elves</a>, having been the result of genetic experiments to create nocturnal vata'an. They're less accepted than their diurnal cousins.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurGryphonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurGryphonsAreDifferent">Our Gryphons Are Different</a>: While Unicorns are acknowledged as the most powerful magical beings in Aldis (barring a reappearance of the Vata), they're reclusive and rarely interact with other beings. Gryphons share the same magical power, but they often bond with valiant and good partners.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurLichesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurLichesAreDifferent">Our Liches Are Different</a>: Liches and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">vampires</a> are actually two different varieties of the same kind of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUndead" title="/pmwiki/pmwiki.php/Main/TheUndead">undead</a>; specifically, people who decided to embrace <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a> and eventually died from its overuse, with non-casters rising as vampires and mages rising as liches.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent">Our Orcs Are Different</a>: The Night People are actually a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ServantRace" title="/pmwiki/pmwiki.php/Main/ServantRace">Servant Race</a> genetically engineered by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilSorcerer" title="/pmwiki/pmwiki.php/Main/EvilSorcerer">mad sorcerer-kings</a> centuries ago. They're not actually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil" title="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil">Always Chaotic Evil</a>, but being used as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mook" title="/pmwiki/pmwiki.php/Main/Mook">Mooks</a> by a long series of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkLord" title="/pmwiki/pmwiki.php/Main/DarkLord">Dark Lords</a> tends to give people that impression.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutlawTown" title="/pmwiki/pmwiki.php/Main/OutlawTown">Outlaw Town</a>: The settlement of Serpent's Haven within the Veran Marsh is run primarily by smugglers and criminals moving goods and refugees between Jarzon and Aldis.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PantheraAwesome" title="/pmwiki/pmwiki.php/Main/PantheraAwesome">Panthera Awesome</a>: Rhy-cats. They don't correspond to any specific real-world big cat, but they're the size of cougars with coloration resembling domestic Siamese cats.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoliticallyIncorrectVillain" title="/pmwiki/pmwiki.php/Main/PoliticallyIncorrectVillain">Politically Incorrect Villain</a>: Averted (surprisingly, given the game's liberal stance). The Theocracy of Jarzon is a bigoted, sexist, homophobic society... but they're explicitly not evil so much as a bunch of misguided <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well Intentioned Extremists</a> who are still capable of doing a lot of good in the world despite their problems. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Jarek the Lich King</a>, on the other hand, <em>mostly</em> does not care about race or gender &mdash; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil" title="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil">he wants to oppress everybody pretty much equally</a>. The only exception is that vata'an born in Kern are dead meat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Polyamory" title="/pmwiki/pmwiki.php/Main/Polyamory">Polyamory</a>: It's standard practice in certain coastal regions of Aldis, and considered very weird but not actually persecuted in the rest of the country. In Jarzon, of course, it's illegal.<ul><li> Given a further emphasis in the Knights of the Rose in Second Edition. The fluff establishes that many Knights often choose to form Polyamorous relationships with at least two other Knights they work with regularly. Mechanically, this invokes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePowerOfFriendship" title="/pmwiki/pmwiki.php/Main/ThePowerOfFriendship">The Power of Friendship</a> mechanic listed below.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerCrystal" title="/pmwiki/pmwiki.php/Main/PowerCrystal">Power Crystal</a>: Shas crystals make for handy magical <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacGuffin" title="/pmwiki/pmwiki.php/Main/MacGuffin">MacGuffins</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerIncontinence" title="/pmwiki/pmwiki.php/Main/PowerIncontinence">Power Incontinence</a>: A problem for any PC with the Wild Talent feat. Updated to Wild Arcane in the Second Edition.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePowerOfFriendship" title="/pmwiki/pmwiki.php/Main/ThePowerOfFriendship">The Power of Friendship</a>: Second Edition allows characters to establish "Relationships" with other PCs and NPCs (both friendly and antagonistic). They can be called upon to enhance the stunts players can perform when conducting actions related to/affecting their relationship.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Precursors" title="/pmwiki/pmwiki.php/Main/Precursors">Precursors</a>: The vatazin, and the whole civilization of the Old Kingdom. The entire known world in the setting is built off of the ruined civilizations of these two.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>: One of the main kinds of magic used every day in Aldis. Distant cities can spread warnings and requests for help much faster than using a courier, all by maintaining friendships with their peers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PureIsNotGood" title="/pmwiki/pmwiki.php/Main/PureIsNotGood">Pure Is Not Good</a>: Subverted. The Church of the <em>Pure</em> Light is one of the main antagonist factions, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">zealots</a> out to eradicate everything that they believe represents corruption. However, the point is made that their fanaticism has <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FightFireWithFire" title="/pmwiki/pmwiki.php/Main/FightFireWithFire">caused them to make use of morally iffy methods</a> such as sorcery, meaning that they are actually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptChurch" title="/pmwiki/pmwiki.php/Main/CorruptChurch">less morally pure</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UtopiaJustifiesTheMeans" title="/pmwiki/pmwiki.php/Main/UtopiaJustifiesTheMeans">more pragmatic</a> than the Aldins, who are much <em>less</em> inclined to think that the ends justify the means. Also, many of the things that the Church of the Pure Light condemn (e.g., <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent">Night People</a>, gender equality, being gay) are actually harmless or even beneficial, and the problem with the Church isn't that it goes too far in opposing them but that it opposes them in the first place. Pure <em>is</em> good in Aldea, but not everyone who claims that they're pure necessarily are.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedemptionEarnsLife" title="/pmwiki/pmwiki.php/Main/RedemptionEarnsLife">Redemption Earns Life</a>:<ul><li> In this setting, mercy towards one's enemies is a Good Thing, except for creatures that are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil" title="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil">irredeemably part of the Shadow</a> (and even then, a case can be made for trying). Aldis has no death penalty, and the book advises players not to kill when redemption is an option.</li><li> Invoked in the sourcebook <em>Aldis: City of the Blue Rose</em>. One of the pillow-houses in Aldis is run by Julinn the Masqueless, a mysterious <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighClassCallGirl" title="/pmwiki/pmwiki.php/Main/HighClassCallGirl">High Class Call Person</a> who works alongside a troupe of other prostitutes. Julinn has the uncanny ability to change body features, sex, and any minute detail of their appearance from day to day to meet the needs and wants of their clients. Their coworkers think Julinn is a master of flesh shaping arcana using it to ply the world's oldest profession. The truth is considerably darker: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Julinn is actually a <em>Whisperer</em>, a demon of lust, that has found redemption through being shown true love. Their lover died freeing Julinn from their summoner's hold and Julinn now spends their time trying to share the experience of healthy, kind, physical love with as many people as possible.</span> Needless to say, were the truth to ever come out, it would generate considerable scandal, isolate Julinn from their coworkers, and potentially even create a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TorchesAndPitchforks" title="/pmwiki/pmwiki.php/Main/TorchesAndPitchforks">Torches and Pitchforks</a> situation in a realm where Torches and Pitchforks <em>does not happen</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionIsMagic" title="/pmwiki/pmwiki.php/Main/ReligionIsMagic">Religion Is Magic</a>: While the specific existence of the Gods and Exarchs and the truth of any individual religion is up for debate, the existence of the Light is objective truth, and those with strong Faith have access to talents that draw on it. This is different from arcana, and can be used by non-adepts (and the Sacred Warrior specialization is restricted to warriors).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheResenter" title="/pmwiki/pmwiki.php/Main/TheResenter">The Resenter</a>: Lord Sayvin thought he was destined for the crown of Aldis, but the Golden Hart had other ideas. Sayvin is not happy about that. <span class="spoiler" title="you can set spoilers visible by default on your profile"> He takes it one step too far in Second Edition, allowing the Lich King to invade Aldis in an attempt to unseat Jaellin.</span> It doesn't end well for him.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RitualMagic" title="/pmwiki/pmwiki.php/Main/RitualMagic">Ritual Magic</a>: Often, but not always, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackMagic" title="/pmwiki/pmwiki.php/Main/BlackMagic">Black Magic</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyallyScrewedUp" title="/pmwiki/pmwiki.php/Main/RoyallyScrewedUp">Royally Screwed Up</a>: The entire governmental system of Aldis is designed around averting this. Invoked, in that monarchs chosen by the Golden Hart are worthy of the crown when they are chosen. At least one monarch of Aldis had to be deposed after being corrupted by Shadowspawn AFTER being chosen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SapientCetaceans" title="/pmwiki/pmwiki.php/Main/SapientCetaceans">Sapient Cetaceans</a>: Ordinary, non-sentient wolves and horses exist, but all dolphins are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntellectualAnimal" title="/pmwiki/pmwiki.php/Main/IntellectualAnimal">rhydan</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SapientSteed" title="/pmwiki/pmwiki.php/Main/SapientSteed">Sapient Steed</a>: Rhy-horses, and less commonly, unicorns and gryphons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriousBusiness" title="/pmwiki/pmwiki.php/Main/SeriousBusiness">Serious Business</a>: Just about everything, for the Trebutane. A sample adventure has the player character encountering two Trebutane men who are on the verge of a knife fight over whether wearing the colour red is respectful to their martyrs, and therefore mandatory, or disrespectful to their martyrs, and therefore forbidden.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenDeadlySins" title="/pmwiki/pmwiki.php/Main/SevenDeadlySins">Seven Deadly Sins</a>: The result of the autumn god's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">mind rape</a> and the first evil beings in existence, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" title="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">Exarchs of</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsEvil" title="/pmwiki/pmwiki.php/Main/DarkIsEvil">Shadow</a> fully <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmbodimentOfVice" title="/pmwiki/pmwiki.php/Main/EmbodimentOfVice">embody a deadly sin</a> each.<ul><li> Gravicarius (pride)</li><li> Tyrexxus (wrath)</li><li> Ulasta (envy)</li><li> In'nassi (lust)</li><li> Viasta (sloth)</li><li> Yungo (gluttony)</li><li> Mytaxx (greed).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenHeavenlyVirtues" title="/pmwiki/pmwiki.php/Main/SevenHeavenlyVirtues">Seven Heavenly Virtues</a>: Birthed from the tears of Maureena, the summer goddess, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsGood" title="/pmwiki/pmwiki.php/Main/LightIsGood">Gods of Light</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmbodimentOfVirtue" title="/pmwiki/pmwiki.php/Main/EmbodimentOfVirtue">represent the seven virtues</a> as well as the core aspects of human culture.<ul><li> Hiathas, god of <em>hope</em>, the sun, beauty and dance.</li><li> Leonoth, god of <em>faith</em>, the hearth and family.</li><li> Felisar, god of <em>charity</em>, travelers, people in peril, the poor and the sick.</li><li> Aulora, goddess of <em>justice</em>, law and soldiers.</li><li> Goia, goddess of <em>prudence</em>, artisanship and commerce.</li><li> Gaelenir, god of <em>fortitude</em>, exploration, learning and the sea.</li><li> Athne, goddess of <em>temperance</em>, good fortune, plenty and wine.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShiningCity" title="/pmwiki/pmwiki.php/Main/ShiningCity">Shining City</a>: The city of Aldis. Each of its districts is modeled to be welcoming and familiar to people from the Kingdom's several provinces and races.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShipperOnDeck" title="/pmwiki/pmwiki.php/Main/ShipperOnDeck">Shipper on Deck</a>:<ul><li> In Aldea, it's expected that everyone will eventually marry someone (or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Polyamory" title="/pmwiki/pmwiki.php/Main/Polyamory">someones</a>, as the case may be), so when two people meet up and seem like they like each other, everyone around them starts matchmaking.</li><li> An entire setting is based around this trope in Second Edition. <em>The Wedding Planners</em> requires the players find and bring together couples in love throughout Aldis, then use their powers to put on a show-stopper wedding.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoulderSizedDragon" title="/pmwiki/pmwiki.php/Main/ShoulderSizedDragon">Shoulder-Sized Dragon</a>: Drakes or "pocket dragons," about a foot in length, one of the less common species of rhydan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> Rhy-Horses are essentially <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/HeraldsOfValdemar" title="/pmwiki/pmwiki.php/Literature/HeraldsOfValdemar">Companions</a>.</li><li> The Spirit Dancers are based on the Chearis from Elizabeth A. Lynn's <em>Chronicles of Tornor</em>.</li><li> 2nd Edition includes special stunts called <a class="twikilink" href="/pmwiki/pmwiki.php/Film/ThePrincessBride" title="/pmwiki/pmwiki.php/Film/ThePrincessBride">"As You Wish"</a> and "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrepareToDie" title="/pmwiki/pmwiki.php/Main/PrepareToDie">Prepare to Die</a>".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShroudedInMyth" title="/pmwiki/pmwiki.php/Main/ShroudedInMyth">Shrouded in Myth</a>: The Old Kingdom. Most of the works were destroyed either during the Dark Age of the Empire of Thorns or the subsequent Apocalyptic Great Rebellion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoiledCityOnAHill" title="/pmwiki/pmwiki.php/Main/SoiledCityOnAHill">Soiled City on a Hill</a>: The original homeland of the Roamer people, Faenaria, once rivaled the power of the Old Kingdom itself. As the Shadow Wars and the Great Rebellion raged and consumed the world, their politics became corrupted with shadow magic and covert assassinations, all to keep their nation's borders closed and secure. Some fled the bloodshed by foot, taking only what they could carry, and became the first Roamers. The loyalists fell in line behind their Empress even as she used Shadowgate portals to summon armies of Darkfiends to hold on to her power and repel the other Sorcerer Kings. When the armies of the Great Rebellion arrived on Faenaria's doorstep, she used the Shadowgates to try and create a barrier that would kill any living thing that entered her territory. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactWords" title="/pmwiki/pmwiki.php/Main/ExactWords">It went</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReducedToDust" title="/pmwiki/pmwiki.php/Main/ReducedToDust">as planned.</a></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpeaksFluentAnimal" title="/pmwiki/pmwiki.php/Main/SpeaksFluentAnimal">Speaks Fluent Animal</a>: Beast Speech is a standard <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Power</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwampsAreEvil" title="/pmwiki/pmwiki.php/Main/SwampsAreEvil">Swamps Are Evil</a>: The Veran Marsh, the border between Aldis and Jarzon, created when a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticNuke" title="/pmwiki/pmwiki.php/Main/FantasticNuke">Fantastic Nuke</a> from the Old Kingdom exploded. There's only FOUR known safe roads through it; any other path generally leads to a horrifying death. And whatever you do, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchmuckBait" title="/pmwiki/pmwiki.php/Main/SchmuckBait">do NOT try to use shaping magic there to create your own path</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSyndicate" title="/pmwiki/pmwiki.php/Main/TheSyndicate">The Syndicate</a>: The Silence is a common opponent to the Sovereign's Finest, dealing in blackmail, corruption, stolen property, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HappyFunBall" title="/pmwiki/pmwiki.php/Main/HappyFunBall">mystical doodads</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TarotMotifs" title="/pmwiki/pmwiki.php/Main/TarotMotifs">Tarot Motifs</a>: Roamer culture is rather obsessed with Tarot cards (they call them "The Royal Road"). They're also used to define every character's Calling, virtue and vice.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TopGod" title="/pmwiki/pmwiki.php/Main/TopGod">Top God</a>:<ul><li> Interestingly the position is filled not by one, but by <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOldGods" title="/pmwiki/pmwiki.php/Main/TheOldGods">four</a></em> gods who share the responsibility of running the world, which is represented by the passing of the four seasons. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadGod" title="/pmwiki/pmwiki.php/Main/MadGod">Mad God</a> Anwaren's desire to be THE Top God actually led to the creation of the Exarchs of Shadow, i.e. the creation of evil in the world, reinforcing the idea that tyranny is bad.</li><li> In contrast, the Church of Pure Light teaches that Leonoth is the greatest of the gods and should be worshiped above the rest.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transgender" title="/pmwiki/pmwiki.php/Main/Transgender">Transgender</a>: Gets a cursory mention in the First Edition as a possible character option. In the second edition they are given considerably more space, as <em>laevvel bran'maur</em><span class="notelabel" onclick="togglenote('note0wmid');"><sup>&hearts;&nbsp;</sup></span><span id="note0wmid" class="inlinefolder" isnote="true" onclick="togglenote('note0wmid');" style="cursor:pointer;font-size:smaller;display:none;"> "beyond the loom of Braniel and Maurenna" &mdash; a catch-all term for people with atypical gender identities</span> are believed (rightly or wrongly) by many people in-setting to possess souls that are close to enlightenment and to have a special relationship with the spirits because of it. Also, in Second Edition, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenderBender" title="/pmwiki/pmwiki.php/Main/GenderBender">gender-reassignment magic</a> is no longer <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackMagic" title="/pmwiki/pmwiki.php/Main/BlackMagic">sorcery</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Unicorn" title="/pmwiki/pmwiki.php/Main/Unicorn">Unicorn</a>: They're rare and fairly reclusive, but they exist. They are exceedingly powerful magical creatures that helped to lead the Great Rebellion to victory. And in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreeLoveFuture" title="/pmwiki/pmwiki.php/Main/FreeLoveFuture">Free Love Fantasty</a>, they thankfully don't care about physical virginity- but they will only associate <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlyThePureOfHeart" title="/pmwiki/pmwiki.php/Main/OnlyThePureOfHeart">with The Pure Of Heart</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnicornsAreSacred" title="/pmwiki/pmwiki.php/Main/UnicornsAreSacred">Unicorns Are Sacred</a>: They're the holiest of rhydan, and murdering one is one of the most heinous sins possible.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VowOfCelibacy" title="/pmwiki/pmwiki.php/Main/VowOfCelibacy">Vow of Celibacy</a>: Jarzoni <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMagicianGirl" title="/pmwiki/pmwiki.php/Main/WhiteMagicianGirl">Hospitaler matrons</a> are required to be celibate. This is unique in the Jarzoni faith &mdash; Jarzoni are religiously expected to marry and have children, but their society <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoWomansLand" title="/pmwiki/pmwiki.php/Main/NoWomansLand">doesn't quite know how to handle women with arcane powers</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>: Jarzon as a whole. It's a far harsher land than Aldis, and the Church of the Pure Light was originally an underground religion of resistance that formed around the sacred hearth-fires. Their war against the Shadow continued for a generation after Aldis' ended, and they must still contend with Darkfiends, Shadowspawn, the Undead, and insane Elementals that attack from the Shadow Barrens. Seeing what the madness of Faenaria wrought in the Barrens through the use of magic, the Church's suspicion of sorcery has extended to all arcana not practiced by their clergy (though healers get a pass), and the importance of the hearth-fire (which symbolizes family and heterosexual love) has led to a rather ugly prejudice against homosexuality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse" title="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse">What Happened to the Mouse?</a>: A few references are made in the rule books to a land across the great seas, with explorers from Aldis making the journey to meet the inhabitants found there and returning successfully. Nothing has been made of these references- no cultures, maps, plot points, or anything, has been described.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatMeasureIsAMook" title="/pmwiki/pmwiki.php/Main/WhatMeasureIsAMook">What Measure Is a Mook?</a>: The game encourages you to avert this trope with a lot of the various antagonists. Darkfiends and most Shadowspawn are fair game for swording first and asking questions later but other kinds of enemies are often merely tragically misguided, victims of circumstance, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchClockVillain" title="/pmwiki/pmwiki.php/Main/PunchClockVillain">Punch Clock Villains</a> and really don't deserve to die for their mistakes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteAndGreyMorality" title="/pmwiki/pmwiki.php/Main/WhiteAndGreyMorality">White-and-Grey Morality</a>: Compared to a lot of other fantasy settings, Aldis has very few people who are outright <em>evil</em>. There are <em>monsters</em> who are inherently evil, the Exarchs of Shadow and their demonic minions (the game book literally says meeting a "good" Shadowspawn is a reality changing event). People, meanwhile, are most often either misguided or simply very selfish, and few are beyond redemption. Sayvin may secretly detest Jaellin but this is due to a combination of honestly believing he would have made a better King for Aldis and plain, old, all-too-human jealousy.<ul><li> Jarzon may be extremely prejudiced against gay people but their position becomes far more understandable (even if one doesn't agree with it) once you realize their people have suffered such losses during the war against the Shadow Barrens that they're all but at risk of <em>extinction</em> and can't afford people to be in relationships that won't produce children.</li><li> The Matriarchy's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticCasteSystem" title="/pmwiki/pmwiki.php/Main/FantasticCasteSystem">Fantastic Caste System</a> came into being when their islands were flooded with Refugees fleeing the Empire of Thorns and Great Rebellion. While native Lar'tyan's appreciated the expertise in magic and metalworking these people brought, they accepted the refugees into their society and reorganized their culture to create new castes for them. They look upon the destruction wrought by the god Anwaren, the Great Rebellion against the Sorcerer Kings, the villainy of Jarek, and the backwardness of Jarzon as proof that men cannot be trusted with any sort of real power.</li><li> Even the Lich King gets a motivation that is presented in a fairly human fashion with his lust for knowledge and power.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMagicianGirl" title="/pmwiki/pmwiki.php/Main/WhiteMagicianGirl">White Magician Girl</a>: The only women adepts tolerated in Jarzon are healers, normally matrons of the Hospitaler sect (as well as foreign wandering healers, who are tolerated to a point).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity" title="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity">With Great Power Comes Great Insanity</a>: Sorcery powers can be downright game-breaking. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilMakesYouUgly" title="/pmwiki/pmwiki.php/Main/EvilMakesYouUgly">Too bad your brain and body start melting when you use them repeatedly.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWomanWearingTheQueenlyMask" title="/pmwiki/pmwiki.php/Main/TheWomanWearingTheQueenlyMask">The Woman Wearing the Queenly Mask</a>: Queen Jaellin is actually rather shy and bookish, but she's determined to be a good queen, and if that means spending her time at boring political and social functions, so be it.<ul><li> As of Second Edition, Jaellin has grown much more comfortably into her role after <span class="spoiler" title="you can set spoilers visible by default on your profile"> surviving Sayvin's treachery, nearly losing control of the Kingdom to another Kernish invasion, leading the attack on the Lich King's throne room, and marrying one of the leaders of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaResistance" title="/pmwiki/pmwiki.php/Main/LaResistance">La R&eacute;sistance</a> in Kern.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YaoiGuys" title="/pmwiki/pmwiki.php/Main/YaoiGuys">Yaoi Guys</a>: The gods Braniel and Hiathas (gods of spring and hope, respectively) represent passionate romance. Gays and lesbians are called <em>caria daunen</em><span class="notelabel" onclick="togglenote('note1a06i');"><sup>&hearts;&nbsp;</sup></span><span id="note1a06i" class="inlinefolder" isnote="true" onclick="togglenote('note1a06i');" style="cursor:pointer;font-size:smaller;display:none;">"lovers of the dawn"</span> because of them.</li></ul><hr><em>"For Aldis and the Queen!"</em>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BloodOfHeroes">Blood of Heroes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BootHill">Boot Hill</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Blokus">Blokus</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Boggle">Boggle</a>
+</li>
+</ul>
+<ul>
+<li>
+ <a href="/pmwiki/pmwiki.php/TabletopGame/BladesInTheDark">Blades in the Dark</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyTabletopGames">Fantasy Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BunniesAndBurrows">Bunnies &amp; Burrows</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

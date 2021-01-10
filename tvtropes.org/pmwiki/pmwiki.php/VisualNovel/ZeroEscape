@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Zero Escape (Visual Novel) - TV Tropes</title>
+<meta name="description" content="Zero Escape is a trilogy of Visual Novels for handheld systems published by Chunsoft (now known as Spike Chunsoft) and directed and written by Kotaro &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/ZeroEscape" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Zero Escape (Visual Novel) - TV Tropes" />
+<meta name="twitter:description" content="Zero Escape is a trilogy of Visual Novels for handheld systems published by Chunsoft (now known as Spike Chunsoft) and directed and written by Kotaro &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/zero_escape.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Zero Escape (Visual Novel) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/ZeroEscape" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/zero_escape.png" />
+<meta property="og:description" content="Zero Escape is a trilogy of Visual Novels for handheld systems published by Chunsoft (now known as Spike Chunsoft) and directed and written by Kotaro Uchikoshi. Each game involves nine individuals waking up and finding themselves in an unknown &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/SceneryGorn" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Music/DirEnGrey" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VisualNovel/ZeroEscape?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VisualNovel/ZeroEscape">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VisualNovel.ZeroEscape">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=ZeroEscape&g=VisualNovel">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VisualNovel.ZeroEscape">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VisualNovel/ZeroEscape?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VisualNovel" />
+<input type="hidden" id="title-hidden" value="ZeroEscape" />
+<input type="hidden" id="article_id" value="498570" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/ZeroEscape</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Visual Novel / </strong>
+Zero Escape
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VisualNovel",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Zero Escape"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/ZeroEscape" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/FanficRecs/ZeroEscape" class="subpage-link " title="The FanficRecs page">
+<span class="wrapper"><span class="spi fanficrecs"></span>FanficRecs</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Pantheon/ZeroEscape" class="subpage-link " title="The Pantheon page">
+<span class="wrapper"><span class="spi pantheon"></span>Pantheon</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/ZeroEscape" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/ZeroEscape" class="subpage-link curr-subpage" title="The VisualNovel page">
+<span class="wrapper">VisualNovel</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/ZeroEscape?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/ZeroEscape?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/ZeroEscape?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/ZeroEscape?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/ZeroEscape?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/ZeroEscape?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/ZeroEscape?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/ZeroEscape?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/ZeroEscape?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/ZeroEscape?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/ZeroEscape?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/ZeroEscape?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/ZeroEscape?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/ZeroEscape?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/ZeroEscape?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:76.86%"><img src="https://static.tvtropes.org/pmwiki/pub/images/zero_escape.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/zero_escape.png" width="350" height="269"></div></div><div class="acaptionright" style="width:350px;">Zero, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MascotVillain" title="/pmwiki/pmwiki.php/Main/MascotVillain">"face"</a> of the series.</div><p></p><div class="indent"><em>Seek a way out!</em></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Zero Escape</em> is a trilogy of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualNovel" title="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novels</a> for handheld systems published by Chunsoft (now known as <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/SpikeChunsoft" title="/pmwiki/pmwiki.php/Creator/SpikeChunsoft">Spike Chunsoft</a>) and directed and written by Kotaro Uchikoshi. Each game involves nine individuals <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouWakeUpInARoom" title="/pmwiki/pmwiki.php/Main/YouWakeUpInARoom">waking up and finding themselves in an unknown location</a>, in which they are forced to play a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGame" title="/pmwiki/pmwiki.php/Main/DeadlyGame">Deadly Game</a> by somebody named <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAreNumberSix" title="/pmwiki/pmwiki.php/Main/YouAreNumberSix">Zero</a>. The game consists of the players, each equipped with bracelets with numbers on them, using said bracelets to open doors that lead to puzzles, eventually finding and opening the number 9 door which leads to freedom<span class="notelabel" onclick="togglenote('note0lmsj');"><sup>note&nbsp;</sup></span><span id="note0lmsj" class="inlinefolder" isnote="true" onclick="togglenote('note0lmsj');" style="cursor:pointer;font-size:smaller;display:none;">except in ZTD, in which Zero moves them to each room and the door is the X door</span>. As they play, they work to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OntologicalMystery" title="/pmwiki/pmwiki.php/Main/OntologicalMystery">figure out where they are and who Zero is</a>. The further details of this premise vary depending on the game.</p><p>Games in the series:</p><p></p><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors" title="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a></em> (999): College senior Junpei is kidnapped one night in his apartment, and he awakes on a replica of the Titanic along with eight other people. The players then discover that the replica is <em>sinking</em>, and in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitleDrop" title="/pmwiki/pmwiki.php/Main/TitleDrop">9 hours</a>, the ship will be crushed due to the pressure. He and the others, unwilling participants in what is called the "Nonary Game", then split up in an attempt to seek a way out. Released for the DS in 2009 in Japan, 2010 internationally.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/VirtuesLastReward" title="/pmwiki/pmwiki.php/VisualNovel/VirtuesLastReward">Virtue's Last Reward</a></em> (VLR): PhD student Sigma is captured in his car one night and transported to an unknown facility, where he awakes with eight other people. The game this time is the "Nonary Game: Ambidex Edition", which allows for the players to "ally" or "betray" each other in special cases, in an attempt to rack up <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcNumber" title="/pmwiki/pmwiki.php/Main/ArcNumber">9</a> points so that the only exit to the facility is unlocked, and only for the person with 9 points. Released for the Vita and 3DS in 2012.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/ZeroTimeDilemma" title="/pmwiki/pmwiki.php/VisualNovel/ZeroTimeDilemma">Zero Time Dilemma</a></em> (ZTD): Once again, nine people (some of whom return from previous games) are trapped in an underground facility. However, the game this time is the "Decision Game", which forces the players to commit horrible acts if they want to make it out of the facility. This game was placed on hold due to the previous games' lack of sales in Japan, before finally being released in June 2016. Released for Steam, 3DS, Vita and later the PS4.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <em>The Nonary Games</em>: A bundle containing an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpdatedRerelease" title="/pmwiki/pmwiki.php/Main/UpdatedRerelease">Updated Re-release</a> of <em>999</em> (that contains higher quality graphics and voice acting), and a straight port of <em>VLR</em>. Released in 2017 for Steam, the PS4 and the Vita.</li></ul><p>Common themes include science and pseudoscience, more specifically the connection between human minds and to what extent that can be brought to. The games are also well-known for having shocking twists and turns in their plotlines; because of this, <strong>beware of spoilers</strong>, even when reading information about one game without having played the others. (Our pages for each game tend to be relatively spoiler-free regarding other games, but try to be wary regardless.)</p><p>Compare to the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/Infinity" title="/pmwiki/pmwiki.php/VisualNovel/Infinity">Infinity</a></em> series, which Kotaro Uchikoshi also had a hand in writing and shares some themes and twists with <em>Zero Escape</em>, as well as <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/DanganRonpa" title="/pmwiki/pmwiki.php/Franchise/DanganRonpa">Danganronpa</a></em>, the creator of which is friends with Uchikoshi, which leads to them inspiring each other with their games. Ironically, <em>Danganronpa</em> is far more popular than <em>Zero Escape</em>, perhaps in part due to its usage of the same tropes which Uchikoshi intentionally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AvertedTrope" title="/pmwiki/pmwiki.php/Main/AvertedTrope">avoided</a>, such as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighSchool" title="/pmwiki/pmwiki.php/Main/HighSchool">a school setting</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KidHero" title="/pmwiki/pmwiki.php/Main/KidHero">young protagonists</a>.</p><p></p><hr><h2>Tropes that apply to the series as a whole (and only the series as a whole):</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcNumber" title="/pmwiki/pmwiki.php/Main/ArcNumber">Arc Number</a>: Nine and zero. Constantly. As well as a little bit of 3 and 6, due to their relationship with 9.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"><em>Zero Time Dilemma</em>'s are 6 and 10. Yet, it tries to fool the player into thinking it's 9, like in <em>999</em> and <em>VLR</em>.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcSymbol" title="/pmwiki/pmwiki.php/Main/ArcSymbol">Arc Symbol</a>: The letter "Q" shows up quite a bit. This is partially due to the fact that, in Japanese, "9" and "Q" are pronounced the same, and a lowercase "q" looks like a number 9.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">All There in the Manual</a>: Uchikoshi has held a Q&amp;A session for each game so far. Downplayed, though, as he's also stated that <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOfTheAuthor" title="/pmwiki/pmwiki.php/Main/DeathOfTheAuthor">people should come to their own conclusions about what isn't in the game</a>, considering people having questions to be a failure on his part.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiVillain" title="/pmwiki/pmwiki.php/Main/AntiVillain">Anti-Villain</a>: Every Zero, surprisingly enough. <span class="spoiler" title="you can set spoilers visible by default on your profile">Akane was trying to save her own life as well as take revenge on the people who murdered her. In <em>VLR</em>, all three of them (mainly Akane and Sigma) are trying to save the entirety of humanity. In <em>ZTD</em>, Delta is trying to cause his own birth and save humanity without killing three quarters of it (if he wasn't lying about the latter in the first place).</span> They just... keep having to abduct people and force them into deadly games to do these things. This is played with too, however, with some characters finding <span class="spoiler" title="you can set spoilers visible by default on your profile">Akane's actions in <em>VLR</em></span> to be selfish and unnecessary. <span class="spoiler" title="you can set spoilers visible by default on your profile">Delta</span> may even count as a dark parody or self-deconstruction, as he goes to a great deal of effort to describe his complex motivations, but the characters aren't satisfied by it and are quick to point out his crimes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnyoneCanDie" title="/pmwiki/pmwiki.php/Main/AnyoneCanDie">Anyone Can Die</a>: This series revels in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManyDeathsOfYou" title="/pmwiki/pmwiki.php/Main/TheManyDeathsOfYou">how many different ways</a> it can kill its characters. Absolutely no one is safe, <span class="spoiler" title="you can set spoilers visible by default on your profile">and due to the nature of the games, <em>everyone dies at least once, including the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a></em>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/OverarchingVillain" title="/pmwiki/pmwiki.php/Main/OverarchingVillain">Overarching Villain</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Zero II/Brother/Q/Delta</span> for the series as a whole, as <span class="spoiler" title="you can set spoilers visible by default on your profile">he is the leader of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionOfEvil" title="/pmwiki/pmwiki.php/Main/ReligionOfEvil">Free The Soul</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Akane</a>&#146;s <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArchEnemy" title="/pmwiki/pmwiki.php/Main/ArchEnemy">Archenemy</a>, and the one who manipulates the other characters and events of the series according to his plan- which, that being said, is to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">save humanity from</a> a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreaterScopeVillain" title="/pmwiki/pmwiki.php/Main/GreaterScopeVillain">religious fanatic</a>, whether that be through killing the Fanatic <a class="createlink" href="/pmwiki/pmwiki.php/Main/AMillionIsAStatisic" title="/pmwiki/pmwiki.php/Main/AMillionIsAStatisic">and six million</a> through <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVirus" title="/pmwiki/pmwiki.php/Main/TheVirus">Radical-6</a>, or engineering all the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGame" title="/pmwiki/pmwiki.php/Main/DeadlyGame">Deadly Games</a> to get the participants to master their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Time Travel</a> powers. Akane&#146;s antagonism, including creating the two Nonary Games, was done to stop Delta- which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwittingPawn" title="/pmwiki/pmwiki.php/Main/UnwittingPawn">unbeknownst to her</a> was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllAccordingToPlan" title="/pmwiki/pmwiki.php/Main/AllAccordingToPlan">All According to Plan</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Zero I/Akane</span> for the series as a whole. She organizes events to <span class="spoiler" title="you can set spoilers visible by default on your profile">save herself</span> in <em>999</em>, <span class="spoiler" title="you can set spoilers visible by default on your profile"> pushes Dr. Klim to create the AB project to stop Radical-6</span> in <em>VLR</em>, infiltrates D-com along with <span class="spoiler" title="you can set spoilers visible by default on your profile"> Sigma and Phi</span> for the same reason in <em>ZTD</em>, and <span class="spoiler" title="you can set spoilers visible by default on your profile">is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RebelLeader" title="/pmwiki/pmwiki.php/Main/RebelLeader">leader</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaResistance" title="/pmwiki/pmwiki.php/Main/LaResistance">Crash Keys</a></span>. That being said, <span class="spoiler" title="you can set spoilers visible by default on your profile">Akane</span> is a bit more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">morally grey</a> than most examples.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusRollercoaster" title="/pmwiki/pmwiki.php/Main/CerebusRollercoaster">Cerebus Rollercoaster</a>: The first game was relatively dark, with detailed descriptions of death via explosion. Due to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExecutiveMeddling" title="/pmwiki/pmwiki.php/Main/ExecutiveMeddling">Executive Meddling</a>, the sequel had a much lighter, more comedic tone, despite even higher stakes and <span class="spoiler" title="you can set spoilers visible by default on your profile">the story taking place in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadFuture" title="/pmwiki/pmwiki.php/Main/BadFuture">Bad Future</a> following a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HatePlague" title="/pmwiki/pmwiki.php/Main/HatePlague">Hate Plague</a> that caused multiple people to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToSuicide" title="/pmwiki/pmwiki.php/Main/DrivenToSuicide">Driven to Suicide</a></span>. The third game takes the first one's darkness and gore <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a>, contrasting heavily with the previous installment.<ul><li> Arguibly Justifed in-universe too. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Akane was Zero in the first game, and was effectively Co-Zero in the second game. The Zero of the third game was a much more ruthless if still as well intentioned individual.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a>: In addition to each game having its own <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsArmoury" title="/pmwiki/pmwiki.php/Main/ChekhovsArmoury">Chekhov's Armoury</a>, there is one particular gun use between games: In <em>999</em>, Ace mentions a <span class="spoiler" title="you can set spoilers visible by default on your profile">CAS freezing method that could theoretically be used to create a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanPopsicle" title="/pmwiki/pmwiki.php/Main/HumanPopsicle">Human Popsicle</a>.</span> One game later, it is indeed used that way as a major plot point.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChessmaster" title="/pmwiki/pmwiki.php/Main/TheChessmaster">The Chessmaster</a>: Zero, naturally. The planning for each game is <em>very</em> meticulous. Taken <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a> with <span class="spoiler" title="you can set spoilers visible by default on your profile">Delta &mdash; even in that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldenEnding" title="/pmwiki/pmwiki.php/Main/GoldenEnding">Golden Ending</a>, after the characters do all they can to rebel against his game, he reveals that even that was an outcome he was working towards</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContemplateOurNavels" title="/pmwiki/pmwiki.php/Main/ContemplateOurNavels">Contemplate Our Navels</a>: Pretty much every character has at least one philosophical monologue, often wrapped around a scientific (or pseudoscientific) subject.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a>: The series slowly gets darker with each new entry. Initially the first game is just a group of nine people trying to escape together in an allotted timeframe while also trying to find out who they can trust. The second game ramps things up with psychological warfare and manipulations, plus many more deaths in nearly every route and the reveal that <span class="spoiler" title="you can set spoilers visible by default on your profile">the game involves trying to save the world and prevent 6 billion deaths</span>. The final game combines this with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodierAndGorier" title="/pmwiki/pmwiki.php/Main/BloodierAndGorier">Bloodier and Gorier</a>, with many brutal and graphic deaths happening no matter what decisions are made.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGame" title="/pmwiki/pmwiki.php/Main/DeadlyGame">Deadly Game</a>: Both of the Nonary Games can very easily be this. However, it's also theoretically possible for everyone to escape alive if they follow the rules and work together, which ironically means the games are not <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Pun" title="/pmwiki/pmwiki.php/Main/Pun">zero-sum games</a>. On the other hand, the Decision Game has death as a necessity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoesThisRemindYouOfAnything" title="/pmwiki/pmwiki.php/Main/DoesThisRemindYouOfAnything">Does This Remind You of Anything?</a>: The protagonists have an unfortunate tendency to make sexual jokes every once in a while. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeconstructedTrope" title="/pmwiki/pmwiki.php/Main/DeconstructedTrope">Deconstructed</a> a little bit in <em>VLR</em> when characters actually tell Sigma that he's being creepy and making them uncomfortable, <span class="spoiler" title="you can set spoilers visible by default on your profile">which makes even more sense at the end as it turns out Sigma is in the body of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyOldMan" title="/pmwiki/pmwiki.php/Main/DirtyOldMan">an old man</a>.</span>. Averted mostly in <em>ZTD</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerEnding" title="/pmwiki/pmwiki.php/Main/DownerEnding">Downer Ending</a>: Most of the endings, partially due to a large amount of them being "GAME OVER" endings, and partially due to escaping being the motive of the characters and thus only the final ending of each game can have them truly escaping.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyAmnesia" title="/pmwiki/pmwiki.php/Main/EasyAmnesia">Easy Amnesia</a>: One character per game claims to be missing their memories.<ul><li> In <em>999</em>, it's Seven.</li><li> In <em>VLR</em>, it's K.</li><li> In <em>ZTD</em>, it's Q, <span class="spoiler" title="you can set spoilers visible by default on your profile">or rather, Sean</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndingChangesEverything" title="/pmwiki/pmwiki.php/Main/TheEndingChangesEverything">The Ending Changes Everything</a>: Due to the games being mystery games, the true endings will usually contain most of the massive twists.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOrIsIt" title="/pmwiki/pmwiki.php/Main/TheEndOrIsIt">The End... Or Is It?</a>: "TO BE CONTINUED" endings, which require you to gain information from a different ending before you can proceed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverybodyLives" title="/pmwiki/pmwiki.php/Main/EverybodyLives">Everybody Lives</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">In the best endings in all three games, <em>almost</em> - in 999, Teruaki Kubota couldn't be saved, and some non-Nonary Game-players die as well, although they all had it coming. Played straight in <em>VLR</em> with regards to everyone involved with the Nonary Game, but there's a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">much greater death toll</a> in the backstory. Taken <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a> in ZTD, where taking the alternate timelines into account, the final body count is negative 6 billion.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactTimeToFailure" title="/pmwiki/pmwiki.php/Main/ExactTimeToFailure">Exact Time to Failure</a>: In <em>999</em>, it's nine hours. <em>VLR</em> has countdowns to when the players have to be in certain locations or perform certain actions. <em>ZTD</em> downplays this, giving each team 90 minutes before <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia" title="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia">Laser-Guided Amnesia</a> kicks in.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FirstPersonPerspective" title="/pmwiki/pmwiki.php/Main/FirstPersonPerspective">First-Person Perspective</a>: In every game, <span class="spoiler" title="you can set spoilers visible by default on your profile">even ZTD.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foreshadowing" title="/pmwiki/pmwiki.php/Main/Foreshadowing">Foreshadowing</a>: Very, very often. Done to great effect especially with odd-sounding lines that the player is very likely to dismiss; lines that in hindsight are talking very blatantly about endgame plot twists.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration" title="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration">Gameplay and Story Integration</a>: There is very little abstraction; see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingThePlayer" title="/pmwiki/pmwiki.php/Main/PlayingThePlayer">Playing the Player</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GainaxEnding" title="/pmwiki/pmwiki.php/Main/GainaxEnding">Gainax Ending</a>: Any ending that has a shocking reveal that isn't explained until much later. The final endings, although they do rationalize most of the game up until then, tend to bring in sudden new reveals of their own, to be addressed in the following game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodzillaThreshold" title="/pmwiki/pmwiki.php/Main/GodzillaThreshold">Godzilla Threshold</a>: In each installment, Zero thinks the situation for themselves has gotten so bad that the only way to fix it is to force nine people to play a game that may cost the death of the entire cast <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Railroading" title="/pmwiki/pmwiki.php/Main/Railroading">if they don't do what Zero wants them to do</a>. It's particularly grave in <em>Zero Time Dilemma</em>, where 6 billion lives depend on the outcome of the Decision Game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldenEnding" title="/pmwiki/pmwiki.php/Main/GoldenEnding">Golden Ending</a>: Every game has <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultipleEndings" title="/pmwiki/pmwiki.php/Main/MultipleEndings">Multiple Endings</a>, and one of them lets everyone live. You are never able to get it in your first playthrough, though &mdash; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Railroading" title="/pmwiki/pmwiki.php/Main/Railroading">first, you need to complete other endings for plot reasons</a>.<ul><li> Played with in <em>ZTD</em>. There is an ending where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverybodyLives" title="/pmwiki/pmwiki.php/Main/EverybodyLives">Everybody Lives</a>, but at the same time <span class="spoiler" title="you can set spoilers visible by default on your profile">everybody also dies in another timeline. The final ending is initiated when everyone regains their memories of all the timelines in a situation where they are trapped in the bunker with a bomb about to go off. The only way they can escape with all their gained knowledge is to SHIFT their consciousnesses to a version of themselves that never played the game at all, allowing them to escape with all their knowledge that will let them save the world. However, the consciousnesses of the bodies they SHIFT into will be swapped into the bodies of the versions of themselves in the bunker, meaning they will die not understanding what is happening. And in the other timeline, Delta will get away with everything since they can't prove that he committed any crimes (since in that timeline, none of the games actually happened and any evidence of kidnap has been cleaned up). He does give Carlos a gun to let Carlos kill him in revenge if Carlos desires, but we don't see the result of this.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenDepths" title="/pmwiki/pmwiki.php/Main/HiddenDepths">Hidden Depths</a>: Pretty much every character has secrets about them, sometimes of this nature. In particular, the fanservicey characters tend to be very competent with technology.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HurricaneOfEuphemisms" title="/pmwiki/pmwiki.php/Main/HurricaneOfEuphemisms">Hurricane of Euphemisms</a>: In some of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoesThisRemindYouOfAnything" title="/pmwiki/pmwiki.php/Main/DoesThisRemindYouOfAnything">Does This Remind You of Anything?</a> scenes, particularly the elevator scene in <em>999</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HurricaneOfPuns" title="/pmwiki/pmwiki.php/Main/HurricaneOfPuns">Hurricane of Puns</a>: Everyone frequently makes puns for no particular reason. Eventually lampshaded in <em>VLR</em> when Phi calls out Sigma on making a pun other than the one she expected him to make.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InfoDump" title="/pmwiki/pmwiki.php/Main/InfoDump">Info Dump</a>: Often of fictional scientific experiments, or pointing out interesting observations about real science. The rest of the time, it's backstory or attempts to rationalize some of the more confusing time-related shenanigans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JigsawPuzzlePlot" title="/pmwiki/pmwiki.php/Main/JigsawPuzzlePlot">Jigsaw Puzzle Plot</a>: A lot of your time spent playing will involve trying to connect tons of seemingly disparate mysteries and contradictions. This is especially true in <em>ZTD</em> in which you play individual fragments at different places on the timeline.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillEmAll" title="/pmwiki/pmwiki.php/Main/KillEmAll">Kill 'Em All</a>: At least one ending per game gets all the participants killed. <em>Zero Time Dilemma</em> is the game with the most Kill 'em All endings by far due to its <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodierAndGorier" title="/pmwiki/pmwiki.php/Main/BloodierAndGorier">Bloodier and Gorier</a> nature.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LetsSplitUpGang" title="/pmwiki/pmwiki.php/Main/LetsSplitUpGang">Let's Split Up, Gang!</a>: Justified, as the Nonary Games have limits for how many people can go through each door at a time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManyDeathsOfYou" title="/pmwiki/pmwiki.php/Main/TheManyDeathsOfYou">The Many Deaths of You</a>: In every game, the nine players meet all sorts of deaths along the way, some more gruesome than others. Taking all the timelines into account, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a> can be stabbed, blow up, die by poison, be shot, commit suicide... <em>Zero Time Dilemma</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExaggeratedTrope" title="/pmwiki/pmwiki.php/Main/ExaggeratedTrope">exaggerates this trope</a>, taking the ways of dying over the dozen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a>: Of the 'complex application of science/pseudoscience' variety.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrewdriver" title="/pmwiki/pmwiki.php/Main/MindScrewdriver">Mind Screwdriver</a>: The true endings try to explain a lot of what happened throughout the game, but expect to be confused regardless.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a>: There's a lot of comedy in-between the very serious and very dark parts. Justified as humans in a similar situation would likely try to lighten the mood to make up for the scenario they've found themselves in.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralityKitchenSink" title="/pmwiki/pmwiki.php/Main/MoralityKitchenSink">Morality Kitchen Sink</a>: With colorful casts and very few organised groups, this is unavoidable. There are characters who will try to save everyone no matter what, there are those who would <em>like</em> to save everyone but are realistic about it, there are those who try to save those they personally care about and don't care about others, and those who only care about themselves, and those who have their own secret agendas during the games. Depending on choices, one character may be one or the other of those, and some characters only <em>appear</em> to be something and are in fact something else.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultipleChoiceFuture" title="/pmwiki/pmwiki.php/Main/MultipleChoiceFuture">Multiple-Choice Future</a>: The universe runs on the many-world theory &mdash; there are countless universes out there, each being created as one of the results of any decision. <span class="spoiler" title="you can set spoilers visible by default on your profile">Once <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrainingFromHell" title="/pmwiki/pmwiki.php/Main/TrainingFromHell">trained</a>, SHIFTers can move through them at will, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration" title="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration">this becomes a requirement</a> for reaching the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldenEnding" title="/pmwiki/pmwiki.php/Main/GoldenEnding">Golden Ending</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultipleEndings" title="/pmwiki/pmwiki.php/Main/MultipleEndings">Multiple Endings</a>: Every game has more than one ending, with each installment surpassing the previously established record, reaching over <em><strong>thirty</strong></em> in <em>Zero Time Dilemma</em>. And you're going to have to get most of them &mdash; the first ending you get is merely the beginning.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OncePerEpisode" title="/pmwiki/pmwiki.php/Main/OncePerEpisode">Once per Episode</a>:<ul><li> A main character's left hand is severed, allowing their bracelets to come off without them immediately dying.<span class="notelabel" onclick="togglenote('note19swr');"><sup>note&nbsp;</sup></span><span id="note19swr" class="inlinefolder" isnote="true" onclick="togglenote('note19swr');" style="cursor:pointer;font-size:smaller;display:none;">Clover cuts Junpei's arm and takes his bracelet and he lives to see her walk away in <em>999</em>; Sigma's arm is crushed by a door in <em>VLR</em>; and Akane cuts Carlos' arm with a chainsaw in <em>ZTD</em>.</span></li><li> There is at least one person in the facility that is not one of the players.<span class="notelabel" onclick="togglenote('note2r2hl');"><sup>note&nbsp;</sup></span><span id="note2r2hl" class="inlinefolder" isnote="true" onclick="togglenote('note2r2hl');" style="cursor:pointer;font-size:smaller;display:none;">Musashidou and Nijisaki in <em>999</em>; Akane in <em>VLR</em>; Sean in <em>ZTD</em></span></li><li> Zero is revealed to be <span class="spoiler" title="you can set spoilers visible by default on your profile">the player</span>, though what this actually means is different between games <span class="notelabel" onclick="togglenote('note35g7o');"><sup>note&nbsp;</sup></span><span id="note35g7o" class="inlinefolder" isnote="true" onclick="togglenote('note35g7o');" style="cursor:pointer;font-size:smaller;display:none;">In 999, the player is young Akane seeing the future through Junpei's perspective, and current Akane is Zero; in <em>VLR</em>, the protagonist Sigma is Zero (though it's his past self unknowingly inhabiting his future self's body); and in <em>ZTD</em> the player's viewpoint is that of Zero (Delta) watching the scene through security cameras</span>.</li><li> A bad ending gives an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Infodump" title="/pmwiki/pmwiki.php/Main/Infodump">Infodump</a> and information necessary to reach the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldenEnding" title="/pmwiki/pmwiki.php/Main/GoldenEnding">Golden Ending</a>.</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a> knows things they can't possibly know thanks to <span class="spoiler" title="you can set spoilers visible by default on your profile">the sharing of information via the morphogenetic field</span>.</li><li> A lethal weapon is found during a room escape and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreBlindness" title="/pmwiki/pmwiki.php/Main/GenreBlindness">left alone</a> by the player character. Said weapon is later used in order to take a life.<span class="notelabel" onclick="togglenote('note4cklh');"><sup>note&nbsp;</sup></span><span id="note4cklh" class="inlinefolder" isnote="true" onclick="togglenote('note4cklh');" style="cursor:pointer;font-size:smaller;display:none;">Clover's axe in <em>999</em> (and Ace's gun, except he killed nobody); the scalpels in both <em>VLR</em> and <em>ZTD</em> and, additionally, Eric's shotgun in <em>ZTD</em>.</span></li><li> There is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a> woman <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fanservice" title="/pmwiki/pmwiki.php/Main/Fanservice">with visibly huge breasts</a> who turns out to be a genius in some field of knowledge.<span class="notelabel" onclick="togglenote('note5v0wd');"><sup>note&nbsp;</sup></span><span id="note5v0wd" class="inlinefolder" isnote="true" onclick="togglenote('note5v0wd');" style="cursor:pointer;font-size:smaller;display:none;">Lotus in <em>999</em>, Alice in <em>VLR</em>, Mira in <em>ZTD</em></span></li><li> One non-Zero player is a murderous sociopath (or become one) who will try to kill the rest of the cast.<span class="notelabel" onclick="togglenote('note65p7d');"><sup>note&nbsp;</sup></span><span id="note65p7d" class="inlinefolder" isnote="true" onclick="togglenote('note65p7d');" style="cursor:pointer;font-size:smaller;display:none;">Ace (and, in one ending, Clover) in <em>999</em>; Dio in <em>VLR</em>; Mira (and, sometimes, Eric) in <em>ZTD</em></span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OmegaEnding" title="/pmwiki/pmwiki.php/Main/OmegaEnding">Omega Ending</a>: In each game, in order to get to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldenEnding" title="/pmwiki/pmwiki.php/Main/GoldenEnding">best possible ending</a>, you first need to go through every other major ending (2/5 in <em>999</em>, 12/22 in <em>VLR</em>, 15/32 in <em>ZTD</em>). This can take dozens of hours depending on the player's speed at puzzle solving.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlyKnownByTheirNickname" title="/pmwiki/pmwiki.php/Main/OnlyKnownByTheirNickname">Only Known by Their Nickname</a>: A lot of characters have codenames they invent (for security reasons in <em>999</em>, for amnesia or secrecy reasons in <em>VLR</em> and <em>ZTD</em>). You end up learning some of their birth names later on.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OntologicalMystery" title="/pmwiki/pmwiki.php/Main/OntologicalMystery">Ontological Mystery</a>: Where are we, why are we here, and who is Zero?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingThePlayer" title="/pmwiki/pmwiki.php/Main/PlayingThePlayer">Playing the Player</a>: The branching endings <span class="spoiler" title="you can set spoilers visible by default on your profile">are actual in-universe timelines</span>. Expect these games to call into question <span class="spoiler" title="you can set spoilers visible by default on your profile">who you're playing as</span> as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PointAndClickGame" title="/pmwiki/pmwiki.php/Main/PointAndClickGame">Point-and-Click Game</a>: During the room escape fragments, you pick up several items, combine them and use them in different ways and in different parts of the room to unlock the exit door or trigger a cutscene. In the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/NintendoDS" title="/pmwiki/pmwiki.php/UsefulNotes/NintendoDS">Nintendo DS</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Nintendo3DS" title="/pmwiki/pmwiki.php/UsefulNotes/Nintendo3DS">Nintendo 3DS</a> versions, you can use your stylus to interact with the environment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>: The morphogenetic field. It seems to vary between their users (called espers) from telepathy (being used by <span class="spoiler" title="you can set spoilers visible by default on your profile">pretty much all the players of <em>999</em>, minus possibly Seven, Ace, and the Ninth Man</span>) to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MentalTimeTravel" title="/pmwiki/pmwiki.php/Main/MentalTimeTravel">Mental Time Travel</a> (<span class="spoiler" title="you can set spoilers visible by default on your profile">Sigma, Phi, K, Akane, Junpei, Carlos, and Diana</span>) to mind control (<span class="spoiler" title="you can set spoilers visible by default on your profile">Delta</span>). Since the field is a product of all of humanity, theoretically, anybody could use it under the right circumstances.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionOfEvil" title="/pmwiki/pmwiki.php/Main/ReligionOfEvil">Religion of Evil</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Free the Soul, which has apparently been operating for years - there's hints of it in <em>999</em>, most notably the robes that Snake finds, and it becomes a major plot point in <em>VLR</em>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RewatchBonus" title="/pmwiki/pmwiki.php/Main/RewatchBonus">Rewatch Bonus</a>: Each installment in the series has major reveals which are heavily foreshadowed but not easy to pick out on an initial playthrough. These include <span class="spoiler" title="you can set spoilers visible by default on your profile">young Akane being the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NarratorAllAlong" title="/pmwiki/pmwiki.php/Main/NarratorAllAlong">Narrator All Along</a> in 999, Sigma being an old man in VLR, and Delta's existence in ZTD</span>. Once you know the twists, the hints are obvious, but they are presented in such a way that they can be easily written off without arousing suspicion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RippleEffectProofMemory" title="/pmwiki/pmwiki.php/Main/RippleEffectProofMemory">Ripple Effect-Proof Memory</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Becomes much more prevalent in <em>VLR</em> and <em>ZTD</em>, where characters are explicitly included in the deadly games to train their ability to retain their cognizance across multiple timelines, using information gleaned in one reality to assist them in others. Sean, being a robot whose primary programming is housed within a quantum computer which is observiing multiple realities, similarly has this trait.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanitySlippage" title="/pmwiki/pmwiki.php/Main/SanitySlippage">Sanity Slippage</a>: Obviously, some characters are not going to respond to being thrown in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGame" title="/pmwiki/pmwiki.php/Main/DeadlyGame">Deadly Game</a> well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SequelHook" title="/pmwiki/pmwiki.php/Main/SequelHook">Sequel Hook</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Alice</span> in <em>999</em> and <span class="spoiler" title="you can set spoilers visible by default on your profile">the entirety of the final three endings</span> in <em>VLR</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SequelEscalation" title="/pmwiki/pmwiki.php/Main/SequelEscalation">Sequel Escalation</a>: Each game ups the sci-fi elements more and more. <span class="spoiler" title="you can set spoilers visible by default on your profile"><em>999</em> is largely set on reality, with several elements mentioned by the characters (such as the rat experiment Santa brings up) actually being done in real life. <em>VLR</em> dives deep into the sci-fi department, adding space travel, clones, robots, etc. into the story. <em>ZTD</em> then goes on and includes a transporter made by intergalactic beings</span>. By the end of the third game, the morphogenetic field concept introduced in the first game seems tame.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SerialEscalation" title="/pmwiki/pmwiki.php/Main/SerialEscalation">Serial Escalation</a>: The first game has six endings<span class="notelabel" onclick="togglenote('note7lkq6');"><sup>note&nbsp;</sup></span><span id="note7lkq6" class="inlinefolder" isnote="true" onclick="togglenote('note7lkq6');" style="cursor:pointer;font-size:smaller;display:none;">Well, five if you don't count the "TO BE CONTINUED" ending and what comes after as one.</span> The second game has <em>twenty-two</em>. The third game has <em><strong>thirty-two</strong></em>. The stakes also change between the games: <span class="spoiler" title="you can set spoilers visible by default on your profile"><em>999</em> is about saving a life and taking revenge on a small group of antagonists. <em>VLR</em> is about training two people to psychically transmit their consciousness in order to save the world from <em>an apocalypse caused by an evil religion releasing a terrifyingly lethal virus</em> several years in the past, the story of which is told in <em>ZTD</em>. And the third game is about preventing an <em>even worse</em> scenario which results in humanity's extinction, which the aforementioned apocalypse was intended to prevent</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SirSwearsALot" title="/pmwiki/pmwiki.php/Main/SirSwearsALot">Sir Swears-a-Lot</a>: While swearing is always present, all three entries have an specific character that is much more dirty-mouthed than the rest. For the series as a whole, the most prominent one would be <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/VirtuesLastReward" title="/pmwiki/pmwiki.php/VisualNovel/VirtuesLastReward">Dio</a>, according to <a class="urllink" href="https://imgur.com/a/WDh6n">this chart (beware spoilers).<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StableTimeLoop" title="/pmwiki/pmwiki.php/Main/StableTimeLoop">Stable Time Loop</a>: In every game, <span class="spoiler" title="you can set spoilers visible by default on your profile">some event has happened in the past thanks to the game's current events and Zero is trying to make sure the latter happen by forcing the nine players to perform them</span>. It sometimes gets so impossibly confusing that you end up with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a> in your hands.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StartXToStopX" title="/pmwiki/pmwiki.php/Main/StartXToStopX">Start X to Stop X</a>: A reoccurring motivation behind the Games, regardless of which Zero is in charge. They either <span class="spoiler" title="you can set spoilers visible by default on your profile">take advantage of a tragedy to stop/prevent it</span> or <span class="spoiler" title="you can set spoilers visible by default on your profile">use the same methods as an even more evil third party to counter them</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeYourTime" title="/pmwiki/pmwiki.php/Main/TakeYourTime">Take Your Time</a>: Despite the often-prevalent in-universe time limits, characters stand around talking quite a lot, and you have as much time as you want to solve puzzles. However, do expect the characters to get interrupted by said time limits at some points of the story anyway, though they still usually had more than enough time for whatever they were talking about.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeBomb" title="/pmwiki/pmwiki.php/Main/TimeBomb">Time Bomb</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Courtesy of Dio</span> in <em>VLR</em>, and <span class="spoiler" title="you can set spoilers visible by default on your profile">part of one of the rooms in <em>ZTD</em>, as well as the function of the Force Quit Box</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeyWimeyBall" title="/pmwiki/pmwiki.php/Main/TimeyWimeyBall">Timey-Wimey Ball</a>: It can get very tricky keeping track of the various timelines in each game, even with the included flowcharts. It gets even further complicated by <span class="spoiler" title="you can set spoilers visible by default on your profile">characters jumping back to earlier points in time, jumping forward once an important action has been done in the past, jumping <em>sideways</em> between timelines, etc.</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToBeContinued" title="/pmwiki/pmwiki.php/Main/ToBeContinued">To Be Continued</a>: Some timelines stop at a certain point and won't continue until you do something else in another timeline first, prompting the message "TO BE CONTINUED" <span class="notelabel" onclick="togglenote('note82juz');"><sup>note&nbsp;</sup></span><span id="note82juz" class="inlinefolder" isnote="true" onclick="togglenote('note82juz');" style="cursor:pointer;font-size:smaller;display:none;">This message doesn't pop up in <em>Zero Time Dilemma</em>. Instead, you just are thrown back to the team select screen</span>. This type of plot halt is infamous in <em>999</em>, where your path to the True Ending becomes a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShaggyDogStory" title="/pmwiki/pmwiki.php/Main/ShaggyDogStory">"Shaggy Dog" Story</a> and you have to go back to the very beginning of the game to try another path.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranslationConvention" title="/pmwiki/pmwiki.php/Main/TranslationConvention">Translation Convention</a>: The first game doesn't really deal with this as all the characters are Japanese. But starting with <em>VLR</em>, an increasingly larger percentage of the cast are American (Sigma, Phi, and Alice in VLR and Sigma, Phi, Diana, Carlos, Eric, and Mira in ZTD, with Dio, Luna, and K being ambiguous and <span class="spoiler" title="you can set spoilers visible by default on your profile">Sean being a robot, though the boy he was based off of was likely American</span>). None of the characters have any issues communicating with each other despite the potential language barrier (though in ZTD, Carlos, Junpei, and Akane would be the only team where that would be a concern and it's possible Junpei and Akane learned English considering their respective plans).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwentyMinutesInTheFuture" title="/pmwiki/pmwiki.php/Main/TwentyMinutesInTheFuture">Twenty Minutes In The Future</a>: <em>999</em> takes place in 2027, and the other games take place at varying points afterwards. <em>VLR</em> makes mention of several antimatter power plants, long-term bases on the Moon, and a planned manned mission to Mars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwistEnding" title="/pmwiki/pmwiki.php/Main/TwistEnding">Twist Ending</a>: Most endings in all three games occur in a completely unexpected way, to varying extents. This includes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GainaxEnding" title="/pmwiki/pmwiki.php/Main/GainaxEnding">Gainax Endings</a> where it feels like something just came out of left field.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoPartTrilogy" title="/pmwiki/pmwiki.php/Main/TwoPartTrilogy">Two-Part Trilogy</a>: While <em>VLR</em> leads directly into <em>ZTD</em>, <em>999</em> is much more self-contained and only tied in to the others retroactively.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUnfettered" title="/pmwiki/pmwiki.php/Main/TheUnfettered">The Unfettered</a>: Every Zero is this: a person who is willing to kill nine people in gruesome ways to achieve a big goal. Sure &mdash; given that these games have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultipleEndings" title="/pmwiki/pmwiki.php/Main/MultipleEndings">Multiple Endings</a>, no one or few people are sacrificed in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldenEnding" title="/pmwiki/pmwiki.php/Main/GoldenEnding">best one</a>... But Zero's means are still morally questionable at best. And some of the victims bring the memories of their own deaths from other timelines.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ViolenceIsTheOnlyOption" title="/pmwiki/pmwiki.php/Main/ViolenceIsTheOnlyOption">Violence Is the Only Option</a>: Every Zero has this belief. They think that the only way for their plans to succeed is to risk nine people's lives (or more) <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManyDeathsOfYou" title="/pmwiki/pmwiki.php/Main/TheManyDeathsOfYou">in many horrific ways</a>. They never consider addressing the participants to try and come up with a collective plan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatTheHellHero" title="/pmwiki/pmwiki.php/Main/WhatTheHellHero">What the Hell, Hero?</a>: You have the opportunity to make choices that the other characters don't like. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButThouMust" title="/pmwiki/pmwiki.php/Main/ButThouMust">You usually have to do these things at some point in order to get the final ending</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>: The Zero in each installment has a noble goal but pretty cruel and horrific means to get there. They force nine people to play a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGame" title="/pmwiki/pmwiki.php/Main/DeadlyGame">Deadly Game</a> in order to <span class="spoiler" title="you can set spoilers visible by default on your profile">ensure that some event in the past happens, as that event was possible thanks to the present's actions on behalf of the participants</span>. Their secondary goal is to <span class="spoiler" title="you can set spoilers visible by default on your profile">punish or stop an evil third party that caused or is going to cause a lot of trouble to Zero</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfSnark" title="/pmwiki/pmwiki.php/Main/WorldOfSnark">World of Snark</a>: It's extremely common for characters to throw sarcastic remarks at each other during the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGame" title="/pmwiki/pmwiki.php/Main/DeadlyGame">Deadly Games</a>. Virtually everyone in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/VirtuesLastReward" title="/pmwiki/pmwiki.php/VisualNovel/VirtuesLastReward">Virtue's Last Reward</a></em> does this all the time, and the majority of the cast of the other two games does as well, to varying degrees of nastiness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouWakeUpInARoom" title="/pmwiki/pmwiki.php/Main/YouWakeUpInARoom">You Wake Up in a Room</a>: All of the Nonary Game players wake up in an unknown location and must escape it as soon as possible before even beginning the game. In <em>Zero Time Dilemma</em>, the participants are injected a drug that makes them sleep and forget what happened in the previous 90 minutes, so they experience this trope to a degree repeteadly throughout the Decision Game.</li></ul><hr><div class="indent"><em>You found it!</em></div><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/FateStayNight">Fate/stay night</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GambitPileup">Gambit Pileup</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/DanganRonpa">Danganronpa</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/Imabikiso">Imabikiso</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/SpikeChunsoft">Creator/Spike Chunsoft</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Yume2kki">Yume 2kki</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ArtGame">Art Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/ZPC">ZPC</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MatureRating">Mature Rating</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Zuma">Zuma</a>
+ </li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/PuzzleGame">Puzzle Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/WorldOfHorror">World of Horror</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/PsychologicalThriller">Psychological Thriller</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/YuNo">YU-NO</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Monster/VisualNovels">Visual Novels</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/QuoteSource/VideoGames">QuoteSource/Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/XenobladeChronicles2">Xenoblade Chronicles 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/TheEighthGenerationOfConsoleVideoGames">UsefulNotes/The Eighth Generation of Console Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/VirtuesLastReward">Virtue's Last Reward</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/ZankiZero">Zanki Zero</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/PlayStation4">UsefulNotes/PlayStation 4</a>
+</li>
+<li>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/YourTurnToDie">Your Turn to Die</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HorrorVisualNovels">Horror Visual Novels</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/NineHoursNinePersonsNineDoors">Nine Hours, Nine Persons, Nine Doors</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/YuGiOhTheAbridgedSeries">Yu-Gi-Oh! The Abridged Series</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeKilowickedFranchises">JustForFun/Trope Kilowicked Franchises</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebAnimation/ZeroPunctuation">Zero Punctuation</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

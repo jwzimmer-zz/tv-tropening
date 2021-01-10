@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Eon (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Eon is a Swedish Fantasy RPG set in the world of Mundana, which is essentially a Standard Fantasy Setting, but with a surprising amount of nuances. Every &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Eon" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Eon (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Eon is a Swedish Fantasy RPG set in the world of Mundana, which is essentially a Standard Fantasy Setting, but with a surprising amount of nuances. Every &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/eon_ttrpg.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Eon (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Eon" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/eon_ttrpg.jpg" />
+<meta property="og:description" content="Eon is a Swedish Fantasy RPG set in the world of Mundana, which is essentially a Standard Fantasy Setting, but with a surprising amount of nuances. Every race, nation, and individual described has a perfectly reasonable explanation for what they &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/Utopia" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Series/HaltAndCatchFire" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Eon?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Eon">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Eon">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Eon&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Eon">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Eon?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Eon" />
+<input type="hidden" id="article_id" value="317385" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Eon</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Eon
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Eon"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Eon" class="subpage-link " title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/Eon" class="subpage-link " title="The ComicBook page">
+<span class="wrapper"><span class="spi comicbook"></span>ComicBook</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/Eon" class="subpage-link " title="The Literature page">
+<span class="wrapper"><span class="spi literature"></span>Literature</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Eon" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Eon" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Eon?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Eon?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Eon?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Eon?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Eon?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Eon?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Eon?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Eon?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Eon?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Eon?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Eon?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Eon?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Eon?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Eon?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Eon?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/Eon?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/Eon?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:265px;"><div class="lazy_load_img_box" style="padding-top:141.13%"><img src="https://static.tvtropes.org/pmwiki/pub/images/eon_ttrpg.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/eon_ttrpg.jpg" width="265" height="374"></div></div>Eon is a Swedish Fantasy RPG set in the world of Mundana, which is essentially a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StandardFantasySetting" title="/pmwiki/pmwiki.php/Main/StandardFantasySetting">Standard Fantasy Setting</a>, but with a surprising amount of nuances. Every race, nation, and individual described has a perfectly reasonable explanation for what they do, and no-one is ever in it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">For the Evulz</a>. There is no good or evil, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGreyMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGreyMorality">there are just sides</a>. Unlike <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em> Eon relies heavily on world description and story hooks rather than rule expansions, and there are very little "crunch" in all but the core books. This has over the years resulted in a <em>very</em> detailed and complex setting that can't quite decide whether it wants to be down-to-earth or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighFantasy" title="/pmwiki/pmwiki.php/Main/HighFantasy">High Fantasy</a>; in practice, it's a mix of both, somewhat like <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/ASongOfIceAndFire" title="/pmwiki/pmwiki.php/Literature/ASongOfIceAndFire">A Song of Ice and Fire</a>. The rules are vaguely <a class="urllink" href="http://en.wikipedia.org/wiki/Basic_Role-Playing">BRP-based<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and very detailed and gritty with a lot of bookkeeping, and a common complaint is that combat resolution takes too much time, although later editions has made the rules much more stream-lined and introduced various options for simplifying stuff. An unusual feature is the "scientific" system for how magic works, with the rules corresponding closely to a broad range of "magic theories" in the intellectual traditions of the gaming world. The rules in particular make Eon somewhat like a hot potato on the Swedish gaming scene; it's a love-or-hate thing.<div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>For Greg Bear's novel <em>Eon</em>, see <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheWaySeries" title="/pmwiki/pmwiki.php/Literature/TheWaySeries">The Way Series</a></em>.</p><p></p><hr><h2>Eon contains examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbusivePrecursors" title="/pmwiki/pmwiki.php/Main/AbusivePrecursors">Abusive Precursors</a>: The Kamorfs, a race of &uuml;ber-intelligent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LizardFolk" title="/pmwiki/pmwiki.php/Main/LizardFolk">Lizard Folk</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllGenesAreCoDominant" title="/pmwiki/pmwiki.php/Main/AllGenesAreCoDominant">All Genes Are Codominant</a>: Averted in the case of half elves. Humans and elves are the only main races who can produce viable offspring . The main difference between elves and humans is the elvish curse and a half human child has exactly 50% chance to inherit the curse, making it elvish, or not, making it human. That said, elves with one human parent tend to be slightly stockier and have more body hair than elves with two elvish parents, and vice-versa.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllTrollsAreDifferent" title="/pmwiki/pmwiki.php/Main/AllTrollsAreDifferent">All Trolls Are Different</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil" title="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil">Always Chaotic Evil</a>: Averted; capital-E "Evil" does not exist in Eon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncientConspiracy" title="/pmwiki/pmwiki.php/Main/AncientConspiracy">Ancient Conspiracy</a>: "The Society", "The Order of the Star", "The Path of Illumination", "Priori con Sabriean", "The Council of the Lily" and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitPileup" title="/pmwiki/pmwiki.php/Main/GambitPileup">many, many more</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnyoneCanDie" title="/pmwiki/pmwiki.php/Main/AnyoneCanDie">Anyone Can Die</a>: The rules for pain and injuries are, generally, very unforgiving. Eon uses a system of "unlimited dice" where any roll of a 6 is rerolled with two new dice which may in turn be sixes and thus rerolled with two new dice each, which makes certain that even dragons may die from a single wounding hit, although it is <em>extremely</em> unlikely. (It has reportedly occurred at least once in the game's existence).<ul><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> A note here, the "6" doesn't STAY a six, it's converted to two new dice, so you don't easily get numbers in their hundreds even with dozens of'em.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AStormIsComing" title="/pmwiki/pmwiki.php/Main/AStormIsComing">A Storm Is Coming</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Very much so. In Eon, civilization exists in cycles of 10,000 years, whereupon <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">The End of the World as We Know It</a> occurs by way of demon invasion. The game starts in the year...10000.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AutomaticCrossbows" title="/pmwiki/pmwiki.php/Main/AutomaticCrossbows">Automatic Crossbows</a>: The Dwarves have semi-automatic versions of these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BarbarianTribe" title="/pmwiki/pmwiki.php/Main/BarbarianTribe">Barbarian Tribe</a>: The Kragg, the Rauns, the Tiraks and many others.<ul><li> In the case of the Tiraks, only the Frakk are really true barbarians. The Marnakh live and work in human cities, and the Bazirk are generally out at sea most of the time. Sure, some Bazirk might settle down and start tribes on the island of Takalorr, but for the most part they're just merchants, fishermen and pirates.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeastMan" title="/pmwiki/pmwiki.php/Main/BeastMan">Beast Man</a>: The Wulfen, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LizardFolk" title="/pmwiki/pmwiki.php/Main/LizardFolk">Lizard Folk</a>, the Minotaurs. Arachnids and Insectoids are a borderline example.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a>: The first Misslas are, according to legend, said to have come to Mundana by falling through a hole in the sky unto the tent of some Kragg barbarians. After the initial, mutual surprise and confusion had settled, the Misslas introduced themselves with the phrase "Hina, misla-ni tani" (Hi, we're Misslas). By coincidence, the word "misla" means "godsent" in the Kragg tribe's language, and though the Misslas have tried to explain this misunderstanding many times over the course of the last 2000 years, abusing a Missla in the presence of a Kragg is <em>still</em> a surprisingly effective way to get oneself soundly thrashed by a two-metre tall barbarian in a blind berserk rage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">BFS</a>: The abovementioned Kragg tribe use 180 cm, massively heavy swords as their signature weapon. Then again, the average height of a Kragg is two metres. Then there's the lyfali, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade" title="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade">Absurdly Sharp Blade</a> of the Sanari elves. It's basically a 170 cm <em>razor</em> with a diamond core. Common users of these swords include two-metre <em>elves</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoxedCrook" title="/pmwiki/pmwiki.php/Main/BoxedCrook">Boxed Crook</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAllMeetInACell" title="/pmwiki/pmwiki.php/Main/YouAllMeetInACell">You All Meet in a Cell</a>: The beginning of the adventure <span class="spoiler" title="you can set spoilers visible by default on your profile">De F&ouml;rd&ouml;mdas Sista Hopp.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheButcher" title="/pmwiki/pmwiki.php/Main/TheButcher">The Butcher</a>: The former Grand Prince of Damaria Pelgrin the Butcher and his son, Pelgrin son of the Butcher.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchPhrase" title="/pmwiki/pmwiki.php/Main/CatchPhrase">Catchphrase</a>: For the Dwarves, it's "I stand here". Depending on context it can mean anything from "My mind is made up." to "No retreat, no quarter, no surrender!"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cephalothorax" title="/pmwiki/pmwiki.php/Main/Cephalothorax">Cephalothorax</a>: The Hyggelmonster, a creature consisting of two sturdy legs, a sharp-toothed, acid dribbling mouth, two acid-spitting tentacles on the top, and not much else. Their eggs are prized by alchemists.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChurchMilitant" title="/pmwiki/pmwiki.php/Main/ChurchMilitant">Church Militant</a>: The church of Daak has multiple orders of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorMonk" title="/pmwiki/pmwiki.php/Main/WarriorMonk">Warrior Monks</a> and Crusader Knights. The Samori faith has the Order of Zori&aacute;n. The temples of Cirza and Imay both have special temple warriors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CivilizedAnimal" title="/pmwiki/pmwiki.php/Main/CivilizedAnimal">Civilized Animal</a>: The Ulvs are a race of direwolves who differ from regular wolves by their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanisMajor" title="/pmwiki/pmwiki.php/Main/CanisMajor">huge size</a>, intellegence and possesion of a soul. Their mentallity and culture is wolf-like.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContemptibleCover" title="/pmwiki/pmwiki.php/Main/ContemptibleCover">Contemptible Cover</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LadyNotAppearingInThisGame" title="/pmwiki/pmwiki.php/Main/LadyNotAppearingInThisGame">Lady Not-Appearing-in-This-Game</a>: "De F&ouml;rd&ouml;mdas Sista Hopp".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoversAlwaysLie" title="/pmwiki/pmwiki.php/Main/CoversAlwaysLie">Covers Always Lie</a>: Well, not always. But in many of the earlier modules the covers featured fantasy art not specifically drawn for the modules in question, such as covers made by Keith Parkinson for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheElenium" title="/pmwiki/pmwiki.php/Literature/TheElenium">The Elenium</a></em>. Even if they are not directly irrelevant or contradictory to the material in the books, you occasionally need some imagination to make them fit the text within.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CursedWithAwesome" title="/pmwiki/pmwiki.php/Main/CursedWithAwesome">Cursed With Awesome</a>: The elves call themselves "the people of the curse", which refer to the magical effect that all elves have that differentiate them from humans. The curse grants them longer lifespans, the ability to sense if someone is watching them and to stop their own bleeding if they get hurt. However, the fact that elves starts to experience the passing of time more and more intensely as they grow older and usually become clinically depressed and catatonic sometime around 200 to 300 years of age explain why they consider this to be a curse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalDragonJesus" title="/pmwiki/pmwiki.php/Main/CrystalDragonJesus">Crystal Dragon Jesus</a>: The Daak faith and to a more limited degree, the Samorian faith.<ul><li> The Mh&icirc;m's law religion could be seen as a Crystal Dragon Allah, but the similarities between the religion and Islam is almost completely "cosmetic", it's theology almost being closer to certain forms of Hinduism.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuteMonsterGirl" title="/pmwiki/pmwiki.php/Main/CuteMonsterGirl">Cute Monster Girl</a>: Female G&ucirc;rds (the smallest race of Tiraks) have claws, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuteLittleFangs" title="/pmwiki/pmwiki.php/Main/CuteLittleFangs">fangs</a> and some fur but are considered a lot more attractive and intelligent than other Tiraks or male G&ucirc;rds by humans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkestAfrica" title="/pmwiki/pmwiki.php/Main/DarkestAfrica">Darkest Africa</a>: Notably averted; there are highly civilized black cultures in Eon, who even send missionaries to the whiteys.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyDecadentCourt" title="/pmwiki/pmwiki.php/Main/DeadlyDecadentCourt">Deadly Decadent Court</a>: Many of them, but the imperial court of Jargia and the court of the notoriously paranoid Grand Prince Thamas of Damaria stands out.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DragonRider" title="/pmwiki/pmwiki.php/Main/DragonRider">Dragon Rider</a>: Some elves and humans ride the relatively small and unintelligent Heav&eacute;-dragons. Then there are the immortal Dragonguardians, who are soul-bound to a true dragon that they occasionally ride.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DreamLand" title="/pmwiki/pmwiki.php/Main/DreamLand">Dream Land</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DreamWithinADream" title="/pmwiki/pmwiki.php/Main/DreamWithinADream">Dream Within a Dream</a>:<span class="spoiler" title="you can set spoilers visible by default on your profile">Ultimately, the universe exists entirely inside the dreams of Aeon, the Enity of Time. If he were to ever wake up then everything, including Aeon, would cease to be.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DungeonCrawling" title="/pmwiki/pmwiki.php/Main/DungeonCrawling">Dungeon Crawling</a>: The system does not really favor it, but many of the official adventures include at least some elements of this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a>: Many demons and creatures from the Abyss.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchLocation" title="/pmwiki/pmwiki.php/Main/EldritchLocation">Eldritch Location</a>: The Shadowland, the surreal home of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FairFolk" title="/pmwiki/pmwiki.php/Main/FairFolk">Fair Folk</a> that might be located somewhere between the real world and the world of dreams.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElvesVsDwarves" title="/pmwiki/pmwiki.php/Main/ElvesVsDwarves">Elves vs. Dwarves</a>: In this case, it is explained by the fact that the elves and dwarfs have fought five highly destructive "great wars" against one another. According to legend, the first one ironically started when the dwarfs accidentally made a terrible diplomatic faux pas by laying down their weapons in front of the elvish negotiatior. In elven culture, this is a declaration of war ("Now, the only thing that can be between us is arms!"). The conflict is easily fueled by the extreme differences in mentality and culture. Elves are famous for flowery language and long greetings. For dwarves, spoken language is for conveying information, and the subtleties are expressed with tone and body language.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpire" title="/pmwiki/pmwiki.php/Main/TheEmpire">The Empire</a>: The Jargian Empire and Menon-Aun have aspects of this. Thalamur is technically a magocracy, but still fits this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpandedUniverse" title="/pmwiki/pmwiki.php/Main/ExpandedUniverse">Expanded Universe</a>: A number of novels taking place in Mundana has been published during the years:<ul><li> "<em>The Drakv&auml;ktar trilogy</em>" by Adreas Roman<ul><li> "<em>Drakv&auml;ktare</em>"</li><li> "<em>Dr&auml;paren</em>"</li><li> "<em>Demonen</em>"</li></ul></li><li> "<em>Vargen och k&auml;ttaren</em>" by Adreas Roman. Available for free on the author's homepage <a class="urllink" href="http://www.andreasroman.com/HosAndreas/start.html">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> "<em>Korset och tronen</em>" by Tobias Landstr&ouml;m</li><li> "<em>Stormens vandrare</em>" by Dan H&ouml;rning</li><li> "<em>Sv&auml;rdsspel i Hadarlon</em>" by Dan H&ouml;rning</li><li> The canceled video game "<em>EON - The Face of Deception</em>".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceFullOfAlienWingWong" title="/pmwiki/pmwiki.php/Main/FaceFullOfAlienWingWong">Face Full of Alien Wing-Wong</a>: The basilisk reproduces by turning other creatures into stone, laying an egg in the petrified persons mouth and then remove the petrification. Later on the baby basilisk emerges from the stomach of the host as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChestBurster" title="/pmwiki/pmwiki.php/Main/ChestBurster">Chest Burster</a>.<ul><li> This is also the case with the Satyrs and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ALoadOfBull" title="/pmwiki/pmwiki.php/Main/ALoadOfBull">Minotaurs</a>, two examples of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneGenderRace" title="/pmwiki/pmwiki.php/Main/OneGenderRace">all-male races</a>, who can only reproduce with other humanoids.</li><li> Some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HornyDevils" title="/pmwiki/pmwiki.php/Main/HornyDevils">Demons</a> and Shadowcreatures can breed with humanoids, creating a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalfHumanHybrid" title="/pmwiki/pmwiki.php/Main/HalfHumanHybrid">Half-Human Hybrid</a> (who usually end up mostly human).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFairFolk" title="/pmwiki/pmwiki.php/Main/TheFairFolk">The Fair Folk</a>: The Shadowpeople.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticCasteSystem" title="/pmwiki/pmwiki.php/Main/FantasticCasteSystem">Fantastic Caste System</a>: Elvish society was <em>supposed</em> to be this, if you ask the Sanari. The idea was that the Sanari (sorcerer-kings) would be at the top, followed by the Thism (warriors), and the Kiriya (artists), Pyar (traders), Hen&eacute;a (hunters and woodsmen) and L&eacute;ar&agrave;m (craftsmen) would be at a mutual third. However, the castes soon became tribes and split up. Furthermore, the L&eacute;ar&agrave;m are so bloody-minded they will only grudgingly obey their own leaders and tell any Thism or Sanari who tries to boss them around to stick an egg up their nose on general principle, Pyar are far more likely to identify with whatever human culture they live immersed in than any pan-Elvish identity, and Hen&eacute;a kill Thism on sight. The end result was that the Kiriya ended up alone at the bottom of the "pan-Elvish" totem pole, while the Hen&eacute;a and L&eacute;ar&agrave;m formed their own societies and nations and Pyar integrated to human societies. The Kiriya are mostly too easy-going to care, and the ones that do figure that you can keep the Thism and Sanari happy by kowtowing when they're looking and do whatever you were going to do anyway when they aren't.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture" title="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture">Fantasy Counterpart Culture</a>: Obvious in many cases, but others less so:<ul><li> Tokon = Ireland</li><li> Consaber = England/France<ul><li> By extension, Alarinn is Scotland, complete with clans, swords, tartan greatkilts, caber-tossing and separatism.</li></ul></li><li> The Jargian Empire = Roman/Byzantine empire</li><li> Rauns = Mongolians/Huns</li><li> Damaria = Romania/the Balkans</li><li> Soldarn = Scandinavia in many aspects (the politics in particular)</li><li> M&ucirc;had = Arabia/Persia</li><li> Veddo = Yupik/Inuits</li><li> Ausians = Nomadic Native Americans</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiveRaces" title="/pmwiki/pmwiki.php/Main/FiveRaces">Five Races</a>: <em>Eon</em> not only has five races that can be sorted into the five categories, but different tribes, clans, lineages and cultures within the five races often have some overlap in the five race dynamic.<ul><li> <strong>Stout:</strong> Dwarves, but especially clan Ghor and Roghan who embody most of the classic Dwarf stereotypes. Among the Elves, the forest-dwelling Hen&eacute;a tribe is primarily composed of Stouts, being a territorial tribe of savages, more akin to traditional <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FairFolk" title="/pmwiki/pmwiki.php/Main/FairFolk">Fair Folk</a> than modern Wood Elves, that even the other Elves avoid. Among the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent">Tiraks</a>, the regular Tiraks as well as the Trukhs have shades of this, especially within the Bazirk and Frakk lineages... though, in regards to Trukhs of clan Frakk, "stout" might not be a fully applicable word as they're more akin to hulking, giant, muscle-bound bears of Orcs on steroids...</li><li> <strong>Fairy:</strong> Elves, and especially so Sanari, who also pull double duty as High Men, as well as Kiriya, who treasure fine arts, culture and love towards all living beings above all else, and L&eacute;aram, who many humans would swear are supernaturally gifted when it comes to smithing and combat.<span class="notelabel" onclick="togglenote('note0b30z');"><sup>note&nbsp;</sup></span><span id="note0b30z" class="inlinefolder" isnote="true" onclick="togglenote('note0b30z');" style="cursor:pointer;font-size:smaller;display:none;">They're not, they've just had a lot of time to perfect the arts.</span> Aside from the Elves, the Dwarven clan Drezin can also be sorted into the "Fairy" category, being the most magically advanced of the Dwarf clans and the one furthest removed from traditional Dwarf stereotypes.</li><li> <strong>Mundane:</strong> Humans, though depending on where you are in the world they can be so varied and different in culture and beliefs that them being "Mundane" becomes a very subjective concept. In addition, Dwarves of the clan Zolod, Elves of the Pyar tribe and Tiraks of the Manarkh lineage, who are all noted to have integrated with human society, can be sorted into this category.</li><li> <strong>High Men:</strong> The Sanari Elves <em>exemplify</em> this category while combining it with Fairy; being the most magically advanced people bar none, not to mention the most secretive; it's implied that they have even uncovered some of the secrets of the world, but if asked will offer nothing but a Mona Lisa-esque smile. Thism also get in on this, essentially being a tribe of vassals to the Sanari. Both of these races are also the stand-in for the setting's High Elves.</li><li> <strong>Cute:</strong> The Missla, being a race of perky and plucky child-sized beings with big, almond-shaped eyes and long, pointed ears are quite prone to induce <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CutenessProximity" title="/pmwiki/pmwiki.php/Main/CutenessProximity">Cuteness Proximity</a>, particularily (and humorously) among the 2 metre tall Kragg barbarians, and if the Kraggs' above mentioned <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a> of abusing Misslas isn't because "misla" means "godsent" in their language, then it's probably because of sheer <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PapaWolf" title="/pmwiki/pmwiki.php/Main/PapaWolf">protective</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MamaBear" title="/pmwiki/pmwiki.php/Main/MamaBear">instincts</a>... To a lesser extent, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurGoblinsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurGoblinsAreDifferent">G&ucirc;rd</a> people of the Tiraks can also count as Cutes: Though their males are, at best, <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UglyCute" title="/pmwiki/pmwiki.php/Main/UglyCute">Ugly Cute</a>, their women are closer to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuteMonsterGirl" title="/pmwiki/pmwiki.php/Main/CuteMonsterGirl">Cute Monster Girls</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuteLittleFangs" title="/pmwiki/pmwiki.php/Main/CuteLittleFangs">Cute Little Fangs</a>, claws and light fur.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Functional Magic</a>: Taken to a mechanical extreme; magic is ingrained into the physics of the world, and is treated the same as the real world treats, well, science.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFederation" title="/pmwiki/pmwiki.php/Main/TheFederation">The Federation</a>: The semi-democratic federal republics of Asharia and V&auml;stmark somewhat fits this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantSpider" title="/pmwiki/pmwiki.php/Main/GiantSpider">Giant Spider</a>: There is a number of subspecies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrailInTheGarbage" title="/pmwiki/pmwiki.php/Main/GrailInTheGarbage">Grail in the Garbage</a>: In the Drakv&auml;ktar- trilogy of novels, a narrative intermission describes how the highly sought after artifact <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Imperial Staff of the Colonian Empire</span> currently lies on a beach, were it has become a plaything of some local children who completely fail to realise its value and significance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality">Grey-and-Gray Morality</a>: And HOW! Gods exist, but are not measured by "alignment", instead different religions have different teachings, often seen as wrong and evil by the followers of other faiths, and judgment is based on that. Not even most demon- or death-worshipping cults consider themselves bad people, it's the "good guys" that are wrong.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrievousHarmWithABody" title="/pmwiki/pmwiki.php/Main/GrievousHarmWithABody">Grievous Harm with a Body</a>: One of the improvised weapons that have been given stats are G&ucirc;rds, a smaller species of Tirak. However, they are very heavy and don't do much damage, making them pretty useless weapons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGrimReaper" title="/pmwiki/pmwiki.php/Main/TheGrimReaper">The Grim Reaper</a>: Dibuk, the god of death is often depicted like this. He even carries a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SinisterScythe" title="/pmwiki/pmwiki.php/Main/SinisterScythe">Sinister Scythe</a> and likes to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChessWithDeath" title="/pmwiki/pmwiki.php/Main/ChessWithDeath">play games</a> with his intended victims.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HarmlessVillain" title="/pmwiki/pmwiki.php/Main/HarmlessVillain">Harmless Villain</a>: Driobutus the Diabolical, a boastful and arrogant necromancer who likes to dress in black, to spend his nights writing dark poetry and who has drunkenly claimed to be "the most evil man in Asharia". Beside once creating a zombie, he has constantly failed to do anything even slightly diabolical.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenElfVillage" title="/pmwiki/pmwiki.php/Main/HiddenElfVillage">Hidden Elf Village</a>: Some of the more isolationist Elves and Dwarfs. Also, the empire of Menon-Aun.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a>: A rather unorthodox version. Pain, physical trauma, blood loss and rate of bleeding are tracked separately, as is exhaustion. Only physical trauma and blood loss can outright kill you, though, and you don't die "at zero hit points", but instead begin making saving throws vs. death after the damage reaches a certain threshold. The rules concerning broken bones, dismemberment etc. also don't factor in the hit points of the target, beyond the penalties it takes to saving throws. This can, naturally, get messy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The god Xinu has multiple avatars in different parts of the world who are all part of him.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hobbits" title="/pmwiki/pmwiki.php/Main/Hobbits">Hobbits</a>: The Misslas are the settings stand ins for hobbits. The main differences between them and Tolkien's halflings lies in their slightly "elfish" looks and incredibly cheerful personality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace" title="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace">I Don't Like the Sound of That Place</a>: The Black Forest of Kirath, The Coast of Shipwrecks, the Dead Forest and others.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImmortalProcreationClause" title="/pmwiki/pmwiki.php/Main/ImmortalProcreationClause">Immortal Procreation Clause</a>: The Elves are effectively immortal thanks to a inherent biotropic (life magic) field . However, this field is weakened by pregnancy and compensates by reducing fertility. The Dwarves merely have a low sex drive.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KungFuWizard" title="/pmwiki/pmwiki.php/Main/KungFuWizard">Kung-Fu Wizard</a>: The monks of Sung.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LadyLand" title="/pmwiki/pmwiki.php/Main/LadyLand">Lady Land</a>: Momolan and, to a more limited extent, the Tiraks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LanguageEqualsThought" title="/pmwiki/pmwiki.php/Main/LanguageEqualsThought">Language Equals Thought</a>: Elvish grammar does not recognize a difference between verbs and adjectives, and consider human recognition of a difference to be a sign of the human tendency to nitpick and over-analyze things rather than use and enjoy them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawEnforcementInc" title="/pmwiki/pmwiki.php/Main/LawEnforcementInc">Law Enforcement, Inc.</a>: Many, one example is the pirate-hunters in the Order of the Seahorses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingShadow" title="/pmwiki/pmwiki.php/Main/LivingShadow">Living Shadow</a>: There are both demonic and undead creatures that looks like this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LizardFolk" title="/pmwiki/pmwiki.php/Main/LizardFolk">Lizard Folk</a>: The Kamorfs and... well, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Lizard Folk</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagnificent" title="/pmwiki/pmwiki.php/Main/TheMagnificent">The Magnificent</a>: The mage Max Guilk who styles himself Maxander the Magnificent. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmallNameBigEgo" title="/pmwiki/pmwiki.php/Main/SmallNameBigEgo">He is the only one who thinks this</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagocracy" title="/pmwiki/pmwiki.php/Main/TheMagocracy">The Magocracy</a>: Thalamur, Ebhron and the Sanari Elves.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManEatingPlant" title="/pmwiki/pmwiki.php/Main/ManEatingPlant">Man-Eating Plant</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhenTreesAttack" title="/pmwiki/pmwiki.php/Main/WhenTreesAttack">When Trees Attack</a>: The Skogsr&aring; is a malicious, soul sucking monster that looks like a tree and who has the ability to create powerful illusions to ensnare it's victims.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MedievalStasis" title="/pmwiki/pmwiki.php/Main/MedievalStasis">Medieval Stasis</a>: Mundana suffers under a pretty extreme case of this trope. For the last 10.000 years, technology and science has moved forvard, but only from bronze-age technology to late medieval.<ul><li> There is some logic to it though, as Magic is the stand-in for this world's physics, so scientists generally focus on researching magical fields and their effects on people instead of inventing new ways to harness electricity. Unfortunate, yes, but also reasonable.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoWomansLand" title="/pmwiki/pmwiki.php/Main/NoWomansLand">No Woman's Land</a>: Most human nations are male-dominated, but often less so than many real-life medieval equivalents. There are, hovever, a few extremely patriarchal societys, for example Sindarea and Miam before the Aunurian invasion. Inverted by Momolan, which runs on what is essentially gender-flipped sharia law.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDwarvesAreAllTheSame" title="/pmwiki/pmwiki.php/Main/OurDwarvesAreAllTheSame">Our Dwarves Are All the Same</a>: They are short, stocky humanoids. Both sexes are bearded and they mostly live in great underground cities were they drink a lot of beer. They are honest, honorable, industrious, grumpy and really don't like Elves. However, the Drezin clan are mostly known for sorcery, reclusiveness, and clandestine alliances with the Tiraks. Clan Zolod are known for living above ground and trading.<ul><li> A notable difference between Eon-dwarves and most dwarves is that while Eon-dwarves generally don't like magic, seeing it as unpredictable and dangerous, they have a <em>huge</em> amount of respect for wizards. The way they see it, anyone brave enough to dedicate their life to harnessing something as dangerous and unpredictable as magic and intelligent enough to learn how to do it and get it right most of the time without dying in the process is clearly worthy of great respect.<ul><li> Another difference is that dwarves in <em>Eon</em> are not in any way Scottish. The Scottish <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture" title="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture">Fantasy Counterpart Culture</a> are in fact <em>elves</em> (Alarinn elves, to be exact).</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Our Dragons Are Different</a>: They're subtly based on the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbusivePrecursors" title="/pmwiki/pmwiki.php/Main/AbusivePrecursors">Vorlons and Shadows</a> of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/BabylonFive" title="/pmwiki/pmwiki.php/Series/BabylonFive">Babylon 5</a></em>, with one kind, Lumian, being benevolent and intellectual, and the other, Mortuach, chaotic and brutal, but both kinds work in their own way to salvage the world from the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/EndOfTheWorldAsWeKnowIt">End of the World as We Know It</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent">Our Elves Are Different</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurFairiesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurFairiesAreDifferent">Our Fairies Are Different</a>: The Shadowlandpeople.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurGnomesAreWeirder" title="/pmwiki/pmwiki.php/Main/OurGnomesAreWeirder">Our Gnomes Are Weirder</a>: The Tomte.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent">Our Orcs Are Different</a>: Very much so, the settings Orc stand-ins are the Tiraks, a race of cultured politicians and merchants mixed with fishing- or pirate villages ruled in a violent form of matriarchal democracy, combined with very primitive tribe societies working with a philosophy similar to natural selection. The entire race consisting of three separate sub-races (G&ucirc;rd, Tirak, Trukh) and three different "families" (Marnakh, Bazirk, Frakk), all having extremely different views of life and existence. Completely possible to be played as savage nobles, psychotic assassins, farmers, priests, dockworkers or traders without anyone raising an eyebrow as of why. But they do excel in warfare, however.<ul><li> It's worth noting that the basic structure of the races has more in common with the Dungeons &amp; Dragons goblinoids than anything else, where goblins and g&ucirc;rds, hobgoblins and tiraks and bugbears and trukhs correspond quite closely to one another in their societal roles and behaviour.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurSoulsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurSoulsAreDifferent">Our Souls Are Different</a>: They very much obey a Cartesian model of souls, that is, most animals lack souls and only humanoids and certain other creatures such as ulvs have them. A trained medium can make her soul leave the body and try to possess other creatures or drive the soul out of another ensouled being. Without a soul, an ensouled creature die, but shamans use tame souls who temporary possess their bodies while they are away. Creatures without souls can still be intelligent and have feelings, but their personality and memories stop existing at death. When a soul leaves the body, it travels trough the plane of spirits, which is also the home of unmanifested demons, gods and ghosts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Our Vampires Are Different</a>: The Lamias are quasi-undead and mostly female servants of the mysterious goddess called <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">The Queen of the Night</a>, who constantly whisper in the ears of her undead followers. They create new vampires by ritually bleed the recruit to death and then feeding them the blood of other Lamias. All loyal lamias belong to one of three religious orders who worships their goddess. The non-loyalists mainly hang out in the underground desert cities of Momolan, keeping slaves and living nobles' lives.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent">Our Werewolves Are Different</a>: They are a race of savage humanoids who can change between a human and a wolf/human hybrid form at will. Their most obvious giveaway is their inability to speak human languages.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurZombiesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurZombiesAreDifferent">Our Zombies Are Different</a>: Instead of being raised from the dead by a spell, undead are created by alchemy. Take a large tub, add a few choice ingredients, summon a dash of necromantic energy, and presto! You now have an undead servant. You can create stronger undead by finding new recipes, or experiment with creating your own recipe variations. You can also trap elementals inside the dead body, or sacrifice souls to the Abyss for special effects.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetOfHats" title="/pmwiki/pmwiki.php/Main/PlanetOfHats">Planet of Hats</a>: Used straight at first, but just as quickly subverted. The game supplies a stereotype for every nation and racial group, then goes out of it's way to provide you with exceptions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PuppeteerParasite" title="/pmwiki/pmwiki.php/Main/PuppeteerParasite">Puppeteer Parasite</a>: The Vrakylak.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReviveKillsZombie" title="/pmwiki/pmwiki.php/Main/ReviveKillsZombie">Revive Kills Zombie</a>: Due to how the magic system works, healing any undead neutralizes some of it's necromantic energy, effectively damaging it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SheIsTheKing" title="/pmwiki/pmwiki.php/Main/SheIsTheKing">She Is the King</a>: The title of the leader of a dwarf stronghold is always translated into non-dwarven languages as "king", even if the ruler in question is female. This is mostly the result of the dwarven language lacking grammatical gender, the fact that dwarves fail to see a reason to differentiate between male and female rulers and of the problems non-dwarves has when it comes to recognize the gender of any given dwarf.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Series/BabylonFive" title="/pmwiki/pmwiki.php/Series/BabylonFive">Delenn and Kosh</a> are both words in elvish, meaning ambassador and riddle, respectively.<ul><li> The most common incantation for casting a fireball is apparently "<a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheLordOfTheRings" title="/pmwiki/pmwiki.php/Literature/TheLordOfTheRings">Ash nazg durbatul&ucirc;k, ash nazg gimbatul</a>."</li><li> A common curse in Consaber is <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/MontyPython" title="/pmwiki/pmwiki.php/Creator/MontyPython">"Your mother was a hamster and your father smelled of elderberries!"</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarsAreSouls" title="/pmwiki/pmwiki.php/Main/StarsAreSouls">Stars Are Souls</a>: The opinion of the Samorian faith.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VeryLooselyBasedOnATrueStory" title="/pmwiki/pmwiki.php/Main/VeryLooselyBasedOnATrueStory">Very Loosely Based on a True Story</a>: In-universe example. The Dwarves make a strong cultural distinction between <em>Chronicle</em> and <em>History</em>. A Chronicle is a piece of historic fiction, intended to glorify the participants in a particular event, whereas a History is a bare-bones account of the facts surrounding an event. For example, the Kharzim Chronicle stated that Kharzim drove back a Tirak horde so large that "grass no longer grew where it marched" from the gates of Hazr at the cost of his own life. The History states "Skirmish with Tiraks at Hazr, Kharzim and 68 others dead. Enemy dead uncounted, but not exceeding 200. Supplies running low, negotiations with humans concerning construction of trading post at Hazr in progress." The fun begins when well-meaning but clueless scholars from other cultures start taking Chronicles at face value.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVonTropeFamily" title="/pmwiki/pmwiki.php/Main/TheVonTropeFamily">The Von Trope Family</a>: Most of the noble houses of Damaria in general and the van Culnar family in particular.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Uberwald" title="/pmwiki/pmwiki.php/Main/Uberwald">&Uuml;berwald</a>: Damaria has some tendencies of this, especially the countship of Culnar.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorMonk" title="/pmwiki/pmwiki.php/Main/WarriorMonk">Warrior Monk</a>: The White Monastery, the monks of Sung and some of the orders in the Church of Daak.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Whatevermancy" title="/pmwiki/pmwiki.php/Main/Whatevermancy">Whatevermancy</a>: Or rather Whatevertropy. As of the 4th edition, the mages of Eon sort magic into 7 schools containing 24 aspects of magic: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalPowers" title="/pmwiki/pmwiki.php/Main/ElementalPowers">Elemental Forces</a>, which include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingWithFire" title="/pmwiki/pmwiki.php/Main/PlayingWithFire">Pyrotropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DishingOutDirt" title="/pmwiki/pmwiki.php/Main/DishingOutDirt">Geo</a><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtraOreDinary" title="/pmwiki/pmwiki.php/Main/ExtraOreDinary">tropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MakingASplash" title="/pmwiki/pmwiki.php/Main/MakingASplash">Hydrotropy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlowYouAway" title="/pmwiki/pmwiki.php/Main/BlowYouAway">Pneumotropy</a>; Fundamental Forces, which include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConvectionSchmonvection" title="/pmwiki/pmwiki.php/Main/ConvectionSchmonvection">Termotropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnIcePerson" title="/pmwiki/pmwiki.php/Main/AnIcePerson">Cryotropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightEmUp" title="/pmwiki/pmwiki.php/Main/LightEmUp">Phototropy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastingAShadow" title="/pmwiki/pmwiki.php/Main/CastingAShadow">Skototropy</a>; Celestial Forces, which include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerOfTheSun" title="/pmwiki/pmwiki.php/Main/PowerOfTheSun">Heliotropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lunacy" title="/pmwiki/pmwiki.php/Main/Lunacy">Selenotropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarPower" title="/pmwiki/pmwiki.php/Main/StarPower">Astrotropy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerOfTheVoid" title="/pmwiki/pmwiki.php/Main/PowerOfTheVoid">Kosmo</a><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSacredDarkness" title="/pmwiki/pmwiki.php/Main/TheSacredDarkness">tropy</a>; Primal Forces, which include Nomotropy, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EntropyAndChaosMagic" title="/pmwiki/pmwiki.php/Main/EntropyAndChaosMagic">Ataxatropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeMaster" title="/pmwiki/pmwiki.php/Main/TimeMaster">Chronotropy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMaster" title="/pmwiki/pmwiki.php/Main/SpaceMaster">Topotropy</a>; Life Forces, which include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMagic" title="/pmwiki/pmwiki.php/Main/WhiteMagic">Biotropy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackMagic" title="/pmwiki/pmwiki.php/Main/BlackMagic">Necrotropy</a>; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoulPower" title="/pmwiki/pmwiki.php/Main/SoulPower">Spiritual Forces</a>, which include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindManipulation" title="/pmwiki/pmwiki.php/Main/MindManipulation">Psychotropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DreamWeaver" title="/pmwiki/pmwiki.php/Main/DreamWeaver">Oneirotropy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionIsMagic" title="/pmwiki/pmwiki.php/Main/ReligionIsMagic">Theotropy and Daimotropy</a>; and, finally, Sybol Forces, which include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtAttacker" title="/pmwiki/pmwiki.php/Main/ArtAttacker">Ikonotropy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeometricMagic" title="/pmwiki/pmwiki.php/Main/GeometricMagic">Semotropy</a>. On top of these, there are also some anti-aspects to some established ones as well as some as of yet scientifically unproven aspects. Players are encouraged to explore the possibilities as any scentifically driven person during <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheEnlightenment" title="/pmwiki/pmwiki.php/UsefulNotes/TheEnlightenment">The Enlightenment</a> would have.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhoWantsToLiveForever" title="/pmwiki/pmwiki.php/Main/WhoWantsToLiveForever">Who Wants to Live Forever?</a>: Immortality is generally seen as a pretty bad thing that slowly makes people go mad from depression and boredom. The most obvious example are the Elves, who because of their immortality call themselves "The People of the Curse". Other examples include the Lamias, Emperor Jargius and <span class="spoiler" title="you can set spoilers visible by default on your profile">Koch Katre</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">Zombie Apocalypse</a>: The Helm massacre and the War of the Dead in Chadarian.</li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Chronopia">Chronopia</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/SwedishMedia">Swedish Media</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/KULT">KULT</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/EMP">EMP</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ShortTitles">Short Titles</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Series/ER">ER</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheEndOfTheWorld">The End of the World</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Exalted">Exalted</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/EngineHeart">Engine Heart</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/EpicCardGame">Epic Card Game</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ehdrigohr">Ehdrigohr</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyTabletopGames">Fantasy Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/EpicCardGame">Epic Card Game</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

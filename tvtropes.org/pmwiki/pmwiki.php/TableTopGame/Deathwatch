@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Deathwatch (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Deathwatch is the third in the Warhammer 40,000 roleplaying game series. While Dark Heresy focuses on agents of the Inquisition, and Rogue Trader focuses on &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Deathwatch" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Deathwatch (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Deathwatch is the third in the Warhammer 40,000 roleplaying game series. While Dark Heresy focuses on agents of the Inquisition, and Rogue Trader focuses on &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_dw01_3566.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Deathwatch (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Deathwatch" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_dw01_3566.jpg" />
+<meta property="og:description" content="Deathwatch is the third in the Warhammer 40,000 roleplaying game series. While Dark Heresy focuses on agents of the Inquisition, and Rogue Trader focuses on rogue traders and their crew, Deathwatch casts the players as Space Marines of the Ordo &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/AfterActionHealingDrama" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Literature/TheFamiliar" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Deathwatch">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Deathwatch">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Deathwatch&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Deathwatch">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Deathwatch" />
+<input type="hidden" id="article_id" value="290445" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Deathwatch</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Deathwatch
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Deathwatch"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Deathwatch" class="subpage-link " title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Deathwatch" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Film/Deathwatch" class="subpage-link " title="The Film page">
+<span class="wrapper"><span class="spi film"></span>Film</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/Deathwatch" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Deathwatch?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Deathwatch?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Deathwatch?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Deathwatch?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Deathwatch?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Deathwatch?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Deathwatch?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Deathwatch?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Deathwatch?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Deathwatch?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Deathwatch?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Deathwatch?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Deathwatch?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Deathwatch?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/Deathwatch?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/Deathwatch?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/Deathwatch?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:131.71%"><img src="https://static.tvtropes.org/pmwiki/pub/images/rsz_dw01_3566.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/rsz_dw01_3566.jpg" width="350" height="461"></div></div><div class="acaptionright" style="width:350px;">Do not ask <em>"Why Kill the Alien?"</em>, rather ask, <em>"Why not?"</em></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Deathwatch</em> is the third in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a></em> roleplaying game series. While <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> focuses on agents of the Inquisition, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em> focuses on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">rogue traders</a> and their crew, <em>Deathwatch</em> casts the players as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marines</a> of the Ordo Xenos Deathwatch, a sort of special operations group tasked primarily with defending humanity from alien horrors. Even among the Space Marines, the Deathwatch are considered to be an elite unit &mdash; and when the typical Space Marine is a seven-foot tall <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Supersoldier</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">a standard-issue fully-automatic grenade launcher</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">armor that can stop a tank shell</a>, that's pretty impressive.</p><p>Now think about what you're going to be up against...</p><p>Six Chapters are included in the core rulebook, five of which already exist in the <em>Warhammer 40,000</em> canon: the Space Wolves, Ultramarines, Dark Angels, Black Templars, and Blood Angels. According to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">blog</a>, these particular Chapters were chosen to create stark contrast in tactics and personalities within the party between members of different Chapters (though the fact that they're also 40k's flagship Chapters, each with its own codex, probably doesn't hurt). The sixth Chapter, the Storm Wardens, are an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonForeigner" title="/pmwiki/pmwiki.php/Main/CanonForeigner">original creation of Fantasy Flight Games</a>; the lessons the dev team learned in creating this Chapter are expounded upon in the <em>Rites of Battle</em> supplement, so you can have a go at creating Chapters of your own, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpecialSnowflakeSyndrome" title="/pmwiki/pmwiki.php/Main/SpecialSnowflakeSyndrome">you special snowflake, you</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>The game was first released in 2010. In Fantasy Flight Games and Games Workshop ended their partnership (and thus FFG losing the Warhammer licensing), which was picked by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Cubicle7" title="/pmwiki/pmwiki.php/Creator/Cubicle7">Cubicle 7</a>.</p><p>See also <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade" title="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade">Black Crusade</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar" title="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a></em>, and of course <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a></em>.</p><p></p><hr><h2>This game provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbnormalAmmo" title="/pmwiki/pmwiki.php/Main/AbnormalAmmo">Abnormal Ammo</a>: Deathwatch Tactical Marines are issued boltguns with a triple-magazine system and a fire selector that allows them to switch which magazine the chamber is fed from. Typically, one magazine will use standard rounds and another will have specialized rounds for combating specific kinds of threats. These are the same kinds of special rounds which are normally only issued to Sternguard Veterans in their home chapters, but no marine comes to the Deathwatch who is not already experienced and distinguished among his chapter peers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedMeme" title="/pmwiki/pmwiki.php/Main/AscendedMeme">Ascended Meme</a>:<ul><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <em>Mark of the Xenos</em> gives stats for greater daemons, and each entry begins with a relevant quote. The quote for the Lord of Change entry?<div class="indent"><em>"Yesss! <a class="urllink" href="http://1d4chan.org/wiki/Just_As_Planned">Just as planned!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>"</em> &mdash; Spoken by Xi&#146;aquan, Lord of Change, in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThanatosGambit" title="/pmwiki/pmwiki.php/Main/ThanatosGambit">its death throes</a></div></li><li> Brother Szobczak from <em>Rising Tempest</em> (see "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeeroyJenkins" title="/pmwiki/pmwiki.php/Main/LeeroyJenkins">Leeroy Jenkins</a>" below) is possibly the closest thing to being a canon <a class="urllink" href="http://1d4chan.org/wiki/Grandpa_Dreadnought">"Grandpa Dreadnought".<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAtoner" title="/pmwiki/pmwiki.php/Main/TheAtoner">The Atoner</a>: Black Shields are generally this, Marines who join the Deathwatch and keep their home chapter a secret. Perhaps because the chapter has fallen and they are the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoleSurvivor" title="/pmwiki/pmwiki.php/Main/SoleSurvivor">Sole Survivor</a>, hoping to go out in glory. Or a Marine who was kicked out of his chapter for some failure, hoping to redeem themselves in the Deathwatch.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackAttackAttack" title="/pmwiki/pmwiki.php/Main/AttackAttackAttack">Attack! Attack! Attack!</a>: Generally played straight by the Tyranids and the Chaos forces of the Stigmartus. In the case of the former, this is because their creatures are more like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingWeapon" title="/pmwiki/pmwiki.php/Main/LivingWeapon">complex biological munitions</a> than troops, and in the latter because they are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxeCrazy" title="/pmwiki/pmwiki.php/Main/AxeCrazy">too fanatical</a> to care. However, this is averted by the Tau, who try fight with a mind for minimizing casualties (primarily their own and secondarily <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApologeticAttacker" title="/pmwiki/pmwiki.php/Main/ApologeticAttacker">those against whom they are fighting</a>) and thus are more likely to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TacticalWithdrawal" title="/pmwiki/pmwiki.php/Main/TacticalWithdrawal">fall back and regroup</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PeaceConference" title="/pmwiki/pmwiki.php/Main/PeaceConference">parlay</a> with a kill-team that can hold its fury a moment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant" title="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant">Awakening the Sleeping Giant</a>: The Dead Cabal keeps a variety of secrets about the Dark Pattern from the wider Achillus Crusade, and even from much of the rest of the Deathwatch, sometimes even <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KilledToUpholdTheMasquerade" title="/pmwiki/pmwiki.php/Main/KilledToUpholdTheMasquerade">going to extreme lengths to ensure those secrets stay clandestine</a>. The reason for this is that they very deliberately want to avoid calling unnecessary attention to the portents of the Dark Pattern and what it signifies. <span class="spoiler" title="you can set spoilers visible by default on your profile"> They fear that if the crusade were to be drawn into direct conflict with the gradually waking Necron forces in the outer edges of the Jericho Reach, the greater weight of opposition may cause the Necrons to accelerate whatever awakening schedule they are following, potentially overwhelming the already thinly-stretched human forces.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassBookworm" title="/pmwiki/pmwiki.php/Main/BadassBookworm">Badass Bookworm</a>:<ul><li> Dark Angels characters, in addition to being <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoneWall" title="/pmwiki/pmwiki.php/Main/StoneWall">Stone Walls</a>, are also this, since their chapter-specific advances have the most options for Scholastic Lore and Forbidden Lore out of any core chapter. Among non-core chapters, the <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DawnOfWar" title="/pmwiki/pmwiki.php/VideoGame/DawnOfWar">Blood Ravens</a> from <em>Honor The Chapter</em> go <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a> with this, with even more Scholastic, Common, and Forbidden Lore.</li><li> The Dead Station Vigilant <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Splat" title="/pmwiki/pmwiki.php/Main/Splat">advanced class</a> allows any marine of sufficient rank and intelligence to become one, offering them plenty of opportunities for forbidden knowledge about archeotech, xenos, and especially <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Necrons</span>. It also gives them abilities that allow them to use their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomenessByAnalysis" title="/pmwiki/pmwiki.php/Main/AwesomenessByAnalysis">intelligence score instead of other attributes</a> when making certain kinds of attacks.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassCrew" title="/pmwiki/pmwiki.php/Main/BadassCrew">Badass Crew</a>: <em>Deathwatch</em> characters get squad-based abilities that improve their effectiveness while they're working together as a cohesive unit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBerserker" title="/pmwiki/pmwiki.php/Main/TheBerserker">The Berserker</a>:<ul><li> Blood Angels characters tend towards this, unsurprisingly. Their Chapter-specific abilities revolve around hitting better and harder in melee, and taking fewer Wounds by virtue of simply <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeelNoPain" title="/pmwiki/pmwiki.php/Main/FeelNoPain">not feeling any pain</a>.</li><li> With the right combination of talents and wargear, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">the Flesh Tearers</a> (a Blood Angels successor Chapter given rules in <em>Rites of Battle</em>) can bring down boss-level monsters in one or two rounds of combat, simply due to the insane bonuses they get from charging and the raw power their many MANY attacks provide.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">BFG</a>: Oh Lord, yes. A Space Marine's bolt pistol sidearm actually deals more damage per shot than the <em>heavy</em> bolters available to <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em> characters, and it goes up from there. (This discrepancy is justified in-universe by saying that these guns were originally designed for the Space Marines in the first place, and that everyone else in the Imperium is using <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedReplacement" title="/pmwiki/pmwiki.php/Main/WellIntentionedReplacement">knock-offs scaled down for ordinary human use</a>.) Errata 1.1 introduces alternate weapon rules that scale the bolters back a bit &mdash; and make several of the Marines' other guns even <em>nastier</em>.<ul><li> They STILL out-damage mortal heavy bolters even after the errata...but only by 1 point of damage.</li><li> Consider the fact that the caliber of Space Marine bolters is .75 and Space Marine heavy bolters is <em>an entire 1 caliber</em>, which is double the size of a standard rifle round and the .50 caliber heavy machine-gun round, respectively.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">BFS</a>: The Sacris Claymore, signature weapon of the Storm Wardens, is a sword big enough that a <em>Space Marine</em>, a seven-foot tall killing machine that can bench press a truck, needs two hands to wield it effectively. The Power Claymore described in <em>Rites of Battle</em> is basically the same thing with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserBlade" title="/pmwiki/pmwiki.php/Main/LaserBlade">power field</a> wrapped around it, and the Relic Blade is an even bigger and nastier version of <em>that</em>. It's also worth noting that every Space Marine's standard-issue combat knife deals more damage than the basic swords available to most other folk (or at the very least the same amount of damage, if using the optional weapon rules from Errata 1.1).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackKnight" title="/pmwiki/pmwiki.php/Main/BlackKnight">Black Knight</a>: <em>Rites of Battle</em> details the "black shields", Astartes who forsake their Chapters of origin and dedicate themselves to the Deathwatch.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlingOfWar" title="/pmwiki/pmwiki.php/Main/BlingOfWar">Bling of War</a>: Chapter Trappings of various sorts, which have in-game rules effects, and Honours, which are primarily a roleplaying device.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoardingParty" title="/pmwiki/pmwiki.php/Main/BoardingParty">Boarding Party</a>: The speciality of the Marines Errant, their solo mode allows them ignore zero-gravity penalties, while their squad mode ability makes them to fight better in tight spaces (like a corridors of a ship), their reliquarium consists of the naval boltgun, a lighter boltgun to be used in confined spaces, and the <em>Linebreaker</em>, an ancient shotgun (a weapon usually used by Scouts, but can become highly effective in close-quarters), and their chapter-specific advances include piloting space crafts, stellar navigation and close relations with the Imperial Navy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoxingLessonsForSuperman" title="/pmwiki/pmwiki.php/Main/BoxingLessonsForSuperman">Boxing Lessons for Superman</a>: As powerful as the Marines are, they're still not using their full potential. By learning some of the super-secret Astartes-only skills, a Space Marine can go past their normal limits and become much more powerful. Examples include Feat of Strength and Burst of Speed, a Space Marine who knows Feat of Strength can once a game become strong enough to rival a Greater Daemon in strength while a Marine who is a master of it, can easily overpower that same Daemon. Meanwhile Burst of Speed can make a Marine approach the speed of an Eldar.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BraveScot" title="/pmwiki/pmwiki.php/Main/BraveScot">Brave Scot</a>: The Storm Wardens chapter of Space Marines (original to this system) recruit exclusively from a world populated with Scotland-esque highland warrior clans <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledInSpace" title="/pmwiki/pmwiki.php/Main/RecycledInSpace">IN SPACE</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrownNote" title="/pmwiki/pmwiki.php/Main/BrownNote">Brown Note</a>: Skulker Configuration Redemption Servitors, meant to spread terror in enemy populations, have voice boxes which emit terrifying, unnerving noises.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BugWar" title="/pmwiki/pmwiki.php/Main/BugWar">Bug War</a>: <em>Deathwatch</em> characters are likely to find themselves in the middle of one of these, courtesy of the Tyranids. Examples include the free quickstart adventure, <em>Final Sanction</em>, and the introductory adventure given in the core rulebook, <em>Extraction</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonForeigner" title="/pmwiki/pmwiki.php/Main/CanonForeigner">Canon Foreigner</a>: The Storm Wardens were created by Fantasy Flight Games for Deathwatch, in a similar way to the <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DawnOfWar" title="/pmwiki/pmwiki.php/VideoGame/DawnOfWar">Blood Ravens</a>.</li><li> <span style="display:none">invoked</span><a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterAlignment" title="/pmwiki/pmwiki.php/Main/CharacterAlignment">Character Alignment</a>: The Demeanour system is a variation on the concept. Each marine will have a certain set of core values indoctrinated into him by his chapter, representing one core Demeanour, and an additional Demeanour which is specific to him as an individual. These exist partly as roleplaying aids, but a character who is acting "in-character" with a particular Demeanour can trigger that Demeanour once per session, and gain bonuses by doing so. If the roleplaying of it is particularly well done (subject to other player's approval) those bonuses are increased. In this way the player is incentivized to roleplay effectively and leverage that roleplaying.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChessmaster" title="/pmwiki/pmwiki.php/Main/TheChessmaster">The Chessmaster</a>: There are heavy hints spread across multiple source books that the Achillus Crusade was in fact a conflict engineered <span class="spoiler" title="you can set spoilers visible by default on your profile"> by the Eldar</span>. From Tiber Achillus' <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TouchedByVorlons" title="/pmwiki/pmwiki.php/Main/TouchedByVorlons">meteoric career rise</a>, to the discovery of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolGate" title="/pmwiki/pmwiki.php/Main/CoolGate">Jericho warp gate</a>, to Achillus' sudden and improbable demise, to the strange sets of misfortunes that snatch defeat from the jaws of the Imperium's victories or likewise miraculously grant them victory when they expected defeat, all point back to a force trying to continue and gradually escalate the conflict. If so, no one is certain why this has been arranged, <span class="spoiler" title="you can set spoilers visible by default on your profile"> though the waking of the Necrons in this sector of space may have something to do with it.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChestBlaster" title="/pmwiki/pmwiki.php/Main/ChestBlaster">Chest Blaster</a>: Standard Configuration Redemption Servitors have "techxorcism" cannons installed in their chests for use against enemy technology.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColonyDrop" title="/pmwiki/pmwiki.php/Main/ColonyDrop">Colony Drop</a>: The most major act of rebellion the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaResistance" title="/pmwiki/pmwiki.php/Main/LaResistance">Vengeance Sept</a> has been able to accomplish was a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuicideMission" title="/pmwiki/pmwiki.php/Main/SuicideMission">Suicide Mission</a> to hijack the Imperial cargo ship the <em>Silent Pilgrim</em><span class="notelabel" onclick="togglenote('note0olw9');"><sup>note&nbsp;</sup></span><span id="note0olw9" class="inlinefolder" isnote="true" onclick="togglenote('note0olw9');" style="cursor:pointer;font-size:smaller;display:none;">(<a class="twikilink" href="/pmwiki/pmwiki.php/Main/MileLongShip" title="/pmwiki/pmwiki.php/Main/MileLongShip">and even the smallest of interstellar ships are measured in kilometers</a>)</span> and crash it into the fortress world of Spite, the headquarters of the Canis Salient. They were wide of the actual military center, but their target was instead a major fault line in the crust of the planet. The impact caused massive earthquakes across the entire continent.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatPragmatist" title="/pmwiki/pmwiki.php/Main/CombatPragmatist">Combat Pragmatist</a>: The entire Raptor chapter are extreme combat pragmatists, using sophisticated stealth tactics, camouflage, and every possible resource available to them. They rarely engage in dangerous melee combat, preferring long-range weaponry and speed, only ever directly attacking the enemy when their tactical advantage is crushing. They are notable for being the only Space Marine chapter who put successfully completing missions over honor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombinationAttack" title="/pmwiki/pmwiki.php/Main/CombinationAttack">Combination Attack</a>: Squad Mode abilities, which Kill Teams can execute by spending Cohesion points. The squad leader calls out an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackPatternAlpha" title="/pmwiki/pmwiki.php/Main/AttackPatternAlpha">Attack Pattern Alpha</a>, and any appropriately trained Kill Team member in squad mode and Cohesion range can participate. Interestingly, this also applies to combination <em>defense</em>, as well as attack. For example, two space marines might <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackToBackBadasses" title="/pmwiki/pmwiki.php/Main/BackToBackBadasses">stand shoulder to shoulder</a> and angle their armor to minimize damage to each other from a certain direction.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConflictingLoyalty" title="/pmwiki/pmwiki.php/Main/ConflictingLoyalty">Conflicting Loyalty</a>: Something that can trouble marines serving in the Deathwatch is where the goals of their chapter and the goals of the Deathwatch are not perfectly aligned. Marines, being used as they are to a single clear chain of command, often find cases like this particularly testing. The advice in the book's sidebars is that a good analogy for this is like the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FamilyVersusCareer" title="/pmwiki/pmwiki.php/Main/FamilyVersusCareer">conflict between career and family</a>, with the Deathwatch and the chapter representing career and family, respectively. What is more important to this marine, the Deathwatch service they are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IGaveMyWord" title="/pmwiki/pmwiki.php/Main/IGaveMyWord">oathbound</a> to, or the chapter they are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThickerThanWater" title="/pmwiki/pmwiki.php/Main/ThickerThanWater">bloodbound</a> to?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolGate" title="/pmwiki/pmwiki.php/Main/CoolGate">Cool Gate</a>: One of the main objectives of the crusade into the Jericho Reach (the main setting of the game) is to secure a warp gate that leads to the other side of the galaxy. Conveniently, this also allows <em>Deathwatch</em> to cross over with the default campaign settings for <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em>, despite the literally astronomical distances between them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CripplingOverspecialization" title="/pmwiki/pmwiki.php/Main/CripplingOverspecialization">Crippling Overspecialization</a>: The Kill Team themselves, at low levels at least. Each Space Marine is trained, enhanced, and equipped for a singular purpose: slaying the Emperor's enemies, and every brother freshly seconded to the Deathwatch is already exceptionally good at it. However, the Deathwatch requires marines to enter situations where things like diplomacy, investigation, and less-than-lethal force may pay bigger dividends for the Imperium as a whole than straight combat would, yet are still too dangerous, volatile, and critical for mortals for take on. As a battle brother serves with the Deathwatch, he gets opportunities to learn new ways of approaching obstacles, and becomes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterOfAll" title="/pmwiki/pmwiki.php/Main/MasterOfAll">a more well-rounded champion of the Emperor</a>. Many official adventures recommend they be used for characters with a few levels already, not because the combat is more dangerous (though it may be) but because it will benefit from a more general set of skills that a more junior group might lack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOfAThousandCuts" title="/pmwiki/pmwiki.php/Main/DeathOfAThousandCuts">Death of a Thousand Cuts</a>: The Horde rules allow even <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mooks" title="/pmwiki/pmwiki.php/Main/Mooks">the puniest of enemies</a> a chance to pull down Space Marines through sheer, overwhelming numbers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarknessVonGothickname" title="/pmwiki/pmwiki.php/Main/DarknessVonGothickname">"Darkness von Gothick" Name</a>: Lord Commander Sebascore Ebongrave. Though in <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">this setting</a> that could double as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeMcCoolName" title="/pmwiki/pmwiki.php/Main/AwesomeMcCoolName">Awesome McCoolname</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DueToTheDead" title="/pmwiki/pmwiki.php/Main/DueToTheDead">Due to the Dead</a>: The <em>Deathwatch: Honour of the Chapter</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Sourcebook" title="/pmwiki/pmwiki.php/Main/Sourcebook">sourcebook</a> introduces <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamedWeapon" title="/pmwiki/pmwiki.php/Main/NamedWeapon">Memor Nihilis</a>, a relic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChainsawGood" title="/pmwiki/pmwiki.php/Main/ChainsawGood">eviscerator</a> of the Flesh Tearers Chapter, which features extremely intricate inscriptions on each of its teeth detailing the names and deeds of fallen battle-brothers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DyingMomentOfAwesome" title="/pmwiki/pmwiki.php/Main/DyingMomentOfAwesome">Dying Moment of Awesome</a>: The game provides rules for this; see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicSacrifice" title="/pmwiki/pmwiki.php/Main/HeroicSacrifice">Heroic Sacrifice</a>, below.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarthShatteringKaboom" title="/pmwiki/pmwiki.php/Main/EarthShatteringKaboom">Earth-Shattering Kaboom</a>: The Deathwatch Space Marines have the right to do an Exterminatus, and can then destroy a planet with their Deathwath Kill-ships. The Kill-ships are essentially stealth-tech drones carrying bombs to either gas the population or blast the planet apart.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEngineer" title="/pmwiki/pmwiki.php/Main/TheEngineer">The Engineer</a>: Techmarine class characters in a Kill-Team virtually always fall into the <em>Combat Engineer</em> subtype. Not only can they help other marines field-repair damage to their armor and keep any vehicle they may be using operating far from friendly lines, their ability to manipulate anything high-tech the Kill-Team comes across can be extremely useful. On top of that, a techmarine is no more squishy (and often much <em>less</em> squishy) than other marines, and can more than hold their own in a fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">Enemy Mine</a>: The Achilus Crusade was originally intended to drive the Tau from the worlds of the Jericho Reach. Following the arrival of Hive Fleet Dagon in the Reach, certain Imperial commanders and Tau leaders have suggested temporary alliances in order to stand against the Tyranid threat. The Tau Commander Flamewing exemplifies this mindset.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil" title="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil">Equal Opportunity Xenos</a>: The Conclave of Tears, a group of Eldar operating in the desolate Slinnar Drift, on the rimward edge of the Jericho Reach away from the main areas of concern to the crusade. What is troubling is that this is a group that seems to consist of Craftworld Eldar, Dark Eldar, Harlequins, and Eldar corsairs. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">Given that these factions rarely get along with each other, let alone combine forces together, suggests whatever they are up to must be of great importance</a>. Whatever is that important to the Eldar is unlikely to be good for humanity...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCounterpart" title="/pmwiki/pmwiki.php/Main/EvilCounterpart">Evil Counterpart</a>: Most of the foes that a kill-team will face are either hordes of weaker enemies that they will have to push through, or smaller numbers of very powerful enemies that they must overcome with cleaver teamwork. However, kill-teams operating in the Acheros Salient for any length of time will sooner or later run into Chaos Space Marines, who can match the kill-team for combat potential. In a setting where battle-brothers are expected to be powerful paragons of war, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MirrorMatch" title="/pmwiki/pmwiki.php/Main/MirrorMatch">foes who are so similarly skilled and equipped</a> make for a unique and deadly challenge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FearlessFool" title="/pmwiki/pmwiki.php/Main/FearlessFool">Fearless Fool</a>: The fear rules of the system are still in place, but Astartes react to them differently than other characters. Confronting a horrific foe might reduce their willpower a bit, or make working as a team more difficult, but it will never cause them to flee in terror, feint, or abandon their duty. However, a kill-team who is counting on an Imperial Guard company for backup against a terrible enemy might have to deal with suddenly find their backup <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewThisImOuttaHere" title="/pmwiki/pmwiki.php/Main/ScrewThisImOuttaHere">absent at an inopportune moment...</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FireForgedFriends" title="/pmwiki/pmwiki.php/Main/FireForgedFriends">Fire-Forged Friends</a>: The rules are structured with the assumption that a starting Kill-Team will have been just formed, with each <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a> freshly seconded to the Deathwatch from their home chapters. As they work past their differences in ideology and combat style and learn to work effectively as a team, the Cohesion mechanic comes into further prominence, allowing their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerOfTrust" title="/pmwiki/pmwiki.php/Main/PowerOfTrust">mutual trust</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerOfFriendship" title="/pmwiki/pmwiki.php/Main/PowerOfFriendship">knowledge of each other</a> to execute impressive bonus maneuvers that none of them could accomplish singly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiringOneHanded" title="/pmwiki/pmwiki.php/Main/FiringOneHanded">Firing One-Handed</a>: This has always been possible in the system, but Deathwatch makes it <em>practical</em>. Astartes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerArmor" title="/pmwiki/pmwiki.php/Main/PowerArmor">Power Armor</a> negates the normal penalty for firing a basic-class weapon (a longarm) with one hand instead of two. This is pretty essential for any character using a single <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerFist" title="/pmwiki/pmwiki.php/Main/PowerFist">Power Fist</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WolverineClaws" title="/pmwiki/pmwiki.php/Main/WolverineClaws">Lightning Claw</a>, as those weapons preclude holding another weapon with that hand.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FoeTossingCharge" title="/pmwiki/pmwiki.php/Main/FoeTossingCharge">Foe-Tossing Charge</a>: An Assault Marine with the right Talents (Thunder Charge, Whirlwind Attack, Preternatural Speed, Lightning Attack, Wrathful Descent) can easily perform one, annihilating an entire Horde within a five-second turn of combat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromBadToWorse" title="/pmwiki/pmwiki.php/Main/FromBadToWorse">From Bad to Worse</a>:<ul><li> The Deathwatch doesn't get sent in until things get <em>a lot</em> worse than usual in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a> of 40K.</li><li> The Jericho Crusade thought they found a few a few xeno-corrupted worlds, then it turned out to be a powerful Tau base. They thought they were facing a few scattered heretics and then it turned out there was a massive Chaos presence. Then the Tyranid hive fleet showed up. Then, as of the latest expansion book, a whole Necron empire is waking up well behind the front lines with the power to take all the other factions on at once...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeneralRipper" title="/pmwiki/pmwiki.php/Main/GeneralRipper">General Ripper</a>: Lord Commander Sebiascor Ebongrave, leader of the Canis Salient of the Achilus Crusade fighting the Tau across the Greyhell Front. He rose to his position after the previous Canis Salient Lord Commander was assassinated by a Tau-sympathizer at the same time that xenophile organized rebellions hit several Imperial worlds that the Crusade had already conquered and assumed secure. The final straw was when a group of Tau sympathizers claimed credit for nearly annihilating his headquarters on a fortress world via <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColonyDrop" title="/pmwiki/pmwiki.php/Main/ColonyDrop">Colony Drop</a> with a captured starship. Trying to avoid his predecessor's fate, Ebongrave began a great program to purge the population of xenophiles, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PropagandaMachine" title="/pmwiki/pmwiki.php/Main/PropagandaMachine">aggressively propagandize the Imperial anti-Tau cause</a>, and eliminate any potential Tau-sympathizers from his own staff. Unfortunately, as forces have been diverted to deal with more pressing threats of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BugWar" title="/pmwiki/pmwiki.php/Main/BugWar">Tyranid incursion</a> and the Imperial offensive against the Tau has ground to a stalemate, his normally commendable zealous hatred of xenos and their sympathizers has gone into full paranoia. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspiracyTheorist" title="/pmwiki/pmwiki.php/Main/ConspiracyTheorist">He sees Tau conspiracy</a> all around him, resulting in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrushingThePopulace" title="/pmwiki/pmwiki.php/Main/CrushingThePopulace">brutal crackdowns on planetary populations</a> and public executions on even the merest rumor. Members of his own staff who suggest brokering a cease-fire with the Tau to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">better deal with more pressing threats</a> are quickly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReassignedToAntarctica" title="/pmwiki/pmwiki.php/Main/ReassignedToAntarctica">reassigned to the front line</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouHaveFailedMe" title="/pmwiki/pmwiki.php/Main/YouHaveFailedMe">executed</a>, resulting in Imperial forces being tied down and occupied in a demoralizing quagmire of a conflict. <br><br>As much as they hate him holding up the peace process, the Tau have found him useful in other ways, as his continuing brutal actions are excellent propaganda for recruiting other humans to <em>their</em> side. Harsh on the human populations as his crackdowns may be, this also means more military resources are devoted to suppressing the human population and less to fighting the Tau, giving them more time to dig in and build their strength. This aspect has the crusade's higher leadership disapproving of Ebongrave's approach, as the loss of Imperial momentum could cost them the conflict. <br><br>Ironically, his paranoia of conspiracies against him has actually <em>spawned</em> several conspiracies against him. Many on his staff know that he is too zealous and proud to appreciate the reality of the situation, and so they try to broker limited cease-fires with the Tau in secret while keeping a pretext of persecuting the campaign against them. The Deathwatch actually <em>excludes</em> him from most of their operations, only cooperating with him when convenient to keep him reassured he has their support while keeping the rest of their operations clandestine. Even the Inquisition is plotting to have him suitably removed at some point. See <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VetinariJobSecurity" title="/pmwiki/pmwiki.php/Main/VetinariJobSecurity">Vetinari Job Security</a> for why this has not happened yet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeniusBruiser" title="/pmwiki/pmwiki.php/Main/GeniusBruiser">Genius Bruiser</a>: The Storm Wardens get a nice +5 to their strength, and they pride themselves on being excellent warriors. They're also friends with the Techpriests and view scholarly pursuits just as worthy as praise and glory as skill in battle (preferably both).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GovernmentConspiracy" title="/pmwiki/pmwiki.php/Main/GovernmentConspiracy">Government Conspiracy</a>: As first mentioned in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, the Margin Crusade, a war of faith driven by the Ministorum into the Halo Stars from the Scarus, Calixis and Ixaniad sectors, which continues to this day but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HopelessWar" title="/pmwiki/pmwiki.php/Main/HopelessWar">has made little progress and contact with those sent to it is inevitably lost</a>. However, <em>Deathwatch</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheReveal" title="/pmwiki/pmwiki.php/Main/TheReveal">reveals</a> this crusade to have been largely a lie all along<span class="notelabel" onclick="togglenote('note1ob63');"><sup>note&nbsp;</sup></span><span id="note1ob63" class="inlinefolder" isnote="true" onclick="togglenote('note1ob63');" style="cursor:pointer;font-size:smaller;display:none;">The original crusade was real, but it got it's collective ass handed to it by the (unnamed) indigenous xenos of the region and was lost decades ago.</span>, as a way of getting resources into the Achilus Crusade. The presence of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolGate" title="/pmwiki/pmwiki.php/Main/CoolGate">warp gate</a> between the Segmentum Obscurus and the Jericho Reach is a closely guarded strategic secret, and thus the pretext was needed to get the necessary forces mustered without the information of it being leaked. Even most of the people fighting and dying in the Achilus Crusade know not for what they are really fighting, believing themselves to be sent on a holy war for the Ministorum, never even realizing that they are on the far side of the galaxy from where they started.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HelmetsAreHardlyHeroic" title="/pmwiki/pmwiki.php/Main/HelmetsAreHardlyHeroic">Helmets Are Hardly Heroic</a>: Actually used as a gameplay mechanic. Players can forgo a helmet at the start of a mission to earn more renown points as a reward. This comes with the obvious drawback of losing the armor the helmet provided, meaning an attack to the head is going to hurt a lot more.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a>: While all Space Marines are heroic (in the classical sense, if nothing else), Tactical Marines fit the trope best. Their abilities tend to skew towards leadership and command, with a secondary role as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JackOfAllStats" title="/pmwiki/pmwiki.php/Main/JackOfAllStats">Jack-of-All-Stats</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicAmbidexterity" title="/pmwiki/pmwiki.php/Main/HeroicAmbidexterity">Heroic Ambidexterity</a>: Space Marines, genetically enhanced super soldiers and arguably the main heroes of the setting, are equally capable of using any weapons with either hands thanks to their extensive training.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicSacrifice" title="/pmwiki/pmwiki.php/Main/HeroicSacrifice">Heroic Sacrifice</a>: There's even a mechanic for it. A Marine can forfeit his last 'get out of death free' ticket (Fate Point) to receive about a minute's worth of near-invincibility after which he's irrevocably dead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighlyVisibleNinja" title="/pmwiki/pmwiki.php/Main/HighlyVisibleNinja">Highly Visible Ninja</a>: Most battle-brothers are actually fairly skilled at remaining unseen and silent, as most chapters will have them serve in scout companies before being elevated to full battle-brothers, in addition to being trained to carefully spot others hiding <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperlyParanoid" title="/pmwiki/pmwiki.php/Main/ProperlyParanoid">for potential ambushes</a>. However, while wearing Astartes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerArmor" title="/pmwiki/pmwiki.php/Main/PowerArmor">Power Armor</a>, a battle-brother receives significant penalties to his ability to hide or move quietly due to the bulk of his armor and the noise it makes while moving. Any battle-brother trying to stay undetected will fall squarely into this unless he takes great pains beforehand to wear something other than his iconic armor. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StealthExpert" title="/pmwiki/pmwiki.php/Main/StealthExpert">Raven Guard</a> are an exception, as their matte black armor is relatively inconspicuous, and special modifications made to it combined with the marine's own training to properly employ them ensures that they have no penalty to moving quietly or hiding in shadows while in their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armor</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HonorBeforeReason" title="/pmwiki/pmwiki.php/Main/HonorBeforeReason">Honor Before Reason</a>: A major part of how Space Marines work generally, but the Storm Wardens have this <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetOfHats" title="/pmwiki/pmwiki.php/Main/PlanetOfHats">as their hat.</a> Their special powers allow them to essentially challenge an enemy to a duel, and their Chapter's form of madness slowly transforms them into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeeroyJenkins" title="/pmwiki/pmwiki.php/Main/LeeroyJenkins">glory-obsessed berserkers.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HopelessWar" title="/pmwiki/pmwiki.php/Main/HopelessWar">Hopeless War</a>:<ul><li> The Achilus Crusade seemed quite promising when it began as a military venture to re-take Imperial worlds that had been isolated for a few millennia due to warp storms, where re-established Imperial control would form a buffer against the Tau Empire's expansion into the sector. When Lord Militant Achilus' ship suffered a geller field failure in-warp, the crusade was split into three fronts, but fate was not kind to the new strategy:</li><li> The forces earmarked to combat the Tau now find themselves <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeneralRipper" title="/pmwiki/pmwiki.php/Main/GeneralRipper">commanded by a man</a> who routinely purges his officer ranks for xeno-sympathizers and refuses to allow forces to be transferred away, pushing into Tau space with a commendable but poorly-timed zeal. He attributes the lack of progress on this front to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspiracyTheorist" title="/pmwiki/pmwiki.php/Main/ConspiracyTheorist">Tau conspiracy</a> to subvert the forces under him and incite planetary populations to rebellion, when in fact his heavy-handed crackdowns still his efforts as much as any Tau influence does.</li><li> The forces trying to solidify the Crusade's hold on worlds which had fallen to petty warlords during the Age of Shadow now find themselves fighting the forces of Chaos whom those warlords fell in with during the Imperial advance, and the worlds themselves are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarIsHell" title="/pmwiki/pmwiki.php/Main/WarIsHell">meat-grinder warzones</a> in which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeHaveReserves" title="/pmwiki/pmwiki.php/Main/WeHaveReserves">thousands die on each side daily</a> to take and recover <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WasItReallyWorthIt" title="/pmwiki/pmwiki.php/Main/WasItReallyWorthIt">a few meters of ground</a>.</li><li> The crusade's other arm, which had been successful and untroubled up to now, has been set upon by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BugWar" title="/pmwiki/pmwiki.php/Main/BugWar">Hive Fleet Dagon</a>, which grows stronger with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetEater" title="/pmwiki/pmwiki.php/Main/PlanetEater">each world it consumes</a> and threatens to overrun the entire crusade as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnstableEquilibrium" title="/pmwiki/pmwiki.php/Main/UnstableEquilibrium">equilibrium swiftly turns in its favor</a>.</li><li> The base of the Deathwatch <span class="spoiler" title="you can set spoilers visible by default on your profile">is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbusivePrecursors" title="/pmwiki/pmwiki.php/Main/AbusivePrecursors">Necron</a> Tomb-World, with its inhabitants already stirring.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotBlooded" title="/pmwiki/pmwiki.php/Main/HotBlooded">Hot-Blooded</a>: One of the example 'demeanours' during character generation; demeanours allow players to gain mechanical bonuses via roleplaying their Space Marine according to their stated behaviour traits &mdash; a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotBlooded" title="/pmwiki/pmwiki.php/Main/HotBlooded">Hot-Blooded</a> Squad Leader might give a rousing (and/or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">hammy</a>) speech before battle, for instance, or a Pious Marine might always have some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsTheGoodBookSays" title="/pmwiki/pmwiki.php/Main/AsTheGoodBookSays">scripture-esque quote</a> for any situation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HufflepuffHouse" title="/pmwiki/pmwiki.php/Main/HufflepuffHouse">Hufflepuff House</a>: <em>Honor The Chapter</em> details many chapters from later foundings who, while established elsewhere as canon, get little background outside of a name and a color scheme. With the additional rules for them as playable characters, the Deathwatch can feel like a much more diverse place than with only the core chapters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HuntingTheMostDangerousGame" title="/pmwiki/pmwiki.php/Main/HuntingTheMostDangerousGame">Hunting the Most Dangerous Game</a>: The heretek Magos Phayzarus from <em>Mark of the Xenos</em> takes this a step beyond the norm, hunting Space Marines in order to consume their precious gene-seed. This is a <em>major</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a> for any Space Marine worth the title.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IconicItem" title="/pmwiki/pmwiki.php/Main/IconicItem">Iconic Item</a>: Normally equipment must be requisitioned from the Deathwatch armory and surrendered to the quartermasters after missions. The Signature Gear talent allows a character to keep a particular piece of wargear on hand as "theirs" rather than going through the normal requisition channels. Purchasing this talent multiple times allows items of greater rarity to be kept, expanding the amount of wargear available to a battle-brother when they do requisition.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheImmune" title="/pmwiki/pmwiki.php/Main/TheImmune">The Immune</a>: Outside of getting gutted by their vorpal claws, Space Marines don't have any special fear from Genestealers. Their superhuman immune system prevents Genestealers from turning your Marine into a Genestealer.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImplacableMan" title="/pmwiki/pmwiki.php/Main/ImplacableMan">Implacable Man</a>: Any battle-brother wearing Terminator armor becomes this, having protection equivalent to a force-field that never overloads, plus one of the highest armor ratings available, gaining strength even above what is normally available to Astartes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerArmor" title="/pmwiki/pmwiki.php/Main/PowerArmor">Power Armor</a>, and allows heavy weaponry to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiringOneHanded" title="/pmwiki/pmwiki.php/Main/FiringOneHanded">fired singled-handedly. </a> It <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnflinchingWalk" title="/pmwiki/pmwiki.php/Main/UnflinchingWalk">restricts the wearer from running</a>, imposes a penalty to his agility, makes him incapable of dodging attacks, requires the highest levels of renown, and has a truly staggering cost in requisition for both the armor <em>and</em> a separate mandatory amount of weapons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness" title="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness">Incorruptible Pure Pureness</a>: The Astartes themselves are expected to play this very straight. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a> mechanic in the system is still in play, but Astartes will not suffer its negative effects until crossing the final threshold at which point they are considered "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallenHero" title="/pmwiki/pmwiki.php/Main/FallenHero">fallen</a>" and will be dealt with swiftly and harshly. However, an Astartes who gets more than a handful of corruption points will be looked on with deserved suspicion by his peers, and the rulebook advises the GM to give them out when they need to remind the players of who their character's are and what is expected of them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterserviceRivalry" title="/pmwiki/pmwiki.php/Main/InterserviceRivalry">Interservice Rivalry</a>: While not a massive one like the one between the Dark Angels and the Space Wolves, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Sourcebook" title="/pmwiki/pmwiki.php/Main/Sourcebook">sourcebook</a>, <em>Honour The Chapter</em> presents the Space Wolves and Blood Ravens having a bit of a rivalry as an example of the inter-Chapter tensions that can rise in a Deathwatch Kill Team:<div class="indent"> The Space Wolves have a long history of distrusting what they view as sorcery, and the highly psychic Blood Ravens Chapter has drawn their ire on more than one occasion. During the battle of Praximil VIII, the Blood Ravens reliance on Librarian intervention to oust the psyker leader of the renegades entrenched there sent their Space Wolves allies into a fury. The Wolf Lord who fought at their side believed the tactics to be dishonourable and he made this known to the Blood Ravens commander with a well-placed punch.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsAllAboutMe" title="/pmwiki/pmwiki.php/Main/ItsAllAboutMe">It's All About Me</a>: Ultramarines who become insane automatically cop this attitude.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JackOfAllStats" title="/pmwiki/pmwiki.php/Main/JackOfAllStats">Jack-of-All-Stats</a>: The Ultramarines, as usual. While Marines of other Chapters get to add a bonus to two specific abilities, Ultramarine characters get to pick which two abilities to improve.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaResistance" title="/pmwiki/pmwiki.php/Main/LaResistance">La R&eacute;sistance</a>: The "Vengeance Sept", a collection of Tau sympathizers across the Greyhell front. Unlike the more random actions of smaller groups who read some Tau propaganda and rabble-rouse, the Vengeance Sept are a well organized network of cells, in contact with and actively supplied by the Tau, occasionally taking drastic action to impede the Imperial war effort.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler" title="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler">Late-Arrival Spoiler</a>: The description of the Blood Ravens in <em>Honor the Chapter</em> contains a synopses of the <em>Chaos Rising</em> and <em>Retribution</em> expansions for <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DawnOfWarII" title="/pmwiki/pmwiki.php/VideoGame/DawnOfWarII">Dawn of War II</a></em>. A sidebar in that section notes though that the Achilus Crusade that <em>Deathwatch</em> is set against takes place before <em>Dawn of War</em>, so many of those described events have yet to come to pass. For example, <span class="spoiler" title="you can set spoilers visible by default on your profile"> the corrupt Azariah Kyras is still Chapter Master and Chief Librarian and still thought of as loyal by most Blood Ravens.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLeader" title="/pmwiki/pmwiki.php/Main/TheLeader">The Leader</a>: <em>Deathwatch</em> really hammers home that this is the Ultramarines' <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetOfHats" title="/pmwiki/pmwiki.php/Main/PlanetOfHats">hat</a>, with a bit of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFace" title="/pmwiki/pmwiki.php/Main/TheFace">The Face</a> for good measure. Their chapter-specific Solo Mode ability from the core rulebook improves squad cohesion while the Ultramarine is in charge of the kill-team, allows him to automatically pass a Command test once per battle, and gives him a bonus to interactions with Imperial forces for being so respected. Their Chapter-specific Squad Mode and Defensive Stance abilities, meanwhile, are bonuses for allies based on the Ultramarine's Fellowship score &mdash; meaning that a Kill-team that includes an Ultramarine will actually fight better <em>because they're just that charismatic</em>. This is taken so far that the third tier of their Primarch's Curse (caused by getting too many Insanity points) actually causes an Ultramarine to lower squad cohesion if he <em>isn't</em> the leader, as he refuses to believe anyone else could be fit for the role.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeaveHimToMe" title="/pmwiki/pmwiki.php/Main/LeaveHimToMe">Leave Him to Me</a>: The Storm Wardens' Thunder's Call ability allows them to invoke this against a single enemy per combat. The rest of the Kill-team is generally expected to kill everyone else in the room while the boss is occupied.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeeroyJenkins" title="/pmwiki/pmwiki.php/Main/LeeroyJenkins">Leeroy Jenkins</a>: Brother Szobczak was once a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEngineer" title="/pmwiki/pmwiki.php/Main/TheEngineer">techmarine</a> of the Imperial Fists. Now, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManInTheMachine" title="/pmwiki/pmwiki.php/Main/ManInTheMachine">he is a venerable dreadnought</a> in service to the Deathwatch. He is awoken from a stasis repose in the Omega Vault during the events of <em>Rising Tempest</em>, and insists on being able to accompany the Kill-Team on their mission. He is certainly powerful, and has a great deal of experience with siege breaking and technology. Unfortunately, he is also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrumpyOldMan" title="/pmwiki/pmwiki.php/Main/GrumpyOldMan">extremely cantankerous and dismissive of modern Space Marines</a>, thinking that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhenIWasYourAge" title="/pmwiki/pmwiki.php/Main/WhenIWasYourAge">modern ones are too cowardly and undisciplined and that they were all better back in his day</a>. He is also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HairTriggerTemper" title="/pmwiki/pmwiki.php/Main/HairTriggerTemper">prone to fits of rage</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewPolitenessImASenior" title="/pmwiki/pmwiki.php/Main/ScrewPolitenessImASenior">getting into shouting matches with those he disagrees with</a>, and is likely to fly off the handle in the face of the enemy and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackAttackAttack" title="/pmwiki/pmwiki.php/Main/AttackAttackAttack">charge into their lines like he was breaching a fortification</a>, making any attempt at stealth or subtlety impossible.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightningBruiser" title="/pmwiki/pmwiki.php/Main/LightningBruiser">Lightning Bruiser</a>:<ul><li> The Assault Marine &mdash; strong and tough as any other Space Marine, able to make two melee attacks straight off the bat, and thanks to his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JetPack" title="/pmwiki/pmwiki.php/Main/JetPack">Jump Pack</a>, very, <em>very</em> fast.</li><li> <a class="urllink" href="http://suptg.thisisnotatrueending.com/archive/15141246/">The right character build<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> can take this <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a> with a two-ton, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armored</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marine</a> who can sprint at a theoretical rate of nearly three-hundred miles per hour. That is going to do some serious damage to whomever he crashes into...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicKnight" title="/pmwiki/pmwiki.php/Main/MagicKnight">Magic Knight</a>: The Librarian character class is this in a nutshell. While they are spell casters with plenty of offensive and utility power, they are no more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SquishyWizard" title="/pmwiki/pmwiki.php/Main/SquishyWizard">squishy</a> than any other Astartes, walking around in full <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerArmor" title="/pmwiki/pmwiki.php/Main/PowerArmor">Power Armor</a> and trained in physical combat as much as they are in psychic combat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterComputer" title="/pmwiki/pmwiki.php/Main/MasterComputer">Master Computer</a>: Forge Irradial on the corrupted Forge World of Samech is well known for its manufacture of high quality cogitators, which they sell to any client under extremely reasonable terms. Unfortunately for some ignorant buyers, those cogitator's are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooGoodToBeTrue" title="/pmwiki/pmwiki.php/Main/TooGoodToBeTrue">so powerful and cost-effective</a> because they are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HauntedTechnology" title="/pmwiki/pmwiki.php/Main/HauntedTechnology">infused with daemons</a>. Once installed in a hive or starship's grid, they will begin to optimize the place, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">solving all kinds of logistical problems and proposing effective technical solutions</a>. However, implementing these requires networking the cogitator to ever more of the facility, becoming ever more dependent on it. Then it starts demanding rites of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodMagic" title="/pmwiki/pmwiki.php/Main/BloodMagic">Blood Magic</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">Human Sacrifices</a> as part of its ritual maintenance...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMedic" title="/pmwiki/pmwiki.php/Main/TheMedic">The Medic</a>: The Apothecary, whose abilities mainly center around healing and boosting the performance of his Kill-team. Can also learn to create toxins. Unusually for this trope, Apothecaries are no more squishy than other Space Marines.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction" title="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction">Military Science Fiction</a>: More so than the other four 40k roleplaying games, since characters in <em>Deathwatch</em> are specifically intended to engage in military operations and deal with military-grade threats. In fairness, two of the others do too, but they assume the players are playing either ordinary mortals or Chaos-corrupted madmen. The Deathwatch is the unquestioned elite of the Imperium.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoreDakka" title="/pmwiki/pmwiki.php/Main/MoreDakka">More Dakka</a>: Devastator Marines. Much like a well-built Assault Marine, a well-built and well-equipped Devastator Marine can destroy an entire Horde of enemies in a single turn (though the latest round of errata has scaled this back significantly).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie" title="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie">Negative Space Wedgie</a>: The Jericho Reach has a few of them:<ul><li> The Hadex Anomaly, a warp/real space overlap created centuries ago by some massive act of ritual sorcery. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YearInsideHourOutside" title="/pmwiki/pmwiki.php/Main/YearInsideHourOutside">Time flows differently</a> in there, and as a result Chaos-held worlds there can have a generation born, grown, trained, and formed into warbands in only a few years of objective time, which negates the Imperium's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeHaveReserves" title="/pmwiki/pmwiki.php/Main/WeHaveReserves">primary resource advantage</a>, and ensures that the fighting in the Cellebos Warzone is particularly bitterly fought just to maintain a stalemate.</li><li> The Black Reef is an area of strange gravity disruptions that makes faster-than-light travel more dangerous the closer to it one goes. It forms a natural divide between Imperial controlled space on one side, and Tau controlled space on the other. Both sides must go around the Reef rather than through it, forming a chokepoint for both factions. Due to differences in the way that they use FTL travel, the Tau can approach closer to it more safely than the Imperials can, but their slower travel limits that advantage.</li><li> The Stillborn Stars, in the Slinnar Drift Cluster, toward the rimward edge of the Jericho Reach far from the main fighting. They are a group of proto-stars, stars early in their lifecycle accruing mass as they grow into main sequence stars... except that all the evidence points to them being in this state for hundreds of millennia. By this time, they should have either fully matured, or fallen back into smaller, dimmer states. The adepts of the Imperium have no idea why these physics-defying stars exist.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneManArmy" title="/pmwiki/pmwiki.php/Main/OneManArmy">One-Man Army</a>: Deathwatch Kill-Marines, introduced in the <em>Rites of Battle</em> supplement, are specialists trained to perform solo missions without the support of their battle-brothers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrcusOnHisThrone" title="/pmwiki/pmwiki.php/Main/OrcusOnHisThrone">Orcus on His Throne</a>: The <em>Outer Reach</em> supplement brings us the Overlord-Regent Ahhotekh, the ruler of the Necron Suhbekhar dynasty. He commands an entire army of undead warriors and is an enormous threat to the region, though he is also described as not being prone to facing his opponents face to face and relying on his underlings and schemes instead. Therefore, he is likely to fit this trope during any interactions he might have with the Deathwatch Kill-Teams.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePaladin" title="/pmwiki/pmwiki.php/Main/ThePaladin">The Paladin</a>: The player characters are this exclusively. Astartes are indoctrinated to be above certain mortal concerns, and one who deviates too seriously from this is going to be looked on with suspicion by his battle-brothers. In addition, each chapter has its own particular sets of values and ideals for how an Astartes should behave, adding diversity to how this trope is played.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePerfectionist" title="/pmwiki/pmwiki.php/Main/ThePerfectionist">The Perfectionist</a>: The Iron Hands' Primarch's Curse turns them into this, mixed with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkAss" title="/pmwiki/pmwiki.php/Main/JerkAss">Jerkass</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsufferableGenius" title="/pmwiki/pmwiki.php/Main/InsufferableGenius">Insufferable Genius</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PuppeteerParasite" title="/pmwiki/pmwiki.php/Main/PuppeteerParasite">Puppeteer Parasite</a>: Bruul parasites, a xenos species local to the region which feed on the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbstractEater" title="/pmwiki/pmwiki.php/Main/AbstractEater">emotions and memories</a> of their hosts as much as their physical qualities. They often enter through <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrificeInvasion" title="/pmwiki/pmwiki.php/Main/OrificeInvasion">any open orifice</a>, including <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyeScream" title="/pmwiki/pmwiki.php/Main/EyeScream">the eyes</a> and can jump from one compromised host to another in a blink. Bruul-hosts can be identified by their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarionetteMotion" title="/pmwiki/pmwiki.php/Main/MarionetteMotion">jerky, cumbersome motions</a>, difficulty remembering things <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HesitationEqualsDishonesty" title="/pmwiki/pmwiki.php/Main/HesitationEqualsDishonesty">on the spot</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotHimself" title="/pmwiki/pmwiki.php/Main/NotHimself">personality changes</a>, and the fact that many <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlamourFailure" title="/pmwiki/pmwiki.php/Main/GlamourFailure">become emaciated</a> because the parasite often forgets to feed the host. While they can leach some of a host's intelligence or memories, it is unclear if the parasite is even sentient on its own.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionOfEvil" title="/pmwiki/pmwiki.php/Main/ReligionOfEvil">Religion of Evil</a>: While elements from each of the Traitor Legions have been identified in the Cellebos Warzone, crusade high command tentatively believes that the Word Bearers legion is the most populous and active in the area. It is speculated that the large number of worlds with Chaos-faithful populations in the Hadex Anomaly draws them to the region.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanitySlippage" title="/pmwiki/pmwiki.php/Main/SanitySlippage">Sanity Slippage</a>: The insanity mechanic of the system affect's Astartes differently than it does other humans. Rather than being affected by more random psychosis, increasing insanity points manifest in a battle-brother as a kind of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Flanderization" title="/pmwiki/pmwiki.php/Main/Flanderization">exaggeration of the negative stereotypes</a> associated with their respective chapter. This is known as the Primarch's Curse. How they learn to live with it is the measure of a veteran Space Marine:<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntimagicalFaction" title="/pmwiki/pmwiki.php/Main/AntimagicalFaction">Black Templars</a> become increasingly fanatical about their hatred for psykers, making interaction difficult and potentially going against better judgement to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BurnTheWitch" title="/pmwiki/pmwiki.php/Main/BurnTheWitch">try and slay them</a>, even if the mission says otherwise.</li><li> Blood Angels have more difficulty distinguishing between reality and their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeneticMemory" title="/pmwiki/pmwiki.php/Main/GeneticMemory">Genetic Memory</a> of their primarch's demise. As this mounts, they have a more difficult time controlling their (sometimes literal) <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodLust" title="/pmwiki/pmwiki.php/Main/BloodLust">Blood Lust</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeeroyJenkins" title="/pmwiki/pmwiki.php/Main/LeeroyJenkins">might break ranks to engage the enemy up close</a>.</li><li> Blood Raven's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuriousAsAMonkey" title="/pmwiki/pmwiki.php/Main/CuriousAsAMonkey">quest for knowledge</a> starts becoming obsessive, potentially <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuriosityKilledTheCast" title="/pmwiki/pmwiki.php/Main/CuriosityKilledTheCast">putting themselves or their Kill-Team in danger</a> if doing so might uncover a particularly coveted secret. Eventually learning too many of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheseAreThingsManWasNotMeantToKnow" title="/pmwiki/pmwiki.php/Main/TheseAreThingsManWasNotMeantToKnow">These Are Things Man Was Not Meant to Know</a> can <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoMadFromTheRevelation" title="/pmwiki/pmwiki.php/Main/GoMadFromTheRevelation">cause their sanity and corruption to suffer</a>.</li><li> Dark Angels become more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LonersAreFreaks" title="/pmwiki/pmwiki.php/Main/LonersAreFreaks">aloof and self-isolating</a>, becoming <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheParanoiac" title="/pmwiki/pmwiki.php/Main/TheParanoiac">paranoid about others trying to pry into their secrets</a>, distrusting all except other Dark Angels.</li><li> Iron Hands become more focused on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MalevolentMutilation" title="/pmwiki/pmwiki.php/Main/MalevolentMutilation">removing their "weak flesh"</a>, becoming all the more disturbing for it. As they do so, they become increasingly disdainful of weakness, refusing to depend on anyone or anything they see as <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatMeasureIsANonBadass" title="/pmwiki/pmwiki.php/Main/WhatMeasureIsANonBadass">not having sufficient strength</a>, a category that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">becomes ever more broad the more of themselves they replace</a>.</li><li> Raven Guard become more cautious, to the point of insubordination, and might ignore an order to make a frontal attack. They grow increasingly uncomfortable with bold tactics, considering themselves the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlySaneMan" title="/pmwiki/pmwiki.php/Main/OnlySaneMan">Only Sane Man</a> in the company of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FearlessFool" title="/pmwiki/pmwiki.php/Main/FearlessFool">Fearless Fools</a>.</li><li> Raptors are consummate <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatPragmatist" title="/pmwiki/pmwiki.php/Main/CombatPragmatist">Combat Pragmatists</a> who <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumbleHero" title="/pmwiki/pmwiki.php/Main/HumbleHero">do not seek personal glory in combat</a> and accept that they will eventually die in battle, but they start to see this in increasingly fatalistic ways. Eventually, they are borderline <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathSeeker" title="/pmwiki/pmwiki.php/Main/DeathSeeker">Death Seekers</a>, not out of any desire for self-destruction, but simply out of a belief that any given serious situation could be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BecauseDestinySaysSo" title="/pmwiki/pmwiki.php/Main/BecauseDestinySaysSo">their fated time to die</a>.</li><li> Red Scorpions have always considered themselves one of the most "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness" title="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness">pure</a>" chapters, but when their sanity begins to erode this becomes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PureIsNotGood" title="/pmwiki/pmwiki.php/Main/PureIsNotGood">increasingly obsessive and myopic</a>, eventually refusing to trust anyone they consider the slightest bit impure, including Astartes from other chapters.</li><li> Salamanders become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StubbornMule" title="/pmwiki/pmwiki.php/Main/StubbornMule">as stubborn as a mule</a>, refusing to change course after having made up their mind. Their determination to be self-reliant goes to their detriment as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InTheEndYouAreOnYourOwn" title="/pmwiki/pmwiki.php/Main/InTheEndYouAreOnYourOwn">they refuse to count on other marines who do not share the same value</a>.</li><li> Space Wolves become more savage in their appearance and manner, disturbing others, get overpowered by the scent of their enemy's blood, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotBlooded" title="/pmwiki/pmwiki.php/Main/HotBlooded">have difficulty backing down from a fight</a>, even when a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TacticalWithdrawal" title="/pmwiki/pmwiki.php/Main/TacticalWithdrawal">Tactical Withdrawal</a> would be the best option.</li><li> Storm Wardens have difficulty managing their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlorySeeker" title="/pmwiki/pmwiki.php/Main/GlorySeeker">thirst for glory</a>, and exaggerates their tendency to place <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HonorBeforeReason" title="/pmwiki/pmwiki.php/Main/HonorBeforeReason">Honor Before Reason</a>, refusing to back down from a challenge and trying to fight "fair" even when victory would be more important their their personal honor.</li><li> Ultramarines feel increasingly convinced that they are the Imperium's favored sons, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InHarmsWay" title="/pmwiki/pmwiki.php/Main/InHarmsWay">making sure that the kill-team goes where the fighting is thickest</a>, and become convinced that others cannot be trusted to do what is "right" in all circumstances, eventually refusing to follow the leadership of anyone other than another Ultramarine.</li><li> White Scars start losing control of the wild spirit that serves them well in the saddle, becoming so focused on running down their targets that they lose track of the bigger picture, gaining a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HairTriggerTemper" title="/pmwiki/pmwiki.php/Main/HairTriggerTemper">Hair-Trigger Temper</a>, and needing their brothers to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GetAHoldOfYourselfMan" title="/pmwiki/pmwiki.php/Main/GetAHoldOfYourselfMan">snap them out of their</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodLust" title="/pmwiki/pmwiki.php/Main/BloodLust">battle trance</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScarilyCompetentTracker" title="/pmwiki/pmwiki.php/Main/ScarilyCompetentTracker">Scarily Competent Tracker</a>: Space Wolves get bonuses that lend themselves well to tracking and infiltration, filling an advanced scout role.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">Sealed Evil in a Can</a>: The Ghanathaar were a race that once dominated the region of space that would become the Jericho Reach eons ago, using their powerful psychic abilities to mentally dominate other races into obedience. However, a great and terrible threat emerged, though it has long since been forgotten, that forced the Ghanathaar to go into hiding. They built gates to shelter themselves in the Warp, intending to re-emerge once the threat has passed, only to find themselves trapped on the other side, slowly driven mad by their time in the Empyrean. For ages they waited, going further insane and corrupted all the while, until <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NaiveNewcomer" title="/pmwiki/pmwiki.php/Main/NaiveNewcomer">the Tau</a> eventually moved into the neighborhood. A few psychic whispers convinced the Tau that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManipulativeBastard" title="/pmwiki/pmwiki.php/Main/ManipulativeBastard">the Ghanathaar wanted to join the Greater Good</a> if the Tau could help release them from their imprisonment. Sadly, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwittingPawn" title="/pmwiki/pmwiki.php/Main/UnwittingPawn">Tau do not know enough about the Warp</a> to know that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouActuallyBelieve" title="/pmwiki/pmwiki.php/Main/DidYouActuallyBelieve">they should not trust the whispers that come from it</a>...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: The <em>Deathwatch</em> writers are not shy about reaching out to other works in the franchise:<ul><li> The basic rulebook has a quote from Commissar Holt of <em>Warhammer 40,000: Final Liberation</em> fame.</li><li> The Expanded Wargear chapter in <em>Rites of Battle</em> has an opening quote also from <a class="urllink" href="https://www.youtube.com/watch?v=LOi3CzZjV0M">Commissar Holt<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> The basic rulebook also has a few quotes from <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DawnOfWar" title="/pmwiki/pmwiki.php/VideoGame/DawnOfWar">Captain Davian Thule</a> of the Blood Ravens.</li><li> A section citing a few examples of notable Imperial Guard regiments mentions the masterful stealth skills of the <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/GauntsGhosts" title="/pmwiki/pmwiki.php/Literature/GauntsGhosts">Tanith First and Only</a>.</li><li> Much of what the Deathwatch knows about the Dark Pattern comes from an ancient leather-bound tome extracted from the Omega Vault, penned by a prescient madman generations ago. It tells the tail of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">horrible things to arise in the future when the stars have completed their alignment and ancient evils awaken from their aeons-long slumber</a>. This book, named after its apparent author, is called the <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/AugustDerleth" title="/pmwiki/pmwiki.php/Creator/AugustDerleth">Derleth Lexicon</a>.</li><li> In the core rulebook, the section on the Orpheus Salient<span class="notelabel" onclick="togglenote('note24jyz');"><sup>note&nbsp;</sup></span><span id="note24jyz" class="inlinefolder" isnote="true" onclick="togglenote('note24jyz');" style="cursor:pointer;font-size:smaller;display:none;">under attack by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts" title="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts">Tyranids</a> of Hive Fleet Dagon</span> opens with a quote about praying to keep sea monsters away and how the speaker finds himself repeating said prayers while looking out into space, with said speaker being one Captain <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/MobyDick" title="/pmwiki/pmwiki.php/Literature/MobyDick">Ahab</a>ron, commander of the cruiser <em>Admiral Ishmael</em>.</li><li> There's an angry, demented Dreadnought in <em>Rising Tempest</em> named Brother <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheBigLebowski" title="/pmwiki/pmwiki.php/Film/TheBigLebowski">Szobczak</a>.</li><li> <em>The Emperor Protects</em> features a quote from an "ancient terran Prophet", who in our times in known as <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HPLovecraft" title="/pmwiki/pmwiki.php/Creator/HPLovecraft">H. P. Lovecraft</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marine</a>: Of the Warhammer 40,000 variety, of course, with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorMonk" title="/pmwiki/pmwiki.php/Main/WarriorMonk">everything</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">else</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">that</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">implies</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoneWall" title="/pmwiki/pmwiki.php/Main/StoneWall">Stone Wall</a>: Dark Angels characters tend towards this, with abilities that trade movement ability for heightened defenses, temporary Wounds and improved firing capabilities. Their Librarians even get a psychic power that lets them essentially become an actual stone wall, with massive amounts of armor as long as they don't move.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuicidalOverconfidence" title="/pmwiki/pmwiki.php/Main/SuicidalOverconfidence">Suicidal Overconfidence</a>: Normally a video game trope, it is notable in this instance because the rulebook clearly advises the Game Master to <strong>not</strong> imitate the trope when running a tabletop game like this. The Deathwatch characters are more powerful than others from this setting, and virtually everyone they go up against will know it. It reminds the GM that even the most fanatical of foes who are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathSeeker" title="/pmwiki/pmwiki.php/Main/DeathSeeker">eager to die for their cause</a> will still want to sell their lives as dearly as possible, and thus will be more likely to commit only from a position of strength rather than charge out to die without at least a chance of threatening the kill-team.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurvivalHorror" title="/pmwiki/pmwiki.php/Main/SurvivalHorror">Survival Horror</a>: The official adventure <em>The Ark of Lost Souls</em> is explicitly described as such in a GM's sidebar early in the book. It plays this up by thrusting the Kill Team into a very dangerous situation <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OntologicalMystery" title="/pmwiki/pmwiki.php/Main/OntologicalMystery">suddenly and without any explanation or forewarning</a>, with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EscapeFromTheCrazyPlace" title="/pmwiki/pmwiki.php/Main/EscapeFromTheCrazyPlace">no obvious way out</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DroughtLevelOfDoom" title="/pmwiki/pmwiki.php/Main/DroughtLevelOfDoom">no opportunity to resupply</a> so they must <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ResourcesManagementGameplay" title="/pmwiki/pmwiki.php/Main/ResourcesManagementGameplay">carefully count their stores and make every shot count</a>, in a vast echoing expanse that is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NothingIsScarier" title="/pmwiki/pmwiki.php/Main/NothingIsScarier">largely empty but where dangerous creatures can lurk in any shadow</a>, full of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DangerousTerrain" title="/pmwiki/pmwiki.php/Main/DangerousTerrain">Dangerous Terrain</a>, where they will be attacked by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZergRush" title="/pmwiki/pmwiki.php/Main/ZergRush">waves upon waves of enemies</a> that they have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RespawningEnemies" title="/pmwiki/pmwiki.php/Main/RespawningEnemies">no hope of defeating all of</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperStrength" title="/pmwiki/pmwiki.php/Main/SuperStrength">Super Strength</a>: In regular 40K, Space Marines were simplified to all of them having Str 4 (low-level superhuman). In Deathwatch, there's a bit more answer to how strong a Space Marine is. An extremely weak Space Marine with no power armour, body mods, pyschic powers and special skills but with no crippling injuries, can just lift a bit over 492 pounds, making him no better than a very strong human. However a strong Space Marine in the same situation can lift 9.9 tons, making him practically a Marvel superhero (for comparison Spiderman can lift 10 tons). Supernatural freaks like 1st edition Mephiston would probably clock in at the Class 70 or even Class 100 category for Marvel superhero strength.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeUpMySword" title="/pmwiki/pmwiki.php/Main/TakeUpMySword">Take Up My Sword</a>: Astartes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerArmor" title="/pmwiki/pmwiki.php/Main/PowerArmor">Power Armor</a> is difficult to manufacture, even for the Astartes, as each piece of it must be carefully crafted by artisan Tech-Marines. As a result of this difficulty, components from the armor of fallen marines end up being recovered and reused in new suits of armor provided to freshly raised battle-brothers. Many chapters develop elaborate rites and practices around this process, engraving pieces with the history of its wearers, and this is reflected in the armor of Deathwatch kill-teams. Each player must roll on a table to determine the history of their armor, and this history will give the armor its own set of (literal) mechanical quirks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork" title="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork">Teeth-Clenched Teamwork</a>: While not every Deathwatch kill-team has this issue, it does come up with Kill-teams formed of Astartes drawn from chapters with significantly different traditions. For example, the enmity between the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStoic" title="/pmwiki/pmwiki.php/Main/TheStoic">Dark Angels</a> and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoisterousBruiser" title="/pmwiki/pmwiki.php/Main/BoisterousBruiser">Space Wolves</a> is well known, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntimagicalFaction" title="/pmwiki/pmwiki.php/Main/AntimagicalFaction">Black Templars</a> are likely to balk at having to work with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicKnight" title="/pmwiki/pmwiki.php/Main/MagicKnight">a Librarian</a>, and an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCape" title="/pmwiki/pmwiki.php/Main/TheCape">Ultramarine</a> is likely to have friction with any marine from a chapter that does not take the Codex Astartes as seriously as he does. As some Black Library books have commented, learning to reconcile the different traditions between chapters in the Deathwatch is one of the more unique challenges a Space Marine may have to contend with. <em>First Founding</em> and <em>Honour The Chapter</em> present several more examples, such as a rivalry between the Space Wolves and the <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DawnOfWar" title="/pmwiki/pmwiki.php/VideoGame/DawnOfWar">Blood Ravens</a> due to the latter's excessive use of psykers (as the Wolf Lord demonstrated to the Blood Raven Captain with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TalkToTheFist" title="/pmwiki/pmwiki.php/Main/TalkToTheFist">a punch in the face</a>.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TouchedByVorlons" title="/pmwiki/pmwiki.php/Main/TouchedByVorlons">Touched by Vorlons</a>: The background book <em>The Achilus Assault</em> heavily implies that <span class="spoiler" title="you can set spoilers visible by default on your profile"> Tiber Achilus, the Lord Militant who was the organizer, original leader, and namesake of the Achilus Crusade, had (unbeknownst to him) indirect help from the Eldar. They were present when he was born, always seemed to observe him during his near-miraculously meteoric rise to greatness, and were seen shortly before his ship was lost in the warp in an extremely routine trip while the rest of the fleet made it through fine. Exactly what influence they had and why they seemed interested in this particular Imperial commander is unknown.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwistingTheWords" title="/pmwiki/pmwiki.php/Main/TwistingTheWords">Twisting the Words</a>: Kill-teams operating in the Acheros Salient are known to come across quotations from the Codex Astartes, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CouldntFindAPen" title="/pmwiki/pmwiki.php/Main/CouldntFindAPen">written in blood</a> near the scene of a massacre by Word Bearers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCounterpart" title="/pmwiki/pmwiki.php/Main/EvilCounterpart">Chaos Space Marines</a>. These quotations are deliberately taken out-of-context, twisting the meaning to imply justification for their gruesome actions. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">They do this purely to spite the Astartes who find it</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a>: <em>Deathwatch</em> is this to the other <em><a class="twikilink" href="/pmwiki/pmwiki.php/TableTopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TableTopGame/Warhammer40000">Warhammer 40,000</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TableTopGame" title="/pmwiki/pmwiki.php/Main/TableTopGame">Table Top</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RolePlayingGame" title="/pmwiki/pmwiki.php/Main/RolePlayingGame">Role Playing Games</a>. Especially combat mechanics, where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Characters</a> start at the highest end of the power scale for the other ones and only go up from there. However, no matter how powerful the Kill-Team is, they will always be going up against foes at least one step up from that, some of whom are so powerful that the Battle-brothers will be forced to rely more on their wits, guile, and teamwork to triumph rather than their prodigious combat strength alone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VetinariJobSecurity" title="/pmwiki/pmwiki.php/Main/VetinariJobSecurity">Vetinari Job Security</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeneralRipper" title="/pmwiki/pmwiki.php/Main/GeneralRipper">Lord Commander Sebascore Ebongrave</a> is seen by many in power as a danger to the Imperium's interests in the Canis Salient. Whether because they see him as cowardly for his fear of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspiracyTheorist" title="/pmwiki/pmwiki.php/Main/ConspiracyTheorist">xeno-sympathizer conspiracies</a>, his unwillingness to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PeaceConference" title="/pmwiki/pmwiki.php/Main/PeaceConference">meet the Tau halfway</a> so they can <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">confront higher priority threats</a>, or even just the loss of strategic momentum the Imperium suffers by devoting so many of their forces to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrushingThePopulace" title="/pmwiki/pmwiki.php/Main/CrushingThePopulace">enforcing a police state on the local populations</a>. However, Ebongrave has a wide influence, troops loyal to him alone, and enough money and personal connections to hire lots of mercenaries. This influence combined with his knowledge of things classified near to the crusade high command and his unstable nature, along with the power vacuum that would need to be filled and a volatile political situation, means that simply retiring him is difficult and must be handled extremely carefully.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisibleInvisibility" title="/pmwiki/pmwiki.php/Main/VisibleInvisibility">Visible Invisibility</a>: Masking Screens, small devices attached to the shoulder which dampen the wearer's noise and project an active-camouflage effect on their armor. They are reverse-engineered from the cloaking generators captured from Tau <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvisibilityCloak" title="/pmwiki/pmwiki.php/Main/InvisibilityCloak">stealthsuits</a>, but being unable to completely reproduce them without the "xenos-taint" makes the technology imperfect, only modestly improving a battle-brother's ability to hide over <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighlyVisibleNinja" title="/pmwiki/pmwiki.php/Main/HighlyVisibleNinja">the brightness and noise of his armor</a> and imposing a penalty to his perception of objects outside the narrow effect of the screen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkingTank" title="/pmwiki/pmwiki.php/Main/WalkingTank">Walking Tank</a>: The <em>Rites of Battle</em> supplement allows for player characters to be interred in Dreadnoughts. However they have to be near death and of high level and renown.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether" title="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether">We ARE Struggling Together</a>: The adventure included in <em>First Founding</em> involves a potentially xeno-influenced anti-Imperial uprising on a quarantined world in the Greyhell front, to which detachments from three very different Space Marine chapters were dispatched to quickly put it down. Unfortunately due to a disastrous first cooperative action, the three forces have been unable to effectively coordinate and their respective differences in outlook bring them almost to the point of fighting against each other instead of the enemy. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Characters</a>' Kill Team is dispatched to try and reconcile the issues they are having. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Which the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FalseFlagOperation" title="/pmwiki/pmwiki.php/Main/FalseFlagOperation">False Flag Operation</a> done by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCounterpart" title="/pmwiki/pmwiki.php/Main/EvilCounterpart">Alpha Legion</a> will <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DivideAndConquer" title="/pmwiki/pmwiki.php/Main/DivideAndConquer">make very difficult</a>.</span></li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/FantasyFlightGames">Creator/Fantasy Flight Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Cubicle7">Creator/Cubicle 7</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion">Adeptus Evangelion</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Gorkamorka">Gorkamorka</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion">Adeptus Evangelion</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/GamesWorkshop">Creator/Games Workshop</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Gorkamorka">Gorkamorka</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheRolePlayingGame">The Role-Playing Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade">Black Crusade</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Sandbox/Warhammer40KFranchise">Sandbox/Warhammer 40 K Franchise</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction">Military Science Fiction</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">TabletopGame/Warhammer 40,000</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade">Black Crusade</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/Warhammer40000ExpandedUniverse">Franchise/Warhammer 40,000 Expanded Universe</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion">Adeptus Evangelion</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Gorkamorka">Gorkamorka</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

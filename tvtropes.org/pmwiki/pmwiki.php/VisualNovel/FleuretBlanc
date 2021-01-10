@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Fleuret Blanc (Visual Novel) - TV Tropes</title>
+<meta name="description" content="Fleuret Blanc is a Visual Novel made in RPG Maker XP by Merlandese. Originally made in 2012, it gained another surge of popularity when posted to rpgmaker." />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/FleuretBlanc" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Fleuret Blanc (Visual Novel) - TV Tropes" />
+<meta name="twitter:description" content="Fleuret Blanc is a Visual Novel made in RPG Maker XP by Merlandese. Originally made in 2012, it gained another surge of popularity when posted to rpgmaker." />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/thoughtful_florentine_8589.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Fleuret Blanc (Visual Novel) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/FleuretBlanc" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/thoughtful_florentine_8589.png" />
+<meta property="og:description" content="Fleuret Blanc is a Visual Novel made in RPG Maker XP by Merlandese. Originally made in 2012, it gained another surge of popularity when posted to rpgmaker.net two years later. 23-year-old Florentine Blanc is a college graduate who has dedicated &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/MagicalAccessory" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/Tank" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VisualNovel/FleuretBlanc?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VisualNovel/FleuretBlanc">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VisualNovel.FleuretBlanc">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=FleuretBlanc&g=VisualNovel">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VisualNovel.FleuretBlanc">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VisualNovel/FleuretBlanc?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VisualNovel" />
+<input type="hidden" id="title-hidden" value="FleuretBlanc" />
+<input type="hidden" id="article_id" value="486049" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/FleuretBlanc</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Visual Novel / </strong>
+Fleuret Blanc
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VisualNovel",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Fleuret Blanc"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/FleuretBlanc" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/FleuretBlanc" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/FleuretBlanc" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/FleuretBlanc" class="subpage-link curr-subpage" title="The VisualNovel page">
+<span class="wrapper">VisualNovel</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/FleuretBlanc?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/FleuretBlanc?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/FleuretBlanc?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/FleuretBlanc?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/FleuretBlanc?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/FleuretBlanc?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/FleuretBlanc?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/FleuretBlanc?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/FleuretBlanc?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/FleuretBlanc?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/FleuretBlanc?action=edit">Quotes</option>
+ <option value="/pmwiki/pmwiki.php/Recap/FleuretBlanc?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/FleuretBlanc?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/FleuretBlanc?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/FleuretBlanc?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:320px;"><div class="lazy_load_img_box" style="padding-top:75%"><img src="https://static.tvtropes.org/pmwiki/pub/images/thoughtful_florentine_8589.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/thoughtful_florentine_8589.png" width="320" height="240"></div></div><div class="acaptionright" style="width:320px;">"<a class="twikilink" href="/pmwiki/pmwiki.php/Main/GottaCatchEmAll" title="/pmwiki/pmwiki.php/Main/GottaCatchEmAll">Everything is collectible.</a>"</div><p></p><div class="indent"><em>"Mightier than the sharpest pen. Tool and temptress. A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitleDrop" title="/pmwiki/pmwiki.php/Main/TitleDrop">fleuret blanc</a> is both possession and owner."</em></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><strong>Fleuret Blanc</strong> is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualNovel" title="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a> made in <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/RPGMaker" title="/pmwiki/pmwiki.php/UsefulNotes/RPGMaker">RPG Maker</a> XP by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Merlandese" title="/pmwiki/pmwiki.php/Creator/Merlandese">Merlandese</a>. Originally made in 2012, it gained another surge of popularity when posted to rpgmaker.net two years later.</p><p>23-year-old Florentine Blanc is a college graduate who has dedicated her life to travel. Without having a career to fall back on, she takes up menial jobs whenever her pockets become empty. She seems to strike gold when she gets accepted into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunWithAcronyms" title="/pmwiki/pmwiki.php/Main/FunWithAcronyms">FOIL</a>, a private fencing organization looking for members interested in a "new breed" of the sport.</p><p>The rules? Members of FOIL must <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsurdlyHighStakesGame" title="/pmwiki/pmwiki.php/Main/AbsurdlyHighStakesGame">wager their most prized possession in the world</a>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GottaCatchEmAll" title="/pmwiki/pmwiki.php/Main/GottaCatchEmAll">This object acts as a trophy winnable by other members of the group.</a> After seven days of bouts, the judges decide who Florentine replaces as the new member. In the meantime, Florentine decides to investigate FOIL's mysterious and secluded base of operations. As her experiences become more menacing, she encounters troubling questions and begins to discover what evolves into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TownWithADarkSecret" title="/pmwiki/pmwiki.php/Main/TownWithADarkSecret">a mysterious and ugly truth</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Notable for its discussion of many heavy themes such as materialism and obsession, <em>Fleuret Blanc</em> has gained popularity as a literary and story-heavy experience, albeit not without some engaging gameplay elements. It can be downloaded <a class="urllink" href="http://rpgmaker.net/games/6686/">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></p><hr><h2>Examples of tropes appearing in <em>Fleuret Blanc</em>:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbhorrentAdmirer" title="/pmwiki/pmwiki.php/Main/AbhorrentAdmirer">Abhorrent Admirer</a>: Judge Aunty, who constantly flirts with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MayDecemberRomance" title="/pmwiki/pmwiki.php/Main/MayDecemberRomance">much younger</a> Roland despite it creeping him out.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsurdlyHighStakesGame" title="/pmwiki/pmwiki.php/Main/AbsurdlyHighStakesGame">Absurdly High-Stakes Game</a>: Actually pretty tame by the standards of the trope, but wagering your most prized possession in world is still pretty extreme.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionGirl" title="/pmwiki/pmwiki.php/Main/ActionGirl">Action Girl</a>: Florentine and Amara.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAlcoholic" title="/pmwiki/pmwiki.php/Main/TheAlcoholic">The Alcoholic</a>: Odon. He tries to be secretive about it, but you can usually find him hanging around the bar, and other characters will confirm that he has a major drinking problem. This is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutOfCharacterMoment" title="/pmwiki/pmwiki.php/Main/OutOfCharacterMoment">unusual</a>, as he's a laid-back monk who frequently preaches the importance of freeing oneself from material possessions and influences. It's one of the hints that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenDepths" title="/pmwiki/pmwiki.php/Main/HiddenDepths">his past is more complex than it appears</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">he used to be a delinquent drug addict, and though he tried to turn his life around, he's been through a lot, and can't kick his alcohol dependence.</span></li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysAccurateAttack" title="/pmwiki/pmwiki.php/Main/AlwaysAccurateAttack">Always Accurate Attack</a>: Feint, unless it comes up against <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoSell" title="/pmwiki/pmwiki.php/Main/NoSell">Parry</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">Arc Words</a>: "We are, each of us, a collection of mistakes."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackForTheFinale" title="/pmwiki/pmwiki.php/Main/BackForTheFinale">Back for the Finale</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Kant, though in this case he never actually left in the first place.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossBanter" title="/pmwiki/pmwiki.php/Main/BossBanter">Boss Banter</a>: Part of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoiceGrunting" title="/pmwiki/pmwiki.php/Main/VoiceGrunting">Voice Grunting</a> &mdash; duelists have a stock pool of lines they'll draw from occasionally, usually taunts relating to their dodges or techniques.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BringIt" title="/pmwiki/pmwiki.php/Main/BringIt">Bring It</a>: Junior's battle pose features this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CentralTheme" title="/pmwiki/pmwiki.php/Main/CentralTheme">Central Theme</a>:<ul><li> Materialism and collection; the role of objects in our lives and the meanings we attribute to them.</li><li> Relating to others seems to be a secondary theme. Much of the gameplay revolves around getting to know the other members and understanding their experiences; all of them are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenDepths" title="/pmwiki/pmwiki.php/Main/HiddenDepths">much more than they first seem</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Giving orders to King Vasha</span>, which is <span class="spoiler" title="you can set spoilers visible by default on your profile">the key to the Lounge</span>. It's in plain sight and definitely implies something has to happen there, but it's so silly and weird that most players will probably forget it by the time of the payoff, or at least assume it's for something much more minor.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">The placard Roland gives you at the beginning</span> seems pointless at first, but <span class="spoiler" title="you can set spoilers visible by default on your profile">it's actually a smoking gun for the judges' true plans, and what led to the lockdown and Kant's imprisonment</span>.</li><li> Averted with <span class="spoiler" title="you can set spoilers visible by default on your profile">the hacked application wizard</span>, which is hinted to be an important mystery throughout the story and many optional events, but is ultimately a minor subplot unrelated to the main story.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGunman" title="/pmwiki/pmwiki.php/Main/ChekhovsGunman">Chekhov's Gunman</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Pennington, who appears briefly in the intro scene and during an optional event many players may not see due to its rarity and stringent precondition. Turns out he's not only Junior's father but a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProfessionalKiller" title="/pmwiki/pmwiki.php/Main/ProfessionalKiller">Professional Killer</a> who eliminates FOIL's departing members.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClimaxBoss" title="/pmwiki/pmwiki.php/Main/ClimaxBoss">Climax Boss</a>: All of the trophy bouts. Both Florentine and her opponent have twice as many <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a>, and it's also almost always the first time you get to bout a member. (In the case of Masque, it's also their first appearance.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DegradedBoss" title="/pmwiki/pmwiki.php/Main/DegradedBoss">Degraded Boss</a>: After their trophy bout, you can duel members any time at half <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiscOneNuke" title="/pmwiki/pmwiki.php/Main/DiscOneNuke">Disc-One Nuke</a>: The first two techniques Roland gives you, Salute and Trompement, are also among the most useful. Salute extends a bout (and gives you all-important style points) while Trompement shortens it (and produces a guaranteed win if the opponent has less than 3 <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a> left). Together they give you an unrivaled amount of control over the flow of battle and can really throw a wrench into some members' strategies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisposableWoman" title="/pmwiki/pmwiki.php/Main/DisposableWoman">Disposable Woman</a>: Odon's wife Karen, also a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManicPixieDreamGirl" title="/pmwiki/pmwiki.php/Main/ManicPixieDreamGirl">Manic Pixie Dream Girl</a>, whose tragic death influenced much of his outlook and life direction.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyBirdBoss" title="/pmwiki/pmwiki.php/Main/EarlyBirdBoss">Early-Bird Boss</a>:<ul><li> Averted with Roland. Unlike every other member, he starts with only one technique, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MirrorMatch" title="/pmwiki/pmwiki.php/Main/MirrorMatch">it's the exact same one as yours</a>. This doesn't prevent him from being a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WakeUpCallBoss" title="/pmwiki/pmwiki.php/Main/WakeUpCallBoss">Wake-Up Call Boss</a> for a lot of people, though.</li><li> Played straight with Le Neuvieme. There are a number of good techniques to use against him, but you don't get access to them until after his trophy bout.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmpathicEnvironment" title="/pmwiki/pmwiki.php/Main/EmpathicEnvironment">Empathic Environment</a>: A torrential thunderstorm occurs during <span class="spoiler" title="you can set spoilers visible by default on your profile">Kant's dismissal</span> and the final evening, both of which are climactic and dramatic points in the story.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOldFolks" title="/pmwiki/pmwiki.php/Main/EvilOldFolks">Evil Old Folks</a></span>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The judges, who murder FOIL's members after their tenure is finished to collect their prized possessions.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunnyAnimal" title="/pmwiki/pmwiki.php/Main/FunnyAnimal">Funny Animal</a>: Squeaker, who acts exactly like a human except for the occasional bark. Le Neuvieme even says he is a "perfect French gentleman".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameOver" title="/pmwiki/pmwiki.php/Main/GameOver">Game Over</a>: Averted. Losing trophy bouts only results in losing Florentine's lunch box, which must be reclaimed before you can proceed with the next trophy bout. Even losing to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalBoss" title="/pmwiki/pmwiki.php/Main/FinalBoss">Final Boss</a> has absolutely no consequences.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation" title="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation">Gameplay and Story Segregation</a>:<ul><li> Completing the confrontation associated with a character will let you see their part of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhereAreTheyNowEpilogue" title="/pmwiki/pmwiki.php/Main/WhereAreTheyNowEpilogue">"Where Are They Now?" Epilogue</a>. Normally, this makes sense, as the subplot and confrontation typically revolves around learning more about them and turning their life in a new direction. However, Masque's confrontation has almost nothing to do with him personally, as it's only the first half of <span class="spoiler" title="you can set spoilers visible by default on your profile">Le Neuvieme</span>'s subplot, so it's possible to see his epilogue without understanding any of its significance.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">When fighting Kant, his stock of quips have the same confident, cocky tone as the other members', despite the fact that he's a terrified, traumatized wreck at that point.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GamerGirl" title="/pmwiki/pmwiki.php/Main/GamerGirl">Gamer Girl</a>: Augustine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GottaCatchEmAll" title="/pmwiki/pmwiki.php/Main/GottaCatchEmAll">Gotta Catch 'Em All</a>:<ul><li> Played with. The gameplay mechanics encourage this behavior, even while the story points out its pitfalls and creepy facets.</li><li> Deconstructed with <span class="spoiler" title="you can set spoilers visible by default on your profile">the judges, who have gone insane trying to amass the most unique collection possible to the point that they will kill for it</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousForeignLanguage" title="/pmwiki/pmwiki.php/Main/GratuitousForeignLanguage">Gratuitous Foreign Language</a>:<ul><li> French. Justified as the game is set in France and many of the characters are bilingual. This is lampshaded by Le Neuvieme &mdash; to him, <em>English</em> is the gratuitous foreign language.<div class="indent">"I could not understand a word of that meeting. Why wouldn't they speak in French? We are in France, for God's sake!"</div></li><li> Many of the game's music tracks have French titles as well.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenDepths" title="/pmwiki/pmwiki.php/Main/HiddenDepths">Hidden Depths</a>: All the characters are much deeper than the quirky stereotypes they appear to be at first; getting to know them and all their traits is even one of the gameplay mechanics.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitmanWithAHeart" title="/pmwiki/pmwiki.php/Main/HitmanWithAHeart">Hitman with a Heart</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Pennington</span>. After he <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveRedeems" title="/pmwiki/pmwiki.php/Main/LoveRedeems">grew to love his daughter</a> and family life, he decided to retire. He also <span class="spoiler" title="you can set spoilers visible by default on your profile">spares Florentine in the ending because she reminds him of his daughter and helped him come to that realization</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotBlooded" title="/pmwiki/pmwiki.php/Main/HotBlooded">Hot-Blooded</a>: Anastasia.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterfaceSpoiler" title="/pmwiki/pmwiki.php/Main/InterfaceSpoiler">Interface Spoiler</a>: Amara will give you bout tips against <span class="spoiler" title="you can set spoilers visible by default on your profile">Kant</span> without fanfare, betraying the fact that <span class="spoiler" title="you can set spoilers visible by default on your profile">you do have to bout him eventually, spoiling that he comes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackForTheFinale" title="/pmwiki/pmwiki.php/Main/BackForTheFinale">Back for the Finale</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverseGameClock" title="/pmwiki/pmwiki.php/Main/InUniverseGameClock">In-Universe Game Clock</a>: Each day is divided into three parts (morning, afternoon, and evening), and in each part you can interact with a maximum of three optional events before you have to move on.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItemGet" title="/pmwiki/pmwiki.php/Main/ItemGet">Item Get!</a>: Every item you receive is accompanied by an image, message, and cheerful jingle. <em>Losing</em> an item produces the same result, though with a sad trombone sound instead of the jingle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrumpyOldMan" title="/pmwiki/pmwiki.php/Main/GrumpyOldMan">Grumpy Old Woman</a>: Judge Grams, who constantly insults everyone around her and has a massively overinflated ego. She particularly delights in torturing Roland.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JumpScare" title="/pmwiki/pmwiki.php/Main/JumpScare">Jump Scare</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The judges barging in on the Lounge.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall" title="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall">Leaning on the Fourth Wall</a>: Junior's "gamer talk" chats are very obviously tongue-in-cheek hints on obscure gameplay mechanics (such as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScoringPoints" title="/pmwiki/pmwiki.php/Main/ScoringPoints">Scoring Points</a>), even if they're ostensibly about a different game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeetLingo" title="/pmwiki/pmwiki.php/Main/LeetLingo">L33t L1ng0</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GadgeteerGenius" title="/pmwiki/pmwiki.php/Main/GadgeteerGenius">Junior</a> uses chatspeak when talking through the e-Virtuelle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalChef" title="/pmwiki/pmwiki.php/Main/LethalChef">Lethal Chef</a>: Judge Grams, who is also the members' only source of food unless they go out to town. Le Neuvieme is particularly bothered by her bizarre cuisine.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicalRealism" title="/pmwiki/pmwiki.php/Main/MagicalRealism">Magical Realism</a>: Squeaker is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunnyAnimal" title="/pmwiki/pmwiki.php/Main/FunnyAnimal">Funny Animal</a> who can rotate his head 360 degrees. No one finds this odd except for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlySaneMan" title="/pmwiki/pmwiki.php/Main/OnlySaneMan">Kant</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagikarpPower" title="/pmwiki/pmwiki.php/Main/MagikarpPower">Magikarp Power</a>: Salute gets a better rate of success the more you use it. Eventually you can weasel 3 points out of the judges pretty consistently.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManicPixieDreamGirl" title="/pmwiki/pmwiki.php/Main/ManicPixieDreamGirl">Manic Pixie Dream Girl</a>: Odon's wife Karen, whose peaceful and spiritual outlook influenced his current beliefs and decision to become a monk. She also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisposableWoman" title="/pmwiki/pmwiki.php/Main/DisposableWoman">died tragically</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MayDecemberRomance" title="/pmwiki/pmwiki.php/Main/MayDecemberRomance">May&#150;December Romance</a>: Defied; Aunty might see her crush this way, but Roland considers her an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbhorrentAdmirer" title="/pmwiki/pmwiki.php/Main/AbhorrentAdmirer">Abhorrent Admirer</a> precisely <em>because</em> of the age difference.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniGame" title="/pmwiki/pmwiki.php/Main/MiniGame">Mini-Game</a>: Bouts could be considered this, despite being practically the only gameplay mechanic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyGreatestFailure" title="/pmwiki/pmwiki.php/Main/MyGreatestFailure">My Greatest Failure</a>: Many of the prized possessions are, in fact, reminders of these.<ul><li> Le Neuvieme's grimoire is a reminder of <span class="spoiler" title="you can set spoilers visible by default on your profile">how he disappointed his family by straying from the family profession, and the obligations he still holds</span>.</li><li> Amara's metronome is a reminder of <span class="spoiler" title="you can set spoilers visible by default on your profile">a time she failed to uphold her ideal of perfection, damaging the metronome with a misjudged thrust</span>.</li><li> Junior's stuffed animal is a reminder of <span class="spoiler" title="you can set spoilers visible by default on your profile">a childhood embarrassment in which she discovered that for all her technical prowess and determination, there are some skills she is not capable of</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewGamePlus" title="/pmwiki/pmwiki.php/Main/NewGamePlus">New Game+</a>: Techniques, items, and character bios are preserved. Points of interest are <em>not</em>, but the game will sometimes fudge things in your favor, allowing you to access pertinent events and conclusions sooner than you're supposed to. It also gives you the opportunity to fight the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalBoss" title="/pmwiki/pmwiki.php/Main/FinalBoss">Final Boss</a> as a normal member if you like.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonActionGuy" title="/pmwiki/pmwiki.php/Main/NonActionGuy">Non-Action Guy</a>: Judge Nickel, the male judge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoSell" title="/pmwiki/pmwiki.php/Main/NoSell">No-Sell</a>: Parry is a guaranteed block against any attack &mdash; except <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysAccurateAttack" title="/pmwiki/pmwiki.php/Main/AlwaysAccurateAttack">Feint</a>, which can still succeed depending on a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PressXToNotDie" title="/pmwiki/pmwiki.php/Main/PressXToNotDie">Quick Time Event</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OOCIsSeriousBusiness" title="/pmwiki/pmwiki.php/Main/OOCIsSeriousBusiness">OOC Is Serious Business</a>: Used to solve a mystery. One subplot involves everyone coming down with food poisoning after eating <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalChef" title="/pmwiki/pmwiki.php/Main/LethalChef">Grams</a>' cooking, including Le Neuvieme... <span class="spoiler" title="you can set spoilers visible by default on your profile">except that he previously did nothing but express ire and disgust at Grams' concoctions, to the point that he goes out to town to buy all his food. If Grams' food <em>was</em> unhealthy, he should be the last person to display any symptoms. Of course, he's faking it, and he poisoned the food himself to make Grams look irresponsible, in the hopes that she would be removed from cooking duty.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePerfectionist" title="/pmwiki/pmwiki.php/Main/ThePerfectionist">The Perfectionist</a>: Amara is actually fairly successful at this, to the point that she's comfortable being a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SnarkKnight" title="/pmwiki/pmwiki.php/Main/SnarkKnight">Snark Knight</a>. Tying into the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CentralTheme" title="/pmwiki/pmwiki.php/Main/CentralTheme">Central Theme</a> of materialism, she tries to surround herself with only the most expensive and high-quality of items.<ul><li> Interestingly, her prized possession is a reminder of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyGreatestFailure" title="/pmwiki/pmwiki.php/Main/MyGreatestFailure">an instance where she slipped up</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">she used the metronome to maintain her rhythm during fencing practice, but accidentally damaged it with a botched thrust</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerspectiveFlip" title="/pmwiki/pmwiki.php/Main/PerspectiveFlip">Perspective Flip</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwiceToldTale" title="/pmwiki/pmwiki.php/Main/TwiceToldTale">Twice-Told Tale</a>: Most of Squeaker's stories are warped versions of fairy tales, often told from a different perspective or a different angle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingThePlayer" title="/pmwiki/pmwiki.php/Main/PlayingThePlayer">Playing the Player</a>: A video game is an interesting choice of medium for discussing the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CentralTheme" title="/pmwiki/pmwiki.php/Main/CentralTheme">Central Theme</a> of materialism, since most games condition players to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GottaCatchEmAll" title="/pmwiki/pmwiki.php/Main/GottaCatchEmAll">collect</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HundredPercentCompletion" title="/pmwiki/pmwiki.php/Main/HundredPercentCompletion">everything</a>. The gameplay elements play up this cognitive dissonance for all it's worth.<ul><li> A particular example of this: gaining an item results in a cheerful <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItemGet" title="/pmwiki/pmwiki.php/Main/ItemGet">Item Get!</a> jingle, while losing one results in a dispiriting sound effect, even when it's part of a scripted sequence. This makes many players have a kneejerk negative reaction to losing items, even when it makes perfect sense and is in fact the smarter option.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PressXToNotDie" title="/pmwiki/pmwiki.php/Main/PressXToNotDie">Press X to Not Die</a>: Every action in bouts, particularly techniques, involves using one quick time event to get a bonus. They sometimes pop up in cutscenes as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProductionForeshadowing" title="/pmwiki/pmwiki.php/Main/ProductionForeshadowing">Production Foreshadowing</a>:<ul><li> Squeaker's tale about a stone that confers the power to kill someone with a word will sound eerily familiar to anyone who has played Merlandese's later game <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/LastWord" title="/pmwiki/pmwiki.php/VideoGame/LastWord">Last Word</a></em>.</li><li> According to <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a>, the hungry caterpillar tale was also intended to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProductionForeshadowing" title="/pmwiki/pmwiki.php/Main/ProductionForeshadowing">Production Foreshadowing</a> for another story, but said story was canned, leaving it as something of a loose end.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheQuietOne" title="/pmwiki/pmwiki.php/Main/TheQuietOne">The Quiet One</a>: Masque, who communicates mostly in grunts and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisibleSilence" title="/pmwiki/pmwiki.php/Main/VisibleSilence">Visible Silences</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile">Subverted in that he can be quite the chatterbox when talking about a subject that interests him; it's just that he's rarely interested in talking about anything except masks.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedHerring" title="/pmwiki/pmwiki.php/Main/RedHerring">Red Herring</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Anastasia's bus accident</span> is suspicious as all get-out and Florentine spends most of the story assuming it has a connection to the central mystery, a paranoia that only gets more justified when she finds evidence that <span class="spoiler" title="you can set spoilers visible by default on your profile">FOIL kills its former members</span>. In the ending, however, the event is revealed to have been a legitimate coincidence, with no relation to the conspiracy.</li><li> There's also one in-universe for another character: <span class="spoiler" title="you can set spoilers visible by default on your profile">Kant assumed the judges were gunning for him because he hacked their computer, when in actuality they never figured this out and were motivated by something else he thought was irrelevant</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RevealingCoverup" title="/pmwiki/pmwiki.php/Main/RevealingCoverup">Revealing Cover-Up</a>: When <span class="spoiler" title="you can set spoilers visible by default on your profile">Junior</span> tries to deflect an investigation into the anonymous text messages, she does so by pinning it on <span class="spoiler" title="you can set spoilers visible by default on your profile">Le Neuvieme</span> &mdash; but <span class="spoiler" title="you can set spoilers visible by default on your profile">the messages are in English, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutOfCharacterAlert" title="/pmwiki/pmwiki.php/Main/OutOfCharacterAlert">Le Neuvieme only speaks French</a></span>. When Florentine figures out the fabrication, she realizes <span class="spoiler" title="you can set spoilers visible by default on your profile">Junior</span> must have been the real culprit &mdash; why frame someone else, otherwise?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfCool" title="/pmwiki/pmwiki.php/Main/RuleOfCool">Rule of Cool</a>: The bout system runs on this. If your technique is stylish enough, it doesn't matter if you technically lose the match; the judges will still name you the victor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>: Grams mispronouncing Florentine's name in increasingly creative ways. It's implied she may be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">doing it on purpose</a>; if she makes eggs for Florentine's special luncheon, she claims that she was suddenly inspired to make eggs Florentine that day and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">doesn't know where she could have gotten the idea</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SamusIsAGirl" title="/pmwiki/pmwiki.php/Main/SamusIsAGirl">Samus Is a Girl</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">"Junior", the Chateau's mechanic, only interacts with Florentine through a remote speaker for most of the story. Both the name and profession are coded male and so Florentine assumes she is male, leading to shock when Augustine shows up in person.</span><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Deconstructed" title="/pmwiki/pmwiki.php/Main/Deconstructed">Deconstructed</a> a little. Her father wanted a son, not a daughter, and named her "<span class="spoiler" title="you can set spoilers visible by default on your profile">Junior</span>" before she was even born in the hopes she would continue the family line. When he discovered his offspring was a girl, he was livid. The resulting neglect and disappointment likely skewed her psychological development and perception of gender roles in an unhealthy way, and may have influenced her decision to enter such a male-coded field in the first place. However, this is also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Reconstruction" title="/pmwiki/pmwiki.php/Main/Reconstruction">Reconstruction</a> in that her father learned to love her anyway.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchrodingersGun" title="/pmwiki/pmwiki.php/Main/SchrodingersGun">Schr&ouml;dinger's Gun</a>:<ul><li> There is one branch point (Tuesday afternoon) where both options have to merge afterwards, thus forcing both to be consistent with the overall storyline despite involving very different events. The result of this is that the two branches apparently occur in two slightly different universes, where prior events were different. If Florentine attends the meeting, the stated reason for <span class="spoiler" title="you can set spoilers visible by default on your profile">Kant's dismissal</span> is that <span class="spoiler" title="you can set spoilers visible by default on your profile">Roland kept his prized possession for over a week</span>, which is corroborated by <span class="spoiler" title="you can set spoilers visible by default on your profile">Roland giving you said prized possession after the meeting</span>. However, if she <span class="spoiler" title="you can set spoilers visible by default on your profile">follows Kant</span>, it will turn out that <span class="spoiler" title="you can set spoilers visible by default on your profile">he has his prized possession on him</span>, contradicting the historical events stated in the other branch.</li><li> Subverted in one conclusion. When Florentine confronts <span class="spoiler" title="you can set spoilers visible by default on your profile">Aunty</span> about <span class="spoiler" title="you can set spoilers visible by default on your profile">the nature of FOIL</span>, she will say something different depending on the personality traits you picked in the initial questionnaire. <span class="spoiler" title="you can set spoilers visible by default on your profile">Aunty</span> will confirm either, but <span class="spoiler" title="you can set spoilers visible by default on your profile">both are lies, and the true purpose of FOIL remains constant regardless of Florentine's assertion</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchrodingersQuestion" title="/pmwiki/pmwiki.php/Main/SchrodingersQuestion">Schr&ouml;dinger's Question</a>: There is one subplot (Nickel's) where answering the conclusion questions differently will still produce a correct answer but cause the nature of the mystery to change: it is possible for Nickel to be either <span class="spoiler" title="you can set spoilers visible by default on your profile">gambling</span> or <span class="spoiler" title="you can set spoilers visible by default on your profile">investing</span> depending on what you think <span class="spoiler" title="you can set spoilers visible by default on your profile">the number slips</span> mean.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScoringPoints" title="/pmwiki/pmwiki.php/Main/ScoringPoints">Scoring Points</a>: Used as an instance of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingThePlayer" title="/pmwiki/pmwiki.php/Main/PlayingThePlayer">Playing the Player</a>. The points are worthless and you only even see them at the end of the day, yet upon seeing the obvious gameplay mechanic many players feel an irrational urge to make the numbers go up regardless. Combined with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CentralTheme" title="/pmwiki/pmwiki.php/Main/CentralTheme">Central Theme</a> of obsession and hoarding, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouBastard" title="/pmwiki/pmwiki.php/Main/YouBastard">this can lead to some uncomfortable self-reflection.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SignatureInstrument" title="/pmwiki/pmwiki.php/Main/SignatureInstrument">Signature Instrument</a>: Florentine Blanc's prized possession is her flute.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmarterThanYouLook" title="/pmwiki/pmwiki.php/Main/SmarterThanYouLook">Smarter Than You Look</a>: Masque at first appears to be taciturn <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumbMuscle" title="/pmwiki/pmwiki.php/Main/DumbMuscle">Dumb Muscle</a>, but his text messages reveal that he is actually quite well-spoken when he has to be, and he is also skilled at investigation. <span class="spoiler" title="you can set spoilers visible by default on your profile">He also has an academic interest in masks and cultural history, probably enough to catapult him into full <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeniusBruiser" title="/pmwiki/pmwiki.php/Main/GeniusBruiser">Genius Bruiser</a> territory.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SnarkKnight" title="/pmwiki/pmwiki.php/Main/SnarkKnight">Snark Knight</a>: Amara, who strives for perfection with every action and belittles those who don't live up to her standards.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SomethingTheyWouldNeverSay" title="/pmwiki/pmwiki.php/Main/SomethingTheyWouldNeverSay">Something They Would Never Say</a>: Or rather, <em>literally can't</em> say. <span class="spoiler" title="you can set spoilers visible by default on your profile">Junior</span> tries to deflect blame for the anonymous text messages by pinning it on <span class="spoiler" title="you can set spoilers visible by default on your profile">Le Neuvieme</span> &mdash; but <span class="spoiler" title="you can set spoilers visible by default on your profile">the messages are in English, and Le Neuvieme only speaks French</span>. This allows Florentine to figure out the real culprit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoulJar" title="/pmwiki/pmwiki.php/Main/SoulJar">Soul Jar</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The judges believe prized possessions to be this if the attachment is great enough, which is why they kill members.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS" title="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS">Spell My Name with an "S"</a>: Some of the music tracks' names differ between the game's BGM folder and the Bandcamp OST.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StealthPun" title="/pmwiki/pmwiki.php/Main/StealthPun">Stealth Pun</a>: Grams' <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrademarkFavoriteFood" title="/pmwiki/pmwiki.php/Main/TrademarkFavoriteFood">Trademark Favorite Food</a> is ginger root. She also has a soft spot for redheads &mdash; also known as "gingers".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TalkToEveryone" title="/pmwiki/pmwiki.php/Main/TalkToEveryone">Talk to Everyone</a>: Multiple times. And examine everything too, while you're at it. This is a mystery game, after all; you're not going to get very far without gossip.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TownWithADarkSecret" title="/pmwiki/pmwiki.php/Main/TownWithADarkSecret">Town with a Dark Secret</a>: The Ch&acirc;teau de l'Hiver, FOIL's base of operations. From the bizarre decorations to the even more bizarre inhabitants, it quickly becomes clear that something's up, and Florentine endeavors to find out what.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrademarkFavoriteFood" title="/pmwiki/pmwiki.php/Main/TrademarkFavoriteFood">Trademark Favorite Food</a>: Grams <em>really</em> likes ginger, and by God <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalChef" title="/pmwiki/pmwiki.php/Main/LethalChef">so will you</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoiceGrunting" title="/pmwiki/pmwiki.php/Main/VoiceGrunting">Voice Grunting</a>: Characters have a variety of short lines and exclamations that they say at certain points, sometimes directly quoting the actual text and sometimes not.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WakeUpCallBoss" title="/pmwiki/pmwiki.php/Main/WakeUpCallBoss">Wake-Up Call Boss</a>:<ul><li> Roland tends to give players a lot of grief due to his unpredictable nature and weird techniques. You're supposed to beat him at his own game by racking up style points with Salute (Grams will help you out there), but as this is the player's first real foray into the combat system and most players will be used to a strategy of "hit it until it dies", most players don't grasp this in time.</li><li> The developer also describes Le Neuvieme, the next boss, as "the bane of [his] existence", likely for similar reasons &mdash; he's even more style-focused than Roland, and his dodging patterns are even more unpredictable.</li><li> Weirdly inverted by Masque, the next boss. You may have thought Le Neuvieme was preparing you for a difficult style-off, but Masque is actually not a style fighter, making him refreshingly straightforward and predictable.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamLine" title="/pmwiki/pmwiki.php/Main/WhamLine">Wham Line</a>: "<span class="spoiler" title="you can set spoilers visible by default on your profile">Etzer: Deceased</span>"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhereAreTheyNowEpilogue" title="/pmwiki/pmwiki.php/Main/WhereAreTheyNowEpilogue">"Where Are They Now?" Epilogue</a>: It's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ModularEpilogue" title="/pmwiki/pmwiki.php/Main/ModularEpilogue">modular</a>, though; you only see the snippets for individual characters if you've completed their subplot.</li></ul><p></p><hr><center><em>"We are, each of us, a collection of mistakes."</em></center>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/LastWord">Last Word</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Merlandese">Creator/Merlandese</a>
+</li>
+<li>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/DayshiftAtFreddys">Dayshift at Freddy's</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FreewareGames">Freeware Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/KaitouTenshiTwinAngel">Kaitou Tenshi Twin Angel</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/FateHollowAtaraxia">Fate/hollow ataraxia</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/LinearVisualNovel">Linear Visual Novel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/HarvestDecember">Harvest December</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/FleshBirds">Flesh Birds</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/WindowsGames">UsefulNotes/Windows Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/FlyN">Fly'N</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/FinallyInLoveAgain">Finally, in Love Again</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/Flowers2014">Flowers (2014)</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

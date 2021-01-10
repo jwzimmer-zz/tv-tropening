@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Scion (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Scion is a tabletop roleplaying game by White Wolf, though not one that takes place in either of that company's trademark Worlds of Darkness. Instead the &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Scion" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Scion (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Scion is a tabletop roleplaying game by White Wolf, though not one that takes place in either of that company's trademark Worlds of Darkness. Instead the &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/Scion.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Scion (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Scion" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/Scion.jpg" />
+<meta property="og:description" content="Scion is a tabletop roleplaying game by White Wolf, though not one that takes place in either of that company's trademark Worlds of Darkness. Instead the setting is the world as we know it, but there's one big difference: the various gods and &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/PastInTheRearViewMirror" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/VideoGame/SamuraiGunn" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Scion?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Scion">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Scion">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=TabletopGame&target_title=Scion">
+<i class="fa fa-star-half-o"></i> 1 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Scion">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Scion?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Scion" />
+<input type="hidden" id="article_id" value="317767" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Scion</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Scion
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Scion"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/Scion" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/Scion" class="subpage-link " title="The ComicBook page">
+<span class="wrapper"><span class="spi comicbook"></span>ComicBook</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Scion" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Scion" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/Scion" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Scion" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Scion?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Scion?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Scion?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Scion?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Scion?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Scion?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Scion?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Scion?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Scion?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Scion?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Scion?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Scion?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Scion?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Scion?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:250px;"><div class="lazy_load_img_box" style="padding-top:135.6%"><img src="https://static.tvtropes.org/pmwiki/pub/images/Scion.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/Scion.jpg" width="250" height="339"></div></div><div class="acaptionright" style="width:250px;"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TagLine" title="/pmwiki/pmwiki.php/Main/TagLine">Find your destiny. Live the myth. Embrace your fate.</a></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Scion</em> is a tabletop roleplaying game by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/WhiteWolf" title="/pmwiki/pmwiki.php/Creator/WhiteWolf">White Wolf</a>, though not one that takes place in either of that company's trademark <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness">Worlds of Darkness</a>. Instead the setting is the world as we know it, but there's one big difference: the various gods and goddesses of mankind's pagan pantheons really exist. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllMythsAreTrue" title="/pmwiki/pmwiki.php/Main/AllMythsAreTrue">The myths about them are true</a>, and they do walk the Earth in human guise, looking for men or women to mate with.</p><p>Player characters are the offspring of such unions, making them technically demigods, though in game terms they are referred to as Scions. They grew up unaware of their nonhuman heritage, until one day they received a visitation from their divine parent, and were told the truth about their origins.</p><p>Being a demigod sounds cool, but there is a catch: the Titans, ancient powerful entities, and your grandparents on the important side of the family, once vanquished and imprisoned by the gods, are breaking free, and a cosmic war has begun between the two. The characters must join the fight, and in the process grow in power until they too become gods in their own right.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Think of it as <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Exalted" title="/pmwiki/pmwiki.php/TabletopGame/Exalted">Exalted</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/JustForFun/XMeetsY" title="/pmwiki/pmwiki.php/JustForFun/XMeetsY">meets</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/AmericanGods" title="/pmwiki/pmwiki.php/Literature/AmericanGods">American Gods</a></em> or <em><a class="twikilink" href="/pmwiki/pmwiki.php/Comicbook/TheWickedAndTheDivine" title="/pmwiki/pmwiki.php/Comicbook/TheWickedAndTheDivine">The Wicked + The Divine</a></em>.</p><p>The rulebook (<em>Scion: Hero</em>) includes six possible pantheons to choose from, using the time-tested White Wolf concept of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RagtagBunchOfMisfits" title="/pmwiki/pmwiki.php/Main/RagtagBunchOfMisfits">making members of different groups team up into a motley crew</a>. They are: the Pesedjet (Egyptian), Dodekatheon (Greek), Aesir (Norse), Amatsukami (Japanese), Atzlanti (Aztec), and Loa (Voodoo). Additional pantheons include the Tuatha De Danann (Irish), the Celestial Bureaucracy (Chinese), and the Devas (Hindu) from <em>Scion Companion</em>, as well as nationalistic pantheons of America and the Allies in the same sourcebook for running games during <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII" title="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII">World War II</a>, and it's implied that yet more pantheons exist as well - there's a PDF covering the Yazata, the Persian pantheon (<em>Yazata: The Persian Gods</em>), as well as a supplement not available in English detailing the Gaulish pantheon; several fan-made pantheons can be found on the net as well. There is also the Atlantean pantheon, although they are canonically dead after having been corrupted by the Titans; details on the actual Pantheon and their Cosmology are in <em>Demigod</em>, while the Pantheon's original Virtues (Duty, Intellect, Order, Piety) and Purview (Scire) are in the Scion <em>Companion</em>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>At GenCon 2012, it was announced that Scion had been acquired outright by Onyx Path Publishing, a company set up to handle White Wolf's tabletop RPGs, and a new edition was planned.</p><p>2e changes things up, with the corebook, <em>Scion: Origin</em>, covering ordinary and supernaturally-touched mortals, including pre-visitation Scions, holy people of the pantheons, sorcerers and Fatebound mortals, along with minor supernaturals such as kitsune and satyrs. <em>Hero</em> 2e enables the creation of fully-fledged Scions, who now come in a number of types: being the child of a god, as in 1e; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreatingLife" title="/pmwiki/pmwiki.php/Main/CreatingLife">being directly created by a god</a>; being chosen by a god; and being the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Reincarnation" title="/pmwiki/pmwiki.php/Main/Reincarnation">reincarnation</a> of a dead hero or god. It also offers ten core pantheons, nine of which are revised from 1e - Netjer (Egyptian), Theoi (Greek), Aesir (Norse), Te&#333;tl (Aztec), Kami (Japanese), &Oacute;r&iacute;sh&aacute; (Yoruba; an ancestral pantheon of Voodoo's Loa), Tuatha d&eacute; Danann (Irish), Sh&eacute;n (Chinese) and Dev&aacute; (Hindu) - with the tenth being the Manitou (Native American Algonquin). Further pantheons are planned for later books, including Native Australian mythology.</p><p>The game's default setting has also received a major shakeup, with the assumption of a <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness">World of Darkness-like</a> state in which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Masquerade" title="/pmwiki/pmwiki.php/Main/Masquerade">the mythical is hidden away from the public</a> replaced with a more in-depth look at the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistory" title="/pmwiki/pmwiki.php/Main/AlternateHistory">realistic implications of powerful gods and monsters existing throughout and influencing history</a>, both openly and behind the scenes. The modern-day World is one where pagan religions are popular and accepted, and where the mythical hides in plain sight, with tengu nests among Japan's skyscrapers and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MemeticMutation" title="/pmwiki/pmwiki.php/Main/MemeticMutation">Norwegian government troll preserves</a>.</p><p>A <a class="urllink" href="https://www.kickstarter.com/projects/200664283/scion-2nd-edition-tabletop-rpg">Kickstarter campaign<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to get 2e <em>Origin</em> and <em>Hero</em> into stores launched in late September 2016. It was fully funded in less than an hour and by its end had exceeded its original goal by over $300,000. Completed stretch goals enabled, among other things, introductory fiction by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/KieronGillen" title="/pmwiki/pmwiki.php/Creator/KieronGillen">Kieron Gillen</a>, the game's license being opened up to fans and other companies, and the creation of a 2e <em>Companion</em> featuring the Loa (Vodou), Nemetondevos (Gaulish), and Yazata (Persian), with 1e's Atlantean pantheon being used as the example for building your own pantheon, reimagined in terms of <em><a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/NewGods" title="/pmwiki/pmwiki.php/ComicBook/NewGods">New Gods</a></em>-style divine technology. The second edition was officially released on June 5, 2019. A <a class="urllink" href="https://www.kickstarter.com/projects/200664283/scion-demigod-book-3-for-the-scion-second-edition-rpg">campaign<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> for 2e <em>Demigod</em> was held in September 2020, with the book's pantheons including the Anunna (Mesopotamian), Apu (Incan), Atua (Polynesian), Bogovi (Slavic), and Tengri (Mongolian).</p><p><a class="twikilink" href="/pmwiki/pmwiki.php/Characters/Scion" title="/pmwiki/pmwiki.php/Characters/Scion">Has a characters page.</a></p><p>Not to be confused with the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TombRaider" title="/pmwiki/pmwiki.php/Franchise/TombRaider">Tomb Raider</a> artifact, the Toyota car, or the <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/CrossGen" title="/pmwiki/pmwiki.php/Creator/CrossGen">CrossGen</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Comicbook/Scion" title="/pmwiki/pmwiki.php/Comicbook/Scion">comic</a>.</p><p></p><hr><h2>This game features examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a>: The first act of "Ragnarok" <span class="spoiler" title="you can set spoilers visible by default on your profile"> has the Earth being hit by a massive asteroid that brings about the end of civilization. The protagonists are safe from the brunt of the damage by virtue of being at Alfheim at the time of the impact, but the Midgard they return to is a bitter, violent post apocalyptic wasteland terrorized by jotuns as well as bandits, in the grip of the prophesied Fimbulwinter.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllJapaneseSwordsAreKatanas" title="/pmwiki/pmwiki.php/Main/AllJapaneseSwordsAreKatanas">All Japanese Swords Are Katanas</a>: Averted. One of the template characters is a daughter of Susano-o who fights with the legendary sword Kusanagi, which is <em>not</em> a katana.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllMythsAreTrue" title="/pmwiki/pmwiki.php/Main/AllMythsAreTrue">All Myths Are True</a>: Literally - in fact characters get to meet just about every mythical figure out there. But, to paraphrase <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Gargoyles" title="/pmwiki/pmwiki.php/WesternAnimation/Gargoyles">Gargoyles</a></em>, few myths are <em>accurate</em>: Daedalus did not <em>make</em> the Labyrinth, Hermod and Vali aren't gods <em>yet</em>, and other little altered tidbits (like who Thokk <em>really</em> is, for instance...).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateContinuity" title="/pmwiki/pmwiki.php/Main/AlternateContinuity">Alternate Continuity</a>: First and second editions, with 2e helpfully providing a translation guide in the Companion for those who want to convert over.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistory" title="/pmwiki/pmwiki.php/Main/AlternateHistory">Alternate History</a>: One of the biggest thematic changes in the 2nd edition was to replace the implied yet poorly implemented <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Masquerade" title="/pmwiki/pmwiki.php/Main/Masquerade">Masquerade</a> of the first one with an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UrbanFantasy" title="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a> setting in which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy" title="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy">the gods have been involved in human history</a>, such as the Knights Templar aiming to wipe out pantheistic worship during the Crusades and Julius Caesar conquering Gaul to eliminate the Gaulish pantheon and secure his own apotheosis. By default, divine meddling in history isn't public knowledge, but the setting can be customized to suit taste.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazonBrigade" title="/pmwiki/pmwiki.php/Main/AmazonBrigade">Amazon Brigade</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Amazon Followers</a>, who only accept <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionGirl" title="/pmwiki/pmwiki.php/Main/ActionGirl">female Scions</a> as leaders, are this. It's also possible for PCs to have an all female entourage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazonianBeauty" title="/pmwiki/pmwiki.php/Main/AmazonianBeauty">Amazonian Beauty</a>: The <em>Amazons</em>, of course. Any brawny lady Scion that has a decent Appearance stat classifies as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AMythologyIsTrue" title="/pmwiki/pmwiki.php/Main/AMythologyIsTrue">A Mythology Is True</a>: The campaign of <em>Ragnarok</em> assumes a setting in which only Norse mythology is true.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiVillain" title="/pmwiki/pmwiki.php/Main/AntiVillain">Anti-Villain</a>:<ul><li> Out of the six sample "evil" Scions in first edition, only two - <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Kane Taoka</a> and Seth Farrow - are truly nasty. Sly's a pawn, Orlanda's a victim of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveMakesYouEvil" title="/pmwiki/pmwiki.php/Main/LoveMakesYouEvil">Love Makes You Evil</a>, Marie's just egotistical (and pulls a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a> in <em>God</em>), and Victor's just following orders (he <em>is</em> a soldier).</li><li> 1e <em>God</em> also offers another group of antagonists, the "Keepers of The World", a group of gods who are pissed at their pantheons and want to separate the mortal world from other realms. None of them are truly evil (unless the Storyteller takes the suggestion to have one of them turn to the Titans, and even then <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMole" title="/pmwiki/pmwiki.php/Main/TheMole">The Mole</a> is most likely a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WoobieDestroyerOfWorlds" title="/pmwiki/pmwiki.php/Main/WoobieDestroyerOfWorlds">Woobie, Destroyer of Worlds</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>), and considering their background story, their goal is rather justified.</li><li> The <a class="urllink" href="https://en.wikipedia.org/wiki/Madame_White_Snake">White Snake<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, from the 1e <em>Companion</em>, who strove to prove she could be a person rather than a supernatural beast, fought to save her mortal husband's life... and ended up getting imprisoned for several centuries. Consequently, driven by her intense loyalty, she wants revenge on the Celestial Bureaucracy.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmyOfTheAges" title="/pmwiki/pmwiki.php/Main/ArmyOfTheAges">Army of the Ages</a>:<ul><li> The <a class="urllink" href="http://en.wikipedia.org/wiki/Einherjar">Einherjar<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> warriors that show up in modern times come from the 18th century through the mid-1970s, outfitted in whatever gear they had on them when they "died".</li><li> Also the Anau&#154;a (from the 1e <em>Companion</em>), who come from any royal guard or army that tied itself to the reputation of the Persian Immortals, from the classical era up through the 1970s.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedExtra" title="/pmwiki/pmwiki.php/Main/AscendedExtra">Ascended Extra</a>: Quite literally&mdash;Xochiquetzal was first introduced in <em>Scion: Extras</em> as one of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JokeCharacter" title="/pmwiki/pmwiki.php/Main/JokeCharacter">joke gods</a>, and was promoted to a full-time member of the Te&#333;tl in 2E.<span class="notelabel" onclick="togglenote('note038y5');"><sup>note&nbsp;</sup></span><span id="note038y5" class="inlinefolder" isnote="true" onclick="togglenote('note038y5');" style="cursor:pointer;font-size:smaller;display:none;">Notably, she is the only <em>Extras</em>-introduced god to do so.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedMeme" title="/pmwiki/pmwiki.php/Main/AscendedMeme">Ascended Meme</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, the principles of Deific Fatebinding are basically this. In short, what humans believe about their gods can literally become reality, as Fate reshapes Gods to fulfill the expectations of Humans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackOfTheFiftyFootWhatever" title="/pmwiki/pmwiki.php/Main/AttackOfTheFiftyFootWhatever">Attack of the 50-Foot Whatever</a>:<ul><li> A common type of Titanspawn foe faced by Scions are Nemean animals; regular animals infused with the power of Titans and grown to massive sizes, maybe twice or even ten times as big and with supernally tough hides. They can be any mundane animal, from the iconic lions to hogs, worms or sharks, and if killed, their hides can be skinned and forged into equally-tough armor for Scions. And then there are Typhonian animals, which can be <em>hundreds</em> of times bigger and be a comparable threat to the gods.</li><li> And then there are giants. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurGiantsAreBigger" title="/pmwiki/pmwiki.php/Main/OurGiantsAreBigger">All kinds of giants: frost, fire, cyclops, oni, Daidara-bocchi...</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>: Simon Telamon, who was introduced in the 1e <em>Companion</em> as a Guide Birthright. He's just a mortal, but is too good a soldier to be a simple Follower. The only thing unusual about him is that he's the reincarnation of a mortal hero, <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/ClassicalMythology" title="/pmwiki/pmwiki.php/Myth/ClassicalMythology">Telamonian Ajax</a>. For bonus points, he pulls a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigDamnHero" title="/pmwiki/pmwiki.php/Main/BigDamnHero">Big Damn Hero</a> and rescues Tommy and Yukiko from a banshee in a short story. There is also a note that reincarnations of other ostensibly mortal people of great resolve would be like this, such as <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AlexanderTheGreat" title="/pmwiki/pmwiki.php/UsefulNotes/AlexanderTheGreat">Alexander the Great</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/RomanceOfTheThreeKingdoms" title="/pmwiki/pmwiki.php/Literature/RomanceOfTheThreeKingdoms">Cao Cao</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/JohnFKennedy" title="/pmwiki/pmwiki.php/UsefulNotes/JohnFKennedy">JFK</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy" title="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy">Beethoven Was an Alien Spy</a>: Hitler's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpearOfDestiny" title="/pmwiki/pmwiki.php/Main/SpearOfDestiny">Spear of Destiny</a> was actually Odin's spear Gungnir, given him by <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagnificentBastard" title="/pmwiki/pmwiki.php/Main/MagnificentBastard">Loki</a> in the alternate setting set out in chapter six of the 1e Companion. Lady Liberty, Br'er Rabbit, Uncle Sam, Robin Hood, Britannia, d'Artagnan, Baba Yaga and sundry others are all gods. The French, Russian and British ones work together out of the need to fight the Germans whereas the American ones are a different Pantheon.<ul><li> In addition, Beowulf was a Scion of Freya, whose "death" was, in reality, his ascension to godhood. And Hern&aacute;n Cort&eacute;s? Turns out the Aztecs didn't think he was Quetzalco&aacute;tl returned, because they'd learned from Quetzalco&aacute;tl that Cort&eacute;s was his son. Cort&eacute;s, understandably, did not take it well when Quetzalco&aacute;tl finally revealed himself to him, resulting in his immensely conflicted behavior towards the Aztec people afterwards.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">BFG</a>: Giantbane, the huge revolver that's the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaponOfChoice" title="/pmwiki/pmwiki.php/Main/WeaponOfChoice">Weapon of Choice</a> of pregen character Eric Donner (both editions), "with a barrel as long and as thick around as the forearm of the Scion who wields it."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoringButPractical" title="/pmwiki/pmwiki.php/Main/BoringButPractical">Boring, but Practical</a>: The Greek pantheon's first edition purview of Arete just grants bonus dice instead of awesome abilities, but damn if those dice don't come in handy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CainAndAbel" title="/pmwiki/pmwiki.php/Main/CainAndAbel">Cain and Abel</a>: Ironically, <em>not</em> Kane, but his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDragon" title="/pmwiki/pmwiki.php/Main/TheDragon">lieutenant</a> Seth Farrow, who killed his brother Cyrus out of jealousy and made himself the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArchEnemy" title="/pmwiki/pmwiki.php/Main/ArchEnemy">Archenemy</a> of his nephew Horace.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelestialBureaucracy" title="/pmwiki/pmwiki.php/Main/CelestialBureaucracy">Celestial Bureaucracy</a>: Loaded, especially the <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/ChineseMythology" title="/pmwiki/pmwiki.php/Myth/ChineseMythology">Shen</a>, who are called the Celestial Bureaucracy in 1e <em>Companion</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChosenOne" title="/pmwiki/pmwiki.php/Main/TheChosenOne">The Chosen One</a>: An alternative origin in 2e. Instead of being a god's biological offspring, a PC can be someone chosen by a god to act as their envoy. A narrative difference rather than a mechanical one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChunkySalsaRule" title="/pmwiki/pmwiki.php/Main/ChunkySalsaRule">Chunky Salsa Rule</a>: Ultimate Strength or Avatar Boons throw away the dice - if you hit someone, and they don't have an equivalent power to call on, they die.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptChurch" title="/pmwiki/pmwiki.php/Main/CorruptChurch">Corrupt Church</a>:<ul><li> Monotheism as a religious concept is portrayed this way in first edition, born of a Titan-worshipping servant of Akhetaten's attempts to try and use Deific Fatebinding to destroy the Gods. However, even if this is the true secret origin of Judaism, Christianity and Islam, it's emphatically stated that they don't <em>know that</em> - even the Order of Divine Glory, the true secret cult at the heart of things, is not only regarded by the mainstream churches as just a particularly eccentric group of missionaries, but actually believes its own doctrine, to the point it's noted it would probably execute its own inner circle as heretics for admitting that there really are other Gods besides God Himself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality">On the other hand</a>, Aten is explicitly stated to be more of a <em>corruption</em> of monothestic belief into arrogance more than anything, and the Order's success would lead to the end of destructive divine rivalries. That, and the Order deliberately selects for people in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SaintlyChurch" title="/pmwiki/pmwiki.php/Main/SaintlyChurch">Saintly Church</a> mode of things - both characters shown are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActualPacifist" title="/pmwiki/pmwiki.php/Main/ActualPacifist">Actual Pacifists</a> who genuinely want to better the world.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoversAlwaysLie" title="/pmwiki/pmwiki.php/Main/CoversAlwaysLie">Covers Always Lie</a>: Well, maybe not always, but the Yazata cover certainly does when it boldly declares that the book contains "new Knacks!" The only new Knack is Easy Rider, which is NPC-only (all it does is negate any Dexterity penalties that the Horsemen would have taken from being half-motorcycle).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrossoverCosmology" title="/pmwiki/pmwiki.php/Main/CrossoverCosmology">Crossover Cosmology</a>:<ul><li> Inherent in the very premise. First edition's rulebook has the pantheons of six different cultures. 1e <em>Companion</em> adds three more and hints of other pantheons in the distance.</li><li> As well as one in a PDF supplement and one in a supplement released (so far) <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoExportForYou" title="/pmwiki/pmwiki.php/Main/NoExportForYou">only in French</a>. Not to mention all the fan-produced writeups.</li><li> Second edition has ten pantheons in <em>Hero</em>, three more in the Companion<span class="notelabel" onclick="togglenote('note1n7xv');"><sup>note&nbsp;</sup></span><span id="note1n7xv" class="inlinefolder" isnote="true" onclick="togglenote('note1n7xv');" style="cursor:pointer;font-size:smaller;display:none;">though one is a sub-pantheon</span>, and five more in <em>Demigod</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsEvil" title="/pmwiki/pmwiki.php/Main/DarkIsEvil">Dark Is Evil</a>: Soku-no-Kumi. However, it more embodies fear and concealment than actual light-absence darkness - even if you have powers that let you see in the dark, you <em>still</em> can't see in Soku-no-Kumi.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsNotEvil" title="/pmwiki/pmwiki.php/Main/DarkIsNotEvil">Dark Is Not Evil</a>:<ul><li> A given <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a> may be the child of one or the other death gods if the player so chooses, which will make him/her pretty dark, but not evil.</li><li> Well not necessarily evil. However since many of the gods are not especially kind (as a rule), and the concept appeals to many players who wish to play an evil character, evil Scions of a Death God are not uncommon. And if both general disposition of the player and general disposition of the character fail to make a Death God evil, it's not totally unlikely that Fate will try to force a god to become evil. It's also worth noting that you can become an actual God of Darkness, who may or may not be evil.</li><li> It's also worth noting that the majority of evil crap that happens in the official setting is not instigated by Death Gods, but by Trickster Gods (particularly Loki) and the Titans (who are just as likely to be examples of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsNotGood" title="/pmwiki/pmwiki.php/Main/LightIsNotGood">Light Is Not Good</a>).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepletedPhlebotinumShells" title="/pmwiki/pmwiki.php/Main/DepletedPhlebotinumShells">Depleted Phlebotinum Shells</a>: Certain first edition boons (specifically Fire 4: Flamin' Bullets, Sky 6: Levin Fury, and Sun 4: Flare Missile) allow a player to use the elements themselves as projectiles for ranged weapons. In addition, relic weapons can be supernaturally enhanced (with increased accuracy, responsiveness, and stopping power).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusExMachina" title="/pmwiki/pmwiki.php/Main/DeusExMachina">Deus ex Machina</a>:<ul><li> Weaponized in the Magic purview. Played with in that Fate can intervene in any way it sees fit (whether the drowning Scion is saved by a pod of dolphins or a mortal Boy Scout)</li><li> And it comes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerAtAPrice" title="/pmwiki/pmwiki.php/Main/PowerAtAPrice">with a price</a> - invoking Fate in this manner results in a Fatebinding, and always a pretty strong one.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DevilButNoGod" title="/pmwiki/pmwiki.php/Main/DevilButNoGod">Devil, but No God</a>:<ul><li> In first edition, the various Gods and Titans are all eventually killable making them simply more powerful forms of mortal life. There is a Titan imitating God, but God as a Supreme Being and Creator of All does not appear. The closest you get is Fate itself, but that is controlled by mortals. There are a fair number of beings that appear to be Christian but are actually divine identity hijackers (which is an easy way of gaining legend and power). There is mention that Jehovah actually existed but promptly disappeared and was replaced by Aten <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodIsEvil" title="/pmwiki/pmwiki.php/Main/GodIsEvil">who is a frickin Titan</a>. Pan has taken on the role of Lucifer and because of fatebinding actually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkSide" title="/pmwiki/pmwiki.php/Main/TheDarkSide">BECAME demonic</a>. Then again, it's not as if <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDevil" title="/pmwiki/pmwiki.php/Main/TheDevil">The Devil</a> is present in the setting either.</li><li> The 1e <em>Companion</em> reveals that the Abrahamic God does not exist - anymore, at least, and if he ever lived he was a normal God. Aten hijacked his image as part of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/XanatosGambit" title="/pmwiki/pmwiki.php/Main/XanatosGambit">Xanatos Gambit</a> that spectacularly backfired when the Order of Divine Glory developed an ideology anathema to the Titan. He may someday, though, if the Order has its way...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDividual" title="/pmwiki/pmwiki.php/Main/TheDividual">The Dividual</a>: In 2E, some gods are packaged into a duo, such as <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/AztecMythology" title="/pmwiki/pmwiki.php/Myth/AztecMythology">Chicomecoatl and Centeotl</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/CelticMythology" title="/pmwiki/pmwiki.php/Myth/CelticMythology">Nehalennia and Nodens</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Voudoun" title="/pmwiki/pmwiki.php/UsefulNotes/Voudoun">the Barons</a> (who are a <em>Tri</em>vidual). There's very little mechanical differences between one or the other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DivineChessboard" title="/pmwiki/pmwiki.php/Main/DivineChessboard">Divine Chessboard</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DivineConflict" title="/pmwiki/pmwiki.php/Main/DivineConflict">Divine Conflict</a>: The basic concept - primarily between the pantheons and the Titans, but also within and between the pantheons as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DivineParentage" title="/pmwiki/pmwiki.php/Main/DivineParentage">Divine Parentage</a>: Every single player character. It's kinda the point, after all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoesNotLikeMen" title="/pmwiki/pmwiki.php/Main/DoesNotLikeMen">Does Not Like Men</a>: Amazons, available as antagonists or Followers (only for female Scions) are described in the 1e Hero book as "bisexual misandrists." They view men, even male Scions, as <em>at best</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">temporary allies against a great threat</a>, and more typically as just glorified sperm donors to help make more Amazons. This might be a one-night stand or becoming a full-blown <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreedingSlave" title="/pmwiki/pmwiki.php/Main/BreedingSlave">Breeding Slave</a>, pumping babies into as many Amazons as possible before the poor guy's virility is worn out. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DistractedByTheSexy" title="/pmwiki/pmwiki.php/Main/DistractedByTheSexy">Some don't consider this to be that bad a fate, though.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoomMagnet" title="/pmwiki/pmwiki.php/Main/DoomMagnet">Doom Magnet</a>: Fate sees to it that Scions are never bored. Bad things constantly happen around them. Given their power level, they can deal with it, but still, it's got to get annoying/scary/hideously depressing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a>:<ul><li> The Titans. They not only are free of any human shaping, making them <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouCannotGraspTheTrueForm" title="/pmwiki/pmwiki.php/Main/YouCannotGraspTheTrueForm">hard for the human mind to comprehend</a>, but they also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityWarper" title="/pmwiki/pmwiki.php/Main/RealityWarper">shape reality simply by existing</a>. The one that most stands out, however, is Hundun - Chaos. Unlike other Titans, it can't be defined in any way. Canonically, it is one of two Greater Titans that never got imprisoned nor submitted to the gods. The other was Vritra, Titan of Drought, but while Vritra avoided imprisonment by shrinking until they couldn't find it, Hundun simply can't be imprisoned. Fortunately, it can't define <em>itself</em>, so it's not very proactive and doesn't have Avatars like the other Titans.</li><li> <em>Un</em>fortunately, that doesn't mean good things for its pantheon adversary, the <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/ChineseMythology" title="/pmwiki/pmwiki.php/Myth/ChineseMythology">Chinese</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelestialBureaucracy" title="/pmwiki/pmwiki.php/Main/CelestialBureaucracy">Celestial Bureaucracy</a>, who'd easily crush a well-defined enemy with a well-organized force - if there was something definite to organize against.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchLocation" title="/pmwiki/pmwiki.php/Main/EldritchLocation">Eldritch Location</a>: Terra Incognita (Anea, Horai, etc.) are Earthly locales that are literally impossible to reach if you don't have Legend, since they are fundamentally an Important Place in folklore. Then there are Touchstones, which are the Overworld embodiment of Important <em>Types</em> of Places, like the Great Hall. Most of these are of human origin, but a few are embodiments of "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/HereThereBeDragons" title="/pmwiki/pmwiki.php/Main/HereThereBeDragons">the wild places</a>", and thus focuses for the Titans' chthonic power. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">If you plan to visit, bring supplies</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalPlane" title="/pmwiki/pmwiki.php/Main/ElementalPlane">Elemental Plane</a>: All of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification" title="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification">Greater</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurTitansAreDifferent" title="/pmwiki/pmwiki.php/Main/OurTitansAreDifferent">Titans</a> seen as of yet. Of those that haven't been, it's safe to assume that the vast majority also are.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">The End of the World as We Know It</a>: If the Titans win, mankind's done for.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards" title="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards">Even Evil Has Standards</a>:<ul><li> The 1e <em>Companion</em> takes pains to note that, though Loki did arrange the rise of Hitler in Germany as part of his plan to avert Ragnarok, he had no knowledge whatsoever of the Holocaust, and (along with the rest of the Aesir) takes great pains to punish those responsible, even in death.</li><li> This is explicitly the difference between evil gods and the Titans, on some level all the gods care about mortals and the World. Even the most bloodthirsty of the Aztec pantheon does not indulge in mass slaughter just <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">For the Evulz</a> and even Loki, as malevolent as he is, draws the line somewhere. For example while Loki just wants to survive Ragnarok and preferably get ultimate power along the way, Surtur on the other hand wants to burn the World to ash. And Surtur is hardly alone among the Titan avatars in wanting genocide, making the World uninhabitable or both.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverybodyHatesHades" title="/pmwiki/pmwiki.php/Main/EverybodyHatesHades">Everybody Hates Hades</a>:<ul><li> Averted - Hades is probably the god with the least amount of issues in his pantheon (though he's not happy about the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlutoIsExpendable" title="/pmwiki/pmwiki.php/Main/PlutoIsExpendable">ex-planet Pluto</a>'s demotion). The other death gods largely get a fair shake as well.</li><li> About the only major exception is Miclantecuhtli of the Atzlanti, who is pretty much a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkAss" title="/pmwiki/pmwiki.php/Main/JerkAss">Jerkass</a> - 1e <em>Hero</em> describes him as "suffering a permanent case of schadenfreude". Then again, with the possible exceptions of Quetzalco&aacute;tl and Tlazolteotl<span class="notelabel" onclick="togglenote('note2u3vh');"><sup>note&nbsp;</sup></span><span id="note2u3vh" class="inlinefolder" isnote="true" onclick="togglenote('note2u3vh');" style="cursor:pointer;font-size:smaller;display:none;">And she's a goddess of <em>shit</em></span>, none of the Atzlanti are really portrayed in a flattering light. This extends to the Scions; of the four official examples, one is a psychotic self-mutilator, one is a male-to-female transsexual who uses the flayed skin of a woman to change sexes, one is a self-hating <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathSeeker" title="/pmwiki/pmwiki.php/Main/DeathSeeker">Death Seeker</a>, and the other, after ascending to godhood, is pretty much disgusted with his own pantheon.<ul><li> And even that's averted in 2e, which paints Miclantecuhtli&mdash;and the Te&#333;tl as a whole&mdash;in a much better light.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCannotComprehendGood" title="/pmwiki/pmwiki.php/Main/EvilCannotComprehendGood">Evil Cannot Comprehend Good</a>: Greater Titans are so unable to comprehend <em>anything</em> - least of all why their children, the Gods, are so interested in saving the World - that they had to create avatars to even start getting it. And the avatars <em>still</em> don't understand all of it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilVirtues" title="/pmwiki/pmwiki.php/Main/EvilVirtues">Evil Virtues</a>: <em>Almost</em> literally named. Unlike the other gods and Scions, who have Virtues such as Honor, Expression, Duty, etc., titanspawn and the Titans have Dark Virtues - <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbitionIsEvil" title="/pmwiki/pmwiki.php/Main/AmbitionIsEvil">Ambition</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePowerOfHate" title="/pmwiki/pmwiki.php/Main/ThePowerOfHate">Malice</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Greed" title="/pmwiki/pmwiki.php/Main/Greed">Rapacity</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOnlyRighteousIndexOfFanatics" title="/pmwiki/pmwiki.php/Main/TheOnlyRighteousIndexOfFanatics">Zealotry</a> (in 1e) and Fecundity, Rapacity, Dominance, and Submission (in 2e).</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FingerPokeOfDoom" title="/pmwiki/pmwiki.php/Main/FingerPokeOfDoom">Finger Poke of Doom</a>: The "Making It Look Easy" and "One-Inch Punch" knacks for Epic Strength are all about this, in different ways. Making It Look Easy lets you perform feats of strength without appearing to break a sweat, while One-Inch Punch lets you deliver full-impact blows regardless of how little you move.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenderBender" title="/pmwiki/pmwiki.php/Main/GenderBender">Gender Bender</a>: The Epic Appearance Knack "Undeniable Resemblance" lets Gods (and Scions, and Titanspawn) pull this off. They are even fertile in their new form, allowing former-women to impregnate other women and former-men to bear children.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Ghostapo" title="/pmwiki/pmwiki.php/Main/Ghostapo">Ghostapo</a>: In first edition, both the Allied and Axis forces were using Scions and divine power in World War II, which was known as the Axis War by the gods (due to the fact that they were trying to conquer one another's Axes Mundi while mortals fought over the world).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Glamour" title="/pmwiki/pmwiki.php/Main/Glamour">Glamour</a>: With high enough Appearance and Charisma.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlorifiedSpermDonor" title="/pmwiki/pmwiki.php/Main/GlorifiedSpermDonor">Glorified Sperm Donor</a>:<ul><li> Scion reactions to learning they have divine parentage are... mixed. Among 1e's sample characters, Kane actively hates his divine mother and Donnie is disgusted with his, while the others tend to be more "I wish they'd respect me more, but eh."</li><li> Sun Wukong takes this to extremes. Most of his kids are the results of one night stands that he never even intended to make a scion from. So when someone mentions "Hey, this kid's chi really feels like yours...." he ends up hastily slapping together some relics and sends them on their merry way.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodIsEvil" title="/pmwiki/pmwiki.php/Main/GodIsEvil">God Is Evil</a>:<ul><li> In first edition, the closest thing to the Abrahamic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/God" title="/pmwiki/pmwiki.php/Main/God">God</a> to be found in the setting is Akhetaten, the Titan of Light, and it would appear that anything genuinely good to be found in the Judeo-Christian-Islamic religions stems from <em>misinterpretation</em> of his attempts to rule everything.</li><li> ... assuming that the actual Abrahamic deity was not in fact <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodIsDead" title="/pmwiki/pmwiki.php/Main/GodIsDead">replaced by Aten millennia ago</a>, as is hinted at. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">Hands</a>, for instance, are explicitly stated to not be real angels, but Titanspawn Aten deliberately made in their image.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AGodIsYou" title="/pmwiki/pmwiki.php/Main/AGodIsYou">A God Is You</a>: Once you reach Legend 9. The character gets automatic upgrades to all Epic physical stats and Epic Appearance, they gain the ability to create avatars, the Boons they have access to jump in power significantly, and that's in addition to all the power they had as a Demigod.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodsHandsAreTied" title="/pmwiki/pmwiki.php/Main/GodsHandsAreTied">God's Hands Are Tied</a>: There is a good reason gods no longer openly manifest themselves to humans, and in fact shun worship. It ties them up to Fate, and they don't like it. Except for the Devas, who seem to accept it, possibly in return for the fact that, as the pantheon with the largest extant worshiper base, they have greater power.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGodsMustBeLazy" title="/pmwiki/pmwiki.php/Main/TheGodsMustBeLazy">The Gods Must Be Lazy</a>: They do tend to leave their children to sort things out on their own. And justified; it's stated in 1e's God that the Gods have their hands full holding the Titans at bay in the Overworld, and just performing the Visitations for their new Scions is risky both because the Gods have to power down and become weaker to enter the World without incurring Fate's unwanted and undivided attention, making them vulnerable to Titanspawn, and because it takes them away from the main front of the war that is implied not to be going well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodIsNotNice" title="/pmwiki/pmwiki.php/Main/GoodIsNotNice">Good Is Not Nice</a>: The Atzl&aacute;nti are described this way in the introduction to their section in the 1e core book:<div class="indent">[Even] if the other Gods deplore <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">the Aztec Gods' methods</a>, they cannot deny that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTrainsRunOnTime" title="/pmwiki/pmwiki.php/Main/TheTrainsRunOnTime">at least the calendar proceeds in its usual and expected way</a>.</div><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownplayedTrope" title="/pmwiki/pmwiki.php/Main/DownplayedTrope">Downplayed</a> in 2e. The Te&#333;tl are reworked to be far more altruistic, and their signature Purview is about <em>repaying</em> their sacrifices. They're still not <em>nice</em>, but compared to 1e, it's more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold" title="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold">Jerk with a Heart of Gold</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodParents" title="/pmwiki/pmwiki.php/Main/GoodParents">Good Parents</a>: By comparison to a lot of the other Gods, Baron Samedi. He tends to be a part of his kids' lives growing up and ensures his Scions follow him in the family business.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsAreWorthless" title="/pmwiki/pmwiki.php/Main/GunsAreWorthless">Guns Are Worthless</a>: By accident or by design, 1e's official ruleset seems weighted against Scions who wish to use modern weapons. Firearms are the only weapons that don't get stronger with high attributes, making them extremely weak in Demigod and higher. For some reason Bows and even Crossbows DO get a strength-bonus though. There are numerous fan-created Knacks and house-rules that ameliorate this, but there was never an official solution.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a>: Titanspawn can officially cross over from the side of the Titans to the side of the Gods. Not only are multiple examples of this given, but actual rules for helping to "convert" a Titanspawn are given in the <em>Ragnarok</em> sourcebook.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicLineage" title="/pmwiki/pmwiki.php/Main/HeroicLineage">Heroic Lineage</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/InTheBlood" title="/pmwiki/pmwiki.php/Main/InTheBlood">In the Blood</a>: In first edition, Scions are expected to take after their divine parents in personality as well as ability, with the writeup for each god going into specifics. Since those specifics are intended for presumably-heroic player characters, the former trope is more likely to be played up than the latter. For instance, Scions of <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/EgyptianMythology" title="/pmwiki/pmwiki.php/Myth/EgyptianMythology">Set</a> are known for doing <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyBusiness" title="/pmwiki/pmwiki.php/Main/DirtyBusiness">Dirty Business</a>, Scions of <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/AztecMythology" title="/pmwiki/pmwiki.php/Myth/AztecMythology">Tezcatlipoca</a> stir up controversy for a cause, and Scions of <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Voudoun" title="/pmwiki/pmwiki.php/UsefulNotes/Voudoun">Kalfu</a> are likely to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToVillainy" title="/pmwiki/pmwiki.php/Main/DrivenToVillainy">Driven to Villainy</a> troublemakers more than actually malicious. Those fathered by Caligula, who's detailed in the WWII supplement as the reason the Greek Gods are supporting the Axis, on the other hand, are just terrible people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HollywoodVoodoo" title="/pmwiki/pmwiki.php/Main/HollywoodVoodoo">Hollywood Voodoo</a>: The line takes great pains to avert it as far as the Loa are presented. Sure, there's a bit on Baron Samedi and zombies - but then, there's also quite a bit on Damballah, Erzulie, Ogoun, Legba...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomosexualReproduction" title="/pmwiki/pmwiki.php/Main/HomosexualReproduction">Homosexual Reproduction</a>: The sample Scion of Kali, Annie X, is revealed to have been created when Kali took on a male form and impregnated her mortal mother. So far, she remains unique in the sample Scions to have originated that way, but theoretically any God or Goddess with the right focus on Epic Appearance could do so. Loki, for obvious reasons, is an excellent candidate for having done this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>: The Colossi. Also the "true form" of Surtr's fortress in Muspelheim.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsAllAboutMe" title="/pmwiki/pmwiki.php/Main/ItsAllAboutMe">It's All About Me</a>: Effectively <em>weaponized</em> by Aten, whose egotism is such that he is completely invulnerable to damage from anything he hasn't acknowledged the existence of... including all entities separate from himself. That's right: the first phase in the battle with Aten is a philosophical debate.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkassGods" title="/pmwiki/pmwiki.php/Main/JerkassGods">Jerkass Gods</a>:<ul><li> Given the base material, it's not surprising Scion has a lot of these - or that a player can become one of these. Special notation must go to Poseidon, who actually gets a new level of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkAss" title="/pmwiki/pmwiki.php/Main/JerkAss">Jerkass</a> given to him by the revelation of how the Minotaur<strong>s</strong> were made in this setting.</li><li> The Atzlanti are the only pantheon to still require human sacrifices, to the point that their pantheon purview is fuelled best by it. The Aztec Death God is also the biggest jerk of all the canonical death gods, even compared to Hel or The Morrigan.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LemonyNarrator" title="/pmwiki/pmwiki.php/Main/LemonyNarrator">Lemony Narrator</a>: 2E's Sh&eacute;n overview, to reflect the rather casual nature of most Chinese myths.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsNotGood" title="/pmwiki/pmwiki.php/Main/LightIsNotGood">Light Is Not Good</a>: Akhetaten, full stop.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ALoadOfBull" title="/pmwiki/pmwiki.php/Main/ALoadOfBull">A Load of Bull</a>: The Minotaurs are a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneGenderRace" title="/pmwiki/pmwiki.php/Main/OneGenderRace">One-Gender Race</a> of humanoid bulls likely to be encountered as opponents (and, possibly, followers) of demigods. It turns out that, in 1e's Scionverse, the Cretan Bull actually <strong>raped</strong> first Pasipha&euml; and then any Cretan woman it could find after emerging from the sea, as none of the Cretans would even dare to try and corral it for fear of Poseidon's wrath. Poseidon made no effort to stop it; they were saved from its rampages only when Heracles came and took the Cretan Bull as his Seventh Labour.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LonelyAtTheTop" title="/pmwiki/pmwiki.php/Main/LonelyAtTheTop">Lonely at the Top</a>: Can be applicable in this setting, once a PC reaches apotheosis (considering that you'll be very much a junior deity in your pantheon, and your contact with your Band-mates from other pantheons may become very limited). Indeed, the signature characters seem to be suffering from this in the opening fiction from 1e's <em>God</em>: Horace is chafing in the celestial equivalent of a desk job, Donnie and Yukiko are essentially glorified errand boys (well, errand <em>girl</em> in Yukiko's case) for their parents, and Dr. Tigrillo finds himself philosophically isolated from most of the other Atzlanti. Only Eric and Brigitte seem to be fitting into godhood comfortably.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLostWoods" title="/pmwiki/pmwiki.php/Main/TheLostWoods">The Lost Woods</a>: The Dark Woods is literally the embodiment of this trope, an archetypal forest in the Overworld where the only real defining geography is "lost".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovecraftLite" title="/pmwiki/pmwiki.php/Main/LovecraftLite">Lovecraft Lite</a>: Very much so. The closest things to truly unknowable beings (the Greater Titans) aren't truly malevolent (hell, a possible ending to <em>Ragnarok</em> involves convincing Muspelheim that it's in his best interests to only burn away the toxic parts of the Earth), and much of the theme involves taking the "chaotic, dark power" and either kicking it across the room or turning it into something useful.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LowestCosmicDenominator" title="/pmwiki/pmwiki.php/Main/LowestCosmicDenominator">Lowest Cosmic Denominator</a>: Averted. The gods of mythology are all identified by name.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Masquerade" title="/pmwiki/pmwiki.php/Main/Masquerade">Masquerade</a>: This was implied to be the case in the 1st edition, with the books mentioning <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnusuallyUninterestingSight" title="/pmwiki/pmwiki.php/Main/UnusuallyUninterestingSight">mortals seeing massive fire giants as irregularly large people with severe burns</a>, the fictional adventures always taking place outside the public eye and the world being described as looking, on the surface, just like our own. Unfortunately, the books included no details on how to enforce such secrecy in play, with the amount of power given to the players making it all but impossible, outside of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusExMachina" title="/pmwiki/pmwiki.php/Main/DeusExMachina">GM's fiat</a>, to stop them from irrevocably changing the world by punching a dragon straight through the Empire State building. Imagine trying to maintain the status quo of <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness">The World of Darkness</a>, but instead of vampires, it's Marvel superheroes who are walking around. The 2nd edition decided to make away with the silliness and just go for an explicit <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistory" title="/pmwiki/pmwiki.php/Main/AlternateHistory">Alternate History</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UrbanFantasy" title="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a> setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mayincatec" title="/pmwiki/pmwiki.php/Main/Mayincatec">Mayincatec</a>: The Aztec pantheon is included.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a>: Scions tend to have these, as Fate likes to make their origins clear.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MissionFromGod" title="/pmwiki/pmwiki.php/Main/MissionFromGod">Mission from God</a> (literally)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncrediblyLamePun" title="/pmwiki/pmwiki.php/Main/IncrediblyLamePun">painful puns</a> of the characters' names and backgrounds don't really mix well with the gritty setting and storyline.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MotherOfAThousandYoung" title="/pmwiki/pmwiki.php/Main/MotherOfAThousandYoung">Mother of a Thousand Young</a>: Gaia and Kamimusuhi.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultipleChoicePast" title="/pmwiki/pmwiki.php/Main/MultipleChoicePast">Multiple-Choice Past</a>: What the entire setting basically becomes in 2e, with no attempt made to reconcile the different mythologies and have a central backstory for everything anymore. Which creation myths are true? All of them. None of them. If you ask the gods, they'll just say they're right and everyone else is wrong out of simple pride.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MythologyUpgrade" title="/pmwiki/pmwiki.php/Main/MythologyUpgrade">Mythology Upgrade</a>: Isn't it amusing how advanced technology can improve already deadly Nemeans? Examples include Centaurs as half-human and half-Harley-Davidson motorcycle, Scylla having machines replace its monster heads and Surtr's main fortress in Muspelheim being able to transform into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Names to Run Away from Really Fast</a>: The main villain is named Kane? His right-hand man is named <em>Seth</em>?! His con man associate is named <strong>Sly Guiler</strong>?!? <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">His girlfriend is named</a> <strong><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">ORLANDA</a></strong>?!?!?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverWasThisUniverse" title="/pmwiki/pmwiki.php/Main/NeverWasThisUniverse">Never Was This Universe</a>: The presence of the divine in the history of 2e's World has resulted in a present-day setting that's much like our own in the broad strokes, with certain differences apparent on closer inspection.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero" title="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero">Nice Job Breaking It, Hero!</a>:<ul><li> Kill Surtr? Congratulations, now fire is completely uncontrollable! Kill Gaia? Watch the World wither and die! Kill Aten? Hope you like <em>eternal, endless night!</em> Okay, the series never gets specific, but there's a <em>reason</em> the Gods <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">sealed the Titans away</a> rather than just killing them. The one time they did, they killed Ymir and ended the Ice Age... which then spawned <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGreatFlood" title="/pmwiki/pmwiki.php/Main/TheGreatFlood">The Great Flood</a>.</li><li> Pan was already feeling ticked off against the Dodekatheon, but it took the deliberate efforts of early Christians to correlate him with Satan to give Fate the extra momentum to push him into becoming a Titanspawn.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed" title="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed">No Celebrities Were Harmed</a>: <em>Scion: Extras</em>, an April Fools' Day supplement, features Amatsukami Scion 'Sci', inventor of "Scion Style", riffing on PSY and Gangnam Style (with lyrics for "Scion Style" provided). Somewhat closer to home is Tuatha Scion Jack Caricature, a game developer who herds cats - a good-natured spoof of former Scion 2e developer Joe Carriker.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoHonorAmongThieves" title="/pmwiki/pmwiki.php/Main/NoHonorAmongThieves">No Honor Among Thieves</a>: Two Titans have serious internal conflict amongst their Avatars. Every avatar of Muspelheim except Prometheus will turn against Surtr, once he fulfills his role in Ragnarok. In Drowned Road, Ran will attack Mami Wata once their plan to drown the Earth is complete. Nu, meanwhile, is hiding, waiting for its opportunity to strike at other avatars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoSuchThingAsWizardJesus" title="/pmwiki/pmwiki.php/Main/NoSuchThingAsWizardJesus">No Such Thing as Wizard Jesus</a>: In first edition, while God <em>may</em> be evil (if he is Aten, if Aten is aping God however then the jury is out) and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PublicDomainArtifact" title="/pmwiki/pmwiki.php/Main/PublicDomainArtifact">the Holy Grail</a> exists, Jesus is left alone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NobleDemon" title="/pmwiki/pmwiki.php/Main/NobleDemon">Noble Demon</a>: The 1e <em>Companion</em> adds two as rather unusual Guide Birthrights.<ul><li> First is Mara Secare, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HornyDemons" title="/pmwiki/pmwiki.php/Main/HornyDemons">succubus</a> who was freed from the underworld in the wake of the Titans' escape. She helps Scions because she likes the world of flesh, and wants to be good so that she can stay and enjoy living.</li><li> Second is Tetsu Debu, an oni who made a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a> after listening to an old monk when he took shelter in a tiny mountain shrine. He's still a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigEater" title="/pmwiki/pmwiki.php/Main/BigEater">Big Eater</a> and brutal in battle, but is loyal to any Scion who takes him on.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OddJobGods" title="/pmwiki/pmwiki.php/Main/OddJobGods">Odd Job Gods</a>: <em>Scion: Extras</em> collects a number of obscure real-world gods (yes, there really are Chinese toilet deities) and their Scions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OmnicidalManiac" title="/pmwiki/pmwiki.php/Main/OmnicidalManiac">Omnicidal Maniac</a>: Two titan avatars, Nu and Shu, have very simple goals - they want to turn the world into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfSilence" title="/pmwiki/pmwiki.php/Main/WorldOfSilence">nothing else but their preferred element</a> (water for Nu, air for Shu), where no creature, not even the avatar themselves, exists. They're a contrast to the typical <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OmnicidalManiac" title="/pmwiki/pmwiki.php/Main/OmnicidalManiac">Omnicidal Maniac</a>, though, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheQuietOnes" title="/pmwiki/pmwiki.php/Main/BewareTheQuietOnes">as Nu is reclusive and patient whle Shu is calm and peaceful</a>. Fortunately, neither of them are the dominant avatar of their Titan. Then 1e <em>Companion</em> introduces Crom Cruach, the Greater Titan of Earth, whose goal is equally simple: crush all things into rot and decay, then die itself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrderVersusChaos" title="/pmwiki/pmwiki.php/Main/OrderVersusChaos">Order Versus Chaos</a>: Explicitly defined as part of the core rules in first edition - normal Virtues define a code of behavior, while the Titanic Dark Virtues are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SocialDarwinist" title="/pmwiki/pmwiki.php/Main/SocialDarwinist">raw survivalism, with a side of selfishness</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurMonstersAreDifferent" title="/pmwiki/pmwiki.php/Main/OurMonstersAreDifferent">Our Monsters Are Different</a>: Pretty much all of the attached subtropes can be found in Scion to one degree or another, with various monsters showing different levels of alteration from their mythological origins. Different kinds of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">vampires</a> range from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HorrorHunger" title="/pmwiki/pmwiki.php/Main/HorrorHunger">heart-eating</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BatOutOfHell" title="/pmwiki/pmwiki.php/Main/BatOutOfHell">bat-like</a> Camazotz through to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LooksLikeOrlok" title="/pmwiki/pmwiki.php/Main/LooksLikeOrlok">bald-headed, pointy-eared</a> Vrykolakas. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWerebeastsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWerebeastsAreDifferent">Therianthropy</a> consists of a three-stage infection which sees a were-beast gain greater control over their transformations in exchange for becoming increasingly enslaved to the Titans. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurMonstersAreWeird" title="/pmwiki/pmwiki.php/Main/OurMonstersAreWeird">Numerous other examples</a> abound.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonOfMassDestruction" title="/pmwiki/pmwiki.php/Main/PersonOfMassDestruction">Person of Mass Destruction</a>: Just about every Scion in the game easily has the potential to become one...to say nothing for the gods or the titans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlutoIsExpendable" title="/pmwiki/pmwiki.php/Main/PlutoIsExpendable">Pluto Is Expendable</a>: And Hades is not pleased.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PocketProtector" title="/pmwiki/pmwiki.php/Main/PocketProtector">Pocket Protector</a>: Given as an example of the powers of divine intervention as it applies to The One God.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowersThatBe" title="/pmwiki/pmwiki.php/Main/PowersThatBe">Powers That Be</a>: You're their kids! They probably don't like you anyway!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrecisionFStrike" title="/pmwiki/pmwiki.php/Main/PrecisionFStrike">Precision F-Strike</a>: In 2e's <em>Hero</em> book, it's noted that despite what <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Ramayana" title="/pmwiki/pmwiki.php/Literature/Ramayana">Rama</a> suspected, Sita's virginity was indisputable, "<img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SomeAnvilsNeedToBeDropped" title="/pmwiki/pmwiki.php/Main/SomeAnvilsNeedToBeDropped">not that it should fucking matter</a>".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PublicDomainArtifact" title="/pmwiki/pmwiki.php/Main/PublicDomainArtifact">Public Domain Artifact</a>: Part of being enlisted in the divine conflict in this game is your godly parent giving your character gifts with supernatural powers. These can be everyday items with divine qualities, but of course a lot of Scions have famous divine weapons or other treasures as their gifts. For example the sons of Thor and Sun Wukong from the pregen characters have a piece of their divine father's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IconicItem" title="/pmwiki/pmwiki.php/Main/IconicItem">Iconic Item</a> worked into a weapon for them. Another one has the sword Kusanagi (correctly depicted with a straight blade) and the Magatama as gifts from her father.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RageAgainstTheHeavens" title="/pmwiki/pmwiki.php/Main/RageAgainstTheHeavens">Rage Against the Heavens</a>: The Titans have a bad grudge against the gods. Also the Keepers of The World, but they're pretty good at hiding it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligiousHorror" title="/pmwiki/pmwiki.php/Main/ReligiousHorror">Religious Horror</a>: But of the non-Christian kind, unless of course you're dealing with the Church of Divine Glory and Akhetaten.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReptilesAreAbhorrent" title="/pmwiki/pmwiki.php/Main/ReptilesAreAbhorrent">Reptiles Are Abhorrent</a>: The only 1e sample villain who's an irredeemable monster is Seth Farrow, who ultimately becomes the God of Snakes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers" title="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers">Required Secondary Powers</a>:<ul><li> In first edition, the first dot in each Purview is usually something completely innocuous on its face, but which you will dearly wish you'd picked up if you try using one of the more advanced powers without it.<ul><li> Example: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AintNoRule" title="/pmwiki/pmwiki.php/Main/AintNoRule">Ain't No Rule</a> that says you <strong>have</strong> to take "Fire Immunity" as a boon, but it's a bit embarrassing when you're the only God of Fire that gets burned by his own flame. Similarly, if you don't take "Frost Immunity", you can't use any of the ice-shaping boons of the Frost purview without freezing yourself.</li></ul></li><li> Second edition changes things by adding an innate power to each Purview, many of which were the one-dot <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers" title="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers">Required Secondary Powers</a> of first edition. Tradeoff being that now it's twice as expensive to buy a Purview through an item.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfCool" title="/pmwiki/pmwiki.php/Main/RuleOfCool">Rule of Cool</a>: Stunting, a <em>literal</em> rule. The more badass you make it, the better it works. White Wolf first used this idea in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Exalted" title="/pmwiki/pmwiki.php/TabletopGame/Exalted">Exalted</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>: "What the heck happened to my -insert item here- ?" Appears at the end of the fiction section that starts each first edition core rulebook.<ul><li> <em>Hero</em>: "... car?"</li><li> <em>Demigod</em>: "... guns?"</li><li> <em>God</em>: "... necklace?"</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SadlyMythtaken" title="/pmwiki/pmwiki.php/Main/SadlyMythtaken">Sadly Mythtaken</a>:<ul><li> Done deliberately with the Hands of Aten - Thoth classifies the weakest type as Cherubim, despite that being the second-highest rank in tradition, because <em>humanity</em> keeps getting it wrong.</li><li> Quite a bit of the gods' associated powers have no basis in mythology at all. <em>Ragnarok</em> contains a sidebar that openly admits the game makes stuff up when myth can't justify something, since sticking only to mythological sources would make a number of gods completely unsuitable as parents to Scions.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewDestiny" title="/pmwiki/pmwiki.php/Main/ScrewDestiny">Screw Destiny</a>:<ul><li> Played straight and subverted. The Scions, being the spawn of the gods, are no longer bound by fate's script. Subverted in that when you do use your god-given powers you run the risk of fate doing a rewrite and forcing some mortal nearby to become your sidekick, and from now on they will show up where you are for no discernable reason and feel some emotion towards you, again that they can't quite understand. Subverted even harder with the gods themselves as the reason why Zeus doesn't appear in front of mortals or Osiris doesn't show up in Egypt. Get too close to mortals and they get stuck in fate and have to follow the script.</li><li> Gods are actually bound to "the script", but they are more capable of breaking it. This is implied to be the reason why Zeus is such a manwhore... if enough people believe that a god is like that, he will get the urge to be like that.</li><li> It is implemented in the rules too. If you are around a person who is Fate Bound to you, you get bonus dice if you act in the way they expect you to act and penalties if you defy their expectations. So if several people watching are convinced that you are a sociopath and are going to murder the mentally disturbed hostage taker rather than talk him down and get him medical treatment, that may soon become your only viable option!</li><li> And if you are a mortal who happens to have <em>really</em> pissed off Fate in some way, it may retaliate and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlessedWithSuck" title="/pmwiki/pmwiki.php/Main/BlessedWithSuck">gift</a> you the power of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCassandra" title="/pmwiki/pmwiki.php/Main/TheCassandra">Doomsaying</a>-not not only are you instinctively aware of everything bad that's Fated to happen, listening to you <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharmPerson" title="/pmwiki/pmwiki.php/Main/CharmPerson">hypnotizes people into guaranteeing it happens</a></em>.</li><li> This is a major plot point in <em>Ragnarok</em> - sparing Hod (Baldur's accidental killer) <em>really</em> derails the prophecy (he trades his life for Baldur's, Loki is never imprisoned, Thokk is revealed to be <span class="spoiler" title="you can set spoilers visible by default on your profile">Baldur's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yandere" title="/pmwiki/pmwiki.php/Main/Yandere">Yandere</a> wife...</span>). And that's only <em>one</em> of the things that can be done; it's quite possible to kill Garm before he gets Tyr (which is actually rather easy for a God, he being a Demigod-level adversary), or convince Fenris to sit out the battle in return for allowing him to live in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LostWoods" title="/pmwiki/pmwiki.php/Main/LostWoods">the Dark Forest</a>.</li><li> 2E plays with this; it becomes harder and harder to Screw Destiny the greater in power you are (it's the one thing that keeps a God constrained enough to not be a Titan), but Fate selects against this trope-because it only assigns Fatebound roles to people who are currently amenable to the idea (so it only make someone who already has good chemistry with you a Paramour, and only someone with reason to hate you a Nemesis). Even once that happens, mortals and people lower on the Legend pole still have mostly free will-it doesn't influence their actions, it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WindsOfDestinyChange" title="/pmwiki/pmwiki.php/Main/WindsOfDestinyChange">changes probability</a> so that actions that further their roles become easier and narratively fitting (it induces <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticRain" title="/pmwiki/pmwiki.php/Main/RomanticRain">affectionate</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SnowMeansLove" title="/pmwiki/pmwiki.php/Main/SnowMeansLove">scenes</a> around the Paramour, and gives the Nemesis <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainExitStageLeft" title="/pmwiki/pmwiki.php/Main/VillainExitStageLeft">lucky escapes</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TookALevelInBadass" title="/pmwiki/pmwiki.php/Main/TookALevelInBadass">chances to get strong enough to pose a fair fight</a>). And if you're a mortal, that's all it does-if you go against your role, it results in some bad luck before Fate gets the message and either de-Binds you or changes your role. Fear of <em>stronger</em> Fatebinding is why Gods remain hands-off (they don't want to be Fatebound to their own versions of Ragnarok).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">Sealed Evil in a Can</a>: The Titans used to be. Of course, they still are in first edition if you happen to play during World War II.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SemiDivine" title="/pmwiki/pmwiki.php/Main/SemiDivine">Semi-Divine</a>: The basic premise is that you play one of these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeparatedAtBirth" title="/pmwiki/pmwiki.php/Main/SeparatedAtBirth">Separated at Birth</a>: Orlanda Elliot and Blair Thomas.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> "When your character is incapable of taking action, because he is unconscious, paralyzed, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">frozen in carbonite</a></em> or whatever . . ."</li><li> Title of a sidebar in first edition Hero's included story: "What's in the Egg?" First line of the article: <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Se7en" title="/pmwiki/pmwiki.php/Film/Se7en">"Gwyneth Paltrow's head!</a> Just kidding."</li><li> In 1e Hero's included story, one task (assigned by Aphrodite) is to bring a strained couple to love...any sort. The default assumption is that they'll split up, but crafty players can rekindle their love for each other. The paragraph discussing this ends with <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheSimpsons" title="/pmwiki/pmwiki.php/WesternAnimation/TheSimpsons">"In your face, space coyote!"</a></em></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Comicbook/TheMightyThor" title="/pmwiki/pmwiki.php/Comicbook/TheMightyThor">The Mighty Thor</a></em><ul><li> "I thought Thor was a blond."]]</li><li> And <em>Ragnarok</em> has a sidebar discussing the Aesir's reaction to the comic.</li><li> Not to mention that the story at the beginning of 1e <em>Hero</em> reveals that Thor has been known to use the alias <em>Don.</em> Donald Blake was the secret identity of the comic book Thor.</li></ul></li><li> Freyr bears a striking resemblance to <a class="twikilink" href="/pmwiki/pmwiki.php/Series/HerculesTheLegendaryJourneys" title="/pmwiki/pmwiki.php/Series/HerculesTheLegendaryJourneys">Kevin Sorbo</a>.</li><li> Athena could easily stand in for a <a class="twikilink" href="/pmwiki/pmwiki.php/Series/BuffytheVampireSlayer" title="/pmwiki/pmwiki.php/Series/BuffytheVampireSlayer">certain Chosen One</a>.</li><li> One of the relics in the 1e <em>Companion</em> is the Gun Wing mask, which <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Gundam" title="/pmwiki/pmwiki.php/Franchise/Gundam">"looks exactly like a flight helmet from any modern-day anime with giant robots and psychic pilots."</a></li><li> Amleth's story in <em>Ragnarok</em> combines Shakespeare's <em><a class="twikilink" href="/pmwiki/pmwiki.php/Theatre/Hamlet" title="/pmwiki/pmwiki.php/Theatre/Hamlet">Hamlet</a></em> with the legend it was based on.</li><li> Header for a sidebar in the 1e <em>Companion</em> on giving all Scions the Scent the Divine Knack: "I can sense you, <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Highlander" title="/pmwiki/pmwiki.php/Film/Highlander">Highlander</a>".</li><li> On the Dodekathon's individualism in <em>Extras</em>: "With a heavy-handed approach to individualism, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/AtlasShrugged" title="/pmwiki/pmwiki.php/Literature/AtlasShrugged">has Atlas yet to shrug?</a> Will a small group of millionaires simply quit and leave the economy in ruins?"</li><li> Discussing the Loa in <em>Extras</em>: "The more believers they have, <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Transformers" title="/pmwiki/pmwiki.php/Franchise/Transformers">the more energon cubes they're fed</a>, and the more powerful they'll grow."</li><li> One of Br'er Rabbit's aliases is "Rascally Rabbit", heavily implying that you can make a Scion to <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/BugsBunny" title="/pmwiki/pmwiki.php/WesternAnimation/BugsBunny">Bugs Bunny</a>!</em></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfTurnRealism" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfTurnRealism">Sliding Scale of Turn Realism</a>: Action by Action.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad" title="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad">Spotlight-Stealing Squad</a>: The Aesir get an entire <em>book</em> to themselves.<ul><li> Partially justified - there's not much better you can do for apocalyptic fiction.</li><li> Even before Ragnarok, the Aesir got a different background color on their pages than the one shared by the other five pantheons, and a god with the most direct involvement in the sample adventures (Loki). No one was <em>that</em> surprised with a supplement pushing the idea of a campaign where no other gods even existed.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StartMyOwn" title="/pmwiki/pmwiki.php/Main/StartMyOwn">Start My Own</a>: Second edition God will provide rules for a group of Scions to make their own pantheon together, complete with a creation myth that is retroactively just as valid as any other pantheon's. In first edition God-level Horace <em>wants</em> to go off and form a new pantheon with his old band, but the demands of the war keep him too busy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StevenUlyssesPerhero" title="/pmwiki/pmwiki.php/Main/StevenUlyssesPerhero">Steven Ulysses Perhero</a>: Seems to be a common quality of the Scions. Sometimes it's subtle (Brigitte de la Croix, Scion of Baron Samedi, takes her name from Maman Brigitte, the Baron's wife, and her father's love of the crossroads). Other times... it's not (Horace Farrow, Scion of Horus, pronounced <em>exactly</em> the way you think it is).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrollingThroughTheChaos" title="/pmwiki/pmwiki.php/Main/StrollingThroughTheChaos">Strolling Through the Chaos</a>: The one-dot Boon of - naturally - the Chaos Purview in 1e (and the innate ability of same in 2e), so long as one does not get involved in whatever chaotic event is occurring.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperCellReception" title="/pmwiki/pmwiki.php/Main/SuperCellReception">Super Cell Reception</a>: One of the Relics in the 1e Companion is the iGjallahar, based on the ancient horn of Nordic myth that summons the glorious dead from Valhalla for Ragnarok. It's a special cell phone that gets a signal anywhere because it transmits to a tower in the Overworld.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurprisinglyEliteCannonFodder" title="/pmwiki/pmwiki.php/Main/SurprisinglyEliteCannonFodder">Surprisingly Elite Cannon Fodder</a>: What you become after getting Godhood in the 1e corebook campaign. You and your team are literally at the bottom of your pantheon and yet you get the mission to DEFEAT THE TITANS, the beings that have been crushing the God-realms, from the get-go. To put it in perspective, this is like starting as a demigod and having as your first mission to take down Zeus and Odin to show your mettle. Oh, and you get no respect from the higher ups while doing it. At all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThat" title="/pmwiki/pmwiki.php/Main/TakeThat">Take That!</a>:<ul><li> In <em>Ragnarok</em>, the game discusses alternate ways to cue Fimbulwinter rather than the default meteor strike. The title of the sidebar is "But <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Armageddon" title="/pmwiki/pmwiki.php/Film/Armageddon">Armageddon</a></em> Sucked".</li><li> Only Demigods with Epic Stamina are capable of surviving by drinking virtually any liquid and treating it as water, "even such distasteful liquids as gasoline, blood, pine-scented disinfectant or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThat" title="/pmwiki/pmwiki.php/Main/TakeThat">diet cola</a>."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheThingThatWouldNotLeave" title="/pmwiki/pmwiki.php/Main/TheThingThatWouldNotLeave">The Thing That Would Not Leave</a>:<ul><li> Raiden is prone to pulling this when adopting the guise of a college student.</li><li> Cocomama from <em>Extras</em> is the divine equivalent. She wandered into the Atzlanti from the Tawantinsuyu (the Inca pantheon), and all attempts to get her to go into rehab or back to the Tawantinsuyu have so far been unsuccessful.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeyWimeyBall" title="/pmwiki/pmwiki.php/Main/TimeyWimeyBall">Timey-Wimey Ball</a>: As the Greater Titan of Time - but not of <em>causality</em> - Zrvan <em>is</em> this trope. Places under his influence become temporally screwy themselves (an example adventure features the Scions encountering Coyote... as he was in the Wild West, and he quickly realizes he shouldn't be there as if that's nothing strange).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToHellAndBack" title="/pmwiki/pmwiki.php/Main/ToHellAndBack">To Hell and Back</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTopicOfCancer" title="/pmwiki/pmwiki.php/Main/TheTopicOfCancer">The Topic of Cancer</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification" title="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification">Titan of the Blighted Earth,</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Myth/CelticMythology" title="/pmwiki/pmwiki.php/Myth/CelticMythology">Crom Cruach, nemesis of the Tuatha De Danaan,</a> is associated with stillbirth, madness, fungi, vermin, rot, <em>mutation and cancer</em>, and has a very strong theme of the "perversion of life". His minions, the giant fomorians, are generally horribly disfigured, and their ugliness is said to often include tumors all over their body.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TookALevelInBadass" title="/pmwiki/pmwiki.php/Main/TookALevelInBadass">Took a Level in Badass</a>: How the journey of the 1e corebooks' pregenerated characters through the included campaign comes off. In the span of a couple of years they came from mere Scions to the lowest-level Gods, who somehow managed to end the entire war and personally defeat all the TITANS one by one. A feat that no pantheon or Head God can ever pretend to have even thought about. And yet <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayandStorySegregation" title="/pmwiki/pmwiki.php/Main/GameplayandStorySegregation">by stats and text flavor you are still considered a whelp against the big shot Gods who were losing the war</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transgender" title="/pmwiki/pmwiki.php/Main/Transgender">Transgender</a>: Blair Thomas.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TricksterGod" title="/pmwiki/pmwiki.php/Main/TricksterGod">Trickster God</a>:<ul><li> First edition <em>Hero</em> offers Loki, Odin, Baron Samedi, Hermes and Susano-o.</li><li> As if that weren't enough, <em>God</em> adds <strong>Coyote</strong>.</li><li> And the 1e Companion adds Manannan mac Lir, Nezha, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/JourneyToTheWest" title="/pmwiki/pmwiki.php/Literature/JourneyToTheWest">Sun Wukong</a>, and Br'er Rabbit to the mix. In fact, it's heavily implied that Br'er Rabbit <em>is</em> Coyote, under an alias.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrueCompanions" title="/pmwiki/pmwiki.php/Main/TrueCompanions">True Companions</a>: A Band can be these. The signature-character "protagonist" Band in first edition's core trilogy seems to be this. By the time of <em>God</em>'s opening fiction, when they are settling into godhood in their pantheon's homelands, most of them genuinely miss each other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoFaced" title="/pmwiki/pmwiki.php/Main/TwoFaced">Two-Faced</a>:<ul><li> Hel. She's stunningly beautiful on one side, and very obviously a corpse on the other.</li><li> Hel is described that way in the <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheEddas" title="/pmwiki/pmwiki.php/Literature/TheEddas">Norse Eddas</a>.</li><li> Most of the time. They were all agreeing upon that half her body was dead. Now, there was argument if the split was vertical, leaving her left side dead, or horizontal, leaving her dead from the waist down.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ValuesDissonance" title="/pmwiki/pmwiki.php/Main/ValuesDissonance">Values Dissonance</a>:<ul><li> In-universe, it's noted that gods of one pantheon often don't get on with another pantheon because of their very different views of the world (the highly law and discipline-focused Pesedjet or Amatsukami compared to the wilder, more chaotic Aesir or Tuatha, for example). Even individual gods can have values dissonance from their fellows depending on how they prioritize their Virtues.</li><li> The best example is the Atzlanti; whereas even the many other pantheons who practiced animal sacrifice have given it up, the Aztec gods still practice - indeed, <em>demand</em> - human sacrifice. This makes the other pantheons leery of them at best. The viewpoint Atzlanti character is noted repeatedly to find it hard to balance his modern-day human views with the views of his pantheon.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAreStrugglingTogether" title="/pmwiki/pmwiki.php/Main/WeAreStrugglingTogether">We ARE Struggling Together</a>: There are 6-11 different divine pantheons out there, all fighting a war against the Titans, but even against this singular goal, a good chunk of the pantheons can barely get along with <em>themselves</em>, let alone each other. With individual Gods' plots, politics, agendas and rivalries often pitting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RightHandVersusLeftHand" title="/pmwiki/pmwiki.php/Main/RightHandVersusLeftHand">them and their children against each other</a> (and that's not counting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceHeelTurn" title="/pmwiki/pmwiki.php/Main/FaceHeelTurn">Titan-corrupted Scions</a>), it's no wonder that often a Scion's biggest enemy is another Scion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaponizedLandmark" title="/pmwiki/pmwiki.php/Main/WeaponizedLandmark">Weaponized Landmark</a>: Some believe the Statue Of Liberty, Christ the Redeemer and other large statues could be a giant war automaton if the right key is found. The statue of Vulcan in Birmingham, Alabama is <em>confirmed</em> to be one, but the key's still missing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeirdnessMagnet" title="/pmwiki/pmwiki.php/Main/WeirdnessMagnet">Weirdness Magnet</a>: Thanks to Fate, a Scion's life is never boring.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAreTheTranslatedForeignWord" title="/pmwiki/pmwiki.php/Main/YouAreTheTranslatedForeignWord">You Are the Translated Foreign Word</a>: In response to many complaints by fans of the 1st edition that the featured Pantheon names were historically, mythologically or linguistically inaccurate (for example, the word "Dodekatheon" specifically refers to the Twelve Olympians of Greek mythology, and as such shouldn't include Hades), Onyx Path Publishing has decided to go down this route. <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheyChangedItNowItSucks" title="/pmwiki/pmwiki.php/Main/TheyChangedItNowItSucks">Almost as soon as this was revealed, a minority among the fans started complaining</a> that this didn't actually make things any better, since "the word 'Gods' in each people's language" is perfectly applicable, by the speakers of each, to all gods everywhere, rather than just the members of each culture's own Pantheon (e.g. to a Japanese speaker, Poseidon is every bit as much of a "Kami" as Izanagi). A third group argues that, with most ancient peoples having not designed their views of the cosmos with the intention of accommodating the creation of future roleplaying games and thus not <em>having</em> a special title for their own gods, considered to be a natural part of the world, the only intellectually honest way of going about things was to either use the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoringButPractical" title="/pmwiki/pmwiki.php/Main/BoringButPractical">boring but accurate</a> "The [Culture's] Gods" for all the Pantheons, or to embrace the silliness fully and use whatever sounds cooler.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouCantFightFate" title="/pmwiki/pmwiki.php/Main/YouCantFightFate">You Can't Fight Fate</a>:<ul><li> A major aspect of the game world, and suitably represented in the rules. One of the biggest headaches the Gods (and their children) have to suffer through is figuring out how to make a difference in the world without being Fatebound into a metaphorical (or in some unlucky cases, literal) brick wall.</li><li> Few have suffered so much from the inescapable hands of Fate as the Aesir, the Norse pantheon. The doom of Ragnarok is so prevalent in their prophecies and mythologies, that their leader, Odin, pretty much spends all his thought and time doing two things: Looking for a way to avoid it, or making everything work out fine in spite of it. No success on the former, but potentially promising results on the latter. Key word being "potentially".</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> This is revealed to be the primary motivation behind Loki's convoluted plan in 1e's core books. <em>He succeeds</em>, breaking free from his Fate-given role by hijacking Muspelheim and becoming a Greater Titan himself.</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouKeepUsingThatWord" title="/pmwiki/pmwiki.php/Main/YouKeepUsingThatWord">You Keep Using That Word</a>: Averted. The writers actually get "chthonic" right as a definition (it means "of the underworld" in Greek, and guess where the Titans got themselves sealed?).</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Pendragon">Pendragon</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/WhiteWolf">Creator/White Wolf</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/StreetFighterTheStorytellingGame">Street Fighter: The Storytelling Game</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Nobilis">Nobilis</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Shadowrun">Shadowrun</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Winterweir">Winterweir</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SenZar">SenZar</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Winterweir">Winterweir</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+
+<a href="/pmwiki/pmwiki.php/TabletopGame/ScotlandYard">Scotland Yard</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OldWorldOfDarkness">Old World of Darkness</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/Kickstarter">Website/Kickstarter</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/PlanetMercenary">Planet Mercenary</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

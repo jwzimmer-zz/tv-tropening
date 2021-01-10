@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Wikipedia (Wiki) - TV Tropes</title>
+<meta name="description" content="The Other Wiki. The wiki that most people are familiar with. The one that isn't us. Wikipedia is the most famous wiki out there, and is mostly responsible &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Wiki/Wikipedia" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Wikipedia (Wiki) - TV Tropes" />
+<meta name="twitter:description" content="The Other Wiki. The wiki that most people are familiar with. The one that isn't us. Wikipedia is the most famous wiki out there, and is mostly responsible &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/wikipedia.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Wikipedia (Wiki) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Wiki/Wikipedia" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/wikipedia.png" />
+<meta property="og:description" content="The Other Wiki. The wiki that most people are familiar with. The one that isn't us. Wikipedia is the most famous wiki out there, and is mostly responsible for inspiring the creation of other wikis (although it was not the first). It presents its &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/JustBeforeTheEnd" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Literature/ThePlucker" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Wiki/Wikipedia?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Wiki/Wikipedia">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Wiki.Wikipedia">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Wikipedia&g=Wiki">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=Wiki.Wikipedia">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Wiki/Wikipedia?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Wiki" />
+<input type="hidden" id="title-hidden" value="Wikipedia" />
+<input type="hidden" id="article_id" value="303340" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Wiki/Wikipedia</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Wiki / </strong>
+Wikipedia
+<div class="aka-title">aka: That Other Wiki</div>
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Wiki",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Wiki"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Wikipedia"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/DrinkingGame/Wikipedia" class="subpage-link " title="The DrinkingGame page">
+<span class="wrapper"><span class="spi drinkinggame"></span>DrinkingGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Wikipedia" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/Wikipedia" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Quotes/Wikipedia" class="subpage-link " title="The Quotes page">
+<span class="wrapper"><span class="spi quotes"></span>Quotes</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Wikipedia" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/Wikipedia" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Wikipedia" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="more-subpages">
+<a href="javascript:void(0);" class="subpage-toggle-button">
+<span class="wrapper more">More <i class="fa fa-chevron-down"></i></span>
+<span class="wrapper less"><i class="fa fa-chevron-left"></i> Less</span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- More -</option>
+<option value="/pmwiki/pmwiki.php/Br/Wikipedia">Br</option>
+<option value="/pmwiki/pmwiki.php/De/Wikipedia">De</option>
+<option value="/pmwiki/pmwiki.php/FrWiki/Wikipedia">FrWiki</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Wikipedia">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Hu/Wikipedia">Hu</option>
+<option value="/pmwiki/pmwiki.php/It/Wikipedia">It</option>
+<option value="/pmwiki/pmwiki.php/ItWiki/Wikipedia">ItWiki</option>
+<option value="/pmwiki/pmwiki.php/Pt/Wikipedia">Pt</option>
+<option value="/pmwiki/pmwiki.php/Wiki/Wikipedia">Wiki</option>
+</select>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Wikipedia?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Wikipedia?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Wikipedia?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Wikipedia?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Wikipedia?action=edit">Fridge</option>
+ <option value="/pmwiki/pmwiki.php/Headscratchers/Wikipedia?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Wikipedia?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Wikipedia?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Recap/Wikipedia?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Wikipedia?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Wikipedia?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Wikipedia?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:260px;"><div class="lazy_load_img_box" style="padding-top:90.86%"><img src="https://static.tvtropes.org/pmwiki/pub/images/wikipedia.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/wikipedia.png" width="350" height="318"></div></div><span class="font-s"><div class="acaptionright" style="width:260px;"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThatsNoMoon" title="/pmwiki/pmwiki.php/Main/ThatsNoMoon">Our memory banks can't repel information of that magnitude!</a></div></span><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>The Other Wiki. The wiki that most people are familiar with. The one that <em>isn't</em> us.</p><p>Wikipedia is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeCodifier" title="/pmwiki/pmwiki.php/Main/TropeCodifier">the most famous wiki out there</a>, and is mostly responsible for inspiring the creation of other wikis (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlderThanTheyThink" title="/pmwiki/pmwiki.php/Main/OlderThanTheyThink">although it was not the first</a>). It presents its information as an encyclopedia and focuses mainly on real-life information.</p><p>Given Wikipedia's role as a central information source, you can probably gain more info on the "what" of (for example) <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Star Wars</a></em> or <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em> from it than you can from actually watching the show, and that's nice. Here?</p><p>Here, you can get a glimmering of <em>why</em> the show is like that.</p><p>Here at <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TVTropes" title="/pmwiki/pmwiki.php/Wiki/TVTropes">TV Tropes</a>, we only care about how things apply to fiction. <em>Don't</em> just tell us the facts; tell us the memes, tell us the archetypes, tell us the catchy ideas and symbolic roles that get planted in people's heads. Got the kernel of an idea bouncing about your head? Throw it down here and see what grows. If we're lucky, our <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Neologism" title="/pmwiki/pmwiki.php/Main/Neologism">neologism</a> for it will catch on.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Wikipedia has <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia">an entry on itself<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and its history, for further reading.</p><p>Wikipedia also has <a class="urllink" href="https://en.wikipedia.org/wiki/TV_Tropes">an entry on us.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> It also lists us in its <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:Alternative_outlets">directory of alternatives,<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> encouraging people to record their trope knowledge here, instead of there. See the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAreNotAloneIndex" title="/pmwiki/pmwiki.php/Main/WeAreNotAloneIndex">We Are Not Alone Index</a> for tropes that have Wikipedia articles.</p><p>If you have trouble hopping between the markup on Wikipedia and the markup here, then you're a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WikipediaSyntaxer" title="/pmwiki/pmwiki.php/Main/WikipediaSyntaxer">Wikipedia Syntaxer</a>!</p><p></p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><h2>"Tropepedia":</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbridgedForChildren" title="/pmwiki/pmwiki.php/Main/AbridgedForChildren">Abridged for Children</a>: The <a class="urllink" href="https://simple.wikipedia.org/wiki/Main_Page">Simple English Wikipedia<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> has shorter articles with simpler language for children, people with learning and cognitive disabilities, and people learning English as a second language... or just people who want something quicker and simpler to read.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActuallyPrettyFunny" title="/pmwiki/pmwiki.php/Main/ActuallyPrettyFunny">Actually Pretty Funny</a>: The reason for the <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:Deleted_articles_with_freaky_titles">"Deleted articles with freaky titles" page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>:<div class="indent"><em>The Strange titles are rarely added to Wikipedia under the guise of real encyclopedia articles. Occasionally, Wikipedians lose their minds (especially on April Fools' Day) and if their posts are good they wind up here. Silliness can come in the form of creativity, insanity, or just boredom. As with other "silly things", often it seems a shame to delete the best of this humor which has been submitted to us.</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification" title="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification">Anthropomorphic Personification</a>: <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:Wikipe-tan">Wikipe-tan<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, specifically <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoeAnthropomorphism" title="/pmwiki/pmwiki.php/Main/MoeAnthropomorphism">Moe Anthropomorphism</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AprilFoolsDay" title="/pmwiki/pmwiki.php/Main/AprilFoolsDay">April Fools' Day</a>: Since the very beginning, April Fools' pranks have run rampant on Wikipedia, even by established editors. See a list of them <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:APRIL">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>:<ul><li> To put a long story short, basically their rules for vandalism get thrown out the window for one day, usually resulting in stuff <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:Deleted_articles_with_freaky_titles">like this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> This is subverted on the main page, but in a fun way: the topics discussed on the front page are lighthearted and absurd, but are also actual articles.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">Arson, Murder, and Jaywalking</a>: At one point in 2014, the five most contested articles in English were "<a class="urllink" href="https://en.wikipedia.org/wiki/George_W._Bush">George W. Bush<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>", "<a class="urllink" href="https://en.wikipedia.org/wiki/Anarchism">Anarchism<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>", "<a class="urllink" href="https://en.wikipedia.org/wiki/Muhammad">Muhammad<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>", <em>"<a class="urllink" href="https://en.wikipedia.org/wiki/List_of_WWE_personnel">List of WWE personnel<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>"</em>, and "<a class="urllink" href="https://en.wikipedia.org/wiki/Global_warming">Global warming<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a>: <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:Don%27t_abbreviate_Wikipedia_as_Wiki">Many editors feel physical pain when hearing others refer to Wikipedia as "Wiki".<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BleachedUnderpants" title="/pmwiki/pmwiki.php/Main/BleachedUnderpants">Bleached Underpants</a>: The seed funding for Nupedia, which became the Wikipedia project, was initially funded by <a class="urllink" href="https://en.wikipedia.org/wiki/Bomis">Bomis<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, which was a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SexSells" title="/pmwiki/pmwiki.php/Main/SexSells">male-oriented</a> <a class="twikilink" href="/pmwiki/pmwiki.php/JustForFun/XMeetsY" title="/pmwiki/pmwiki.php/JustForFun/XMeetsY">search engine</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreadEggsBreadedEggs" title="/pmwiki/pmwiki.php/Main/BreadEggsBreadedEggs">Bread, Eggs, Breaded Eggs</a>: Many of the categories can become this. For instance, there are "American singers", "American female singers", "American country singers", and "American female country singers".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaptainObvious" title="/pmwiki/pmwiki.php/Main/CaptainObvious">Captain Obvious</a>: Wikipedia's attempt to be a thorough information source presented in an easy, accessible format while maintaining a dry and formal tone of language sometimes leads to some unintentionally hilarious examples of this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonDiscontinuity" title="/pmwiki/pmwiki.php/Main/CanonDiscontinuity">Canon Discontinuity</a>: Users with the "oversight" ability can remove individual edits and/or edit summaries from pages, most often due to the edit in question containing extremely inappropriate content. If a page has had an edit oversighted, then general readers and even most admins can't see the content that got oversighted.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadpanSnarker" title="/pmwiki/pmwiki.php/Main/DeadpanSnarker">Deadpan Snarker</a>: Although most such examples get deleted sooner or later by a humorless editor, a few instances manage to survive. For example, the <a class="urllink" href="https://en.wikipedia.org/wiki/Plonk_(wine)">page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> for "plonk" features a picture of two covered clear plastic cups with straws filled with wine captioned "Wine (a White Zinfandel) in drinkware befitting plonk."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DigitalPiracyIsEvil" title="/pmwiki/pmwiki.php/Main/DigitalPiracyIsEvil">Digital Piracy Is Evil</a>: Apparently, <a class="urllink" href="https://en.wikinews.org/wiki/FBI_asks_Wikimedia_Foundation_to_remove_seal_from_websites,_Wikimedia_declines">the FBI threatened to sue Wikipedia for using its logo<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DistractedByTheSexy" title="/pmwiki/pmwiki.php/Main/DistractedByTheSexy">Distracted by the Sexy</a>: There are a lot of things Wikipedia considers to be not notable. <a class="urllink" href="https://en.wikipedia.org/wiki/Saugeen-Maitland_Hall#The_Saugeen_stripper">The Saugeen stripper<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is not one of them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DontExplainTheJoke" title="/pmwiki/pmwiki.php/Main/DontExplainTheJoke">Don't Explain the Joke</a>: Wikipedia is often guilty of this. Due to its nature, certain elements are explained in excruciating detail, frequently when it's not necessary.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Doorstopper" title="/pmwiki/pmwiki.php/Main/Doorstopper">Doorstopper</a>: Wikipedia has over 6 million articles, and that's just in the English edition. In printed form, Wikipedia has over 7,400 volumes. Each volume has 700 pages.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DriveByUpdater" title="/pmwiki/pmwiki.php/Main/DriveByUpdater">Drive-By Updater</a>: There are those who either only make a couple of edits or edit very infrequently. In an odd twist, even useful drive-by-edits are sometimes reverted.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>: This can often be seen by checking the edit history of an older article:<ul><li> Early articles didn't have wikilinks, categories, images, or footnotes. <em>Very</em> early articles (dating back to 2001) actually used a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CamelCase" title="/pmwiki/pmwiki.php/Main/CamelCase">CamelCase</a> wikilink style akin to what TV Tropes uses instead of the now-widespread markup used on nearly every other wiki.</li><li> Early articles often contain non-standard formatted lists, and contain links (to at least redirects, if not remaining articles), that would never be created now due to lack of "notability".</li><li> Until 2003, the site's address was wikipedia.com, not wikipedia.org.</li><li> Unregistered users were even allowed to create new articles until the 2005 <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia_Seigenthaler_biography_incident">Seigenthaler incident<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> resulted in article creation being restricted to registered users only.</li><li> Trivia sections were ubiquitous in articles until approximately 2008, when the site started cracking down on indiscriminate lists of facts in articles.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fancruft" title="/pmwiki/pmwiki.php/Main/Fancruft">Fancruft</a>: <a class="urllink" href="https://xkcd.com/446/">Referenced<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> by <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Xkcd" title="/pmwiki/pmwiki.php/Webcomic/Xkcd">xkcd</a></em> (again), and occurs in reality on some pages. The page for Earth used to have "DO NOT REPLACE THIS PAGE WITH '<a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheHitchhikersGuideToTheGalaxy" title="/pmwiki/pmwiki.php/Franchise/TheHitchhikersGuideToTheGalaxy">Mostly harmless</a>' EVER." hidden in the markup. It still has "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriousBusiness" title="/pmwiki/pmwiki.php/Main/SeriousBusiness">Humorous references to the Douglas Adams novel 'Mostly harmless' as inappropriate content for this article</a>" on the talk page, and is semi-protected so that only registered users can edit it (for several reasons).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fannage" title="/pmwiki/pmwiki.php/Main/Fannage">Fannage</a>: They have, for instance, plot summaries of every single <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em> episode. Their coverage of <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheSimpsons" title="/pmwiki/pmwiki.php/WesternAnimation/TheSimpsons">The Simpsons</a></em> is also impressive, with about half the articles on that series are either good or featured articles. It's the same with <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/FinalFantasy" title="/pmwiki/pmwiki.php/Franchise/FinalFantasy">Final Fantasy</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Halo" title="/pmwiki/pmwiki.php/Franchise/Halo">Halo</a></em>. Cases like this, as well as what was once extensive articles of each <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Pokemon" title="/pmwiki/pmwiki.php/Franchise/Pokemon">Pok&eacute;mon</a></em> species, drew much criticism from both those who regarded these as mere fancruft or as examples of Wikipedia's unequal treatment of notability.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FauxtivationalPoster" title="/pmwiki/pmwiki.php/Main/FauxtivationalPoster">Fauxtivational Poster</a>: <a class="urllink" href="https://commons.wikimedia.org/wiki/File:Findyoursources.jpg">WIKIPEDIA / Find your own damn sources<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FrivolousLawsuit" title="/pmwiki/pmwiki.php/Main/FrivolousLawsuit">Frivolous Lawsuit</a>: Their page about <a class="urllink" href="https://en.wikipedia.org/wiki/Motion">legal motions<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> has "the defendant failed to greet the plaintiff while passing the latter on the street" as an example of a lawsuit that can be dismissed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IconicLogo" title="/pmwiki/pmwiki.php/Main/IconicLogo">Iconic Logo</a>: The puzzle globe dates to 2003; its first iteration had the pieces in different colors and blocks of text, in different languages, on it. Shortly after that, the more familiar version of the globe debuted, with all of the pieces light gray, and each having a letter/glyph on it. It stayed this way until May 2010, when a new version (which, unlike its predecessors, was an actual 3D rendering), with a darker gray, bigger pieces and corrected symbols on two of them, debuted; this is the one pictured above. It was revised again later that month, when the shade of gray was lightened to resemble its predecessor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Irony" title="/pmwiki/pmwiki.php/Main/Irony">Irony</a>: <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Deletion">The Deletion article was up for deletion by the deletion project.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JennysNumber" title="/pmwiki/pmwiki.php/Main/JennysNumber">Jenny's Number</a>: The Wikipedia entry for the <a class="urllink" href="https://en.wikipedia.org/wiki/Paste_(Unix)">Unix command "paste"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> includes 867-5309 as a number for "Jenny Igotit" ("I got it", a reference to the Tommy Tutone song).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LostInTranslation" title="/pmwiki/pmwiki.php/Main/LostInTranslation">Lost in Translation</a>: The Wikipedia Project has become so ubiquitous that fans have made their own wikis for specific subjects. Sites such as Teletraan 1 (which then became <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TFWikiDotNet" title="/pmwiki/pmwiki.php/Wiki/TFWikiDotNet">TFWiki.net</a>) for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Transformers" title="/pmwiki/pmwiki.php/Franchise/Transformers">Transformers</a></em> , Wookieepedia for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Star Wars</a></em> or Memory Alpha for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em> have become the go-to places for specifics on these franchises. Some cultures have even devoted entire wikis to a <em>single person</em>. In fact, the Japanese equivalent to "Google it" roughly means "check out its wiki".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Meido" title="/pmwiki/pmwiki.php/Main/Meido">Meido</a>: The various maintenance bots are sometimes personified as such.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoeAnthropomorphism" title="/pmwiki/pmwiki.php/Main/MoeAnthropomorphism">Moe Anthropomorphism</a>: Yes, they have their own one. In this case: Wikipe-tan, as seen on the image for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualNovel" title="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a> page.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrwellianEditor" title="/pmwiki/pmwiki.php/Main/OrwellianEditor">Orwellian Editor</a>: The Oversight feature was used to erase the nastiest of all edits, even from the page history. This was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">subverted</a> when the Oversight feature was replaced with the Suppression feature, which still removes the edit from view even from the admins, but its existence can be still be hinted at in the page history.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Pothole" title="/pmwiki/pmwiki.php/Main/Pothole">Pothole</a>: <a class="urllink" href="https://en.wikipedia.org/wiki/Sometimes">Sometimes<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="https://en.wikipedia.org/wiki/Taken">taken<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="https://en.wikipedia.org/wiki/To">to<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="https://en.wikipedia.org/wiki/Ludicrous">ludicrous<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="https://en.wikipedia.org/wiki/Extremes">extremes<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> - at least early in an article about a complex topic. <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:Piped_link">They call it a "piped link" or "piping"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, after the | character in the Usemod-inspired syntax that potholes on MediaWiki use.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Pun" title="/pmwiki/pmwiki.php/Main/Pun">Pun</a>: The article "<a class="urllink" href="https://en.wikipedia.org/wiki/List_of_cetaceans">List of cetaceans<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>" contains a thorough list of cetaceans, members of the whale family. In cases where a picture of said species is not available, the placeholder reads "cetacean needed".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDemonstratingArticle" title="/pmwiki/pmwiki.php/Main/SelfDemonstratingArticle">Self-Demonstrating Article</a>: <a class="urllink" href="https://en.wikipedia.org/wiki/Disambiguation_(disambiguation)">Disambiguation (disambiguation)<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriousBusiness" title="/pmwiki/pmwiki.php/Main/SeriousBusiness">Serious Business</a>:<ul><li> Wikipedians have long battled over notability and the appropriate range of topics Wikipedia should cover, resulting in <a class="urllink" href="https://en.wikipedia.org/wiki/Deletionism_and_inclusionism_in_Wikipedia">two schools of thought<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> called Inclusionism and Deletionism. Deletionism is usually the dominant philosophy in Wikipedia, even against the wishes of its founders. Just look at the flame war that erupted when founder Jimbo Wales <a class="urllink" href="https://www.latimes.com/entertainment/la-ca-webscout30sep30-story.html">tried to start an article about a South African restaurant<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, only to have it deleted almost immediately. Ironically, after the article was restored, it ultimately became a good article years later.</li><li> Reading discussion pages on <em>any</em> topic is likely to result in a lot of serious business.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SesquipedalianLoquaciousness" title="/pmwiki/pmwiki.php/Main/SesquipedalianLoquaciousness">Sesquipedalian Loquaciousness</a>: Played straight in some more technical articles and inverted in Simple English Wikipedia.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmallReferencePools" title="/pmwiki/pmwiki.php/Main/SmallReferencePools">Small Reference Pools</a>: One of the major underlying causes for conflict between Inclusionists and Deletionists, as well as systemic bias. If a Deletionist hasn't heard of something, it's <em>obviously</em> not notable:<ul><li> Wikipedia has had several infamous cases of this causing purges of articles dealing with various forms of new media. The late 2000s saw this primarily happen with webcomics, as was covered <a class="urllink" href="https://en.wikinews.org/wiki/Wikimedia_fundraiser_highlights_webcomic_community%27s_frustration_with_Wikipedia_guidelines">by Wikinews<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and <a class="urllink" href="https://www.theguardian.com/technology/2008/apr/10/wikipedia.internet">an editorial<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> at <em>The Guardian</em>. Articles on games, gaming history and culture <a class="urllink" href="https://www.raphkoster.com/2009/01/05/losing-mud-history/">are also<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> common targets. The 2010s saw this happen more commonly with <a class="twikilink" href="/pmwiki/pmwiki.php/Website/YouTube" title="/pmwiki/pmwiki.php/Website/YouTube">YouTube</a> personalities and their channels. It's <em>especially</em> been the case with video game and anime/manga characters, which are likely to be deleted if they don't have several sources discussing the characters themselves in detail, ideally full-page articles on them.</li><li> In 2017, a long-time and major Wikipedia contributor lamented the ongoing prevalence of deletionism, stating that the site was devolving <a class="urllink" href="https://boingboing.net/2017/02/14/watching-wikipedias-extincti.html">"like a dying coral reef."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> According to the author, it's affecting scientific articles, with the fate of an article on the blood protein hemovanadin cited as an example. The author blames the "bleaching of Wikipedia" on auto-flagging bots and people abusing speedy deletion rules without bothering to inspect flagged articles.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SugarAndIcePersonality" title="/pmwiki/pmwiki.php/Main/SugarAndIcePersonality">Sugar-and-Ice Personality</a>: If anyone's curious, Wikipedia <em>does</em> have a fun side to it. <a class="urllink" href="https://en.wikipedia.org/wiki/Category:Wikipedia_humor">Enjoy.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeAThirdOption" title="/pmwiki/pmwiki.php/Main/TakeAThirdOption">Take a Third Option</a>: Most deletion discussions are closed as "keep" or "delete". There is, however, a third option: merging; taking the information in an article and moving it to a subsection of a larger article on the same subject. The introduction of subsection linking has meant that despite claims that Deletionists rule Wikipedia, in many ways it was the Mergists who won. Some deletion discussions can end up closed for other reasons: either the page qualifies for a speedy deletion, so a discussion is redundant; the nominator withdraws without objection; no clear consensus in either direction is formed after several weeks; or the nomination is obvious <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Troll" title="/pmwiki/pmwiki.php/Main/Troll">Trolling</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeCodifier" title="/pmwiki/pmwiki.php/Main/TropeCodifier">Trope Codifier</a>: The MediaWiki software developed for Wikipedia and the style conventions set there have set audience expectations for reference wikis.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Troll" title="/pmwiki/pmwiki.php/Main/Troll">Troll</a>: Some people put either totally irrelevant things on the page (sometimes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">wiping the whole page in the process</a>) or mess it up by doing the summary wrong.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnPerson" title="/pmwiki/pmwiki.php/Main/UnPerson">Un-person</a>:<ul><li> A few topics can end up blacklisted to the point where searching for said topics will give no results and trigger the spam filter. Some websites, notably Examiner.com, are considered so toxic that the site will automatically prevent you from using it as a source.</li><li> The site's notability guidelines have resulted in several popular internet phenomena being barred from having articles for being "non-notable", with internet favorites <em><a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/TheTourettesGuy" title="/pmwiki/pmwiki.php/WebVideo/TheTourettesGuy">The Tourettes Guy</a></em> (which prompted the creators to <em>put up a petition</em> protesting the blacklist) and <em><a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/YuGiOhTheAbridgedSeries" title="/pmwiki/pmwiki.php/WebVideo/YuGiOhTheAbridgedSeries">Yu-Gi-Oh! The Abridged Series</a></em> (the latter of which has <em>every single</em> variation of the title locked from recreation) being infamous examples. <a class="twikilink" href="/pmwiki/pmwiki.php/WebAnimation/YouTubePoop" title="/pmwiki/pmwiki.php/WebAnimation/YouTubePoop">YouTube Poop</a> was also blacklisted for years until the mid 2010s, when slews of news reports and analysis of the trend caused the admins to finally relent.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UntitledTitle" title="/pmwiki/pmwiki.php/Main/UntitledTitle">"Untitled" Title</a>: Invoked with <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:TenPoundHammer%27s_Law">TenPoundHammer's Law<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, which was declared after a number of articles on forthcoming music albums were titled "[name of artist]'s [x]th album" and summarily deleted for containing nothing but speculation. The rule therefore states that any article with an Untitled Title name of that nature will very likely be deleted.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAllLiveInAmerica" title="/pmwiki/pmwiki.php/Main/WeAllLiveInAmerica">We All Live in America</a>: Wikipedians call this "systemic bias." Usually it's the result of editors adding information on a topic that's only relevant to their culture or country, and not an assumption that the rest of the world works the same way&mdash;but it's nevertheless jarring when it results in pages meant to cover topics relevant to another country or culture, instead covering its impact in the editors' own. <br><br>For that reason, Wikipedians <a class="urllink" href="https://en.wikipedia.org/wiki/Template:Systemic_bias">developed templates<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> for flagging a page as being too narrow in focus (depending on the country or culture getting excessive representation). In fact, the early versions of these systemic bias templates were an ironic example of this, as their initial designers assumed that ignorant Americans thinking that the rest of the world was like America were the cause of systemic bias (and made some rather patronizing templates as a result). As it happens, editors of <em>any</em> culture, language group, or country can and do cause systemic bias, especially if they make up the majority of a wiki's user base.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaselWords" title="/pmwiki/pmwiki.php/Main/WeaselWords">Weasel Words</a>: They<span class="font-s"><sup>[<em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDemonstratingArticle" title="/pmwiki/pmwiki.php/Main/SelfDemonstratingArticle">who?</a></em>]</sup></span> hate it when it shows up.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WikiCurator" title="/pmwiki/pmwiki.php/Main/WikiCurator">Wiki Curator</a>: On some pages, you will find overzealous curators. One minor, innocuous edit to a page and it's reverted <em>fast</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WikiVandal" title="/pmwiki/pmwiki.php/Main/WikiVandal">Wiki Vandal</a>: Overt vandalism is reverted rapidly, but more subtle vandalism has been known to last months or <em>years</em>, particularly on less-traveled pages. As such, this is one of the common complaints about Wikipedia. Some really outrageous claims in articles are often supported by nothing but the "citation needed" tag.<span class="font-s"><sup>[<em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDemonstratingArticle" title="/pmwiki/pmwiki.php/Main/SelfDemonstratingArticle">citation needed</a></em>]</sup></span> In fact, the longest time a hoax article stayed <a class="urllink" href="https://en.wikipedia.org/wiki/Wikipedia:List_of_hoaxes_on_Wikipedia#Extant_for_10+_years">was 14 years<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WikiWalk" title="/pmwiki/pmwiki.php/Main/WikiWalk">Wiki Walk</a>: While not <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife" title="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife">as big a problem as with us</a>, you can still go on especially long walks there, since it is the largest wiki out there. There's even a website that turned this into a game, <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheWikiGame" title="/pmwiki/pmwiki.php/VideoGame/TheWikiGame">The Wiki Game</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WikipediaSyntaxer" title="/pmwiki/pmwiki.php/Main/WikipediaSyntaxer">Wikipedia Syntaxer</a>: The original and trope namer.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Xenofiction" title="/pmwiki/pmwiki.php/Main/Xenofiction">Xenofiction</a>: Well, except the "fiction" bit. The <a class="urllink" href="https://en.wikipedia.org/wiki/Human">Human<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> article reads as though it was written by alien scientists observing us. It even lists the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EndangeredSpecies" title="/pmwiki/pmwiki.php/Main/EndangeredSpecies">conservation status</a> according to the IUCN red list: "least concern".</li></ul><hr>
+</div>
+<div class="alt-titles section section-fact">
+<h3>
+<strong>Alternative Title(s):</strong>
+<span>The Other Wiki</span>, <span>That Other Wiki</span> </h3>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/Transformers">Transformers</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TropeOverdosed">Trope Overdosed</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/WonderWoman">Wonder Woman</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WeUsedToBeFriends">We Used to Be Friends</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Pt/IndiceDeTraducao">Pt/Índice de Tradução</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Administrivia/WikiMagic">Wiki Magic</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Ride/JimmyNeutronsNicktoonBlast">Jimmy Neutron's Nicktoon Blast</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/Rugrats">Franchise/Rugrats</a>
+</li>
+<li>
+
+<a href="/pmwiki/pmwiki.php/VideoGame/RugratsCastleCapers">Rugrats Castle Capers</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/NonFatalExplosions">Non-Fatal Explosions</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TruthInTelevision/MToO">TruthInTelevision/M to O</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/NonSequitur">Non Sequitur</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/WhoseLineClub">Whose Line Club</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/OtherSites">Other Sites</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/Wisecrack">Wisecrack</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/Transformers">Transformers</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeOverdosed">JustForFun/Trope Overdosed</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/WonderWoman">Wonder Woman</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/Regretsy">Regretsy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WebFirst">Web First</a>
+</li>
+<li>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FingerExtinguisher">Finger Extinguisher</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/Internet">ImageSource/Internet</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ButterflyKnife">Butterfly Knife</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/HigurashiWhenTheyCry">Higurashi: When They Cry</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeOverdosedFranchises">JustForFun/Trope Overdosed Franchises</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/TheXFiles">The X-Files</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Yuppie">Yuppie</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/QuoteSource/Internet">QuoteSource/Internet</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AcePilot">Ace Pilot</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+ <li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div>  </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

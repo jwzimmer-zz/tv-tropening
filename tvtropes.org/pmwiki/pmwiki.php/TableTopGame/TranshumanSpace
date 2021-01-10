@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Transhuman Space (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Transhuman Space is a Hard Science Fiction role-playing game setting for GURPS, published by Steve Jackson Games. It features a lot of advanced biotech, &quot; &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/TranshumanSpace" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Transhuman Space (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Transhuman Space is a Hard Science Fiction role-playing game setting for GURPS, published by Steve Jackson Games. It features a lot of advanced biotech, &quot; &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/transhumanspace_4501.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Transhuman Space (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/TranshumanSpace" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/transhumanspace_4501.jpg" />
+<meta property="og:description" content="Transhuman Space is a Hard Science Fiction role-playing game setting for GURPS, published by Steve Jackson Games. It features a lot of advanced biotech, &quot;wet&quot; (biologically-based) nanotech, the colonisation of the Solar System (including the &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/HumanMomNonhumanDad" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Music/Deltron3030" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/TranshumanSpace?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/TranshumanSpace">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.TranshumanSpace">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=TranshumanSpace&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.TranshumanSpace">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/TranshumanSpace?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="TranshumanSpace" />
+<input type="hidden" id="article_id" value="317641" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/TranshumanSpace</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Transhuman Space
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Transhuman Space"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/TranshumanSpace" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TranshumanSpace" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/TranshumanSpace" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/TranshumanSpace" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/TranshumanSpace?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/TranshumanSpace?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/TranshumanSpace?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/TranshumanSpace?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/TranshumanSpace?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/TranshumanSpace?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/TranshumanSpace?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/TranshumanSpace?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/TranshumanSpace?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/TranshumanSpace?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/TranshumanSpace?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/TranshumanSpace?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/TranshumanSpace?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/TranshumanSpace?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/TranshumanSpace?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/TranshumanSpace?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:231px;"><div class="lazy_load_img_box" style="padding-top:129.87%"><img src="https://static.tvtropes.org/pmwiki/pub/images/transhumanspace_4501.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/transhumanspace_4501.jpg" width="231" height="300"></div></div><div class="acaptionright" style="width:231px;">The Main Book Cover. See the note on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtStyleDissonance" title="/pmwiki/pmwiki.php/Main/ArtStyleDissonance">Art-Style Dissonance</a>.</div><p></p><div class="indent"><em>"In the last decade of the 21st century, humanity faced two of its greatest challenges. The first was the transformation from a single, evolved species to a multitude of artificial races. The second was the settlement of the vast reaches of the solar system. Away from the prying eyes of Earth, space-going transnationals developed technologies that governments feared to investigate but could not ignore, while bizarre posthuman cultures bloomed like exotic flowers. It was a time of wealth and adventure, of transformation and terror. It was the age of <strong>Transhuman Space</strong>."</em><div class="indent">&mdash; From the Introduction to <em>Transhuman Space</em></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Transhuman Space</em> is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness" title="/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness">Hard</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceFiction" title="/pmwiki/pmwiki.php/Main/ScienceFiction">Science Fiction</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TabletopGames" title="/pmwiki/pmwiki.php/Main/TabletopGames">role-playing game setting</a> for <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a>, published by Steve Jackson Games. It features a lot of advanced biotech, "wet" (biologically-based) nanotech, the colonisation of the Solar System (including the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Terraform" title="/pmwiki/pmwiki.php/Main/Terraform">terraforming</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Mars" title="/pmwiki/pmwiki.php/UsefulNotes/Mars">Mars</a>), human personalities uploaded to computers, advanced artificial intelligence, and a politically multi-polar world.</p><p></p><hr><h2>This RPG setting provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FourOneNineScam" title="/pmwiki/pmwiki.php/Main/FourOneNineScam">419 Scam</a>: One such scam is used as chapter fiction in <em>Toxic Memes</em>, allegedly from the wife of the former dictator of Thailand.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimalWrongsGroup" title="/pmwiki/pmwiki.php/Main/AnimalWrongsGroup">Animal Wrongs Group</a>: Many Preservationist organizations such as the anti-gengineering terrorist group Blue Shadow and anti-terraforming Europa Defense Front.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmCannon" title="/pmwiki/pmwiki.php/Main/ArmCannon">Arm Cannon</a>: Present in a realistic version of the mundane type, in the form of "weapon pods"; forearm-mounted modules, usually with two different guns integrated into them. (In fact, these appear in the game because one or two discussions of possible future infantry equipment at the time of its publication actually included the idea.)</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialCannibalism" title="/pmwiki/pmwiki.php/Main/ArtificialCannibalism">Artificial Cannibalism</a>: One of the weird subcultures that have sprung up is "Clonabilism", in which people eat cultured protein cloned from themselves. The frontispeice of Toxic Memes shows a man cheerfully eating a duplicate of his own head, which looks equally cheerful.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialGravity" title="/pmwiki/pmwiki.php/Main/ArtificialGravity">Artificial Gravity</a>: Scrupulously averted. The only way to get (pseudo-)gravity in (Transhuman) space is by the appropriately hard SF means of acceleration or spin &mdash; and although a few spacecraft have "spin pods", most space travellers have to get used to not having gravity. Advanced biotech and nanotech are used to negate the negative medical effects, where necessary.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialHuman" title="/pmwiki/pmwiki.php/Main/ArtificialHuman">Artificial Human</a>: Bioroids &mdash; biological androids &mdash; are <em>products</em>, with all that implies. Indeed, one or two designs verge on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoddyKnockoffProduct" title="/pmwiki/pmwiki.php/Main/ShoddyKnockoffProduct">Shoddy Knockoff Product</a> status.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialZombie" title="/pmwiki/pmwiki.php/Main/ArtificialZombie">Artificial Zombie</a>:<ul><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> "Necromorph bioshells" are brain-dead but otherwise functional or repairable corpses (sometimes deliberately created by killing unfortunate victims in a controlled manner) with the brain replaced by a computer, usually then operated by a compliant AI. The trope is usually averted in the sense that the AI is usually as reliable as any in the setting, giving the "zombie" no particular reason to misbehave &mdash; unless it's programmed malevolently, perhaps to use the necromorph as a terror weapon.</li><li> Certainly, necromorphs, and indeed most human-looking AI-controlled bioshells, are regarded with suspicion in parts of the setting, being more or less regarded as horrific zombies.</li><li> The one exception, in some places, is a bioshell body controlled by the digital ghost of the formerly-organic-living person on whom it was based. Of course, if the ghost proves defective, you may have something of a scientifically-created zombie on your hands.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtStyleDissonance" title="/pmwiki/pmwiki.php/Main/ArtStyleDissonance">Art-Style Dissonance</a>: Many of the setting's fans consider that it suffered from this problem, as the art in early books in the line seemed to imply a much higher level of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a> than the writers intended.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsteroidMiners" title="/pmwiki/pmwiki.php/Main/AsteroidMiners">Asteroid Miners</a>: There are some around, though this aspect of Solar System development is less emphasised than in some settings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackDrone" title="/pmwiki/pmwiki.php/Main/AttackDrone">Attack Drone</a>: With robotics this advanced, a lot of warfare is inevitably conducted by automated systems of one sort or another. Some, such as spacefaring Autonomous Kill Vehicles (AKVs), can also ram if required, making them into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecursiveAmmo" title="/pmwiki/pmwiki.php/Main/RecursiveAmmo">Recursive Ammo</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalkanizeMe" title="/pmwiki/pmwiki.php/Main/BalkanizeMe">Balkanize Me</a>: There are many "free cities", and Canada has become a patchwork of countries, some of which are EU members. The US hasn't splintered, but many <em>states</em> have; there are now 60, some of which are free cities within the union. (Most of Washington, conversely, is now part of Maryland; the District of Columbia barely extends beyond the White House.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigfootSasquatchAndYeti" title="/pmwiki/pmwiki.php/Main/BigfootSasquatchAndYeti">Bigfoot, Sasquatch and Yeti</a>: The secret Society for Applied Teratology (detailed in the <em>Toxic Memes</em> supplement) recreates famous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurCryptidsAreMoreMysterious" title="/pmwiki/pmwiki.php/Main/OurCryptidsAreMoreMysterious">cryptozoological species</a> by advanced bioengineering, mostly to make the world a more interesting place. Their Bigfoot has been their biggest success, although there are hints that there may be a terrible problem with the trick.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigRedButton" title="/pmwiki/pmwiki.php/Main/BigRedButton">Big Red Button</a>: The "C-Brown" cybershell (robot body) is designed for perfectly innocuous purposes &mdash; as a gardening tool. However, this means that it mounts a faintly scary array of clippers and shears. Rather than spending too much effort trying to convince the public that this is an entirely safe piece of machinery, the manufacturers install big red off buttons on the front and back of the cybershell.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BioAugmentation" title="/pmwiki/pmwiki.php/Main/BioAugmentation">Bio-Augmentation</a>: Biomods.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BiotechIsBetter" title="/pmwiki/pmwiki.php/Main/BiotechIsBetter">Biotech Is Better</a>: Biotech is generally preferred when possible, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialHuman" title="/pmwiki/pmwiki.php/Main/ArtificialHuman">bioroids</a> are cheaper than sapient androids. This is changing in the Fifth Wave, however, as the sheer variety of technological fields expands dramatically, and meat is increasingly seen as obsolete compared to AI and nanotech.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoardingPod" title="/pmwiki/pmwiki.php/Main/BoardingPod">Boarding Pod</a>: "Microgravity Assault Vehicles" exist in the setting, although they're not expected to be used in every space battle &mdash; and boarding actions are noted as being tricky and dangerous.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a>: Evoked by the <em>art</em> in some of the early books, which appears to have been created by someone with a more negative view of the setting than many of the writers. That said, there are incidental details throughout the books that show that <em>some</em> biotechnologists in the setting take their work into more or less squicky territory.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainComputerInterface" title="/pmwiki/pmwiki.php/Main/BrainComputerInterface">Brain&#150;Computer Interface</a>: Pretty much the only cybernetics still in common use.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainUploading" title="/pmwiki/pmwiki.php/Main/BrainUploading">Brain Uploading</a>: Two kinds; <em>"Ghosts"</em> where the brain is destroyed in the process, and <em>"Shadows"</em>, where the brain survives but the AI simulation is an unreliable model at best.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatGirl" title="/pmwiki/pmwiki.php/Main/CatGirl">Cat Girl</a>:<ul><li> See the Felicia-model bodyguard bioroid (sort of an organic robot built out of flesh and nanotech systems, as opposed to a grown organism with its own genome). Though they don't necessarily have to be girls; catboys are an option as well.</li><li> There are also other catgirl bioroid models, built purely as sex toys rather than for combat. Getting them confused is a great way to annoy a Felicia.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChinaTakesOverTheWorld" title="/pmwiki/pmwiki.php/Main/ChinaTakesOverTheWorld">China Takes Over the World</a>: It's the main military power, with the EU as generally the most advanced technological power. America is a close second for both. China's most frequent and direct antagonist on Earth, though, is the "Transpacific Socialist Alliance". (It gets complicated there.) Also, China has taken over half of <em>Mars</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChummyCommies" title="/pmwiki/pmwiki.php/Main/ChummyCommies">Chummy Commies</a>: The infosocialist opposition in Europe and India are mostly firmly democratic socialist in orientation, seeing freedom of information as a path to greater human prosperity. In Europe, they tend to be mostly disaffected college students, but India has a serious infosocialist party who have a shot at winning an election and shaking the world order.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Chupacabra" title="/pmwiki/pmwiki.php/Main/Chupacabra">Chupacabra</a>: The secret Society for Applied Teratology (detailed in the <em>Toxic Memes</em> supplement) recreates famous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurCryptidsAreMoreMysterious" title="/pmwiki/pmwiki.php/Main/OurCryptidsAreMoreMysterious">cryptozoological species</a> by advanced bioengineering, mostly to make the world a more interesting place. Their chupacabra (covered in more detail in <em>Bio-Tech 2100</em>) has been a small-scale success.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChurchOfHappyology" title="/pmwiki/pmwiki.php/Main/ChurchOfHappyology">Church of Happyology</a>: Ecoherence, a religion built from the ground up on memetic techniques, is a spin on this based on memetically-reinforced power hierarchies, advancement between which just happens to involve the spending of large amounts of money. The organization's meme team also has a secret "direct action" unit attached.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloningBodyParts" title="/pmwiki/pmwiki.php/Main/CloningBodyParts">Cloning Body Parts</a>: Cybernetics are considered obsolete. Nearly everyone waits a couple of weeks for a cloned body part instead of just printing off a prosthesis.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContagiousAI" title="/pmwiki/pmwiki.php/Main/ContagiousAI">Contagious A.I.</a>: Any infomorph can transfer from one computer to another, if authorized, but "gypsy" AIs have a habit of cracking into hardware unauthorized and overwriting the original software. The more cautious ones, however, do not multiply themselves this way; rogue "xox" AIs living up to this trope, swarming and taking over the global Net (which is assumed to lead to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotWar" title="/pmwiki/pmwiki.php/Main/RobotWar">Robot War</a>) are specifically one of the public nightmares of the setting, and any who try this will be hunted down and obliterated as soon as they are identified. The most dangerous rogues tend to have been created as software weapons in old wars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolestClubEver" title="/pmwiki/pmwiki.php/Main/CoolestClubEver">Coolest Club Ever</a>: Polyhymnia, from the published scenario of the same name, is so exclusive that it doesn't have a Wannabe Line, because the Wannabes never know where it is. It's constantly moving, and constantly changing who it's aimed at, but clever memetics ensure that the "right" people get drawn to it, seemingly by coincidence.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CultColony" title="/pmwiki/pmwiki.php/Main/CultColony">Cult Colony</a>: A few eccentric cults have orbital or asteroid communities, although these tend to look more like bases (resembling monasteries or mansions) than full-scale colonies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberpunk" title="/pmwiki/pmwiki.php/Main/Cyberpunk">Cyberpunk</a>: Significant parts of the world fit this genre, as less-advanced areas of the world are exploited by corporations. In these areas, tech is less unified and all-encompassing, with both obsolete equipment and cutting-edge <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlawedPrototype" title="/pmwiki/pmwiki.php/Main/FlawedPrototype">Flawed Prototype</a> equipment on the market, and technology is even more likely to be a tool of oppression than it is in the Fifth Wave due to horrible gaps between haves and have-nots.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Dateline" title="/pmwiki/pmwiki.php/Main/Dateline">Dateline</a>: "Teralogos News" is a major news corporation in the setting, and <a class="urllink" href="http://www.sjgames.com/transhuman/teralogos/">a collection of Teralogos News reports is available for free online<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> as support material for the game line. These come complete with classic-style datelines, and include the occasional <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanInterestStory" title="/pmwiki/pmwiki.php/Main/HumanInterestStory">Human-Interest Story</a>, drama reviews, and so on, as well as actual news stories.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathByOriginStory" title="/pmwiki/pmwiki.php/Main/DeathByOriginStory">Death by Origin Story</a>: Given the option to play digital "ghosts", it's entirely possible to have a PC's death as part of their background story. Running a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhodunnitToMe" title="/pmwiki/pmwiki.php/Main/WhodunnitToMe">Whodunnit to Me?</a> mystery as the character's first scenario is strictly optional, but has been known.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathIsCheap" title="/pmwiki/pmwiki.php/Main/DeathIsCheap">Death Is Cheap</a>: Infomorphs get the "Extra Life" trait to represent backups, and even flesh and blood humans have a chance of surviving things that would kill them in most settings &mdash; albeit possibly only as software.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DecadeDissonance" title="/pmwiki/pmwiki.php/Main/DecadeDissonance">Decade Dissonance</a>: One of the core themes of the game is that, while technology has advanced at lightning speed, much of the world has been left behind and the technology in many areas hasn't advanced much from today's. So while one country might be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostCyberpunk" title="/pmwiki/pmwiki.php/Main/PostCyberpunk">an advanced Fifth Wave utopia</a>, its neighbor might be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberpunk" title="/pmwiki/pmwiki.php/Main/Cyberpunk">a poverty-ridden hellhole</a>. Even within countries, some places have failed to advance; Marseilles and Los Angeles, among others, are third-world enclaves within hyperdeveloped nations, and China never really managed to upgrade its interior into the 20th century, let alone the 21st.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DigitalPiracyIsEvil" title="/pmwiki/pmwiki.php/Main/DigitalPiracyIsEvil">Digital Piracy Is Evil</a>: Probably the most massively-funded meme in the world (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>), enforced by a World Trade Organization with broad law enforcement powers everywhere in the world except for the Transpacific Socialist Alliance, and supported by a constant global memetic campaign by the WTO, China, the US, and corporations who have an interest in controlling information rights.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DigitalPiracyIsOkay" title="/pmwiki/pmwiki.php/Main/DigitalPiracyIsOkay">Digital Piracy Is Okay</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, the concepts of infosocialism and nanosocialism are broadly a rejection of the global copyright paradigm, and the Transpacific Socialist Alliance are the new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyCommies" title="/pmwiki/pmwiki.php/Main/DirtyCommies">Dirty Commies</a> because of their adoption of the ideology. Also, the ideology is growing popular among the opposition in India and Europe, though both groups are very unhappy with the TSA (because most TSA member nations are some form of repressive dictatorship).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyCommies" title="/pmwiki/pmwiki.php/Main/DirtyCommies">Dirty Commies</a>: Most of the current governments in the TSA are Party dictatorships similar to the old Eastern Bloc. This is, of course, exploited by the powers of the capitalist world (particularly "Communist" China) to paint all nanosocialists as this, to the annoyance of the democratic nanosocialist movements in India and Europe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DropShip" title="/pmwiki/pmwiki.php/Main/DropShip">Drop Ship</a>: A few such vehicles exist, although the dangers of attempting a landing in the face of hostile fire on planets such as Earth are generally overwhelming. Funnily enough, perhaps the most noted users of drop ships, specifically called such, are a <em>humanitarian <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Rescue" title="/pmwiki/pmwiki.php/Main/Rescue">rescue</a> organisation,</em> who don't usually have to worry about being shot at on the way down.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasySexChange" title="/pmwiki/pmwiki.php/Main/EasySexChange">Easy Sex Change</a>: Explicitly a feature of the setting, thanks to the general level of advanced biotechnology, and quite a few people are said to take advantage, permanently or temporarily. However, it doesn't seem to come up much in the game beyond the initial mention.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRacism" title="/pmwiki/pmwiki.php/Main/FantasticRacism">Fantastic Racism</a>: Against bioroids, artificial intelligences, ghosts, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpliftedAnimal" title="/pmwiki/pmwiki.php/Main/UpliftedAnimal">animal uplifts</a>... although each society tends to have different biases.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiveManBand" title="/pmwiki/pmwiki.php/Main/FiveManBand">Five-Man Band</a>: The line of <em>Personnel Files</em> supplements, providing ready-made PC groups, include a number some that fit this trope fairly well:<ul><li> <em><a class="urllink" href="http://www.sjgames.com/transhuman/personnel2/">Personnel Files 2<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>: Leader, Rachel Patel; Lancer, Professor Lawson; Big Guy, Steven Smith; Smart Guy, ASTRAKAHN-Delta; Chick, Sally Westerham.</li><li> <em><a class="urllink" href="http://www.sjgames.com/transhuman/personnel4/">Personnel Files 4<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>: Leader, Diego Hughes; Lancer, Paul Chung; Big Guy, Charlie Mallinson; Smart Guy, OVERSIGHT; Chick, Paz Ramirez.</li><li> <em><a class="urllink" href="http://www.sjgames.com/transhuman/personnel5/">Personnel Files 5<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>: Leader, Mike Harris; Lancer, Denise Walsh (although her intelligence and talents may take her toward Smart Girl status); Big Guy, Dave Sheckley (employing his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotBuddy" title="/pmwiki/pmwiki.php/Main/RobotBuddy">Robot Buddy</a> Charlie as muscle); Smart Guy, Ian Chakrabarti (albeit mostly by dint of social skills rather than raw IQ, and his ambitions may make him try to play the Leader or at least the Lancer when he can); Chick, Catherine Moltby.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FixedForwardFacingWeapon" title="/pmwiki/pmwiki.php/Main/FixedForwardFacingWeapon">Fixed Forward-Facing Weapon</a>: Bigger military spacecraft often mount "spinal" particle accelerator weapons. (A particle accelerator has to be a long straight tube, and the rules permit these to be between 50 and 400 feet long, so more flexible mounts are infeasible.) Smaller fighters and the like also usually have fixed weapons, for much the same reasons as they do today.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FutureFoodIsArtificial" title="/pmwiki/pmwiki.php/Main/FutureFoodIsArtificial">Future Food Is Artificial</a>: Probably inevitable in a high-biotech future, at least in places.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GirlNextDoor" title="/pmwiki/pmwiki.php/Main/GirlNextDoor">Girl Next Door</a>: Among the various designs of companion/sex-toy bioroids, one type is specifically designed to match this stereotype. Some customers in the setting want that.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GogglesDoSomethingUnusual" title="/pmwiki/pmwiki.php/Main/GogglesDoSomethingUnusual">Goggles Do Something Unusual</a>: Many people in the setting wear glasses or goggles with miniature computers built into the frames, and heads-up displays in the lenses. (Indeed, given that the local medical technology must be well up to fixing most forms of poor vision, this may be the <em>main</em> reason that anyone wears glasses in 2100.) It's also entirely possible for those computers to run low-end artificial intelligences. Hence, some PCs can and do treat their glasses or goggles as NPC Allies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality" title="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality">Gray-and-Grey Morality</a>: Most of the setting falls under this; just nations and other organizations trying to uphold their varying ideals and competing for power, and even groups like the Chinese Communist Party are normally amoral rather than evil, while the Transpacific Socialist Alliance fights for freedom of information but is largely led by third-world dictators. There are exceptions to this who fit more under black morality (such as the dictator of Kazakstan).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomingProjectile" title="/pmwiki/pmwiki.php/Main/HomingProjectile">Homing Projectile</a>: With advanced computing and widespread microtechnology, even handgun bullets can have some homing capability.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSubspecies" title="/pmwiki/pmwiki.php/Main/HumanSubspecies">Human Subspecies</a>: Several, ranging from "upgrades" that have slight improvements and are still interfertile with ordinary humans, to "parahumans" that are effectively different species and include adaptations to life underwater, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePeople" title="/pmwiki/pmwiki.php/Main/SpacePeople">microgravity</a>, or a semi-terraformed Mars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowMortalKombat" title="/pmwiki/pmwiki.php/Main/IKnowMortalKombat">I Know Mortal Kombat</a>: The <em>Martial Arts 2100</em> supplement includes mention of a computer program that can analyse video recordings of combat, reverse-engineer the combat style being used, and generate a training system to teach that style. This has been used to resurrect some defunct martial arts systems of which recordings exist. The software has also been fed some fictional martial arts scenes, but with limited success; it tends to generate &#147;artistic&#148; combat sytems that look fancy but are little use in a real fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImmortalRuler" title="/pmwiki/pmwiki.php/Main/ImmortalRuler">Immortal Ruler</a>: The Kazakhstani dictator <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TotalitarianUtilitarian" title="/pmwiki/pmwiki.php/Main/TotalitarianUtilitarian">Zarubayev</a> hogs all transhumanist tech available in his country to cling to life indefinitely through <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyborg" title="/pmwiki/pmwiki.php/Main/Cyborg">Cyborg</a> modifications, as well as to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrushingThePopulace" title="/pmwiki/pmwiki.php/Main/CrushingThePopulace">Crush the Populace</a> through mind-manipulation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IndustrializedMercury" title="/pmwiki/pmwiki.php/Main/IndustrializedMercury">Industrialized Mercury</a>: Mercury is the Solar System's capital of antimatter production (used for catalyzing fusion drives).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantExpert" title="/pmwiki/pmwiki.php/Main/InstantExpert">Instant Expert</a>: An option in the game &#151; but only for artificial intelligences, which can be designed with interfaces allowing them to be given access to useful skills in the form of software. However, the benefits are somewhat downplayed, in that plug-in skill use is penalised in high-stress situations such as combat, because the plug-in skill isn&#146;t bedded in like a &#147;real&#148; skill.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterspeciesRomance" title="/pmwiki/pmwiki.php/Main/InterspeciesRomance">Interspecies Romance</a>: The "Real Love" movement holds that relationships within the same species are inherently narcissistic, incestuous and tainted by reproductive urges, and that Real Love can only be found cross-species. Its most famous proponent is an uplifted pleasure octopus.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedExtraLives" title="/pmwiki/pmwiki.php/Main/JustifiedExtraLives">Justified Extra Lives</a>: Infomorph characters (artificial intelligences and ghosts) are able to store backups of themselves on secure servers &mdash; so if their current incarnations die, they can easily be restored (though they do lose their memories of everything that happened since the last backup).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KaleidoscopeHair" title="/pmwiki/pmwiki.php/Main/KaleidoscopeHair">Kaleidoscope Hair</a>: As a bit of, ah, background color, cosmetic nanotechnology allows characters to change hair color on whim &#151; and even to use their hair as a video display.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KineticWeaponsAreJustBetter" title="/pmwiki/pmwiki.php/Main/KineticWeaponsAreJustBetter">Kinetic Weapons Are Just Better</a>: The trope is front and centre here. Personal laser weapons suffer from power supply problems, whereas bullets still work just fine. However, vehicles can carry their own power plants, which can be sufficient to power useful energy weapons &mdash; and spacecraft especially don't have to worry about certain problems with energy beams in atmosphere. So the trope is enforced less at that scale.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserSight" title="/pmwiki/pmwiki.php/Main/LaserSight">Laser Sight</a>: The settings's advanced firearms tend to include all sorts of aids as standard, including this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LensFlare" title="/pmwiki/pmwiki.php/Main/LensFlare">Lens Flare</a> shows up in some of the art, notably in <em><a class="urllink" href="http://www.sjgames.com/transhuman/spacecraft/">Spacecraft of the Solar System<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>. This has sometimes irritated some fans, who feel that it doesn't suit the hard SF style of the setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LibertariansInSpace" title="/pmwiki/pmwiki.php/Main/LibertariansInSpace">Libertarians IN SPACE!</a>: The "Duncanite" communities of the Asteroid Belt are <em>trying</em> to live this trope. Governments elsewhere in the setting mostly seem to regard them as a negligible nuisance at worst, and are expanding into space vigorously enough that the Duncanites will probably have either to compromise their ideals or withdraw to the outer solar system quite soon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingToys" title="/pmwiki/pmwiki.php/Main/LivingToys">Living Toys</a>: With the advanced AI, robotics, and microbot technology, this trope is trivial to instantiate. However, small toys don't generally have the computer capacity to run self-aware AI.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LongevityTreatment" title="/pmwiki/pmwiki.php/Main/LongevityTreatment">Longevity Treatment</a>: There are a couple of nanosymbionts that extend life expectancy by ten years or so each. Rejuvenation is expensive and unreliable, but actually reverses aging.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadeOfIron" title="/pmwiki/pmwiki.php/Main/MadeOfIron">Made of Iron</a>: Submissa series bioroids are canonically intended for <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/BDSM" title="/pmwiki/pmwiki.php/UsefulNotes/BDSM">BDSM</a> play; they're actually tougher than the Spartan series <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Supersoldier</a> bioroids. The effect is less pronounced in Fourth Edition (due to Hit Points being calculated from Strength, not Health).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMafiya" title="/pmwiki/pmwiki.php/Main/TheMafiya">The Mafiya</a>: Humorously, the former Russian Mafia ceased to exist as such in 2029, because it was the only functioning pillar of society after a failed military coup, which in turn forced it to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BecomingTheMask" title="/pmwiki/pmwiki.php/Main/BecomingTheMask">act like a legitimate government and a pillar of society</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagneticWeapons" title="/pmwiki/pmwiki.php/Main/MagneticWeapons">Magnetic Weapons</a>: Railguns and coilguns show up in the setting as vehicular weapons. Personal firearms can't incorporate big enough batteries to make them more useful than chemical-propellent slugthrowers, but vehicle power plants are up to the job.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeatSackRobot" title="/pmwiki/pmwiki.php/Main/MeatSackRobot">Meat-Sack Robot</a>: Bioroids are largely biological entities assembled by nanites over a polymer-lattice skeleton. Bioshells are bioroids, or sometimes reanimated corpses, with computers in place of brains so that they may host an AI or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VirtualGhost" title="/pmwiki/pmwiki.php/Main/VirtualGhost">Virtual Ghost</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>: Transnational corporations are a thing, but the trope is used very differently in this setting. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneNationUnderCopyright" title="/pmwiki/pmwiki.php/Main/OneNationUnderCopyright">One Nation Under Copyright</a> doesn't exist, and while amoral and focused on the bottom line, most companies are fairly good global citizens; overtly villainous behavior is relatively uncommon. (Well, unless you're an infosocialist; then their very existence is a blight upon the world.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MemeticsInFiction" title="/pmwiki/pmwiki.php/Main/MemeticsInFiction">Memetics in Fiction</a>: Memetics is a mature science by the 22nd century, appearing in many places in the setting. <span class="spoiler" title="you can set spoilers visible by default on your profile">For example, Peru is working on a meme they believe can make the TSA culturally invincible</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MentalSpaceTravel" title="/pmwiki/pmwiki.php/Main/MentalSpaceTravel">Mental Space Travel</a>: Infomorphs can transmit their code all across the solar system if they have a shell on the other side. But they can't "write" an Infomorph to a biological brain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MicrobotSwarm" title="/pmwiki/pmwiki.php/Main/MicrobotSwarm">Microbot Swarm</a>: Microbots are a standard feature of the setting&#146;s technology, used for all sorts of functions from cleaning to espionage and combat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiddleEasternCoalition" title="/pmwiki/pmwiki.php/Main/MiddleEasternCoalition">Middle Eastern Coalition</a>: The Islamic Caliphate, a power bloc governing the Middle East from Syria to Oman, though the individual governments remain intact and the Caliph's power is mostly advisory. (<em>Mostly.</em> The Ghazi special forces are a fully Fifth Wave military force answerable to the Caliphate alone, and the Caliphate operates a subtle and sophisticated <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PropagandaMachine" title="/pmwiki/pmwiki.php/Main/PropagandaMachine">Propaganda Machine</a> designed to keep things a lot more unified than they may appear at first glance.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeoAfrica" title="/pmwiki/pmwiki.php/Main/NeoAfrica">Neo-Africa</a>: Most of the world is preppy <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostCyberpunk" title="/pmwiki/pmwiki.php/Main/PostCyberpunk">Post-Cyberpunk</a>, but bits of Africa are still fairly straight <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberpunk" title="/pmwiki/pmwiki.php/Main/Cyberpunk">Cyberpunk</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed" title="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed">No Transhumanism Allowed</a>: Largely averted, though various societies ban some transhumanist technologies &mdash; the Islamic Caliphate bans ghosts, the European Union bans radical human genetic engineering, and so on.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoWomansLand" title="/pmwiki/pmwiki.php/Main/NoWomansLand">No Woman's Land</a>: Saudi Arabia, and the rest of the Arabian Peninsula to a lesser degree, remains very conservative in terms of women's rights. The Levant and Iraq, however, allow women fully equal rights with men, and the headscarf is a matter of fashion rather than law (as of 2100, it's going back out of style). The difference dates back to the early 21st century, and the Caliph decided to make women's rights a local issue rather than pick a side and split the Caliphate over it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneGenderRace" title="/pmwiki/pmwiki.php/Main/OneGenderRace">One-Gender Race</a>: Hyppolyta parahumans, created for a female-separatist space station. Ironically, gender identities have become a lot more fluid since the station was founded, and it's now very easy to switch sex with modern technology, making sexual separatism increasingly meaningless.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Our Vampires Are Different</a>: There's a form of vampire in Europe that was created by a nanovirus, giving the victims sharp teeth, sun-sensitivity and a craving for blood. The whole thing was done as a prank by a Bulgarian scientist, but several dozen of those exposed decided to keep the new mutation, and now it's started to spread through their blood.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostCyberpunk" title="/pmwiki/pmwiki.php/Main/PostCyberpunk">Post-Cyberpunk</a>: This <em>is</em> a game setting from the turn of the millennium.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerTrio" title="/pmwiki/pmwiki.php/Main/PowerTrio">Power Trio</a>: The <em><a class="urllink" href="http://www.sjgames.com/transhuman/personnel/">Personnel Files<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> supplement, which provides a number of pregenerated PC groups, includes several trios that can fit various sub-tropes in interesting ways:<ul><li> Barrymore Consultancy could be a weird <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigThinShortTrio" title="/pmwiki/pmwiki.php/Main/BigThinShortTrio">Big, Thin, Short Trio</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FighterMageThief" title="/pmwiki/pmwiki.php/Main/FighterMageThief">Fighter, Mage, Thief</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianTrio" title="/pmwiki/pmwiki.php/Main/FreudianTrio">Freudian Trio</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThreeSuccessfulGenerations" title="/pmwiki/pmwiki.php/Main/ThreeSuccessfulGenerations">Three Successful Generations</a>, <em>or</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithAFriendAndAStranger" title="/pmwiki/pmwiki.php/Main/WithAFriendAndAStranger">With a Friend and a Stranger</a>, with Helena Barrymore (thin "mage" super-ego old person), Francesco Dellagaria (short fighter &mdash; well, he's the most physically disposable, being backed up &mdash; id who's neither truly old nor truly young and who's an old friend of Helena's), and Nelson Buthembai (big thief ego street kid, recently recruited).</li><li> Antoine Cohen's press team can be seen as a cross-gender <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeautyBrainsAndBrawn" title="/pmwiki/pmwiki.php/Main/BeautyBrainsAndBrawn">Beauty, Brains, and Brawn</a>, with Antoine (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChick" title="/pmwiki/pmwiki.php/Main/TheChick">The Chick</a> can be male and smart in this setting), Ludwig Braun (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBigGuy" title="/pmwiki/pmwiki.php/Main/TheBigGuy">The Big Guy</a>), and Tamara Chuikova (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSmartGal" title="/pmwiki/pmwiki.php/Main/TheSmartGal">The Smart Gal</a>).</li><li> The Martian <a class="twikilink" href="/pmwiki/pmwiki.php/Main/USMarshal" title="/pmwiki/pmwiki.php/Main/USMarshal">U.S. Marshal</a> team fit <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianTrio" title="/pmwiki/pmwiki.php/Main/FreudianTrio">Freudian Trio</a> and a sort of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoGirlsAndAGuy" title="/pmwiki/pmwiki.php/Main/TwoGirlsAndAGuy">Two Girls and a Guy</a>, with Carlena Villareal (super-ego lead hero), Dave O'Connor (ego token male), and Sally Xan (id sidekick girl).</li><li> Emergency Recoveries Inc. can fit <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThreeSuccessfulGenerations" title="/pmwiki/pmwiki.php/Main/ThreeSuccessfulGenerations">Three Successful Generations</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithAFriendAndAStranger" title="/pmwiki/pmwiki.php/Main/WithAFriendAndAStranger">With a Friend and a Stranger</a>, with Colonel Walker (old team leader), Klaus Godot (not-quite-so-old friend), and "Jaculi" (young newcomer).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PresidentEvil" title="/pmwiki/pmwiki.php/Main/PresidentEvil">President Evil</a>: President Zarubayev, the insane <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyborg" title="/pmwiki/pmwiki.php/Main/Cyborg">cyborg</a> dictator of Kazakstan, who has imposed a policy of ethnic cleansing against the Kazak population (and especially people of mixed Russian-Kazak blood), personal immortality, and a brutally-efficient surveillance state that specializes in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrushingThePopulace" title="/pmwiki/pmwiki.php/Main/CrushingThePopulace">Crushing the Populace</a>. Most groups in this setting operate on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality" title="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality">Gray-and-Grey Morality</a>, but Kazakstan is emphatically not such a group.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PropagandaMachine" title="/pmwiki/pmwiki.php/Main/PropagandaMachine">Propaganda Machine</a>: Due to the intertwining of memetics, advertisement, entertainment and news in this age, <em>all</em> news media is propaganda in someone's worldview, and nobody even tries to be "fair and balanced." This is an accepted part of the world, and in modern democracies the solution is to get your news from multiple sources and put an AI monitor on your news feeds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RammingAlwaysWorks" title="/pmwiki/pmwiki.php/Main/RammingAlwaysWorks">Ramming Always Works</a>: Occasionally invoked in-setting, as "Autonomous Kill Vehicles", essentially miniature robot space fighters, are often deployed from larger military ships &mdash; and although they carry weapons of their own, they can be instructed to ram if their target has sufficiently high value.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RemoteBody" title="/pmwiki/pmwiki.php/Main/RemoteBody">Remote Body</a>: A central component of the setting. People, especially <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a>, rent (rarely purchase) cybershells designed for their environment or the job they're doing at the moment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Rescue" title="/pmwiki/pmwiki.php/Main/Rescue">Rescue</a>: The supplement <em><a class="urllink" href="http://e23.sjgames.com/item.html?id=SJG37-6714">Wings of the Rising Sun<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> details the NKKC (Japan Emergency Rescue Agency), with a view to it being the centerpiece of a campaign. In such games, some scenarios at least would involve <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoAntagonist" title="/pmwiki/pmwiki.php/Main/NoAntagonist">no antagonists</a> other than natural disasters or accidents.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ResearchInc" title="/pmwiki/pmwiki.php/Main/ResearchInc">Research, Inc.</a>: Pretty much any company that&#146;s worth mentioning in the game supplements ends up playing this part to some extent; it&#146;s a near-future SF setting with the technology jammed on fast forward, after all. But especially notable examples would include Biotech Euphrates, a major biotech company with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrayingMorality" title="/pmwiki/pmwiki.php/Main/GrayingMorality">sometimes shaky grasp of ethics</a>, Omokage Laboratories, another biotech outfit with no detectable ethics at all, and Exogenesis, a corporate research division who, after they were bought out, came under armed assault from <em>their own management</em> because their idea of science seemed to come with the mandatory prefix &#147;<a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad</a>&#148;. The latter two are based in the asteroid belt, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientistLaboratory" title="/pmwiki/pmwiki.php/Main/MadScientistLaboratory">where supervision is harder</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotBuddy" title="/pmwiki/pmwiki.php/Main/RobotBuddy">Robot Buddy</a>: Virtually everyone who isn't flat broke or weird has one or more AI assistants, sometimes running on portable or implanted computers but sometimes installed in autonomous robot bodies &mdash; so there are a lot of robot buddies around.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotDog" title="/pmwiki/pmwiki.php/Main/RobotDog">Robot Dog</a>: At least one of the many "cybershell" body types available to run AI software on is the "Cyberdog."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotGirl" title="/pmwiki/pmwiki.php/Main/RobotGirl">Robot Girl</a>: The thousand-and-one varieties of "cybershell" inevitably include some made to look like attractive female humans &mdash; sometimes for relatively innocent reasons, sometimes not.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotsThinkFaster" title="/pmwiki/pmwiki.php/Main/RobotsThinkFaster">Robots Think Faster</a>: All artificial intelligences have the Enhanced Time Sense advantage &#151; though they're not functionally much faster than humans, who can achieve similar speeds through genetic or nanotech enhancement.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SapientCetaceans" title="/pmwiki/pmwiki.php/Main/SapientCetaceans">Sapient Cetaceans</a>: Present as the result of genetic engineering and biotechnology. Unmodified cetaceans are treated reasonably realistically, by current knowledge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchoolForcedUsTogether" title="/pmwiki/pmwiki.php/Main/SchoolForcedUsTogether">School Forced Us Together</a>: The supplement <em><a class="urllink" href="http://www.warehouse23.com/products/SJG37-6706">Personnel Files 5<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> offers an example PC group built round this trope. The English language school in the free city of K&ouml;nigsberg-Kaliningrad is small enough that a small group of teens of somewhat varying ages and backgrounds are obliged to hang out together, potentially pushing them into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KidDetective" title="/pmwiki/pmwiki.php/Main/KidDetective">Kid Detective</a> and similar plots; they include an apparent fashion victim who's actually fascinated by the <em>theory</em> of pop culture, a photography geek, a policeman's son/wannabe detective, a nervous slightly younger kid with an excellent robot dog sidekick, and a slightly arrogant leader type.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SewerGator" title="/pmwiki/pmwiki.php/Main/SewerGator">Sewer Gator</a>: The urban legend has developed into the Lurker Below, a huge alligator-like creature with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatTentacles" title="/pmwiki/pmwiki.php/Main/CombatTentacles">writhing tentacles</a> along its back, supposedly created by experimental biotech being flushed into the sewers and altering whatever's already down there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SleeperStarship" title="/pmwiki/pmwiki.php/Main/SleeperStarship">Sleeper Starship</a>: "Nanostasis" is routinely used to save on life support during interplanetary voyages, although nobody has attempted manned interstellar flight yet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfRobotIntelligence" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfRobotIntelligence">Sliding Scale of Robot Intelligence</a>: We have non-sapient AI (NAI), low-sapient AI (LAI), and Sapient AI (SAI). Also, baseline AI template IQ is dependent on program complexity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmartAnimalInconvenientInstincts" title="/pmwiki/pmwiki.php/Main/SmartAnimalInconvenientInstincts">Smart Animal, Inconvenient Instincts</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpliftedAnimal" title="/pmwiki/pmwiki.php/Main/UpliftedAnimal">Uplifted animals</a> in the setting are sometimes prone to reverting to pre-sapient instincts. One vignette features a K10 postcanine who forms a criminal gang of other uplifted dogs; the owners of his followers insist their dogs can't be held responsible because they were just instinctively deferring to a strong alpha.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceElevator" title="/pmwiki/pmwiki.php/Main/SpaceElevator">Space Elevator</a>: One on Mars, and another being built on Earth.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceBase" title="/pmwiki/pmwiki.php/Main/SpaceBase">Space Base</a>: A few of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceStation" title="/pmwiki/pmwiki.php/Main/SpaceStation">space stations</a> in the setting, especially out in the asteroid belt, are occupied by people who would rate as villainous enough to move them into this category. Many people in-setting would rate all "Red Duncanite" stations as villain bases. However, any weapons mounted on such bases tend to be for defensive purposes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceFighter" title="/pmwiki/pmwiki.php/Main/SpaceFighter">Space Fighter</a>: Present in the unusual form of "Autonomous Kill Vehicles" (AKVs) &mdash; essentially miniature robot fighters which can double as kinetic-kill missiles when circumstances demand it. Hence, any ace space fighter pilots in the setting must be computer programs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marine</a>: Present and correct, mostly for raids on asteroid bases and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceStation" title="/pmwiki/pmwiki.php/Main/SpaceStation">space stations</a>. Hence, Transhuman Space Marines may end up seeing much more combat in police actions than in full-scale warfare &mdash; but they are still tough characters in power armour.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceNavy" title="/pmwiki/pmwiki.php/Main/SpaceNavy">Space Navy</a>: Most significant nations have some kind of space force in the setting; some of these see themselves as more naval than others. For example, the U.S. Air Force has kept the Navy out of space operations, and won't let anyone forget it, whereas Britain's Royal Navy has carried its traditions out in the Solar System. China has the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ChineseWithChopperSupport" title="/pmwiki/pmwiki.php/UsefulNotes/ChineseWithChopperSupport">People's Liberation Army Navy</a> Space Force, or "PLAN-SF" (allowing a <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Plan9FromOuterSpace" title="/pmwiki/pmwiki.php/Film/Plan9FromOuterSpace">geeky in-joke</a> in the setting books).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePlane" title="/pmwiki/pmwiki.php/Main/SpacePlane">Space Plane</a>: Technology in this setting doesn't really favour horizontal take-off, single-stage-to-orbit operations, but there are a few hypersonic sub-orbital "Transatmospheric Vehicles" ("TAVs") used for passenger transport between locations on Earth, and military forces have "Transatmospheric Combat Air Vehicles" ("TCAVs") &mdash; essentially hypersonic in-atmosphere fighters, some of which can just about reach low Earth orbit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceStation" title="/pmwiki/pmwiki.php/Main/SpaceStation">Space Station</a>: There are a large number, of varying sizes, in Earth orbit, and a few elsewhere.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiderTank" title="/pmwiki/pmwiki.php/Main/SpiderTank">Spider Tank</a>: Some RATS (<strong>R</strong>obotic <strong>A</strong>rmored <strong>T</strong>actical <strong>S</strong>ystems) cybershells &mdash; the setting's combat robots &mdash; fit this pattern, usually on a fairly small (roughly human-sized) scale.<span class="notelabel" onclick="togglenote('note0evc3');"><sup>note&nbsp;</sup></span><span id="note0evc3" class="inlinefolder" isnote="true" onclick="togglenote('note0evc3');" style="cursor:pointer;font-size:smaller;display:none;">Actually, standard configurations for combat vehicles in the setting have never been determined; there may well be some bigger spider tanks around.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarfishRobots" title="/pmwiki/pmwiki.php/Main/StarfishRobots">Starfish Robots</a>: Some cybershells (robot bodies) get quite exotic and nonhumanoid, as form follows specialized function. Notable examples include the modular self-transforming polypede, the flexible snakebot, and the fractal bush robot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StealthInSpace" title="/pmwiki/pmwiki.php/Main/StealthInSpace">Stealth in Space</a>: Averted, in that the problems with space stealth are generally fully acknowledged in the setting material. This in turn leads to a roleplaying setting with space travel but limited scope for space piracy, as law enforcement can track pirates from the other side of the Solar System (though there's a little of it going on, using trickery and keeping a low profile), which some gamers seem to find frustrating.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StockNessMonster" title="/pmwiki/pmwiki.php/Main/StockNessMonster">Stock Ness Monster</a>: The secret Society for Applied Teratology (detailed in the <em>Toxic Memes</em> supplement) recreates famous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurCryptidsAreMoreMysterious" title="/pmwiki/pmwiki.php/Main/OurCryptidsAreMoreMysterious">cryptozoological species</a> by advanced bioengineering, mostly to make the world a more interesting place. Their Nessie (covered in more detail in <em>Bio-Tech 2100</em>) isn't doing so well, but is an ongoing project; they may create further monsters for other lakes (some of which may be more hospitable for the purpose).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawFeminist" title="/pmwiki/pmwiki.php/Main/StrawFeminist">Straw Feminist</a>: A trope that is played with in the depiction of "Margaret", a space station founded by radical feminists which only permits female biological visitors or residents. It's generally accepted in-setting that, in a solar system where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasySexChange" title="/pmwiki/pmwiki.php/Main/EasySexChange">people can and do change sex temporarily for fairly trivial reasons</a>, and the big civil rights debates involve artificial intelligences and biological androids, the Margaretians are still fighting the last century's battles. They aren't depicted as wildly stupid, just stubbornly out of date. They <em>are</em> respected for their women's self-defense classes, which produce some of the most formidable human martial artists in the solar system.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Supersoldier</a>: Those nations that can afford them prefer to use cybershells with LAIs or SAIs installed, but there are also combat bioroids like the "preban" Felicias and a few biomods that human soldiers can take.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie" title="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie">Technically Living Zombie</a>: In the "Orbital Decay" scenario, this is caused by a combination of three nanoviruses. One causes living flesh to rot, one is intended to create shock troops, and a third decreases intelligence and makes the infected go berserk.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnologyLevels" title="/pmwiki/pmwiki.php/Main/TechnologyLevels">Technology Levels</a>: This is GURPS, so they're standard, and the setting refers to them as Waves, ranging from the agricultural First Wave to the transhuman Fifth Wave. Some oddities exist, however - the Islamic Caliphate, for example, has access to Fifth Wave technology (including bleeding-edge agricultural biotech) but is deliberately pursuing a different path.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Terraform" title="/pmwiki/pmwiki.php/Main/Terraform">Terraform</a>: The Duncanites were driven off Mars for starting this without the permission of any of the colonizing countries; the Green Duncanites are now attempting to terraform Europa and are at war with a group of environmentalists. By 2100 Mars is not quite Earth-like, but specially adapted parahumans or people with the appropriate biomods can survive without an environment suit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Thoughtcrime" title="/pmwiki/pmwiki.php/Main/Thoughtcrime">Thoughtcrime</a>: The Islamic Caliphate has an unusual, and generally non-totalitarian, variant in their approach to apostasy. Nobody wants to go back to the days where strict Sharia was enforced by death, but the Caliphate <em>is</em> a religious supernation and crushing apostasy is considered a religious duty. Accordingly, the scholars of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PropagandaMachine" title="/pmwiki/pmwiki.php/Main/PropagandaMachine">Nuh&aacute;</a> are brilliant memetic engineers who work tirelessly to ensure that the Caliphate's intellectual life as a whole is saturated with and controlled by Islamic memes; their goal is to make apostasy literally <em>unthinkable</em>. The Caliphate does have the more usual brand of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretPolice" title="/pmwiki/pmwiki.php/Main/SecretPolice">thought police</a>, the Mutawi&#146;yyun, but in most places they won't come after you unless you're proselytizing or otherwise actively causing problems.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TinCanRobot" title="/pmwiki/pmwiki.php/Main/TinCanRobot">Tin-Can Robot</a>: A few cybershell (robot body) designs are built on a humanoid pattern, enabling them to use human equipment and fit in common vehicles, but are made rugged and simple rather than trying to emulate humans in pointless detail. These are usually military or industrial utility models.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TotalitarianUtilitarian" title="/pmwiki/pmwiki.php/Main/TotalitarianUtilitarian">Totalitarian Utilitarian</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Kazakhstan" title="/pmwiki/pmwiki.php/UsefulNotes/Kazakhstan">Kazakhstan</a> is ruled by the terrifying Sergei Zarubayev, who uses a vaguely plausible but very totalitarian philosophy to justify the creation of a surveillance state in which the secret police use advanced technology to play with the minds and perceptions of anyone they choose.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToTheBatpole" title="/pmwiki/pmwiki.php/Main/ToTheBatpole">To the Batpole!</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Rescue" title="/pmwiki/pmwiki.php/Main/Rescue">rescue</a> organization in <em><a class="urllink" href="http://e23.sjgames.com/item.html?id=SJG37-6714">Wings of the Rising Sun<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> has a standard rapid launch sequence for their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Spaceplane" title="/pmwiki/pmwiki.php/Main/Spaceplane">spaceplanes</a> from their orbital stations; a unit of four craft can launch within one minute, with other crews following within 10 minutes.<div class="indent"><em>When a crew is ready to leave, the infomorphs are downloaded to the Tenryu cybershells and connected to the station&#146;s digital network, and the humans and bioroids are wearing most of their rescue suits, although their helmets are on stands in the drop ship, also connected to the network. This gives the hakenshitsu [the station] an extra few seconds before the helmets are disconnected, allowing the download of necessary linguistic and geographical knowledge.</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transhumanism" title="/pmwiki/pmwiki.php/Main/Transhumanism">Transhumanism</a>: Half the title, and at least half the point of the setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranshumansInSpace" title="/pmwiki/pmwiki.php/Main/TranshumansInSpace">Transhumans in Space</a>: Practically the trope namer.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnderwaterBase" title="/pmwiki/pmwiki.php/Main/UnderwaterBase">Underwater Base</a>: Various groups with various policies have underwater bases of various sizes in the setting; the most exotic are deep in the ice-covered oceans of Europa, a moon of Jupiter, where a miniature war is being fought for the future of the moon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnderwaterCity" title="/pmwiki/pmwiki.php/Main/UnderwaterCity">Underwater City</a>: Elandra, an Australian-founded "free city" under the Pacific, is more of a town, but a respectably-sized one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UninhibitedMusclePower" title="/pmwiki/pmwiki.php/Main/UninhibitedMusclePower">Uninhibited Muscle Power</a>: The Bio-Booster transplant is an artificial adrenaline gland that temporarily gives the user hyper-strength and reflexes, though it strains their heart so a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers" title="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers">boosted heart is recommended too</a>. Preban Felicia bioroids have it built in without the risk of heart attack, they just become hungry, impulsive, and horny afterwards.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwantedFalseFaith" title="/pmwiki/pmwiki.php/Main/UnwantedFalseFaith">Unwanted False Faith</a>:<ul><li> Singularitism, which began as a joke; about half the congregation actually buys it. The other half is trying very hard to let them down easy.</li><li> The Church of Sol is a similar but smaller case that started as a harmless legal dodge.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpliftedAnimal" title="/pmwiki/pmwiki.php/Main/UpliftedAnimal">Uplifted Animal</a>: Aplenty. Cats, dogs, dolphins, apes, octopodes...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UranusIsShowing" title="/pmwiki/pmwiki.php/Main/UranusIsShowing">Uranus Is Showing</a>: The early development chats featured a great deal of amusement at the concept of the gas mines of Uranus; said mines (which provide helium-3 for fusion reactors) made it into the finished product, but thankfully none of the giggling did.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UrbanLegends" title="/pmwiki/pmwiki.php/Main/UrbanLegends">Urban Legends</a>: The game assumes that urban legends not only endure in 2100, but in a world of high-speed, all-pervasive computer networks with occasional prankster "memetic engineers" on the loose, the phenomenon can be even stronger than in the present day. The <em><a class="urllink" href="http://www.sjgames.com/transhuman/toxicmemes/">Toxic Memes<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> supplement describes some widespread or interesting examples.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UsedFuture" title="/pmwiki/pmwiki.php/Main/UsedFuture">Used Future</a>: A lot of the tech is new and shiny, but where it's used and shabby, the fact is acknowledged. The <em><a class="urllink" href="http://www.sjgames.com/transhuman/brokendreams/">Broken Dreams<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> supplement discusses the topic in detail.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/USMarshal" title="/pmwiki/pmwiki.php/Main/USMarshal">U.S. Marshal</a>: Because the U.S. colony on Mars is spread thin, it has resurrected the idea of the deputised marshal providing a degree of law in the wilderness. <em>Personnel Files</em> includes a team of three such deputies as pregenerated characters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkingTheEarth" title="/pmwiki/pmwiki.php/Main/WalkingTheEarth">Walking the Earth</a>: <a class="urllink" href="http://www.sjgames.com/transhuman/personnel3/">''Personnel Files 3''<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> provides a group of four pregenerated player characters who are basically walking the earth of East Africa in 2100, albeit with an eventual goal. Depending how games went, the one human in the group could be regarded as a low-end <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightErrant" title="/pmwiki/pmwiki.php/Main/KnightErrant">Knight Errant</a> or as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDrifter" title="/pmwiki/pmwiki.php/Main/TheDrifter">The Drifter</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WetwareBody" title="/pmwiki/pmwiki.php/Main/WetwareBody">Wetware Body</a>: Know as &#147;bioshells.&#148;</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatMeasureIsANonHuman" title="/pmwiki/pmwiki.php/Main/WhatMeasureIsANonHuman">What Measure Is a Non-Human?</a>: Legal attitudes vary greatly by country. Usually, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">A.I.s</a> and uplifts are property and bioroids are treated as more or less permanent minors, while ghosts and parahumans are full citizens, but there are numerous exceptions and variations. For example the EU gives full citizenship to bioroids and SAIs, while the Caliphate treats SAIs as people and ghosts as abominations, for theological reasons discussed in<em> <a class="urllink" href="http://www.sjgames.com/transhuman/brokendreams/">Broken Dreams<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhodunnitToMe" title="/pmwiki/pmwiki.php/Main/WhodunnitToMe">Whodunnit to Me?</a> is always a possible scenario plot in a setting where recently dead people with intact brains can be uploaded to computers, and digital intelligences can be restored from backup. For example, the scenario "In The Walls", in the supplement <em>Cities on the Edge</em>, is about a "ghost" (uploaded intelligence) who was murdered but restored. He's annoyed about that, but <em>livid</em> that his backups have been tampered with, meaning he has no memories of the past six months.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair" title="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair">You Gotta Have Blue Hair</a>: Cosmetic nanotechnology permits hair that not only varies in color at whim, but which acts as a video display. Because why not?</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSTechnomancer">GURPS Technomancer</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSSettings">TabletopGame/GURPS Settings</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/BookOfTheNewSun">Book of the New Sun</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TalesOfTheSolarPatrol">Tales of the Solar Patrol</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/HeavyGear">Heavy Gear</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TalesOfTheSolarPatrol">Tales of the Solar Patrol</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Hackmaster">Hackmaster</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSTechnomancer">GURPS Technomancer</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Hackmaster">Hackmaster</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

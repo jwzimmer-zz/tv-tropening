@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Aberrant (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Aberrant is a role-playing game created by White Wolf in 1999, set in 2008 in a world where super-powered humans started appearing one day in 1998. It is &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Aberrant" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Aberrant (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Aberrant is a role-playing game created by White Wolf in 1999, set in 2008 in a world where super-powered humans started appearing one day in 1998. It is &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/aberrant_cover_3640.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Aberrant (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Aberrant" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/aberrant_cover_3640.jpg" />
+<meta property="og:description" content="Aberrant is a role-playing game created by White Wolf in 1999, set in 2008 in a world where super-powered humans started appearing one day in 1998. It is the middle setting in the greater Trinity Universe timeline, chronologically situated about &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/SignificantSketchbook" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/WesternAnimation/Futurama" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Aberrant?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Aberrant">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Aberrant">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Aberrant&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Aberrant">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Aberrant?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Aberrant" />
+<input type="hidden" id="article_id" value="317404" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Aberrant</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Aberrant
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Aberrant"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Aberrant" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Aberrant" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Aberrant?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Aberrant?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Aberrant?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Aberrant?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Aberrant?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Aberrant?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Aberrant?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Aberrant?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Aberrant?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Aberrant?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Aberrant?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Aberrant?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Aberrant?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Aberrant?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Aberrant?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/Aberrant?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/Aberrant?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:210px;"><div class="lazy_load_img_box" style="padding-top:142.86%"><img src="https://static.tvtropes.org/pmwiki/pub/images/aberrant_cover_3640.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/aberrant_cover_3640.jpg" width="210" height="300"></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Aberrant</em> is a role-playing game created by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/WhiteWolf" title="/pmwiki/pmwiki.php/Creator/WhiteWolf">White Wolf</a> in 1999, set in 2008 in a world where super-powered humans started appearing one day in 1998. It is the middle setting in the greater <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TrinityUniverse" title="/pmwiki/pmwiki.php/TabletopGame/TrinityUniverse">Trinity Universe</a> timeline, chronologically situated about 90 years after <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Adventure" title="/pmwiki/pmwiki.php/TabletopGame/Adventure">Adventure</a>!</em>, White Wolf's Pulp era game, and over a century before the psionic escapades of <em>Trinity/<a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Aeon" title="/pmwiki/pmwiki.php/TabletopGame/Aeon">&AElig;on</a></em>. The game deals with how the players' meta-human characters (called "novas") fit into a mundane world when they most definitely are not mundane, as well as how the mundane populace react to the sudden emergence of novas. The original <em>Aberrant</em> product line was discontinued in 2002, though a d20 System version was released in 2004. A new edition was announced in 2012 from Onyx Path Publishing, who'd bought the rights to the Trinity Universe games, eventually given the name <em>Trinity Continuum: Aberrant</em>. A successful Kickstarter ran in 2019.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p></p><hr><h2>This role-playing game provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAce" title="/pmwiki/pmwiki.php/Main/TheAce">The Ace</a>: Divis Mal, by far the most powerful nova in the world (<em>Adventure!</em> and <em>Trinity Continuum: Aberrant</em> reveal this is in large part because he has several decades on other novas, having gained his powers in 1922). His partner Jeremiah Scripture is also in the top ten.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionHero" title="/pmwiki/pmwiki.php/Main/ActionHero">Action Hero</a>: "Ironskin" Andy Vance and his husband Jake "the Dragon" Korelli are less powerful, but also qualify.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateContinuity" title="/pmwiki/pmwiki.php/Main/AlternateContinuity">Alternate Continuity</a>: <em>Trinity Continuum: Aberrant</em>. The Fireman dies saving Sao Paolo, Slider's alive, an extremist faction of Teragen takes the Aberrant name, <span class="spoiler" title="you can set spoilers visible by default on your profile">there's no nova sterilization conspiracy</span>... It's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LighterAndSofter" title="/pmwiki/pmwiki.php/Main/LighterAndSofter">brighter and more optimistic</a> than the original, but the default path is still towards the Aberrant War.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndADietCoke" title="/pmwiki/pmwiki.php/Main/AndADietCoke">And a Diet Coke</a>: A character being interviewed about the nova's increased metabolism mentions ordering fifty Whoppers and a small Diet Coke at Burger King.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimalWrongsGroup" title="/pmwiki/pmwiki.php/Main/AnimalWrongsGroup">Animal Wrongs Group</a>: Greenwar.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">Apocalypse How</a>: The Aberrant War amounted to Planetary/Societal Disruption.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence" title="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence">Ascend to a Higher Plane of Existence</a>: Exactly what happens to novas who reach Quantum 10 in TC: Aberrant is unknown - no nova has yet reached it in the game, and records from the later part of the era are lost or unclear - but what is known is that they enter another stage of being altogether: perhaps they become virtually omnipotent and create their own realities, or perhaps they transcend physical existence, becoming 'one with everything'.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AtrociousAlias" title="/pmwiki/pmwiki.php/Main/AtrociousAlias">Atrocious Alias</a>: <em>Aberrant</em>, being a deconstruction of superheroics, touches on this: the rise of superpowered Novas, many of whom think they're now required to don costumes and take up aliases, have spawned a budding fashion industry dedicated to not only making non-stupid costumes, but also to come up with fitting and stylish names a Nova can use without feeling silly or raise <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnfortunateImplications" title="/pmwiki/pmwiki.php/Main/UnfortunateImplications">Unfortunate Implications</a>. A few sucky names still crop up, though.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheSuperman" title="/pmwiki/pmwiki.php/Main/BewareTheSuperman">Beware the Superman</a>: A strong element of the setting, one that the Church of Archangel Michael deliberately pushes, and canonically justified in 1e, with the Trinity/Aeon setting as the canonical future.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigEater" title="/pmwiki/pmwiki.php/Main/BigEater">Big Eater</a>: As implied above, Novas tend to become this due to the amount of energy their powers take.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlessedWithSuck" title="/pmwiki/pmwiki.php/Main/BlessedWithSuck">Blessed with Suck</a>: Some eruptions do <em>not</em> turn out well for the nova. Teragen member "Sloppy Joe" basically had his eruption <em>dissolve his entire body</em>, reducing him to <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Squick" title="/pmwiki/pmwiki.php/Main/Squick">a soup of acidic sludge and free-floating organs bobbing around inside a vaguely human-shaped forcefield</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodKnight" title="/pmwiki/pmwiki.php/Main/BloodKnight">Blood Knight</a>: Totentanz, or any other Elite.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">Blue-and-Orange Morality</a>: Teras, the philosophy of the Teragen, is about the nova's Taint-driven development away from humanity and into an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">alien god</a>. A Terat is not a human, instead interacting with humans as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PhysicalGod" title="/pmwiki/pmwiki.php/Main/PhysicalGod">Marvel</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheSuperman" title="/pmwiki/pmwiki.php/Main/BewareTheSuperman">Monster</a>, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnlightenmentSuperpowers" title="/pmwiki/pmwiki.php/Main/EnlightenmentSuperpowers">Portent</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a>: There is a power set that lets you permanently grow a extra arm or 3, just for starters. The Teragen take this further, developing physical aberrations as a part of their transhumanist philosophy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BondageIsBad" title="/pmwiki/pmwiki.php/Main/BondageIsBad">Bondage Is Bad</a>: A minor team from the Player's Guide, the Queer Nova Alliance, includes a member with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a> of some nature called "The Master", whose presence in the team's attendant fluff portrays him as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TokenEvilTeammate" title="/pmwiki/pmwiki.php/Main/TokenEvilTeammate">Token Evil Teammate</a>. He's a homosexual dominant who refers to basically <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">brainwashing a former homophobe into his helplessly loyal submissive gay sex slave</a>, and from the disgusted reactions of his fellows, this isn't the first time he's done this. They especially loathe him doing this because it only hurts their efforts to non-violently champion GLBT rights.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoomerangBigot" title="/pmwiki/pmwiki.php/Main/BoomerangBigot">Boomerang Bigot</a>: In the sourcebook dealing with the Church of Archangel Michael, two fluff-pieces involve Reverend Gordon Fleischmann, who goes onto a talk show to talk about his Church's motivations, reveals he himself has suffered a minor eruption and developed a circle of eyes on his chest, and commits suicide rather than live as a nova.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BulletCatch" title="/pmwiki/pmwiki.php/Main/BulletCatch">Bullet Catch</a>: Sufficently high levels of MegaDexterity will allow a character to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DodgeTheBullet" title="/pmwiki/pmwiki.php/Main/DodgeTheBullet">dodge</a> or catch bullets. (For a simple bullet dodge, "sufficiently high" is defined as "any MegaDexterity at all".)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallAHumanAMeatbag" title="/pmwiki/pmwiki.php/Main/CallAHumanAMeatbag">Call a Human a "Meatbag"</a>: The Nova term for people without nova powers is 'baseline', and many humans also use this term. There is societal debate about whether the term is insulting or not, but those who distrust Novas hold it up as a sign of the contempt in which Novas hold humanity. It started as a scientific term, with humans being the 'baseline' from which Novas deviated.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChestBurster" title="/pmwiki/pmwiki.php/Main/ChestBurster">Chest Burster</a>: Novas with the 3-point variant of the Parasitic Gestation alteration are capable of victimizing people with their offspring in this manner.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CocaPepsiInc" title="/pmwiki/pmwiki.php/Main/CocaPepsiInc">Coca-Pepsi, Inc.</a>: 1e's ViaSoft, a megacorporation formed by a merger between Viacom and Microsoft.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cult" title="/pmwiki/pmwiki.php/Main/Cult">Cult</a>: They're all over the place <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, due to the fact novas are naturally adept at forming personality cults around themselves, especially those with social mega-attributes.<ul><li> The sourcebook ReignOfEvil.Com is about a particularly nasty cult born from a quintet of deranged nova satanists.</li><li> The Storyteller's Screen includes a fluff piece about a mega-social nova woman, Kelly "Calliope" Pierson, who has formed a cult about herself and who performs <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">Human Sacrifice</a> by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImAHumanitarian" title="/pmwiki/pmwiki.php/Main/ImAHumanitarian">physically absorbing baseline cultists into her body</a>, claiming that this allows them to "transcend to a higher place".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkAndTroubledPast" title="/pmwiki/pmwiki.php/Main/DarkAndTroubledPast">Dark and Troubled Past</a>: Divis Mal, as revealed in <em>Adventure!</em> and TC: Aberrant.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Deconstruction" title="/pmwiki/pmwiki.php/Main/Deconstruction">Deconstruction</a>: <em>Aberrant</em> deconstructs the superhero genre, often abandoning or defying many of its standard tropes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DieOrFly" title="/pmwiki/pmwiki.php/Main/DieOrFly">Die or Fly</a>: The most common way novas erupt.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmergencyTransformation" title="/pmwiki/pmwiki.php/Main/EmergencyTransformation">Emergency Transformation</a>: One of the most common causes of eruption is a future nova being in mortal danger for their life.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmotionSuppression" title="/pmwiki/pmwiki.php/Main/EmotionSuppression">Emotion Suppression</a>: Totentanz's eruption brought many wonders, one of which (in first edition) was complete elimination of all positive emotions; that was because he erupted after his "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing" title="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing">lover</a>" revealed her infidelity in <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralEventHorizon" title="/pmwiki/pmwiki.php/Main/MoralEventHorizon">the worst manner possible</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExplosiveBreeder" title="/pmwiki/pmwiki.php/Main/ExplosiveBreeder">Explosive Breeder</a>: In 1e, Proteus was afraid of "breeders" (fertile novas) in general, but they reserved their greatest fears for "hatchers" &mdash; tainted breeders whose mutations transformed them into r-type (large numbers of progeny with little parental care invested) reproducers. A hypothetical "perfect storm" hatcher, one who produces 10 identically tainted offspring (of which 5 survive) per month, which grow to reproduction age in six months, could produce <strong>forty-five thousand</strong> offspring in as little as two years.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheExtremistWasRight" title="/pmwiki/pmwiki.php/Main/TheExtremistWasRight">The Extremist Was Right</a>: On both sides of the racial division. <span class="spoiler" title="you can set spoilers visible by default on your profile"> In first edition, the baseliners fearing novas as potentially deadly to human existence were right, since the canon of the metaplot is that they nearly destroy the world, leading to the Aeon setting. The novas fearing baseliners were right as well, as novas who sign up with Project Utopia are sterilised as part of it, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfFulfillingProphecy" title="/pmwiki/pmwiki.php/Main/SelfFulfillingProphecy">the discovery of this is part of what sets off the Aberrant War in the first place</a>.</span> In second edition, nova fear of baselines was justified with the discovery that baseline humanity had never really trusted novas.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FictionalCounterpart" title="/pmwiki/pmwiki.php/Main/FictionalCounterpart">Fictional Counterpart</a>: The <em>N!</em> network in 1e, which is for Novas what <em>E!</em> is for celebrities in entertainment. Its TC: Aberrant counterpart, N!Sight, is an outright media giant.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlyingCar" title="/pmwiki/pmwiki.php/Main/FlyingCar">Flying Car</a>: Flying cars exist, but their use is restricted to police, emergency services and the military.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForegoneConclusion" title="/pmwiki/pmwiki.php/Main/ForegoneConclusion">Foregone Conclusion</a>: The Aberrant War is waiting to happen in the future, at least canonically.<ul><li> In the reboot, however, it's zig-zagged, becoming <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchizoContinuity" title="/pmwiki/pmwiki.php/Main/SchizoContinuity">Schizo Continuity</a>. For Aeon, the Aberrant War is established history. For Aberrant, however, the War is in the potential future, and how things turn out is in the characters' hands. This change was mostly due to the fact that the vast majority of original Aberrant players houseruled in a similar assumption.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromBadToWorse" title="/pmwiki/pmwiki.php/Main/FromBadToWorse">From Bad to Worse</a>: Taint/Transcendence doesn't seem that bad to begin with ...how bad can neon pink armpit hair be?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenderBender" title="/pmwiki/pmwiki.php/Main/GenderBender">Gender Bender</a>: It can happen when one Erupts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GovernmentDrugEnforcement" title="/pmwiki/pmwiki.php/Main/GovernmentDrugEnforcement">Government Drug Enforcement</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">In 1e, most newly erupted novas are secretly fed sterility drugs along with the drugs given to help them control their powers in order to prevent the breeding of a superpowered race. The reboot eliminates this.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGroup" title="/pmwiki/pmwiki.php/Main/TheGroup">The Group</a>: The Directive.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotScientist" title="/pmwiki/pmwiki.php/Main/HotScientist">Hot Scientist</a>: Dr. Rachel Alinsky, DeVries Agency's scientific genius, looks like a grad student despite nearing her forties.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IdealIllnessImmunity" title="/pmwiki/pmwiki.php/Main/IdealIllnessImmunity">Ideal Illness Immunity</a>: Novas are immune to all baseline (i.e. normal human) diseases. However, some Nova specific diseases have begun to evolve (or been created).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IJustWantToBeSpecial" title="/pmwiki/pmwiki.php/Main/IJustWantToBeSpecial">I Just Want to Be Special</a>: <em>Aberrant</em> is set in a world where the main way of getting superpowers is by surviving a near-death experience that triggers a change within you. Needless to say, between the sheer joy of having powers and the celebrity-like status that comes with some supers, there are a lot of... unhappy accidents.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImmuneToDrugs" title="/pmwiki/pmwiki.php/Main/ImmuneToDrugs">Immune to Drugs</a>: A side effect of nova powers, including <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverGetsDrunk" title="/pmwiki/pmwiki.php/Main/NeverGetsDrunk">Never Gets Drunk</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InternetIncorporated" title="/pmwiki/pmwiki.php/Main/InternetIncorporated">Internet Incorporated</a>: The OpNet is the system that esentially replaced the internet (due to better <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum">Applied Phlebotinum</a>) and requires its users to be licensed. In the reboot, it becomes a public utility instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knight Templar</a>: Project Proteus. Many of the Teragen. Let's just say there are a fair few.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler" title="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler">Late-Arrival Spoiler</a>: The 1e <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Metaplot" title="/pmwiki/pmwiki.php/Main/Metaplot">metaplot</a> is very clear from the beginning; there will be an Aberrant War that destroys everything that humanity and novas built together and drives the novas away from Earth (however, this is no longer an issue in 2e).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingClothes" title="/pmwiki/pmwiki.php/Main/LivingClothes">Living Clothes</a>: Eufiber is a special fibre created by a particular nova. Its special qualities make it highly desirable for top end clothing. However, it has additional powers that can only be used by novas, making it <em>the</em> choice for nova uniforms. One of these properties is the ability to reshape itself according to the nova's wishes, indicating that it possesses at least some level of understanding.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LonersAreFreaks" title="/pmwiki/pmwiki.php/Main/LonersAreFreaks">Loners Are Freaks</a>: Played with by Mega-Charismatic novas with the Autonomy enhancement in 1e. These transhuman novas do not have the human need for social companionship, and yet do <em>not</em> have any kind of psychosis. This particular evolution is extremely worrying to baseline psychologists, who really don't get it - a few fringe ones assume that it <em>is</em> actual Psychotic Dissociation despite evidence to the contrary.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LordBritishPostulate" title="/pmwiki/pmwiki.php/Main/LordBritishPostulate">Lord British Postulate</a>: If player characters try to get involved in the Caestus Pax/Divis Mal punch-up in 1e, they'll just get knocked through a wall without affecting the outcome in the slightest. The outcome of the battle is decreed by the metaplot, it's not something that a bunch of scrappy PCs can affect.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovecraftianSuperpower" title="/pmwiki/pmwiki.php/Main/LovecraftianSuperpower">Lovecraftian Superpower</a>: One of the many consequences of taking high levels of Taint/Transcendence.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicFeather" title="/pmwiki/pmwiki.php/Main/MagicFeather">Magic Feather</a>: An actual disadvantage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicallyRegeneratingClothing" title="/pmwiki/pmwiki.php/Main/MagicallyRegeneratingClothing">Magically Regenerating Clothing</a>: Eufiber is a semi-sentient fabric whose properties include it being self-cleaning and self-repairing. Many novas have costumes made of eufiber.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MainliningTheMonster" title="/pmwiki/pmwiki.php/Main/MainliningTheMonster">Mainlining the Monster</a>: There are several illegal drugs (most of which will temporarily give a baseline superpowers) made out of the organs of novas.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MakingASplash" title="/pmwiki/pmwiki.php/Main/MakingASplash">Making a Splash</a>: Splash is a well-respected member of Team Tomorrow with the ability to control water and transform her body into water.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MalfunctionMalady" title="/pmwiki/pmwiki.php/Main/MalfunctionMalady">Malfunction Malady</a>: The Yin/Yang enhancement in 1e enables a nova with Mega-Appearance to switch between male and female forms. If the nova gets pregnant (a rare event), this enhancement will <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShapeshifterModeLock" title="/pmwiki/pmwiki.php/Main/ShapeshifterModeLock">shut down at a certain point in the pregnancy, locking the nova in female form</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Metaplot" title="/pmwiki/pmwiki.php/Main/Metaplot">Metaplot</a>: Given that the game is a prequel, this is a necessity. The game <em>was</em> most certainly being written towards the Aberrant War and the loss of everything good that had come from novas.<ul><li> The second edition, however, is not written towards that end. Partly this is because Aberrant no longer has an advancing timeline, and partly it's because one principle of the reboot is that games earlier in the timeline (in Aberrant's case, Adventure! and the new modern-day setting) are established history, while games later in the timeline (Aeon) are possible futures rather than foregone conclusions.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">Mind Rape</a>: There are superpowers for this, as expected.<ul><li> Greenwar's M. O. when not straight up murdering their enemies basically consists of mind-raping them. This is made possible by the resident telepath, who can absorb the thoughts of a dying animal and transfer them to the one(s) responsible for the crime against nature. One poor Japanese guy ended up believing he was a whale whose family was slaughtered by whalers (who, naturally, were his employees).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MostCommonSuperPower" title="/pmwiki/pmwiki.php/Main/MostCommonSuperPower">Most Common Super Power</a>: Explicitly lampshaded in 1e's graphic for the Mega-Appearance attribute.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MugglePower" title="/pmwiki/pmwiki.php/Main/MugglePower">Muggle Power</a>: Various groups and factions. The most hostile is the Church of Archangel Michael, a fundamentalist group who stalk and murder novas whilst publicly becrying their existence as agents of Satan. <span class="spoiler" title="you can set spoilers visible by default on your profile"> 1e's Project Utopia is ultimately one of these, sterilising all of the novas it recruits to ensure that, in addition to being drafted for the good of baseline humanity, they won't breed even stronger novas.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MutantDraftBoard" title="/pmwiki/pmwiki.php/Main/MutantDraftBoard">Mutant Draft Board</a>: Project Utopia.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MySuitIsAlsoSuper" title="/pmwiki/pmwiki.php/Main/MySuitIsAlsoSuper">My Suit Is Also Super</a>: Eufiber, a material produced by a particular Nova, is the material of choice for Novas who don't want to end up naked - it shifts to fit their form, and is nearly indestructible. The Aberrant Players' Guide even introduces the Weave skill, which allows a Nova to reshape their Eufiber suit with just their will.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Names to Run Away from Really Fast</a>: A lot of them exist, but Totentanz comes to mind most readily. Translated from German, his alias means "<em>The Dance of Death</em>". Fitting, considering he's a Nova mercenary with absolutely <em>monstrous</em> fighting abilities.<ul><li> Divis Mal means something along the lines of "Wicked God"</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NGOSuperpower" title="/pmwiki/pmwiki.php/Main/NGOSuperpower">N.G.O. Superpower</a>: Project Utopia is not a government, but has a seat on the UN Security Council and international regulatory authority over technology despite not answering to anybody at all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero" title="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero">Nice Job Breaking It, Hero!</a>: It turns out that the thing in first edition that causes the Aberrant War that leads to the <em>Trinity</em> setting? <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's the truth that Project Utopia <em>sterilises</em> all of its recruits immediately upon recruitment becoming public knowledge, leading to outraged novas and scared new novas rising up enmasse to defend and avenge themselves.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed" title="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed">No Celebrities Were Harmed</a>: Duke Rollo is basically <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HunterSThompson" title="/pmwiki/pmwiki.php/Creator/HunterSThompson">Hunter S. Thompson</a>, the name riffing on Thompson's alter ego Raoul Duke. As a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>, the title of a supplement <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Defictionalization" title="/pmwiki/pmwiki.php/Main/Defictionalization">collecting some of Rollo's columns</a> is <em>Fear and Loathing</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostCyberpunk" title="/pmwiki/pmwiki.php/Main/PostCyberpunk">Post-Cyberpunk</a>: During the early Aberrant period, nova powers are a good thing, and the technological advances built on their powers generally do lead to the world becoming a better place. The problem is, it all gets screwed up when humanity and the novas turn on each other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrequelInTheLostAge" title="/pmwiki/pmwiki.php/Main/PrequelInTheLostAge">Prequel in the Lost Age</a>: To <em>Trinity</em>/<em>Aeon</em>. While it's not more technologically advanced (generally speaking), life is usually much better for everyone and the mood is much more optimistic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/QuantumMechanicsCanDoAnything" title="/pmwiki/pmwiki.php/Main/QuantumMechanicsCanDoAnything">Quantum Mechanics Can Do Anything</a>: The explanation for nova powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityWarper" title="/pmwiki/pmwiki.php/Main/RealityWarper">Reality Warper</a>: Although all Novas bend reality a little, 1e's Level 6 power "Planck Scaling" is the purest example in the game. It allows the user to cause absolutely anything inside a certain area. These changes will last after the power is turned off, even if their existence contradicts the laws of physics. An interesting side-effect of the power is that in the absence of the user, anyone else can project their thoughts into the "bubble", with multiple participants leading to most bizarre results.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReedRichardsIsUseless" title="/pmwiki/pmwiki.php/Main/ReedRichardsIsUseless">Reed Richards Is Useless</a>: Averted and played straight. Project Utopia is using nova-developed technology to improve the world (greening the Sahara and replacing the Internet with the OpNet, for example), but they're also keeping a lid on the more socially-disruptive technology as best they can.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewYourself" title="/pmwiki/pmwiki.php/Main/ScrewYourself">Screw Yourself</a>: The player's handbook contains a chapter with various superhero teams and similar groups across the world. One is the Queer Nova Alliance, an informal group of Novas with "alternate lifestyles". One member is Tommy Orgy, whose selection of powers includes self-cloning. Or, as another nova observes, "Gorgeous, gay, and able to duplicate himself; it's a wonder Tommy Orgy ever leaves his house." When Tommy tells another nova to "Go fuck yourself", the other retorts, "I thought that was more your forte, Thomas." A listener adds, "Well, according to every other fanfic I read on the OpNet, anyways..."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SettingUpdate" title="/pmwiki/pmwiki.php/Main/SettingUpdate">Setting Update</a>: Second edition, which is set in 2028 and has the first novas appear about a decade before.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShockwaveClap" title="/pmwiki/pmwiki.php/Main/ShockwaveClap">Shockwave Clap</a>: The Mega-Strength enhancement 'Thunderclap' allows a character to do this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SkeletonsInTheCoatCloset" title="/pmwiki/pmwiki.php/Main/SkeletonsInTheCoatCloset">Skeletons in the Coat Closet</a>: The most notable feature of Totentanz's costume is the golden skull which covers his head.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperEmpowering" title="/pmwiki/pmwiki.php/Main/SuperEmpowering">Super Empowering</a>: The drug Mite will give its user superpowers in the form of superhuman speed, strength, endurance and toughness. However, Mite is essentially a super-steroid that is hellishly addictive and causes severe rage issues in its users. Most Mite addicts work as either muscle for organized crime, or as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jobber" title="/pmwiki/pmwiki.php/Main/Jobber">Jobbers</a> in the super-powered wrestling league the XWF (Extreme Wrestling Federation).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperHumanTrafficking" title="/pmwiki/pmwiki.php/Main/SuperHumanTrafficking">Superhuman Trafficking</a>: Some novas are hunted by criminal syndicates who kidnap them and harvest their organs to make superpowered drugs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperRegistrationAct" title="/pmwiki/pmwiki.php/Main/SuperRegistrationAct">Super Registration Act</a>: A rather underhanded variety in first edition. While there is no official law requiring Novas to register, their powers tend to be hard to control without specialized training and medical care. Both are available only from Project Utopia, so most of them end up there, policing their "unenlightened" brethren. In the process they're also <span class="spoiler" title="you can set spoilers visible by default on your profile"><em><strong>unknowingly sterilized.</strong></em> It should be no surprise that the setting concludes with every Nova on Earth discovering this fact and going on a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoaringRampageOfRevenge" title="/pmwiki/pmwiki.php/Main/RoaringRampageOfRevenge">Roaring Rampage of Revenge</a> that pretty much <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">wrecks the entire world</a> - after which the authorities <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrittenByTheWinners" title="/pmwiki/pmwiki.php/Main/WrittenByTheWinners">destroy all records of their crimes</a>, claim that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity" title="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity">all Novas inevitably go insane</a>, and systematically kill them from that point on.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSyndicate" title="/pmwiki/pmwiki.php/Main/TheSyndicate">The Syndicate</a>: The criminal underworld has consolidated into four organizations due to the threat of Project Utopia. All four groups are major players in the world, commanding legions of their own nova operators.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranshumanTreachery" title="/pmwiki/pmwiki.php/Main/TranshumanTreachery">Transhuman Treachery</a>:<ul><li> Argued for by Divis Mal and the Teragen. The argument of the Null Manifesto is that novas are <em>not</em> human, and that human laws and customs shouldn't apply to them; in the absence of a governing body for novakind, each nova is called on to consider themselves a sovereign country and act as they please. While not inherently anti-human, becoming Teragen is at best a sign of overweening arrogance and adherence to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">Blue-and-Orange Morality</a>, and most Teragen <em>do</em> take "different" to mean "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSupremacist" title="/pmwiki/pmwiki.php/Main/SuperSupremacist">better</a>."</li><li> In secon edition, a nova who undergoes Full Transformation at Transcendence 10 becomes an alien being completely beyond humanity, completely incapable of empathy or compassion. At best, such aberrants stop caring about humanity any more than the average human cares about a fly; at worst, they become monsters.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VestigialEmpire" title="/pmwiki/pmwiki.php/Main/VestigialEmpire">Vestigial Empire</a>: The People's Republic of China is a dying titan in first edition, with much of its governance outsourced to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTriadsAndTheTongs" title="/pmwiki/pmwiki.php/Main/TheTriadsAndTheTongs">the Heaven Thunder Triad</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> After the Three Gorges Dam breaks, the PRC collapses and reforms as the New Empire, which thoroughly gets its act together with the Triad gone.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WaveMotionGun" title="/pmwiki/pmwiki.php/Main/WaveMotionGun">Wave-Motion Gun</a>: Although first edition <em>Aberrant</em> characters are generally played at a much lower level of power, akin to your average <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/MarvelComics" title="/pmwiki/pmwiki.php/Creator/MarvelComics">Marvel Comics</a> character, the game has Quantum powers at levels 4, 5, and 6 (which can only be acquired after a very long campaign if you play by the standard rules.) One of the <em>least</em> broken level 6 powers is Quantum Inferno which allows the character to fire a Quantum Bolt capable of punching a hole, hundreds of kilometers wide, clean through the planet (which needless to say is the immediate predecessor to the planet's destruction.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>: In first edition, Project Utopia, directed behind the scenes by Max Mercer, is trying so very hard to avoid the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadFuture" title="/pmwiki/pmwiki.php/Main/BadFuture">Bad Future</a> by helping the novas who work with it make a better world... <span class="spoiler" title="you can set spoilers visible by default on your profile">while the black ops subdivision is secretly sterilizing them permanently with a tailored virus so they can't breed more and possibly stronger novas, and murdering those who find out about the program.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouCantFightFate" title="/pmwiki/pmwiki.php/Main/YouCantFightFate">You Can't Fight Fate</a>: A mundane version. In <em>TC: Aberrant</em>, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Max Mercer knows that everything's (canonically) going to go to Hell in a generation, and it's Divis Mal's fault. He doesn't interfere because he can foresee that his old friend isn't going to believe him; Mal has to see for himself that the mass awakening of novas is just going to tear the world apart rather than leading the One Race to transcendence.</span></li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TrinityUniverse">Trinity Universe</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/WhiteWolf">Creator/White Wolf</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Adventure">Adventure</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/Sequinox">Sequinox</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ProfessionalWrestling">Professional Wrestling</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/HeroSystem">Hero System</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Aeon">Æon</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Adventure">Adventure</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Aeon">Æon</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+ <li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Adventure">Adventure</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Ride/StormForceAccelatron">Storm Force Accelatron</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Superhero">Superhero</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Champions">Champions</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

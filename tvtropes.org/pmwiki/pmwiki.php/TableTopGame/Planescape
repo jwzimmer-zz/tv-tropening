@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Planescape (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Planescape is a Dungeons &amp; Dragons setting, centered around its very own City of Adventure: Sigil, the City of Doors. Much of the material that would &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Planescape" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Planescape (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Planescape is a Dungeons &amp; Dragons setting, centered around its very own City of Adventure: Sigil, the City of Doors. Much of the material that would &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Planescape (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Planescape" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Planescape is a Dungeons &amp; Dragons setting, centered around its very own City of Adventure: Sigil, the City of Doors. Much of the material that would become Planescape was initially introduced in the supplement Manual of the Planes in 1987 by &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/Metalhead" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/HarmaMaeSmit" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Planescape?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Planescape">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Planescape">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Planescape&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Planescape">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Planescape?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Planescape" />
+<input type="hidden" id="article_id" value="317569" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Planescape</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Planescape
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Planescape"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/Planescape" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Planescape" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Planescape" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/Planescape" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Planescape" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Planescape?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Planescape?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Planescape?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Planescape?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Planescape?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Planescape?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Planescape?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Planescape?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Planescape?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Planescape?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Planescape?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Planescape?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Planescape?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Planescape?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:37.64%"><img src="https://mediaproxy.tvtropes.org/width/350/https://static.tvtropes.org/pmwiki/pub/images/Planescape_Logo_1533.jpg" class="embeddedimage" border="0" alt="https://mediaproxy.tvtropes.org/width/350/https://static.tvtropes.org/pmwiki/pub/images/Planescape_Logo_1533.jpg" width="350" height="132"></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Planescape</em> is a <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em> setting, centered around its very own <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfAdventure" title="/pmwiki/pmwiki.php/Main/CityOfAdventure">City of Adventure</a>: Sigil, the City of Doors.</p><p>Much of the material that would become <em>Planescape</em> was initially introduced in the supplement <em>Manual of the Planes</em> in 1987 by Jeff Grubb. In 1989, the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Spelljammer" title="/pmwiki/pmwiki.php/TabletopGame/Spelljammer">Spelljammer</a></em> setting linked previous settings, including <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Dragonlance" title="/pmwiki/pmwiki.php/TabletopGame/Dragonlance">Dragonlance</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/ForgottenRealms" title="/pmwiki/pmwiki.php/TabletopGame/ForgottenRealms">Forgotten Realms</a></em>, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Greyhawk" title="/pmwiki/pmwiki.php/TabletopGame/Greyhawk">Greyhawk</a></em>, by allowing player characters to travel the Prime Material Plane, an infinite void in which each of the other settings exist as planets. <em>Planescape</em>, released in 1994, links <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Spelljammer" title="/pmwiki/pmwiki.php/TabletopGame/Spelljammer">Spelljammer</a></em> with the <em>Manual of the Planes</em> by incorporating the Prime and other planes of existence into an even larger <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">network of worlds</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">magic portals</a>.</p><p>Sigil is a strange, Gothic, and often raucous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HubCity" title="/pmwiki/pmwiki.php/Main/HubCity">metropolis</a> that lies outside the rest of the Multiverse, inhabited by all manner of odd folk and ruled by the mysterious Lady of Pain and political parties &mdash;"philosophers with clubs", in more ways than one&mdash; called the Factions that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Characters</a> could join, all of them searching for the Truth behind the Multiverse. It is the hub of a vast network of magic portals that lead to many places, including:</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p></p><ul><li> The <strong>Inner Planes</strong>, each of which is based around a theme regarding matter and energy. For example, in the Plane of Fire, everything is on fire, on the Plane of Water everything is underwater, etc. There 4 main Inner planes for the 4 classic elements, and 2 energy planes, one positive (life) and one negative (death). 4 Para-elemental planes (Mud/Ooze, Smoke, Ice and Magma) are formed between the four elemental planes (Magma between Earth and Fire...), and 8 Quasi-elemental planes where an elemental and energy plane meet, Lightning, Minerals, Radiance, Steam and Vacuum, Dust, Ash and Salt (which are where the Positive and Negative Energy Planes, respectively, meet the planes of Air, Earth, Fire and Water).</li><li> The <strong>Outer Planes</strong>, based on the in-universe <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterAlignment" title="/pmwiki/pmwiki.php/Main/CharacterAlignment">Character Alignments</a>. Nine of the Outer Planes correspond precisely to an alignment; the other eight are in in-between spaces. For example, Mechanus (also known as Nirvana) is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawfulNeutral" title="/pmwiki/pmwiki.php/Main/LawfulNeutral">Lawful Neutral</a> clockwork universe which seems to consist mostly of gigantic gears tended by robot-like beings; while Baator, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawfulEvil" title="/pmwiki/pmwiki.php/Main/LawfulEvil">Lawful Evil</a> plane, is literally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hell" title="/pmwiki/pmwiki.php/Main/Hell">Hell</a>, and Bytopia is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawfulGood" title="/pmwiki/pmwiki.php/Main/LawfulGood">Lawful Good</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeutralGood" title="/pmwiki/pmwiki.php/Main/NeutralGood">Neutral Good</a> plane founded on the idea of honest hard work. The Outer Planes are the literal afterlife where the gods live and their followers go when they die&mdash;it just turns out that with the right keys, you can walk there.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> "<strong>Pathway universes</strong>", the key elements of the magic portal network, including the Astral Plane, the Ethereal Plane, the Infinite Staircase, and Sigil itself.</li></ul><p>The factions, which form the backbone of character interactions (and fill the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Splat" title="/pmwiki/pmwiki.php/Main/Splat">splat</a> role), are:</p><p></p><ul><li> The <strong>Athar</strong> or <strong>Defiers</strong>, cynical atheists and agnostics who believe the gods are frauds. To them they are just incredibly powerful beings and not "TRUE" gods. Athar clerics believe in a higher, almighty, incomprehensible power as "God".</li><li> The <strong>Believers of the Source</strong> or <strong>Godsmen</strong>, who believe that life is a test and that any person can ascend to divinity in a cicle of reincarnations.</li><li> The <strong>Bleak Cabal</strong> or <strong>Madmen</strong>, who believe that there is no meaning in anything, but you can find the true meaning in yourself. This simultaneously tends to make them both the craziest-seeming people in Sigil after the Chaosmen while <em>also</em> being the sanest and often kindest.</li><li> The <strong>Doomguard</strong> or <strong>Sinkers</strong>, who believe that entropy must destroy everything so something better can rise from the ashes.</li><li> The <strong>Dustmen</strong> or <strong>the Dead</strong>, who believe that life and death are both illusions and seek oblivion.</li><li> The <strong>Fated</strong> or <strong>Takers</strong>, ruthless egotists who believe that right to ownership derives from the strength to take and hold it. To them life is a Meritocracy.</li><li> The <strong>Fraternity of Order</strong> or <strong>Guvners</strong>, who believe that power comes from the knowledge, application and exploitation of natural and societal laws.</li><li> The <strong>Free League</strong> or <strong>Indeps</strong>, individualists who paradoxically reject the faction system while being a faction unto themselves.</li><li> The <strong>Harmonium</strong> or <strong>Hardheads</strong>, authoritarians who while mostly good willed seek to unite the planes in peace under one rule&mdash;theirs.</li><li> The <strong>Mercykillers</strong> or <strong>the Red Death</strong>, who believe mercy is weakness and true justice comes from violent no-nonsense retribution.</li><li> The <strong>Revolutionary League</strong> or <strong>Anarchists</strong>, zealots who believe all societal laws must be overthrown&mdash;but to what end, none can agree.</li><li> The <strong>Sign of One</strong> or <strong>Signers</strong>, who believe each individual is a god who creates his own universe around them.</li><li> The <strong>Society of Sensation</strong> or <strong>Sensates</strong>, inveterate hedonists who seek enlightenment through new experiences.</li><li> The <strong>Transcendent Order</strong> or <strong>Ciphers</strong>, who believe that enlightenment comes from action from pure instinct, not thought.</li><li> The <strong>Xaositects</strong> or <strong>Chaosmen</strong>, who see truth in chaos, nonsense and unpredictability and act accordingly.</li></ul><p><em>Planescape</em> formed a <em>D&amp;D</em> setting where combat is not the best way to resolve conflict (and may even be impossible, depending on circumstances) and its philosophical theme and emphasis on the power of belief encouraged players to come up with inventive, cerebral ways to solve their problems. These themes were helped by the art and style, especially that of Tony DiTerlizzi, which emphasized gothic, neo-Victorian strangeness and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Grunge" title="/pmwiki/pmwiki.php/Main/Grunge">Grunge</a> rock influenced cynicism and attitude over the muscular heroes and glorious violence of other settings.</p><p>While Planescape is a setting for 2nd edition AD&amp;D, its influences are felt throughout later editions. 3rd Edition saw the printing of the Manual of the Planes, the equivalent of the 1st edition AD&amp;D book that Planescape was based on. It contained all the information on the setting compressed into a single book, making it something of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CompressedAdaptation" title="/pmwiki/pmwiki.php/Main/CompressedAdaptation">Compressed Adaptation</a>. It was considered to be part of the "core" D&amp;D setting, which in 3e was in turn <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Greyhawk" title="/pmwiki/pmwiki.php/TabletopGame/Greyhawk">Greyhawk</a> with the serial numbers filed off. 4th edition saw significant changes to the cosmos with <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/NentirVale" title="/pmwiki/pmwiki.php/TabletopGame/NentirVale">Nentir Vale</a>, which kept Sigil and some of the Planes, combined the Outer Planes with the Astral Plane and the Inner Planes with Limbo. 5th edition has done something similar to 3rd edition: the Inner Planes changed a bit but the Outer Planes, including Sigil, were kept mostly intact if rather undefined.</p><p>In 1999, it became the setting for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WesternRPG" title="/pmwiki/pmwiki.php/Main/WesternRPG">Western RPG</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment" title="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment">Planescape: Torment</a></em>. <em><a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/TrappedInTheBirdcage" title="/pmwiki/pmwiki.php/WebVideo/TrappedInTheBirdcage">Trapped In The Birdcage</a></em> was an official Fifth Edition <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActualPlay" title="/pmwiki/pmwiki.php/Main/ActualPlay">Actual Play</a> campaign set in the Planescape setting and run by Holly Conrad on the D&amp;D <a class="twikilink" href="/pmwiki/pmwiki.php/Website/YouTube" title="/pmwiki/pmwiki.php/Website/YouTube">YouTube</a> channel.</p><p></p><hr><h2> Planescape provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsurdlyLongStairway" title="/pmwiki/pmwiki.php/Main/AbsurdlyLongStairway">Absurdly Long Stairway</a>: The setting has the Infinite Staircase, a plane with nothing but&mdash;you guessed it&mdash;an infinite staircase spanning in all directions, with doors leading to various places around the planes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcidTripDimension" title="/pmwiki/pmwiki.php/Main/AcidTripDimension">Acid-Trip Dimension</a><ul><li> The plane of Limbo is a roiling mass of chaos matter, which changes randomly or based on the will of people traveling on the plane.</li><li> The Far Realm exists "outside the bounds of the multiverse". Nothing there even resembles the real world, and the text which actually describes the appearance of the plane (Of which there is very little) carries the note that nothing on the Far Realm can possibly be comprehended by a human being, therefore you can't even imagine what it's like. Oh, and to top it all off: The Far Realm contains more than one dimension, and you can see all the other dimensions by looking down and, in some areas, can be in several dimensions at once.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienGeometries" title="/pmwiki/pmwiki.php/Main/AlienGeometries">Alien Geometries</a>: Sigil, because it is a city that exists on its own plane, is connected to others only by portals in the forms of doors. The city resembles the inside of a tire; it's a tube that wraps around on itself, so you can look up and see buildings in the sky, and walking straight for hours will bring you back where you started. Gravity seems to work for whatever ground you are standing on right now and light is just sort of there. Last but not least, it's floating around the top of an impossibly tall spire in the middle of a plane that is both infinitely tall and yet has a visible uppermost point that can be seen from the ground (it's complicated). The best part, though, is that, since Sigil exists completely separate from any other plane, there is a chance that it has no outer surface. It is explained in-universe mages and other beings used magic to fly to the outside of the tire that is Sigil. They found nothingness and the flat rocky surface of the outside tire with nothing else. In fact the outer face of Sigil would be its rocky foundations, like a town built upon concrete.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllMythsAreTrue" title="/pmwiki/pmwiki.php/Main/AllMythsAreTrue">All Myths Are True</a>: Even more so than in non-Planescape settings. One can run into powers that are part of the Sumerian, Babylonian, Celtic, Egyptian, Finnish, Greek, Norse, Chinese, Indian, Japanese, Native American and many more pantheons, as well as the gods part of the Birthright, Dragonlance, Greyhawk and Forgotten Realms campaign settings and the various racial (Dwarven, Elven, Gnomish, Goblin, Orcish) pantheons. And of the real-world gods, most of them get along just fine or at least stay out of each others' way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysNight" title="/pmwiki/pmwiki.php/Main/AlwaysNight">Always Night</a>: Lunia, the first layer of Mount Celestia, is an unusual positive example of this trope. The layer is an eternal starry night on the pristine beaches by a freshwater sea of holy water. Karasuthra, the third layer of the Beastlands, is another positive (though perhaps less calming) example.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAntiNihilist" title="/pmwiki/pmwiki.php/Main/TheAntiNihilist">The Anti-Nihilist</a>: The Bleak Cabal, as described above. They have concluded there is no inherent purpose or meaning to the universe, and yet they see this as giving them no reason to contribute to suffering and every reason to contribute benevolence and kindness. As a result, they run not only the official <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BedlamHouse" title="/pmwiki/pmwiki.php/Main/BedlamHouse">Bedlam House</a> of Sigil (which has far better conditions than any normal <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BedlamHouse" title="/pmwiki/pmwiki.php/Main/BedlamHouse">Bedlam House</a>), they are also the faction most responsible for running orphanages and soup kitchens.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Arcadia" title="/pmwiki/pmwiki.php/Main/Arcadia">Arcadia</a>: There's actually an outer plane called <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Arcadia" title="/pmwiki/pmwiki.php/Main/Arcadia">Arcadia</a>. It's a realm of pastoral splendor dotted with orderly villages. <em>Very</em> orderly villages. As the plane of good-influenced lawful neutral, it's a place of peace and stability on one hand, and conformity on the other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AshesToAshes" title="/pmwiki/pmwiki.php/Main/AshesToAshes">Ashes to Ashes</a>: The Quasi-Elemental Plane of Ash, which embodies Elemental Fire mixed with negative energy, from which come Ash Quasimentals and Ash Mephits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomenessByAnalysis" title="/pmwiki/pmwiki.php/Main/AwesomenessByAnalysis">Awesomeness by Analysis</a>: This is the basis of the Fraternity of Order, who use their understanding of physical laws to gain spell-like abilities.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AppealToForce" title="/pmwiki/pmwiki.php/Main/AppealToForce">Appeal to Force</a><ul><li> This is how the Lady of Pain is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShadowDictator" title="/pmwiki/pmwiki.php/Main/ShadowDictator">Shadow Dictator</a> of Sigil. Simply put, nobody, nothing has enough power to dethrone her, despite many having tried given how valuable Sigil is. Even the god Aoskar was crushed by her for stealing the spotlight. This is reflected in her stats, in that she has no stats; players cannot defeat her in any circumstances. (Some of the source books go so far as to discuss how, if a GM and players are genuinely entertaining the idea of fighting and defeating the Lady, they're misunderstanding the setting on a fundamental level.)</li><li> Demon Lords rule layers of the Abyss this way. Tanar'ri (Demons) are way too chaotic and animalistic to have any proper government, so the strongest demons are the rulers, plain and simple. Their whole military is based on forceful recruitment of the lesser demons by higher ranks and forcing the cannon fodder into battle like shepherds, they even have dedicated demons to do this, the Babau and Molydei. Guys like Demogorgon and Orcus are constantly fighting bloody wars in efforts to gain more territory and followers.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BannedInChina" title="/pmwiki/pmwiki.php/Main/BannedInChina">Banned in China</a>: The accessory <em>The Factols' Manifesto</em> was an amusing In-Universe example of the Trope. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InteractiveNarrator" title="/pmwiki/pmwiki.php/Main/InteractiveNarrator">Interactive Narrator</a> of the book was its unnamed editor, who claimed that the book had been outlawed in Sigil and that he was a fugitive and one of its most hated citizen because he <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooDumbToLive" title="/pmwiki/pmwiki.php/Main/TooDumbToLive">had turned whistleblower on all fifteen Factions</a> and exposed their biggest secrets by writing the book. (He claimed, however, that the Lady herself confronted him once one dark night, and he assumed, as she let him live, that she did not object to his work. In Faction War, he was revealed to be background NPC A'kin, the Friendly Fiend.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BedlamHouse" title="/pmwiki/pmwiki.php/Main/BedlamHouse">Bedlam House</a><ul><li> The settled parts of Pandemonium are sometimes this trope. The entire Outer Plane consists of lightless tunnels blasted by a constant wind that quickly drives residents insane.</li><li> Averted by the Gatehouse, the asylum run by the Bleak Cabal, which is relatively safe.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackComedy" title="/pmwiki/pmwiki.php/Main/BlackComedy">Black Comedy</a>: How many settings would publish a picture of a smiling devil parodying the famous Kitchener "I Want You" recruitment poster?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodyBowelsOfHell" title="/pmwiki/pmwiki.php/Main/BloodyBowelsOfHell">Bloody Bowels of Hell</a>: <em>Planescape</em> has 666 layers in the Abyss, home of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChaoticEvil" title="/pmwiki/pmwiki.php/Main/ChaoticEvil">Chaotic Evil</a> demons. Zegrentilandib, layer 393, is sentient, with fleshy ground. </li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BombThrowingAnarchists" title="/pmwiki/pmwiki.php/Main/BombThrowingAnarchists">Bomb-Throwing Anarchists</a>: The Revolutionary League. (When they're not being <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">well-intentioned</a>). For the not-bomb throwing variety, there's the Free League.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>: Every time the Paraelemental Plane of Ooze is mentioned it is described as a revolting and disgusting place where there's nothing to do and no profit to be made. As such it's often seen as the biggest joke in the Multiverse and rarely visited.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelestialParagonsAndArchangels" title="/pmwiki/pmwiki.php/Main/CelestialParagonsAndArchangels">Celestial Paragons and Archangels</a>: The Archons of Mount Celestia are the clearest example of this trope, though the Guardinals and Eladrin might also apply.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CessationOfExistence" title="/pmwiki/pmwiki.php/Main/CessationOfExistence">Cessation of Existence</a>: The Dustmen's belief is a weird mixture of this, reincarnation, cynicism, asceticism , and the "life is suffering" brand of nihilism that is more commonly used to fuel <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PutThemAllOutOfMyMisery" title="/pmwiki/pmwiki.php/Main/PutThemAllOutOfMyMisery">Put Them All Out of My Misery</a> type villainy. The Dustmen believe existence as we know it is actually a massive array of hells known as "False Life", because living in it brings suffering and disappointment. All people in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">The Multiverse</a> have already died and passed from the state of "True Life" (which they believe is a form of paradise) and are undergoing purgatory by suffering, "dying", being reincarnated into another stage of "False Life", and thus suffering again. The Dustmen thus practice a <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Buddhism" title="/pmwiki/pmwiki.php/UsefulNotes/Buddhism">Buddhism-like</a> form of asceticism, and try to encourage the others to do the same, in hopes of transcending their suffering and reaching a state they call "True Death", where there is no more suffering. Individual beliefs about what lies beyond True Death vary from this trope to being reincarnated back into "True Life" again.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChaoticStupid" title="/pmwiki/pmwiki.php/Main/ChaoticStupid">Chaotic Stupid</a>:<ul><li> Players of Xaositect characters were actively encouraged by the rulebooks to act this way (much to some other players' chagrin).</li><li> Slaad, the giant, toadlike Outsiders who represent pure chaos are typically portrayed like this. The weakest types, red and blue slaad, are almost always portrayed this way but the stronger types, the green, gray, and death slaad, typically aren't.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterAlignment" title="/pmwiki/pmwiki.php/Main/CharacterAlignment">Character Alignment</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, a tangible concept that forms the basis of much of the setting, since the Outer Planes are defined by the alignments. If enough beings within a given area of an Outer Plane adhere to a different alignment than the plane itself, then that entire area will shift to the plane that matches the alignment of the population. Some groups actively try to use this fact to steal territory from one plane to add to another.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterNarrator" title="/pmwiki/pmwiki.php/Main/CharacterNarrator">Character Narrator</a>: Almost every accessory is written under the premise that some scholar or researcher from Sigil is writing down the information from personal experience. Notable examples include the unnamed fugitive editor of <em>The Factol's Manifesto</em>, mentioned above, and <em>Faces of Evil: The Fiends</em>, supposedly edited by the tiefling Ice the Trice Born with the aid of a collection of oddball narrators (not all of them, Ice regrettably tells the readers, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PosthumousNarration" title="/pmwiki/pmwiki.php/Main/PosthumousNarration">survived to see the book printed</a>, but she won't say which ones). The most entertaining one in the book is, without a doubt, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnreliableNarrator" title="/pmwiki/pmwiki.php/Main/UnreliableNarrator">the blue slaad Xanxost.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve" title="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve">Clap Your Hands If You Believe</a><ul><li> The central point of the setting. The collective weight of the factions' beliefs&mdash;the Sign of One in solipsism, the Fated (Takers) in social darwinism, the Harmonium in statism, and so on&mdash;can allow its most powerful members to alter the very physical and spiritual fabric of the Outer Planes.</li><li> The gods themselves. Gods gain power based on how strongly their followers believe in them. Gods with more followers tend to be stronger than gods with fewer followers, and they can give that power back to their followers in the form of spells for their clerics. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodsNeedPrayerBadly" title="/pmwiki/pmwiki.php/Main/GodsNeedPrayerBadly">Gods who lose all their followers wither away</a> and finally die when they are completely forgotten and erased from memory. This forms an important core of the Athar's belief that these deities are "false" - an actual being of creation wouldn't be reliant on its own creations to sustain itself.</li><li> "Belief = Power" is a fundamental law of physics in the planes.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityGuards" title="/pmwiki/pmwiki.php/Main/CityGuards">City Guards</a>: The Harmonium keeps the peace with extreme prejudice, always ready to beat up those who cause trouble. The Mercykillers do a bit of this as well, and are even more violent. Generally speaking the Harmonium keep order and arrest lawbreakers, the Fraternity of Order do the judging and determine sentence, and the Mercykillers handle imprisonment or execution (unless the victim is legally insane, in which case the Bleakers handle containment). If the criminal is violent/dangerous enough to warrant 'kill on sight' that's also the Mercykillers' business.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCityNarrows" title="/pmwiki/pmwiki.php/Main/TheCityNarrows">The City Narrows</a>: Sigil's got one of these in the form of the Hive, a crime-ridden and mazelike slum. The Lower Ward, with its toxic air and numerous portals to the Lower Planes, might also qualify.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfAdventure" title="/pmwiki/pmwiki.php/Main/CityOfAdventure">City of Adventure</a>: Not only can you find practically anything in Sigil if you know where to look, it has portals that go to <em>everywhere</em> in the multiverse, literally. Sigil is not only an adventure onto itself, it leads to every adventure a creative DM can think of.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CouncilOfAngels" title="/pmwiki/pmwiki.php/Main/CouncilOfAngels">Council of Angels</a>: The seven Tome Archons of Mount Celestia. Years later, in 3rd Edition, they were <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retcon" title="/pmwiki/pmwiki.php/Main/Retcon">Retconned</a> into the Celestial <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsLongAsItSoundsForeign" title="/pmwiki/pmwiki.php/Main/AsLongAsItSoundsForeign">Hebdomad</a>, a council of unique angels on the same power level as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" title="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">Demon Lords and Archdevils</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>: In many ways, Sigil, where the police force is run by a bunch of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knights Templar</a> who believe that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllCrimesAreEqual" title="/pmwiki/pmwiki.php/Main/AllCrimesAreEqual">All Crimes Are Equal</a> and everyone is guilty of <em>something</em>, while the taxes are collected by the faction that subscribes to a sort of weird mishmash of Randian Objectivism and outright thuggery. And then, of course, there are the actual planes that are Crapsack Worlds, like the seven different versions of Hell (which each come with <em>at least</em> three layers of variety).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrossoverCosmology" title="/pmwiki/pmwiki.php/Main/CrossoverCosmology">Crossover Cosmology</a>: as the Outer Planes of almost all Prime Material Planes, the wider Planescape (the planes beyond Sigil) mention gods and other entities from the majority of AD&amp;D game worlds - the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Dragonlance" title="/pmwiki/pmwiki.php/TabletopGame/Dragonlance">Dragonlance</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/ForgottenRealms" title="/pmwiki/pmwiki.php/TabletopGame/ForgottenRealms">Forgotten Realms</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Greyhawk" title="/pmwiki/pmwiki.php/TabletopGame/Greyhawk">Greyhawk</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Birthright" title="/pmwiki/pmwiki.php/TabletopGame/Birthright">Birthright</a></em> are all represented. The only major Prime Material setting not to be included is <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Mystara" title="/pmwiki/pmwiki.php/TabletopGame/Mystara">Mystara</a></em> (which has a very different treatment of gods).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsNotEvil" title="/pmwiki/pmwiki.php/Main/DarkIsNotEvil">Dark Is Not Evil</a><ul><li> The Dustmen faction are basically all creepy goths who hang around with the undead, but their faction philosophy is akin to <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Buddhism" title="/pmwiki/pmwiki.php/UsefulNotes/Buddhism">Buddhism</a> and they're responsible for Sigil's funerals, proper treatment of the dead and counselling those left behind. The undead they hang out with volunteered to have their bodies reanimated, and are usually just simple laborers. Although it's true that in many ways the Dustmen's philosophy is actually bleaker than the Bleak Cabal's (the Bleakers believe there is no inherent purpose to life; the Dustmen believe life is suffering and one should use asceticism to pursue <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CessationOfExistence" title="/pmwiki/pmwiki.php/Main/CessationOfExistence">Cessation of Existence</a> instead of the reincarnation that is "the norm").</li><li> Also the Doomguard, who believe in entropy and the inevitability of everything that exists eventually crumbling to dust with nothing remaining at the end of time. Some extremists believe that they should speed up the process as much as possible, while others support the constructions of new buildings, because it includes chipping away mountains and cutting hundreds of trees, and the new building will only last for a few hundred years if it doesn't burn down much earlier.</li><li> The Bleak Cabal are extreme nihilists, most of whom have at least a trace of mental illness. But despite that and their ominous moniker, they run Sigil's orphanage and soup kitchens (in good faith and to the best of their ability), as well as asylums that at least try to not be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BedlamHouse" title="/pmwiki/pmwiki.php/Main/BedlamHouse">Bedlam House</a>. The reasoning ends up being genius: if there's no point to anything, there's no existential reason to <em>not</em> help each other, and if we live in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>, there's no need to make things worse.</li><li> It should be noted that all three of these Factions have both good <em>and</em> evil members. Neither moral belief is a prerequisite for joining any of them. (And Player Characters are welcome to join any of these groups, should they desire, with no fear of moral repercussions.)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" title="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">Demon Lords and Archdevils</a><ul><li> <em>Planescape</em> brought them back to <em>D&amp;D</em> for the first time since the game was "sanitized" in the switch to 2nd Edition. They had to call them "Tanar'ri Lords" and "Lords of the Nine", until the adventure <em>Dead Gods</em>, when Orcus was explicitly referred to as a demon.</li><li> Specific examples that played a significant role in adventures include the demon Orcus in <em>Dead Gods</em> and the devil Dispater in <em>Fires of Dis</em>.</li><li> In addition to the fiendish rulers, the Slaad Lords (Ygorl, Ssendam, Chourst, and Renbuu) and Primus of the modrons filled similar roles.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonOfHumanOrigin" title="/pmwiki/pmwiki.php/Main/DemonOfHumanOrigin">Demon of Human Origin</a><ul><li> When you die, you become a petitioner on the Outer Plane most suited to your alignment, and lose all memories of your previous existence. However, many petitioners who are sent to Baator (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawfulEvil" title="/pmwiki/pmwiki.php/Main/LawfulEvil">Lawful Evil</a> Hell) and the Abyss (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChaoticEvil" title="/pmwiki/pmwiki.php/Main/ChaoticEvil">Chaotic Evil</a> Hell) become larvae (soul cattle) or directly lesser, bottom of the barrel fiends and are then selected (essentially at random) to join <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLegionsOfHell" title="/pmwiki/pmwiki.php/Main/TheLegionsOfHell">The Legions of Hell</a> as the diabolic or demonic equivalent of privates (actually cannon fodder). From there, IF they survive and get randomly promoted to an actual private, it is theoretically possible that if the petitioner is both evil enough and badass enough, then he or she could eventually rise up the ranks evolving through each rank/form to become an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" title="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">Archdevil or Demon Lord</a>. This is rare, but possible: the demon lord Orcus began his career as a lowly Dretch, the weakest and dumbest of demons, only above the Mane who aren't fit enough to think for themselves or be considered demons at all, and he's now the second or third (depends who you ask) most powerful being in the Abyss. </li><li> This is way more prominent in the Baatezu (Devils) where all start from Lemure and each one is an evolved form with a fixed rank by rank evolutionary line until they become Pit Fiends. They are Lawful Evil and the evolution is treated as getting a promotion in the military with messing up getting a demotion by deevolving them to the previous form or even further below. This line is detailed in the monster manual of Planescape and encompasses almost all devils with some forms even considered "dead ends" or alternative steps to the most common line.</li><li> Tanar'ri (Demons) usually evolve by taking power by themselves or getting a forced promotion (again randomly given at the lowest levels) since the higher ups need better troops and like to reward the few survivors of each battle.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemotedToExtra" title="/pmwiki/pmwiki.php/Main/DemotedToExtra">Demoted to Extra</a>: The original three new playable races were tieflings, githzerai, and bariaurs. Tieflings became a big <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakoutCharacter" title="/pmwiki/pmwiki.php/Main/BreakoutCharacter">Breakout Character</a> of the setting, along with their counterparts, the aasimar, and githzerai (and githyanki), while not as successful, are still a major mainstay and feature prominently. Meanwhile, bariaur faded out almost immediately, and rarely feature even in <em>Planescape</em> material.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidNotDoTheBloodyResearch" title="/pmwiki/pmwiki.php/Main/DidNotDoTheBloodyResearch">Did Not Do the Bloody Research</a>: A lot of the slang used in Sigil came straight from the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThievesCant" title="/pmwiki/pmwiki.php/Main/ThievesCant">Thieves' Cant</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VictorianLondon" title="/pmwiki/pmwiki.php/Main/VictorianLondon">Victorian London</a>. Some of the words (especially <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CountryMatters" title="/pmwiki/pmwiki.php/Main/CountryMatters">"berk"</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/IrishTravellers" title="/pmwiki/pmwiki.php/UsefulNotes/IrishTravellers">"pike"</a>) had (or still have) less than complimentary meanings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DomainHolder" title="/pmwiki/pmwiki.php/Main/DomainHolder">Domain Holder</a>: The Lady's <em>whim</em> is reality in Sigil. One is entitled to certain defenses (saving throws and so forth) when attacked by a mortal... or a demon/angel... or even (sometimes) a god. The Lady can do as she wills <em>to</em> a god... within the city limits.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Lady has proven she can do as she wills outside of Sigil too. She killed the god of portals Aoskar in his home domain in the Astral Plane while at the same time demolishing his temples and killing or mazing nearly all of his followers. All in a matter of seconds in the middle of the night, with a mere thought. Aoskar's corpse was found in his domain <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/NightmareFuel" title="/pmwiki/pmwiki.php/Main/NightmareFuel">impaled and eviscerated FROM THE INSIDE OUT</a> by a gazillion scythe blades that looked like The Lady's headdress. It is implied, however, that she could do this <em>because</em> his Portals domain intruded on the City; therefore, she had some kind of authority to deal with him as she wished once he got a bit too grabby with Sigil.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DontThinkFeel" title="/pmwiki/pmwiki.php/Main/DontThinkFeel">Don't Think, Feel</a>: The Ciphers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DungeonPunk" title="/pmwiki/pmwiki.php/Main/DungeonPunk">Dungeon Punk</a>: Certainly contains heavy influences of this style, especially in Sigil.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>: When the first Planescape campaign setting was published, it actually only contained three new playable races; the Bariaur (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurCentaursAreDifferent" title="/pmwiki/pmwiki.php/Main/OurCentaursAreDifferent">benevolent centaur-like beings that are half human and half mountain sheep</a>), the Githzerai, a tribe of mage-warriors and monks (who look like mongolian fu-manchu elves with goatees and freckles) and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnsembleDarkHorse" title="/pmwiki/pmwiki.php/Main/EnsembleDarkHorse">Tiefling</a>, a mix of humanoid and infernal blood, each one of them with unique looks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EndlessDaytime" title="/pmwiki/pmwiki.php/Main/EndlessDaytime">Endless Daytime</a>: Krigala, the first layer of the Beastlands, is an eternal and glorious afternoon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyCivilWar" title="/pmwiki/pmwiki.php/Main/EnemyCivilWar">Enemy Civil War</a><ul><li> The eternal, devastating Blood War between the baatezu (devils) and tanar'ri (demons) is the only thing keeping the lower planes from overrunning the multiverse. Yugoloth (daemons) serve as mercenaries to both sides while the Gehreleth (demodands) stay outside of the war.</li><li> Smaller-scale (but no less bloody) examples include the constant war between the tanar'ri lords Demogorgon, Orcus, and Graz'zt; and the feud between the gods of the orcs and goblins on Acheron.</li><li> Less bloody examples are the power struggles and scheming between the Lords of the Nine Hells of Baator.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEeyore" title="/pmwiki/pmwiki.php/Main/TheEeyore">The Eeyore</a>: Not unusual for The Bleakers (charitable variant) and The Doomguard (destructive variant). Pretty much all Dustmen are like this, too, given that happiness is literally the enemy according to their philosophy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryManHasHisPrice" title="/pmwiki/pmwiki.php/Main/EveryManHasHisPrice">Every Man Has His Price</a>: Nowhere in the universe is the phrase "money talks" truer than it is in Sigil. You can use bribery to get nearly <em>anything</em>, information, entry into places you wouldn't otherwise be allowed, and <em>maybe</em> getting the town watch to look the other way. (The only folks in Sigil you can't bribe, usually, are the Guvners, Harmonium, and Mercykillers, but even then, a few evil members of those Factions will "compromise" in exchange for a "donation" or two.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilTowerOfOminousness" title="/pmwiki/pmwiki.php/Main/EvilTowerOfOminousness">Evil Tower of Ominousness</a>: Several. Khin-Oin, in the Gray Waste, is a tower in the shape of a spinal cord reaching forty miles into the sky and forty miles under the ground.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticSlurs" title="/pmwiki/pmwiki.php/Main/FantasticSlurs">Fantastic Slurs</a>: Several of these abound, the most outstanding being "prime" and "clueless."<ul><li> A prime is someone from the prime material plane (i.e. an actual Earth-like world, such as most regular settings) rather than from Sigil or the outer/inner planes; to some people, this implied that the person was rural, uneducated, the "country cousin from out of town," although technically it's purely descriptive and not derogatory.</li><li> A clueless is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Exactly What It Says on the Tin</a>; someone who just doesn't get how things work out among the planes, and sometimes believes he's still back home &mdash; an apt comparison would be your country cousin visiting the city for the first time, or a college freshman who has never left home before. Some people consider all primes to be clueless, but there's a good deal of arrogant cluelessness among some planewalkers, too...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticTerrorists" title="/pmwiki/pmwiki.php/Main/FantasticTerrorists">Fantastic Terrorists</a>: There's the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BombThrowingAnarchists" title="/pmwiki/pmwiki.php/Main/BombThrowingAnarchists">Bomb-Throwing Anarchists</a> of the Revolutionary League and the more extremist elements of the Doomguard.<ul><li> The Anarchists of the League have infiltrated all the other factions in the name of burning down every last trace of the old order and replacing it with something... except that no two cells can agree on exactly what that new order ought to be. In addition to the usual D&amp;D spells and magic items, faction members gain a supernatural ability to convince others that they're part of any faction other than the Anarchists.</li><li> Meanwhile, the more fanatical members of the Doomguard not only believe that entropy is inevitable and even desirable, as the rest of the faction does, but also that they have the duty and pleasure of speeding the entire multiverse along to its final destruction. To this end, they stage attacks with weapons from the City Armory, which they themselves control, even as a sizable splinter group within the faction has begun working with the demonic tanar'ri as mercenaries and saboteurs, researching spells, churning out enchanted weapons, and crafting living engines of destruction with which the demons will lay waste to countless worlds. They get away with this because given the infinite scale of the multiverse, an entire world falling to demons can be written off as a petty, localized skirmish.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyKitchenSink" title="/pmwiki/pmwiki.php/Main/FantasyKitchenSink">Fantasy Kitchen Sink</a>: Even moreso than most settings in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em>. Sigil is a place where you might find <em>anything</em>, literally, if you know where to look.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FateWorseThanDeath" title="/pmwiki/pmwiki.php/Main/FateWorseThanDeath">Fate Worse than Death</a>: Pissing off the Lady of Pain can have any number of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LudicrousGibs" title="/pmwiki/pmwiki.php/Main/LudicrousGibs">messy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlayedAlive" title="/pmwiki/pmwiki.php/Main/FlayedAlive">painful</a> results, but her most famous punishment is Mazing; sending the offender(s) to a pocket dimension labyrinth of her own making. These mazes can be of any make or structure, and the Mazee is immortal, unable to age or die from injuries (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToSuicide" title="/pmwiki/pmwiki.php/Main/DrivenToSuicide">self-inflicted</a> or otherwise) or starvation/thirst, possibly leaving them to run the maze for the rest of eternity. The only way out is to finish the maze. However, even if they escape, it's possible for the offender to exit into a completely different place or time, sometimes thousands of year in the past or future. Only way to avoid this fate: DO NOT PISS OFF THE LADY OF PAIN.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FictionalCounterpart" title="/pmwiki/pmwiki.php/Main/FictionalCounterpart">Fictional Counterpart</a>: A strange version, where Baator is clearly based on Dante's Inferno, Mount Celestia on his Purgatorio, and many locations or characters are adaptations of real-world myths, such as Olympus, Yggdrasil, and the Styx. Likewise, the factions are mostly fictional counterparts and send-ups of real-world beliefs, from the <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/AynRand" title="/pmwiki/pmwiki.php/Creator/AynRand">Randian</a> Fated to the solipsistic Sign of One.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FireAndBrimstoneHell" title="/pmwiki/pmwiki.php/Main/FireAndBrimstoneHell">Fire and Brimstone Hell</a>: Plenty of these. Phlegethos, the fourth layer of Baator, is probably the most traditional. The Abyss, being what it is, is sure to have several layers that meet the criteria. The top two layers of Gehenna also fit, though they're a bit less traditional about it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlayingAlive" title="/pmwiki/pmwiki.php/Main/FlayingAlive">Flaying Alive</a>: Just one of the many consequences of pissing off The Lady of Pain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GardenOfEvil" title="/pmwiki/pmwiki.php/Main/GardenOfEvil">Garden of Evil</a>: Cathrys, the second layer of Carceri, is called the Crimson Jungle. It's a tropical hell where the trees drip poison and razor-edged grass can disembowel the careless (or even careful) traveler.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeniusLoci" title="/pmwiki/pmwiki.php/Main/GeniusLoci">Genius Loci</a>: Nimicri is a small, spherical city orbiting one of Gehenna's mounts. While it initially appears to be inhabited, closer inspection, any townspeople are revealed to be extensions of the city itself, which is in reality a titanic mimic that uses the blood of visitors to increase its population with duplicates.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GhibliHills" title="/pmwiki/pmwiki.php/Main/GhibliHills">Ghibli Hills</a>: Dothion, the bottom layer of Bytopia falls into this category. It's a pastoral land where the natives live in small and industrious villages, embracing the virtues of craftsmanship and honesty. Parts of Elysium may also qualify.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AGodIAmNot" title="/pmwiki/pmwiki.php/Main/AGodIAmNot">A God I Am Not</a>: The Lady Of Pain. Her powers make her a deity for all intents and purposes, but for unknown reasons, worshiping her or referring to her as a goddess is one of the quickest ways to bring down her wrath. The most common theory is that active worship could make her a goddess. The whole idea of Sigil as a neutral ground crossroads of the multiverse is that gods have no access there. If the Lady became one, the whole barrier would collapse in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PuffOfLogic" title="/pmwiki/pmwiki.php/Main/PuffOfLogic">Puff of Logic</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodOfGood" title="/pmwiki/pmwiki.php/Main/GodOfGood">God of Good</a>: Possibly Chronias, the top layer of Celestia. Never explicitly described, it is the final goal of the petitioners making the slow ascent up the holy mountain. There, they hope to be eternally joined to Celestia itself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodsNeedPrayerBadly" title="/pmwiki/pmwiki.php/Main/GodsNeedPrayerBadly">Gods Need Prayer Badly</a>: see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve" title="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve">Clap Your Hands If You Believe</a> above.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodIsNotNice" title="/pmwiki/pmwiki.php/Main/GoodIsNotNice">Good Is Not Nice</a>: The Celestials can really ruin your day if you give them a reason to.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlobalCurrency" title="/pmwiki/pmwiki.php/Main/GlobalCurrency">Global Currency</a><ul><li> While this is an unofficial rule in almost all RPG settings, it's an <em>official</em> rule in this one, mentioned in the core rulebook. Gold from one world is considered just as valuable as it is from another in Sigil. (And Sigil is a place <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryManHasHisPrice" title="/pmwiki/pmwiki.php/Main/EveryManHasHisPrice">where the rule "Money talks"</a> is truer than anywhere else.)</li><li> Infernals on the other hand use souls (mostly damned ones) as currency. Damned souls become giant human-faced larvae as petitioners of the lower planes. These larvae are treated like cattle and money at the same time. Infernals need the larvae/souls to create (or "reeincarnate" the souls into) lesser infernals for the Blood War.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GravityIsAHarshMistress" title="/pmwiki/pmwiki.php/Main/GravityIsAHarshMistress">Gravity Is a Harsh Mistress</a>: Certain planes, such as the Plane of Air, have "subjective directional gravity," which fits the "Gravitational Cognizance" version of this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HangingJudge" title="/pmwiki/pmwiki.php/Main/HangingJudge">Hanging Judge</a>: Judge Gabberslug, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil" title="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil">demon</a> who manages the "Court of Woe," which handles spill-over cases from the City Court of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfAdventure" title="/pmwiki/pmwiki.php/Main/CityOfAdventure">Sigil</a>. His sole bailiff is a tireless, cursed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUndead" title="/pmwiki/pmwiki.php/Main/TheUndead">death</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackKnight" title="/pmwiki/pmwiki.php/Main/BlackKnight">knight</a>. Your best bet if sent before Gabberslug is to hire Sly Nye, one of the only advocates to win his cases there by dint of being aggravatingly true to his alignment of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChaoticNeutral" title="/pmwiki/pmwiki.php/Main/ChaoticNeutral">Chaotic Neutral</a> (unpredictable, arbitrary) yet still usually <em>right</em> about the law. </li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHedonist" title="/pmwiki/pmwiki.php/Main/TheHedonist">The Hedonist</a>: Subverted with The Sensates, who consider such behavior a mockery of their beliefs. Characters who act this way <em>do</em> try to join, but if they just repeat the same pleasures over and over, they are invited to the Gilded Hall on Arborea &mdash; a great palace of the eternal party on the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChaoticGood" title="/pmwiki/pmwiki.php/Main/ChaoticGood">Chaotic Good</a> good plane already biased toward overlong feasting. It's not a prison sentence, but since a hedonists have no reasons to leave the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HappyPlace" title="/pmwiki/pmwiki.php/Main/HappyPlace">Happy Place</a> incarnate, they spend the rest of their lives lost in indulgences and are buried on the premises (presumably with a great commemoration feast). <em>True</em> Sensates are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SenseFreak" title="/pmwiki/pmwiki.php/Main/SenseFreak">Sense Freaks</a>, devoted to experiencing every single sensation in existence; pleasant, horrid, and the whole gamut in-between. Or at least "specialize" in finding and discerning all the fine flavours of a some general type of experiences. </li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hell" title="/pmwiki/pmwiki.php/Main/Hell">Hell</a><ul><li> Baator, home of the baatezu (better known as "devils") is literally Hell, though all of the Lower Planes have elements of the trope: Carceri is Tartarus from greek mythos, Gehenna is hebrew hell, Acheron and The Grey Waste (of Hades) are both based on greek underworld (Acheron not so much) and Pandemonium is Asgardian hell.</li><li> The Abyss, while only named after the Christian chasm leading to the gates of Hell is worse than the rest, <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/NightmareFuel" title="/pmwiki/pmwiki.php/Main/NightmareFuel">much much worse.</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HellIsWar" title="/pmwiki/pmwiki.php/Main/HellIsWar">Hell Is War</a>: There are seven distinct Lower Planes, each of which is a Hell of sorts. Each of these has multiple dimensions. Of the seven lower planes, five are involved in the Blood War and one is given over to endless, genocidal wars between goblin-kind and orc-kind, with other races being thrown into the mix. So six of seven hells are invoke this trope. For example, Acheron. Just as Ysgard is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorHeaven" title="/pmwiki/pmwiki.php/Main/WarriorHeaven">Warrior Heaven</a>, Acheron is Soldier Hell, where souls of ruthless professionals, conscripts drunk on the bloodshed, all those who lost sense of what they fought for, fight as cannon fodder in pointless never-ending wars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a>: The cranium rats which are a ubiquitous pest in sigil are this when in close enough proximity to eachother. The collective is not race wide however, and several separate hives war in the sewers of Sigil to add more to their number.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanoidAbomination" title="/pmwiki/pmwiki.php/Main/HumanoidAbomination">Humanoid Abomination</a>: The Lady of Pain. No one knows exactly WHAT she is, but she does not count herself amongst the gods, and they sure as hell don't want her amongst them. And she's powerful enough that the gods cannot step into Sigil. AT ALL. Not a single one. And within its walls, she is <em>absolutely omnipotent</em>. The laws of physics and magic are literally hers to command. If that doesn't scream eldritch abomination, what does?<ul><li> See <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DomainHolder" title="/pmwiki/pmwiki.php/Main/DomainHolder">Domain Holder</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InexplicablyAwesome" title="/pmwiki/pmwiki.php/Main/InexplicablyAwesome">Inexplicably Awesome</a>: The Lady of Pain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InTheDoldrums" title="/pmwiki/pmwiki.php/Main/InTheDoldrums">In the Doldrums</a>: The properties of the <a class="urllink" href="http://en.wikipedia.org/wiki/Gray_Waste">Grey Wastes of Hades<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> replace all emotions with hopelessness and gloom, and cause colors fade to gray.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InWhichATropeIsDescribed" title="/pmwiki/pmwiki.php/Main/InWhichATropeIsDescribed">In Which a Trope Is Described</a>: Many of the game's books start with such an introduction, and their table of contents often have such a short sentence to describe every chapter.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsPronouncedTropay" title="/pmwiki/pmwiki.php/Main/ItsPronouncedTropay">Its Pronounced Tropay</a>: Some inhabitants of Sigil take serious offense if you pronounce its name "Sijil" rather than "Sighil".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheJourneyThroughDeath" title="/pmwiki/pmwiki.php/Main/TheJourneyThroughDeath">The Journey Through Death</a>: An odd sort of example: The various afterlives are planes of existence, traversable by various means and home to their own native inhabitants. As a result, it's entirely possible for a character to end up travelling to an afterlife while technically alive!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knight Templar</a>: Most of the Mercykillers ("Justice at all costs") and a large portion of the Harmonium ("We know what's good for you").</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawfulStupidChaoticStupid" title="/pmwiki/pmwiki.php/Main/LawfulStupidChaoticStupid">Lawful Stupid, Chaotic Stupid</a>: A point of heavy discussion and debate in-universe, and a major theme of the setting. The Fraternity of Order and (especially) the Xaositects are (respectively) painted this way by those outside of their factions, while the Modrons and Slaadi are embodiments of Order and Chaos so steeped in their respective alignments that their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">Blue-and-Orange Morality</a> is often thought to render them more alien than demons or devils.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LordBritishPostulate" title="/pmwiki/pmwiki.php/Main/LordBritishPostulate">Lord British Postulate</a>: The Lady has no official stats in order to avert this trope, and also because it would take away her mystery.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MobileCity" title="/pmwiki/pmwiki.php/Main/MobileCity">Mobile City</a>: The Crawling City in Gehenna, the closest thing to a capital city for the fiendish yugoloths, moves upon thousands and thousands of demonic, fireproof legs capable of fording rivers of lava and moving vertically up cliffs, and can move between any of the plane's layers. The city's ruler, the General of Gehenna, uses its mobility to keep his location hidden from enemies both within and without the yugoloth race.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralDissonance" title="/pmwiki/pmwiki.php/Main/MoralDissonance">Moral Dissonance</a>: The Upper Planes allow the Blood War &mdash; an eternal conflict that would be seen as bloodthirsty even in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer">Warhammer</a></em> setting (if not its more-famous <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">sci-fi cousin</a>) &mdash; to continue without end since it pits the two main fiendish factions against each other, and away from the good folk. The problem is, the Blood War seems to have a corrupting influence all on its own. <span class="spoiler" title="you can set spoilers visible by default on your profile">This is explored more thoroughly in <em>Planescape: Torment</em>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">The Multiverse</a>: Duh.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MySpeciesDothProtestTooMuch" title="/pmwiki/pmwiki.php/Main/MySpeciesDothProtestTooMuch">My Species Doth Protest Too Much</a>: Fell is a 'fallen' Dabus, one of The Lady's servitors, who chose to abandon her service and worship the (at the time very popular) god of portals Aoskar. The Lady responded by (in ONE SINGLE MOVE) killing Aoskar in his own domain, the Astral Plane, razing his main temple (and the whole temple district) and wiping every dedicated follower and cleric of his in Sigil, but left Fell alive. People tend to be wary around him, believing him cursed or left alive to be an example, to tell the tale.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Names to Run Away from Really Fast</a>: The Lady of Pain.<div class="indent"><strong>Spoony</strong>: [W]hen you do see her, <em><strong>RUN. Fucking RUN</strong></em>, don't look at her, don't speak to her &mdash; oh, my GOD, don't speak to her &mdash; don't get in her way... if you see her, turn tail and run, and run as fast as you can, and close as many doors behind you as you can, and hope to <em>God</em> she didn't see you... <em>run.</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NayTheist" title="/pmwiki/pmwiki.php/Main/NayTheist">Nay-Theist</a>: The Athar. They do <em>speculate</em> about a Higher Power, but they think the beings who refer to themselves as "gods" are just pretenders, misleading mortals in order to gain power form their belief.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NatureIsNotNice" title="/pmwiki/pmwiki.php/Main/NatureIsNotNice">Nature Is Not Nice</a>: The Beastlands is one of the Upper Planes, a place of untamed nature at its most glorious... and even good-aligned travelers should still watch their step. The Outlands, the neutral plane, has "nature red in tooth and claw" as its ethos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NecessarilyEvil" title="/pmwiki/pmwiki.php/Main/NecessarilyEvil">Necessarily Evil</a>: The Lady of Pain is greatly feared for her ruthlessness, but most people acknowledge that, without her, Sigil would be nothing but a battlefield.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewWeird" title="/pmwiki/pmwiki.php/Main/NewWeird">New Weird</a>: Planescape is essentially the D&amp;D take on this, with an atypical setting that ignores traditional fantasy tropes in favor of a heavy focus on philosophy and surreal imagery.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoPronunciationGuide" title="/pmwiki/pmwiki.php/Main/NoPronunciationGuide">No Pronunciation Guide</a><ul><li> Just how does one pronounce baatezu, tanar'ri, or Xaositect anyways? <em>A Player's Primer to the Outlands</em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment" title="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment">Planescape: Torment</a></em> helped a bit, but not enough to stop endless arguments at the game table.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/TSR" title="/pmwiki/pmwiki.php/Creator/TSR">TSR</a> briefly <em>did</em> have a recorded pronunciation guide on their website. Not that this had any effect except to intensify arguments over whether they were "right."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoStoic" title="/pmwiki/pmwiki.php/Main/NotSoStoic">Not So Stoic</a>: The previous Primus was killed by Orcus, who then impersonated him, and ordered the Modrons to march around the planes several cycles early, going along a twisting path, and once he learned all he could about the location of his lost scepter, he simply left. This left the Modrons without a leader and with large numbers of their kind separated from the whole. And Orcus left a taint in the species, with one of the Secundus (four Modrons directly under Primus) infected by his evil. When it was time to elect the new Primus, the tainted Secundus said rejected all but himself as a candidate, but another Secundus challenged him anyway. So they went under the tradition of who could kill the most chaotic beings in one week. While the sane Secundus was busy making frogs legs out of the Slaad, the tainted Secundus had his army attack the gnome afterlife! He was disqualified for one, not doing the killing himself, and second, he killed Chaotic GOOD beings, who weren't directly opposed to the Modron cause. He promptly left with his quarter of the species for the lower planes. Meanwhile the Inevitables and Formians took this chance to snatch up large pieces of the Modron's territory for themselves! In the dragon magazine, if you summon the shade of the destroyed Primus, a being of pure logic, <em>he's crying.</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotQuiteFlight" title="/pmwiki/pmwiki.php/Main/NotQuiteFlight">Not Quite Flight</a>: The above mentioned subjective directional gravity can be used for this, if you have good focus and reaction times.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotUsingTheZWord" title="/pmwiki/pmwiki.php/Main/NotUsingTheZWord">Not Using the "Z" Word</a>: Not Using <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" title="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">D</a> Words. Because <strike>de</strike> <em>the fiends</em> consider them <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticSlurs" title="/pmwiki/pmwiki.php/Main/FantasticSlurs">racial slurs</a>, and get <em>really</em> pissed off (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">more than usual</a>, that is), and usually no one looks forward to this. The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WatsonianVersusDoylist" title="/pmwiki/pmwiki.php/Main/WatsonianVersusDoylist">real</a></em> reason was that <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/TSR" title="/pmwiki/pmwiki.php/Creator/TSR">TSR</a> was afraid that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralGuardians" title="/pmwiki/pmwiki.php/Main/MoralGuardians">Moral Guardians</a> would accuse <em>D&amp;D</em> of being Satanic (more than usual) if demons and devils appeared in the game. A <em>Planescape</em> adventure (<em>Dead Gods</em>) was actually the first TSR product that reverted to the use of "demon" over "tanar'ri" after the Satanic Panic died down.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNothingAfterDeath" title="/pmwiki/pmwiki.php/Main/TheNothingAfterDeath">The Nothing After Death</a>: The Dustmen's belief is a weird mixture of this, reincarnation, cynicism, asceticism , and the "life is suffering" brand of nihilism that is more commonly used to fuel <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PutThemAllOutOfMyMisery" title="/pmwiki/pmwiki.php/Main/PutThemAllOutOfMyMisery">Put Them All Out of My Misery</a> type villainy. The Dustmen believe existence as we know it is actually a massive array of hells known as "False Life", because living in it brings suffering and disappointment. All people in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">The Multiverse</a> have already died and passed from the state of "True Life" (which they believe is a form of paradise) and are undergoing purgatory by suffering, "dying", being reincarnated into another stage of "False Life", and thus suffering again. The Dustmen thus practice a <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Buddhism" title="/pmwiki/pmwiki.php/UsefulNotes/Buddhism">Buddhism-like</a> form of asceticism, and try to encourage the others to do the same, in hopes of transcending their suffering and reaching a state they call "True Death", where there is no more suffering. Individual beliefs about what lies beyond True Death vary from this trope to being reincarnated back into "True Life" again.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOldGods" title="/pmwiki/pmwiki.php/Main/TheOldGods">The Old Gods</a>: Naturally, there are things more ancient and powerful than the familiar gods out there on the endless planes.<ul><li> One such being is one of "true Baatorians" who occupied the hells before devils came along, manifesting as an invisible, intangible force that siphons life and energy. It's explicitly meant to be one of those things that can't be challenged or explained, and apparently the present-day Baatezu would be very happy if it stayed asleep.</li><li> Nupperibos are puny, morbidly obese, deaf and blind gray humanoid infernals who are not actually baatezu and thus outside their evolutionary line, larvae in Baator sometimes transform into one of these at random. The baatezu herd these things to devolve them into larvae and then transform them into the lesser of the baatezu, lemure. The reason?: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Nupperibos are the "baby" form of the ancient Baatorians. None has evolved since Asmodeus rose to power at the dawn of time and no baatezu wants to have those things loose again.</span></li><li> The Lady of Pain herself was long suspected of being one, thanks to her power to keep gods out of Sigil. A possible explanation is given near the end of <em>Die Vecna, Die!</em>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> She is rumored to be an Ancient Brethren, a group of entities that existed before the gods and are more powerful than them. A few other characters are implied to belong to this group as well, including the Serpent (who is either the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImaginaryFriend" title="/pmwiki/pmwiki.php/Main/ImaginaryFriend">Imaginary Friend</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManBehindTheMan" title="/pmwiki/pmwiki.php/Main/ManBehindTheMan">Man Behind the Man</a> of Vecna; it's deliberately left vague)</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OffscreenMomentOfAwesome" title="/pmwiki/pmwiki.php/Main/OffscreenMomentOfAwesome">Offscreen Moment of Awesome</a>: It's not shown in any adventure, but it's mentioned in updated material, that the new Primus, in a rather unprecedented move, actually left Mechanus (something that was questionable if it was possible before as he spent all his time submerged waist down in the energy pool that all modrons spawn from), went down to the lower planes himself, and personally destroyed the Orcus tainted Secundus that's actions divided the species, (forcing the Secundus to respawn from the energy pool as a lowly Monodrone free of Orcus' taint), and reunited his kind.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrcusOnHisThrone" title="/pmwiki/pmwiki.php/Main/OrcusOnHisThrone">Orcus on His Throne</a>: Many of the big evils in the setting seem to be up to nothing in particular. For example, Ilsensine, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cthulhumanoid" title="/pmwiki/pmwiki.php/Main/Cthulhumanoid">mind flayer</a> deity, spends eternity conducting mental surveillance on the universe and waiting. As in 1st Edition, Orcus himself is a <em>major</em> counterexample; he's one of the primary active forces in the metaplot. <span class="spoiler" title="you can set spoilers visible by default on your profile"> He's dead, but that doesn't stop him from almost destroying the multiverse.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrderVersusChaos" title="/pmwiki/pmwiki.php/Main/OrderVersusChaos">Order Versus Chaos</a>: Arguably more important than good versus evil. The Blood War between the chaotic tanar'ri and the orderly baatezu is perhaps the most famous example.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePlan" title="/pmwiki/pmwiki.php/Main/ThePlan">The Plan</a>: Most factions run one. Except for the Xaositects, who think <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">The Multiverse</a> is one big <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitRoulette" title="/pmwiki/pmwiki.php/Main/GambitRoulette">Gambit Roulette</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProbabilityPileup" title="/pmwiki/pmwiki.php/Main/ProbabilityPileup">mess-up</a> run by no one in particular and behave accordingly, the Ciphers, who live by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DontThinkFeel" title="/pmwiki/pmwiki.php/Main/DontThinkFeel">Don't Think, Feel</a>, the Bleakers, who think that there's no inherent point to existence, and the Indeps, who just want to be left alone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlatonicProstitution" title="/pmwiki/pmwiki.php/Main/PlatonicProstitution">Platonic Prostitution</a>: The Brothel for the Slaking of Intellectual Lusts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PollutedWasteland" title="/pmwiki/pmwiki.php/Main/PollutedWasteland">Polluted Wasteland</a>: Found in several of the Lower Planes, but special mention should go to Maladomini, the seventh layer of Baator. The ruling Baatezu, Baalzebul, is obsessed with building the perfect city, but is never able to create something that meets his satisfaction. The layer has been completely laid to waste in his quest to find more building materials. Cities of impossible beauty dot the blasted layer, abandoned because of some petty flaw that only Baalzebul can see.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalDoor" title="/pmwiki/pmwiki.php/Main/PortalDoor">Portal Door</a>: In Sigil, the City of Doors, you can find portals that lead <em>anywhere</em>, literally, if you know where to look. However, not all "bounded spaces" are made from doors, so the supertrope <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolGate" title="/pmwiki/pmwiki.php/Main/CoolGate">Cool Gate</a> may apply instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrisonDimension" title="/pmwiki/pmwiki.php/Main/PrisonDimension">Prison Dimension</a>: Planescape has several of these including:<ul><li> Carceri, the most common option and the plane philosophically located between chaotic and neutral evil. It consist of six layers of nested orbs, each of them embodying a different variety of petty spite. In order to leave a prisoner needs to become more powerful than the one who imprisoned them, something which is actively thwarted by your fellow inmates.</li><li> The Wells of Darkness, seventy-third layer of the Abyss, an endless expanse occasionally interrupted by pits filled with utter blackness. It is generally used by Demon lords to imprison their rivals.</li><li> Agathion, Pandmonium's fourth and final layer an plain of solid rock riddled with small bubbles. These pockets are used by deities to imprison monsters or artifacts they are incapable of destroying.</li><li> Belieren, the third layer of Elysium, is a rare benevolent example of this. It is an entire infinite layer of a plane sacrificed by the celestials in order to serve as a prison for fiends. It was originally used to hold the mysterious prisoner of Elysium, whose true nature is not known.</li><li> The Paraelemental Plane of Ooze: As detailed above, this is an expanses of filth extending in all directions. Since it lacks the usual planar barriers that might prevent exit, and is also fairly hospitable, imprisonment here is usually a sign of utter contempt for the individual imprisoned, and is more to humiliate the unlucky prisoner.</li></ul><p></p></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RagtagBunchOfMisfits" title="/pmwiki/pmwiki.php/Main/RagtagBunchOfMisfits">Ragtag Bunch of Misfits</a>: The Free League is a gathering point for people who don't believe too strongly in any faction philosophy one way or the other, banding together for common protection. They include many of the city's merchants and innkeepers, who benefit from being neutral.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedSkyTakeWarning" title="/pmwiki/pmwiki.php/Main/RedSkyTakeWarning">Red Sky, Take Warning</a>: Several parts of the Lower Planes, including Avernus in Baator, Pazunia in the Abyss, and several layers in Carceri.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RiddleForTheAges" title="/pmwiki/pmwiki.php/Main/RiddleForTheAges">Riddle for the Ages</a>: Who or what is the Lady of Pain? Where did she come from? No-one knows.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticismVersusEnlightenment" title="/pmwiki/pmwiki.php/Main/RomanticismVersusEnlightenment">Romanticism Versus Enlightenment</a>: Most of the Lawful factions and races are Team Enlightenment, most of the Chaotic factions and races are Team Romantic, and everyone else does have a stake in the conflict. The Blood War is a war to decide whether Evil is Romantic or Enlightened. As expected, no one is deemed right.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfThree" title="/pmwiki/pmwiki.php/Main/RuleOfThree">Rule of Three</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeNamer" title="/pmwiki/pmwiki.php/Main/TropeNamer">Trope Namer</a>, and the OTHER central rule.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScavengerWorld" title="/pmwiki/pmwiki.php/Main/ScavengerWorld">Scavenger World</a>: Most of the Lower Planes have aspects of this, though special mention should go to Thuldanin, the second layer of Acheron. Powerful weapons have a way of finding their way to this war-torn layer, and a lucky artifact-seeker can really hit it big.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheScottishTrope" title="/pmwiki/pmwiki.php/Main/TheScottishTrope">The Scottish Trope</a>: People of Sigil believe that referring to the Lady of Pain by her full name makes her pay attention, and thus refer to her as 'The Lady' if they must mention her at all. They prefer to talk around mentioning her at all if they can.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriesMascot" title="/pmwiki/pmwiki.php/Main/SeriesMascot">Series Mascot</a>: The Lady of Pain, given the fact that her face is on the logo, making her ominous glare grace every product.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShadowDictator" title="/pmwiki/pmwiki.php/Main/ShadowDictator">Shadow Dictator</a>: Again, the Lady of Pain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShrugOfGod" title="/pmwiki/pmwiki.php/Main/ShrugOfGod">Shrug of God</a>: A lot of the details are left blank or vague, furthering the setting's sense of mystery.<ul><li> Just who or what is the Lady of Pain, anyway? Six giant squirrels with a headdress, a robe and a ring of levitation. <span class="spoiler" title="you can set spoilers visible by default on your profile"> A common joke in-universe.</span></li><li> Just read Swinburne's <a class="urllink" href="http://rpo.library.utoronto.ca/poems/dolores-notre-dame-des-sept-douleurs">"Dolores"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Then you'll be even more confused. By the way, it was quoted in <em>Pages of Pain</em>.</li><li> Don't forget the mysterious monster with a sense of humor, Kaydx.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SonsOfSlaves" title="/pmwiki/pmwiki.php/Main/SonsOfSlaves">Sons of Slaves</a>: The Githyanki were once slaves of the Mind Flayers and were led out of slavery by the hero Zirthamon, whose teaching and moral code became the core of their philosophy &#151; very important in a universe, and especially on the plane of Limbo, where belief shapes reality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SourSupporter" title="/pmwiki/pmwiki.php/Main/SourSupporter">Sour Supporter</a>: Bleakers are one big Sour Support Club.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StableTimeLoop" title="/pmwiki/pmwiki.php/Main/StableTimeLoop">Stable Time Loop</a>: Rowan Darkwood's fate. In short, <span class="spoiler" title="you can set spoilers visible by default on your profile">he starts the Faction War with the intent of using it to cover his efforts to obtain the Labyrinth Stone and use it to cast the Sigil spell and claim control of Sigil. He promptly gets Mazed by the Lady on day 19. Eventually, he escapes, only to find the Maze has released him into Sigil some 500 years into the past. This version of Darkwood is imprisoned by the Bleakers as a barmy and renamed Gifad. Towards the end of the Faction War, Gifad is released or escapes and is used to try and end the Faction War by casting the Sigil spell with the aide of the Labyrinth Stone. He fails and is cast into the past, over 10000 years ago. Having lost his memory, he studies magic and eventually becomes the wizard who created the Labyrinth Stone and the Sigil spell in the first place &mdash; only to be sealed inside the Stone when he attempts to cast it. And then, millennia later, Rowan Darkwood will be born, learn of the Stone and the spell, and begin the Faction War all over again.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarfishAliens" title="/pmwiki/pmwiki.php/Main/StarfishAliens">Starfish Aliens</a><ul><li> The Modrons are the inhabitants of Mechanus, and resemble clockwork geometric shapes possessing some combination of limbs, tentacles, and facial features. Divided into different ranks (the most well-known being the cube-shaped quadrones), the Modrons are the living embodiments of law and order. A Modron of any given station is only aware of the ranks immediately above and below it; anything beyond that simply does not register. Sometimes Modrons are touched by chaos and go rogue. This doesn't mean that they start wantonly breaking laws and living large; they're still lawful to an alien degree, just slightly less so than their peers.</li><li> The frog-like Slaadi are to chaos what the modrons are to order.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StopWorshippingMe" title="/pmwiki/pmwiki.php/Main/StopWorshippingMe">Stop Worshipping Me</a>: For reasons unknown, attempting to worship the Lady of Pain as if she were a goddess leads to punishment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawNihilist" title="/pmwiki/pmwiki.php/Main/StrawNihilist">Straw Nihilist</a>: The Dustmen, arguably, as one could argue that their philosophy (all existence is a hell meant to make us suffer, and dying merely causes us to be reincarnated here to suffer again, so we must seek to deny everything that is pleasurable in life so that we may pass into true oblivion and utterly cease to exist) is, in many ways, <em>bleaker</em> than that of the Bleak Cabal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TailorMadePrison" title="/pmwiki/pmwiki.php/Main/TailorMadePrison">Tailor-Made Prison</a><ul><li> The Mazes, pocket dimensions that the Lady of Pain creates out of Sigil as prisons for anyone who threatens the city. These small dimensions sustain their occupants without the need for food or water and take the form of an enormous labyrinth. They aren't <em>completely</em> escape-proof, as the Lady always includes a well-hidden way out, but it's rare for anyone to escape. Some people think that she includes the escape route to torment the prisoner with unlikely hope.</li><li> A particularly persistent rumour about Sigil itself is that its nickname "The Cage" isn't just a dig at its complete lack of physical exits (portals notwithstanding) but that the city itself is a literal cage for someone. The most common version has it that someone is The Lady.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThirstyDesert" title="/pmwiki/pmwiki.php/Main/ThirstyDesert">Thirsty Desert</a><ul><li> Minethys, the third layer of Carceri. A crimson and demon-haunted desert.</li><li> The Quasi-Elemental Plane of Salt. While it is not made of sand it is still a desert. A very thirsty one at that: any water hitting its surface is absorbed immediately and unprotected visitors will have the moisture sucked out of them, causing them to die horrifying deaths in a matter of minutes.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThroughTheEyesOfMadness" title="/pmwiki/pmwiki.php/Main/ThroughTheEyesOfMadness">Through the Eyes of Madness</a>: Factol Lahr of the Bleak Cabal discusses this in the Factol's Manifesto. The entire Bleak Cabal faction qualifies. Faces of Evil discusses the demons via the cheerful, hilarious eyes of a mad slaad. And insane characters show up with surprising frequency.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToadLicking" title="/pmwiki/pmwiki.php/Main/ToadLicking">Toad Licking</a>: One of the flavor text quotes a Sensate's opinion on licking a Slaadi. He says that it is a horrible mistake... that everyone should make once in their life.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TruceZone" title="/pmwiki/pmwiki.php/Main/TruceZone">Truce Zone</a>: Sigil, in both the official materials and the fan expansion site &lt;mimir.net&gt;.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVoiceless" title="/pmwiki/pmwiki.php/Main/TheVoiceless">The Voiceless</a>: The Lady of Pain. There is only one confirmed case in Sigil's history where she has been known to utter a sound, and that was at the end of the module <em>Die, Vecna, Die!</em>, in a place where nobody could hear her. Factol Nilesia once made a claim that the Lady spoke to her in a dream, but Nilesia's sanity was questionable at best. In the rare times that the Lady needed to communicate with someone, her entourage of Dabus spoke for her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorHeaven" title="/pmwiki/pmwiki.php/Main/WarriorHeaven">Warrior Heaven</a><ul><li> Ysgard! The happy souls who call this plane home live it up Viking-style, fighting each other in grand melees all day. Death for residents is temporary, and when the sun sets they retire to a drinking hall to boast about their deeds. The rule about coming back to life doesn't apply to visitors, however.</li><li> The fifth layer of Mount Celestia is the Holy Warrior Heaven. Everyone regenerates, including visitors, and it could best be summed up as what would happen if infinite paladins got together to make a stronghold. It is strongly implied all paladins are allowed at least this high on the Mount.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether" title="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether">We ARE Struggling Together</a>: The Revolutionary League (although many would disagree).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>: The factions in general are like this, at least a lot of the most influential members of them are, some more than others. Their goals are all different, and most conflict with each other, but many members take their philosophies to extremes, sometimes <em>dangerous</em> extremes. (The Guvners are a bunch of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RulesLawyer" title="/pmwiki/pmwiki.php/Main/RulesLawyer">Rules Lawyers</a> who want to take over the universe using laws and the Xaositects don't like laws at all, and want to see ALL of them abolished. Neither idea would be good for the universe in general.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: <em>Faction War</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfChaos" title="/pmwiki/pmwiki.php/Main/WorldOfChaos">World of Chaos</a>: Limbo, literally.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Wretched Hive</a>: Many of the towns in the Lower Planes, along with the Gate Towns leading to such planes.<ul><li> Curst, the Gate Town to Carceri, is a run-down desert settlement inhabited by liars and traitors which doubles as a prison.</li><li> Ribcage, the Gate Town to Baator is a fascist utopia inhabited by tyrants, schemers, oppressors and loyal fanatic soldiers.</li><li> Plague-Mort, the Gate Town to The Abyss is a chaotic mess of a metropoli full of murderers and psychopaths with no laws at all where the ruler, who changes from months to years at best, is the strongest most insane and cruel tyrant with the power to do so and hold it. Usually "elected" by killing the former governor. The actual one, an evil insane cleric of the Demon Lords holds the record at 35 consecutive years.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YinYangBomb" title="/pmwiki/pmwiki.php/Main/YinYangBomb">Yin-Yang Bomb</a>: The Concordant Killers are a group of Neutral beings either created into a role of maintaining balance or chose to do so after their creator perished. They are insanely powerful, much more than your average greater devils, demons and high tier angels and rivaling those of the highest orders. In either case they possess natures that are both celestial and fiendish, granting them powers that allow them to deal with beings of any alignment, both good and evil and lawful and chaotic. Most notable are their Concordant Greatswords, weapons that are anarchic, axiomatic, holy and unholy at the same time, making it a weapon capable of dealing significant ludicrous damage to any beings of extreme (as in, non-neutral) alignment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouCantFightFate" title="/pmwiki/pmwiki.php/Main/YouCantFightFate">You Can't Fight Fate</a>: Rowan Darkwood, who discovers that he was destined to instigate, start, and end the Faction War he started all in one go...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourMindMakesItReal" title="/pmwiki/pmwiki.php/Main/YourMindMakesItReal">Your Mind Makes It Real</a>: Gravity in the Plane of Air works like this. Whichever direction you think is down, that's the way you fall.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/NentirVale">Nentir Vale</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/NewWeird">New Weird</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Spelljammer">Spelljammer</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Starfinder">Starfinder</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">TabletopGame/Dungeons & Dragons</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment">Planescape: Torment</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/NentirVale">Nentir Vale</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/DungeonsAndDragons/Settings">DungeonsAndDragons/Settings</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ravenloft">Ravenloft</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/NentirVale">Nentir Vale</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ravenloft">Ravenloft</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/NentirVale">Nentir Vale</a>
+</li>
+<li>
+ <a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ravenloft">Ravenloft</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/NentirVale">Nentir Vale</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyTabletopGames">Fantasy Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ravenloft">Ravenloft</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ravenloft">Ravenloft</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeKilowickedFranchises">JustForFun/Trope Kilowicked Franchises</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment">Planescape: Torment</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

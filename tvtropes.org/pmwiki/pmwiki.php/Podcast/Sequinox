@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Sequinox (Podcast) - TV Tropes</title>
+<meta name="description" content="Sequinox is a Sailor Moon Tabletop RPG Actual Play, and one of several games featured on Cool Kids Table. Unlike other games on the podcast which are GMed &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Podcast/Sequinox" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Sequinox (Podcast) - TV Tropes" />
+<meta name="twitter:description" content="Sequinox is a Sailor Moon Tabletop RPG Actual Play, and one of several games featured on Cool Kids Table. Unlike other games on the podcast which are GMed &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/sequinox.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Sequinox (Podcast) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Podcast/Sequinox" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/sequinox.jpg" />
+<meta property="og:description" content="Sequinox is a Sailor Moon Tabletop RPG Actual Play, and one of several games featured on Cool Kids Table. Unlike other games on the podcast which are GMed by Alan, this game is run by Shannon Manor. In the town of Westbrook, four girls awaken one &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ConvenientlyCoherentThoughts" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Manga/JyuOhSei" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Podcast/Sequinox?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Podcast/Sequinox">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Podcast.Sequinox">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Sequinox&g=Podcast">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=Podcast.Sequinox">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Podcast/Sequinox?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Podcast" />
+<input type="hidden" id="title-hidden" value="Sequinox" />
+<input type="hidden" id="article_id" value="654374" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Podcast/Sequinox</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Podcast / </strong>
+Sequinox
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Podcast",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Podcast"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Sequinox"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Sequinox" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/Sequinox" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/Sequinox" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/Sequinox" class="subpage-link curr-subpage" title="The Podcast page">
+<span class="wrapper"><span class="spi podcast"></span>Podcast</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Tearjerker/Sequinox" class="subpage-link " title="The Tearjerker page">
+<span class="wrapper"><span class="spi tearjerker"></span>Tearjerker</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Sequinox" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Sequinox?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Sequinox?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Sequinox?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Sequinox?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Sequinox?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Sequinox?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Sequinox?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Sequinox?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Sequinox?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Sequinox?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Sequinox?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Sequinox?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Sequinox?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Sequinox?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/Sequinox?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/Sequinox?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:97.71%"><img src="https://static.tvtropes.org/pmwiki/pub/images/sequinox.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/sequinox.jpg" width="350" height="342"></div></div><div class="acaptionright" style="width:350px;"> Clockwise from top: Autumn/Sid, Spring/Hannah, Summer/Chell, and Winter/Yuki. <a class="urllink" href="https://twitter.com/CKTcast/status/916418967459295240">Official artwork used with permission from Shannon Manor.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Sequinox</em> is a <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/SailorMoon" title="/pmwiki/pmwiki.php/Franchise/SailorMoon">Sailor Moon</a> Tabletop RPG</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActualPlay" title="/pmwiki/pmwiki.php/Main/ActualPlay">Actual Play</a>, and one of several games featured on <em><a class="twikilink" href="/pmwiki/pmwiki.php/Podcast/CoolKidsTable" title="/pmwiki/pmwiki.php/Podcast/CoolKidsTable">Cool Kids Table</a></em>. Unlike other games on the podcast which are GMed by Alan, this game is run by Shannon Manor.</p><p>In the town of Westbrook, four girls awaken one day to discover several bizarre things around them: a strange fox appears to them before school, they find mystical phone charms when it leaves, and they can see the stars in the sky&mdash;and one constellation is missing. The four soon discover that the fox is Tellus, aka Tellie, a servant of the Earth goddess Gaea, and that they have been chosen to become Sequinox: warriors powered by the seasons to defend the Earth from the stars themselves. Stars who have <em>also</em> just arrived, and are intent on wiping out all life on the planet.</p><p>The four girls are:</p><ul><li> <strong>Rachel "Chell" Danielson, aka Summer</strong> (played by Jake). A sporty southern girl who drives like a demon but is very protective of her friends. She gains the power of heat and water when she transforms.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> <strong>Hannah Flowers, aka Spring</strong> (played by Josh). A haughty popular girl who is distraught by the fact that she's stuck saving the world with a group of losers. She gains power over plants when she transforms.</li><li> <strong>Yukiko "Yuki" Fuyutama, aka Winter</strong> (played by Alan). A somewhat introverted but genre savvy-girl who moved from Japan to Westbrook a few years ago. She gains power over ice and cold when she transforms.</li><li> <strong>Sidney "Sid" St. Martin, aka Autumn</strong> (played by Cassidy Stone). A strange and terrifying girl from a mysterious town with an affinity for knives. She gains power over wind when she transforms.</li></ul><p>Unfortunately for them, Tellie is a little dumb and can't remember everything that it was supposed to tell the girls. Fortunately, they have backup in the form of the enigmatic Vivaldi, whose violin enables them to unlock the true extent of their powers. Though their personalities may clash, this group is Earth's greatest chance to survive the coming assault from the Stars and their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">ruler</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodSaveUsFromTheQueen" title="/pmwiki/pmwiki.php/Main/GodSaveUsFromTheQueen">the Sky/Night Queen</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>Shannon has also provided a lot of supporting artwork for the show on her twitter, divided into <a class="urllink" href="https://twitter.com/i/moments/964164452554805249">Arc 1<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="https://twitter.com/i/moments/1019994466269134854">Filler<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, and <a class="urllink" href="https://twitter.com/shannonmanor/status/1009433398736310273">Bonus Comics<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> (though be warned that these all contain spoilers for Arc 1 of the show). There is also additional artwork through Shannon's <a class="urllink" href="https://www.patreon.com/shannonmanor">Patreon<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, and a prequel comic <em><a class="urllink" href="https://gumroad.com/shannonmanorart">Vivaldi Da Capo<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> available from her store. The podcast itself can be reached through the <a class="urllink" href="https://twitter.com/cktcast">CKTCast twitter<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, and they also track the hastag <a class="urllink" href="https://twitter.com/hashtag/Sequinox">#Sequinox<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</p><p></p><hr><h2>This podcast contains examples of:</h2><p></p><div class="folderlabel" onclick="toggleAllFolders();">&nbsp;&nbsp;&nbsp;&nbsp;open/close all folders&nbsp; </div><p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;General Series Tropes&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActingUnnatural" title="/pmwiki/pmwiki.php/Main/ActingUnnatural">Acting Unnatural</a>: This happens to Chell when she feels anxious, because she's usually super-chill and doesn't normally feel anxiety. She needs Yuki to calm her down.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionGirl" title="/pmwiki/pmwiki.php/Main/ActionGirl">Action Girl</a>: All the Sequinox girls, naturally, though to different degrees. Yuki is an introvert outside of battle, but when transformed is usually the first to attack with magic. Chell and Hannah are both athletes with sick abs, so that carries over as well. Sid has knives.<ul><li> Most Stars are also female and are very happy to fight the Sequinox girls.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffablyEvil" title="/pmwiki/pmwiki.php/Main/AffablyEvil">Affably Evil</a>: Several stars come off like this. Part of it is them trying to awkwardly work human concepts into their conversations despite not understanding how any of them work. Antares is happy that she gets to talk to people instead of just destroying the planet right off the bat. Sargas is very polite when he tells the students of Vertumnus to turn over the Sequinox girls or else he'll kill everyone.<ul><li> Vampire!Ethan is very cordial to the group, allows Harmony to stay in a wing of his home when she's chased there, and eats as few humans as possible. That being said he mainly allows the group inside because <span class="spoiler" title="you can set spoilers visible by default on your profile">they're monsters, as is Harmony</span>, and he does believe that he's "owed" humans to eat.</li><li> The Virgo Stars are incredibly cordial. Xania explains that Virgo likes toying with people, which leads to a long waiting period while <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Stars possess everyone around town</span> and therefore no one goes out of their way to torment the girls. Xania herself is this in spades, as she even asks Chell advice on how to best dye her hair for the upcoming Winter Formal. Vindemiatrix even offers to escort the girls to Winter Formal.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlphaBitch" title="/pmwiki/pmwiki.php/Main/AlphaBitch">Alpha Bitch</a>: Hannah starts as one, but <em>very</em> slowly begins to warm up to the others.<div class="indent"><strong>Josh:</strong> She's mad because she's so pretty and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LonelyAtTheTop" title="/pmwiki/pmwiki.php/Main/LonelyAtTheTop">no one wants to talk to her</a>!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazingTechnicolourPopulation" title="/pmwiki/pmwiki.php/Main/AmazingTechnicolourPopulation">Amazing Technicolour Population</a>: The stars all have brightly-coloured skin in shades like pink, yellow, and green.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Those possessed by Stars</span> in Arc Three change skin colours as well.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazingTechnicolourWildlife" title="/pmwiki/pmwiki.php/Main/AmazingTechnicolourWildlife">Amazing Technicolour Wildlife</a>: Tellie changes colours based on which Sequinox member it's near: white with Yuki, orange with Sid, pink with Hannah, and red with Chell. It turns gold when they're all together.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyBrown" title="/pmwiki/pmwiki.php/Main/AmbiguouslyBrown">Ambiguously Brown</a>: Elena Park, Caiden's mom, is initially stated to have heritage that's hard to nail down. When Shannon appeared to talk about the Parks in <em>The Home For Wayward OCs</em>, she states that she's Black Italian with Hispanic heritage as well..</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman" title="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman">Ambiguously Human</a>: Between her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">cloudcuckoolander</a> tendencies, the fact that she turns into a blur when photographed, and her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkAndTroubledPast" title="/pmwiki/pmwiki.php/Main/DarkAndTroubledPast">Dark and Troubled Past</a> that's played for laughs, Sid might be different from the other girls. Jake asks Cassidy if she's an alien, and Cassidy jokingly declares that Sid's origin story would take up a whole other podcast.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a>: Each arc has the team fighting the stars of one constellation, with the constellation attacking them once they've defeated the other stars. The first arc has them face Scorpius, the second Gemini, the third Virgo.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BareYourMidriff" title="/pmwiki/pmwiki.php/Main/BareYourMidriff">Bare Your Midriff</a>: Summer's outfit, as well as Chell and Hannah's gym outfits (Sid says it looks like they're trying to have an ab contest).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BarrierWarrior" title="/pmwiki/pmwiki.php/Main/BarrierWarrior">Barrier Warrior</a>: Yuki can use her Snowflake Shield Surprise spell to summon an ice wall.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BattleInTheRain" title="/pmwiki/pmwiki.php/Main/BattleInTheRain">Battle in the Rain</a>: Happens in the fight against Shaula in episode 6.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BattleOfTheBands" title="/pmwiki/pmwiki.php/Main/BattleOfTheBands">Battle of the Bands</a>: One of the dimensions in Episode 10 starts in the middle of one, with the Sequinox team going up against Pollux and Castor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: The Sky/Night Queen, who rules the stars and has exterminated all other life in the galaxy. She sends her stars and constellations out across the galaxy to do so, and when they arrive on Earth, they meet resistance in the form of the titular <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicalGirlWarrior" title="/pmwiki/pmwiki.php/Main/MagicalGirlWarrior">Magical Girl Warrior</a> team, Sequinox.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigDamnHeroes" title="/pmwiki/pmwiki.php/Main/BigDamnHeroes">Big Damn Heroes</a>: Vivaldi shows up to power up Sequinox as they're being beaten down by Antares in their first fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigEater" title="/pmwiki/pmwiki.php/Main/BigEater">Big Eater</a>:<ul><li> Tellie. Never actual food, though.</li><li> Chell and Sid are as well, notably when they arrive at the Fall Festival and declare their intent to eat their weight in fried dough. Jake even compares Chell to Rusty from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/OceansEleven" title="/pmwiki/pmwiki.php/Film/OceansEleven">Ocean's Eleven</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>: Gaea, the goddess of Earth who split herself up amongst the girls to turn them into Sequinox.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoyishShortHair" title="/pmwiki/pmwiki.php/Main/BoyishShortHair">Boyish Short Hair</a>: Sid's hair is in a pixie cut. Chell's hair is also pretty short, though it enters a "liminal space" during the second arc when she starts growing it out but isn't sure what to do with it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainlessBeauty" title="/pmwiki/pmwiki.php/Main/BrainlessBeauty">Brainless Beauty</a>: Hannah's boyfriend Ethan, who she describes as "pretty, but dumb".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BullyingADragon" title="/pmwiki/pmwiki.php/Main/BullyingADragon">Bullying a Dragon</a>: What you might expect from a bunch of teen magical girls. They tend to mock and insult the stars they fight against, even if it's not the best idea.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>: Caiden gets the short end of the stick all over the place, either being mistreated by his classmates, disregarded as a loser by Hannah, getting his stuff wrecked or destroyed, or being mocked by his little sister. <span class="spoiler" title="you can set spoilers visible by default on your profile"> This also carries over to him as Vivaldi, because the Sequinox girls rarely take his advice and will go off on minutes-long tangents whenever he tries to help them.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ByThePowerOfGreyskull" title="/pmwiki/pmwiki.php/Main/ByThePowerOfGreyskull">By the Power of Grayskull!</a>: "Sequinox Sequence!" Followed by their specific cry.<div class="indent"><strong>Chell:</strong> Summer Fun! <br><strong>Sid:</strong> Autumn Decay! <br><strong>Yuki:</strong> Winter Whiteout! <br><strong>Hannah:</strong> Spring Blossom! <br><strong>Vivaldi:</strong> Molto Vivace!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallingYourAttacks" title="/pmwiki/pmwiki.php/Main/CallingYourAttacks">Calling Your Attacks</a>: Comes with the territory.<div class="indent"><strong>Summer:</strong> Misirlou Beach Blast! <br><strong>Autumn:</strong> Autumn Razor Wind! <br><strong>Winter:</strong> Arctic Desert Freezing! <br><strong>Spring:</strong> Passionate Pollen Breeze!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CameraFiend" title="/pmwiki/pmwiki.php/Main/CameraFiend">Camera Fiend</a>: Caiden is a photographer and is introduced taking pictures of the main girls (though he only did it because <span class="spoiler" title="you can set spoilers visible by default on your profile"> Tellie told him to</span> and he <em>really</em> didn't want to because it was so creepy).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonImmigrant" title="/pmwiki/pmwiki.php/Main/CanonImmigrant">Canon Immigrant</a>: Ethan Wright was a character in <em>Creepy Town</em> who was brought into <em>Sequinox</em> on account of him being Shannon's favourite.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClingyMacGuffin" title="/pmwiki/pmwiki.php/Main/ClingyMacGuffin">Clingy MacGuffin</a>: The charms that allow the girls to transform can't be removed from their phones unless Tellie takes them away. Throwing them away just causes them to reappear.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">Cloudcuckoolander</a>: Sid has a habit of going off on strange and often creepy tangents, and jumping to precisely the wrong conclusion when presented with any situation. She did roll in dirt and fake blood for her werewolf halloween costume, and demanded to hide in a doghouse to transform despite the team already being hidden from public eye.<ul><li> Arc Three introduces Danny, the acting Track team captain who brings their pet chickens to school and competes with Sid over how many socks of Caiden's they possess.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolMask" title="/pmwiki/pmwiki.php/Main/CoolMask">Cool Mask</a>: Vivaldi wears a Venetian mask with a large plume of read feathers coming out of it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolShades" title="/pmwiki/pmwiki.php/Main/CoolShades">Cool Shades</a>:<ul><li> Chell wears a pair when she drives. Tellie gains a pair when its near her as well.</li><li> Sid has a pair of aviators that she shares with her player Cassidy.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolTeacher" title="/pmwiki/pmwiki.php/Main/CoolTeacher">Cool Teacher</a>: Mrs. Diaz the homeroom teacher, who all the students adore. She also dressed as a <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Predator" title="/pmwiki/pmwiki.php/Franchise/Predator">Predator</a> for Halloween.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuteBruiser" title="/pmwiki/pmwiki.php/Main/CuteBruiser">Cute Bruiser</a>: Sid is the most physically combative of the team, and she's also a delightful teenage girl.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkAndTroubledPast" title="/pmwiki/pmwiki.php/Main/DarkAndTroubledPast">Dark and Troubled Past</a>: It's mostly played for laughs, but Sid claims to have come from a town where the only thing they celebrated was surviving the winter, and she it's very possible she's killed someone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADayInTheLimelight" title="/pmwiki/pmwiki.php/Main/ADayInTheLimelight">A Day in the Limelight</a>: Shannon drew <a class="urllink" href="https://twitter.com/shannonmanor/status/1009433398736310273">a series of comics<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> highlighting the home lives of Caiden, Ethan, and Harmony. There's also <em>Vivaldi Da Capo</em>, which is a 30-page comic book detailing Vivaldi's origin story that can be purchased from <a class="urllink" href="https://gumroad.com/shannonmanorart">Shannon's Gumroad store<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefrostingIceQueen" title="/pmwiki/pmwiki.php/Main/DefrostingIceQueen">Defrosting Ice Queen</a>: Hannah starts out very cold and snooty towards the other girls, especially Chell, but over time she warms up to them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DestructiveSavior" title="/pmwiki/pmwiki.php/Main/DestructiveSavior">Destructive Savior</a>: Sequinox cause a lot of collateral damage during their fights, which really gets on Charles' nerves since he's part of the mayor's office.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisappearedDad" title="/pmwiki/pmwiki.php/Main/DisappearedDad">Disappeared Dad</a>: Shannon's bonus comics reveal that Ethan's parents are divorced and he lives with his mom. Judging by how they talk about his father, it was not very amicable. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Judging by his appearance in episode 11 (which is in another dimension, but based on the main reality), he is rather abusive and willing to exploit his son to torment Caroline</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDitz" title="/pmwiki/pmwiki.php/Main/TheDitz">The Ditz</a>: Tellie is not very bright, which is unfortunate because it's supposed to be the girls' mentor. It can vaguely remember some things, but most of the time when they ask it questions about Gaea, their powers, or the Stars, Tellie just shrugs and says "I don't know". And then probably eats a dinner plate.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoesNotLikeShoes" title="/pmwiki/pmwiki.php/Main/DoesNotLikeShoes">Does Not Like Shoes</a>: Chell will go barefoot whenever she can.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoNotCallMePaul" title="/pmwiki/pmwiki.php/Main/DoNotCallMePaul">Do Not Call Me "Paul"</a>: Chell doesn't like being called by her full name, Rachel. So of course Hannah calls her that exclusively at the beginning.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivesLikeCrazy" title="/pmwiki/pmwiki.php/Main/DrivesLikeCrazy">Drives Like Crazy</a>: Chell is a nightmare behind the wheel. On the one hand she at least insists on a seatbelt, but at the same time she believes traffic signs are more of a suggestion. Yuki will do whatever she can to avoid driving in the same car as her. On the upside, the Chell Danielson Guarantee is that you'll always arrive somewhere on time, no matter how late you leave.<ul><li> The exception is when she's driving angry, at which point she follows all laws and goes into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranquilFury" title="/pmwiki/pmwiki.php/Main/TranquilFury">Tranquil Fury</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalPowers" title="/pmwiki/pmwiki.php/Main/ElementalPowers">Elemental Powers</a>: The Sequinox have powers based off of the seasons. Several of the stars also have elemental abilities.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnIcePerson" title="/pmwiki/pmwiki.php/Main/AnIcePerson">An Ice Person</a>: Winter has power over ice and snow.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlowYouAway" title="/pmwiki/pmwiki.php/Main/BlowYouAway">Blow You Away</a>: Autumn can summon <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RazorWind" title="/pmwiki/pmwiki.php/Main/RazorWind">Razor Wind</a> with her gloves. Spring gains this power in the gothic horror world from the Gemini Arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DishingOutDirt" title="/pmwiki/pmwiki.php/Main/DishingOutDirt">Dishing Out Dirt</a>: Sargas can control earth, and buries the school in dirt in episodes 3 and 4 to prevent any students from escaping.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MakingASplash" title="/pmwiki/pmwiki.php/Main/MakingASplash">Making a Splash</a>: Summer can summon large waves thanks to her beach theme. In the monster world from the Gemini Arc, Winter's ice powers are replaced by murky seawater.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PetalPower" title="/pmwiki/pmwiki.php/Main/PetalPower">Petal Power</a>: Spring can summon roots, vines, and flowers. Autumn can also leaves that are sharp as knives and throw them with her wind.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingWithFire" title="/pmwiki/pmwiki.php/Main/PlayingWithFire">Playing with Fire</a>: Summer can control heat and has a flaming sword. Antares and Scorpius also have fire powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShockAndAwe" title="/pmwiki/pmwiki.php/Main/ShockAndAwe">Shock and Awe</a>: Shaula can generate electricity.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvenEvilHasLovedOnes" title="/pmwiki/pmwiki.php/Main/EvenEvilHasLovedOnes">Even Evil Has Loved Ones</a>: The constellations genuinely care about their stars.<ul><li> Scorpius tells the Sequinox girls that <span class="spoiler" title="you can set spoilers visible by default on your profile">she gave into the sky in order to save her stars, and that there's no shame if they do the same</span>.</li><li> When the team harms Gemini's star <span class="spoiler" title="you can set spoilers visible by default on your profile"> Propus</span> in episode 12, Gemini appears and is much more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranquilFury" title="/pmwiki/pmwiki.php/Main/TranquilFury">venomous</a> towards them than their previous interactions. Shannon describes her interaction with said star as something like a mother holding her child.</li><li> At the end of the arc when <span class="spoiler" title="you can set spoilers visible by default on your profile"> Castor is killed</span>, Pollux is left screaming and crying.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>: Josh initially wanted to play as <a class="twikilink" href="/pmwiki/pmwiki.php/Series/SabrinaTheTeenageWitch" title="/pmwiki/pmwiki.php/Series/SabrinaTheTeenageWitch">Libby</a>, which led to Hannah's creation. Though she's evolved a lot since the beginning of the series.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtremeOmnivore" title="/pmwiki/pmwiki.php/Main/ExtremeOmnivore">Extreme Omnivore</a>: Tellie is able to consume anything inorganic because it's not part of the Earth. Technically this means it's supposed to eat trash, but in the end it eats basically anything put in front of it except for food. And Tootsie Rolls.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FacelessMooks" title="/pmwiki/pmwiki.php/Main/FacelessMooks">Faceless Mooks</a>: Every star has their own variant with elements of their theme incorporated, but are always nebulous starry humanoids without any features.<ul><li> Scorpius has Scorpies, which have large stinger tails.</li><li> Gemini has Gemmies, which split into two when they take enough damage.</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadFuture" title="/pmwiki/pmwiki.php/Main/BadFuture">Bad Future</a> in episode 12 shows us a few others, like reddish ones with curled horns, fish-like amphibians, archers, and some holding cloth.</li><li> Virgo has Virgies, which are even more featureless without any fingers or toes or anything. They also move like free-floating marionettes.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticFoxes" title="/pmwiki/pmwiki.php/Main/FantasticFoxes">Fantastic Foxes</a>: Tellie is a magical fox servant of Gaea. It ignores most of the traditional roles that mythological foxes have, mainly because it forgot almost everything important, is kind of dumb, and gets preoccupied with eating.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlamingSword" title="/pmwiki/pmwiki.php/Main/FlamingSword">Flaming Sword</a>: Summer's weapon is a sword with a blade made of fire.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FourTemperamentEnsemble" title="/pmwiki/pmwiki.php/Main/FourTemperamentEnsemble">Four-Temperament Ensemble</a>: Hannah is melancholic, Chell is sanguine, Sid is choleric, Yuki is phelgmatic. Or, according to the <a class="urllink" href="https://twitter.com/jj_mason/status/1097180957734588416">CKT Scale<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, Hannah is exasperated, Sid is exasperating, Chell is dumb and Yuki is horny.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGadfly" title="/pmwiki/pmwiki.php/Main/TheGadfly">The Gadfly</a>: Chell goes out of her way to mess with Hannah, whether it be forcing her to hang out with "unpopular" kids or creeping up behind her while she's meeting with Ethan's mom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreSavvy" title="/pmwiki/pmwiki.php/Main/GenreSavvy">Genre Savvy</a>: Yuki is well aware of many magical girl tropes, likely because her mom works as a localizer.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoshDangitToHeck" title="/pmwiki/pmwiki.php/Main/GoshDangitToHeck">Gosh Dangit To Heck</a>: Chell tries her best to not cuss.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HappilyMarried" title="/pmwiki/pmwiki.php/Main/HappilyMarried">Happily Married</a>: Almost all of the main cast's parents&mdash;excluding Sid's and Ethan's&mdash;are this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HasTwoMommies" title="/pmwiki/pmwiki.php/Main/HasTwoMommies">Has Two Mommies</a>: Harmony has two dads.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowMaddenKombat" title="/pmwiki/pmwiki.php/Main/IKnowMaddenKombat">I Know Madden Kombat</a>: Summer's Sequinox outfit resembles sports outfits (mainly volleyball, with knee and elbow pads from roller derby and "magic" tennis shoes), and she can use volleyball maneuvers when attacking with Misirlou Beach Blast because it's just a big ball of water.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InTheNameOfTheMoon" title="/pmwiki/pmwiki.php/Main/InTheNameOfTheMoon">In the Name of the Moon</a>: They might all have one, but so far only Winter has said hers (and it's usually either ignored or cut off by the others just starting the fight).<div class="indent"><strong>Winter:</strong> Riding in on the frigid north wind! Possessed of a sharp mind and a passionate soul, Sequinox winter has arrived! Under the Arctic lights, justice will be done!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IsItSomethingYouEat" title="/pmwiki/pmwiki.php/Main/IsItSomethingYouEat">Is It Something You Eat?</a>: Tellie is often asking this because it knows very little, and will eat anything but food. And it usually eats it anyway.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItOnlyWorksOnce" title="/pmwiki/pmwiki.php/Main/ItOnlyWorksOnce">It Only Works Once</a>: The Sequinox team <span class="spoiler" title="you can set spoilers visible by default on your profile"> dying and being resurrected by Gaia</span> is implied to be a one-time thing, and now that it's been used they can't rely on it again (or at least aren't willing to test it).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkJock" title="/pmwiki/pmwiki.php/Main/JerkJock">Jerk Jock</a>: Frank. He bullies Caiden in the prequel comic, and his nasty personality carries over to the noir world in episode 12.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold" title="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold">Jerk with a Heart of Gold</a>: Hannah. While she comes across as stand-offish and is typically rather bitchy and vocal about her displeasure at having to hang around the other girls, she has a good heart in the end and wants to protect the world just as much as the others.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnifeNut" title="/pmwiki/pmwiki.php/Main/KnifeNut">Knife Nut</a>: Sid has a knife on her at all times, even when dreaming. Even when transformed. <em>It's not her actual weapon</em>. She even does her eyeliner with a knife! And her mom is the same way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia" title="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia">Laser-Guided Amnesia</a>: Tellie forgot most of the information it needed to tell the Sequinox girls because <span class="spoiler" title="you can set spoilers visible by default on your profile"> Caiden ran over it when it first appeared to him</span>. It slowly regains memories, usually right after they could have been useful.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LateForSchool" title="/pmwiki/pmwiki.php/Main/LateForSchool">Late for School</a>: Chell often is because she sleeps in, which leads to her driving like a madwoman to get there on time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovableJock" title="/pmwiki/pmwiki.php/Main/LovableJock">Lovable Jock</a>: Ethan is dumber than a box of hammers, but he's still a really nice guy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicalGirlWarrior" title="/pmwiki/pmwiki.php/Main/MagicalGirlWarrior">Magical Girl Warrior</a>: The Sequinox girls are destined to defend the Earth from the invading stars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicMusic" title="/pmwiki/pmwiki.php/Main/MagicMusic">Magic Music</a>: Vivaldi plays classical music (or covers of Kesha songs) on his violin in order to boost the strength of the Sequinox girls.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicWand" title="/pmwiki/pmwiki.php/Main/MagicWand">Magic Wand</a>: Winter's weapon is a magical staff with a snowflake head.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MassiveNumberedSiblings" title="/pmwiki/pmwiki.php/Main/MassiveNumberedSiblings">Massive Numbered Siblings</a>: Harmony has six other siblings, though they've only appeared briefly on the show. Their names are Marcus, Jordan, Faith, Cherish, Grace, and Charity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a><ul><li> Yukiko contains "Yuki", the Japanese word for snow.</li><li> Hannah's name is phonetically the same as "Hana", meaning blossom in Japanese. And of course her last name is Flowers.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MissingMom" title="/pmwiki/pmwiki.php/Main/MissingMom">Missing Mom</a>: Hannah's mom died in a car accident when she was very young, but she's close to her stepmother Chloe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyBelovedSmother" title="/pmwiki/pmwiki.php/Main/MyBelovedSmother">My Beloved Smother</a>: Yuki's mom refers to anyone Yuki hangs out with as her boyfriend or her girlfriend until proven otherwise. This causes much hilarity/confusion when Mrs. Fuyutama puts the label on Ethan of all people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MysteriousProtector" title="/pmwiki/pmwiki.php/Main/MysteriousProtector">Mysterious Protector</a>: Vivaldi is one to the girls, since he's their Tuxedo Mask expy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewTransferStudent" title="/pmwiki/pmwiki.php/Main/NewTransferStudent">New Transfer Student</a>: Sid starts at Vertumnus High in the first episode. Yuki was one of these earlier as she and her mom moved to town last semester.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoBiologicalSex" title="/pmwiki/pmwiki.php/Main/NoBiologicalSex">No Biological Sex</a>: Tellie has no sex or gender, and it doesn't even know what those are. Because its from space.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoodleImplements" title="/pmwiki/pmwiki.php/Main/NoodleImplements">Noodle Implements</a>: Sid can disarm a smoke alarm using a rug, a knife, and duct tape. Her mother's a little concerned.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonActionGuy" title="/pmwiki/pmwiki.php/Main/NonActionGuy">Non-Action Guy</a>: Vivaldi can provide plenty of support, and eventually learns some defensive techniques, but he's not nearly the fighter that the Sequinox girls are.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoSocialSkills" title="/pmwiki/pmwiki.php/Main/NoSocialSkills">No Social Skills</a>: Chell tends to ignore societal convention in favour of what works best for her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NostalgiaGoggles" title="/pmwiki/pmwiki.php/Main/NostalgiaGoggles">Nostalgia Goggles</a>: Shannon describes the 50s world they go to in episode 10 as the 50s that the 80s remember, with no racism or bigotry and only the aesthetic remaining.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OmnicidalManiac" title="/pmwiki/pmwiki.php/Main/OmnicidalManiac">Omnicidal Maniac</a>: The Stars, and by extension the Night Queen, simply want to eliminate all life in the universe. And have very nearly succeeded.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OohMeAccentsSlipping" title="/pmwiki/pmwiki.php/Main/OohMeAccentsSlipping">Ooh, Me Accent's Slipping</a>: Cassidy claims Jake's southern accent for Chell is so good that it caused her own southern accent to start coming out. Alan, however, claims it was like "being dragged through hell".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutnumberedSibling" title="/pmwiki/pmwiki.php/Main/OutnumberedSibling">Outnumbered Sibling</a>: Chell has three older and one older. Not that she's bothered by it, since she can roughhouse as much as they can.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerkyGoth" title="/pmwiki/pmwiki.php/Main/PerkyGoth">Perky Goth</a>: Sid in both her civilian and Sequinox forms, since hers is themed after Autumn and Halloween.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComicBookFantasyCasting" title="/pmwiki/pmwiki.php/Main/ComicBookFantasyCasting">Podcast Fantasy Casting</a>: Sid's parents are fan-casted as Stephanie Beatrix and Jason Mantzoukas.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerFist" title="/pmwiki/pmwiki.php/Main/PowerFist">Power Fist</a>: Autumn's weapon is a pair of gauntlets. Shaula also wields a pair with built in knives.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrimaryColorChampion" title="/pmwiki/pmwiki.php/Main/PrimaryColorChampion">Primary-Color Champion</a>: Summer's outfit is red, blue, and yellow.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealSongThemeTune" title="/pmwiki/pmwiki.php/Main/RealSongThemeTune">Real Song Theme Tune</a>: "Just Be Friends" by <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Vocaloid" title="/pmwiki/pmwiki.php/Music/Vocaloid">Megurine Luka</a> is used for the first arc and filler episode. Starting in the second arc it uses an <a class="urllink" href="https://twitter.com/EmilyEMeo/status/1006716296447356928">original theme<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> composed by Emily E. Meo.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculouslyCuteCritter" title="/pmwiki/pmwiki.php/Main/RidiculouslyCuteCritter">Ridiculously Cute Critter</a>: Tellie the servant of Gaea, who looks mostly like a fox but with weird proportions and occasionally different colours.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RhetoricalQuestionBlunder" title="/pmwiki/pmwiki.php/Main/RhetoricalQuestionBlunder">Rhetorical Question Blunder</a>: When Chell and Yuki try to invite Sid out for milkshakes.<div class="indent"><strong>Yuki:</strong> Do you like milkshakes? <br><strong>Sid:</strong> Uh, is the Pope Catholic? <br><strong>Chell:</strong> Is he? <em>*pulls out phone to check*</em> <br><strong>Yuki:</strong> <em>*shoves Chell's phone back in her pocket*</em> Yes. Yes he is.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/RollerDerby" title="/pmwiki/pmwiki.php/UsefulNotes/RollerDerby">Roller Derby</a>: The girls are sent to a world like this in episode 11.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RPGEpisode" title="/pmwiki/pmwiki.php/Main/RPGEpisode">RPG Episode</a>: Part of episode 14 takes place in a fantasy-RPG world. Winter's a wizard, Autumn's a rogue, Summer's a fighter, Spring's a druid, and Vivaldi's a bard.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>:<ul><li> Tellie not telling the girls something important because it forgot, and also eating everything.</li><li> Chell adding random and pointless emojis to the end of her texts.</li><li> A lot of mileage is gotten out of the poorly-named damage-enhancing skill "Massive D".</li><li> All the girls calling each other by their real names instead of their code names, then immediately trying to backpedal.</li><li> Sid always has a knife. Even when transformed. <em>Even when dreaming.</em></li><li> During the Gemini arc, Vivaldi being repeatedly disappointed in the girls since they always show up being caught off guard and have no idea what they're supposed to be doing.</li><li> Sid repeatedly suggests cutting off Pollux and Castor's hands to gain control of the dimension hopping. Ever since then the first plan suggested for any Star or Constellation is to cut off their hands.</li><li> Cassidy rolling for a random stat like "heckle" or "spiders".</li><li> At the end of Arc Three the girls all start singing the praises of Winter Formal, aka Cold Prom, which is strong enough to give them the best rolls they've ever had in the game.</li></ul></li><li> <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrappyMechanic" title="/pmwiki/pmwiki.php/Main/ScrappyMechanic">Scrappy Mechanic</a>: The <em>Sailor Moon RPG</em> system is not great, and the fact that you want to roll low rather than high feels especially counter-intuitive at the beginning.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretKeeper" title="/pmwiki/pmwiki.php/Main/SecretKeeper">Secret Keeper</a>: By the end of the Gemini Arc, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Ethan</span> has figured out who the Sequinox members are and subtly lets them know he'll keep their alibi.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> Upon seeing Gemini's star Propus, Sid asks <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/OnePunchMan" title="/pmwiki/pmwiki.php/Anime/OnePunchMan">"who is this sassy lost child?"</a></li><li> Episode 13 is titled "Yeah, I'm Thinking We're Back", a reference to a similar line from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/JohnWick" title="/pmwiki/pmwiki.php/Film/JohnWick">John Wick</a></em>.</li><li> There's also the favour system going with the rest of the world in the post-apocalypse world that they based off of the film. Nobody caught on, so they just kept going.</li><li> Episode 15 is titled "<a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheMonsterAtTheEndOfThisBook" title="/pmwiki/pmwiki.php/Literature/TheMonsterAtTheEndOfThisBook">The Monsters at the End of this Episode</a>".</li><li> Sid based a little off of Adrian Pimento from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/BrooklynNineNine" title="/pmwiki/pmwiki.php/Series/BrooklynNineNine">Brooklyn Nine-Nine</a></em>. Cassidy even says that Jason Mantzoukas is Sid's dad.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShrinkingViolet" title="/pmwiki/pmwiki.php/Main/ShrinkingViolet">Shrinking Violet</a>: Yuki is rather shy, especially when it comes to people she has a crush on. When she's fighting as Winter, though, she becomes a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">Large Ham</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SquishyWizard" title="/pmwiki/pmwiki.php/Main/SquishyWizard">Squishy Wizard</a>: Team Sweater Weather (Winter and Autumn) have low health but high magical powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarPower" title="/pmwiki/pmwiki.php/Main/StarPower">Star Power</a>: The villains of the series <em>are</em> stars taking humanoid form, so of course they can access this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StellarName" title="/pmwiki/pmwiki.php/Main/StellarName">Stellar Name</a>: The stars, obviously, since they are <em>literally</em> stars. Constellations are leaders while their generals are the stars that make them up (for example, Scorpius and her generals Antares, Sargas, and Shaula).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StudentCouncilPresident" title="/pmwiki/pmwiki.php/Main/StudentCouncilPresident">Student Council President</a>: Harmony is the Vertumnus High Student President and usually has her finger on whatever is going on in the school&mdash;which causes some trouble for the girls trying to hide their superheroic activities.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TemporalThemeNaming" title="/pmwiki/pmwiki.php/Main/TemporalThemeNaming">Temporal Theme Naming</a>: Naturally, as the four Sequinox girls are named after the four seasons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeSkip" title="/pmwiki/pmwiki.php/Main/TimeSkip">Time Skip</a>: There's one between each pair of episodes where the team fights low-level mooks, while the episodes themselves focus on bigger battles with stars and constellations.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TransformationTrinket" title="/pmwiki/pmwiki.php/Main/TransformationTrinket">Transformation Trinket</a>: The phone charms they received from Tellie are one part. It lets the girls' phones access the app through which they can transform. Vivaldi has a charm as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transgender" title="/pmwiki/pmwiki.php/Main/Transgender">Transgender</a>: Charles, one of Harmony's dads, is trans. In episode 5 of Arc 2 it is revealed that Chell is trans, though she points out it was really an open secret.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VitriolicBestBuds" title="/pmwiki/pmwiki.php/Main/VitriolicBestBuds">Vitriolic Best Buds</a>: Hannah doesn't often hang out with the rest of the team willingly since they're all less popular than her, and when they force themselves into her social circle she doesn&#146;t have a choice but to grin and bear them. However by the end of the first arc she's come to appreciate them, even if she doesn't often let it show.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WakeUpGoToSchoolSaveTheWorld" title="/pmwiki/pmwiki.php/Main/WakeUpGoToSchoolSaveTheWorld">Wake Up, Go to School, Save the World</a>: Since they are teen magical girls (and boy) they still have to attend high school while fighting the Stars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkingWasteland" title="/pmwiki/pmwiki.php/Main/WalkingWasteland">Walking Wasteland</a>: The Night Queen. <span class="spoiler" title="you can set spoilers visible by default on your profile"> In the post-apocalyptic world, Caiden explains that her touching the world was all that it took to destroy Westbrook and the surrounding area</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WaxingLyrical" title="/pmwiki/pmwiki.php/Main/WaxingLyrical">Waxing Lyrical</a>:<ul><li> While debating what constitutes a magic attack in episode 4, Alan states "<a class="twikilink" href="/pmwiki/pmwiki.php/Music/BoB" title="/pmwiki/pmwiki.php/Music/BoB">I've got the magic in me</a>", and Jake follows up with "Everything he touches that track it turns into gold".</li><li> Jake accidentally says lyrics from <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Metallica" title="/pmwiki/pmwiki.php/Music/Metallica">"Enter Sandman"</a> while describing a scene at Chell's home, and Josh tries to keep it going.</li><li> They do it to the theme from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/WildWildWest" title="/pmwiki/pmwiki.php/Film/WildWildWest">Wild Wild West</a></em> during the previously on segment for episode 11. Jake tries to stop it before they get sued.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhipItGood" title="/pmwiki/pmwiki.php/Main/WhipItGood">Whip It Good</a>: Spring wields a whip made of vines and flowers. Antares also has a whip.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WholeCostumeReference" title="/pmwiki/pmwiki.php/Main/WholeCostumeReference">Whole Costume Reference</a>: In the 80s prom world from the Gemini arc, everyone gets fitting outfits. Hannah's looks like <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Madonna" title="/pmwiki/pmwiki.php/Music/Madonna">Madonna</a>, with the big hair and white corsets. Sid looks like a member of <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Whitesnake" title="/pmwiki/pmwiki.php/Music/Whitesnake">Whitesnake</a>. Vivaldi looks like <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Prince" title="/pmwiki/pmwiki.php/Music/Prince">Prince</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhyDidItHaveToBeSnakes" title="/pmwiki/pmwiki.php/Main/WhyDidItHaveToBeSnakes">Why Did It Have to Be Snakes?</a>: Chell is afraid of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreepyDoll" title="/pmwiki/pmwiki.php/Main/CreepyDoll">creepy dolls</a> and marionettes, especially if they're larger than normal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrongGenreSavvy" title="/pmwiki/pmwiki.php/Main/WrongGenreSavvy">Wrong Genre Savvy</a>: Yuki plays the story very straight, knowing all about magical girls thanks to being from Japan and her mom being an anime localizer. However, she doesn't realize she's in an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffectionateParody" title="/pmwiki/pmwiki.php/Main/AffectionateParody">Affectionate Parody</a> alongside absolute maniacs Sid and Chell, as well as Hannah who wants nothing to do with it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair" title="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair">You Gotta Have Blue Hair</a>: Sungins's sister Suyung has long pink hair.</li></ul><p></p></div><p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;Arc One: Scorpius&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassAdorable" title="/pmwiki/pmwiki.php/Main/BadassAdorable">Badass Adorable</a>: The first star the girls face, Antares, is cute, small, pink, and almost destroys them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackComedy" title="/pmwiki/pmwiki.php/Main/BlackComedy">Black Comedy</a>: Throughout "Inferno Pt. 1", Sid insists on wounding or killing people until Vivaldi stops showing up to discover his identity. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Becomes <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/HarsherInHindsight" title="/pmwiki/pmwiki.php/Main/HarsherInHindsight">Harsher in Hindsight</a> when they discover Vivaldi is Caiden...after he's shot through the chest with Scorpius' laser</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>:<ul><li> When they pick students for dodge ball and run out of named NPCs, Josh starts using the names of his <em>Creepy Town</em> characters.</li><li> In episode 3 Jake assures Cassidy that she can't screw up as bad as the regular cast has, on account of they screwed up a game so bad they stopped playing halfway through (Ghost Ship Enyo). It gets another callback in episode 5 when Shannon jokes that <em>Sequinox</em> is cancelled and they're trying it again. Josh jokingly states that he's walking off if that happens.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChairmanOfTheBrawl" title="/pmwiki/pmwiki.php/Main/ChairmanOfTheBrawl">Chairman of the Brawl</a>: Chell goes out of her way to try and hit Sargas with a chair, even though it does fair less damage than her actual Sequinox attacks. Though she does succeed in the hit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CleavageWindow" title="/pmwiki/pmwiki.php/Main/CleavageWindow">Cleavage Window</a>: Sargas is a rare male example.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoveredInGunge" title="/pmwiki/pmwiki.php/Main/CoveredInGunge">Covered in Gunge</a>: Spring starts episode 5 covered in Scorpie goo, before getting it washed off by Summer's special attack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CruelAndUnusualDeath" title="/pmwiki/pmwiki.php/Main/CruelAndUnusualDeath">Cruel and Unusual Death</a>: All the deaths in "Inferno" are bad, but the way that <span class="spoiler" title="you can set spoilers visible by default on your profile"> Sid</span> is killed takes the cake for the worse one. <span class="spoiler" title="you can set spoilers visible by default on your profile"> She is crushed underneath Chell's body, who is being used as a makeshift weapon by Scorpius.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurbStompBattle" title="/pmwiki/pmwiki.php/Main/CurbStompBattle">Curb-Stomp Battle</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> The initial battle against Scorpius sees the team barely scratch her because of her armour. By the time Autumn lands a decent hit, she's already killed Winter and Spring and quickly proceeds to killer the other two girls. Fortunately they come back and put up a better fight while powered up</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathActivatedSuperPower" title="/pmwiki/pmwiki.php/Main/DeathActivatedSuperPower">Death Activated Super Power</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> After Scorpius kills all of Sequinox, the girls find themselves in one of Gaea's chambers and are revived and powered up in order to destroy her</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidntSeeThatComing" title="/pmwiki/pmwiki.php/Main/DidntSeeThatComing">Didn't See That Coming</a>: The Stars weren't expecting Sequinox to be willing to hurt their friends <span class="spoiler" title="you can set spoilers visible by default on your profile"> in order to force them out of their bodies. For that matter, they didn't expect it to hurt when their bones broke, considering they'd never had them before.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DressesTheSame" title="/pmwiki/pmwiki.php/Main/DressesTheSame">Dresses the Same</a>: This joke is made when Spring and Antares both show up wielding whips.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FriendlyEnemy" title="/pmwiki/pmwiki.php/Main/FriendlyEnemy">Friendly Enemy</a>: Autumn and Sargas when they first properly meet, mainly because she listened to him talk about what it's like being a star while the others either hid or tried to hit him with chairs and doors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlassCannon" title="/pmwiki/pmwiki.php/Main/GlassCannon">Glass Cannon</a>: Antares can fish out a decent level of damage, but has next to no defence.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrievousHarmWithABody" title="/pmwiki/pmwiki.php/Main/GrievousHarmWithABody">Grievous Harm with a Body</a>: In "Inferno pt. 1", [[spoiler: Scorpius throws Chell at Sid, killing the latter].</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalloweenEpisode" title="/pmwiki/pmwiki.php/Main/HalloweenEpisode">Halloween Episode</a>: "Inferno" is set during Halloween night.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenDepths" title="/pmwiki/pmwiki.php/Main/HiddenDepths">Hidden Depths</a>: According to his character notes, Sargas has a little garden that he tends to despite also being an omnicidal star.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImpaledWithExtremePrejudice" title="/pmwiki/pmwiki.php/Main/ImpaledWithExtremePrejudice">Impaled with Extreme Prejudice</a>: How the girls defeat <span class="spoiler" title="you can set spoilers visible by default on your profile"> Scorpius, and using the Gaea Spear too!</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MajorInjuryUnderreaction" title="/pmwiki/pmwiki.php/Main/MajorInjuryUnderreaction">Major Injury Underreaction</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Sargas gets stabbed by Summer in the middle of his opening monologue about how it's nice to be humanized despite being an undying star. He finishes the monologue before even noticing.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OverTheShoulderPose" title="/pmwiki/pmwiki.php/Main/OverTheShoulderPose">Over-the-Shoulder Pose</a>: Spring does one when she notices Caiden taking pictures of the girls at the end of episode 2.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaperThinDisguise" title="/pmwiki/pmwiki.php/Main/PaperThinDisguise">Paper-Thin Disguise</a>: Tellie gets put in a hotdog costume on Halloween by Vivaldi, and thinks by that logic it wouldn't be recognized and could go to the school. Yuki quickly shoves it in her bag on account of, y'know, it's still a talking space fox. When they tell it to act more like a dog, it just <em>says</em> "bark bark bark".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonAsVerb" title="/pmwiki/pmwiki.php/Main/PersonAsVerb">Person as Verb</a>: Hannah refers to tackling a Scorpi as "I'm gonna <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/HeyArnold" title="/pmwiki/pmwiki.php/WesternAnimation/HeyArnold">Helga Pataki</a> it".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePowerofFriendship" title="/pmwiki/pmwiki.php/Main/ThePowerofFriendship">The Powerof Friendship</a>: Inverted. <span class="spoiler" title="you can set spoilers visible by default on your profile"> The players attempt to invoke this trope in the final episode to revive Caiden but are shot down by Shannon. Instead his resurrection is the result of magic by plugging his charm back into his phone.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReducedToDust" title="/pmwiki/pmwiki.php/Main/ReducedToDust">Reduced to Dust</a>: Sargas crumbles into rock dust when defeated.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retraux" title="/pmwiki/pmwiki.php/Main/Retraux">Retraux</a>: Partway through the battle with Sargas, Vivaldi starts playing a classical violin cover of "Woman" by <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Kesha" title="/pmwiki/pmwiki.php/Music/Kesha">Kesha</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheReveal" title="/pmwiki/pmwiki.php/Main/TheReveal">The Reveal</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> At the end of episode 7, Vivaldi is killed by Scorpius. When the magic dissolves away it is revealed that he was Caiden all along.</span><ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> The reveal itself might have been done earlier in the episode. The episode starts with each girl having a nightmare about their town burning and waking up to a fire alarm going off, their doorknob on the outside of their bedroom both crushed and hot to the touch. We learn later that the fire alarm at the Park's also went off in the morning and that Caiden had been in a bad mood all day. This implies that he too had a nightmare and had his room attempted to be broken into meaning he could only be the other person left in Sequinox that is not one of the girls. This is not brought up when mentioned though.</span></li></ul></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Night Queen is finally revealed in the final moments of the last episode, although only Yuki and Sid see her.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">Suspiciously Specific Denial</a>: When Yuki asks Sid where she transferred from, she states she used to live in "a city in a state that exists". She's also never killed a person, like a normal person.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TemptingFate" title="/pmwiki/pmwiki.php/Main/TemptingFate">Tempting Fate</a>: As episode 7 begins, Alan and Cassidy realize that they were relatively unscathed after the last episode's fight, unlike Chell. Shannon then writes something down ominously.<div class="indent"><strong>Shannon:</strong> Sounds to me like you were complaining you didn't get hurt enough!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: "Inferno Pt. 1" ends with <span class="spoiler" title="you can set spoilers visible by default on your profile"> Vivaldi being shot through the chest with a laser, and revealed to be Caiden</span>.</li></ul><p></p></div><p></p><div class="folderlabel" onclick="togglefolder('folder2');">&nbsp;&nbsp;&nbsp;&nbsp;Arc Two: Gemini&nbsp;</div><div id="folder2" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEighties" title="/pmwiki/pmwiki.php/Main/TheEighties">The '80s</a>: The team lands in an 80s prom world at the end of episode 15, with gaudy fashions to match.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNineties" title="/pmwiki/pmwiki.php/Main/TheNineties">The '90s</a>: The team briefly travels to a 90s skate-punk world, witnessing ads for tickle-me-elmo and AOL.</li><li> <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalInnuendo" title="/pmwiki/pmwiki.php/Main/AccidentalInnuendo">Accidental Innuendo</a>: During the final fight, Gemini stretches herself out like silly putty and smushes herself onto people.<div class="indent"><strong>Shannon:</strong> She can make herself hard or make herself soft. And I just realized that's not a good sentence. <br><strong>Cassidy:</strong> So can lots of us!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActingUnnatural" title="/pmwiki/pmwiki.php/Main/ActingUnnatural">Acting Unnatural</a>: Happens to Chell when she feels anxious, because she's usually super-chill and doesn't normally feel anxiety. She needs Yuki to calm her down.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a>: Two variations show up during the Gemini arc.<ul><li> The first is set in a world where <span class="spoiler" title="you can set spoilers visible by default on your profile"> Sequinox accepts the offer to join the Sky Queen and end up taking over the world</span>.</li><li> The second is <span class="spoiler" title="you can set spoilers visible by default on your profile"> in a world where the Stars decided to stop <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MonsterOfTheWeek" title="/pmwiki/pmwiki.php/Main/MonsterOfTheWeek">Monster of the Week</a> plans and invade as soon as Scorpius is defeated, forcing the surviving humans to hide in underground bunkers while Sequinox struggles to fight off their endless army.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllTherapistsAreMuggles" title="/pmwiki/pmwiki.php/Main/AllTherapistsAreMuggles">All Therapists Are Muggles</a>: Discussed in episode 9. When Jake wonders if Yuki's tried therapy for everything they went through in the first arc, Alan asks him how she's supposed to tell a therapist that she and her friends <span class="spoiler" title="you can set spoilers visible by default on your profile"> died, came back, and are kind of demi-gods</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnotherDimension" title="/pmwiki/pmwiki.php/Main/AnotherDimension">Another Dimension</a>: Arc 2 deals with these, as Gemini's stars Castor and Pollux are able to send the Sequinox girls into several different ones.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArrowCatch" title="/pmwiki/pmwiki.php/Main/ArrowCatch">Arrow Catch</a>: Summer grabs a crossbow bolt out of the air in the gothic horror world from the Gemini arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialLimbs" title="/pmwiki/pmwiki.php/Main/ArtificialLimbs">Artificial Limbs</a>: Vivaldi and Chell have a robotic arm and leg, respectively, in the post-apocalypse world from the Gemini arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsteroidsMonster" title="/pmwiki/pmwiki.php/Main/AsteroidsMonster">Asteroids Monster</a>: The Gemmies, Gemini's henchmen, will split in two when cut in half or just take enough damage. Sid gets around this by slamming two back together and then finishing her beatdown of it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadFuture" title="/pmwiki/pmwiki.php/Main/BadFuture">Bad Future</a>: While getting clapped into alternate realities by Gemini in the second arc, the girls come across two of these.<ul><li> In the first one, <span class="spoiler" title="you can set spoilers visible by default on your profile"> the girls find themselves in a world where they agreed to join the Sky Queen and have razed Westbrook and the surrounding area, becoming very powerful but also very, very evil.</span></li><li> In the second one, <span class="spoiler" title="you can set spoilers visible by default on your profile"> they're in a post-apocalypse where they have to act as a militia against the entirety of the Star invasion force</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes" title="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes">Beware the Nice Ones</a>: By the time of the final battle, Yuki has had it with Gemini. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Just before she lands the killing blow, she says to her "Join your sister in hell!"</span> Even her teammates are a little shaken.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a>: Gemini looks like two people made of silly putty slammed together, and when she splits into Pollux and Castor she literally grabs the sides of her head and tears herself apart.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreatherEpisode" title="/pmwiki/pmwiki.php/Main/BreatherEpisode">Breather Episode</a>: Oddly enough, the post-apocalypse world episodes from the Gemini Arc. Plenty of wild and heavy stuff happen during it, but this is the first chance the girls get to relax, get information on what Gemini's plans are, and even learn some new things about their powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrokenPedestal" title="/pmwiki/pmwiki.php/Main/BrokenPedestal">Broken Pedestal</a>: Gel in the universe where <span class="spoiler" title="you can set spoilers visible by default on your profile"> Caiden wasn't resurrected after the fight with Scorpius</span> <em>hates</em> Sequinox for <span class="spoiler" title="you can set spoilers visible by default on your profile"> not protecting her brother</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallForward" title="/pmwiki/pmwiki.php/Main/CallForward">Call-Forward</a>: When <span class="spoiler" title="you can set spoilers visible by default on your profile"> Future Caiden</span> finds out the girls are actually from a different dimension, he worriedly asks if it was Virgo. Sure enough, Virgo shows up in the next arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColossusClimb" title="/pmwiki/pmwiki.php/Main/ColossusClimb">Colossus Climb</a>: Autumn tries one on Gemini, but ends up getting stuck.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombiningMecha" title="/pmwiki/pmwiki.php/Main/CombiningMecha">Combining Mecha</a>: In episode 11, <span class="spoiler" title="you can set spoilers visible by default on your profile"> when the girls are sent to a super sentai-themed universe. Their zords are a jet-ski for Summer, a snowplow for Winter, a flower delivery van for Spring, and a Hearse for Autumn.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CompoundTitle" title="/pmwiki/pmwiki.php/Main/CompoundTitle">Compound Title</a>: Episode 11 and 12 are titled "The Trouble With Dames" and "...Is That Dames Are Trouble", respectively.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoveredWithScars" title="/pmwiki/pmwiki.php/Main/CoveredWithScars">Covered with Scars</a>: Chell has plenty of scars in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadFuture" title="/pmwiki/pmwiki.php/Main/BadFuture">Bad Future</a> they go to in episodes 12 and 13.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CowboyEpisode" title="/pmwiki/pmwiki.php/Main/CowboyEpisode">Cowboy Episode</a>: The end of episode 9 and beginning of episode 10 take place in a Wild West-themed dimension.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreepyTwins" title="/pmwiki/pmwiki.php/Main/CreepyTwins">Creepy Twins</a>: Gemini's stars generally come in sets of two. The first encountered are Pollux and Castor, who share their leader's ability to clap the girls into alternate dimensions. The second are Mekbuta and Mebsuta, who appear to have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HatePlague" title="/pmwiki/pmwiki.php/Main/HatePlague">Hate Plague</a> powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrunkWithPower" title="/pmwiki/pmwiki.php/Main/DrunkWithPower">Drunk with Power</a>: Despite insisting that they don't want to keep the powers which come from <span class="spoiler" title="you can set spoilers visible by default on your profile"> being evil</span> in episode 11, the Sequinox team (aside from Yuki) really enjoy trashing the city in order to get Castor's attention. Chell even comments that she gets why the girls would've <span class="spoiler" title="you can set spoilers visible by default on your profile"> taken the deal with the Sky Queen</span> in this dimension. That being said, the others still draw the line at Sid's desire to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnArmAndALeg" title="/pmwiki/pmwiki.php/Main/AnArmAndALeg">take the stars' hands</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyBirdCameo" title="/pmwiki/pmwiki.php/Main/EarlyBirdCameo">Early-Bird Cameo</a>: In the <span class="spoiler" title="you can set spoilers visible by default on your profile"> Star Invasion</span> world, the girls spot foot soldiers from stars that they'd yet to fight. In the Sitcom world they also see the stars themselves, but since it's only in a title sequence they go too fast to get any details on them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCostumeSwitch" title="/pmwiki/pmwiki.php/Main/EvilCostumeSwitch">Evil Costume Switch</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> When they're sent to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MirrorUniverse" title="/pmwiki/pmwiki.php/Main/MirrorUniverse">Mirror Universe</a> in episode 10, the whole team find themselves in dark, sinister, and <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilIsSexy" title="/pmwiki/pmwiki.php/Main/EvilIsSexy">revealing</a> costumes rather than their usual outfits. Notably, any instance of a rose on their costumes has been replaced by a cutout of a star.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpendableAlternateUniverse" title="/pmwiki/pmwiki.php/Main/ExpendableAlternateUniverse">Expendable Alternate Universe</a>: Joked about by Hannah, who declares that all the worlds they're going to are fake early on simply to avoid thinking too hard about it. Ultimately subverted, however, as the girls do start taking steps to not make things difficult when their alternates are brought back into their own worlds and actively ensure that their allies understand the situation in places where their lack of knowledge has major impacts upon the world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FailedASpotCheck" title="/pmwiki/pmwiki.php/Main/FailedASpotCheck">Failed a Spot Check</a>: The team didn't notice the Amazing Technicolour Population that is one of the stars with bright red skin standing around amongst the newsies in episode 12.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foreshadowing" title="/pmwiki/pmwiki.php/Main/Foreshadowing">Foreshadowing</a>: Chell tells Hannah that the latter's probably experiencing some new hormones due to <span class="spoiler" title="you can set spoilers visible by default on your profile"> being suddenly pregnant in the post-apocalypse world</span>, and that she's been there. Later in the episode it's stated that Chell is trans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GotMeDoingIt" title="/pmwiki/pmwiki.php/Main/GotMeDoingIt">Got Me Doing It</a>: In episode 10, not only does Vivaldi call Summer by a civilian name (which he's gotten on their cases about multiple times), but he calls her by the wrong civilian name. And he does it multiple times!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsAkimbo" title="/pmwiki/pmwiki.php/Main/GunsAkimbo">Guns Akimbo</a>: Chell gets two revolvers that shoot fireballs while in arc 2's cowboy dimension.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InternalReveal" title="/pmwiki/pmwiki.php/Main/InternalReveal">Internal Reveal</a>: By the end of this arc, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Ethan knows the girls are Sequinox</span>. It's elaborated on in the filler afterwards.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvisibleStreaker" title="/pmwiki/pmwiki.php/Main/InvisibleStreaker">Invisible Streaker</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Hannah</span> in the monster world, suggests this since she's an invisible woman. The others shoot it down.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadnessMantra" title="/pmwiki/pmwiki.php/Main/MadnessMantra">Madness Mantra</a>: In the filler, Sid keeps chanting "Haunted House! Haunted House!" in the background of her friends trying to simultaneously have a discussion about <span class="spoiler" title="you can set spoilers visible by default on your profile"> alternate universe Caiden's death</span> and shut down any public discussion of Sequinox stuff whatsoever.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasqueradeBall" title="/pmwiki/pmwiki.php/Main/MasqueradeBall">Masquerade Ball</a>: One of the worlds the girls are sent to is based off of Venice Carnivale, where everyone is wearing feathered masks like Vivaldi's.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MirrorUniverse" title="/pmwiki/pmwiki.php/Main/MirrorUniverse">Mirror Universe</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Episode 10 goes though plenty of alternate dimensions, but winds up here at the end. The Sequinox team are all dressed in evil costumes and are heavily implied to have caused Westbrooks' destruction.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MonsterMash" title="/pmwiki/pmwiki.php/Main/MonsterMash">Monster Mash</a>: The end of episode 14, and most of episode 15, has the girls in a gothic monster-themed world. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Except this time, they're the monsters. Summer's a Frankenstein, Autumn's a werewolf, Spring's an invisible woman, Winter's a gillman, and Vivaldi's the Phantom of the Opera. Later on they find that Ethan and his mother are vampires, and Harmony developed a Hyde-esque potion</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a>: Episode 10 spends its time clapping between various other dimensions and seeing the whole Sequinox team get into zany situations when they're forced to be cowgirls, or spies, or greasers. But the last dimension is <span class="spoiler" title="you can set spoilers visible by default on your profile"> one where they're all wearing evil costumes, Vivaldi is ruthlessly telling the girls to kill Castor as she begs for her life, and the entire city is in ruins</span>.<ul><li> Episode 12 goes the other way, moving from a film noir world where <span class="spoiler" title="you can set spoilers visible by default on your profile"> Ethan is being held for ransom by his father and the girls witness Gemini become darkly protective of Propus</span> to a Circus world that starts with <span class="spoiler" title="you can set spoilers visible by default on your profile"> Chell getting launched out of a cannon</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero" title="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero">Nice Job Breaking It, Hero!</a>: In the post-apocalypse world, Sequinox learns that <span class="spoiler" title="you can set spoilers visible by default on your profile"> in this reality they beat Scorpius so quickly that the Night Queen launched a full-scale invasion to counter their power.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OohMeAccentsSlipping" title="/pmwiki/pmwiki.php/Main/OohMeAccentsSlipping">Ooh, Me Accent's Slipping</a>: Sid's transatlantic accent slips into Irish in episode 12. She claims it's practice for in case they become sailors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurMermaidsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurMermaidsAreDifferent">Our Mermaids Are Different</a>: One world they're sent to in the Gemini arc has them turned into merfolk. Chell's a squid, Sid's a nurse shark, Hannah's a betta fish, Yuki's a dolphin, and Gemini is a kraken.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PregnantBadass" title="/pmwiki/pmwiki.php/Main/PregnantBadass">Pregnant Badass</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Post-Apocalypse!Hannah</span> from the Gemini arc is one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProfessionalWrestling" title="/pmwiki/pmwiki.php/Main/ProfessionalWrestling">Professional Wrestling</a>: One of the worlds briefly visited.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityWarper" title="/pmwiki/pmwiki.php/Main/RealityWarper">Reality Warper</a>: Gemini and her stars have the power to clap the girls into other dimensions, and uses this power to constantly keep them off-balance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpottingTheThread" title="/pmwiki/pmwiki.php/Main/SpottingTheThread">Spotting the Thread</a>: In episode 12 it seems like the girls have gotten back to their world. Then Yuki notices that instead of the clothing they had that morning, their outfits are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColorCodedForYourConvenience" title="/pmwiki/pmwiki.php/Main/ColorCodedForYourConvenience">colour-coded</a>. Then it turns out that <span class="spoiler" title="you can set spoilers visible by default on your profile"> this isn't their world, it's a <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/PowerRangers" title="/pmwiki/pmwiki.php/Franchise/PowerRangers">Power Rangers</a> world</span>.<ul><li> Again in episode 14, right down to them thinking they're back. Then they notice Caiden wearing glasses. <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's a superhero world, and Caiden is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClarkKenting" title="/pmwiki/pmwiki.php/Main/ClarkKenting">Clark Kenting</a></span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Stripperiffic" title="/pmwiki/pmwiki.php/Main/Stripperiffic">Stripperiffic</a>: In the Vikings world, Chell and Hannah have "sexy <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DiabloIII" title="/pmwiki/pmwiki.php/VideoGame/DiabloIII">Diablo III</a></em>" viking armour.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StylisticSuck" title="/pmwiki/pmwiki.php/Main/StylisticSuck">Stylistic Suck</a>: In the 70s sci-fi world from the Gemini arc, everything resembles a bad tv set, from visible boom mics to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScreenShake" title="/pmwiki/pmwiki.php/Main/ScreenShake">Screen Shake</a> occurring rather than actual damage to their ship, to Gemini and the Gemmies looking like people in bad costumes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">Suspiciously Specific Denial</a>: The sitcom world's opening titles, which say <em>"Sequinox"</em> in "a font". Because they're in a television show, with a budget and made by people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SympathyForTheDevil" title="/pmwiki/pmwiki.php/Main/SympathyForTheDevil">Sympathy for the Devil</a>: The Sequinox team is left feeling bad for Pollux after <span class="spoiler" title="you can set spoilers visible by default on your profile"> killing Castor</span> and the star is left utterly broken.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravelTenseTrouble" title="/pmwiki/pmwiki.php/Main/TimeTravelTenseTrouble">Time-Travel Tense Trouble</a>: In the Monsters world, which is also based on Victorian England, the group has trouble figuring out how things worked "back in the now".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitleDrop" title="/pmwiki/pmwiki.php/Main/TitleDrop">Title Drop</a>: In episode 12, Sid cites the title of that and the previous episode during her internal monologue.<div class="indent"><strong>Sid (transatlantically):</strong> The trouble with dames is that dames is trouble.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TomatoInTheMirror" title="/pmwiki/pmwiki.php/Main/TomatoInTheMirror">Tomato in the Mirror</a>: When they land in a gothic horror world during the Gemini arc, they hear a mob talking about a girl being kidnapped by monsters and decide to transform and help her. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Then they transform <em>into</em> monsters&mdash;though they're not responsible for the kidnapping</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrappedInTVLand" title="/pmwiki/pmwiki.php/Main/TrappedInTVLand">Trapped in TV Land</a>: Two explicit examples. One of them is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Zeerust" title="/pmwiki/pmwiki.php/Main/Zeerust">Zeerust</a> sci-fi world where the elements of the TV set are clearly visible. The other is a standard sitcom where the girls can hear the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CannedLaughter" title="/pmwiki/pmwiki.php/Main/CannedLaughter">canned laughter</a> and are aware of going through the opening title.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TuxedoAndMartini" title="/pmwiki/pmwiki.php/Main/TuxedoAndMartini">Tuxedo and Martini</a>: Another dimension that the team is sent to in episode 10.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWildWest" title="/pmwiki/pmwiki.php/Main/TheWildWest">The Wild West</a>: One of the dimensions Gemini sends the team to is styled like this. They all get western variants of their Sequinox outfits, guns (except for Spring, who gets a lasso), and Southern accents.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Zeerust" title="/pmwiki/pmwiki.php/Main/Zeerust">Zeerust</a>: One of the worlds seen in the Gemini arc is a <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/FlashGordonSerial" title="/pmwiki/pmwiki.php/Film/FlashGordonSerial">Flash Gordon</a></em>-style 70s sci-fi set. Yes, it's specifically designed to resemble a shoddy, dated, tv serial.</li></ul><p></p></div><p></p><div class="folderlabel" onclick="togglefolder('folder3');">&nbsp;&nbsp;&nbsp;&nbsp;Arc Three: Virgo&nbsp;</div><div id="folder3" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalMisnaming" title="/pmwiki/pmwiki.php/Main/AccidentalMisnaming">Accidental Misnaming</a>: Sid accidentally calls Sungjin "Mr. Parker". He's still a little hopped up on painkillers, so he just happily accepts being part of the <em>Spider-Man</em> family.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateIdentityAmnesia" title="/pmwiki/pmwiki.php/Main/AlternateIdentityAmnesia">Alternate Identity Amnesia</a>: No one remembers anything from when they were <span class="spoiler" title="you can set spoilers visible by default on your profile"> possessed</span>. Poor <span class="spoiler" title="you can set spoilers visible by default on your profile"> Verrill</span> got got so early that he didn't even meet the main cast as himself, though at least he was able to get flashes during the situation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApologeticAttacker" title="/pmwiki/pmwiki.php/Main/ApologeticAttacker">Apologetic Attacker</a>: Winter apologizes profusely when she's forced to fight against her friends, especially <span class="spoiler" title="you can set spoilers visible by default on your profile"> when she has to be the one to break Ethan's collarbone to stop Vindemiatrix.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint" title="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint">Attack Its Weak Point</a>: Ethan still has a fracture in his collarbone from Gemini's attack. <span class="spoiler" title="you can set spoilers visible by default on your profile"> When he gets infected by Virgo but before he's taken over, he tells the girls to hit him there so that he can be taken down before he hurts them. Sure enough, the following episode Winter slams her staff into the wound hard enough to send Vindemiatrix into shock.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadBadActing" title="/pmwiki/pmwiki.php/Main/BadBadActing">Bad "Bad Acting"</a>: While three girls pretend that they too were affected by Virgo's reign, Hannah along with Ethan don't even bother.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DatingCatwoman" title="/pmwiki/pmwiki.php/Main/DatingCatwoman">Dating Catwoman</a>: A weird variant occurs at Winter Formal. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Hannah ends up flirting a lot with Vindemiatrix, since he's being very courteous before the battle between the Stars and Sequinox. But she plays it off as her flirting with Ethan since he's the vessel Vin is inhabiting.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">Demonic Possession</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Virgo Stars' power is taking over other people as a vessel, and later on it's implied that the Stars can <em>only</em> manifest by placing a portion of their essence in another body. Caiden is taken over by Spica, Ethan by Vindemiatrix, Harmony by Porrima, Kendra by Xania, and Charles by Rijl al-Awwa. Various other citizens also get Stars instead of just Virgies, and Verrill himself is also possessed by Virgo.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilMakeover" title="/pmwiki/pmwiki.php/Main/EvilMakeover">Evil Makeover</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> After Caiden is possessed by Spica his skin turns blue and he gets a revealing outfit to go with it.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FastballSpecial" title="/pmwiki/pmwiki.php/Main/FastballSpecial">Fastball Special</a>: Yuki throws Sid right at Virgo's face in the final battle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FoodSlap" title="/pmwiki/pmwiki.php/Main/FoodSlap">Food Slap</a>: Autumn panics during the final battle and starts it off by tossing her drink at Spica.<div class="indent"><strong>Spring:</strong> Yeah, they're definitely weak to fruit punch.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForgotAboutHisPowers" title="/pmwiki/pmwiki.php/Main/ForgotAboutHisPowers">Forgot About His Powers</a>: Both in-universe and in real life, the team forgot about their team attacks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FullNameUltimatum" title="/pmwiki/pmwiki.php/Main/FullNameUltimatum">Full-Name Ultimatum</a>: Chell tries one with Caiden when she sees <span class="spoiler" title="you can set spoilers visible by default on your profile"> his freckles look like stars</span>, but she doesn't know his middle name. He actually doesn't have one, so she decides it's Giorgio.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreSavvy" title="/pmwiki/pmwiki.php/Main/GenreSavvy">Genre Savvy</a>: At this point in the series the civilian populace of Westbrook knows to get out of the way when they see Sequinox show up.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HatesBeingTouched" title="/pmwiki/pmwiki.php/Main/HatesBeingTouched">Hates Being Touched</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> In the last moments of the final battle, Chell realizes that all the other Stars saying that Virgo "doesn't like getting their hands dirty", combined with how he freaked out every time they tried to hit him, means he's actually this trope. Ethan managing to grab Virgo's misty form distracts him enough for Sid to destroy him.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsQuietTooQuiet" title="/pmwiki/pmwiki.php/Main/ItsQuietTooQuiet">It's Quiet&#133; Too Quiet</a>: The amount of time between Gemini's defeat and the next Star appearing is far longer than the girls expected, and some of them are getting antsy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LadyInAPowerSuit" title="/pmwiki/pmwiki.php/Main/LadyInAPowerSuit">Lady in a Power Suit</a>: Hannah's Winter Formal outfit is this, but designed so the lapels are wider than normal and fall off her shoulders.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaliciousMisnaming" title="/pmwiki/pmwiki.php/Main/MaliciousMisnaming">Malicious Misnaming</a>: The girls refer to Porrima as "Purina" often enough to get on her nerves. They assume it's a trait she inherited from <span class="spoiler" title="you can set spoilers visible by default on your profile"> Harmony</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewTransferStudent" title="/pmwiki/pmwiki.php/Main/NewTransferStudent">New Transfer Student</a>: Verrill "V" Okafor, who moved from California to Westbrook. <span class="spoiler" title="you can set spoilers visible by default on your profile"> He's actually supposed to be at Eastbrook, but got possessed by Virgo en route and wound up at Westbrook in order to take out Sequinox</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoOntologicalInertia" title="/pmwiki/pmwiki.php/Main/NoOntologicalInertia">No Ontological Inertia</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> After killing Virgo, all the other Stars and Virgies are blasted out of their vessels.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutOfCharacterAlert" title="/pmwiki/pmwiki.php/Main/OutOfCharacterAlert">Out-of-Character Alert</a>: When the team sees Caiden chatting it up with Verrill, they all assume something is wrong in one way or another.<div class="indent"><strong>Hannah</strong>: You're telling me. That you. Caiden Park. Just went up to a cute boy. And started talking? <br><strong>Caiden</strong>:...well when you say it like that it sounds fake.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PornStash" title="/pmwiki/pmwiki.php/Main/PornStash">Porn Stash</a>: While they don't find any in Caiden's room, the players joke about what kind of porn someone would keep if they even have physical porn. Shannon says it's probably a perfectly normal magazine, but it's hidden and you can tell what it's for.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchCatch" title="/pmwiki/pmwiki.php/Main/PunchCatch">Punch Catch</a>: Spica pulls this when Chell tries attacking him diretly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RansackedRoom" title="/pmwiki/pmwiki.php/Main/RansackedRoom">Ransacked Room</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Caiden's room is trashed when the girls find it, with his notebooks torn up, one of his violins busted, and his charm missing from his phone.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOutThemeNaming" title="/pmwiki/pmwiki.php/Main/ShoutOutThemeNaming">Shout-Out Theme Naming</a>: Danny's chickens are named <a class="twikilink" href="/pmwiki/pmwiki.php/Series/SexAndTheCity" title="/pmwiki/pmwiki.php/Series/SexAndTheCity">Samantha, Miranda, Carrie, and</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OddNameOut" title="/pmwiki/pmwiki.php/Main/OddNameOut">The Other One</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesItsTheApocalypse" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesItsTheApocalypse">Screw the Rules, It's the Apocalypse!</a>: After realizing that they can't stop Virgo's plan until he makes his next move and there's no authority in town since <span class="spoiler" title="you can set spoilers visible by default on your profile"> Virgo and his stars are controlling everyone</span>, the girls (sans Yuki) decide to steel beer and ice cream and break into the teacher's lounge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlippingAMickey" title="/pmwiki/pmwiki.php/Main/SlippingAMickey">Slipping a Mickey</a>: Chell spikes the punch at Winter Formal, which results in her and Hannah being a little loosened up during the final battle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThat" title="/pmwiki/pmwiki.php/Main/TakeThat">Take That!</a>: Since Spica's violin has the opposite effect as Caiden's and weakens the team, Jake states that he's probably playing the worst song ever written: "Institutionalized" by <a class="twikilink" href="/pmwiki/pmwiki.php/Music/SuicidalTendencies" title="/pmwiki/pmwiki.php/Music/SuicidalTendencies">Suicidal Tendencies</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranquilFury" title="/pmwiki/pmwiki.php/Main/TranquilFury">Tranquil Fury</a>: Chell driving angry is this, as she follows all the traffic laws in order to keep from flying off the handle. Everyone who passes her gives her weird looks and Yuki has never been more frightened.</li><li> <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UncannyValley" title="/pmwiki/pmwiki.php/Main/UncannyValley">Uncanny Valley</a>: The Virgies have no hands, feet, or any real features beyond being black or white, and they move like marionettes being pulled by strings.<div class="indent"><strong>Chell</strong>: I'm creeped the heck out by marionettes. I don't like that they move like people but just weird enough to not be actual people.</div><ul><li> It gets worse when <span class="spoiler" title="you can set spoilers visible by default on your profile"> they inhabit the entire populace of Westbrook. The whole town essentially goes on a loop, with everyone going about their day on autopilot, speaking in segments of previous conversations, and sitting and staring straight ahead instead of sleeping</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: In episode 22, we see the interior of Sid's home. <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's incredibly boring and mundane.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamLine" title="/pmwiki/pmwiki.php/Main/WhamLine">Wham Line</a>: After Chell pulls the sick mask off of Caiden's face in episode 018.<div class="indent"><strong>Shannon</strong>: One, he looks very mad at this, but two, <span class="spoiler" title="you can set spoilers visible by default on your profile"> his freckles look like stars</span>.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamShot" title="/pmwiki/pmwiki.php/Main/WhamShot">Wham Shot</a>: In episode 019, a Star lands in front of the girls as they're looking for Caiden. <span class="spoiler" title="you can set spoilers visible by default on your profile"> It <em>is</em> Caiden, with blue skin an outfit clearly for Stars. He's been possessed by Spica</span>.</li></ul></div><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/TheFallenGods">The Fallen Gods</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Podcast">Podcast</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/CriticalHit">Critical Hit</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/SemiautomagicInc">Semiautomagic Inc.</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ActualPlay">Actual Play</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/ShuffleQuest">Shuffle Quest</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/TheFallenGods">The Fallen Gods</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/HeyJakeAndJosh">Creator/Hey! Jake and Josh</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/KingdomSmarts">Kingdom Smarts</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Wrestling/DarkMatch">Dark Match</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ProfessionalWrestling">Professional Wrestling</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Aberrant">Aberrant</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/CoolKidsTable">Cool Kids Table</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheEighties">The '80s</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/MaddieOnTheIslandHue">Maddie On The Island Hue</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/SailorNothing">Sailor Nothing</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MagicalGirlGenreIndex">Magical Girl Genre Index</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebAnimation/TokyoMagicStar">Tokyo Magic Star</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

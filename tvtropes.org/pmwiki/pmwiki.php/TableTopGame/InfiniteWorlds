@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Infinite Worlds (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="A description of tropes appearing in Infinite Worlds. The good news is, we can visit other Earths.The bad news is, somebody out there doesn't like us." />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/InfiniteWorlds" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Infinite Worlds (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="A description of tropes appearing in Infinite Worlds. The good news is, we can visit other Earths.The bad news is, somebody out there doesn't like us." />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/infiniteworldscover_350.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Infinite Worlds (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/InfiniteWorlds" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/infiniteworldscover_350.jpg" />
+<meta property="og:description" content="The good news is, we can visit other Earths.The bad news is, somebody out there doesn't like us. Something that looks like Time Travel combined with alternative world hopping. GURPS: Infinite Worlds is the default GURPS 4th edition setting, &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ThePrecariousLedge" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Literature/TrintonChronicles" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/InfiniteWorlds?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/InfiniteWorlds">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.InfiniteWorlds">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=InfiniteWorlds&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.InfiniteWorlds">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/InfiniteWorlds?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="InfiniteWorlds" />
+<input type="hidden" id="article_id" value="317638" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/InfiniteWorlds</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Infinite Worlds
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Infinite Worlds"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/InfiniteWorlds" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/InfiniteWorlds" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/InfiniteWorlds?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/InfiniteWorlds?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/InfiniteWorlds?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/InfiniteWorlds?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/InfiniteWorlds?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/InfiniteWorlds?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/InfiniteWorlds?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/InfiniteWorlds?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/InfiniteWorlds?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/InfiniteWorlds?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/InfiniteWorlds?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/InfiniteWorlds?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/InfiniteWorlds?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/InfiniteWorlds?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/InfiniteWorlds?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/InfiniteWorlds?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/InfiniteWorlds?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:125.14%"><img src="https://static.tvtropes.org/pmwiki/pub/images/infiniteworldscover_350.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/infiniteworldscover_350.jpg" width="350" height="438"></div></div><em>The good news is, we can visit other Earths.</em><em>The bad news is, somebody out there doesn't like us.</em><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>Something that looks like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Time Travel</a> combined with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateUniverse" title="/pmwiki/pmwiki.php/Main/AlternateUniverse">alternative world</a> hopping. <em>GURPS: Infinite Worlds</em> is the default <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a> 4th edition setting, loosely inspired by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HBeamPiper" title="/pmwiki/pmwiki.php/Creator/HBeamPiper">H. Beam Piper</a>'s "<a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Paratime" title="/pmwiki/pmwiki.php/Literature/Paratime">Paratime</a>" novels. The successor to the Third Edition sourcebook <em>GURPS Time Travel</em> and its supplement <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSAlternateEarths" title="/pmwiki/pmwiki.php/TabletopGame/GURPSAlternateEarths">GURPS Alternate Earths</a></em>.</p><p>The basic concept is this: A Parallel Earth (that calls itself "Homeline") develops the technology for travel to other timelines. It is controlled by the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/UnitedNations" title="/pmwiki/pmwiki.php/UsefulNotes/UnitedNations">United Nations</a>, which effectively becomes a World Government (an opinion not every nation and corporation agrees with). They secretly explore and exploit the other Earths (in <em>relatively</em> benign ways - buying resources from Earths that have plenty, for example, and dumping wastes on Earths that never developed life) and forms an organization known as "The Infinity Patrol" for the purpose of keeping "The Secret" (that is, the existence of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">The Multiverse</a> as well as the fact that you can travel to other worlds by technological means) from those Worlds that do not know about it (the vast majority discovered so far).</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>The reason is twofold. First, worldlines that learn The Secret may either be aggressive timelines, or become the victim of one, creating another reality-hopping danger. But the second deals with "echo" timelines that mirror Earth's past &mdash; changing an echo by interfering too much may cause that reality to "shift" closer or farther away from Homeline (that is, it becomes more or less easy to access.) In fact, Homeline's biggest rival, Centrum, a World that also has "cross-time" technology but with a <strike>Communist-type</strike> socialist technocratic society, seeks to draw worlds "closer" to themselves so they can influence them into developing similar governments. Occasionally, "outtimers" (slang for people from outside Homeline) are recruited to join Infinity if they are judged worthy. This is similar to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimePolice" title="/pmwiki/pmwiki.php/Main/TimePolice">Time Police</a> setting genre except it involves parallel worlds instead of the actual past or future. (The book also includes a separate, Time Travel setting called "Project Timepiece" as well as settings such as The Order of the Hourglass, a pulp setting where adventurers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MentalTimeTravel" title="/pmwiki/pmwiki.php/Main/MentalTimeTravel">travel through time via their minds</a>.)</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>Oh, by the way there's a third up-and-coming player in the multiverse that recently extracted The Secret from a crashed Homeline conveyor. Homeline's name for their timeline? <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StupidJetpackHitler" title="/pmwiki/pmwiki.php/Main/StupidJetpackHitler">Reich-</a><a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">5</a>.</p><p>This setup allows GURPS game masters to permit <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Crossover" title="/pmwiki/pmwiki.php/Main/Crossover">Crossovers</a> between different genres. For example, the Earth of "IST" from the original <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSSupers" title="/pmwiki/pmwiki.php/TabletopGame/GURPSSupers">GURPS Supers</a></em> has been recently discovered, which could allow for crossovers between the two settings. This also gives both the player and GM a huge sandbox to play with. This is to some degree, the purpose of the setting, as it literally allows the game master and the players to goof around, err... that is police the infinite multiverse where literally anything is possible (that includes some very weird possibilities) without worrying about actual time-travel (unless you want to, of course) The sheer complexity and size of the multiverse and the parachronic physics is probably the main reason The Secret can be maintained with any success at all.</p><p>For more information and tropes concerning several of the worlds (including Reich-5 and Centrum), also see <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSAlternateEarths" title="/pmwiki/pmwiki.php/TabletopGame/GURPSAlternateEarths">GURPS Alternate Earths</a></em>. For one setting within the Infinite Worlds framework that has received its own separate treatment, see <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSInfiniteWorldsBritannica6" title="/pmwiki/pmwiki.php/TabletopGame/GURPSInfiniteWorldsBritannica6">GURPS Infinite Worlds: Britannica-6</a></em>.</p><p>The publisher's Web page for the book is <a class="urllink" href="http://www.sjgames.com/gurps/books/infiniteworlds/">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></p><hr><h2>This, as a setting for <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a>, shares many tropes with <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a>.</h2><p></p><h2> <strong>Other tropes</strong>:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienNonInterferenceClause" title="/pmwiki/pmwiki.php/Main/AlienNonInterferenceClause">Alien Non-Interference Clause</a>: There's no general bar, but Infinity enforces individual ones for individual worlds. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMasquerade" title="/pmwiki/pmwiki.php/Main/TheMasquerade">The Masquerade</a> needs to be upheld on <em>all</em> worlds, travel to worlds with advanced technology (in other words, potentially able to develop parachronics) is restricted, and cultural contamination, cargo cults and colonialism are to be avoided. Also, meddling with "echo" worlds (worlds identical to time periods in Homeline's past) is forbidden, but that's because their temporal physics are unstable. Other than that, trade and "benevolent guidance" happen all the time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSpaceBats" title="/pmwiki/pmwiki.php/Main/AlienSpaceBats">Alien Space Bats</a>:<ul><li> Centrum and Homeline do a <em>LOT</em> of this, as often as not as a part of their ongoing conflict. Centrum promotes an ideology of a meritocratic, rationalist <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWorldOrder" title="/pmwiki/pmwiki.php/Main/OneWorldOrder">One World Order</a> in more advanced worlds, or outright colonization of more primitive timelines. Infinity's less picky; they largely want trading partners for White Star, "benevolent guidance" in favor of peace and human rights, and most importantly to keep anyone else from developing parachronics.</li><li> More worryingly, it seems that they may not be the only ones who do this, as the no less than 18 Gothas (parallels that all suffered a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">Zombie Apocalypse</a> with a common source) seem to point to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MysticalPlague" title="/pmwiki/pmwiki.php/Main/MysticalPlague">a common origin</a>. On a (somewhat) lighter note, the sheer amount of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InSpiteOfANail" title="/pmwiki/pmwiki.php/Main/InSpiteOfANail">In Spite of a Nail</a> in the Ezcalli timeline, despite the divergence point (Phoenicians accidentally discovering the Americas circa 1000 BC, natch), has many people in Infinity suspecting it's also happening there.</li><li> Infinity suspects that something's meddling with Campbell. Science isn't just dead in America and Britain (where an anti-technological religiosity has become the norm) but in the Communist powers (which share none of the West's technophobia) as well, and Patrolmen are smelling a conspiracy.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ALighterShadeOfBlack" title="/pmwiki/pmwiki.php/Main/ALighterShadeOfBlack">A Lighter Shade of Black</a>:<ul><li> On Gotha-Z, the one major power that has not been destroyed by the G-Z virus is <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan" title="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan">Imperial Japan</a>. It's not any nicer than Homeline's version, and they make no bones about raiding non-Japanese survivors for resources, but given the fact that it's a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">Zombie Apocalypse</a>, Infinity isn't objecting too hard to the support they get from Homeline's Japan.</li><li> On <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSReignOfSteel" title="/pmwiki/pmwiki.php/TabletopGame/GURPSReignOfSteel">Steel</a>, Centrum's imperialistic Interworld Service can be considered entirely good guys compared to the the genocidal AI zoneminds.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllohistoricalAllusion" title="/pmwiki/pmwiki.php/Main/AllohistoricalAllusion">Allohistorical Allusion</a>:<ul><li> There is a mercenary outfit called Alternate Outcomes Inc. that works as the only PMC allowed to carry out out-time operations. The first PMC was <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/SouthAfrica" title="/pmwiki/pmwiki.php/UsefulNotes/SouthAfrica">South African</a> Executive Outcomes.</li><li> A sidebar mentions how Infinity knocked off an al-Qaeda terror plot in early 2001. Merlin's CIA took out a similar group in Afghanistan in 2000.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistory" title="/pmwiki/pmwiki.php/Main/AlternateHistory">Alternate History</a>: The point of the exercise, most of the time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistoryWank" title="/pmwiki/pmwiki.php/Main/AlternateHistoryWank">Alternate History Wank</a>:<ul><li> On Homeline, the biggest winner from the parachronic boom has been the US, which maintains the degree of world leadership that it had in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNineties" title="/pmwiki/pmwiki.php/Main/TheNineties">The '90s</a> (in part because <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheWarOnTerror" title="/pmwiki/pmwiki.php/UsefulNotes/TheWarOnTerror">The War on Terror</a> never happened). There's also indications that France is becoming an aggressive crosstime rival to the US (and to Infinity). Russia is also a major player, due to giving its oligarchs access to the biggest resource boom in the Infinite Worlds.</li><li> Any time the British Empire is doing too well in Quantum 6 and 7, it's a reasonable assumption that Centrum is involved; it's their favorite power to wank up high for cultural (they're descended from the Australian remnant of a global Anglo-French Empire &mdash; although they would deny this has any relevence, as their whole world is equally Centrum), linguistic (they speak English) and strategic reasons (it's a very strong model on which to build a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWorldOrder" title="/pmwiki/pmwiki.php/Main/OneWorldOrder">One World Order</a> and easily guided along technocratic lines).</li><li> In fact, this happens often enough that many alternate timeline designations are used specifically for timelines where a particular nation/concept was wanked.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateUniverse" title="/pmwiki/pmwiki.php/Main/AlternateUniverse">Alternate Universe</a>: Where all these alternate histories (and some worlds so weird they're barely recognizable as Earth) can exist.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncientConspiracy" title="/pmwiki/pmwiki.php/Main/AncientConspiracy">Ancient Conspiracy</a>: The Cabal, which since it's mostly made up of sorcerers and assorted supernaturals with amoral, inscrutable (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAreStrugglingTogether" title="/pmwiki/pmwiki.php/Main/WeAreStrugglingTogether">and often conflicting</a>) goals, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicVersusScience" title="/pmwiki/pmwiki.php/Main/MagicVersusScience">is an unwelcome wild card in the conflict between techno-centric Homeline and Centrum</a>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawVulcan" title="/pmwiki/pmwiki.php/Main/StrawVulcan">Centrum especially</a>, as their ingrained pragmatism and logic has a hard time coping with a concept as irrational as magic (they tend to pretend it's not there until it goes away, get rid of it by any means necessary if it doesn't, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewThisImOuttaHere" title="/pmwiki/pmwiki.php/Main/ScrewThisImOuttaHere">just pull out</a> if neither option works).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncientRome" title="/pmwiki/pmwiki.php/Main/AncientRome">Ancient Rome</a>: One of the most common divergence points is a surviving (or resurgent) Roman Empire.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiVillain" title="/pmwiki/pmwiki.php/Main/AntiVillain">Anti-Villain</a>: Centrum really isn't evil, just with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">alien social values</a> (what we might term "ruthlessness", they term "practicality"). There's a section explicitly allowing the GM to decide if they should be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ALighterShadeOfGrey" title="/pmwiki/pmwiki.php/Main/ALighterShadeOfGrey">A Lighter Shade of Grey</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADarkerShadeOfGrey" title="/pmwiki/pmwiki.php/Main/ADarkerShadeOfGrey">A Darker Shade of Grey</a>, and another that mentions the possibility of an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">Enemy Mine</a> with Infinity to fight Reich-5 if it ever becomes a major player.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArabianNightsDays" title="/pmwiki/pmwiki.php/Main/ArabianNightsDays">"Arabian Nights" Days</a>:<ul><li> Caliph twists this. It's a world mostly covered by Islamic nations in the 1600s, except that the magic is technological... and the worldline is by far the most advanced of any that either Infinity or Centrum have ever discovered.</li><li> A more classical example is Burton, an anachronistic myth parallel that exists in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StableTimeLoop" title="/pmwiki/pmwiki.php/Main/StableTimeLoop">Stable Time Loop</a> that coincides with the reign of Caliph Harun al-Rashid where the folktales are true.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitrarySkepticism" title="/pmwiki/pmwiki.php/Main/ArbitrarySkepticism">Arbitrary Skepticism</a>: At Paralabs, magic gets this, specifically in contrast to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>. While psionics don't usually develop on Homeline, they nonetheless fully fit into a "scientific" paradigm, and as a result, psionics is considered bleeding-edge science that everyone wants a piece of. Magic, by contrast, is seen as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HowUnscientific" title="/pmwiki/pmwiki.php/Main/HowUnscientific">unscientific</a> by Paralabs, and the Sheldrake Section (who research such phenomena and developed the "mana level" classification) are generally seen as kookballs even in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Paralabs</a>. The fact that Sheldrake Section insists on trying to fit magic into a predefined theory similar to <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">the Force</a> isn't helping things, but nobody wants to be the one who admits that they believe in actual magic. (Veteran Patrolmen <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeenItAll" title="/pmwiki/pmwiki.php/Main/SeenItAll">rarely share this prejudice</a>.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant" title="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant">Awakening the Sleeping Giant</a>: There are several sleeping titans in this setting:<ul><li> Reich-5 was originally presented as a sleeping giant, but while it's awakened, it suffered <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiminishingVillainThreat" title="/pmwiki/pmwiki.php/Main/DiminishingVillainThreat">Diminishing Villain Threat</a> between its initial presentation and the exposure of parachronics, and the latter event occurred in such a way that most of the Nazi hierarchy is unaware of the situation, so the Armanen and Raven Division are more of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoldfishPoopGang" title="/pmwiki/pmwiki.php/Main/GoldfishPoopGang">Goldfish Poop Gang</a> right now than a match for Homeline or Centrum. However, they're still very nasty, and if their superiors <em>did</em> find out what's going on...</li><li> Merlin's another partially-awakened giant: a world with technology equal to that of our own Earth, but with access to advanced <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a> as well (in fact, the world of the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSTechnomancer" title="/pmwiki/pmwiki.php/TabletopGame/GURPSTechnomancer">GURPS Technomancer</a></em> supplement). A blunder with Gate magic and Infinity's response to it made America's CIA aware of parachronics, and they've started spying on Homeline back (though Homeline is as of yet unaware of this); however, they are not necessarily hostile. More worrisome, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArgentinaIsNaziland" title="/pmwiki/pmwiki.php/Main/ArgentinaIsNaziland">the Condor Group Nazis in control of Argentina</a> have made an alliance with Reich-5's Armanen.</li><li> Caliph is a mostly-peaceful world of Islamic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas" title="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas">Crystal Spires and Togas</a>, but its technology is centuries ahead of anything that Infinity and Centrum have, and both sides want it. Of course, any intrusion risks telling Caliph about the existence of parachronics, and that centuries-advanced technology makes Caliph into quite possibly the most powerful single worldline in existence.</li><li> Most horrifying of all possibilities is Shikaku-mon. A dark, overpopulated <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberpunk" title="/pmwiki/pmwiki.php/Main/Cyberpunk">Cyberpunk</a> world where democracy never happened, over half of which is ruled by an <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan" title="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan">Imperial Japan</a> that christianized and modernized early on, it would be a likely threat to Homeline for that alone. What makes it worse, though, is that parachronic projectors may work on that worldline, meaning that <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParanoiaFuel" title="/pmwiki/pmwiki.php/Main/ParanoiaFuel">if they develop parachronic technology, they can reach Homeline</a>. Also, because it was discovered by a Japanese research team, Infinity were <em>not</em> able to keep the existence of Shikaku-mon a secret on Homeline, so it may be only a matter of time before the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Masquerade" title="/pmwiki/pmwiki.php/Main/Masquerade">Masquerade</a> breaks on this world as well. Sweet dreams!</li><li> The <em>Worlds of Horror</em> supplement introduces another Sleeping Giant that is potentially far, <em><strong>far</strong></em> worse: Taft-1. Both Infinity and Centrum think that the point of divergence is Truman's early death and the election of Robert A. Taft in 1948. <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CthulhuMythos" title="/pmwiki/pmwiki.php/Franchise/CthulhuMythos">It's not</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackgroundMagicField" title="/pmwiki/pmwiki.php/Main/BackgroundMagicField">Background Magic Field</a>:<ul><li> The Sheldrake Section at Paralabs believe that every living thing generates a "morphogenetic field" that can be altered to reshape reality, and this is what various timelines call "magic." The theory's truth value is somewhere between "incomplete" and "bogus," but nobody wants to point at the elephant in the room and say they believe in actual magic.</li><li> Scientists on Merlin have come up with their own understanding of magic that superficially looks like this, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">but isn't</a>. According to Merlin thaumatologists, magic involves shifting physical laws from one dimension to another. Mana level isn't determined by the strength of the mana field (though "oz particles" that serve as a bridge between universes are a part of the theory) but by the weakness of the dimensional barriers in an area. Merlin seems to be closer to the truth than the Sheldrake Section, but their theory is also far from complete.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareOfHitchhikingGhosts" title="/pmwiki/pmwiki.php/Main/BewareOfHitchhikingGhosts">Beware of Hitchhiking Ghosts</a>: A double inversion. Troubled people might get picked up by a mysterious stranger who gives them life-affirming advice before dropping them off. Turns out he's some kind of supernatural being (not necessarily a ghost) who drives across worlds for this very purpose.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackAndGrayMorality" title="/pmwiki/pmwiki.php/Main/BlackAndGrayMorality">Black-and-Gray Morality</a>: In Reich-2, the Western democracies of the US and UK are heavy-handed neocolonial and colonial overlords with authoritarian and racist tendencies, but the Infinity Patrol holds its nose and supports them against <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThoseWackyNazis" title="/pmwiki/pmwiki.php/Main/ThoseWackyNazis">the Reich</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyCommies" title="/pmwiki/pmwiki.php/Main/DirtyCommies">the Soviet Union</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan" title="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan">Imperial Japan</a>, who are all far worse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood" title="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood">Brainwashing for the Greater Good</a>: One theory about Siva-1 is that the pacifistic Jain psi-monks there have mind-controlled the world into accepting their message of nonviolence, ensuring that there hasn't been a war in over a millennium.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrokenMasquerade" title="/pmwiki/pmwiki.php/Main/BrokenMasquerade">Broken Masquerade</a>: The wheels are starting to come off in Quantum 3. Reich-5 is out of the bottle (though their parachronics are limited to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GovernmentConspiracy" title="/pmwiki/pmwiki.php/Main/GovernmentConspiracy">Government Conspiracy</a> within the declining Reich) and has begun invading other worlds, while due to the emergency circumstances of first penetration, Merlin's U.S. government has discovered Infinity and is in the process of trying to infiltrate Homeline back.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonWelding" title="/pmwiki/pmwiki.php/Main/CanonWelding">Canon Welding</a>: The 4e version of the setting has absorbed several campaigns from the 3e Time Travel book that were originally entirely separate settings.<ul><li> In a more general sense, just about every other GURPS setting has a corresponding world mentioned in the book. Including the licensed ones (yes, Infinity agents can visit <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Discworld" title="/pmwiki/pmwiki.php/Literature/Discworld">Discworld</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/ConanTheBarbarian" title="/pmwiki/pmwiki.php/Franchise/ConanTheBarbarian">Hyboria</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/WitchWorld" title="/pmwiki/pmwiki.php/Literature/WitchWorld">Witch World</a>). From a meta perspective, the <em>Infinite Worlds</em> setting basically exists to facilitate <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MassiveMultiplayerCrossover" title="/pmwiki/pmwiki.php/Main/MassiveMultiplayerCrossover">Massive Multiplayer Crossovers</a>.</li><li> On <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSReignOfSteel" title="/pmwiki/pmwiki.php/TabletopGame/GURPSReignOfSteel">Steel</a>, <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaResistance" title="/pmwiki/pmwiki.php/Main/LaResistance">VIRUS</a> is actually a front for Centrum's Interworld Service.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Cosmic Horror Story</a>: There's hints of this in the margin. In particular, <span class="spoiler" title="you can set spoilers visible by default on your profile"> the power of the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CthulhuMythos" title="/pmwiki/pmwiki.php/Franchise/CthulhuMythos">Cthulhu Mythos</a> not only transcends time and space, but local physical laws. Azathoth's power can be called on <em>anywhere</em>, even mana-dead worlds</span>. This has disturbing implications for the Infinite Worlds, to say the least.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>: Not as bad as most other cases and not immediately apparent, but the more you read, the more obvious it is that there are a LOT more crappy parallel worlds than reasonably nice ones (from the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColonyDrop" title="/pmwiki/pmwiki.php/Main/ColonyDrop">Lucifer parallels</a> to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StupidJetpackHitler" title="/pmwiki/pmwiki.php/Main/StupidJetpackHitler">Reich parallels</a>, with the disturbingly common <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">Gotha parallels</a> and many others in-between), and even the nice ones tend to have ugly caveats &mdash; Gernsback, for example, has world peace under the League of Nations (both <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGreatDepression" title="/pmwiki/pmwiki.php/Main/TheGreatDepression">The Great Depression</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/WorldWarTwo" title="/pmwiki/pmwiki.php/UsefulNotes/WorldWarTwo">World War II</a> were averted) and awesome <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RaygunGothic" title="/pmwiki/pmwiki.php/Main/RaygunGothic">Raygun Gothic</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchizoTech" title="/pmwiki/pmwiki.php/Main/SchizoTech">Schizo Tech</a> thanks to <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/NikolaTesla" title="/pmwiki/pmwiki.php/UsefulNotes/NikolaTesla">Nikola Tesla</a>'s inventions, but due to not having had those experiences, racism, sexism and colonialism are still firmly entrenched at pre-1940's levels in most inhabitants' minds. It still is one of the most positive parallels overall.<ul><li> Nergal, where the Assyrian Empire destroyed the Hebrews and Phoenicians, prevented the rise of Persia and set a very bloody standard for every empire to follow. Nearly every local culture practices human sacrifice, paper and alphabetic writing disappeared from history, and the world is slowly descending into an anomalous Ice Age that's hinted to be a result of dark magic. It's bad enough that Infinity has decided to throw <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMasquerade" title="/pmwiki/pmwiki.php/Main/TheMasquerade">The Masquerade</a> to the wind; Nergal lacks the technology to replicate parachronics, and to quote the book, "frankly, the Patrol would like to cause as much cultural contamination here as possible."</li><li> It's downplayed, but Centrum's backstory has it arising from the ashes of a world war between megalomaniacal empires that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldWarThree" title="/pmwiki/pmwiki.php/Main/WorldWarThree">escalated beyond control</a>, destroying civilization except for a small colony of technocrats who resolved never to let that happen again.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrossoverCosmology" title="/pmwiki/pmwiki.php/Main/CrossoverCosmology">Crossover Cosmology</a>: The book suggests that echoes exist for many, if not all fictional works (at the GM's discretion). A throwaway line mentions the existence of the <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/LandOfOz" title="/pmwiki/pmwiki.php/Literature/LandOfOz">Land of Oz</a> on one alternate world and there's mention of a world where <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/SherlockHolmes" title="/pmwiki/pmwiki.php/Literature/SherlockHolmes">Sherlock Holmes</a> actually existed, but he was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KilledOffForReal" title="/pmwiki/pmwiki.php/Main/KilledOffForReal">Killed Off for Real</a> at Reichenbach.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">Death World</a>: Several parallels qualify, even appart from the aforementioned Gotha and Lucifer parallels, many of them colloquially called <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Hell Worlds</a>. The causes run the gamut from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepopulationBomb" title="/pmwiki/pmwiki.php/Main/DepopulationBomb">incredibly deadly</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePlague" title="/pmwiki/pmwiki.php/Main/ThePlague">epidemics</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreenAesop" title="/pmwiki/pmwiki.php/Main/GreenAesop">man-made ecological meltdown</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NukeEm" title="/pmwiki/pmwiki.php/Main/NukeEm">nuclear war</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienInvasion" title="/pmwiki/pmwiki.php/Main/AlienInvasion">Alien</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Ultraterrestrials" title="/pmwiki/pmwiki.php/Main/Ultraterrestrials">(or maybe not)</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienInvasion" title="/pmwiki/pmwiki.php/Main/AlienInvasion">Invasion</a>, but probably the most worrisome (i.e. most likely to be completely and irreversibly quarantined) are the (thankfully few) parallels that seem to exist in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Cosmic Horror Story</a> universe. One of these parallels may have the Things back-tracing the parachronic trail from a Homeline Scout team.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Demonization" title="/pmwiki/pmwiki.php/Main/Demonization">Demonization</a>: A literal example in Azoth-7. When the Spanish Inquisition unexpectedly managed to summon Spain's tutelary angel to prevent an English invasion, the English accused them of making a pact with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" title="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">Samael</a> instead. This is <em>probably</em> not true.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiminishingVillainThreat" title="/pmwiki/pmwiki.php/Main/DiminishingVillainThreat">Diminishing Villain Threat</a>:<ul><li> In <em>Alternate Earths</em>, Reich-5's Imperial Japan, especially their <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretPolice" title="/pmwiki/pmwiki.php/Main/SecretPolice">Kempei Tai</a></em> organization, were every bit as deadly an adversary as the Nazis. In <em>Infinite Worlds</em>, Japan is decaying into warlord states and the <em>Kempei Tai</em> have, within a single generation, gone from being the guys who gave the Gestapo nightmares to a bureaucratic tar pit.</li><li> The Reich itself plays with this; while the Nazi regime is no longer the unstoppable Orwellian terror that it used to be, a faction within the decaying Reich <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">now has world-jumpers at their disposal</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyCommies" title="/pmwiki/pmwiki.php/Main/DirtyCommies">Dirty Commies</a>: In the Infinite Worlds, most forms of Communism are a very bad thing, driving several worlds directly into Hell or worse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyCop" title="/pmwiki/pmwiki.php/Main/DirtyCop">Dirty Cop</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Downplayed" title="/pmwiki/pmwiki.php/Main/Downplayed">Downplayed</a>. Serious corruption and empire-building in Infinity Unlimited are rare and structurally discouraged, and being on double payroll even rarer, but Patrolmen <em>love</em> smuggling undeclared goods to and from Homeline. Usually it's personal stuff like wine and souvenirs, or steel knives to trade offworld, though.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica" title="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica">Divided States of America</a>:<ul><li> The Dixie parallels, where <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheAmericanCivilWar" title="/pmwiki/pmwiki.php/UsefulNotes/TheAmericanCivilWar">the South won its independence</a>.</li><li> On Gallatin, Alexander Hamilton died before he could write the <em>Federalist Papers</em>, and New York refused to ratify the Constitution. America splintered, and now the United States of America is one of many American republics.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoingInTheScientist" title="/pmwiki/pmwiki.php/Main/DoingInTheScientist">Doing In the Scientist</a>: Some of the nuttier sorts at Paralabs think that parachronics <em>actually</em> runs on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve" title="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve">Clap Your Hands If You Believe</a>. This hasn't been proven either way, owing to the one field test disappearing into thin air.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoingInTheWizard" title="/pmwiki/pmwiki.php/Main/DoingInTheWizard">Doing In the Wizard</a>: Inverted, as there are several parallels where magic clearly exists, making it kinda hard to deny (though Centrum tries). There is even a loose group of powerful magic-users and monsters that also travel through realities, the Cabal (from <em>Gurps Cabal</em>, natch). <em>However</em>, the Merlin parallels play this straight by providing a scientific explanation for GURPS' default magic system, which is heavily tied in with parachronic travel itself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">Enemy Mine</a>:<ul><li> One suggestion in the book is that Infinity and Centrum could ally against Reich-5. On the other hand, a vignette in the book suggests that Centrum might take advantage of Homeline's fixation on "the Irrationalist sect from Bavaria" to draw off Infinity resources.</li><li> Averted on Steel. Both Infinity and Centrum agree that the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterComputer" title="/pmwiki/pmwiki.php/Main/MasterComputer">zoneminds</a> have gotta go, but they aren't talking to each other about their plans and have somewhat different priorities.</li><li> The oil companies on Homeline are funding Greenpeace, who oppose the exploitation of other worlds. Said oil companies are trying to make outtime operations harder to preserve their own dying markets.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil" title="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil">Equal-Opportunity Evil</a>: Centrum is explicitly called out as finding the concept of discrimination based on race and gender very strange. They're a little more lenient on social divisions, but that's because they're <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsskickingEqualsAuthority" title="/pmwiki/pmwiki.php/Main/AsskickingEqualsAuthority">meritocrats</a>. (They also have an unconscious bias towards the English language and culture.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCannotComprehendGood" title="/pmwiki/pmwiki.php/Main/EvilCannotComprehendGood">Evil Cannot Comprehend Good</a>: A side-effect of Centrum's ideological uniformity is that Centrans don't really get that anyone might not think like they do. To them, democracy is a historical aberration associated with Greek and Italian city-states, an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienNonInterferenceClause" title="/pmwiki/pmwiki.php/Main/AlienNonInterferenceClause">Alien Non-Interference Clause</a> with underdeveloped worlds is considered paranoia rather than an attempt to protect the weak, and they're kind of scared just how well Homeline manages to prosper when Infinity "can't control" all the various bickering powers - the idea that Infinity might not <em>want</em> to be a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWorldOrder" title="/pmwiki/pmwiki.php/Main/OneWorldOrder">One World Order</a> doesn't even cross their collective mind.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilerThanThou" title="/pmwiki/pmwiki.php/Main/EvilerThanThou">Eviler Than Thou</a>: What may happen when Centrum and Raven Division finally meet. Centrum are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil" title="/pmwiki/pmwiki.php/Main/EqualOpportunityEvil">Equal-Opportunity Evil</a> meritocrats, while Raven Division... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StupidJetpackHitler" title="/pmwiki/pmwiki.php/Main/StupidJetpackHitler">are</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Ghostapo" title="/pmwiki/pmwiki.php/Main/Ghostapo">Nazis</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilIsDeathlyCold" title="/pmwiki/pmwiki.php/Main/EvilIsDeathlyCold">Evil Is Deathly Cold</a>: Nergal's oncoming Ice Age appears to be a result of the gates of Hell opening. It's anyone's guess just how literally to take this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpendableAlternateUniverse" title="/pmwiki/pmwiki.php/Main/ExpendableAlternateUniverse">Expendable Alternate Universe</a>: Neither Infinity nor Centrum quite view people from other worldlines as real people. Among other things, it notes that some Homeline filmmakers have taken to filming real battles on other worldlines with thousands of people dying to use as footage in their historical epics.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRankSystem" title="/pmwiki/pmwiki.php/Main/FantasticRankSystem">Fantastic Rank System</a>: Centrum dispenses with individually named ranks almost entirely<span class="notelabel" onclick="togglenote('note0qgyy');"><sup>note&nbsp;</sup></span><span id="note0qgyy" class="inlinefolder" isnote="true" onclick="togglenote('note0qgyy');" style="cursor:pointer;font-size:smaller;display:none;">Unattached are a special case of Grade 7</span>, using a numbered scale that starts at Grade 1 (the default for every citizen) and ends at Grade 7 (top-level coordinators of each Service that set policy for Centran society and have some authority even across Service lines).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForScience" title="/pmwiki/pmwiki.php/Main/ForScience">For Science!</a>: Apart from the Gernsback parallel, which plays this straight (if mostly benevolently), there's an interesting variation with the Cabal (For Magic!).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromBadToWorse" title="/pmwiki/pmwiki.php/Main/FromBadToWorse">From Bad to Worse</a>: Many on Homeline in the know consider Reich-5's discovery of parallel worlds to be this; while their own version is, so far, <em>much</em> less performant than that of Homeline or Centrum, it could potentially end up forcing Homeline in a two-front conflict, as the latter's dimensional coordinates are between the other two.<ul><li> A potentially much, much worse case happened recently on the former myth parallel once designated Oppenheim: Once an Edwardian/WWI-era world with some myth parallel elements, the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheSpanishFlu" title="/pmwiki/pmwiki.php/UsefulNotes/TheSpanishFlu">Spanish Flu</a> hybridized with the Gotha virus to create the Gotha-Z strain - this one creates <em>actual</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">undead</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Ghostapo" title="/pmwiki/pmwiki.php/Main/Ghostapo">Ghostapo</a>:<ul><li> Reich-5's Raven Division uses quite a bit of Aryan magic to facilitate their world-hopping.</li><li> The Condor Group from Merlin are Nazi mages who fled to Argentina after <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII" title="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII">World War II</a> and formed an alliance with the Per&oacute;ns. They've recently formed a low-level alliance with Reich-5's Armanen Order.</li><li> The Ahnenerbe <em>did</em> come up with a lot of arcane lore in Taft-1, but never really managed to put it to use. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Captured Nazi occultists helped fuel Stalin's development of Azathothic power.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality">Grey-and-Gray Morality</a>: The conflict between Centrum and Homeline, where neither can be easily categorised as pure good or completely bad.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HellOnEarth" title="/pmwiki/pmwiki.php/Main/HellOnEarth">Hell on Earth</a>: Nergal is implied to be in the beginning stages of this. All of its surviving gods demand <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">Human Sacrifice</a>, and the world is descending into an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilIsDeathlyCold" title="/pmwiki/pmwiki.php/Main/EvilIsDeathlyCold">anomalous ice age</a> couched in melodramatic terms.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KilledToUpholdTheMasquerade" title="/pmwiki/pmwiki.php/Main/KilledToUpholdTheMasquerade">Killed to Uphold the Masquerade</a>: Stringently averted by the Time Patrol; Centrum has less scruples, but there are few situations where they'll bother (see just below).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterserviceRivalry" title="/pmwiki/pmwiki.php/Main/InterserviceRivalry">Interservice Rivalry</a>: While the Infinity Patrol largely averts this internally (in part because Patrolmen are <em>expected</em> to transfer between divisions as part of their job), Patrolmen don't always get along with the "corporate" side of Infinity, and both groups consistently join together to oppose any interference from the United Nations agencies that theoretically oversee Infinity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JokeLevel" title="/pmwiki/pmwiki.php/Main/JokeLevel">Joke Level</a>: The United States of Lizardia parallel. A world almost socially identical to Earth, with neo-troodons who use biotech and fluid-dynamic science in place of Earth technology, and the book explicitly points out that nobody is even trying to make any sense out of it. As far as anyone studying it is concerned, it's a practical joke by the gods.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteraryAllusionTitle" title="/pmwiki/pmwiki.php/Main/LiteraryAllusionTitle">Literary Allusion Title</a>: The chapters dealing with example alternate timelines and time travel are respectively <a class="urllink" href="http://en.wikipedia.org/wiki/To_His_Coy_Mistress">"Worlds Enough..." "And Time"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LizardFolk" title="/pmwiki/pmwiki.php/Main/LizardFolk">Lizard Folk</a>: The chief inhabitants of the United States of Lizardia evolved from <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/StockDinosaursTrueDinosaurs" title="/pmwiki/pmwiki.php/UsefulNotes/StockDinosaursTrueDinosaurs">troodons</a> &mdash; though, rather bizarrely, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InSpiteOfANail" title="/pmwiki/pmwiki.php/Main/InSpiteOfANail">their recent history still closely parallels Homeline's</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LowCultureHighTech" title="/pmwiki/pmwiki.php/Main/LowCultureHighTech">Low Culture, High Tech</a>: Homeline, oddly enough, is slipping into this. The majority of Homeline's cutting-edge technology is "parachronic spinoffs," which is a euphemism for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImportedAlienPhlebotinum" title="/pmwiki/pmwiki.php/Main/ImportedAlienPhlebotinum">stolen outtime technology</a>, and as a result, Homeline's own scientific development is starting to stagnate while such things as fusion power are adapted wholesale without a firm understanding of the theory.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagicComesBack" title="/pmwiki/pmwiki.php/Main/TheMagicComesBack">The Magic Comes Back</a>: The Merlin worlds, parallels where Hellstorms locally warped the fabric of reality and brought magic back to modern-day Earth.<span class="notelabel" onclick="togglenote('note19r5y');"><sup>note&nbsp;</sup></span><span id="note19r5y" class="inlinefolder" isnote="true" onclick="togglenote('note19r5y');" style="cursor:pointer;font-size:smaller;display:none;">Two of these parallels are the settings for <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPSTechnomancer" title="/pmwiki/pmwiki.php/TabletopGame/GURPSTechnomancer">GURPS Technomancer</a></em> and <em>GURPS: WWII: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Ghostapo" title="/pmwiki/pmwiki.php/Main/Ghostapo">Weird War II</a></em>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a>: Exists on worlds where magic and technology have both been developed.<ul><li> Merlin has the most advanced version yet seen, to the point where magic has been seamlessly integrated into the world's technological infrastructure.</li><li> Azoth-7 has a weird version, where alchemical developments have led to something that looks rather like Victorian science fiction, only a hundred years earlier and with a completely different form of technology.</li><li> Homeline's Paralabs have been trying to develop some, but it's mostly seen as a curiosity rather than a serious pursuit, as Infinity is mainly a technological organization. For example, they came up with a really weird conveyor that ran on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve" title="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve">Clap Your Hands If You Believe</a>... and it and its inventor vanished in the first test.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMasquerade" title="/pmwiki/pmwiki.php/Main/TheMasquerade">The Masquerade</a>: Infinity policy is to not reveal "the Secret" of parachronics to any outsiders, and to actively sabotage anyone else's attempts to do so; people who learn the Secret may be kidnapped and sent to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PenalColony" title="/pmwiki/pmwiki.php/Main/PenalColony">Coventry</a>. Centrum is less anal-retentive about it; they only care if the natives learn about them on planets advanced enough to develop parachronics. However, when that happens, they tend not to let technicalities (like the right to live) get in the way of business.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>:<ul><li> Infinity Unlimited is structured as a corporation, though in practice it functions more as a U.N. agency.</li><li> White Star Trading was Paul Van Zandt's original crosstime trading firm and the main source of seed capital for Infinity.</li><li> Consolidated Mines, Unlimited was formed by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RichardNixonTheUsedCarSalesman" title="/pmwiki/pmwiki.php/Main/RichardNixonTheUsedCarSalesman">parallel-world Cecil Rhodes</a>, who combines low-tech and high-tech mining techniques to bring home more raw materials than anyone else. Rhodes himself made a move to get elected to the Infinity board of directors, and took advantage of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoJustNoReaction" title="/pmwiki/pmwiki.php/Main/NoJustNoReaction">expected outcry from Africa</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManipulativeBastard" title="/pmwiki/pmwiki.php/Main/ManipulativeBastard">split his operation off from Infinity</a>.</li><li> The Yugorovsky Group are a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMafiya" title="/pmwiki/pmwiki.php/Main/TheMafiya">Mafiya</a>-affiliated mining conglomerate known for being <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive" title="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive">ruthless, deadly</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GovernmentConspiracy" title="/pmwiki/pmwiki.php/Main/GovernmentConspiracy">tied into the Russian government at the highest levels</a>. They often engage in proxy wars with CMU.</li><li> Johnson Crosstime Inc. has invested itself so heavily in Rome-2 that they effectively run the place, having turned the Roman Empire of that world into a massive tourist trap.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MentalTimeTravel" title="/pmwiki/pmwiki.php/Main/MentalTimeTravel">Mental Time Travel</a>: World Jumpers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MildlyMilitary" title="/pmwiki/pmwiki.php/Main/MildlyMilitary">Mildly Military</a>: Nobody really tries to regulate ISWAT teams. This is largely because said teams tend to be composed of the elite of the elite, with powers that don't really fit into operational doctrine, and also because over half don't even come from Homeline. They specialize in cosmic-level threats that involve the fate of multiple Earths, so they get a fair amount of slack, and Infinity pretty much expects that ISWAT teams on R&amp;R will leave whatever town they're dropped in in ruins.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralityKitchenSink" title="/pmwiki/pmwiki.php/Main/MoralityKitchenSink">Morality Kitchen Sink</a>: All possible <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShadesOfConflict" title="/pmwiki/pmwiki.php/Main/ShadesOfConflict">Shades of Conflict</a> can be found in the Infinite Worlds. To save time: Infinity and Merlin-1's CIA are largely good guys, but both Homeline and Merlin have some serious rot in places. The Cabal are a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WildCard" title="/pmwiki/pmwiki.php/Main/WildCard">Wild Card</a> and generally unpleasant people, while the Centrum are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremists</a>. And then there's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThoseWackyNazis" title="/pmwiki/pmwiki.php/Main/ThoseWackyNazis">Those Wacky Nazis</a>, and <em>then</em> there's people who make the Nazis look positively benign.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">The Multiverse</a>: Of or for GURPS.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultiversalConqueror" title="/pmwiki/pmwiki.php/Main/MultiversalConqueror">Multiversal Conqueror</a>:<ul><li> Both Centrum and Reich-5's Raven Division count, for different motives: Centrum <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">thinks they're civilizing alien realities</a>, Raven Division because they're <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThoseWackyNazis" title="/pmwiki/pmwiki.php/Main/ThoseWackyNazis">greedy Nazis</a>.</li><li> On Homeline, Infinity generally tries not to act like this... but there is no <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienNonInterferenceClause" title="/pmwiki/pmwiki.php/Main/AlienNonInterferenceClause">Alien Non-Interference Clause</a>, and they're not against <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GovernmentConspiracy" title="/pmwiki/pmwiki.php/Main/GovernmentConspiracy">behind-the-scenes guidance</a> of non-Homeline humans, or stealing technology and art from other parallels for Homeline's benefit. They also have to ride herd on sharp entrepreneurs who have their own ambitions:<ul><li> Johnson Crosstime, Inc. ended up taking over Rome-2 because Infinity didn't read the fine print on his business license. By the time they realized what he was doing, the situation had become insane enough that they threw up their hands and ratified his buyout of the Roman Empire (luckily for the locals, he's a fairly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BenevolentBoss" title="/pmwiki/pmwiki.php/Main/BenevolentBoss">Benevolent Boss</a> and a human rights advocate; slavery is already beginning to be phased out over a millenium in advance thanks to him).</li><li> The Yugorovsky Group and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMafiya" title="/pmwiki/pmwiki.php/Main/TheMafiya">The Mafiya</a> send a lot of their members out to primitive worlds to "play czar," taking over nations to exploit them for their Homeline masters.</li><li> Infinity themselves have drawn up plans for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodzillaThreshold" title="/pmwiki/pmwiki.php/Main/GodzillaThreshold">annihilation of the governments of Reich-5</a>, in concert with Homeline's militaries. Operation Firefall was shelved because it was too risky and promised an appalling number of casualties even if Homeline won.</li><li> For some reason it seemed like a good idea to Infinity to put an alternate Cecil Rhodes in charge of mining operations on multiple Africas. There's no evidence he's become one of these <em>yet</em>, but some people in Infinity think it's just a matter of time.</li><li> Infinity has an operation going on in the South Africa of Nergal, where they pose as gods and wizards who rule over the local Zulus and occasionally lead them in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlaveLiberation" title="/pmwiki/pmwiki.php/Main/SlaveLiberation">Slave Liberation</a> raids against the other nations of Nergal. This is presented as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheExtremistWasRight" title="/pmwiki/pmwiki.php/Main/TheExtremistWasRight">a good thing</a>, as the other major nations of Nergal all practice <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">Human Sacrifice</a> and are possibly leading the world to ruin through their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackMagic" title="/pmwiki/pmwiki.php/Main/BlackMagic">Black Magic</a>.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NGOSuperpower" title="/pmwiki/pmwiki.php/Main/NGOSuperpower">N.G.O. Superpower</a>: Infinity Inc. is probably the most powerful entity on Homeline economically and politically. Only a partial example, as Infinity is technically a U.N. member organization. (In practice, Infinity doesn't answer to anyone.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero" title="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero">Nice Job Breaking It, Hero!</a>: The snafu that resulted in the Reich-5 SS discovering parallel worlds and how to reach them was originally a Russian attempt to aid the partisans of the Reichsostland.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonindicativeName" title="/pmwiki/pmwiki.php/Main/NonindicativeName">Nonindicative Name</a>:<ul><li> The "Gotha" parallels, and the plague named after them. The name came about because the first such world that Infinity discovered was just a particularly bleak Dark Ages parallel where Visigothic berserkers had destroyed every city in their path. It was only later that Infinity discovered that things were <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">far darker than that</a>.</li><li> A poetic-to-the-point-of-nonindicative name is the "Lucifer" series of worlds. No, these are not worlds defined by the presence of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Satan" title="/pmwiki/pmwiki.php/Main/Satan">Big Red</a>, they're worlds that have become or are becoming uninhabitable through <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColonyDrop" title="/pmwiki/pmwiki.php/Main/ColonyDrop">a meteor strike</a>.</li><li> "Siva" is a generic term for India-dominant parallels. Humorously, the first Siva world discovered was actually dominated by <em>Jainism</em>, not Hinduism.</li><li> In Infinity, the "Morale Division" of the I-Cops is a euphemism. Their actual job is PsyOps, which includes PR and political manipulations not just outtime, but on Homeline. It's safe to say that they don't want to be too obvious about the latter.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoSuchAgency" title="/pmwiki/pmwiki.php/Main/NoSuchAgency">No Such Agency</a>: ISWAT doesn't exist. There's no special unit within the Patrol made up mostly of outtimers who handle missions that can affect the destiny of entire parallels. There aren't any training missions that involve <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StuffBlowingUp" title="/pmwiki/pmwiki.php/Main/StuffBlowingUp">Stuff Blowing Up</a> in infinite Nazi Germanies. And most especially, no <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RichardNixonTheUsedCarSalesman" title="/pmwiki/pmwiki.php/Main/RichardNixonTheUsedCarSalesman">parallel Otto Skorzeny</a> was ever enlisted to head up this nonexistent unit. That would just be silly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ObviousCrossoverMethod" title="/pmwiki/pmwiki.php/Main/ObviousCrossoverMethod">Obvious Crossover Method</a>: As mentioned under the Canon Welding entry, the setting itself was basically built to allow crossovers to happen by way of interdimensional travel.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurGeniesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurGeniesAreDifferent">Our Genies Are Different</a>: On Caliph, a scientifically advanced Arab-dominant timeline, references to djinn in the Qu'ran are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGenieInTheMachine" title="/pmwiki/pmwiki.php/Main/TheGenieInTheMachine">believed to be prophecies of A.I., and actual A.I. are called "djinn"</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Our Vampires Are Different</a>: It's implied that most traditional versions of vampirism show up somewhere in the multiverse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PatrioticFervor" title="/pmwiki/pmwiki.php/Main/PatrioticFervor">Patriotic Fervor</a>: This is a major pain in the ass for Infinity. Every major power on Homeline wants to support its parallel selves, even if they're kind of nasty (Infinity isn't allowed to mess with Bonaparte-4's France because Homeline's France is blocking it) or if their actions endanger the Secret (such as Russian involvement in the Reichsostland). This does <em>not</em> apply to the Reich or Imperial Japan; Homeline Germany actually has plans to invade the former on Reich-5, and Japan has no fondness for the latter except in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">exceptional circumstances</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RagtagBunchOfMisfits" title="/pmwiki/pmwiki.php/Main/RagtagBunchOfMisfits">Ragtag Bunch of Misfits</a>: ISWAT teams have a tendency to be the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassCrew" title="/pmwiki/pmwiki.php/Main/BadassCrew">Badass Crew</a> version of this. Over half of ISWAT members are outtimers recruited for a variety of reasons, and include such things as wizards, psychics, vampires and weirder things, mixed with a solid core of tough and lucky Patrolmen. Said teams engage in live-fire sabotage against Nazis as training missions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedScare" title="/pmwiki/pmwiki.php/Main/RedScare">Red Scare</a>: Merlin-1's America <em>hates</em> Commies, and their reaction to discovering the dominance of the Soviet Union in Taft-1 was to send in Black Berets to redo the Vietnam War. This is potentially a <em><strong>VERY BAD THING</strong></em>:<div class="indent">"However, they&#146;ve encountered something even worse than Red aggression: a scattered tribe of dwarfish cannibals (the Chaucha, or <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CthulhuMythos" title="/pmwiki/pmwiki.php/Franchise/CthulhuMythos">Tcho-Tcho</a>) that uses magic &mdash; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrongContextMagic" title="/pmwiki/pmwiki.php/Main/WrongContextMagic">but not any kind of magic Merlin-1 understands.</a></div><div class="indent">"On Taft-1, it&#146;s 1962, and Stalin still lives. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">And he has worse allies than Hitler.</a>"</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReedRichardsIsUseless" title="/pmwiki/pmwiki.php/Main/ReedRichardsIsUseless">Reed Richards Is Useless</a>: Averted. Parachronics are making Homeline a better place in many ways &mdash; one of the most obvious is the fact that with a seemingly unlimited number of uninhabited parallels to exploit, resource conflicts have become a thing of the past. Nevertheless, Homeline's seedier elements are finding ways to use the infinite worlds to support <em>their</em> agendas as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RepressiveButEfficient" title="/pmwiki/pmwiki.php/Main/RepressiveButEfficient">Repressive, but Efficient</a>:<ul><li> Centrum is actually a decent place to live, so long as you don't mind being under constant surveillance and having no individual rights. Everyone gets their needs met and proven agents live comfortable 21st-century lifestyles, in part <em>because</em> they have combined socialist economics with infinite resources. Their Interworld and Uplift Services have the backing of an entire world behind them and have established several colony and vassal worlds, and their agents are terribly capable adversaries for Infinity. The weakness of their repressiveness is that it extends to their people's minds; Centrans generally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCannotComprehendGood" title="/pmwiki/pmwiki.php/Main/EvilCannotComprehendGood">don't get viewpoints that aren't theirs</a> and can be tripped up by people not acting like they think they will.</li><li> One vignette from the Centran side indicates that they think of the Nazis as this. The Centrans think that they're more "orderly" than Infinity because they're organized as a hierarchical dictatorship. The Centrans don't realize that the Nazi bureaucracy is actually utter chaos, riven with so much backstabbing that it's almost impossible to get anything done.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RichardNixonTheUsedCarSalesman" title="/pmwiki/pmwiki.php/Main/RichardNixonTheUsedCarSalesman">Richard Nixon the Used Car Salesman</a>: It's par for the course for most timelines to have a bunch (apart from the odd instances that don't have <em>any</em>, which is a research topic in itself). It's even possible to meet your own alternate-universe self, who likely as not will have a very different life experiences. In what may just be the Most Triumphant Example, the director of the Infinity Patrol's secret ISWAT special task force is... an alternate <a class="urllink" href="http://en.wikipedia.org/wiki/Otto_Skorzeny">Otto Skorzeny<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. However, this Skorzeny was, in his home parallel, a freedom fighter for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RagTagBunchOfMisfits" title="/pmwiki/pmwiki.php/Main/RagTagBunchOfMisfits">multi-national and -denominational</a>, proto-democratic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheRepublic" title="/pmwiki/pmwiki.php/Main/TheRepublic">Republican</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAlliance" title="/pmwiki/pmwiki.php/Main/TheAlliance">Alliance</a> (in this timeline, European monarchies endured almost unopposed until the collapse of the Austro-Hungarian Empire in the 1930s), and really, really <em>hates</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThoseWackyNazis" title="/pmwiki/pmwiki.php/Main/ThoseWackyNazis">Those Wacky Nazis</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OtherMeAnnoysMe" title="/pmwiki/pmwiki.php/Main/OtherMeAnnoysMe">(especially when they're other hims)</a>, and so uses live-fire sabotage missions against them <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrainingFromHell" title="/pmwiki/pmwiki.php/Main/TrainingFromHell">as part of the standard ISWAT training</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections">Screw the Rules, I Have Connections!</a>: The government of Israel is not a signatory to the Interworld Treaty, and is known for using it for toilet paper; in particular, it is standing Israeli policy to rescue Jews in trouble on all worlds and offer them sanctuary in Israel and the West Bank in violation of Infinity rules. The US' veto in the Security Council and UNIC prevents anyone from coming down on Israel for the Alternity Exodus.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceColdWar" title="/pmwiki/pmwiki.php/Main/SpaceColdWar">Spacetime Cold War</a>: Infinity vs. Centrum, although the presence of Reich-5 may or may not end up provoking a cross-temporal equivalent of World War II.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SterilityPlague" title="/pmwiki/pmwiki.php/Main/SterilityPlague">Sterility Plague</a>: Taft radiation, found on Taft-3, Taft-4 and Taft-7, causes sterility in primates. It's only doing anything on Taft-3, though; Taft-4 has other things going on and is partly shielded from the radiation, and Taft-7 never had any life to begin with. Someone upstairs at Infinity has ordered that Taft-1 be checked for Taft radiation as well. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Actually, the implication from Taft-1 is that it's weirder than that; the source of the radiation is implied to be <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CthulhuMythos" title="/pmwiki/pmwiki.php/Franchise/CthulhuMythos">Azathoth</a></em>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StupidJetpackHitler" title="/pmwiki/pmwiki.php/Main/StupidJetpackHitler">Stupid Jetpack Hitler</a>: Reich-5, a world where the Nazis have taken over and developed some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum">superscience</a>. They don't have world-hopping technology yet, but <em>do</em> have some innately gifted people who can do it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SummonBiggerFish" title="/pmwiki/pmwiki.php/Main/SummonBiggerFish">Summon Bigger Fish</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> On Taft-1, Case DEXTER is a Centrum plan to expose Infinity to Joseph Stalin, who in this parallel is an Azathoth cultist. Centrum doesn't actually like Soviet Communism at the best of times, Taft-1's Soviet Union is probably the most horrifically-evil USSR in the Infinite Worlds, and the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CthulhuMythos" title="/pmwiki/pmwiki.php/Franchise/CthulhuMythos">Cthulhu Mythos</a> is completely antithetical to everything Centrum stands for, but Stalin is a potentially apocalyptic threat to Homeline if he discovers it.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie" title="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie">Technically Living Zombie</a>: Gotha zombies are actually alive; their brains have just been rotted into homicidal death cultists by the virus and their bodies turned into plague vectors. The Z-strain partially averts this, though; that one brings up actual undead when the infected die.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheRightOfASuperiorSpecies" title="/pmwiki/pmwiki.php/Main/TheRightOfASuperiorSpecies">The Right of a Superior Species</a>: Applied on the hell-world of Ariane, where human civilization was wiped out by a much deadlier <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheSpanishFlu" title="/pmwiki/pmwiki.php/UsefulNotes/TheSpanishFlu">Spanish Flu</a>. Infinity largely shrugs at the idea of enslaving stone-age survivors, but since Tibet has maintained a functional civilization under the lamas, Infinity has told the colonists to leave them alone and not try any freebooting there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheThemeParkVersion" title="/pmwiki/pmwiki.php/Main/TheThemeParkVersion">The Theme Park Version</a>: Deliberately invoked by Johnson's Rome, where Johnson Crosstime Inc. has all but bought out the local Roman Empire, and then gleefully pumped up the "fun parts" of the already pervasive decadence it was riddled by (fortunately for the locals, Johnson is both practical and modern in his outlook, so he's also arranged for a gradual phasing-out of the more unsavory aspects).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimePolice" title="/pmwiki/pmwiki.php/Main/TimePolice">Time Police</a>, alternate-history style.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThoseWackyNazis" title="/pmwiki/pmwiki.php/Main/ThoseWackyNazis">Those Wacky Nazis</a>: There are six known parallels with Nazi Germany victorious to some degree, most notably Reich-5, where a subfaction of the Nazi apparatus have discovered parachronic travel and joined the war across the Worlds. Taft-2 downplays this, in that Nazi Germany survived until 1949, at which point <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InSpiteOfANail" title="/pmwiki/pmwiki.php/Main/InSpiteOfANail">the Wehrmacht knocked Himmler off</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Time Travel</a>: But to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistory" title="/pmwiki/pmwiki.php/Main/AlternateHistory">alternate timelines</a> instead of the actual past or future (unless the GM decides to mix it up), partly to avoid <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeyWimeyBall" title="/pmwiki/pmwiki.php/Main/TimeyWimeyBall">Timey-Wimey Ball</a>-related problems like those nasty <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TemporalParadox" title="/pmwiki/pmwiki.php/Main/TemporalParadox">temporal paradoxes</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TotalitarianUtilitarian" title="/pmwiki/pmwiki.php/Main/TotalitarianUtilitarian">Totalitarian Utilitarian</a>: Centrum values human life and prosperity very highly. That is, they value the lives of <em>all</em> Centrans, and to a lesser extent outtimers, very highly. If individual rights and lives have to be sacrificed for the greater good, that's simple practicality, and a rational person would be honored to make that sacrifice.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrainingFromHell" title="/pmwiki/pmwiki.php/Main/TrainingFromHell">Training from Hell</a>: The Academy; one year spent in the middle of an Ice Age. The big weeding drill in the middle is being dumped in the middle of the frozen wilderness <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithThisHerring" title="/pmwiki/pmwiki.php/Main/WithThisHerring">in your sleepwear, with whatever you can grab five minutes after the alert</a> and told to find your way back home. If you succeed, you get a week off in a freewheeling primitive world to do what you like... and if you can't keep it together and adapt to the local environment while on "leave", that's another easy washout.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTunguskaEvent" title="/pmwiki/pmwiki.php/Main/TheTunguskaEvent">The Tunguska Event</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> In Taft-1, the Tunguska bolide's remains contained the... whatever it was that allowed Stalin to "sign his name in the book of Azathoth" in 1927, thereby becoming an immortal <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CthulhuMythos" title="/pmwiki/pmwiki.php/Franchise/CthulhuMythos">Cthulhu Mythos</a> cultist-sorcerer, and beginning the Soviet Union's Mythos-fueled ascendancy.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/UnitedNations" title="/pmwiki/pmwiki.php/UsefulNotes/UnitedNations">United Nations</a>: Though the UN itself is being usurped by Infinity, which essentially doesn't answer to anyone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUsualAdversaries" title="/pmwiki/pmwiki.php/Main/TheUsualAdversaries">The Usual Adversaries</a>:<ul><li> Homeline's Infinity and Centrum's Interworld Service serve as this for each other, as their respective worlds are the only ones that have full access to parachronic tech. They are directly competing against one another to spread their influence and secure any potential "back doors" into their homeworlds.</li><li> Reich-5 has started to compete for the spot in Infinity's eyes, as Nazi evil begins to spread across the Infinite Worlds. They're newcomers compared to Centrum, though. (They're too far away from Centrum for the latter to care much, and Centrum doesn't know the Nazis as anything more than a bunch of outworld madmen.)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether" title="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether">We ARE Struggling Together</a>:<ul><li> Possibly Infinity's greatest handicap in its parachronic operations (especially compared to the mostly unified front Centrum presents) is that a LOT of Homeline's various governments, corporations, NGOs, and even criminal groups have access to parachronic tech (legally or otherwise) and use it to push their often wildly conflicting agendas across the parallel worlds. Consequently, a lot of their ressources are tied up monitoring, policing and otherwise cat-herding all these groups.</li><li> The Cabal is another example, as it's basically made of several different groups of supernaturals and magic-users with often widely divergent goals and philosophies. To its more technologically-inclined rivals Infinity and Centrum, this doesn't make it any less threatening, though, as this (among other things) makes it the biggest <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WildCard" title="/pmwiki/pmwiki.php/Main/WildCard">Wild Card</a> of the setting.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeirdnessMagnet" title="/pmwiki/pmwiki.php/Main/WeirdnessMagnet">Weirdness Magnet</a>:<ul><li> Worlds in which senator <a class="urllink" href="http://en.wikipedia.org/wiki/Robert_A._Taft">Robert A. Taft<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is/was president have either magic, an artificial spacecraft of unknown origin in orbit around Saturn or, most frequently, a peculiar sterilizing radiation <span class="spoiler" title="you can set spoilers visible by default on your profile">whose source is heavily implied to be <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CthulhuMythos" title="/pmwiki/pmwiki.php/Franchise/CthulhuMythos">Azathoth</a></em></span>. Taft-6 seems to only be a "normal" world with slightly higher-than-usual mana and no radiation, and the Infinity Patrol are going nuts trying to figure out what's actually happening.</li><li> Something about Cyrano attracts sheer insanity to the world; problems there tend to involve wizards, gods and lunatics (in no particular order), and France Outremonde has been corrupted by something otherworldly that doesn't look like a Centrum plot. Regular Patrol units are out of their depth here; missions on Cyrano call for ISWAT, and the fact that Centrum is regularly operating there suggests that they might be setting up an ISWAT of their own.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>: Centrum's default moral status. They're ruthless, hegemonic cultural imperialists, but they're trying to save each parallel they're operating in from undergoing their own versions of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">Last War</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWorldAsMyth" title="/pmwiki/pmwiki.php/Main/TheWorldAsMyth">The World as Myth</a>: There are more than a few parallels based on explicitly fictional settings, called "myth parallels."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrongContextMagic" title="/pmwiki/pmwiki.php/Main/WrongContextMagic">Wrong Context Magic</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Azathothic "magic" is actually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw" title="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw">sufficiently advanced technology</a> that requires no infrastructure and is based in pure mathematics. Unlike most magic, it works on <em>any</em> worldline, period, and can't be blocked by anti-magic effects. It's vaguely linked to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>, but only to an extent, and anti-psi effects only negate the bonus gained through psychic talents - they don't nullify the ritual itself. Also, working with it naturally corrupts the mind and soul, but what did you expect when dealing with the Mythos?</span></li><li> Infinity Unlimited is used to using parachronic conveyors as their favored world-crossing method, and world-jumpers are their next best-understood methodology. Infinity also has an entire <em>division</em> of I-Cops (Nexus Oversight) dedicated to dealing with other methods of crossing realities, since none of these are based in the standard quantum pattern and many can be used to allow crossings where they "shouldn't"; in particular, they want to secure any possible backdoors into Homeline.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZeppelinsFromAnotherWorld" title="/pmwiki/pmwiki.php/Main/ZeppelinsFromAnotherWorld">Zeppelins from Another World</a>: The random timeline generation has a specific result that produces these, by the book's own admission (see the quote on that page) driven by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfCool" title="/pmwiki/pmwiki.php/Main/RuleOfCool">Rule of Cool</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">Zombie Apocalypse</a>: The Gotha parallels. Gotha zombies are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie" title="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie">carriers of a prion-based disease</a> that mutated from the pneumonic plague, which retain some of their previous intelligence and memory, as well as just enough wherewithal to hold onto old cultural beliefs (usually with a strong slant towards fatalism and death worship). Thus why the zombies discovered on Gotha-1 were described as Visigothic berserkers; another Gotha parallel had zombie Thuggee in India. On Gotha-Z, the Gotha factor somehow "jumped" onto the Spanish Flu during the pandemic's apex; not only did that version prove just as effective as the standard one at turning its carriers into frothing homicidal psychos, but when killed, those infected lose the "technically living" and rise again as actually undead zombies.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/CaseyAndAndy">Casey and Andy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSSettings">TabletopGame/GURPS Settings</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheMadnessDossier">The Madness Dossier</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSSteampunkSettingTheBrokenClockworkWorld">GURPS Steampunk Setting: The Broken Clockwork World</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheMadnessDossier">The Madness Dossier</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

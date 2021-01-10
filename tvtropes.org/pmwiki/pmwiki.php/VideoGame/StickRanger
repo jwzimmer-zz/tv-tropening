@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Stick Ranger (Video Game) - TV Tropes</title>
+<meta name="description" content="Stick Ranger is a 2-D Java-based Action RPG, developed by a team led by ha55ii and hosted on Dan-Ball, where you command a party of four tiny stick figures &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/StickRanger" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Stick Ranger (Video Game) - TV Tropes" />
+<meta name="twitter:description" content="Stick Ranger is a 2-D Java-based Action RPG, developed by a team led by ha55ii and hosted on Dan-Ball, where you command a party of four tiny stick figures &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Stick Ranger (Video Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/StickRanger" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Stick Ranger is a 2-D Java-based Action RPG, developed by a team led by ha55ii and hosted on Dan-Ball, where you command a party of four tiny stick figures who march through areas and battle all sorts of funny-looking (sometimes hideously cute) &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/SnakeCharmer" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/VideoGame/MyLittlePonyFightingIsMagic" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VideoGame/StickRanger?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VideoGame/StickRanger">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VideoGame.StickRanger">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=StickRanger&g=VideoGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VideoGame.StickRanger">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VideoGame/StickRanger?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VideoGame" />
+<input type="hidden" id="title-hidden" value="StickRanger" />
+<input type="hidden" id="article_id" value="407763" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VideoGame/StickRanger</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Video Game / </strong>
+Stick Ranger
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VideoGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Stick Ranger"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StickRanger" class="subpage-link curr-subpage" title="The VideoGame page">
+<span class="wrapper"><span class="spi videogame"></span>VideoGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/StickRanger" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/StickRanger?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/StickRanger?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/StickRanger?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/StickRanger?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/StickRanger?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/StickRanger?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/StickRanger?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/StickRanger?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/StickRanger?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/StickRanger?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/StickRanger?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/StickRanger?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/StickRanger?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/StickRanger?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/StickRanger?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/StickRanger?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/StickRanger?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p><em>Stick Ranger</em> is a 2-D Java-based <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionRPG" title="/pmwiki/pmwiki.php/Main/ActionRPG">Action RPG</a>, developed by a team led by ha55ii and hosted on Dan-Ball, where you command a party of four tiny stick figures who march through areas and battle all sorts of funny-looking (sometimes hideously cute)enemies, gathering gold and item drops, and fighting imposing boss monsters. The game's programming has roots in ha55ii's Powder Game engines, as the stick figures move using actual 2-D physics, even though you can drag them around with your mouse.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>When starting the game you choose character classes for your four stickmen, from the eight classes available. Your party gains experience and levels up together, with one EXP value shared by the whole party. With every level gained, each stickman gets two stat points you can allocate into LP (his hitpoints, raising them directly), STR (Strength), DEX (Dexterity) or MAG (Magic). Every class gains some amount of LP with each stat point spent, even if you don't put it directly into LP. Some classes can use magic weapons that build up MP with each attack, and unleash it when full with elemental projectile attacks. The MAG stat determines how much MP each attack generates.</p><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrecisionGuidedBoomerang" title="/pmwiki/pmwiki.php/Main/PrecisionGuidedBoomerang">Angel</a>: A ranged attacker who tosses boomerang rings, which penetrate enemies and fly back to him. STR raises his attack damage, DEX gradually raises how many rings he can throw at a time (up to 5), and MAG lets him build up MP. The magic rings can have super-strong attacks, but they need a <em>LOT</em> of MP, and his rings have to return to him before he can throw them again, limiting his damage output.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BareFistedMonk" title="/pmwiki/pmwiki.php/Main/BareFistedMonk">Boxer</a>: The fastest melee attacker, who fights using gloves. STR raises his attack damage, DEX raises his attack speed to a limit of 5-10 AGI (frames between attacks), and MAG lets him build up MP. His magic attacks can be really strong, but to capitalize on them he needs a decent amount of MAG, and his bad range means he'll take the most hits from enemies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolSword" title="/pmwiki/pmwiki.php/Main/CoolSword">Gladiator</a>: A methodical melee fighter, who uses a sword to strike enemies. STR boosts his max attack damage, DEX boosts his minimum attack damage, and MAG lets him charge up MP. The sword's length allows him to hit multiple enemies at once and attack from a safer range than a Boxer, but he doesn't deal as much damage to individual enemies, and some of his better magic swords require high MAG.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGunslinger" title="/pmwiki/pmwiki.php/Main/TheGunslinger">Gunner</a>: A ranged fighter who uses a variety of guns, to hit enemies from a distance with mainly physical projectiles. All guns besides his starting gun cost money to fire. STR boosts his damage, DEX lets him shoot faster, and MAG reduces the cost of guns down to a minimum of $1 per shot. His guns already have excellent range, but most shots can be blocked by the terrain, and he only gets guns that deal physical, thunder or fire damage.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProjectileSpell" title="/pmwiki/pmwiki.php/Main/ProjectileSpell">Magician</a>: A ranged fighter who fires magical projectiles. STR boosts his range, DEX lets him shoot faster, and MAG boosts his damage. His magic spells are powerful enough that he can act as support or a direct attacker, and he doesn't need to charge up MP, but the spells have high AGI (low rate of fire), and some of them don't pass through terrain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SimpleStaff" title="/pmwiki/pmwiki.php/Main/SimpleStaff">Priest</a>: A support class, who uses magic staves that hit all enemies within range, but deal relatively weak damage compared to most other classes' weapons. His main purpose is the buffing aura he provides to the rest of the party. His STR boosts the party's attack damage by 1% per point. His DEX boosts the party's physical defense by 1 for every 5 DEX points. MAG boosts his attack range, which is also the range of his buff aura.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheArcher" title="/pmwiki/pmwiki.php/Main/TheArcher">Sniper</a>: A ranged attacker who uses bows. Depending on the bow used, he may aim his arrows in a high arc, or fire straight at enemies ahead of him. STR boosts his range, DEX boosts his damage, and MAG lets him build up MP. His bows have good range, and the magic bows don't need a huge MAG stat, but some enemies are hard to hit with his arrows, and the terrain can block them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhipItGood" title="/pmwiki/pmwiki.php/Main/WhipItGood">Whipper</a>: A melee fighter who uses a long whip to strike enemies. STR boosts his damage, DEX boosts how many bullets his MP-based attacks fire, and MAG lets him build up MP. His whips have range equal to the longest of the Gladiator's swords, he gets whips of every element, and the magic whips have very powerful attacks, but they're not the most accurate weapons, the magic whips need a ridiculous amount of MAG to be effective, and most whips except the magic-less ones have low physical damage.</li></ul><p>A major part of the game is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SocketedEquipment" title="/pmwiki/pmwiki.php/Main/SocketedEquipment">customizing your party's weapons</a>. Enemies drop Compo (Composition) Items that you can slot into your weapons, and each weapon you find has two slots. They come in several different kinds, including Stones that give flat stat boosts, Crystals that give attack- or defense-oriented effects, Jewels that boost elemental damage or effects, Cards with special effects that bosses drop, Medals with universally helpful effects (making enemies drop more items, gold or Onigiri, boosting EXP gain), Charms that partially block status effects, and Spirits that have a chance to manifest in an elemental attack with every enemy you kill. There are restrictions, though; A weapon can't have two Compo Items of the same type, and not every Compo Item can be put into every weapon.</p><p></p><h2>Stick Ranger contains examples of these tropes:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllDesertsHaveCacti" title="/pmwiki/pmwiki.php/Main/AllDesertsHaveCacti">All Deserts Have Cacti</a>: Despite there being a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuildLikeAnEgyptian" title="/pmwiki/pmwiki.php/Main/BuildLikeAnEgyptian">pyramid</a> and an oasis in the middle of the game's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShiftingSandLand" title="/pmwiki/pmwiki.php/Main/ShiftingSandLand">desert area</a>, cacti enemies can be found there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialStupidity" title="/pmwiki/pmwiki.php/Main/ArtificialStupidity">Artificial Stupidity</a>: Both sides are subject to it, though it hampers your party more since the enemies have strength in numbers. Your four stickmen just walk towards the nearest enemies and attack when they're in range. They make <em>zero</em> effort to avoid damage, and do not take the environment into consideration when aiming their attacks. Ranged fighters will try to shoot through walls and platforms, and melee fighters will pace back and forth standing underneath flying enemies that they just can't reach.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AutoSave" title="/pmwiki/pmwiki.php/Main/AutoSave">Auto-Save</a>: The game does this automatically, although the game also provides a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PasswordSave" title="/pmwiki/pmwiki.php/Main/PasswordSave">password save system</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeamSpam" title="/pmwiki/pmwiki.php/Main/BeamSpam">Beam Spam</a>: Atomic Ray.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeefGate" title="/pmwiki/pmwiki.php/Main/BeefGate">Beef Gate</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForcedLevelGrinding" title="/pmwiki/pmwiki.php/Main/ForcedLevelGrinding">Forced Level-Grinding</a>: There are (so far) four bosses which, for their level, are <em>really</em> tough to beat, having multiple attacks they can use to beat your party to a pulp. They've come to be called "Mega Bosses", and each is fought completely alone in an area marked by a different icon from the usual square dot on the world map. The first two are evenly spaced at level 20 and 40, but the third is just level 50, the fourth is level 70, and the fifth is level 99. It IS possible to beat them without grinding, but doing so requires a much longer amount of time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossBattle" title="/pmwiki/pmwiki.php/Main/BossBattle">Boss Battle</a>: Every single area ends with a boss battle, and even though you can skip the other sections of a level just by dragging one of your guys to the "Next" sign, you must defeat the boss and all its minions to clear the level.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlunkyBoss" title="/pmwiki/pmwiki.php/Main/FlunkyBoss">Flunky Boss</a>: Almost every boss has other enemies accompanying it. In some cases, the smaller enemies are the real threat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarathonBoss" title="/pmwiki/pmwiki.php/Main/MarathonBoss">Marathon Boss</a>: Some bosses have absolutely outrageous amounts of LP, especially the Mega Bosses. The last one so far has 999999 LP- to put that into perspective, a Boxer in a party leveled to the high 60s wielding a Mach Claw, with about 60 STR and a 75% attack buff from a Priest will be dealing an average of maybe 130 damage per hit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossRush" title="/pmwiki/pmwiki.php/Main/BossRush">Boss Rush</a>: The Mountaintop stage. In this 10-screen gauntlet you battle every boss from the rest of the game, except the Mega Bosses. While none of them have been powered up from when you may have seen them before, they're fought in groups of as many as <em>eight at once</em>, and since this stage is nothing but bosses, you have to kill all of them to proceed. On the tenth and final screen you fight a group of four new bosses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrutalBonusLevel" title="/pmwiki/pmwiki.php/Main/BrutalBonusLevel">Brutal Bonus Level</a>: The Volcano stage, which is harder than the formerly-last stage (Hell). This is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossRush" title="/pmwiki/pmwiki.php/Main/BossRush">Boss Rush</a> much like the Mountaintop except much harder, includes the Mega Bosses.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BraggingRightsReward" title="/pmwiki/pmwiki.php/Main/BraggingRightsReward">Bragging Rights Reward</a>: The Anger Crown that can be obtained from the boss in the Volcano stage. It manifests a variety of effects but it only works when the character levels up. At the point of the game where you obtain it, your level is in the 90's and your chances of leveling up by then is very rare, if not impossible after hitting the [[Cap Level Cap]]. However you can transfer it, along with other crowns, to a new save via <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewGamePlus" title="/pmwiki/pmwiki.php/Main/NewGamePlus">Restart Mode</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuildLikeAnEgyptian" title="/pmwiki/pmwiki.php/Main/BuildLikeAnEgyptian">Build Like an Egyptian</a>: The third <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossOnlyLevel" title="/pmwiki/pmwiki.php/Main/BossOnlyLevel">boss stage</a>, Pyramid.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CooldownManipulation" title="/pmwiki/pmwiki.php/Main/CooldownManipulation">Cooldown Manipulation</a>: Some classes can increase how fast they attack. You can also equip a Quick's Card on a weapon to make it attack faster.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CutAndPasteEnvironments" title="/pmwiki/pmwiki.php/Main/CutAndPasteEnvironments">Cut-and-Paste Environments</a>: While all stages have different enemies, there's only 13 tilesets and 12 landscapes used through the game. To put that into perspective, as of ver18.9, there are 85 stages. The Opening Street landscape in particular is reused around 20 times.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure" title="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure">Critical Existence Failure</a>: Averted, but only very slightly. If one of your stickmen's LP is down to 20% or less, he won't move on his own. Of course, aversion is optional; now there's a setting you can change in the options to make them keep moving towards enemies until they break into pieces. And oddly enough that's a useful option to use because generally if you want a character to walk you want it to walk even if it's gonna break.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist" title="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist">Death Is a Slap on the Wrist</a>: If the whole party dies, you just end up back on the world map with everyone at 1 LP. No loot, gold or EXP is lost.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElaborateEqualsEffective" title="/pmwiki/pmwiki.php/Main/ElaborateEqualsEffective">Elaborate Equals Effective</a>: As weapons get higher levels, they change appearance. Averted with the Gunner, however, who has different icons for each type of guns instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyScan" title="/pmwiki/pmwiki.php/Main/EnemyScan">Enemy Scan</a>: Of sorts. You can buy info books for each level you've beaten, which tell you the exact LP of every enemy in that level and what items they drop. The books get expensive though- the first is $1000, and each after that is $1000 more. There are over 60 levels, so...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlipScreenScrolling" title="/pmwiki/pmwiki.php/Main/FlipScreenScrolling">Flip-Screen Scrolling</a>: Each stage is made of several "screens" with different enemy locations and amounts. To get to the next screen, you need to drag your stickman to a sign located at the right of the screen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GamePlaysItself" title="/pmwiki/pmwiki.php/Main/GamePlaysItself">Game Plays Itself</a>: Your stickmen will walk and attack on their own. While you can drag them around, they cannot attack while you do this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreenHillZone" title="/pmwiki/pmwiki.php/Main/GreenHillZone">Green Hill Zone</a>: Opening Street and the Grassland series are both this, being some of the first levels of the game and having grassy terrain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeadSwap" title="/pmwiki/pmwiki.php/Main/HeadSwap">Head Swap</a>: Every single enemy is made of a "head" and a "body". However, there's only 22 heads for the 330 different enemies in the game. Most stages have at least 2 enemies with the same head, in fact.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HerdHittingAttack" title="/pmwiki/pmwiki.php/Main/HerdHittingAttack">Herd-Hitting Attack</a>: Quite a few bosses have attacks that can wipe out your party if they're clustered together. Because fire passes through whatever it hits, bosses (and even some regular baddies) with fire attacks can be particularly hazardous. On the other hand, Gladiators and Archers with the right weapons can cover a large area of monsters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HyperactiveMetabolism" title="/pmwiki/pmwiki.php/Main/HyperactiveMetabolism">Hyperactive Metabolism</a>: Every enemy you kill has a chance of dropping a riceball (Onigiri), that one of your stickmen can eat to restore some of his LP. If two or more of your guys are on top of an Onigiri when it stops flashing, whoever's lost more of his LP will eat it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InformedEquipment" title="/pmwiki/pmwiki.php/Main/InformedEquipment">Informed Equipment</a>: In nearly all cases, compo items are completely invisible on the stickmen. Averted with the crown items which can be seen on their heads, and with Zombie's Card that turns them purple with a white head.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InventoryManagementPuzzle" title="/pmwiki/pmwiki.php/Main/InventoryManagementPuzzle">Inventory Management Puzzle</a>: You have 24 inventory slots. Later on you'll start having to carry multiple weapons for some of your party members to deal with specific situations, so that 6 x 4 grid can start to fill up quickly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalJokeItem" title="/pmwiki/pmwiki.php/Main/LethalJokeItem">Lethal Joke Item</a>: Many of the weapons in the Resort are this. For example, the Chakram 5 Ring for the Angel, with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScratchDamage" title="/pmwiki/pmwiki.php/Main/ScratchDamage">1-1 AT</a> and the same stats as the other rings, looks <em>absolutely</em> useless. However, it is the only ring <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOfAThousandCuts" title="/pmwiki/pmwiki.php/Main/DeathOfAThousandCuts">that can hit and deal damage to an enemy multiple times per attack</a>: if you increase the damage with STR (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumpStat" title="/pmwiki/pmwiki.php/Main/DumpStat">a stat often ignored by Angel users</a>) and equip some compos, it'll be hitting enemies <em>hard</em> (especially the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StraightForTheCommander" title="/pmwiki/pmwiki.php/Main/StraightForTheCommander">larger</a> ones) tons of times per second.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LifeDrain" title="/pmwiki/pmwiki.php/Main/LifeDrain">Life Drain</a>: The Vampire's Card can be used in a Boxer, Gladiator or Whipper's weapons to make their attacks drain LP from enemies, though early on it'll most likely be the minimum of 1 LP per hit, so a Boxer will benefit the most from it since he attacks the most rapidly. Also, only the actual weapon's hits drain LP, not any magic projectiles the weapon creates.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewGamePlus" title="/pmwiki/pmwiki.php/Main/NewGamePlus">New Game+</a>: If you have a crown in your current save's inventory, the "New Game" button on the title screen will turn into "New Game with the Crown", which has the same effect as starting a new game normally except the crown(s) will be in your inventory. If you have multiple Imperial Crowns, they may also stack into higher level Imperial Crowns.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagnetHands" title="/pmwiki/pmwiki.php/Main/MagnetHands">Magnet Hands</a>: No matter how wildly you drag your stickmen (which do not have visible hands), they'll never drop their weapon unless you remove it from them using the inventory.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoneyForNothing" title="/pmwiki/pmwiki.php/Main/MoneyForNothing">Money for Nothing</a>: Averted, as money has important purposes besides buying weapons- reviving your characters, using the inn to heal your party, and providing ammo for Gunners.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyRulesAreNotYourRules" title="/pmwiki/pmwiki.php/Main/MyRulesAreNotYourRules">My Rules Are Not Your Rules</a>: Enemies can have Freeze attacks that stop your characters dead in their tracks for several seconds with just one hit, while you're lucky to have Freeze weapons that freeze an enemy for .6 of a second per hit. The most powerful jewel can only boost that by another half-second. The rest of the disparity is in how powerful certain enemies' attacks can be in comparison to yours at an equivalent level.<ul><li> It gets worse when you realize that the 90% freeze resistance your characters have in VS Mode actually also exists in normal play, meaning that in order to attain even just a 1 second effective freeze time an enemy would need it's attack to have a 10 second base freeze time. "My Rules Are Not Your Rules" <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamelessNarrative" title="/pmwiki/pmwiki.php/Main/NamelessNarrative">Nameless Narrative</a>: None of the enemies in the game have names, so players have taken to simply naming them based on their colors, heads and bodies, and adding "Boss" if they're the boss of the stage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaletteSwap" title="/pmwiki/pmwiki.php/Main/PaletteSwap">Palette Swap</a>: Due to the limited amount of heads and bodies in the game, this often happens. It's common for enemies in the same stage to look identical except with different colors, usually to indicate a different attack type or a stronger attack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PalmtreePanic" title="/pmwiki/pmwiki.php/Main/PalmtreePanic">Palmtree Panic</a>: The Beach series of stage, especially the first three.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PasswordSave" title="/pmwiki/pmwiki.php/Main/PasswordSave">Password Save</a>: The game provides a password save system if you have a Dan-Ball account. If you don't, you have to use the [[Autosave]] instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RandomDrop" title="/pmwiki/pmwiki.php/Main/RandomDrop">Random Drop</a>: Most enemies have one or more items they have a percent chance to drop when killed. Usually the items are either related somehow to the enemy dropping them, or themed together in one level (i.e. All the enemies drop Jewels). Bronze Medals can improve the drop rate of all items, but they work based on the item's own chance to drop, so if an item's base drop rate is 5%, a +10% drop rate bonus would raise it to 5.5%.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RespawnOnTheSpot" title="/pmwiki/pmwiki.php/Main/RespawnOnTheSpot">Respawn on the Spot</a>: An optional version. When one of your stickmen dies, he breaks into pieces. For a fee of either 10 times your level in gold or 10% of your gold (whichever's higher), you can revive him with just enough LP to keep moving.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SideView" title="/pmwiki/pmwiki.php/Main/SideView">Side View</a>: All of the game is like this except the overworld.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShiftingSandLand" title="/pmwiki/pmwiki.php/Main/ShiftingSandLand">Shifting Sand Land</a>: The Desert series of stage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlippySlideyIceWorld" title="/pmwiki/pmwiki.php/Main/SlippySlideyIceWorld">Slippy-Slidey Ice World</a>: The Snowfield series of stage, as well as Frozen Lake and Beach 4. Frozen Lake even has slippery terrain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SocketedEquipment" title="/pmwiki/pmwiki.php/Main/SocketedEquipment">Socketed Equipment</a>: As explained above.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScratchDamage" title="/pmwiki/pmwiki.php/Main/ScratchDamage">Scratch Damage</a>: Unless you have a Black Crystal equipped, all enemies will do at least 1 damage to you. The same goes for your stickmen, however; all of your attacks, except Poison-type attacks, will do at least 1 point of damage to enemies even if they resist the attack you're using.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpamAttack" title="/pmwiki/pmwiki.php/Main/SpamAttack">Spam Attack</a>: Super Volcano, a lot of boxer, gladiator and archer weapons. Some enemies and bosses also do this, particularly the Hell 2 boss, which has the lowest reload time in the entire game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StandardStatusEffects" title="/pmwiki/pmwiki.php/Main/StandardStatusEffects">Standard Status Effects</a>: Only three kinds, but both you and the enemies have access to them. Ice attacks cause Slow, making the target move slower and take longer to attack. Freeze stops the target completely, and enemies with Freeze attacks are dangerous because you can't move a frozen stickman with your mouse, but most bosses have a reduction to how long Freeze stops them for. Poison saps at least 1 LP per frame, and strong enough poisons can almost instantly kill your stickmen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoneWall" title="/pmwiki/pmwiki.php/Main/StoneWall">Stone Wall</a>: The rare Yellow Shield Eel. It doesn't attack at all and drops the highest amount of gold at $9999 - the only problem is that it takes an insane amount of time to kill. All physical attacks have their damage reduced by 10000, it is completely immune to freeze and poison, and all <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FireIceLightning" title="/pmwiki/pmwiki.php/Main/FireIceLightning">thunder, fire and ice</a> damage is reduced to 1.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperNotDrowningSkills" title="/pmwiki/pmwiki.php/Main/SuperNotDrowningSkills">Super Not-Drowning Skills</a>: Your stickmen can stay underwater indefinitely, and they can swim surprisingly well. They can even use their weapons without needing solid ground to stand on if they're in the water.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLostWoods" title="/pmwiki/pmwiki.php/Main/TheLostWoods">The Lost Woods</a>: The Forest and Mist Grove series of stages.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereAreNoTents" title="/pmwiki/pmwiki.php/Main/ThereAreNoTents">There Are No Tents</a>: Besides the Onigiri that enemies can drop, and draining LP with Vampire's Cards, the only way to heal your party is resting at one of the Inns. Reviving your stickmen in battle can be expensive, but resting at the Inn heals everyone fully for $1 per LP, even if they're dead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UndergroundLevel" title="/pmwiki/pmwiki.php/Main/UndergroundLevel">Underground Level</a>: The Cavern series of stage, which even has a unique darkness effect.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnderTheSea" title="/pmwiki/pmwiki.php/Main/UnderTheSea">Under the Sea</a>: The four Submarine stages and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossOnlyLevel" title="/pmwiki/pmwiki.php/Main/BossOnlyLevel">Submarine Shrine</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZergRush" title="/pmwiki/pmwiki.php/Main/ZergRush">Zerg Rush</a>: Some levels throw <em>tons</em> of enemies at you. The epitomes of this might be the "???" stage and the "!!!" stage found a fair amount of time later- the first screen doesn't seem so bad with a group of 10 little slime spiders, but on the very next screen you have 50 of them to deal with. The boss comes with a whopping 99 of these spiders.</li></ul>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/StandOnZanzibar">Stand on Zanzibar</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Administrivia/PagesNeedingAnEntryPimp">Administrivia/Pages Needing an Entry Pimp</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/StoneButchBlues">Stone Butch Blues</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SteambotChronicles">Steambot Chronicles</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ActionRPG">Action RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StoriesPathOfDestinies">Stories: Path of Destinies</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['videogame']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

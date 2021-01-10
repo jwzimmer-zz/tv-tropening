@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Shortpacked! (Webcomic) - TV Tropes</title>
+<meta name="description" content="Shortpacked! is a webcomic by David Willis and a part of the Walkyverse, running from 2005 to 2015. The title refers to the toy store where the main &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/Shortpacked" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Shortpacked! (Webcomic) - TV Tropes" />
+<meta name="twitter:description" content="Shortpacked! is a webcomic by David Willis and a part of the Walkyverse, running from 2005 to 2015. The title refers to the toy store where the main &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/SHORTPACKED_8694.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Shortpacked! (Webcomic) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/Shortpacked" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/SHORTPACKED_8694.png" />
+<meta property="og:description" content="Shortpacked! is a webcomic by David Willis and a part of the Walkyverse, running from 2005 to 2015. The title refers to the toy store where the main characters work, and the strip starts with Robin DeSanto&mdash;It's Walky!'s hyperactive &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/NightmareFuel" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperPinballBehindTheMask" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Webcomic/Shortpacked?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Webcomic/Shortpacked">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Webcomic.Shortpacked">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Shortpacked&g=Webcomic">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=Webcomic.Shortpacked">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Webcomic/Shortpacked?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Webcomic" />
+<input type="hidden" id="title-hidden" value="Shortpacked" />
+<input type="hidden" id="article_id" value="240534" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Webcomic/Shortpacked</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Webcomic / </strong>
+Shortpacked!
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Webcomic",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Webcomic"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Shortpacked!"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Shortpacked" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/Shortpacked" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Shortpacked" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Headscratchers/Shortpacked" class="subpage-link " title="The Headscratchers page">
+<span class="wrapper"><span class="spi headscratchers"></span>Headscratchers</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/Shortpacked" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TearJerker/Shortpacked" class="subpage-link " title="The TearJerker page">
+<span class="wrapper"><span class="spi tearjerker"></span>TearJerker</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Shortpacked" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Shortpacked" class="subpage-link curr-subpage" title="The Webcomic page">
+<span class="wrapper"><span class="spi webcomic"></span>Webcomic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/Shortpacked" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Shortpacked" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Shortpacked?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Shortpacked?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Shortpacked?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Shortpacked?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Shortpacked?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Shortpacked?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Shortpacked?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Shortpacked?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Shortpacked?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Shortpacked?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Shortpacked?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Shortpacked?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Shortpacked?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:300px;"><div class="lazy_load_img_box" style="padding-top:111.33%"><img src="https://static.tvtropes.org/pmwiki/pub/images/SHORTPACKED_8694.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/SHORTPACKED_8694.png" width="300" height="334"></div></div><div class="acaptionright" style="width:300px;">Top to bottom: Robin, Ethan, Malaya, Mike, Amber, Faz. Galasso and Leslie are off to the side.</div><p></p><div class="indent"><strong>Ethan:</strong> <em>This is unprofessional behaviour for a retail store.</em> <br><strong>Amber:</strong> Yeah, you tell to that to the despot, the ninja, and the <em>Zombie Reagan</em>.<div class="indent">&mdash; <a class="urllink" href="http://www.shortpacked.com/index.php?id=664">May 22, 2008<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em><a class="urllink" href="http://www.shortpacked.com">Shortpacked!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> is a webcomic by David Willis and a part of the <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Walkyverse" title="/pmwiki/pmwiki.php/Webcomic/Walkyverse">Walkyverse</a>, running from 2005 to 2015.</p><p>The title refers to the toy store where the main characters work, and the strip starts with Robin DeSanto&mdash;<em>It's Walky!</em>'s hyperactive speedster&mdash;taking a position there as a saleswoman. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkAss" title="/pmwiki/pmwiki.php/Main/JerkAss">Mike</a> has already been working there for some time by then, in spite of...<a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackFromTheDead" title="/pmwiki/pmwiki.php/Main/BackFromTheDead">certain factors</a> that should render this unlikely. They're joined by Ethan Siegal, a self-righteous toy obsessive; Amber O'Malley, a recovered introvert; <a class="twikilink" href="/pmwiki/pmwiki.php/Characters/Shortpacked" title="/pmwiki/pmwiki.php/Characters/Shortpacked">and a host of others</a>, each with their own quirks and neuroses, with the cast gradually expanding and contracting over its run.</p><p>The general tone of the comic is lighter and wackier than its predecessors, and though its characters do indulge in angst from time to time, it's more the result of, say, the moral ramifications of keeping your boss prisoner in a storage closet than any realism in the storylines. It's also more pop-culture oriented &mdash; jokes regarding <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Transformers" title="/pmwiki/pmwiki.php/Franchise/Transformers">Transformers</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Batman" title="/pmwiki/pmwiki.php/Franchise/Batman">Batman</a></em> abound &mdash; and more prone to filler than Willis's previous works. Whether or not this is a bad thing depends on how big a fan you are of <em>Transformers</em> and <em>Batman</em>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>On January 17, 2014, Shortpacked's ninth birthday, Willis <a class="urllink" href="http://itswalky.tumblr.com/post/73591298741/why-shortpacked-is-ending">announced<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> that <em>Shortpacked!</em> would cease regular updates on its tenth birthday the following year. This concludes the narrative of the Walkyverse, while <em>Joyce &amp; Walky!</em> wouldn't finish until May of that year.</p><p>Although the comic is over, the <em>Shortpacked!</em> website is still periodically updated with Willis' reviews of some of his latest toy acquisitions and April Fools Day strips.</p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><h2><em>Shortpacked!</em> contains examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcceptableHobbyTargets" title="/pmwiki/pmwiki.php/Main/AcceptableHobbyTargets">Acceptable Hobby Targets</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>. For Malaya, it seems every hobby is something worthy of total derision. At one point, she put the moves on Leslie, seemingly without being aware she's a die-hard sci-fi fan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffirmativeActionLegacy" title="/pmwiki/pmwiki.php/Main/AffirmativeActionLegacy">Affirmative Action Legacy</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">African-American Lucy</span> looked set to take up the mantle of Amazi-Girl until she decided it wasn't her thing. She ends up wearing the costume in the final two strips.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">Arson, Murder, and Jaywalking</a>: When Robin and Jake Manley were planning out a bill to solve all of the US's problems, Robin claimed that they needed to solve "the economy, the disparity 'tween the rich an' the poor, immigration, healthcare, AIDS, racism, homophobia, <a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheBigBangTheory" title="/pmwiki/pmwiki.php/Series/TheBigBangTheory">that 'Big Bang Theory' TV show</a>..."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtisticLicenseStatistics" title="/pmwiki/pmwiki.php/Main/ArtisticLicenseStatistics">Artistic License &#150; Statistics</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=995">By the author's admission, statistics do not work like this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. But why should that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfFunny" title="/pmwiki/pmwiki.php/Main/RuleOfFunny">ruin a good joke</a>?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtEvolution" title="/pmwiki/pmwiki.php/Main/ArtEvolution">Art Evolution</a>: Willis already had a pretty consistent style by the beginning of the series, but as the series has gone on it's gone from black-and-white to color, changed the color palette, and tended away from the more dynamic art of the initial strips.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Asexuality" title="/pmwiki/pmwiki.php/Main/Asexuality">Asexuality</a>: Ultra Car. The antics of the sexual beings and their drama continue to annoy her. <span class="spoiler" title="you can set spoilers visible by default on your profile">Asexual doesn't mean aromantic, though; both her and Malaya eventually begin dating</span>. Ultra Car declares herself a <a class="urllink" href="http://www.shortpacked.com/index.php?id=1994">"homoromantic asexual trans-chassis woman.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AssShove" title="/pmwiki/pmwiki.php/Main/AssShove">Ass Shove</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Robin <a class="urllink" href="http://www.shortpacked.com/index.php?id=1196">uses Faz<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to give Sarah Palin the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Hancock" title="/pmwiki/pmwiki.php/Film/Hancock">Hancock</a></em> treatment. "Faz is... envy of Fox News..."</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsTheGoodBookSays" title="/pmwiki/pmwiki.php/Main/AsTheGoodBookSays">As the Good Book Says...</a>: When Galasso tries to lecture Jeshua, He responds by quoting the book of Matthew.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackOfThe50FootWhatever" title="/pmwiki/pmwiki.php/Main/AttackOfThe50FootWhatever">Attack of the 50-Foot Whatever</a>: The Giant Mutant Honey-Bun shows up in both the normal universe, where it's fought by Amber and Mike, and <span class="spoiler" title="you can set spoilers visible by default on your profile">the alternate universe where the Drama Tag was never pulled</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorAppeal" title="/pmwiki/pmwiki.php/Main/AuthorAppeal">Author Appeal</a>: Compare Amber with how Willis draws his wife. At one point Amber got a makeover and was perceived as more attractive in-universe; the makeover mostly made her resemble Willis' wife even more.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorAvatar" title="/pmwiki/pmwiki.php/Main/AuthorAvatar">Author Avatar</a>: Willis occasionally makes a cameo as <a class="urllink" href="http://tfwiki.net/wiki/David_Willis">Ethan's arch-nemesis<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> on the <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TFWikiDotNet" title="/pmwiki/pmwiki.php/Wiki/TFWikiDotNet">Transformers Wiki</a>, most notably in one short storyline where he proposed to his girlfriend.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorFilibuster" title="/pmwiki/pmwiki.php/Main/AuthorFilibuster">Author Filibuster</a>: While Willis' views are normally worked into the narrative of the strip, there are occasions where they dramatically shift the focus of the strip entirely: when a point needs to be made about American politics, the storylines shift from being about misadventures at the titular toystore to becoming almost political satire in Washington DC. This tends to happen around elections, naturally.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeMcCoolName" title="/pmwiki/pmwiki.php/Main/AwesomeMcCoolName">Awesome McCoolname</a>: Greg Killmaster, a <a class="urllink" href="http://gregkillmaster.com/about/">real-life special effects artist<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Robin is so impressed by his name she decides she's going to find him and marry him so she can be Mrs. Killmaster, but it turns out <a class="urllink" href="http://www.tfwiki.net/wiki/Laura_Killmaster">he's taken<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackFromTheDead" title="/pmwiki/pmwiki.php/Main/BackFromTheDead">Back from the Dead</a>: Not only does Mike come back, somehow Galasso also resurrects <em>Ronald Reagan</em> (and later <em>Jesus</em>) to work in his store. Mike's revival was left completely unexplained until after his wedding, when Joyce gave a hint to Amber.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BatmanCanBreatheInSpace" title="/pmwiki/pmwiki.php/Main/BatmanCanBreatheInSpace">Batman Can Breathe in Space</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeNamer" title="/pmwiki/pmwiki.php/Main/TropeNamer">Trope Namer</a>, <a class="urllink" href="http://www.shortpacked.com/index.php?id=7">as seen here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BatmanGambit" title="/pmwiki/pmwiki.php/Main/BatmanGambit">Batman Gambit</a>: Meredith <a class="urllink" href="http://www.shortpacked.com/index.php?id=710">orchestrates one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to make Amber's internet boyfriend Nathan less attractive to her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaitAndSwitchLesbians" title="/pmwiki/pmwiki.php/Main/BaitAndSwitchLesbians">Bait-and-Switch Lesbians</a>: On Robin's advice, Amber tries to convince Faz that <em>she</em> is a lesbian by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanService" title="/pmwiki/pmwiki.php/Main/FanService">kissing another woman</a> (a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCameo" title="/pmwiki/pmwiki.php/Main/TheCameo">cameo appearance</a> of a well-known webcomics critic who happens to be bi in real life) but he responds by giving a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryoneIsBi" title="/pmwiki/pmwiki.php/Main/EveryoneIsBi">lecture on the Kinsey Scale</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeCarefulWhatYouWishFor" title="/pmwiki/pmwiki.php/Main/BeCarefulWhatYouWishFor">Be Careful What You Wish For</a>: Robin wishes that her life at Shortpacked! could be more like her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a> time in SEMME, but after she accidentally pulls the store's Drama Tag, the short-term results are so drastic that she begins devoting herself to driving the store back to wackiness by any means possible.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BestKnownForTheFanservice" title="/pmwiki/pmwiki.php/Main/BestKnownForTheFanservice">Best Known for the Fanservice</a>: In-universe. Robin's been a congresswoman key in landmark legislation for two terms with active campaigning for a third term, and before that was a decorated war hero. All anybody remembers is that one sex tape.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BetterThanABareBulb" title="/pmwiki/pmwiki.php/Main/BetterThanABareBulb">Better Than a Bare Bulb</a>: Robin tap dances and backflips on the fourth wall regularly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackForTheFinale" title="/pmwiki/pmwiki.php/Main/BackForTheFinale">Back for the Finale</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Dina</span>, with check-ins from several other former employees.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: Sydney Yus is the closest that the series has to one, but she's so dumb and ineffectual that it's more of a joke than anything.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigNo" title="/pmwiki/pmwiki.php/Main/BigNo">Big "NO!"</a>:<ul><li> Robin's reaction to learning that <a class="twikilink" href="/pmwiki/pmwiki.php/Series/BattlestarGalactica2003" title="/pmwiki/pmwiki.php/Series/BattlestarGalactica2003">Felix Gaeta</a> is played by <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/BeastMachines" title="/pmwiki/pmwiki.php/WesternAnimation/BeastMachines">Nightscream's</a> VA.</li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1268">Amber's<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1269">reaction<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to the realization that <span class="spoiler" title="you can set spoilers visible by default on your profile">she and Faz are half-siblings</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BilingualBonus" title="/pmwiki/pmwiki.php/Main/BilingualBonus">Bilingual Bonus</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=318">Rick's sword makes a "Funana" sound.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing" title="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing">Bitch in Sheep's Clothing</a>: Roz's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttentionWhore" title="/pmwiki/pmwiki.php/Main/AttentionWhore">Attention Whore</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsAllAboutMe" title="/pmwiki/pmwiki.php/Main/ItsAllAboutMe">It's All About Me</a> tendencies also become more apparent the more she appears.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Blackmail" title="/pmwiki/pmwiki.php/Main/Blackmail">Blackmail</a>: This is how <span class="spoiler" title="you can set spoilers visible by default on your profile">Amber gets Mike to date her</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlushSticker" title="/pmwiki/pmwiki.php/Main/BlushSticker">Blush Sticker</a>: At first just Ronnie, but due to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtEvolution" title="/pmwiki/pmwiki.php/Main/ArtEvolution">Art Evolution</a> they're eventually applied to the entire cast. Some characters, however, eventually lose them, and Mike only ever gets them when he's drunk.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BolivianArmyEnding" title="/pmwiki/pmwiki.php/Main/BolivianArmyEnding">Bolivian Army Ending</a>: The comic ends with the cast facing down <span class="spoiler" title="you can set spoilers visible by default on your profile">an invasion of Soggies, confronting Sogmaster in the final few strips</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BookEnds" title="/pmwiki/pmwiki.php/Main/BookEnds">Book-Ends</a>:<ul><li> The punchline of the first strip is Ethan reminding Galasso "This is just a toystore." The final strip has the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> saying the same thing, to which Leslie replies "The hell it is!"</li><li> Bonus points for starting and ending on the same day, January 17th.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakHerHeartToSaveHer" title="/pmwiki/pmwiki.php/Main/BreakHerHeartToSaveHer">Break Her Heart to Save Her</a>:<span class="spoiler" title="you can set spoilers visible by default on your profile">Mike made his proposal to Amber as horrifying as possible in hopes that she'd leave him for someone better. <a class="urllink" href="http://www.shortpacked.com/index.php?id=1505">It didn't work.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall" title="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall">Breaking the Fourth Wall</a>: Done regularly by the author in his cameos, and sometimes by the characters too.<div class="indent"> <strong>Robin</strong>: Here you go, America! Take notes 'cuz I'm finally gonna show you what <a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/ArchieComics" title="/pmwiki/pmwiki.php/ComicBook/ArchieComics">Jughead</a>'s hat really is! <br><strong>Leslie</strong>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">Who are you yelling at?</a></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrickJoke" title="/pmwiki/pmwiki.php/Main/BrickJoke">Brick Joke</a>: In the storyline where it's revealed that Faz is <span class="spoiler" title="you can set spoilers visible by default on your profile">Amber's half-brother</span>, we meet Rose and Zaph, two <span class="spoiler" title="you can set spoilers visible by default on your profile">Amber and Faz</span> look-alikes. Much later, Rose and Zaph are both seen attending <span class="spoiler" title="you can set spoilers visible by default on your profile">Amber's father's</span> funeral.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrokenAesop" title="/pmwiki/pmwiki.php/Main/BrokenAesop">Broken Aesop</a>: Constant complaints about fandoms abound (<strong>especially</strong> the <em>Transformers</em> fandom). Willis is not only a prominent part of said fandom, but also embodies many of the issues he complains about. This is often <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedForLaughs" title="/pmwiki/pmwiki.php/Main/PlayedForLaughs">Played for Laughs</a>, however.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrokeYourArmPunchingOutCthulhu" title="/pmwiki/pmwiki.php/Main/BrokeYourArmPunchingOutCthulhu">Broke Your Arm Punching Out Cthulhu</a>: Leslie ends up delivering an impressive beatdown on <span class="spoiler" title="you can set spoilers visible by default on your profile">Head Alien</span> after it's revealed he's murdered alternate-universe Robins, <span class="spoiler" title="you can set spoilers visible by default on your profile">which results in him growing to giant size and crushing her, almost fatally. Then Robin shows up...</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Callback" title="/pmwiki/pmwiki.php/Main/Callback">Callback</a>:<ul><li> The conversation in <a class="urllink" href="http://www.shortpacked.com/index.php?id=1465">this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> comic is a callback to <a class="urllink" href="http://www.shortpacked.com/index.php?id=268">this one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=483">This<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> comic is one to <a class="urllink" href="http://www.shortpacked.com/index.php?id=90">this one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Or is it the reverse and a callforward?</li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=8">Galasso brings back Ronald Reagan.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1604">Seven years later...<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=730">This<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, to pretty much every significant <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Walkyverse" title="/pmwiki/pmwiki.php/Webcomic/Walkyverse">Walkyverse</a> event up to that point.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaptainErsatz" title="/pmwiki/pmwiki.php/Main/CaptainErsatz">Captain Ersatz</a>: Willis is generally more likely to include the real thing than a mimicry, but one that sticks out is Coffeeright Theft, a local coffeehouse the characters occasionally visit. It's pretty much just <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/QuestionableContent" title="/pmwiki/pmwiki.php/Webcomic/QuestionableContent">Coffee of Doom</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CassandraTruth" title="/pmwiki/pmwiki.php/Main/CassandraTruth">Cassandra Truth</a>:<div class="indent"><strong>Ethan:</strong> What else did I miss? <br><strong>Amber:</strong> Iowa okayed gay marriage. <br><strong>Ethan:</strong> I'm <em>serious</em>. What's new? <br><strong>Amber:</strong> The store had a near-orgy. <br><strong>Ethan:</strong> You continue to tell me lies.</div><ul><li> Mike attempts to give his condolences for the passing of Amber's pet hamster. Her reaction? Rabid, disbelieving laughter. Granted, he may not actually feel sorry for the animal, but is still sincere in wanting her to feel better.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFullOfGay" title="/pmwiki/pmwiki.php/Main/CastFullOfGay">Cast Full of Gay</a>: Of the three leads, Ethan is gay, Amber is (probably) straight, and Robin (after much confusion) identifies as "generally undefinably queer". Also, Leslie is a lesbian, Mike will sleep with anyone if the motivations are right, Drew is bi, and Conquest will also sleep with anyone at the drop of a hat. There's also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DropInCharacter" title="/pmwiki/pmwiki.php/Main/DropInCharacter">Thad</a> and his late boyfriend Evan. Malaya is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Robosexual" title="/pmwiki/pmwiki.php/Main/Robosexual">Robosexual</a> for Ultra Car, who is homoromantic asexual. Rick and Faz are such <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">Cloudcuckoolanders</a> that it's impossible to tell<span class="notelabel" onclick="togglenote('note03ypu');"><sup>note&nbsp;</sup></span><span id="note03ypu" class="inlinefolder" isnote="true" onclick="togglenote('note03ypu');" style="cursor:pointer;font-size:smaller;display:none;">Faz at one point believes that if he has sex with a woman, this will "cancel out" a previous gay encounter on the Kinsey scale</span>, Galasso can't tell genders apart despite having a daughter, and even <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/RonaldReagan" title="/pmwiki/pmwiki.php/UsefulNotes/RonaldReagan">Ronnie</a> seems to imply he's had affairs with men in one strip, leaving essentially just Roz, Jacob, Ken and Lucy. This is a phenomenon Amber's commented on several times.<div class="indent"><strong>Amber:</strong> <a class="urllink" href="http://www.shortpacked.com/index.php?id=911">I can't believe I'm the only straight person I know!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <br><strong>Ethan:</strong> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadpanSnarker" title="/pmwiki/pmwiki.php/Main/DeadpanSnarker">I wish you'd stop shoving your lifestyle in our faces.</a></div><ul><li> This is also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lampshaded" title="/pmwiki/pmwiki.php/Main/Lampshaded">lampshaded</a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1994">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromCalories" title="/pmwiki/pmwiki.php/Main/CastFromCalories">Cast from Calories</a>: This is played for laughs with Robin's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HyperactiveMetabolism" title="/pmwiki/pmwiki.php/Main/HyperactiveMetabolism">Hyperactive Metabolism</a>, in stories where she will occasionally eat something truly outrageous in its caloric content and then wake up weeks or months later as if from a blackout, and find she's accomplished some lofty achievement in the interim.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchAFallingStar" title="/pmwiki/pmwiki.php/Main/CatchAFallingStar">Catch a Falling Star</a>: Mike gets to play a hero and <a class="urllink" href="http://www.shortpacked.com/index.php?id=1047">rescue Amazi-Girl<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> like this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchPhrase" title="/pmwiki/pmwiki.php/Main/CatchPhrase">Catchphrase</a>: Whenever <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Batman" title="/pmwiki/pmwiki.php/Franchise/Batman">Batman</a> shows up, "I'm Batman" is imminent. It's to the point where it's practically become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCoconutEffect" title="/pmwiki/pmwiki.php/Main/TheCoconutEffect">The Coconut Effect</a>&mdash;bad guys expect to hear "I'm Batman", and <a class="urllink" href="http://www.shortpacked.com/index.php?id=936">at least one bad guy realizes something's up when new Batman Dick Grayson doesn't say it<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CeilingCling" title="/pmwiki/pmwiki.php/Main/CeilingCling">Ceiling Cling</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1252">Attempted<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, but Leslie watches far too much sci-fi to fall for it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelebrityParadox" title="/pmwiki/pmwiki.php/Main/CelebrityParadox">Celebrity Paradox</a>:<ul><li> The strip has done a crossover with <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/SomethingPositive" title="/pmwiki/pmwiki.php/Webcomic/SomethingPositive">Something*Positive</a></em>, with Davan appearing in a strip and delivering one of Chho-Choo's kittens to Roz. However, a <em>Something Positive</em> booth with a full-size banner of Davan was seen in the background of a strip set at a convention, and Randy Milholland was mentioned as existing in-universe.</li><li> David Willis, the comic's creator, also exists in this universe, and has a rivalry with Ethan. His nickname is even still "<a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/WalkyVerse" title="/pmwiki/pmwiki.php/Webcomic/WalkyVerse">Walky</a>". A background gag in one strip suggests that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a> he is the creator of a comic called <em>Shortpants</em> instead of <em>Shortpacked</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">Cerebus Syndrome</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusRetcon" title="/pmwiki/pmwiki.php/Main/CerebusRetcon">Cerebus Retcon</a>: Parodied in the "Drama Tag" arc.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReverseCerebusSyndrome" title="/pmwiki/pmwiki.php/Main/ReverseCerebusSyndrome">Reverse Cerebus Syndrome</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a> doesn't last, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZigZaggingTrope" title="/pmwiki/pmwiki.php/Main/ZigZaggingTrope">but it is sometimes played with</a>.</li><li> Actually gets reconstructed during the "Leslie goes to an alternate universe" arc. She visits a world where the drama tag was never pulled. While it's funny it's also disturbing to see characters that have absolutely no <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterDevelopment" title="/pmwiki/pmwiki.php/Main/CharacterDevelopment">Character Development</a> at all, and live in barely-suppressed discomfort to afford a veneer of happiness. The moral: a world where nothing ever gets serious is a world where nothing ever matters.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChastityCouple" title="/pmwiki/pmwiki.php/Main/ChastityCouple">Chastity Couple</a>:<ul><li> Robin and Leslie were this before Robin got used to being in a same-sex relationship.</li><li> Malaya and Ultra Car were this due to UC's asexuality before Malaya admitted she didn't want <em>sex</em> so much as she wanted UC to get her off.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGunman" title="/pmwiki/pmwiki.php/Main/ChekhovsGunman">Chekhov's Gunman</a>:<ul><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=64">This grocer<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SarcasmMode" title="/pmwiki/pmwiki.php/Main/SarcasmMode">totally doesn't show up again</a>.</li><li> There is a whole saga that goes under the name <em>"When Robin Didn't Meet that Other Guy"</em>, in which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Robin (has the chance to but) doesn't meet Jake Manley</a>. A LOT later, when fans had already forgotten about him, they finally meet.</li><li> The above story arc also involves <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGag" title="/pmwiki/pmwiki.php/Main/ChekhovsGag">the list</a> from <a class="urllink" href="http://www.shortpacked.com/index.php?id=1178">this strip<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> Lucy first showed up in what looked like a one-off strip about Starfire's treatment in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TeenTitans" title="/pmwiki/pmwiki.php/WesternAnimation/TeenTitans">Teen Titans</a></em> cartoon versus the comics. She joined the main cast a while later.</li><li> Guess <a class="urllink" href="http://www.shortpacked.com/index.php?id=1072">who's<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> back as Ethan's <a class="urllink" href="http://www.shortpacked.com/index.php?id=1660">new boyfriend<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>?</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClusterFBomb" title="/pmwiki/pmwiki.php/Main/ClusterFBomb">Cluster F-Bomb</a>: Malaya is probably the most consistently foul-mouthed character, as <a class="urllink" href="http://www.shortpacked.com/index.php?id=1422">even her introduction<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> demonstrates. She even calls her iguana "Fuckface" (its real name is Herbert).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolAndUnusualPunishment" title="/pmwiki/pmwiki.php/Main/CoolAndUnusualPunishment">Cool and Unusual Punishment</a>:<ul><li> Ultra Car's preferred method of dealing with people who displease her is to strand them in the Amazon jungle, a practice she refers to as "Amazoning".</li><li> The ending of the "Robin vs Legion of Something" fight. Poor Sarah Palin! She didn't deserve that! (Faz did, though.)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingOutStory" title="/pmwiki/pmwiki.php/Main/ComingOutStory">Coming-Out Story</a>:<ul><li> Ethan, mainly as a result of Robin's clumsy attempts to seduce him.</li><li> Robin, who realized she'd been attracted to Amber at the start of the strip and later fell in love with Leslie.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColdTurkeysAreEverywhere" title="/pmwiki/pmwiki.php/Main/ColdTurkeysAreEverywhere">Cold Turkeys Are Everywhere</a>: It turns out Jacob is a recovering sex addict...who stumbles on a stash of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotLibrarian" title="/pmwiki/pmwiki.php/Main/HotLibrarian">hot librarians</a>, <span class="spoiler" title="you can set spoilers visible by default on your profile">seems to have a crush on Amber</span>, and became an unwilling <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChickMagnet" title="/pmwiki/pmwiki.php/Main/ChickMagnet">Chick Magnet</a> in one arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CommanderContrarian" title="/pmwiki/pmwiki.php/Main/CommanderContrarian">Commander Contrarian</a>: Malaya has done two things since she showed up: hit on Leslie, and complain about <em>absolutely everything.</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreatorThumbprint" title="/pmwiki/pmwiki.php/Main/CreatorThumbprint">Creator Thumbprint</a>: <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Transformers" title="/pmwiki/pmwiki.php/Franchise/Transformers">Transformers</a></em> humor. And, to a lesser extent, other toy and comic book humor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrossoverPunchline" title="/pmwiki/pmwiki.php/Main/CrossoverPunchline">Crossover Punchline</a>: The final panel of <a class="urllink" href="http://www.shortpacked.com/index.php?id=1761">this strip<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is set in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/DumbingOfAge" title="/pmwiki/pmwiki.php/Webcomic/DumbingOfAge">Dumbing of Age</a></em> universe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DareToBeBadass" title="/pmwiki/pmwiki.php/Main/DareToBeBadass">Dare to Be Badass</a>: Robin to <span class="spoiler" title="you can set spoilers visible by default on your profile">Mike</span> when he claims he is no good at comforting his fianc&eacute;e because he's... what he is.<div class="indent"><em>Dude, you are going to be a husband an' a father. <strong>Try harder.</strong></em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiscontinuityNod" title="/pmwiki/pmwiki.php/Main/DiscontinuityNod">Discontinuity Nod</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1188">"Hey, everyone agreed to never mention that 'Second Eaton' crap ever again."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DenserAndWackier" title="/pmwiki/pmwiki.php/Main/DenserAndWackier">Denser and Wackier</a>: Than the Walkyverse at large. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">Lampshaded</a> with the Drama Tag storyline which, while it did introduce Amber's rather dark backstory, largely just caused drama via <em>even wackier hijinks.</em> (Sure, <span class="spoiler" title="you can set spoilers visible by default on your profile">Robin and Leslie's breakup</span> was fairly depressing, but it was caused by <span class="spoiler" title="you can set spoilers visible by default on your profile">using Cadbury Cream eggs as cereal in order to induce a sugar-high black-out during which Robin could <em>legislate world peace</em></span>.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoggedNiceGuy" title="/pmwiki/pmwiki.php/Main/DoggedNiceGuy">Dogged Nice Guy</a>: Ken is a bit of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Deconstruction" title="/pmwiki/pmwiki.php/Main/Deconstruction">Deconstruction</a>. He spends years pursuing and obsessing over Malaya, who basically acts like a huge jerk to him and everyone else. When he finally admits how he feels she tells him in no uncertain terms that nothing will ever happen between them. He sleeps with Conquest to try to make her jealous but, after the massive confidence boost that comes from losing his virginity to an impossibly gorgeous woman (who later tells him that he was a good lover, despite his inexperience, because he is a <em>good person</em>) he seems to have decided "hey, forget her", and starts pursuing women who actually give him the time of day.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DontExplainTheJoke" title="/pmwiki/pmwiki.php/Main/DontExplainTheJoke">Don't Explain the Joke</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1928">This strip<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoppelgangerDating" title="/pmwiki/pmwiki.php/Main/DoppelgangerDating">Doppelg&auml;nger Dating</a>: Robin and Jake Manley.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DysfunctionJunction" title="/pmwiki/pmwiki.php/Main/DysfunctionJunction">Dysfunction Junction</a>: Practically all the characters have issues. And let's not even get started on the relationships between them...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Administrivia/EditWar" title="/pmwiki/pmwiki.php/Administrivia/EditWar">Edit War</a>: In-universe, where Ethan enters one on the Transformers wiki with Willis's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorAvatar" title="/pmwiki/pmwiki.php/Main/AuthorAvatar">Author Avatar</a>, based on the order in which information is being presented. This escalated into a real-world fistfight (with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MudWrestling" title="/pmwiki/pmwiki.php/Main/MudWrestling">pudding</a>, thanks to Robin).<div class="indent"><strong>Amber</strong>: I've said this for years. Internet fights should spare us the giant images of dogs or whatever with "PWNED" in huge text and just have people kill each other.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards" title="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards">Even Evil Has Standards</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">When Amber tells Faz that he's actually her half-brother he immediately goes and sets fire to his life-size Amber pillow, despite spending several years trying to get into her pants in any way possible.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryoneIsBi" title="/pmwiki/pmwiki.php/Main/EveryoneIsBi">Everyone Is Bi</a>: By the comic's end, everyone but Galasso and Reagan have had some form of romantic encounter with members of both sexes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilTwin" title="/pmwiki/pmwiki.php/Main/EvilTwin">Evil Twin</a>: Inverted; there's another store called McAwesome's Parasailing and Chocolate Bakery, which is basically a <a class="urllink" href="http://shortpacked.com/index.php?id=632">much-improved<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> version of Shortpacked!. Ethan juuust avoided going to work there because he happened to see Shortpacked! on the other corner.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactEavesdropping" title="/pmwiki/pmwiki.php/Main/ExactEavesdropping">Exact Eavesdropping</a>: Leslie shows up to make up with Robin <em>just</em> in time <span class="spoiler" title="you can set spoilers visible by default on your profile">to see her making out with Joe</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanDumb" title="/pmwiki/pmwiki.php/Main/FanDumb">Fan Dumb</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, fandoms are the bane of Ethan's existence (and Willis' in real life). Given that Ethan is also an active member of the fandom, it leads to plenty of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HypocriticalHumor" title="/pmwiki/pmwiki.php/Main/HypocriticalHumor">Hypocritical Humor</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FirstFatherWins" title="/pmwiki/pmwiki.php/Main/FirstFatherWins">First Father Wins</a>: One of the seasonal hires is apparently <a class="urllink" href="http://www.shortpacked.com/index.php?id=1974">the walking embodiment of every passed-over stepfather in movies<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AltText" title="/pmwiki/pmwiki.php/Main/AltText">Alt Text</a> specifically references <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/JamesMarsden" title="/pmwiki/pmwiki.php/Creator/JamesMarsden">James Marsden</a>, who's known for this (and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticRunnerUp" title="/pmwiki/pmwiki.php/Main/RomanticRunnerUp">Romantic Runner-Up</a>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlatWhat" title="/pmwiki/pmwiki.php/Main/FlatWhat">Flat "What"</a>: Mike's reaction upon learning that <a class="urllink" href="http://www.shortpacked.com/index.php?id=1081">Amber has adopted a pair of hamsters<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foreshadowing" title="/pmwiki/pmwiki.php/Main/Foreshadowing">Foreshadowing</a>:<ul><li> In the strip where Robin persuades Amber to snoop around Mike's room <span class="spoiler" title="you can set spoilers visible by default on your profile">Mike's McAwesome's uniform is somewhat visible in his closet</span> a while before it actually comes up in the story.</li><li> In a fairly early strip, Robin makes a crack about her father beating her, and Amber tells her sharply that's not appropriate to joke about. It was most of a year before we found out why.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoWordsAddedEmphasis" title="/pmwiki/pmwiki.php/Main/TwoWordsAddedEmphasis">Two Words: Added Emphasis</a>: Four in this case: "that is very good," with only the strip's title pointing them out, since the line again <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/LukeIAmYourFather" title="/pmwiki/pmwiki.php/Main/LukeIAmYourFather">reveals a hidden relation</a>, Amber and Faz being half-siblings</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudWasRight" title="/pmwiki/pmwiki.php/Main/FreudWasRight">Freud Was Right</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1103">Rosenthal Industries<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. <a class="urllink" href="http://www.shortpacked.com/index.php?id=1112">"So the building is ''intentionally'' penis-shaped, right?"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FridgeHorror" title="/pmwiki/pmwiki.php/Main/FridgeHorror">Fridge Horror</a>: In-universe, Amber seems to suffer from a case of this when she <span class="spoiler" title="you can set spoilers visible by default on your profile">realizes Faz might actually be her half-brother</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFunInFuneral" title="/pmwiki/pmwiki.php/Main/TheFunInFuneral">The "Fun" in "Funeral"</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">A slightly low-key version at Amber's dad's funeral. Mike attends in party attire, complete with little paper hat, noisemaker, and confetti; Amber freely admits to one of the mourners that her father was an abusive asshole; Faz introduces Amber to his new girlfriend and their...disturbing sex life; finally, Amber berates her father's corpse for dying before she got a chance to stand up to him...and then Mike flips off both middle fingers to the corpse while delivering this line:</span><div class="indent"><span class="spoiler" title="you can set spoilers visible by default on your profile"><strong>Mike:</strong> Later, jerkhole. I'm fuckin' your daughter.</span></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GainaxEnding" title="/pmwiki/pmwiki.php/Main/GainaxEnding">Gainax Ending</a>: The final arc throws all logic out the window, including, among other things: <span class="spoiler" title="you can set spoilers visible by default on your profile">reality collapsing due to too much diversity, Dina suddenly coming back to life and the cast facing down an invasion of Soggies.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GilliganCut" title="/pmwiki/pmwiki.php/Main/GilliganCut">Gilligan Cut</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=36">Mike cleverly hurts his boss.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGloriousWarOfSisterlyRivalry" title="/pmwiki/pmwiki.php/Main/TheGloriousWarOfSisterlyRivalry">The Glorious War of Sisterly Rivalry</a>: Robin vs. Roz</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGhost" title="/pmwiki/pmwiki.php/Main/TheGhost">The Ghost</a>: Hot Wheels Guy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a>: Well, actually, <a class="urllink" href="http://shortpacked.com/index.php?id=875">Heroic Network Timeout<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. There's an actual Blue Screen a bit later, <a class="urllink" href="http://shortpacked.com/index.php?id=877">but it seems to be more like the universe breaking<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. To make matters worse the story arc is called "<em>heroic bsod.</em>"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroOfAnotherStory" title="/pmwiki/pmwiki.php/Main/HeroOfAnotherStory">Hero of Another Story</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1381">Muffy Diver<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, albeit a story that is very similar to the Walkyverse narrative.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomoeroticDream" title="/pmwiki/pmwiki.php/Main/HomoeroticDream">Homoerotic Dream</a>: Ethan has a dream in which the cast of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheDailyShow" title="/pmwiki/pmwiki.php/Series/TheDailyShow">The Daily Show</a></em> appears before him in his apartment. When Ethan asks the cast why they're in his apartment, they explain that they're there "to help Rob Corddry make every erotic fantasy of yours come true!" The trouble is, Ethan <span class="spoiler" title="you can set spoilers visible by default on your profile">doesn't realize he's gay yet</span> and he wakes up startled. He decides he's had enough social commentary and should start watching porn like everyone else.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IAmSpartacus" title="/pmwiki/pmwiki.php/Main/IAmSpartacus">I Am Spartacus</a>:<ul><li> <a class="urllink" href="http://shortpacked.com/index.php?id=62">I'm Greg Killmaster!!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="urllink" href="http://www.shortpacked.com/index.php?id=1510">This time, he did someone's mother for real.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IfYouDieICallYourStuff" title="/pmwiki/pmwiki.php/Main/IfYouDieICallYourStuff">If You Die, I Call Your Stuff</a>: Luigi does this <a class="urllink" href="http://shortpacked.com/index.php?id=867">to a naive Daisy<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IgnoreTheFanservice" title="/pmwiki/pmwiki.php/Main/IgnoreTheFanservice">Ignore the Fanservice</a>: Robin walks up to Ethan in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SexySchoolwoman" title="/pmwiki/pmwiki.php/Main/SexySchoolwoman">skimpy school-girl outfit</a> holding a Batman toy, just to see what he notices first. (<a class="urllink" href="http://www.shortpacked.com/index.php?id=100">It's Batman<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImprobablyPredictable" title="/pmwiki/pmwiki.php/Main/ImprobablyPredictable">Improbably Predictable</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTapeKnewYouWouldSayThat" title="/pmwiki/pmwiki.php/Main/TheTapeKnewYouWouldSayThat">The Tape Knew You Would Say That</a>: Faz's voicemail message is absurdly specific for <a class="urllink" href="http://www.shortpacked.com/index.php?id=205">this situation<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsaneTrollLogic" title="/pmwiki/pmwiki.php/Main/InsaneTrollLogic">Insane Troll Logic</a>:<ul><li> Currently provides the page image.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkAss" title="/pmwiki/pmwiki.php/Main/JerkAss">Mike</a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=323">employs it here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to sell CPR's.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntercontinuityCrossover" title="/pmwiki/pmwiki.php/Main/IntercontinuityCrossover">Intercontinuity Crossover</a>:<ul><li> Leslie acquired a hairless, pink, hypoallergenic kitten, one of the litter sired by <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/SomethingPositive" title="/pmwiki/pmwiki.php/Webcomic/SomethingPositive">Choo-Choo Bear</a> on <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/GirlsWithSlingshots" title="/pmwiki/pmwiki.php/Webcomic/GirlsWithSlingshots">Sprinkles</a>.</li><li> Shortpacked!'s staff are often seen having conversations at <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/QuestionableContent" title="/pmwiki/pmwiki.php/Webcomic/QuestionableContent">Coffee of Doom</a>, comlete with background cameos from Marten, Faye, and Dora.</li><li> The <em>Shortpacked!</em> gang has seen movies at the <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Multiplex" title="/pmwiki/pmwiki.php/Webcomic/Multiplex">Multiplex</a> 10 on occasion, and <span class="spoiler" title="you can set spoilers visible by default on your profile">Malaya ended up having sex with Jason</span>.<ul><li> Though in their respective realities, the latter two comics take place far away from <em>Shortpacked!</em>, <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Willis claims</a> that the Walkyverse versions of Coffee of Doom and Multiplex 10 are located in San Francisco, the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/QuestionableContent" title="/pmwiki/pmwiki.php/Webcomic/QuestionableContent">Questionable Content</a></em> version of Shortpacked is located in Massachusetts, and the <em>Multiplex</em> version of Shortpacked is in Chicago, so it all works out. The Walkyverse Coffee of Doom is actually called Coffeeright Theft, but it has the same staff, layout, regular clientele, and espresso dinosaur.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IssueDrift" title="/pmwiki/pmwiki.php/Main/IssueDrift">Issue Drift</a>: Became considerably more political during the 2008 election, and given Robin's side job of being a Representative, the comic still drifted into the political realm from time to time until Robin lost her 2012 re-election bid.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IWantMyBelovedToBeHappy" title="/pmwiki/pmwiki.php/Main/IWantMyBelovedToBeHappy">I Want My Beloved to Be Happy</a>:<ul><li> Leslie, towards Robin, <em>so</em> many times, until Robin was finally able to realize that she was happiest with Leslie.</li><li> Mike's motive for trying to break up with Amber. Her definition of happiness didn't turn out to be what he expected, however.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JediMindTrick" title="/pmwiki/pmwiki.php/Main/JediMindTrick">Jedi Mind Trick</a>: Fuckface (Malaya's iguana) boosts Ultra Car's charisma to the point where people find it nearly impossible to <a class="urllink" href="http://www.shortpacked.com/index.php?id=2118">disagree with her<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheKnightsWhoSaySquee" title="/pmwiki/pmwiki.php/Main/TheKnightsWhoSaySquee">The Knights Who Say "Squee!"</a>: Referenced with <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Batman" title="/pmwiki/pmwiki.php/Franchise/Batman">Batman</a> getting <a class="urllink" href="http://www.shortpacked.com/index.php?id=1409">really excited that The Gray Ghost is putting on his old outfit<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LamarckWasRight" title="/pmwiki/pmwiki.php/Main/LamarckWasRight">Lamarck Was Right</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/SomethingPositive" title="/pmwiki/pmwiki.php/Webcomic/SomethingPositive">Choo-Choo Bear</a> gained his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting" title="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting">special abilities</a> because he was on chemo. Apparently, his kittens share the same abilities now.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserGuidedKarma" title="/pmwiki/pmwiki.php/Main/LaserGuidedKarma">Laser-Guided Karma</a>: Malaya gets a couple of doses:<ul><li> Her general <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkAss" title="/pmwiki/pmwiki.php/Main/JerkAss">Jerkass</a> attitudes toward nerds were rooted in <span class="spoiler" title="you can set spoilers visible by default on your profile">how much they remind her of that one boy she met when she was young who bored her when he couldn't stop talking about <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PrincessMononoke" title="/pmwiki/pmwiki.php/Anime/PrincessMononoke">Princess Mononoke</a></em>. She later finds herself having sex with the exact same boy (ie. Jason from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Multiplex" title="/pmwiki/pmwiki.php/Webcomic/Multiplex">Multiplex</a></em>) her unjustified nerd-hate came from, and doesn't take it well</span>.</li><li> Ken's abandonment of his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoggedNiceGuy" title="/pmwiki/pmwiki.php/Main/DoggedNiceGuy">Dogged Nice Guy</a> role towards her after sleeping with Conquest is a result of her shabby treatment of him and finally realizing he can do better.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LastHetRomance" title="/pmwiki/pmwiki.php/Main/LastHetRomance">Last Het Romance</a>: Robin for Ethan. She already suspects that he's gay, but pursues him anyway. He's not interested. She gets pissed off when he bangs a chick, and when he asks why she shouts he's supposed to be gay. Confronted with this, something goes click in his mind. Cue gayness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler" title="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler">Late-Arrival Spoiler</a>: If you're reading for the first time, avoid the comments section unless you really want to know in the first few strips about every relationship snag and plot twist throughout the whole comic. It's not helped by the fact that the current comment system was added in 2010, so for about five years' worth of strips <em>all</em> the comments are retrospective. Frequently the first comment on a page will explain how something on that page hints towards later developments.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall" title="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall">Leaning on the Fourth Wall</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Head Alien II</span>'s monologue about how the removal of the Drama Tag will eventually drive people away, seeing as they can get Batman elsewhere. In-universe, he's talking about the store, but from the audience's perspective he's talking about how a turn for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a> may drive away the comic's readers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeftHanging" title="/pmwiki/pmwiki.php/Main/LeftHanging">Left Hanging</a>: The comic ends just before <span class="spoiler" title="you can set spoilers visible by default on your profile">the staff fights the Sogmaster&mdash;the entire story arc is a reference to the line "Soggies May Rule" from a <em>Cap'n Crunch</em> ad, and as such the cliffhanger is the only way to maintain the ambiguity inherent in the "may" part of the sentence</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LetsYouAndHimFight" title="/pmwiki/pmwiki.php/Main/LetsYouAndHimFight">Let's You and Him Fight</a>: The New Amazi-Girl mistakes Ultra Car (in her new guise, since she won't fit in the Spider-Car guise any more) for a supervillain when the latter attempts to stop a shoplifter in the storeroom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingInAFurnitureStore" title="/pmwiki/pmwiki.php/Main/LivingInAFurnitureStore">Living in a Furniture Store</a>: Drew's apartment, in contrast to Ethan's. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedForDrama" title="/pmwiki/pmwiki.php/Main/PlayedForDrama">Played for Drama</a> as Ethan finds Drew's apartment uncomfortably sterile while Drew feels claustrophobic and a little creeped out surrounded by Ethan's toys.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveChart" title="/pmwiki/pmwiki.php/Main/LoveChart">Love Chart</a>: Robin drew one up to insure things never reached <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveDodecahedron" title="/pmwiki/pmwiki.php/Main/LoveDodecahedron">Love Dodecahedron</a> levels. It never really worked.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LukeIAmYourFather" title="/pmwiki/pmwiki.php/Main/LukeIAmYourFather">Luke, I Am Your Father</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Amber and Faz are half-siblings.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManChild" title="/pmwiki/pmwiki.php/Main/ManChild">Manchild</a>: Everyone has their moments, but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenkiGirl" title="/pmwiki/pmwiki.php/Main/GenkiGirl">Robin</a> really stands out.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegatonPunch" title="/pmwiki/pmwiki.php/Main/MegatonPunch">Megaton Punch</a>: Delivered by Leslie, of all people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MerchandiseDriven" title="/pmwiki/pmwiki.php/Main/MerchandiseDriven">Merchandise-Driven</a>: Discussed when Ethan is incredulous at a claim that Transformers, a franchise that has always been centered around shilling toys, somehow sold out its integrity with the movie adaptation.<div class="indent"><strong>Ethan</strong>: How can Transformers possibly 'sell out'? It "started" as a 20-minute toy commercial.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a>: An intense moment between Robin and Leslie is interrupted by Ethan...who's in the middle of some sexy roleplay with Drew.<div class="indent"><strong>Drew</strong>: Get back here, I'm not finished capturing the Riddler!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MySensorsIndicateYouWantToTapThat" title="/pmwiki/pmwiki.php/Main/MySensorsIndicateYouWantToTapThat">My Sensors Indicate You Want to Tap That</a>: Ultra Car in <span class="spoiler" title="you can set spoilers visible by default on your profile">her new humanoid chassis</span>:<div class="indent">My sensors indicate your body temperature is now rearranging in a way similar to the bodies of meatfolks with a desire to engage in - <strong>oh</strong>.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MythologyGag" title="/pmwiki/pmwiki.php/Main/MythologyGag">Mythology Gag</a>: The anomaly in the final arc is a "class one-nine-nine-seven", or 1997, the year the Walkyverse started.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot" title="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot">Ninja Pirate Zombie Robot</a>: "GALASSO'S ASSEMBLED AN ARMY OF CANNON-WIELDING HAMSTERS!"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotEvenBotheringWithAnExcuse" title="/pmwiki/pmwiki.php/Main/NotEvenBotheringWithAnExcuse">Not Even Bothering with an Excuse</a>: In one strip, Galasso calls on the radio for someone to deal with the two customers up front. Everyone either has a genuine reason or an excuse, in the middle of which, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Mike</a> offers "I don't feel like it."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OfCorsetsSexy" title="/pmwiki/pmwiki.php/Main/OfCorsetsSexy">Of Corsets Sexy</a>: Amber briefly tries this when Robin informs her that it will make her attractive and therefore unapproachable.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OffscreenMomentOfAwesome" title="/pmwiki/pmwiki.php/Main/OffscreenMomentOfAwesome">Offscreen Moment of Awesome</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Robin dismembers Head Alien while Leslie's blacked out.</span><div class="indent"><span class="spoiler" title="you can set spoilers visible by default on your profile"><strong>Robin</strong></span>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">Shoulda seen it. It was awesome.</a></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">Oh, Crap!</a>: Amber punches Mike hard enough to make him <em><a class="urllink" href="http://www.shortpacked.com/index.php?id=1167">smile<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>. The end times are upon us all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnceDoneNeverForgotten" title="/pmwiki/pmwiki.php/Main/OnceDoneNeverForgotten">Once Done, Never Forgotten</a>: Robin's a decorated war hero, and served two terms as her district's congresswoman, having ran actively for a third term, and having been key an a great deal of landmark legislation, including one bill that resulted in a month of world peace. All people remember her from is that one sex tape.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnceMoreWithClarity" title="/pmwiki/pmwiki.php/Main/OnceMoreWithClarity">Once More, with Clarity!</a>: <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="urllink" href="http://www.shortpacked.com/index.php?id=180">Galasso<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <span class="spoiler" title="you can set spoilers visible by default on your profile">burning the drama tag</span> goes unexplained for seven years. Cue <a class="urllink" href="http://www.shortpacked.com/index.php?id=1806">this strip<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, and the scene suddenly becomes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HarsherInHindsight" title="/pmwiki/pmwiki.php/Main/HarsherInHindsight">heartbreaking</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OOCIsSeriousBusiness" title="/pmwiki/pmwiki.php/Main/OOCIsSeriousBusiness">OOC Is Serious Business</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1629">For the first time in seven years<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmugSnake" title="/pmwiki/pmwiki.php/Main/SmugSnake">Faz</a> stopped smiling smugly when he discovered <span class="spoiler" title="you can set spoilers visible by default on your profile"> Amber is his half-sister</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutnumberedSibling" title="/pmwiki/pmwiki.php/Main/OutnumberedSibling">Outnumbered Sibling</a>: Ultra Car is the original prototype Rosenthal Industries smart car and worries her huge family of younger but less-sophisticated smart car siblings have taken her place in her father's eyes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OverlyNarrowSuperlative" title="/pmwiki/pmwiki.php/Main/OverlyNarrowSuperlative">Overly Narrow Superlative</a>: <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheAvengers2012" title="/pmwiki/pmwiki.php/Film/TheAvengers2012">The Avengers</a></em>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1643">the best movie Historical Jesus has seen in his entire life<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> (out of a sample size of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheAvengers2012" title="/pmwiki/pmwiki.php/Film/TheAvengers2012">The Avengers</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ShortCircuit" title="/pmwiki/pmwiki.php/Film/ShortCircuit">Short Circuit</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ShortCircuit2" title="/pmwiki/pmwiki.php/Film/ShortCircuit2">Short Circuit 2</a></em>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaintingTheMedium" title="/pmwiki/pmwiki.php/Main/PaintingTheMedium">Painting the Medium</a>: When Lucy becomes the new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LegacyCharacter" title="/pmwiki/pmwiki.php/Main/LegacyCharacter">Amazi-Girl</a> Robin tells her to "say it like a logo". Sure enough, the next time she says "<strong>AMAZI-GIRL</strong>" it's in its very own font. Lucy lampshades that she didn't say it any different.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PassingTheTorch" title="/pmwiki/pmwiki.php/Main/PassingTheTorch">Passing the Torch</a>: Amber to Lucy.<div class="indent"><strong>Ethan</strong>: Are you hired? <br><strong>Lucy</strong>: I <strong>think</strong> so. She cried for, like, five minutes and then handed me this corn popper.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaperThinDisguise" title="/pmwiki/pmwiki.php/Main/PaperThinDisguise">Paper-Thin Disguise</a>: Robin has no idea who Amazi-Girl actually is. Her confusion leads to her accusing Amber of being Ultra Car <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfFunny" title="/pmwiki/pmwiki.php/Main/RuleOfFunny">for some reason</a>. Fans continue the joke, never recognizing Amazi-Girl.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PayEvilUntoEvil" title="/pmwiki/pmwiki.php/Main/PayEvilUntoEvil">Pay Evil unto Evil</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedForLaughs" title="/pmwiki/pmwiki.php/Main/PlayedForLaughs">Played for Laughs</a> when Lucy finds a robber in the store and attacks him. She stops and questions the morality of that, until the guy insults her by calling her a fake geek girl, and she goes back to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheSonOfABitch" title="/pmwiki/pmwiki.php/Main/KickTheSonOfABitch">beating him up</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerverseSexualLust" title="/pmwiki/pmwiki.php/Main/PerverseSexualLust">Perverse Sexual Lust</a>: A very negative in-universe example: Omnios appeared in a three-strip run in November 2008, a 26-year-old social outcast with <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AspergerSyndrome" title="/pmwiki/pmwiki.php/UsefulNotes/AspergerSyndrome">"Aspergers-y" symptoms</a> who continuously raves about his crush on <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/MyLifeAsATeenageRobot" title="/pmwiki/pmwiki.php/WesternAnimation/MyLifeAsATeenageRobot">Jenny Wakeman</a>. Turns out that Omnios was a real user on the Allspark Forums, which David Willis is a member of. Omnios has since been banned, but he's achieved a bit of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MemeticMutation" title="/pmwiki/pmwiki.php/Main/MemeticMutation">Memetic Mutation</a> as one who <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeWhoMustNotBeNamed" title="/pmwiki/pmwiki.php/Main/HeWhoMustNotBeNamed">One Who Must Not Be Spoken Of</a> amongst the Allspark users.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProgressivelyPrettier" title="/pmwiki/pmwiki.php/Main/ProgressivelyPrettier">Progressively Prettier</a>: Amber's mom, Stacy, <a class="urllink" href="http://www.shortpacked.com/index.php?id=506">was fat and plain looking<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> when first introduced. In her later appearance she's <a class="urllink" href="http://www.shortpacked.com/index.php?id=1255">lost a lot of weight, though still chubby, and is far more well-groomed<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Justified, as the next comic has her mentioning that she has made some positive changes in her life after divorcing Amber's abusive father. Exercising, and buying newer and better clothes and makeup are probably at least some of those changes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchClockVillain" title="/pmwiki/pmwiki.php/Main/PunchClockVillain">Punch-Clock Villain</a>: Duncan, in a sense. In most of his appearances, he whines about toys, but outside the store he's a nice guy, and even tries to be friends with Ethan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunnyName" title="/pmwiki/pmwiki.php/Main/PunnyName">Punny Name</a>: Between Leslie Bean and Faz O. Lee (them and about half-a-dozen other Walkyverse characters), Willis has shown quite a fondness for these. However, it is subverted at least once:<div class="indent"><strong>Robin:</strong> Hey, it's that guy! <br><strong>Thad:</strong> My name is Thaddeus. <br><strong>Robin:</strong> <em>Thad</em> ? Is your last name "Guy"? <br><strong>Thad:</strong> No. <br><strong>Robin:</strong> Dang, that would've been convenient.</div><ul><li> Malaya means <em>free</em> in the Philippine language. Doubles as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a>.</li><li> According to the tags, <a class="urllink" href="http://www.shortpacked.com/index.php?id=1861">this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1863">guy's<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> name is "Whitney McJority".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PutOnABus" title="/pmwiki/pmwiki.php/Main/PutOnABus">Put on a Bus</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Amber, Mike and Ethan</span> so that their arcs could be finished satisfactorily without <em>Shortpacked!</em> immediately ending.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Faz</span>, after annoying Robin one time too many, was last seen <span class="spoiler" title="you can set spoilers visible by default on your profile">climbing into a lion pit</span> and wasn't seen again until very near the end of the comic in one panel <span class="spoiler" title="you can set spoilers visible by default on your profile">having killed at least one lion and wearing its skin as clothes</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheReasonYouSuckSpeech" title="/pmwiki/pmwiki.php/Main/TheReasonYouSuckSpeech">"The Reason You Suck" Speech</a>: Leslie receives one from <span class="spoiler" title="you can set spoilers visible by default on your profile">Head Alien II when she tries to stop him</span>, pointing out that she's a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlatCharacter" title="/pmwiki/pmwiki.php/Main/FlatCharacter">Flat Character</a> who is only interesting due to her attachment to Robin. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShutUpHannibal" title="/pmwiki/pmwiki.php/Main/ShutUpHannibal">Leslie responds</a> by pointing out that she has people who care about her and whom she cares about, which is more important than <span class="spoiler" title="you can set spoilers visible by default on your profile">Head Alien</span>'s "big bully mad-on".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecoveredAddict" title="/pmwiki/pmwiki.php/Main/RecoveredAddict">Recovered Addict</a>: Jacob has an addictive personality and has become hooked on a variety of interests; part of the reason he's stuck working retail is that his addictions interfered with his studying law. Roz abused his addiction to get cheap, relationship-free sex, only for him to realize what it was doing to him. Eventually Amber got him out of his slump and he got clean, completing his law degree and moving away.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedEyesTakeWarning" title="/pmwiki/pmwiki.php/Main/RedEyesTakeWarning">Red Eyes, Take Warning</a>:<ul><li> Amber, when cursing the fact that she can't afford the new '80s Ninja Turtles toys because she's buying stuff for the coming baby instead.</li><li> Robin, when <span class="spoiler" title="you can set spoilers visible by default on your profile">Faz tries to touch her pregnant belly</span>, along with a furious snarling face. The sight is so terrifying <span class="spoiler" title="you can set spoilers visible by default on your profile">that Faz not only loses his grin, he immediately climbs into a lion pit</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReplacementScrappy" title="/pmwiki/pmwiki.php/Main/ReplacementScrappy">Replacement Scrappy</a>: <span style="display:none">invoked</span> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1333">Discussed<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> with regards to the "<em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TransformersPrime" title="/pmwiki/pmwiki.php/WesternAnimation/TransformersPrime">Prime</a></em> killed <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TransformersAnimated" title="/pmwiki/pmwiki.php/WesternAnimation/TransformersAnimated">Animated</a></em>" school of thought.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RiddleForTheAges" title="/pmwiki/pmwiki.php/Main/RiddleForTheAges">Riddle for the Ages</a>:<ul><li> How did Mike come back to life? Yes, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathIsCheap" title="/pmwiki/pmwiki.php/Main/DeathIsCheap">Death Is Cheap</a>, but Mike's resurrection is impossible even by the methods present in the Walkyverse. General consensus among readers is that he came back to life through sheer <em>spite</em>. <span class="spoiler" title="you can set spoilers visible by default on your profile">This one was finally answered at Mike and Amber's wedding. Joyce got some of his blood on her shirt when he sacrificed himself for her. She also happened to give a non-government affiliated tech company the means to make their own resurrection chamber.</span></li><li> Relatedly, how exactly does Galasso manage to bring back dead people? And why does he have trouble with basic concepts like gender?</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculouslyCuteCritter" title="/pmwiki/pmwiki.php/Main/RidiculouslyCuteCritter">Ridiculously Cute Critter</a>: Leslie's new cat looks less like an actual cat and more like a <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Pokemon" title="/pmwiki/pmwiki.php/Franchise/Pokemon">Mew</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RightThroughTheWall" title="/pmwiki/pmwiki.php/Main/RightThroughTheWall">Right Through the Wall</a>: The walls of the apartment complex the staff lives in are quite thin, and thus hearing your neighbors' fun times is sometimes unavoidable. <span class="spoiler" title="you can set spoilers visible by default on your profile">Mike figures out a way to make this work for him.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RevengeBeforeReason" title="/pmwiki/pmwiki.php/Main/RevengeBeforeReason">Revenge Before Reason</a>: Sydney Yus makes some odd plans to get revenge for being fired.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Robosexual" title="/pmwiki/pmwiki.php/Main/Robosexual">Robosexual</a>: Malaya for Ultra Car, which provides some drama as they try to figure out how to make a relationship work given that UC has a doll-like body and no sex drive.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>:<ul><li> Major characters calling minor character Ken by the wrong name: "I knew it was something from <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StreetFighter" title="/pmwiki/pmwiki.php/Franchise/StreetFighter">Street Fighter</a>!" Picked up quickly by the commenters, where it's become obligatory to call him by a new Street Fighter character name every time he's referred to.</li><li> Apparently <a class="twikilink" href="/pmwiki/pmwiki.php/Main/God" title="/pmwiki/pmwiki.php/Main/God">God</a> really wants <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekEnterprise" title="/pmwiki/pmwiki.php/Series/StarTrekEnterprise">Star Trek: Enterprise</a></em> back on the air.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheChroniclesOfNarnia" title="/pmwiki/pmwiki.php/Literature/TheChroniclesOfNarnia">Aslan</a> is always waiting for a bus. The one time it showed up, he'd just been called away.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanitySlippage" title="/pmwiki/pmwiki.php/Main/SanitySlippage">Sanity Slippage</a>: Anyone who works at Shortpacked! (and quite a few of the customers) will inevitably regress/evolve into or reveal themselves to be a tangled, neurotic mess, a jerk, or both.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharkPool" title="/pmwiki/pmwiki.php/Main/SharkPool">Shark Pool</a>: Galasso has one installed right under the store.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShipperWithAnAgenda" title="/pmwiki/pmwiki.php/Main/ShipperWithAnAgenda">Shipper with an Agenda</a>: Subverted. Amber once had a long-distance boyfriend with a female roommate. Amber was slightly worried, but Nathan assured her there was nothing going on. It turned out Meredith even gave him fashion advice&mdash;an absolutely repulsive pedostache that caused Amber to break up with him almost as soon as they met in person. Cut to the freshly-shaved Nathan and Meredith in bed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> Actually, to <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TVTropes" title="/pmwiki/pmwiki.php/Wiki/TVTropes">TV Tropes</a>! Robin refers to the term <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/SugarWiki/MomentOfAwesome" title="/pmwiki/pmwiki.php/SugarWiki/MomentOfAwesome">Moment of Awesome</a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=687">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> Willis' design for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MirrorUniverse" title="/pmwiki/pmwiki.php/Main/MirrorUniverse">Shattered Glass</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Transformers" title="/pmwiki/pmwiki.php/Franchise/Transformers">Buzzsaw</a>, seen <a class="urllink" href="http://www.shortpacked.com/index.php?id=1226=">here,<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> rips off <a class="twikilink" href="/pmwiki/pmwiki.php/ComicStrip/Peanuts" title="/pmwiki/pmwiki.php/ComicStrip/Peanuts">Woodstock</a>.</li><li> A <em>very</em> subtle reference to <em>It's Walky!</em> in the title of this strip, <a class="urllink" href="http://www.shortpacked.com/index.php?id=1267">"Four Words"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. For the uninitiated, <span class="spoiler" title="you can set spoilers visible by default on your profile">Head Alien surprised Walky with the knowledge that Sal is his twin sister by saying: "Okay, <em>four words</em>..." This reveal is similarly brain-shattering.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Film/MissionImpossible" title="/pmwiki/pmwiki.php/Film/MissionImpossible">Your mission,</a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1295">should you choose to accept it....<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><ul><li> Along a similar line...</li></ul><div class="indent"> <strong>Amber</strong>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1205">"...YE NOT GUILTY!"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/Watchmen" title="/pmwiki/pmwiki.php/ComicBook/Watchmen">I did it</a> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1310">thirty-five minutes ago.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> Either a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> or a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThat" title="/pmwiki/pmwiki.php/Main/TakeThat">Take That!</a> flavored with some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RefugeInAudacity" title="/pmwiki/pmwiki.php/Main/RefugeInAudacity">Refuge in Audacity</a>: The banner ads featuring some weird picture of David Willis (say, sitting in a bubble bath, or eating a corn dog on a toilet) with "Please Read: A Personal Appeal From David Willis" in the style of the donation drive ads that appeared on <a class="twikilink" href="/pmwiki/pmwiki.php/Wiki/TheOtherWiki" title="/pmwiki/pmwiki.php/Wiki/TheOtherWiki">The Other Wiki</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/BeastWars" title="/pmwiki/pmwiki.php/WesternAnimation/BeastWars">Robin versus the Axis of Something</a> is Shortpacked!'s version of "Code of Hero".</li><li> Amber is unimpressed with a <a class="urllink" href="http://www.shortpacked.com/index.php?id=377">plot summary<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of <em>Roomies</em>.</li><li> The comic practically trips over Batman jokes, but one of its better homages was done by <a class="urllink" href="http://www.shortpacked.com/index.php?id=175">Robin<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of all people.</li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=382">This strip<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>:<div class="indent"><strong>Robin</strong>: You know, I'm not a lesbian. <br><strong>Leslie</strong>: <a class="twikilink" href="/pmwiki/pmwiki.php/Film/SomeLikeItHot" title="/pmwiki/pmwiki.php/Film/SomeLikeItHot">Nobody's perfect.</a></div></li><li> Bill Watterson gets <a class="urllink" href="http://www.shortpacked.com/index.php?id=995">an extended one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, complete with <a class="twikilink" href="/pmwiki/pmwiki.php/ComicStrip/CalvinAndHobbes" title="/pmwiki/pmwiki.php/ComicStrip/CalvinAndHobbes">evil-god Calvin.</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShownTheirWork" title="/pmwiki/pmwiki.php/Main/ShownTheirWork">Shown Their Work</a>: The "Secondish Coming" arc has a realistic-looking portrayal of Jesus as a short, dark-skinned man.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SituationalSexuality" title="/pmwiki/pmwiki.php/Main/SituationalSexuality">Situational Sexuality</a>: Malaya is attracted to Ultra Car. This despite having previously said she was "actually" straight to Leslie, and in one of the most brutally honest ways imaginable at that.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmugSnake" title="/pmwiki/pmwiki.php/Main/SmugSnake">Smug Snake</a>:<ul><li> Faz, but he's hilariously bad at it.</li><li> Roz is a more subtle example, given her efforts to insinuate herself into her sister's life and seduce all of her friends.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SorryImGay" title="/pmwiki/pmwiki.php/Main/SorryImGay">Sorry, I'm Gay</a>: Inverted (and possibly subverted?) by Malaya. She went out with Leslie, but upon kissing her decided that she was straight after all. (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/Robosexual" title="/pmwiki/pmwiki.php/Main/Robosexual">She's not</a>, but that doesn't make her orientation compatible with Leslie.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpinOff" title="/pmwiki/pmwiki.php/Main/SpinOff">Spin-Off</a>: From the <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/WalkyVerse" title="/pmwiki/pmwiki.php/Webcomic/WalkyVerse">Walky saga</a>, with Robin and Mike as the spin-offees.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpitTake" title="/pmwiki/pmwiki.php/Main/SpitTake">Spit Take</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1184">Played with.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> Robin hears something shocking while taking a drink, only to swallow. She then takes another drink just so she can have a proper spit-take, complete with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnsoundEffect" title="/pmwiki/pmwiki.php/Main/UnsoundEffect">Unsound Effect</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StalkerWithACrush" title="/pmwiki/pmwiki.php/Main/StalkerWithACrush">Stalker with a Crush</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/SuperMarioBros" title="/pmwiki/pmwiki.php/Franchise/SuperMarioBros">Shy Guys</a> - <a class="urllink" href="http://www.shortpacked.com/index.php?id=867">to a rather creepy degree<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StatingTheSimpleSolution" title="/pmwiki/pmwiki.php/Main/StatingTheSimpleSolution">Stating the Simple Solution</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1197">Robin questions the logic<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of Sydney Yus' <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisproportionateRetribution" title="/pmwiki/pmwiki.php/Main/DisproportionateRetribution">Disproportionate Retribution</a> plan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StraightGay" title="/pmwiki/pmwiki.php/Main/StraightGay">Straight Gay</a>: Ethan was probably the most normal character until Jacob came along.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawFan" title="/pmwiki/pmwiki.php/Main/StrawFan">Straw Fan</a>: Numerous one-shot characters, and a few nameless recurring extras. Oddly enough, most of them are actually members of the Transformers fandom, not the comic's.Eventually, Willis started posting links in the comments <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoesLaw" title="/pmwiki/pmwiki.php/Main/PoesLaw">demonstrating that</a> <em>actual fan postings</em> are the source for at least some of the one-shot characters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawMisogynist" title="/pmwiki/pmwiki.php/Main/StrawMisogynist">Straw Misogynist</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawFan" title="/pmwiki/pmwiki.php/Main/StrawFan">Straw Fan</a> of the "False Equivalence" strip exists solely to realize he's being sexist and to say that a version of Batman that a woman finds sexy makes him uncomfortable.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawVulcan" title="/pmwiki/pmwiki.php/Main/StrawVulcan">Straw Vulcan</a>: Mocked with <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/GIJoe" title="/pmwiki/pmwiki.php/Franchise/GIJoe">Scarlett</a>, who <a class="urllink" href="http://www.shortpacked.com/index.php?id=980">even consults the "Hollywood Strawman Scientist"'s handbook<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> for advice.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StylisticCallback" title="/pmwiki/pmwiki.php/Main/StylisticCallback">Stylistic Callback</a>:<ul><li> The art style changes back to the style found in the earlier color comics in <span class="spoiler" title="you can set spoilers visible by default on your profile">an alternate universe Shortpacked!</span> to represent <span class="spoiler" title="you can set spoilers visible by default on your profile">how the drama tag is sucking out all the drama in the universe</span>. It changes back when <span class="spoiler" title="you can set spoilers visible by default on your profile">Rachel</span> shows up.</li><li> In the same storyline, a flashback to <span class="spoiler" title="you can set spoilers visible by default on your profile">an earlier period in that universe</span> is shown in black and white, calling back to the earliest <em>Shortpacked</em> comics.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SureLetsGoWithThat" title="/pmwiki/pmwiki.php/Main/SureLetsGoWithThat">Sure, Let's Go with That</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=1263">"Yes. My real offer."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThat" title="/pmwiki/pmwiki.php/Main/TakeThat">Take That!</a>:<ul><li> <a class="urllink" href="https://shortpacked.com/comic/smallbots">"Smallbots"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is a jab towards <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/LilFormers" title="/pmwiki/pmwiki.php/Webcomic/LilFormers">Lil' Formers</a></em> and its bias towards every <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Transformers" title="/pmwiki/pmwiki.php/Franchise/Transformers">Transformers</a></em> continuity that isn't <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheTransformers" title="/pmwiki/pmwiki.php/WesternAnimation/TheTransformers">the Generation One cartoon</a>, stating that essentially every strip covering a non-G1 Transformers continuity is nothing more than the author bashing the work and unfoundedly saying it's bad just because it isn't G1 by having a character's G1 counterpart insult their counterpart from another continuity.</li></ul><div class="indent"><strong>Amber</strong>: I keep clicking through in hopes that eventually the cartoonist discovers humor.</div><div class="indent"><strong>Robin</strong>: I dunno, there's somethin' to be said for beatin' an idea into the ground.</div><div class="indent"><strong>Ethan</strong>: All fanboys except me are stupid!</div><ul><li> <a class="urllink" href="https://shortpacked.com/comic/historical">"Historical"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is essentially one huge middle finger on modern derailment of Christianity.</li><li> <a class="urllink" href="https://shortpacked.com/comic/gothic">"Gothic"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> has God complain about <a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/GreenArrow" title="/pmwiki/pmwiki.php/ComicBook/GreenArrow">Green Arrow</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Series/Arrow" title="/pmwiki/pmwiki.php/Series/Arrow">getting his TV show</a>, naming Green Arrow the worst superhero in existence.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TestKiss" title="/pmwiki/pmwiki.php/Main/TestKiss">Test Kiss</a>: When Ethan turns out to be gay, Robin tries this. It's immediately followed by Mike kissing him, and the audience figures out that Ethan never actually knew he was gay until that moment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThatSatisfyingCrunch" title="/pmwiki/pmwiki.php/Main/ThatSatisfyingCrunch">That Satisfying Crunch</a>: Ethan really has it in for <a class="urllink" href="https://web.archive.org/web/20171126121606/http://www.shortpacked.com:80/2010/comic/book-12/05-neww-2010-comics/gangsta/">Alternators Tracks<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThatWasNotADream" title="/pmwiki/pmwiki.php/Main/ThatWasNotADream">That Was Not a Dream</a>: Robin goes through this shortly after pulling the Drama tag.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereAreNoGlobalConsequences" title="/pmwiki/pmwiki.php/Main/ThereAreNoGlobalConsequences">There Are No Global Consequences</a>:<ul><li> The alien invasion that Robin and Mike fought against is only occasionally mentioned&mdash;justified in one instance by Robin, who points out that her co-workers have their own stuff going on and aren't necessarily going to notice any of the political fallout.</li><li> Subverted with Ultra-Car, who's horrified to discover Joe has mass-produced talking cars like herself, and miffed when her existence can't freak Lucy out on account of their omnipresence.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThirdPersonPerson" title="/pmwiki/pmwiki.php/Main/ThirdPersonPerson">Third-Person Person</a>: Faz slips in and out of this speech pattern. Can be blamed more on his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmugSnake" title="/pmwiki/pmwiki.php/Main/SmugSnake">arrogance</a> than on any difficulty speaking English.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTalk" title="/pmwiki/pmwiki.php/Main/TheTalk">The Talk</a>: Leslie and Ethan decide they must give this to Galasso when they discover he not only doesn't understand what sex is, but possibly what <em>gender</em> is.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TicketLineCampout" title="/pmwiki/pmwiki.php/Main/TicketLineCampout">Ticket-Line Campout</a>: <a class="urllink" href="http://www.shortpacked.com/index.php?id=939">For Revenge of the Fallen.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transplant" title="/pmwiki/pmwiki.php/Main/Transplant">Transplant</a>: Robin, Mike, and Ultra Car come over from the Walkyverse, and UC occasionally drags Joe in with her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnexplainedRecovery" title="/pmwiki/pmwiki.php/Main/UnexplainedRecovery">Unexplained Recovery</a>: Mike, Ronald Regan, Jesus Christ. <span class="spoiler" title="you can set spoilers visible by default on your profile">Joyce eventually gives a cryptic explanation to Amber about how Mike was brought back, but Ronnie and Jesus' returns are never fleshed out.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnrequitedLoveSwitcheroo" title="/pmwiki/pmwiki.php/Main/UnrequitedLoveSwitcheroo">Unrequited Love Switcheroo</a>: Robin and Leslie do this more than once over the years before settling down with kids.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnsoundEffect" title="/pmwiki/pmwiki.php/Main/UnsoundEffect">Unsound Effect</a>:<ul><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=955">LICKY-STYLE!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1153">SMUCKERS!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1159">BUTT-BUMP!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1184">SPITTAKE!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1260">REVEAL!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1261">S'ARR&Ecirc;TE!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1557">SPHINCTER CLENCH!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1645">DELOREAN!<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnusualEuphemism" title="/pmwiki/pmwiki.php/Main/UnusualEuphemism">Unusual Euphemism</a>: &#147;Cheese&#148; and &#147;Cheesus&#148; for Jesus, a carryover from the <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Walkyverse" title="/pmwiki/pmwiki.php/Webcomic/Walkyverse">Walkyverse</a> which featured a godlike being called the Cheese.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WackyMarriageProposal" title="/pmwiki/pmwiki.php/Main/WackyMarriageProposal">Wacky Marriage Proposal</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Mike, of all people</span>, but <strong>so</strong> typical: <span class="spoiler" title="you can set spoilers visible by default on your profile">he recorded the sounds of Jacob having sex with Amber's mom and rearranged them to sound out "Amber, will you marry me?" in the hopes that Amber would be too horrified to stay with him. It had the opposite effect.</span></li><li> Willis proposed to his girlfriend <em>via webcomic</em>, though there is <a class="urllink" href="http://www.penny-arcade.com/comic/1999/02/17">certainly a precedent<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeightWoe" title="/pmwiki/pmwiki.php/Main/WeightWoe">Weight Woe</a>:<ul><li> Part of Amber's character development was getting over this and realizing she was actually quite attractive.</li><li> Malaya goes through this in the "Girthday" arc. Judging from the banner she still isn't over her sudden weight gain even if (uncharacteristically for her) she hasn't complained much about it in-story.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeirdnessMagnet" title="/pmwiki/pmwiki.php/Main/WeirdnessMagnet">Weirdness Magnet</a>: The store is run by a would-be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOverlord" title="/pmwiki/pmwiki.php/Main/EvilOverlord">Evil Overlord</a> and its staff has included two ex-super soldiers, a robot, Ronald Reagan, the historical Jesus and a man so obsessed with ninja he views the world around him as manga.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellDoneSonGuy" title="/pmwiki/pmwiki.php/Main/WellDoneSonGuy">"Well Done, Son!" Guy</a>: Ultra Car. Not because of anything Joe did&mdash;he's actually more of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoProudOfYou" title="/pmwiki/pmwiki.php/Main/SoProudOfYou">So Proud of You</a> guy&mdash;Ultra Car is just that insecure.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>:<ul><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1353">Right before a two week hiatus, no less.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Mike proposing to Amber...by rearranging a recording of the noises of Jacob and Amber's mom having sex into a proposal.</span></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">We find out Amber is pregnant.</span></li><li> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1775">Another one before a two-week hiatus.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamLine" title="/pmwiki/pmwiki.php/Main/WhamLine">Wham Line</a>:<ul><li> Both in real life <em>and</em> in-universe: <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="urllink" href="http://www.shortpacked.com/index.php?id=1473">"Wow, I'm marrying the Devil."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span></li><li> From the same arc: <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="urllink" href="http://www.shortpacked.com/index.php?id=1501">"Because I love her."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="urllink" href="http://www.shortpacked.com/index.php?id=1584">"Damn, I guess I'm straight after all."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span></li><li> Where an alternate universe Pamela is revealed to have more to her. <span class="spoiler" title="you can set spoilers visible by default on your profile">"As I suspected. You're here for my tag. Well, you can't have it. Nothing's separating me from my daughter."</span><ul><li> Followed by:</li></ul></li></ul><div class="indent"><strong>Leslie:</strong> Pamela, <span class="spoiler" title="you can set spoilers visible by default on your profile">you created the drama tag?</span></div><ul><li> "Actually, <span class="spoiler" title="you can set spoilers visible by default on your profile">you're having <strong>three</strong> babies.</span>"</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatTheHellHero" title="/pmwiki/pmwiki.php/Main/WhatTheHellHero">What the Hell, Hero?</a>:<ul><li> At one point, Ethan gets into an argument with one of the recurring straw fans (Duncan), only to have it pointed out to him that he's in no position to criticize anyone due to letting the others keep Galasso locked up. Cue brief <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a>, followed by him deciding enough's enough.</li><li> Also on the receiving end of one when Thad, at that point another recurring customer, pointed out that Ethan's eagerness to embroil himself in meaningless debates with irritating in-universe examples of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanDumb" title="/pmwiki/pmwiki.php/Main/FanDumb">Fan Dumb</a> meant he was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoDifferent" title="/pmwiki/pmwiki.php/Main/NotSoDifferent">little better than them</a> and had no place feeling or acting superior over them.</li></ul><div class="indent"><strong>Thad:</strong> I think at some point your love of your hobby was replaced bit by bit by merely wanting to be better at loving your hobby than other people.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourMom" title="/pmwiki/pmwiki.php/Main/YourMom">Your Mom</a>: Mike's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchPhrase" title="/pmwiki/pmwiki.php/Main/CatchPhrase">Catchphrase</a>, to the point where <span class="spoiler" title="you can set spoilers visible by default on your profile">he uses a...<em><a class="urllink" href="http://www.shortpacked.com/index.php?id=1499">unique<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> variation to propose to Amber</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouTasteDelicious" title="/pmwiki/pmwiki.php/Main/YouTasteDelicious">You Taste Delicious</a>: Leslie <a class="urllink" href="http://www.shortpacked.com/index.php?id=846">tries to seduce Robin<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> by invoking this trope. <a class="urllink" href="http://www.shortpacked.com/index.php?id=847">It doesn't quite work.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/ScenesFromAMultiverse">Scenes from a Multiverse</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/Hiveworks">Website/Hiveworks</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SisterClaire">Sister Claire</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/ServantsOfTheImperium">Servants of the Imperium</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WebcomicsOfThe2000s">Webcomics of the 2000s</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SisterClaire">Sister Claire</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/ShortCuts">Short Cuts</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GagPerDayWebcomics">Gag-per-Day Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SilentSillies">Silent Sillies</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/ShootAround">ShootAround</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/CompletedWebcomics">Completed Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Skullkickers">Skullkickers</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/TheRockCocks">The Rock Cocks</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/QueerMedia">Queer Media</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SilverBulletNights">Silver Bullet Nights</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/XDaysSince">X Days Since</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/Webcomics">ImageSource/Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AppealToWorseProblems">Appeal to Worse Problems</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Stripperiffic">Stripperiffic</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/QuoteSource/Internet">QuoteSource/Internet</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/BatmanCanBreatheInSpace">Batman Can Breathe in Space</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/SensationComicsFeaturingWonderWoman">Sensation Comics Featuring Wonder Woman</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WebFirst">Web First</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/WalkyVerse">Walkyverse</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/SgtFrog">Sgt. Frog</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/LongRunners">Long-Runners</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Series/SilentWitness">Silent Witness</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

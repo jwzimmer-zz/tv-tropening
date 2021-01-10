@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Star Fleet Battles (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Star Fleet Battles is a tabletop space combat game featuring ships from Star Trek. The starships are represented by tokens or miniatures on a hexgrid, and &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Star Fleet Battles (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Star Fleet Battles is a tabletop space combat game featuring ships from Star Trek. The starships are represented by tokens or miniatures on a hexgrid, and &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/FC_Federation_CA_8815.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Star Fleet Battles (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/FC_Federation_CA_8815.png" />
+<meta property="og:description" content="Star Fleet Battles is a tabletop space combat game featuring ships from Star Trek. The starships are represented by tokens or miniatures on a hexgrid, and by off-board diagrams showing the systems of each ship and keeping track of how badly &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ReptilesAreAbhorrent" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/VideoGame/TheSilentAge" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/StarFleetBattles">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.StarFleetBattles">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=StarFleetBattles&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.StarFleetBattles">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="StarFleetBattles" />
+<input type="hidden" id="article_id" value="317800" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Star Fleet Battles
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Star Fleet Battles"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/StarFleetBattles" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/StarFleetBattles" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/StarFleetBattles?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/StarFleetBattles?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/StarFleetBattles?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/StarFleetBattles?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/StarFleetBattles?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/StarFleetBattles?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/StarFleetBattles?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/StarFleetBattles?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/StarFleetBattles?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/StarFleetBattles?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/StarFleetBattles?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/StarFleetBattles?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/StarFleetBattles?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/StarFleetBattles?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/StarFleetBattles?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/StarFleetBattles?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:220px;"><div class="lazy_load_img_box" style="padding-top:197.73%"><img src="https://static.tvtropes.org/pmwiki/pub/images/FC_Federation_CA_8815.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/FC_Federation_CA_8815.png" width="220" height="435"></div></div><div class="acaptionright" style="width:220px;"><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries" title="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries">The Classic</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFederation" title="/pmwiki/pmwiki.php/Main/TheFederation">Federation</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolStarship" title="/pmwiki/pmwiki.php/Main/CoolStarship">Heavy Cruiser (Federation Commander version)</a></div><div class="indent">"<a class="twikilink" href="/pmwiki/pmwiki.php/Main/RulesLawyer" title="/pmwiki/pmwiki.php/Main/RulesLawyer">Legal Officer to the bridge!</a>"<div class="indent">&mdash;Common saying among players.</div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Star Fleet Battles</em> is a tabletop space combat game featuring ships from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em>.</p><p>The starships are represented by tokens or miniatures on a hexgrid, and by off-board diagrams showing the systems of each ship and keeping track of how badly damaged they are. Movement is simultaneous; each "turn" is divided into 32 "impulses"; each ship moves on some of these depending on its current speed. Gameplay consists of deciding how to allocate a ship's available energy during a turn (speed, shield reinforcement, weapon arming, etc.) and then carrying out the ships' movement and attacks.</p><p>The most common scenario played is a one-on-one dogfight of balanced ships, usually heavy cruisers. Skirmishes between small squadrons are also popular; massive fleet battles are possible but require lots of patience and paperwork.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Due in part to licensing issues and in part to the desired flavor of the game, <em>Star Fleet Battles</em> is based solely on <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries" title="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries">Star Trek: The Original Series</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/StarTrekTheAnimatedSeries" title="/pmwiki/pmwiki.php/WesternAnimation/StarTrekTheAnimatedSeries">Star Trek: The Animated Series</a></em>, the Franz Joseph <em>Star Trek Star Fleet Technical Manual</em> (which is where the official SFB licence is tied to) and some other blueprints available in the late 70s; the movies and later series are not considered <em>Star Fleet Battles</em>-canonical and the two 'verses have diverged considerably<span class="notelabel" onclick="togglenote('note0cli1');"><sup>note&nbsp;</sup></span><span id="note0cli1" class="inlinefolder" isnote="true" onclick="togglenote('note0cli1');" style="cursor:pointer;font-size:smaller;display:none;">X Ships originally drew their inspiration from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/StarTrekTheMotionPicture" title="/pmwiki/pmwiki.php/Film/StarTrekTheMotionPicture">Star Trek: The Motion Picture</a></em>, right down to a photon torpedo launcher in the nose of the Klingon X battlecruiser; but these were quickly altered when Paramount claimed copyright infringement</span>. Playable empires in <em>Star Fleet Battles</em> include familiar ones from the aforementioned series and new ones invented by the game's designers: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFederation" title="/pmwiki/pmwiki.php/Main/TheFederation">The Federation</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpire" title="/pmwiki/pmwiki.php/Main/TheEmpire">Klingons</a>, Romulans, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LizardFolk" title="/pmwiki/pmwiki.php/Main/LizardFolk">Gorn</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/StarTrekTheAnimatedSeriesS1E14TheSlaverWeapon" title="/pmwiki/pmwiki.php/Recap/StarTrekTheAnimatedSeriesS1E14TheSlaverWeapon">Kzinti</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirates" title="/pmwiki/pmwiki.php/Main/SpacePirates">Orion Pirates</a>, and Tholians belong to the first group, and from the second group we have the Lyrans, Hydrans, Andromedans, WYN and ISC.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>The game has gone through 4 editions: The micro-game pouch edition (written by Stephen V. Cole, who also authored the 1st edition of <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Starfire" title="/pmwiki/pmwiki.php/TabletopGame/Starfire">Starfire</a></em>), the boxed Designer's Edition, the loose-leaf Commander's Edition, and finally the loose-leaf Captain's Edition (nicknamed the Doomsday Edition since its editors figured it wouldn't be published 'til then).</p><p>The game has given birth to the greater Star Fleet Universe and a number of related games: <em>Federation Space</em> and <em>Federation &amp; Empire</em>, allowing players to fight a strategic war across the known space; <em>Prime Directive</em>, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RPG" title="/pmwiki/pmwiki.php/Main/RPG">RPG</a> which started out with its own system, but was later adapted for use with <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a></em>, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/D20System" title="/pmwiki/pmwiki.php/UsefulNotes/D20System">d20 System</a> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/D20Modern" title="/pmwiki/pmwiki.php/TabletopGame/D20Modern">d20 Modern</a></em> systems; <em>Starfleet Battle Force</em>, a card based game directly based and homaged to the classic card game <em>Naval Wars</em>; <em>Federation Commander</em>, referred to by all as <em>SFB Light</em>, a simpler system stressing speed and ease of play over detail. And this does not even go into the fact that the base mechanics and most of the background used in the first two <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarTrekStarfleetCommand" title="/pmwiki/pmwiki.php/VideoGame/StarTrekStarfleetCommand">Starfleet Command</a></em> computer games were directly licensed from the <em>Star Fleet Battles</em> system.</p><p></p><hr><p></p><h1>This game provides examples of the following tropes:</h1><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalTimeTravel" title="/pmwiki/pmwiki.php/Main/AccidentalTimeTravel">Accidental Time Travel</a><ul><li> Scenario 500.0 in <em>Nexus</em> magazine #1. The Federation starship Kongo blunders into a combination spatial distortion/time warp which sends it 5,000 light years away and 120 years into the past. It is attacked by 20 Gorn sub-light battleships and must survive long enough for the time warp to open again so they can go back to the future.</li><li> Scenario SP0802.0 "Conquest's Gate". A Hydran X-ship enters an ion storm in the year 210 and is sent back in time to the year 114. It attacks a Klingon fleet and destroys it, preventing it from invading the Hydran nation.</li><li> Scenario SN15.0 "A Warrior's Death", which appeared in Nexus magazine #12. In it, a Klingon X-ship travels back in time after a sun goes nova nearby. The ship approaches a nearby Klingon border station in order to provide the Klingon Empire with its advanced technology, but the Klingons of the past think it's a Federation trick and attack them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">A.I. Is a Crapshoot</a><ul><li> The optional rules for super-computer run ships include the chance for the computer to malfunction and start attacking your own ships. Just like the episode "<a class="twikilink" href="/pmwiki/pmwiki.php/Recap/StarTrekS2E24TheUltimateComputer" title="/pmwiki/pmwiki.php/Recap/StarTrekS2E24TheUltimateComputer">The Ultimate Computer</a>".</li><li> On the other hand, over in the Omega Quadrant, the Drex succeeded in deploying a fleet which is almost completely computer controlled, and which do their job with restraint, and deadly efficiently. The Drex themselves live in pampered luxury enjoying the fruits of their technology.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitraryMissionRestriction" title="/pmwiki/pmwiki.php/Main/ArbitraryMissionRestriction">Arbitrary Mission Restriction</a>: Traditionally, the classic scenario <em>The Surprise Reversed</em> could not be played in campaign using the Federation as the attacking force. This is due to the sentiment that the Federation, despite their very well rounded ships, would never launch a surprise war on anyone. Also, the Tholians are not eligible as the attacking force due to their nature as a refugee race from another galaxy that keeps to itself and never attacks anyone outside of their space<span class="notelabel" onclick="togglenote('note1mhfz');"><sup>note&nbsp;</sup></span><span id="note1mhfz" class="inlinefolder" isnote="true" onclick="togglenote('note1mhfz');" style="cursor:pointer;font-size:smaller;display:none;"> Also, their only method of creating larger ships was to weld two smaller hulls together. The Tholians who escaped to our galaxy have shipyards which cannot build anything larger than the Patrol Cruiser.</span><ul><li> In some of the single player scenarios where a starship fights a space monster, if your lab research eventually determines (via established communication) that the monster is friendly, you will lose the scenario if your ship scored any damage on the monster.</li><li> The <em>Star Fleet Command</em> scenario Kobayashi Maru really can't be won. Even if you survive, you didn't (and wouldn't have been able to ) rescue the Maru. If you elect not to break the treaty and cross the neutral zone, you lose, because the Maru isn't saved. This was the whole point of the scenario to begin with, as stated in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/StarTrekIITheWrathOfKhan" title="/pmwiki/pmwiki.php/Film/StarTrekIITheWrathOfKhan">Star Trek II: The Wrath of Khan</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdventureFriendlyWorld" title="/pmwiki/pmwiki.php/Main/AdventureFriendlyWorld">Adventure-Friendly World</a>: You want battles with more (and larger) ships involved? Here's a general war. And two more, so we can include new technology.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateContinuity" title="/pmwiki/pmwiki.php/Main/AlternateContinuity">Alternate Continuity</a>: From the rest of the <em>Star Trek</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpandedUniverse" title="/pmwiki/pmwiki.php/Main/ExpandedUniverse">Expanded Universe</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlphaStrike" title="/pmwiki/pmwiki.php/Main/AlphaStrike">Alpha Strike</a>: Simultaneously firing all your weapons at a nearby enemy unit is explicitly <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackPatternAlpha" title="/pmwiki/pmwiki.php/Main/AttackPatternAlpha">called</a></em> an "alpha strike".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitraryMaximumRange" title="/pmwiki/pmwiki.php/Main/ArbitraryMaximumRange">Arbitrary Maximum Range</a><ul><li> The damage of phaser weapons drop as the range increases, and the hit roll is used to see how much damage is done, not if they hit at all.</li><li> Most heavy weapons have an "overload" feature to increase the damage they produce. When a weapon is overloaded it usually is limited to an arbitrary range of 8 hexes.</li><li> Lasers, which are light-speed weapons (as opposed to phasers, which are explicitly FTL weapons) have a maximum range of only one hex - the distance light can travel in one turn.</li><li> In early editions of the game, phasers had no maximum range &mdash; the final column of the chart for Phaser-II's, for example, still had a chance of doing 1 damage point, but listed only a range of "16+". Maximum ranges were added when tournament players were scoring hits at tabletop distances of TWENTY FEET, and players imagined wars between the Romulans and the Hydrans (two races at opposite ends of explored space) with neither side leaving its home territory.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsteroidThicket" title="/pmwiki/pmwiki.php/Main/AsteroidThicket">Asteroid Thicket</a>: Present and accounted for. Interestingly, the asteroid counters represent dangerous concentrations of asteroids rather than single rocks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint" title="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint">Attack Its Weak Point</a><ul><li> If you can maneuver such that your weapons will hit one of your target's weaker shields, you can do a lot more damage to him. Klingon ships in particular are notorious for having "glass shields" in the rear.</li><li> The Hydran Hellbore envelops its target, and deliberately channels most of its destructive energy against the shield that's weakest.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackReflector" title="/pmwiki/pmwiki.php/Main/AttackReflector">Attack Reflector</a>: The Omega Sector race the Loriyill have Flame Shields on their ships which can reflect some of the damage hitting the ship back on the attacker.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">Awesome, but Impractical</a><ul><li> Battleships, the next size <em>up</em> from the already-massive Dreadnoughts. While they are the scariest things in known space, they are extraordinarily expensive, and almost require there to be a full fleet supporting them at all times, if for no other reason than to keep the enemy from amassing a strike group just to kill the big flying target. In the end, only the Klingons built any, or for that matter, even started construction of any battleships. Two were built out of a planned 9, and they were too late to fight in the General War. Still, module R5 includes a bunch of "what-if" never-built-in-universe battleships for the other races.</li><li> To a lesser extent, the Klingon Stasis Field Generators and the Mauler Cannons used by the Romulans, Klingons and Lyrans. In the hands of a competent player, they can be game breakers, but they are only useful in specific circumstances, and if you don't know what you are doing they are a waste of BPV.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBattleStar" title="/pmwiki/pmwiki.php/Main/TheBattleStar">The Battle Star</a><ul><li> Battleships exemplify this trope, with the greatest firepower in the game <em>and</em> large (for the game - around a dozen) fighter contingents. "Historically" only the Klingons built them and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">they aren't very successful</a>, but they're <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolShip" title="/pmwiki/pmwiki.php/Main/CoolShip">just so cool</a> that every race gets a conjectural battleship and the Klingons get <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">a conjectural super-battleship</a> in one of the expansions.</li><li> Many of the larger Hydran ships also fit the model, as the Hydrans are very fighter-happy and include them on most ships (even their tiny police ship carries fighters and launch tubes to get them out there fast).</li><li> Also Space Control Ships, with their battleship level firepower and the ability to launch both fighters and "Fast Patrol Ships" (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean" title="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean">basically PT boats</a>). One even includes a sensor scout in the mashup to be a SUPER Space Control Ship. Of course, it still only carries a dozen fighters and six PFs.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeamSpam" title="/pmwiki/pmwiki.php/Main/BeamSpam">Beam Spam</a><ul><li> The Hydrans, who equip all their ships and their fighters with the Phaser-G (the G is for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GatlingGood" title="/pmwiki/pmwiki.php/Main/GatlingGood">gatling</a>).</li><li> Federation carrier groups also equip their escorts with Phaser-Gs for drone defense, and the more advanced Federation fighters use them too, though still not to the extent that the Hydrans do.</li><li> Also the Orions and WYN's, both of whom operate ships with 'option mounts' that allow them to readily switch out weapons. Loading them up with good-quality phasers can be so effective that tournament rules limit the availability of phasers for this use.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a>: Kzinti and Lyans.<ul><li> It is not wise to mention any research that the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatFolk" title="/pmwiki/pmwiki.php/Main/CatFolk">feline races</a> Kzinti and Lyrans might be from a common genetic line, or their possible relation with the exterminated Carnivons. In fact, it's best to avoid being anywhere in between the two races.</li><li> On the other hand, both races are embarrassed (and puzzled) at the fact that ethnic Kzinti and Lyrans get along just fine in the isolated WYN Cluster.</li><li> Lyrans and Kzinti finding each other near certain particularly sensitive war memorials, at least when going there to commemorate their dead. One published scenario excuses having a duel in an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsteroidThicket" title="/pmwiki/pmwiki.php/Main/AsteroidThicket">Asteroid Thicket</a> by having both sides have memorials to a battle there, with both being enraged to find the other there commemorating their own dead.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlandNameProduct" title="/pmwiki/pmwiki.php/Main/BlandNameProduct">Bland-Name Product</a>: The Federation Express (based on Federal Express, AKA FedEx) Corporation. Both companies deliver packages, but Federation Express does it across the galaxy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoardingParty" title="/pmwiki/pmwiki.php/Main/BoardingParty">Boarding Party</a>: Nearly every ship in the game has at least a few, and those that don't can convert some of their crew to repel enemy boarders.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoxedCrook" title="/pmwiki/pmwiki.php/Main/BoxedCrook">Boxed Crook</a>: The personnel aboard Klingon penal ships. Most of these are guilty of relatively minor, forgivable crimes, or things such as cowardice or political unreliability. If They perform well enough, they can be transferred back to regular Klingon naval ships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBridge" title="/pmwiki/pmwiki.php/Main/TheBridge">The Bridge</a>: All the ships have a bridge; some have as many as 4 different kinds of bridges (bridge, auxiliary control, emergency bridge, and flag bridge). Taking out all bridges can cripple a ship; taking over all bridges (with boarding parties) can seize control of a ship.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromHitPoints" title="/pmwiki/pmwiki.php/Main/CastFromHitPoints">Cast From Hit Points</a>: The Mauler device can consume an enormous amount of power. If this power is drawn from any source other than the firing unit's batteries, it inflicts damage on the system that powered it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatFolk" title="/pmwiki/pmwiki.php/Main/CatFolk">Cat Folk</a>: Lyrans and The Kzintis.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolStarship" title="/pmwiki/pmwiki.php/Main/CoolStarship">Cool Starship</a>: Many. The familiar Federation <em>Constitution</em> class, the Klingon <em>D7</em>, and the Romulan <em>Warbird</em> understandably get featured a lot in the cover artwork.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeflectorShields" title="/pmwiki/pmwiki.php/Main/DeflectorShields">Deflector Shields</a>: A ship is surrounded by 6 shields, each of which protects a separate 60-degree arc. A major part of the game is maneuvering and timing your shots to get past the defender's stronger shields.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DespairEventHorizon" title="/pmwiki/pmwiki.php/Main/DespairEventHorizon">Despair Event Horizon</a>: Barely avoided in the main timeline during the darkest hours of the Andromedan Invasion, but only because the <em>USS Darwin</em> returned from a time warp where it encountered a timeline in which there was no <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HopeSpot" title="/pmwiki/pmwiki.php/Main/HopeSpot">Hope Spot</a>, and would face a greater downturn in just a few more years.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirectLineToTheAuthor" title="/pmwiki/pmwiki.php/Main/DirectLineToTheAuthor">Direct Line to the Author</a>: All of the information in the game is said to be taken from a transmission received by a U.S. Air Force base computer sometime before 1970. The transmission apparently came through a time warp from Starfleet Command 250 years in the future. This was inspired by the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries" title="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries">Star Trek: The Original Series</a></em> episode "Tomorrow Is Yesterday" in which the U.S.S. Enterprise went back in time to 1960's Earth and some of the crew beamed down to a U.S. Air Force base. It's a carry-over from the <em>Star Fleet Technical Manual</em>, upon which the game is partially based.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoorStopper" title="/pmwiki/pmwiki.php/Main/DoorStopper">Door Stopper</a>: The master rulebook, with all the rules in it, is almost 2 inches thick. A running joke in the community is 'Never show the newbie the rulebook.' That said, it's highly organized, and covers just about any interaction that might come up in the game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDreadedDreadnought" title="/pmwiki/pmwiki.php/Main/TheDreadedDreadnought">The Dreaded Dreadnought</a>: Dreadnoughts tend to be biggest, scariest <em>effective</em> ships a player can field. Battlships, which are bigger and scarier than dreadnoughts, exist...<a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">sort of</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElsewhereFic" title="/pmwiki/pmwiki.php/Main/ElsewhereFic">Elsewhere Fic</a>: Due to licensing issues, Kirk, Spock, and the rest of the <em>Enterprise</em> crew don't appear in the game, and none of the scenarios are explicitely from the TV series, though some are quite similar and there are some sly references.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpire" title="/pmwiki/pmwiki.php/Main/TheEmpire">The Empire</a>: The Klingons and Romulans certainly qualify.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">Enemy Mine</a><ul><li> The Kzinti were at war with the Federation for nearly eighty years. The rise in power of their mutual enemies, the Klingons, as well as their oldest enemies and Klingon allies, the Lyrans, forced the Kzinti into an alliance with the Federation.</li><li> The Andromedan invasion forced <em>all</em> of the major powers of the Alpha Quadrant into this.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExplosiveOverclocking" title="/pmwiki/pmwiki.php/Main/ExplosiveOverclocking">Explosive Overclocking</a><ul><li> Orion ships can coax their warp engines to produce double their normal power output, but each turn of doing so damages the engines&mdash;eventually one must continue using doubled warp engines just to make up for the lost power from said damage. Often called the "crack rule" because it feels great at first, but once you start you can't stop, and it eventually kills you. This leads directly to a basic principle of Orion tactics: In, Out, and Way Out. Go In knowing your objective, get Out once you have it, and always be sure to have a Way Out.</li><li> The Hydran Fusion Beam weapon, which can be powered with over triple the base amount it needs in order to boost its damage, but it also explodes and deals you an extra point of damage to your own ship.</li><li> The Mauler device can be powered by the ship's batteries, but if you need extra oomph, you can add power directly from your ship's engines &mdash; which damages said engines.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture" title="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture">Fantasy Counterpart Culture</a>: <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> states that many of the earlier races are similar to a real-world power.<ul><li> The Federation is NATO (with Earth being the US)</li><li> The Klingons are the Soviets (as they were in the Original Series)</li><li> The Romulans are China with Roman names (they also employ Klingon designed ships in the same way Communist China employs Soviet designed warcraft)</li><li> The Hydrans are the UK</li><li> The Gorns are Germany (few but very good ships and a very steady alliance with The Federation)</li><li> The Kzinti are <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan" title="/pmwiki/pmwiki.php/UsefulNotes/ImperialJapan">Imperial Japan</a> circa 1941 (the later alliance with the Federation will draw parallels to post war Japan. )</li><li> The Lyrans are vaguely reminiscent of the Arabs pre-British domination</li><li> The Tholians are in some ways the Israelis (defending territory they occupy with a strong but small force).</li><li> The WYN are Switzerland</li><li> The Orion Pirates are effectively <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMafia" title="/pmwiki/pmwiki.php/Main/TheMafia">The Mafia</a>, especially in the sense that Orion (a Federation ally) <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlausibleDeniability" title="/pmwiki/pmwiki.php/Main/PlausibleDeniability">disavows knowledge of their existence or actions</a>. Also, like the Mafia, they can be anywhere, except Tholian space.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFederation" title="/pmwiki/pmwiki.php/Main/TheFederation">The Federation</a>: Of course. Some of the other races might also qualify as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFederation" title="/pmwiki/pmwiki.php/Main/TheFederation">The Federation</a>, particularly the Interstellar Concordium.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FixedForwardFacingWeapon" title="/pmwiki/pmwiki.php/Main/FixedForwardFacingWeapon">Fixed Forward-Facing Weapon</a>: Weapons fire arcs are a major part of the system, and the Mauler Device has a very restricted forward firing arc. So restrictive, in fact, that the alternate turning rules for ships, which otherwise are cumbersome, complicated to use, and very restrictive, actually make the Mauler much more flexible because they change the firing arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeudalFuture" title="/pmwiki/pmwiki.php/Main/FeudalFuture">Feudal Future</a>: It has been noted that the Lyrans might have been a more powerful presence in the galaxy had their Emperor not constantly kept his Dukes (and his Dukes their Counts) at each other's throats to prevent them from teaming up against him. The Kzinti aren't much better.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForeverWar" title="/pmwiki/pmwiki.php/Main/ForeverWar">Forever War</a>: Since this is what the game is about, the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles" title="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles">Star Fleet Battles</a></em> universe is forever at war, in contrast with the regular-canon <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em> 'verse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlassCannon" title="/pmwiki/pmwiki.php/Main/GlassCannon">Glass Cannon</a><ul><li> Pseudo-Fighters/Fast Patrol Ships can deal tremendous damage for their size, but have wispy-thin shields. Strapping on a warp booster pack can make them go faster and generate more power, but makes them even <em>more</em> fragile. The game rules call them "eggshells armed with sledgehammers."</li><li> Mauler equipped ships avert this trope and play it straight at different times. Before firing, such a ship is very hard to destroy and can operate at even higher speeds than other ships of the same fleet, due to being able to draw power from their huge battery banks. After firing, they become much more sluggish and fragile as they try to recharge their battery banks for another shot.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenElfVillage" title="/pmwiki/pmwiki.php/Main/HiddenElfVillage">Hidden Elf Village</a>: The WYN Cluster is one of these. They are protected by an unusual radiation field that disables any ships that enter them for a time. This allows the WYN fleet of converted freighters and commerce raiders to have an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorfHadTheFlu" title="/pmwiki/pmwiki.php/Main/WorfHadTheFlu">even chance</a> against a fleet of regular warships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitAndRunTactics" title="/pmwiki/pmwiki.php/Main/HitAndRunTactics">Hit-and-Run Tactics</a>: The "Kaufman Retrograde": Federation ships can retreat in reverse from a pursuing enemy, using their photon torpedoes to slowly destroy the enemy's shields and then the enemy themselves. Because the photon torpedo doesn't lose damage with range, unlike most other heavy weapons, a Federation force can defeat a much larger enemy force using this tactic. It works fine as long as you have room to run, but not so well if you're defending a fixed position.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a>: While damage against starships and bases is resolved using a complicated set of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubsystemDamage" title="/pmwiki/pmwiki.php/Main/SubsystemDamage">Subsystem Damage</a> rules, drones and shuttles merely take a certain number of damage points to destroy. (Shuttles become "crippled" if they lose a certain fraction of their hit points, but otherwise they play this trope straight.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreWhite" title="/pmwiki/pmwiki.php/Main/HumansAreWhite">Humans Are White</a>: Despite supposedly being a multi-species nation, all of the Federation's ships have recognizably human names.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ISOStandardHumanSpaceship" title="/pmwiki/pmwiki.php/Main/ISOStandardHumanSpaceship">ISO Standard Human Spaceship</a>: Each race seems to build all of their ships in one basic shape unique to their race, whether they are giant battleships or tiny (disposable) fast patrol boats. The Romulans differ from the rest in having <em>two</em> basic shapes. Three, if you count the refitted Klingon battlecruisers. And all shuttlecraft in the galaxy are the same blocky shape, with very little difference regardless of whether they were built by an 8' Gorn or a 3' Hydran.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItHasBeenAnHonor" title="/pmwiki/pmwiki.php/Main/ItHasBeenAnHonor">It Has Been an Honor</a>: <em>Captain's Log</em> magazine #47, short story "Into the Eagle's Nest". As a group of hostile Romulan warships approaches, a police ship executive officer tells his captain "It's been an honor to serve with you."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KlingonPromotion" title="/pmwiki/pmwiki.php/Main/KlingonPromotion">Klingon Promotion</a>: Averted by the Klingons themselves, who recognize that a good officer might be killed by a lucky upstart. Played straight in the political arena of the feline races, which is why their leaders like to keep their subordinates at each other's throats instead of their own.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LensmanArmsRace" title="/pmwiki/pmwiki.php/Main/LensmanArmsRace">Lensman Arms Race</a>: The Federation and Klingons introduced X-Ships, with more efficient power systems, the ability to overload phasers and a number of other technological improvements. When the other races copied this X-ship technology, the Federation introduced <em>second-generation</em> X-Ships with <em>even more efficient</em> power systems and <em>even more improved</em> technology.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalHarmlessPowers" title="/pmwiki/pmwiki.php/Main/LethalHarmlessPowers">Lethal Harmless Powers</a>: Tractor beams.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TractorBeam" title="/pmwiki/pmwiki.php/Main/TractorBeam">Tractor beams</a> aren't exactly harmless, but often ignored &mdash; and then there's the story of the tiny patrol ship that, through diabolically clever use of its tractor beam, pushed a colossal Klingon battleship off-course just enough to make it crash into a moon at high speed.</li><li> "Use your tractors, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrecisionFStrike" title="/pmwiki/pmwiki.php/Main/PrecisionFStrike">dammit</a>!" is said to be the motto of the Starfleet Tactical school.</li><li> The Andromedans have very powerful variants of tractor beams, called "Tractor-repulsor beams", as their primary weapons; they use them to shake their target to pieces.</li><li> The rules for tractoring shuttles specify that the shuttle is destroyed if you tow it while going fast enough. This creates interesting tactical restrictions and options in a fighter-heavy environment.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingShip" title="/pmwiki/pmwiki.php/Main/LivingShip">Living Ship</a>: The Branthodon use controlled, cybernetically enhanced space dragons as ships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoadsAndLoadsOfRules" title="/pmwiki/pmwiki.php/Main/LoadsAndLoadsOfRules">Loads and Loads of Rules</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoorStopper" title="/pmwiki/pmwiki.php/Main/DoorStopper">rulebook</a> is quite thick, especially if one has all of the expansions. New players tend to find this rather intimidating. Fortunately most of this describes obscure weapons, rare interactions of unusual game mechanics, etc., so only a small portion of it is necessary to actually start playing. That said, in SFB, if you want to know how using two obscure systems mounted on just a handful of ships in the entire game will interact with each other, the rules WILL cover it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LongRunner" title="/pmwiki/pmwiki.php/Main/LongRunner">Long Runner</a>: The <em>Pocket Edition</em> was first published in 1979, and the game has been in print ever since save for a two year period. The current ruleset was first released in 1990.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LostColony" title="/pmwiki/pmwiki.php/Main/LostColony">Lost Colony</a>: When they released an expansion that featured races set about 30 degrees counterclockwise around the galaxy from their main play zone, they used this to insert a newly settled Federation Colony (the entire system in fact) via a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie" title="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie">Negative Space Wedgie</a>. Later on, a Klingon penal colony receives the same treatment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacrossMissileMassacre" title="/pmwiki/pmwiki.php/Main/MacrossMissileMassacre">Macross Missile Massacre</a><ul><li> Using drones; The Kzinti ships are designed to do this as their primary tactic. Only rivaled by carrier groups of the Klingons and Federation, but even then, the Kzinti do it better.</li><li> It's possible for any drone-armed ship to launch a "scatter pack" &mdash; an un-manned shuttlecraft that is filled with missiles and set to fall apart and launch all of them under specific conditions. The Klingons in particular like these, since their ships tend to have drones but not enough launchers to put a significant number on the map without using a scatter pack.</li><li> And then the Kzinti often use scatter packs too &mdash; giving them <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">even more</a></em> drones on the map.</li><li> This is somewhat mitigated by limits on how many seeking weapons each ship can control at once. Of course, if a fleet includes a scout ship, its "special sensors" can be used increase the allowed number of seeking weapons to truly ridiculous levels. In addition, Kzinti ships and fighters can near-universally control more drones than usual. And then there are drones with Active Terminal Guidance, which don't <em>need</em> a ship to control them once they get into close range.</li><li> Abated in the <em>Federation Commander</em> version of the rules which reduce drones down to their most basic form. This being done to speed things up, since a full MMM can bring a SFB game to a crawl.</li><li> One of the solo scenarios in the Basic Set consists of you flying a Klingon frigate protecting a small freighter carrying a delicate cargo from a mass of Kzinti-launched "cruise drones." There are no enemy ships in the scenario - it's all missiles. Sadly, this scenario is <em>not</em> named "Send In the Drones."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadeOfExplodium" title="/pmwiki/pmwiki.php/Main/MadeOfExplodium">Made of Explodium</a>:<ul><li> When a ship is destroyed, it explodes as though it set off its <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDestructMechanism" title="/pmwiki/pmwiki.php/Main/SelfDestructMechanism">Self-Destruct Mechanism</a>. The self-destruct is simply disabling the systems that PREVENT the ship's antimatter fuel from coming into contact with anything else, allowing it to explode. In fleet battles, this is an important tactical consideration for users of fighters and/or drones, as a clever opponent may blow up a small ship and take out many of your drones/fighters in the explosion.</li><li> Andromedan power absorbers work like shields, except they absorb incoming damage and can use it to power internal systems. However, this power can only be used very slowly. If a hit destroys a power absorber, all the energy stored in it is inflicted as damage against the ship that the power absorber was installed on. If some of that damage destroys <em>another</em> power absorber, all of <em>its</em> stored energy is also inflicted upon the ship. An unlucky cascade reaction can destroy the entire Andromedan ship.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MamaBear" title="/pmwiki/pmwiki.php/Main/MamaBear">Mama Bear</a>: If a ship gets between a Space Dragon mother and its child, the mother will change course toward the ship and attack it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MassiveRaceSelection" title="/pmwiki/pmwiki.php/Main/MassiveRaceSelection">Massive Race Selection</a>: Started with only a few, but has expanded quite a bit since then. There are even a large set of "simulator races" that are fictional in-universe too.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MechaMooks" title="/pmwiki/pmwiki.php/Main/MechaMooks">Mecha-Mooks</a>: Andromedan ships use robots as boarding parties.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MinMaxing" title="/pmwiki/pmwiki.php/Main/MinMaxing">Min-Maxing</a>: In one mailbag Q-and-A column, a player asked "Can I double the engine output of an Orion ship and then self-destruct?". (The answer was: "Yes, but it would accomplish nothing. Self-destruct damage is based on the number of undestroyed engine boxes, not the engines' current power output."). Even the number of engine boxes remaining doesn't matter in the current edition. All modifiers for explosion damage are gone, each ship blows up with a specified force (using the same rules as mines for how it affects other units).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MinovskyPhysics" title="/pmwiki/pmwiki.php/Main/MinovskyPhysics">Minovsky Physics</a>: All of the ship systems and weapons obey rigidly-defined consistent rules.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMotherShip" title="/pmwiki/pmwiki.php/Main/TheMotherShip">The Mother Ship</a>: The Andromedans have these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie" title="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie">Negative Space Wedgie</a><ul><li> The vast majority of the (optional) "terrain" chapter. Space battles too boring? How about space battles near a black hole, or space battles in an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsteroidThicket" title="/pmwiki/pmwiki.php/Main/AsteroidThicket">Asteroid Thicket</a>?</li><li> The Tholians have the Web, which functions as a sort of semi-portable <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie" title="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie">Negative Space Wedgie</a>, and the Andromedans have a thing called the Temporal Elevator available for their bases that also does something of the sort. One tactics reference even recommends thinking of Tholian Web as portable friendly terrain.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverGiveTheCaptainAStraightAnswer" title="/pmwiki/pmwiki.php/Main/NeverGiveTheCaptainAStraightAnswer">Never Give the Captain a Straight Answer</a>: <em>Captain's Log</em> magazine #47, short story "Into the Eagle's Nest". After a battle with the Romulans, Ensign Caldwell calls up the bridge from the shuttle bay.<div class="indent"><strong>Ensign Caldwell</strong>: You'd better get down to the shuttle bay as soon as you can. There's something you need to see here.</div><div class="indent"><strong>Captain Lester</strong>: What is it, Ensign?</div><div class="indent"><strong>Ensign Caldwell</strong>: Just come quickly! Please, sir?</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OldSchoolDogfight" title="/pmwiki/pmwiki.php/Main/OldSchoolDogfight">Old-School Dogfight</a><ul><li> Supplement <em>Captain's Module J: Fighters!</em> has incredibly complex rules for dogfighting (what did you expect, it's <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles" title="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles">Star Fleet Battles</a></em>). Fighters can use drones (missiles) against each other, including special "dogfight drones".</li><li> Combat with capital ships has been likened to flying around big WWII bombers (with guns facing in all directions).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutsideContextProblem" title="/pmwiki/pmwiki.php/Main/OutsideContextProblem">Outside-Context Problem</a>: The Andromedans. They came from out of nowhere at the conclusion of the General War. They also have technology that is radically different from everything everyone else uses. They have phasers (or something like a phaser), but everything else is new. Instead of shields, they have panel absorption panels that absorb enemy fire and use it to power their ships. They use tractor beams in tandem with repulsor beams to tear ships apart. Most impressive of all, they have a Displacement Device that allows them to project their ships several thousand kilometers away, or do the same to another ship!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetaryParasite" title="/pmwiki/pmwiki.php/Main/PlanetaryParasite">Planetary Parasite</a>: Starswarm robots burrow into planets and use raw materials underground to create more robots. Once enough new robots are made, the swarm leaves the planet and heads into space.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetEater" title="/pmwiki/pmwiki.php/Main/PlanetEater">Planet Eater</a>: A few of these show up in the monster scenarios.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PointBuildSystem" title="/pmwiki/pmwiki.php/Main/PointBuildSystem">Point Build System</a>: Every ship has a "Basic Point Value", which indicates its overall effectiveness in a wide variety of combat scenarios. For a long time, the formula used to calculate a ship's BPV was kept secret to prevent players from building their own ships. Since the decline of tabletop gaming in general, however, this formula has been released.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudMerchantRaceGuy" title="/pmwiki/pmwiki.php/Main/ProudMerchantRaceGuy">Proud Merchant Race</a>: The Federation, actually. They dominate the explored area of the galaxy economically.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudWarriorRace" title="/pmwiki/pmwiki.php/Main/ProudWarriorRace">Proud Warrior Race</a>: Lots of them, especially the Kzinti and Lyrans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RammingAlwaysWorks" title="/pmwiki/pmwiki.php/Main/RammingAlwaysWorks">Ramming Always Works</a>: Averted. Ramming usually doesn't work at all, except in some special scenarios. Or if you're a Lyran ship with an Expanding Sphere Generator. But then it's the ESG doing the ramming, not your ship.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RandomNumberGod" title="/pmwiki/pmwiki.php/Main/RandomNumberGod">Random Number God</a>: Though superior tactics generally carry the day, a bunch of bad rolls on your <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlphaStrike" title="/pmwiki/pmwiki.php/Main/AlphaStrike">Alpha Strike</a> can still lose the game for you.<ul><li> Some empires are infamous for this, in particular the Federation. Hitting the jackpot with a ship full of overloaded photon torpedos usually renders a like-sized opponent into fine dust, but whiffing usually means you don't have enough power left to defend against the effectively undamaged ship flying into your teeth.</li><li> Choosing to fire your weapons in a "Narrow Salvo" can make this even worse. All weapon attacks in a narrow salvo are resolved with a single die roll. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack" title="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack">Either</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack" title="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack">all</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack" title="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack">your photon torpedoes hit the target, or</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack" title="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack">none</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack" title="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack">of them do.</a></li><li> The Narrow Salvo rule is specifically not allowed in official tournaments, which feature one-on-one duels, in order to prevent deciding the whole match with a single die roll.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retcon" title="/pmwiki/pmwiki.php/Main/Retcon">Retcon</a>: Despite their best efforts, a few things have been retconed, handwaved as being the result of better 'translation of the original data tapes'. Battleships went from purely conjectural to having the Klingons complete two. When 'New Heavy Cruisers' were first introduced, it was declared that they would have no variants, then a book of 'conjectural' variants was introduced, only to have a number of them to be declared 'real'. The ability to 'overload' phasers on the X-ships was retconned away when tactics devolved into close to point blank range and see who gets luckier dice rolls.<ul><li> Originally, The "sublight era" of SFB indicated that ships had no warp engines, only impulse. The original Romulan Warbird being a relic of that time. This may have been based on a line in <em>Star Trek</em> implying that <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/StarTrekS1E14BalanceOfTerror" title="/pmwiki/pmwiki.php/Recap/StarTrekS1E14BalanceOfTerror">"their power is simple impulse"</a>. However, taken literally, this means that the majority of these races would not have encountered each other for centuries, let alone waged interstellar war. The "sublight era" has been reinterpreted to mean that there was interstellar FTL warp travel but no "tactical warp", meaning that combat could only occur in sublight.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Roboteching" title="/pmwiki/pmwiki.php/Main/Roboteching">Roboteching</a>: Both averted and played straight, each to a degree. The movement rules for drones require drones to move closer to their designated target at every opportunity, which means you can't have them just fly in random directions for no reason. The specifics of what it means to move closer to a designated target are such that it is possible to spread them out over some parts of their journey, which can help blunt some defensive tactics involving transporter bombs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens" title="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens">Scary Dogmatic Aliens</a><ul><li> A few. The Andromedans sent an automated force ahead of what is assumed to be a colonization fleet to eradicate any competing life forms in the Milky Way Galaxy (thus far, no one has ever seen a live Andromedan and lived to tell the tale, if any are in known space at all). The Tholians were, in their home galaxy, the implacable and unbeatable masters of a galaxy-spanning empire, until they were defeated and overthrown by their chief enforcers the Seltorians, who sent a large, autonomous force to the Milky Way to destroy the refugee groups that set up here.</li><li> Averted by the Interstellar Concordium, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a> example of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFederation" title="/pmwiki/pmwiki.php/Main/TheFederation">The Federation</a> that tries to end the General War by conquering the border regions of all warring powers.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SciFiWritersHaveNoSenseOfScale" title="/pmwiki/pmwiki.php/Main/SciFiWritersHaveNoSenseOfScale">Sci-Fi Writers Have No Sense of Scale</a>: One hex represents a region of space 10,000 kilometers across. Light travels at a speed of one hex per turn. This means one turn lasts for <strong>1/30 of a second</strong>. And one turn is divided into 32 discrete impulses, each of which is further subdivided into several action segments. Starship captains in the 23rd century must have really impressive time management skills!<ul><li> Weakly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Handwaved" title="/pmwiki/pmwiki.php/Main/Handwaved">Handwaved</a> by the assertion that, due to relativistic effects, a turn <em>feels</em> like a few minutes to those inside the ship. This still doesn't explain how infantry battles on the planet surface can also take place in a few turns.</li><li> The designers have admitted that some simply fall into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality" title="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality">Acceptable Breaks from Reality</a>, such as ships in 'standard orbit' are effectively traveling at Warp 1, and if using realistic distances, the Earth and Moon would barely fit on a single mapsheet.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeeTheInvisible" title="/pmwiki/pmwiki.php/Main/SeeTheInvisible">See the Invisible</a>: A cloaked Romulan ship can be seen with the "flash cube" effect by the detonation of an explosive device (like a mine or transporter bomb) near it. The default cloaking rules effectively make the cloaked ship 'fuzzy' in the sense that you know more or less where it is, but not well enough to be able to shoot at it effectively. There are optional rules that allow a cloaked ship to be invisible under some circumstances.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDestructMechanism" title="/pmwiki/pmwiki.php/Main/SelfDestructMechanism">Self-Destruct Mechanism</a><ul><li> In previous editions any starship can choose to self-destruct, which creates a sizable explosion. This option offers a macabre tactical advantage to any fleet willing to use it, known then as the 'Suicide Dreadnought' tactic.</li><li> Under the current rules such explosions aren't as powerful, and there are severe limitations on when a ship can self-destruct (in imminent danger of being captured, caught in a badly lost battle, most personnel on board evacuated, etc.) on the grounds that while the <em>player</em> might want to use kamikaze tactics, the <em>captain</em> very probably wouldn't. Exception: the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyanidePill" title="/pmwiki/pmwiki.php/Main/CyanidePill">Orions</a> can self-destruct <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakingYouWithMe" title="/pmwiki/pmwiki.php/Main/TakingYouWithMe">whenever they feel like it</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> Several monster scenarios are based on <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries" title="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries">Star Trek: The Original Series</a></em> episodes and several lines in the rules are inspired by quotes from those episodes.</li><li> The backstory for the Klingon battleship refers an in-game equivalent of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLife" title="/pmwiki/pmwiki.php/Main/RealLife">Real Life</a> Japanese <a class="urllink" href="https://en.wikipedia.org/wiki/Eight-eight_fleet">Eight-Eight fleet program<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> The General War and the ISC War of Pacification were brought to an end by the Andromedan Invasion, an extra-galactic race that causes all of the galaxy's races to form loose alliances and coalitions against a threat. This is right out of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/BlakesSeven" title="/pmwiki/pmwiki.php/Series/BlakesSeven">Blake's 7</a></em> which also had an invasion by an extra-galactic race called the Andromedans, causing Blake and Servalan to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">temporarily join forces</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlaveRace" title="/pmwiki/pmwiki.php/Main/SlaveRace">Slave Race</a>: Klingon warships are partially crewed by non-Klingon subject race members who act in supporting roles such as boarding parties and menial labor. They are not educated in actually being able to control the ship movement or weapons. The Commanders Rulebook mentions that "While they are not slaves, they are not considered politically dependable." Under the right circumstances, such as destruction of all security block squares on the SSD, the Klingon player must roll each turn to determine if a mutiny occurs. If a mutiny is successful, the Klingon ship surrenders to to the opposing player and is regarded as captured for all intents and purposes.<ul><li> It is not completely unheard of for subject race members to command unarmed support vessels such as supply ships. But the entire crew is always non-Klingon and even the highest ranking of these would be subordinate to even a Klingon cadet.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceBase" title="/pmwiki/pmwiki.php/Main/SpaceBase">Space Base</a>: Starbases. "Assault the starbase" scenarios typically involve an entire fleet of 6-9 ships vs. a starbase and one puny frigate. Also Battle Stations, Base Stations, Mobile Bases, and a variety of civilian fixed installations.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceBattle" title="/pmwiki/pmwiki.php/Main/SpaceBattle">Space Battle</a>: The whole game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceFighter" title="/pmwiki/pmwiki.php/Main/SpaceFighter">Space Fighter</a><ul><li> Especially favored by the Kzinti and Hydran empires. Introducing these was one of the biggest breaks from <a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries" title="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries">the source material</a>. Unusually, they are much slower than capital ships (at least until warp booster packs are invented) and are primarily used as semi-independent weapons platforms.</li><li> Amusingly, all of the Federation fighters are named and obviously modeled after American combat aircraft (F-14, F-15, F-18, F-111, A-10, etc.) that were in use when the game was developed.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMines" title="/pmwiki/pmwiki.php/Main/SpaceMines">Space Mines</a>: Ships can "roll a mine out a hatch" and leave it to blow up a ship pursuing them. Mines can be set to accept only certain sizes of ships as targets. Major space installations often had minefield belts protecting them. Some of the mine types available:<ul><li> The Romulans have a Nuclear Space Mine based on the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries" title="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries">Star Trek: The Original Series</a></em> episode "Balance of Terror".</li><li> Command mines can be ordered to detonate or to activate/deactivate themselves.</li><li> Chained mines detonate when other mines explode.</li><li> Transporter bombs can be beamed into position, but they're smaller than mines you can roll out a hatch.</li><li> Captor mines can fire weapons at targets.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceNavy" title="/pmwiki/pmwiki.php/Main/SpaceNavy">Space Navy</a>: Of course.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirates" title="/pmwiki/pmwiki.php/Main/SpacePirates">Space Pirates</a>: The Orions are an <em>entire race</em> of space pirates.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceRomans" title="/pmwiki/pmwiki.php/Main/SpaceRomans">Space Romans</a>: The Romulans, in keeping with their original <em>Star Trek</em> appearances.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceWhale" title="/pmwiki/pmwiki.php/Main/SpaceWhale">Space Whale</a>: Solitaire play generally involves a single player-controlled starship studying and fighting a space monster that moves by automatic rules. These monsters include a giant space amoeba (based on the TOS episode "<a class="twikilink" href="/pmwiki/pmwiki.php/Recap/StarTrekS2E18TheImmunitySyndrome" title="/pmwiki/pmwiki.php/Recap/StarTrekS2E18TheImmunitySyndrome">The Immunity Syndrome</a>"), a giant space manta ray, a giant space dragon, a giant space moray eel, and of course a giant space Cone-Shaped Planet-Eating Thing From That One Episode. <span class="spoiler" title="you can set spoilers visible by default on your profile">"<a class="twikilink" href="/pmwiki/pmwiki.php/Recap/StarTrekS2E6TheDoomsdayMachine" title="/pmwiki/pmwiki.php/Recap/StarTrekS2E6TheDoomsdayMachine">The Doomsday Machine</a>"</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpareAMessenger" title="/pmwiki/pmwiki.php/Main/SpareAMessenger">Spare a Messenger</a>: Supplement <em>Scenario Book #2</em>, scenario <a class="createlink" href="/pmwiki/pmwiki.php/Main/SH124" title="/pmwiki/pmwiki.php/Main/SH124">SH 124</a>.0 "Kroal's Illegitimate War". The Hamilcar Orion Pirate cartel decides to interfere with the relationship between the Daven cartel and the Klingon Empire. They stage raids in Klingon space and their agents plant information that makes it appear that the Lyran Democratic Republic (LDR) and the Daven cartel are responsible. Finally, they attack a Klingon convoy and deliberately leave one escort ship alive to call for help. The Hamilcar raiders lead the responding Klingon warships to a LDR planet where Daven ships are being repaired and the Klingons attack the planet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpinOff" title="/pmwiki/pmwiki.php/Main/SpinOff">Spin-Off</a><ul><li> The game proved so successful that in 1981 it spun off a strategic-level wargame called <em>Federation Space</em> (revised in 1986 as <em>Federation and Empire</em>). The latest version of <em>Federation and Empire</em> came out in 2010.</li><li> A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RolePlayingGame" title="/pmwiki/pmwiki.php/Main/RolePlayingGame">Role-Playing Game</a> was produced in 1993, called <em>Prime Directive</em>. Initially it used its own rule system, but it faltered after only a few books were produced. It was rereleased in 2002 using the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a> system, and followed by parallel <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/D20System" title="/pmwiki/pmwiki.php/UsefulNotes/D20System">d20 System</a> books in 2011 (which have been superseded by the d20 Modern, which are still 'in-print'). The GURPS version was also revised for the 4th edition GURPS system in 2008 and is still available from Steve Jackson games.</li><li> And, of course, the already-mentioned <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarTrekStarfleetCommand" title="/pmwiki/pmwiki.php/VideoGame/StarTrekStarfleetCommand">Starfleet Command</a></em> computer games produced from 1999-2002.</li><li> And in 2005, a light version called <em>Federation Commander</em> - which is arguably <em>better</em> than the original game in many respects.</li><li> And in 2011, another "light" version in the miniatures game <em>A Call to Arms: Star Fleet</em> by Mongoose Publishing.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StandardSciFiFleet" title="/pmwiki/pmwiki.php/Main/StandardSciFiFleet">Standard Sci-Fi Fleet</a>: Nearly all of the standard types are present. Heavy Cruisers are indeed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JackOfAllStats" title="/pmwiki/pmwiki.php/Main/JackOfAllStats">Jack-of-All-Stats</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarKilling" title="/pmwiki/pmwiki.php/Main/StarKilling">Star Killing</a>: The Sun Snake is a space monster trying to dive into a star to make it go nova. This star has an inhabited research station nearby. Good luck rescuing all the inhabitants.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StealthInSpace" title="/pmwiki/pmwiki.php/Main/StealthInSpace">Stealth in Space</a>: The Romulan cloaking device. Changes from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries" title="/pmwiki/pmwiki.php/Series/StarTrekTheOriginalSeries">Star Trek: The Original Series</a></em> include the device taking a while to turn on and off ("fade out" and "fade in" periods) and explosive detonations revealing a nearby cloaked ship's position (the "flash cube" effect).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubsystemDamage" title="/pmwiki/pmwiki.php/Main/SubsystemDamage">Subsystem Damage</a>: The Damage Allocation system is all about this. Each damage point hitting a downed shield is resolved as an interior hit against a randomly-selected system, such as a phaser, a torpedo launcher, the main bridge, the left warp engine, etc.. Only when most systems have been destroyed will damage points be allocated against the unit's "excess damage" track (only if no excess damage points remain will the unit be destroyed). The rules specify that destroyed systems cannot be used.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeleportersAndTransporters" title="/pmwiki/pmwiki.php/Main/TeleportersAndTransporters">Teleporters and Transporters</a><ul><li> During combat, primarily used to beam boarding parties aboard an enemy ship with a downed shield.</li><li> They can also be used to lay "T-Bombs" in your opponent's path, a favorite tactic of the Andomedans.</li><li> Andromedan Motherships can both launch and recover their satellite ships by transporter. They also have a Displacement Device which functions as a somewhat less reliable teleportation device for ships, but can be used to move their own ship (including self-displacement and satellite ship launch) and (with much reduced directional control) enemy ships.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThatsNoMoon" title="/pmwiki/pmwiki.php/Main/ThatsNoMoon">That's No Moon!</a>: Most Jindarian "ships" are hollowed-out asteroids with warp engines strapped to the insides.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBridge" title="/pmwiki/pmwiki.php/Main/TheBridge">The Bridge</a>: In the game, ship's control centers come in various flavors. You have, of course, the main bridge, but there is also the "emergency bridge", "auxiliary control", and in larger ships like a dreadnought or battleship, a "flag bridge". Although any of these spaces can serve the basic purpose of controlling the ship's movement and actions, the flag bridge is generally reserved for admirals and used to coordinate a fleet action. But this redundancy means that if the bridge is destroyed in battle, all is not lost, although efficiency may go down.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeStandsStill" title="/pmwiki/pmwiki.php/Main/TimeStandsStill">Time Stands Still</a>: The Klingon stasis device, which tends to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">Awesome, but Impractical</a> without the right tactical conditions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimTaylorTechnology" title="/pmwiki/pmwiki.php/Main/TimTaylorTechnology">Tim Taylor Technology</a><ul><li> Most heavy weapons can be overloaded by pumping in MORE POWER! to deal extra damage.</li><li> The Hydran fusion beam is capable of being overpowered enough that it destroys its own mount, plus a bit of damage more to the firing ship. This feature of Hydran fusion beams also is involved with the so-called "suicide frigate" effect. Even suicide overloads are only effective if the ship gets into point-blank range of the target. In a fleet battle, frigates that get into point-blank range of the enemy fleet tend to become rapidly expanding clouds of vapor, so they need to get in as big a punch as they can.</li><li> A shield can be "reinforced" by adding more power to it. There's no upper limit for how strong you can make a given shield in this manner, other than how much power your ship can produce.</li><li> The Mauler device does damage in proportion to the amount of power channelled through it. There's no upper limit for how much power can be dumped into a single mauler shot, but using anything but batteries as a power source will damage the power source.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TournamentPlay" title="/pmwiki/pmwiki.php/Main/TournamentPlay">Tournament Play</a>: Even has its own module (the T and T-2000 mods - a new one came out in 2012 as well). Specially made ships are used which are fairly well balanced against each other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TractorBeam" title="/pmwiki/pmwiki.php/Main/TractorBeam">Tractor Beam</a>: Standard equipment on most starships. Federation tactical doctrine is always quick to remind its captains to use their tractors. In practice, their main use is to grab onto enemy drones (missiles) to keep them at bay. They are also a favorite of seeking-weapon races (Gorn, Kzinti, Romulans), who use tractor beams to prevent their victims from launching a "wild weasel" decoy shuttlecraft. The maneuver is typically called the "Gorn Anchor".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoDSpace" title="/pmwiki/pmwiki.php/Main/TwoDSpace">2-D Space</a>: The maps are flat, and the designers have rejected 3-D Starfleet Battles as "too complex without adding much to the game." Given the current weight of the game's rules, they may be right.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnPaused" title="/pmwiki/pmwiki.php/Main/UnPaused">Un-Paused</a>: What other ships do when a Klingon stasis field used on them deactivates.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUsurper" title="/pmwiki/pmwiki.php/Main/TheUsurper">The Usurper</a>: A Kzinti noble decided it was his turn to rule the Hegemony, despite the fact that the current Patriarch was alive and well, becoming known only as The Usurper. After he was defeated, his attempt to commit suicide by diving into dangerous space (the WYN Cluster) was averted when that territory was found to be a hidden sanctuary. His son and grandson <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LegacyCharacter" title="/pmwiki/pmwiki.php/Main/LegacyCharacter">kept the title The Usurper</a>, and decades later, the grandson tried again. Made even more complicated in that in both revolts, rumors abounded that The Usurper succeeded and took the idenity of The Patriarch, and that The Usurper who fled into the Cluster was the original Patriarch.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WaveMotionGun" title="/pmwiki/pmwiki.php/Main/WaveMotionGun">Wave-Motion Gun</a><ul><li> The "plasmatic pulsar device" on the larger ISC ships is an excellent example.</li><li> The Mauler Device is another, with the ships that carry it being literally built around the weapon.</li><li> The Plasma-R torpedo, second only to the Mauler in terms of raw damage. There are a couple of Romulan ships which consist of one such launcher (which takes a very long time to charge), engines, and a bridge. The running joke was "Congratulations! Your Plasma-R comes packaged with a small ship to move it around for you"</li><li> In fact most heavy weapons could qualify&mdash;large energy cost, long recharge time, massive damage&mdash;but the PPD and the Mauler in particular really have the right <em>flavor</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeHaveReserves" title="/pmwiki/pmwiki.php/Main/WeHaveReserves">We Have Reserves</a><ul><li> Fighters and Fast Patrol Ships (PFs) were designed as "attrition units". They are not expected to survive a major battle, but are cheaper to replace than any full-scale starship, even a puny frigate.</li><li> The Federation didn't field PFs, because they felt assigning a regular crew to an attrition unit was like assigning them to a suicide mission. Instead they built <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">more and better fighters</a> crewed by all-volunteer fighter pilots.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatIf" title="/pmwiki/pmwiki.php/Main/WhatIf">What If?</a><ul><li> The Frax are a fictional race &mdash; even "fictional" within the Star Fleet Battles universe; they are explained as being the opposing force created for a large-scale Klingon Navy training scenario. Their sole purpose is to see how a starship would fight if all its weapons fired into either the extended-front (FX) and extended-rear (RX) firing arcs, reflecting classic 'wet navy' configurations. They were originally released in their own playtest module F.</li><li> An entire module, called <em>Fleet Training Centers</em> brought the FRAX and a whole series of other (less developed) races, each with their own weird quirks and unique combat style, some of which were designed specifically to be dangerous against the race that programmed the simulations.</li><li> Some of the simulator races do not obey some of the rules of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MinovskyPhysics" title="/pmwiki/pmwiki.php/Main/MinovskyPhysics">Minovsky Physics</a> that otherwise rigidly controls the game. For instance, there is a race that treats three directions as equally valid 'forward' directions and another that has a shuttle that can move like a helicopter.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatTheHellHero" title="/pmwiki/pmwiki.php/Main/WhatTheHellHero">What the Hell, Hero?</a>: In the 'early years' time period, the Gorn faced a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens" title="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens">Scary Dogmatic Aliens</a> foe in the form of the Paravians, who due to their own paleontological history, saw the Gorn as a type of demon. After years of fighting, the Gorn managed to push them back to their home system (the Parvarians were not colonizers, so that wasn't an issue) and systematically destroyed any interstellar capability they had. Unfortunately, a few years later, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarKilling" title="/pmwiki/pmwiki.php/Main/StarKilling">sunsnake</a> arrived in the system, and despite the Gorn's best efforts, dove into their sun and caused it to nova, wiping out the Pavarian race. The Gorn never forgave themselves, and some speculate that this is the reason that during a period that they had a strong strategic advantage over the Romulans, the Gorn were content with simply containing them, rather than repeating history.</li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Starfire">Starfire</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/StarFrontiers">Star Frontiers</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SecretsOfTheThirdReich">Secrets of the Third Reich</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WarGaming">War Gaming</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/StarGruntII">Star Grunt II</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Starfire">Starfire</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/StarFrontiers">Star Frontiers</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

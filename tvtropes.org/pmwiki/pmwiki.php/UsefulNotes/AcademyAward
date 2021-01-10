@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Academy Award / Useful Notes - TV Tropes</title>
+<meta name="description" content="Everybody has their own view on the Academy Awards, anything from thinking of it as &quot;that show where actors get on stage and say funny things&quot; to &quot;that &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/UsefulNotes/AcademyAward" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Academy Award / Useful Notes - TV Tropes" />
+<meta name="twitter:description" content="Everybody has their own view on the Academy Awards, anything from thinking of it as &quot;that show where actors get on stage and say funny things&quot; to &quot;that &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Academy Award / Useful Notes - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/UsefulNotes/AcademyAward" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Everybody has their own view on the Academy Awards, anything from thinking of it as &quot;that show where actors get on stage and say funny things&quot; to &quot;that thing that snubbed The Dark Knight, The LEGO Movie and Avengers: Endgame&quot; and everything in &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/CompromisingMemoirs" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Music/OverClockedRemix" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAward?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=UsefulNotes/AcademyAward">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=UsefulNotes.AcademyAward">
+<i class="fa fa-history"></i> History</a></li><li class="link-discussion"><a href="/pmwiki/remarks.php?trope=UsefulNotes.AcademyAward">
+<i class="fa fa-comment"></i> Discussion</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAward?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="UsefulNotes" />
+<input type="hidden" id="title-hidden" value="AcademyAward" />
+<input type="hidden" id="article_id" value="511084" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/UsefulNotes/AcademyAward</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Useful Notes / </strong>
+Academy Award
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "UsefulNotes",
+                "item": "https://tvtropes.org/pmwiki/index_report.php?groupname=UsefulNotes"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Academy Award"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/AcademyAward" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Quotes/AcademyAward" class="subpage-link " title="The Quotes page">
+<span class="wrapper"><span class="spi quotes"></span>Quotes</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAward" class="subpage-link curr-subpage" title="The UsefulNotes page">
+<span class="wrapper">UsefulNotes</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/AcademyAward?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/AcademyAward?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/AcademyAward?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/AcademyAward?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/AcademyAward?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/AcademyAward?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/AcademyAward?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/AcademyAward?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/AcademyAward?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Recap/AcademyAward?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/AcademyAward?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/AcademyAward?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/AcademyAward?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/AcademyAward?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/AcademyAward?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/AcademyAward?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:162px;"><div class="lazy_load_img_box" style="padding-top:233.95%"><img src="https://static.tvtropes.org/pmwiki/pub/images/academyaward_1.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/academyaward_1.png" width="162" height="379"></div></div>
+<div class="acaptionright" style="width:162px;">Meet Lil' Oscar.</div>
+<div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>Everybody has their own view on the Academy Awards, anything from thinking of it as "that show where actors get on stage and say funny things" to "that thing that snubbed <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheDarkKnight" title="/pmwiki/pmwiki.php/Film/TheDarkKnight">The Dark Knight</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheLEGOMovie" title="/pmwiki/pmwiki.php/WesternAnimation/TheLEGOMovie">The LEGO Movie</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/AvengersEndgame" title="/pmwiki/pmwiki.php/Film/AvengersEndgame">Avengers: Endgame</a></em>" and everything in between. The truth is, there's a lot more to the Academy Awards than most people think.
+</p><p>Introduced in 1929, the Academy Awards (commonly known as the "Oscars") are given out annually by the Academy of Motion Picture Arts and Sciences to honor the best films and filmmakers of each given year, with a focus on Hollywood and other facets of the American film industry, though a prestigious "Best Foreign Film" award exists, and occasionally a foreign film (such as <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/MichaelHaneke" title="/pmwiki/pmwiki.php/Creator/MichaelHaneke">Michael Haneke</a>'s <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Amour" title="/pmwiki/pmwiki.php/Film/Amour">Amour</a></em> in 2012) will sneak its way into a Best Picture nomination.
+</p><p>The awards are presented in a star-studded, multi-hour televised ceremony. Though there are several other <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwardShow" title="/pmwiki/pmwiki.php/Main/AwardShow">Award Shows</a> of its type, most famously <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/GoldenGlobeAward" title="/pmwiki/pmwiki.php/UsefulNotes/GoldenGlobeAward">The Golden Globes</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/BAFTA" title="/pmwiki/pmwiki.php/UsefulNotes/BAFTA">BAFTAs</a>, the Oscars are by far the most popular and well-known. Due largely to their popularity, receiving an Oscar is incredibly prestigious; it's generally considered the highest honor one can receive for filmmaking.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>The award's purpose was originally to encourage better filmmaking, as well as promote the industry. The Academy is not actually a school, but a collection of people in the film industry that is dedicated to the advancement of films. Again, the Oscar was meant to help that along. Apart from the Oscars, the Academy runs several charity events and scholarships, operates some libraries and archives in Los Angeles, and is presently (as of 2018) building a museum.
+</p><p>The Academy has about 9,000 members, and the exact roster is secret and by invitation only. The only way to become an Academy member is either to be nominated for an Oscar, or be sponsored by other Academy members and pass a review process. It's all very shadowy and political and insider-y and a bit like trying to get into a yacht club, though in recent years the Academy has begun releasing annual lists of new members to try to shake off that image. The Academy membership are mostly actors, studio execs, producers, directors, and other behind-the-scenes people in the Los Angeles film industry: Hollywood.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>This is important because the members are the people who vote on who wins the Oscars. The Academy is organized into several branches based on the different disciplines: the actors branch, the music branch, the cinematographers branch, the sound branch, etc. and the branches by themselves select the nominees&mdash; each branch's balloting and qualification process can be quite different, see the example of the documentary branch. The Academy as a whole vote from among the nominees for each category as to who wins each Oscar.
+</p><p>What films become eligible can depend on a variety of criteria; aside individual categories' requirements, the major rule is that it must be exhibited in a movie theatre in Los Angeles County for at least one week. However, the 2021 Oscars have officially waived that central rule and will allow original streaming films from such services like <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Netflix" title="/pmwiki/pmwiki.php/Creator/Netflix">Netflix</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/AppleTVPlus" title="/pmwiki/pmwiki.php/Creator/AppleTVPlus">Apple TV+</a>.
+</p><p>The awards often receive flak from more nerdy audiences for largely paying attention to smaller, artsy films over blockbusters. This largely began in 1977, when <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ANewHope" title="/pmwiki/pmwiki.php/Film/ANewHope">Star Wars</a></em> lost Best Picture to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/AnnieHall" title="/pmwiki/pmwiki.php/Film/AnnieHall">Annie Hall</a></em>. Since then, it's been rare for the top-grossing film of a given year to also get nominated for (let alone win) the top honor. Many see little to no problem with this inclination, while others fervently believe the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SciFiGhetto" title="/pmwiki/pmwiki.php/Main/SciFiGhetto">Sci Fi Ghetto</a> is at fault and that the Oscars are dominated by showy films designed solely to win awards, something that has been dubbed "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/OscarBait" title="/pmwiki/pmwiki.php/Main/OscarBait">Oscar Bait</a>".
+</p><p>Any time the awards are brought up, expect somebody to mention <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwardSnub" title="/pmwiki/pmwiki.php/Main/AwardSnub">Award Snub</a>. That a film someone likes didn't win is one of the most-discussed aspects of the Awards; even years later, many are still sore over their favourites losing out to what they see as an inferior film.
+</p><p>Mostly, it's another <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwardShow" title="/pmwiki/pmwiki.php/Main/AwardShow">Award Show</a> &mdash; albeit the most famous. For tropes about the award presenting show itself, see <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardsCeremonies" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardsCeremonies">Academy Awards Ceremonies</a>. For a list of winners in the Best Picture, Best Director, and acting categories, see <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardWinners" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardWinners">Academy Award Winners</a>.
+</p><p></p><hr>
+As of 2020, the Academy gives out the following twenty-three awards each year:
+<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestPicture" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestPicture">Best Picture</a>
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestDirecting" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestDirecting">Best Directing</a>
+</li><li> Best Actor in a Leading Role
+</li><li> Best Actor in a Supporting Role
+</li><li> Best Actress in a Leading Role
+</li><li> Best Actress in a Supporting Role
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestAnimatedFeature" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestAnimatedFeature">Best Animated Feature</a>
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestAnimatedShortFilm" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestAnimatedShortFilm">Best Animated Short Film</a>
+</li><li> Best Cinematography
+</li><li> Best Costume Design
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestDocumentaryFeature" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestDocumentaryFeature">Best Documentary Feature</a>
+</li><li> Best Documentary (Short Subject)
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestFilmEditing" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestFilmEditing">Best Film Editing</a>
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestForeignLanguageFilm" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestForeignLanguageFilm">Best International Feature Film</a>
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestLiveActionShortFilm" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestLiveActionShortFilm">Best Live-Action Short Film</a>
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestMakeupAndHairstyling" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestMakeupAndHairstyling">Best Makeup and Hairstyling</a>
+</li><li> Best Original Score
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestOriginalSong" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestOriginalSong">Best Original Song</a>
+</li><li> Best Production Design
+</li><li> Best Sound
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestVisualEffects" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestVisualEffects">Best Visual Effects</a>
+</li><li> Best Adapted Screenplay
+</li><li> Best Original Screenplay
+</li></ul><p></p><h2>Oscar trivia</h2>
+<p>The following are some specific historical retrospectives concerning certain practices of the academy.
+</p><hr><ul><li> The first Oscar ceremony involved quite a bit of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>.
+<ul><li> There was no "Best Picture Award" given, but instead, two oddly redundant awards&mdash;Most Outstanding Production, which went to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Wings" title="/pmwiki/pmwiki.php/Film/Wings">Wings</a></em>, and Most Unique and Artistic Quality of Production, which went to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Sunrise" title="/pmwiki/pmwiki.php/Film/Sunrise">Sunrise</a></em>. After that first ceremony the Unique and Artistic Quality award was discontinued and a single Best Production Award was instituted, with the name later changed to Best Picture. <em>Wings</em> is often listed as the sole "Best Picture" winner at the first ceremony. (Both categories are included in the list below).
+</li><li> Winners were announced in advance, for the only time.
+</li><li> Runner-up awards were given, for the only time.
+</li><li> An award for Best Title Writing was given out. With the silent film era rapidly drawing to a close, the award was never given again.
+</li><li> Two Best Director awards were given, one for drama and one for comedy. Starting with the second Oscars only one directing award was given out.
+</li><li> For each of the first three Academy Awards, the Best Actor and Best Actress awards were given for the best body of work within a year, rather than for an individual performance. Also, the winners announced their same category the following year, until Norma Shearer was nominated again in 1931 after winning in 1930, potentially putting her in the awkward position of naming herself as the winner. Ever since, they've been announced by the previous year's winner of the opposite gender.
+</li></ul></li><li> There were no nominees for the second ceremony. The nominees later listed are unofficial, taken from people and works that the Academy considered.
+</li><li> In 2008, the late <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HeathLedger" title="/pmwiki/pmwiki.php/Creator/HeathLedger">Heath Ledger</a> won Best Supporting Actor for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheDarkKnight" title="/pmwiki/pmwiki.php/Film/TheDarkKnight">The Dark Knight</a></em>, a first for a superhero film, and sparking a debate about whether <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadArtistsAreBetter" title="/pmwiki/pmwiki.php/Main/DeadArtistsAreBetter">Dead Artists Are Better</a>. Ledger was only the second actor to win a posthumous Oscar, the first being Peter Finch, Best Actor, who won in 1976 for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Network" title="/pmwiki/pmwiki.php/Film/Network">Network</a></em>. Curiously, both actors were Australian.
+</li><li> The genres the Academy likes best are: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EpicMovie" title="/pmwiki/pmwiki.php/Main/EpicMovie">Epic Movie</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMusical" title="/pmwiki/pmwiki.php/Main/TheMusical">The Musical</a>, period dramas, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Biopic" title="/pmwiki/pmwiki.php/Main/Biopic">Biopic</a> and realistic dramas. Pure genre works winning Oscars are highly rare:
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheLordOfTheRingsTheReturnOfTheKing" title="/pmwiki/pmwiki.php/Film/TheLordOfTheRingsTheReturnOfTheKing">The Return of the King</a></em>&#146;s sweep shows the Academy <em>is</em> willing to give a serious look to genre films as worthy of the Academy's highest honors in writing and directing in addition to the technical awards which such films can usually garner<span class="notelabel" onclick="togglenote('note0o1yv');"><sup>note&nbsp;</sup></span><span id="note0o1yv" class="inlinefolder" isnote="true" onclick="togglenote('note0o1yv');" style="cursor:pointer;font-size:smaller;display:none;">(although the fact <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheLordOfTheRings" title="/pmwiki/pmwiki.php/Literature/TheLordOfTheRings">The Lord of the Rings</a></em> had such a significant literary pedigree before being adapted probably didn't hurt matters much). Although the Academy was knocked for not awarding the first two films in the trilogy similar honors, <em>King</em>&#145;s sweep is almost universally considered a recognition of the complete trilogy, as opposed to simply one film.</span>.
+</li><li> The victories of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/DancesWithWolves" title="/pmwiki/pmwiki.php/Film/DancesWithWolves">Dances with Wolves</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Unforgiven" title="/pmwiki/pmwiki.php/Film/Unforgiven">Unforgiven</a></em> in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNineties" title="/pmwiki/pmwiki.php/Main/TheNineties">The '90s</a> are seen as belated acknowledgement of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWestern" title="/pmwiki/pmwiki.php/Main/TheWestern">The Western</a> as a serious genre (only <em>three</em> westerns have won Best Picture).
+</li><li> Crime movies (Gangster, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FilmNoir" title="/pmwiki/pmwiki.php/Main/FilmNoir">Film Noir</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoliceProcedural" title="/pmwiki/pmwiki.php/Main/PoliceProcedural">Police Procedural</a>) never won top honours until <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheGodfather" title="/pmwiki/pmwiki.php/Film/TheGodfather">The Godfather</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheFrenchConnection" title="/pmwiki/pmwiki.php/Film/TheFrenchConnection">The French Connection</a></em> did in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSeventies" title="/pmwiki/pmwiki.php/Main/TheSeventies">The '70s</a> (followed by <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheSting" title="/pmwiki/pmwiki.php/Film/TheSting">The Sting</a> and the Godfather sequel). But this was very much an exception. Only one another crime movie, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheDeparted" title="/pmwiki/pmwiki.php/Film/TheDeparted">The Departed</a></em>, (a contemporary gangster film<span class="notelabel" onclick="togglenote('note188yk');"><sup>note&nbsp;</sup></span><span id="note188yk" class="inlinefolder" isnote="true" onclick="togglenote('note188yk');" style="cursor:pointer;font-size:smaller;display:none;"><em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheGodfather" title="/pmwiki/pmwiki.php/Film/TheGodfather">The Godfather</a></em> doubled as a period film</span>with the highest degree of profanity and violence than any other winner) won Best Picture. Another exception of a genre movie to have won Oscar glory is <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/SilenceOfTheLambs" title="/pmwiki/pmwiki.php/Film/SilenceOfTheLambs">Silence of the Lambs</a></em> (a horror-thriller film about a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SerialKiller" title="/pmwiki/pmwiki.php/Main/SerialKiller">Serial Killer</a> and also featuring a FBI agent as the protagonist), and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Rebecca" title="/pmwiki/pmwiki.php/Literature/Rebecca">Rebecca</a></em> (a gothic thriller, and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/AlfredHitchcock" title="/pmwiki/pmwiki.php/Creator/AlfredHitchcock">Alfred Hitchcock</a>'s only film to win Best Picture).
+</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComedyGhetto" title="/pmwiki/pmwiki.php/Main/ComedyGhetto">Comedy Ghetto</a> applies for best picture also, only three films that are romantic comedies have ever won Best Picture: <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ItHappenedOneNight" title="/pmwiki/pmwiki.php/Film/ItHappenedOneNight">It Happened One Night</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheApartment" title="/pmwiki/pmwiki.php/Film/TheApartment">The Apartment</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/AnnieHall" title="/pmwiki/pmwiki.php/Film/AnnieHall">Annie Hall</a></em>.
+</li><li> In 2016, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/MadMaxFuryRoad" title="/pmwiki/pmwiki.php/Film/MadMaxFuryRoad">Mad Max: Fury Road</a></em> an action film which won 6 Oscars (and despite not gaining Best Picture, for which it was nominated, they walked away with the most awards that night).
+</li><li> In 2018, <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/GuillermoDelToro" title="/pmwiki/pmwiki.php/Creator/GuillermoDelToro">Guillermo del Toro</a>'s <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheShapeOfWater" title="/pmwiki/pmwiki.php/Film/TheShapeOfWater">The Shape of Water</a></em>, a romantic fantasy film won Best Picture, along with three other awards including Best Director that night.
+</li></ul></li><li> Animated works have also undergone a major transformation. Back when studios still had theater cartoons, the Animated Short Subject feature was an award which studios clamored for. These days, animated works are most likely to be avant-garde subjects which most people are unlikely to ever see (unless, of course, the studio that produced them <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Pixar" title="/pmwiki/pmwiki.php/Creator/Pixar">later becomes very famous</a>) aside from the festival circuit. A <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardforBestAnimatedFeature" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardforBestAnimatedFeature">Best Animated Film</a> category was introduced in 2001 that allowed high-profile cartoons such as <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Shrek" title="/pmwiki/pmwiki.php/WesternAnimation/Shrek">Shrek</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/SpiritedAway" title="/pmwiki/pmwiki.php/Anime/SpiritedAway">Spirited Away</a></em> a chance to be honored without the potential "embarrassment" of an animated film being nominated for Best Picture, as Disney's <em>Beauty and the Beast</em> was in 1991.
+</li><li> Since 1945, the Best Picture Oscar has gone to the film that simply received the most votes; starting with the 2009 Academy Awards, the Academy returned to the original voting format: voters rank the nominated films from best to worst, and then the votes will be tallied up to determine which film wins the award. One could argue that this was done to ensure that all of the nominated films will be on a level playing field and (along with the extra five nominations) help to placate the people who complained about the Best Picture snubs from the 2008 awards. <a class="urllink" href="http://www.usatoday.com/life/movies/news/2009-10-30-10oscars30_CV_N.htm">This USA Today article with an interactive graphic<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> explains the voting procedure perfectly.
+</li><li> The award for Best Documentary Feature has also suffered from having a rather strange definition &mdash; documentaries can be disqualified for airing on TV too soon as well as for involving the use of too much archival footage. This says nothing about the fact that until <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/BowlingForColumbine" title="/pmwiki/pmwiki.php/Film/BowlingForColumbine">Bowling for Columbine</a></em> won in 2002, it was fairly rare for any Academy Award-winning documentaries to be available to the common public at all. Five of the six winners before <em>Bowling for Columbine</em> all involved Jews being killed as a result of antisemitism. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotThatTheresAnythingWrongWithThat" title="/pmwiki/pmwiki.php/Main/NotThatTheresAnythingWrongWithThat">Not That There's Anything Wrong with That</a> (the films that is, not antisemitism), but people would raise eyebrows if this were the topic of the Best Picture nominee with that kind of frequency. Before that, there was the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/HoopDreams" title="/pmwiki/pmwiki.php/Film/HoopDreams">Hoop Dreams</a></em> <a class="urllink" href="http://www.imdb.com/title/tt0110057/trivia">snub of 1994<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.
+<ul><li> Since <em>Bowling for Columbine</em>, though, the award has come under the same scrutiny as most other major categories, and most winners, while not all are as famous as <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/AnInconvenientTruth" title="/pmwiki/pmwiki.php/Film/AnInconvenientTruth">An Inconvenient Truth</a></em> or <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/MarchOfThePenguins" title="/pmwiki/pmwiki.php/Film/MarchOfThePenguins">March of the Penguins</a></em>, can usually be found at your local video store.
+</li><li> The nature of the category also allows for some oddities, such as installments of non-American television series being nominated as long as the documentaries haven't aired in the US; the Canadian Broadcasting Corporation current affairs program <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheFifthEstate" title="/pmwiki/pmwiki.php/Film/TheFifthEstate">The Fifth Estate</a></em> received several such nominations as a result.
+</li><li> The first "Best Documentary" award was for feature films and short subjects both, and featured <em>four</em> winners and 24 nominees. Starting with 1943, the second time the award was given, the Academy made a distinction between features and short subjects.
+</li></ul></li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestForeignLanguageFilm" title="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardForBestForeignLanguageFilm">International Feature Film</a> category (known before the 2020 awards as "Best Foreign Language Film") is also notorious for extremely complicated rules and a country can only submit one film to the Academy for nomination consideration. It's also subject to the rules about television airings; Japan wanted to submit <em>Shall We Dance?</em> in 1997, but it had already had a TV airing in its home country and was disqualified. (They submitted <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PrincessMononoke" title="/pmwiki/pmwiki.php/Anime/PrincessMononoke">Princess Mononoke</a></em> instead; it didn't get a nomination.)
+</li><li> Until 2009, no woman had ever won the Best Director award. Kathryn Bigelow was the first, winning for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheHurtLocker" title="/pmwiki/pmwiki.php/Film/TheHurtLocker">The Hurt Locker</a></em> &mdash; beating out her ex-husband, James Cameron<span class="notelabel" onclick="togglenote('note2fkxs');"><sup>note&nbsp;</sup></span><span id="note2fkxs" class="inlinefolder" isnote="true" onclick="togglenote('note2fkxs');" style="cursor:pointer;font-size:smaller;display:none;">Cameron had already won <em>three</em> Oscars for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Titanic1997" title="/pmwiki/pmwiki.php/Film/Titanic1997">Titanic (1997)</a></em>.</span> (for <em>Avatar</em>) in the process.
+</li><li> In 1946, WWII veteran and non-professional actor <a class="urllink" href="https://en.wikipedia.org/wiki/Harold_Russell">Harold Russell<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> won two Oscars for the same performance in <em>The Best Years of Our Lives</em>, one for Best Supporting Actor, and an honorary Oscar for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisabilityTropes" title="/pmwiki/pmwiki.php/Main/DisabilityTropes">"bringing hope and courage to his fellow veterans"</a> as a double amputee.
+</li><li> At the 1934 Oscars, the public were able to contribute to the votes. <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/BetteDavis" title="/pmwiki/pmwiki.php/Creator/BetteDavis">Bette Davis</a> had lobbied really hard to play Mildred in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/OfHumanBondage" title="/pmwiki/pmwiki.php/Literature/OfHumanBondage">Of Human Bondage</a></em>. Warner Bros let her to do so (the film was for their rival RKO) only because they thought the film would sink without a trace. When the film became a smash hit and turned Bette into a star, Jack Warner tried to campaign to stop her being nominated for Best Actress. When she was snubbed, audiences protested and she was allowed as a write-in vote. Claudette Colbert won for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ItHappenedOneNight" title="/pmwiki/pmwiki.php/Film/ItHappenedOneNight">It Happened One Night</a></em>, but the scandal caused the Academy to permanently change their voting procedures. Davis won the following year for <em>Dangerous</em> in what was universally seen as an open apology (a contemporary report said she could have won that year for playing a paramecium in <em>The Story of Louis Pasteur</em>).
+</li><li> There was an Academy Juvenile Award that was presented here and there throughout the years as a way of recognising performers under the age of eighteen - either for a specific performance or for general contribution. The first winner <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/ShirleyTemple" title="/pmwiki/pmwiki.php/Creator/ShirleyTemple">Shirley Temple</a> was recognised for her contribution in 1934 as a whole, whereas the final winner <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HayleyMills" title="/pmwiki/pmwiki.php/Creator/HayleyMills">Hayley Mills</a> was recognised for her performance in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Pollyanna1960" title="/pmwiki/pmwiki.php/Film/Pollyanna1960">Pollyanna</a></em>. The award was dropped after 1960, and juvenile performers have been nominated for the main awards along with their adult contemporaries. Of the twelve Juvenile Awards given, those awarded to <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/JudyGarland" title="/pmwiki/pmwiki.php/Creator/JudyGarland">Judy Garland</a> and Margaret O'Brien had to be replaced when the originals were lost.
+</li><li> Following on from the above, only three children have ever won an Oscar (though several more have been nominated). <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/PattyDuke" title="/pmwiki/pmwiki.php/Creator/PattyDuke">Patty Duke</a> (16) for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheMiracleWorker" title="/pmwiki/pmwiki.php/Film/TheMiracleWorker">The Miracle Worker</a></em>, Anna Paquin (11) for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ThePiano" title="/pmwiki/pmwiki.php/Film/ThePiano">The Piano</a></em> and Tatum O'Neal (10) for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/PaperMoon" title="/pmwiki/pmwiki.php/Film/PaperMoon">Paper Moon</a></em>. Tatum O'Neal is also the youngest person to ever win a competitive Oscar.
+</li><li> The Academy instated a right of first refusal agreement in 1950, stating that any recipient who wanted to sell their award (or their heirs) had to first give the Academy the opportunity to buy it back for $10. This amount was later changed to $1 in the 1980s. Harold Russell, mentioned above, famously sold both his Oscars in order to pay for his wife's medical expenses; he was exempted from the agreement since he was a pre-1950 winner. A small metal plaque bolted to the rear of every Oscar states that the statue cannot be transferred.
+<ul><li> A few Oscars from before the prohibition occasionally hit the open market. Steven Spielberg bought Bette Davis's 1938 Oscar for 'Jezebel' for $578,000.
+</li></ul></li><li> While there are several winners that have refused to go to the ceremony to accept the award in person, such as <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/WoodyAllen" title="/pmwiki/pmwiki.php/Creator/WoodyAllen">Woody Allen</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/KatharineHepburn" title="/pmwiki/pmwiki.php/Creator/KatharineHepburn">Katharine Hepburn</a>, there are two instances of an nominee flat out rejecting the award, usually to make a point:
+<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/GeorgeCScott" title="/pmwiki/pmwiki.php/Creator/GeorgeCScott">George C. Scott</a> won an Oscar for his seminal performance as Gen. <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/GeorgeSPatton" title="/pmwiki/pmwiki.php/UsefulNotes/GeorgeSPatton">George S. Patton</a> in the epic biopic <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Patton" title="/pmwiki/pmwiki.php/Film/Patton">Patton</a></em>. Scott had nothing but contempt for the Oscar ceremony, decrying it as a "two-hour meat parade, a public display with contrived suspense for economic reasons." The movie's producer, Frank McCarthy, accepted the award on Scott's behalf.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/MarlonBrando" title="/pmwiki/pmwiki.php/Creator/MarlonBrando">Marlon Brando</a> rejected the second Oscar he won for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheGodfather" title="/pmwiki/pmwiki.php/Film/TheGodfather">The Godfather</a></em>. Instead, he sent Sacheen Littlefeather, a Native American activist-actress and president of the National Native American Affirmative Image Committee to the ceremony. Claiming to be the actor's representative, Littlefeather said that Brando was turning down the Oscar, the reasons being the treatment of the American Indians in the film industry. In the statement published by <em>The New York Times</em> next day, Brando said: "The motion picture community has been as responsible as any for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HollywoodNatives" title="/pmwiki/pmwiki.php/Main/HollywoodNatives">degrading the Indian and making a mockery of his character</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSavageIndian" title="/pmwiki/pmwiki.php/Main/TheSavageIndian">describing his as savage, hostile, and evil</a>. It's hard enough for children to grow up in this world. When Indian children ... see their race depicted as they are in films, their minds become injured in ways we can never know."
+</li></ul></li><li> James Ivory is the oldest person to ever win an Oscar, with <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/CallMeByYourName" title="/pmwiki/pmwiki.php/Film/CallMeByYourName">Call Me by Your Name</a></em> winning Best Adapted Screenplay at age 89. The oldest nominee is <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/AgnesVarda" title="/pmwiki/pmwiki.php/Creator/AgnesVarda">Agn&egrave;s Varda</a>, just eight days his senior, for her documentary <em>Faces Places</em> in the same year.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/WaltDisney" title="/pmwiki/pmwiki.php/Creator/WaltDisney">Walt Disney</a> holds the record for both the most nominations and wins by a single person, 59 and 22 respectively. Walt also holds the record for the most wins in one night, grabbing four awards in 1954 for four separate films<span class="notelabel" onclick="togglenote('note3qylf');"><sup>note&nbsp;</sup></span><span id="note3qylf" class="inlinefolder" isnote="true" onclick="togglenote('note3qylf');" style="cursor:pointer;font-size:smaller;display:none;">Best Feature Documentary for <em>The Living Desert</em>, Best Short Documentary for <em>The Alaskan Eskimo</em>, Best Short Cartoon for <em>Toot, Whistle, Plunk, and Boom</em>, and Best Two-Reel Short for <em>Bear Country</em></span>; director <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/BongJoonHo" title="/pmwiki/pmwiki.php/Creator/BongJoonHo">Bong Joon-ho</a> tied that record in 2019 with only <em>one</em> film, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Parasite" title="/pmwiki/pmwiki.php/Film/Parasite">Parasite</a></em>.
+</li><li> In 2019, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Parasite2019" title="/pmwiki/pmwiki.php/Film/Parasite2019">Parasite</a></em> became the first foreign-language film to win Best Picture. It also became only the second film to win Best Picture <em>and</em> the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/PalmeDOr" title="/pmwiki/pmwiki.php/UsefulNotes/PalmeDOr">Palme d'Or</a>, often regarded as the top prize in international cinema; the other is <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Marty" title="/pmwiki/pmwiki.php/Film/Marty">Marty</a></em>.
+</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/AlliterativeName/UsefulNotes">AlliterativeName/Useful Notes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/CatCommunication">Cat Communication</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/AbemaBestVoiceActors">Abema Best Voice Actors</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AwardsIndex">Awards Index</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/AcademyAwardsCeremonies">Academy Awards Ceremonies</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UnusualUserInterface">Unusual User Interface</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/Photography">ImageSource/Photography</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/Amish">Amish</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

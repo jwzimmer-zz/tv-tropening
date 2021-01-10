@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Adeptus Evangelion (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Adeptus Evangelion is a Dark Heresy modification designed to run games in the world of Neon Genesis Evangelion. Religious imagery, Mind Rape, Tangification &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Adeptus Evangelion (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Adeptus Evangelion is a Dark Heresy modification designed to run games in the world of Neon Genesis Evangelion. Religious imagery, Mind Rape, Tangification &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Adeptus Evangelion (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Adeptus Evangelion is a Dark Heresy modification designed to run games in the world of Neon Genesis Evangelion. Religious imagery, Mind Rape, Tangification, the whole shebang. As of the third edition, Adeptus Evangelion is no longer using Dark &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/PowerOfTheVoid" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Anime/MobileSuitZetaGundam" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/AdeptusEvangelion">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.AdeptusEvangelion">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=AdeptusEvangelion&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.AdeptusEvangelion">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="AdeptusEvangelion" />
+<input type="hidden" id="article_id" value="317751" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Adeptus Evangelion
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Adeptus Evangelion"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/AdeptusEvangelion" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/AdeptusEvangelion" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/AdeptusEvangelion?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/AdeptusEvangelion?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/AdeptusEvangelion?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/AdeptusEvangelion?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/AdeptusEvangelion?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/AdeptusEvangelion?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/AdeptusEvangelion?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/AdeptusEvangelion?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/AdeptusEvangelion?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/AdeptusEvangelion?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/AdeptusEvangelion?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/AdeptusEvangelion?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/AdeptusEvangelion?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/AdeptusEvangelion?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/AdeptusEvangelion?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/AdeptusEvangelion?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:38.57%"><img src="https://static.tvtropes.org/pmwiki/pub/images/AdEva3_4897.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/AdEva3_4897.jpg" width="350" height="135"></div></div><p></p><div class="indent">"<strong>YOU</strong> pilot the robots! <strong>YOU</strong> fight the Angels! <strong>YOU</strong> have the mental problems! <strong>YOU</strong> turn into Tang! <strong>MAYBE</strong> save the world! <strong>IF</strong> you don't fuck it all up. Which you probably will."<div class="indent">&mdash; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImageBoards" title="/pmwiki/pmwiki.php/Main/ImageBoards">Anonymous</a>, describing the game in a nutshell.</div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Adeptus Evangelion</em> is a <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> modification designed to run games in the world of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion" title="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion">Neon Genesis Evangelion</a></em>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FauxSymbolism" title="/pmwiki/pmwiki.php/Main/FauxSymbolism">Religious imagery</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">Mind Rape</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AssimilationPlot" title="/pmwiki/pmwiki.php/Main/AssimilationPlot">Tangification</a>, the whole shebang. As of the third edition, <em>Adeptus Evangelion</em> is no longer using Dark Heresy as its base, but the violence and darkness hasn't decreased one bit.</p><p>Despite drawing from <em>Neon Genesis</em>, <em>Adeptus Evangelion</em> pushes Game Masters to make their own worlds and change the plot and mythos around in order to avoid a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForegoneConclusion" title="/pmwiki/pmwiki.php/Main/ForegoneConclusion">Foregone Conclusion</a> from people who've seen the anime. To this end it adds in weapons and equipment that wasn't seen in the series as well as several new Angels and possible story hooks and changes to the campaign such as different ways the Second Impact could have gone, different nefarious organisations and alternate ways to end the game...</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p><em>Adeptus Evangelion</em> v2.5 can be downloaded <a class="urllink" href="http://www.mediafire.com/?ue47q05u115e97i">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. There is also an offshoot, the Borderline Edition, which can be downloaded <a class="urllink" href="http://www.mediafire.com/?ldog2ph32vlo0g4">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. As of December 24, 2014, the third edition is under open beta testing and can be downloaded <a class="urllink" href="http://www.mediafire.com/download/o69miv64p6ifc0i/Adeptus+Evangelion+Beta+Draft+005.rar">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Note, that while 2.5 and back need the Dark Heresy core rulebook, version 3.0 and on do not.</p><p><a class="urllink" href="http://www.reddit.com/r/AdeptusEvangelion/">There's a subreddit.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></p><p></p><hr><h2>The game provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AceCustom" title="/pmwiki/pmwiki.php/Main/AceCustom">Ace Custom</a> - The Concept Model trait for the Evangelions. It starts with two free upgrades but costs two collateral damage when it enters battle because of the cost of replacement parts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationExpansion" title="/pmwiki/pmwiki.php/Main/AdaptationExpansion">Adaptation Expansion</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateContinuity" title="/pmwiki/pmwiki.php/Main/AlternateContinuity">Alternate Continuity</a> &#151; Game Masters are encouraged to expand on the story and mythos as they please (and to throw a curveball at those who have seen the anime). The third edition further reinforces this with the introduction of new character backgrounds that do not draw from any of the canonical characters.<ul><li> It also includes elements from the various Evangelion video games, namely the Jet Alone Prime and T-RIDEN-T Land Cruiser.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndIMustScream" title="/pmwiki/pmwiki.php/Main/AndIMustScream">And I Must Scream</a> - This can occasionally happen to pilots. If your Eva is defeated, there's a chance that your entry plug will fail to eject, leaving you stranded in the middle of a battlefield... and you can probably still feel whatever it was that incapacitated your mech.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimalWrongsGroup" title="/pmwiki/pmwiki.php/Main/AnimalWrongsGroup">Animal Wrongs Group</a> - The Neo-Toronto campaign features First Nations groups who support the Angels and try to hinder NERV Canada, believing the creatures are manifestations of nature come to seek revenge on the white man.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercing" title="/pmwiki/pmwiki.php/Main/ArmorPiercing">Armor Piercing</a> - the AT-fields are handled like this. If the weapon's Breach stat doesn't match or exceed the target's AT Strength stat, the target <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoSell" title="/pmwiki/pmwiki.php/Main/NoSell">No Sells</a> the attack regardless of whether the weapon in question was a prog knife or a positron cannon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtifactTitle" title="/pmwiki/pmwiki.php/Main/ArtifactTitle">Artifact Title</a> - The name "Adeptus Evangelion" referred to the fact that the game used the same system as <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>. The dev team abandoned this system when releasing v3 (though they are simultaneously releasing a 2.5 version that will use the DH system), but are keeping the title because it is recognizable.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint" title="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint">Attack Its Weak Point</a> - As in <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion" title="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion">The</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/RebuildOfEvangelion" title="/pmwiki/pmwiki.php/Anime/RebuildOfEvangelion">Series</a> attacking an Angels core with a critical can cause it to explode and cause masses of collateral.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomenessIsVolatile" title="/pmwiki/pmwiki.php/Main/AwesomenessIsVolatile">Awesomeness Is Volatile</a> - Synch ratio, which can change when you get hurt. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoreDakka" title="/pmwiki/pmwiki.php/Main/MoreDakka">More=better</a>, at least until you go <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RankInflation" title="/pmwiki/pmwiki.php/Main/RankInflation">above 100%</a> at which point it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyUpgrade" title="/pmwiki/pmwiki.php/Main/DeadlyUpgrade">starts to</a> eat your soul alive. Then you pass <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">200%</a> and essentally attain the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityWarper" title="/pmwiki/pmwiki.php/Main/RealityWarper">power</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PhysicalGod" title="/pmwiki/pmwiki.php/Main/PhysicalGod">god</a>. In less than five minutes, you will collapse into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MythologyGag" title="/pmwiki/pmwiki.php/Main/MythologyGag">Tang</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BarrierWarrior" title="/pmwiki/pmwiki.php/Main/BarrierWarrior">Barrier Warrior</a> - Played with, AT Tacticians can be used to buff and shield allies but they also get some <em>cataclysmic</em> powers.<ul><li> What with every Evangelion having an AT Field, every PC can technically count as this.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeamSpam" title="/pmwiki/pmwiki.php/Main/BeamSpam">Beam Spam</a> - The Archangel Kabaiel tends to favour this sort of weapon, to the point of being an Evangelion-Scale <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Touhou" title="/pmwiki/pmwiki.php/VideoGame/Touhou">Touhou</a></em> boss.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">BFG</a> - Any ranged weapon you wield would fall under this, really; after all, the players' characters are piloting 40-meter-tall mechs, so any gun you have would likely be as big as a person, or bigger.<ul><li> Several guns are so big that even an Evangelion needs the Heavy Chassis upgrade to so much as pick it up.</li><li> The Great Positron Cannon is so huge that you can't even fire it if you aren't plugged into the city's power grid... three times. It's also powerful enough to shoot into orbit.<ul><li> Also played with, Pallet Guns are woefully ineffectual since they just fire battleship shells that are easily deflected.</li></ul></li><li> Inverted with the HELIOS Pistol (kinda, it's still an E-scale weapon of course) which is a pistol sized weapon that fires insanely powerful blasts of energy.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">BFS</a> - If you get enough Weapon Upgrades you can get a Progressive Sword.<ul><li> Not forgetting the Heavy Lances!</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a> - [REDACTED] has a scenario involving an old Evangelion research facility. At the very end of it is a graveyard full of Evangelion corpses, just like in the series... except that these ones will pull everyone stepping into the pit below the surface and (somehow) replace entire limbs with their own! In a rare subversion of the trope, the victim can actually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CannibalismSuperpower" title="/pmwiki/pmwiki.php/Main/CannibalismSuperpower">profit from this</a>, if the GM chooses so.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossGame" title="/pmwiki/pmwiki.php/Main/BossGame">Boss Game</a> - Barring some rare exceptions, most fight tend to only include a single, powerful and unique enemy, making this a rare RPG example of this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaptainPatriotic" title="/pmwiki/pmwiki.php/Main/CaptainPatriotic">Captain Patriotic</a> - The "Flagship" attribute in short.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterShill" title="/pmwiki/pmwiki.php/Main/CharacterShill">Character Shill</a> - [REDACTED] features rules for a thirty second advertisement produced by the party. The Supplement seems to expect the worst...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChunkySalsaRule" title="/pmwiki/pmwiki.php/Main/ChunkySalsaRule">Chunky Salsa Rule</a> - With organic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>. Needless to say, the results are NOT pretty. This used to be a <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a> conversion, after all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Cosmic Horror Story</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovecraftLite" title="/pmwiki/pmwiki.php/Main/LovecraftLite">Lovecraft Lite</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyEnoughToWork" title="/pmwiki/pmwiki.php/Main/CrazyEnoughToWork">Crazy Enough to Work</a> - A feat available to AT Tactician's is called this. It involves using ridiculously dangerous AT abilities in intricate ways.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyPrepared" title="/pmwiki/pmwiki.php/Main/CrazyPrepared">Crazy-Prepared</a> - The Packrat asset; as the description says, <em>"The character can never afford to be caught without exactly what they need. They may spend 1 Enrichment at any time to suddenly have on their person a single small item, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HyperspaceArsenal" title="/pmwiki/pmwiki.php/Main/HyperspaceArsenal">even if they did not previously appear to have it</a>."</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyUpgrade" title="/pmwiki/pmwiki.php/Main/DeadlyUpgrade">Deadly Upgrade</a> - The third edition introduces the Egoburner talent, which allows the pilot to spend Ego in order to temporarily augment their Eva's AT field.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DuctTapeForEverything" title="/pmwiki/pmwiki.php/Main/DuctTapeForEverything">Duct Tape for Everything</a>. The only thing keeping the Patchwork Eva together.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DysfunctionJunction" title="/pmwiki/pmwiki.php/Main/DysfunctionJunction">Dysfunction Junction</a> - All the player characters, obviously.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyWeapon" title="/pmwiki/pmwiki.php/Main/EnergyWeapon">Energy Weapon</a> - The positron rifles came back. And they have three upgrades. One that has a multi shot fuse. One that is a one-shot and is larger. Then there is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">Great Positron Cannon</a>. It is able to one-shot angel if you get lucky. Problem is you can only mount it on a heavy chassis. So you become a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MightyGlacier" title="/pmwiki/pmwiki.php/Main/MightyGlacier">Mighty Glacier</a>.<ul><li> Actually, the description of the Great Positron Cannon, alongside the stats, imply that that is the positron rifle used against the fifth and fifteenth Angels in the show. The range and extremely unwieldy nature of it back this up.</li><li> If you thought Ramiel's attack was bad wait till you see the Archangel Cathetel ...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EpicFail" title="/pmwiki/pmwiki.php/Main/EpicFail">Epic Fail</a> - Some of the extra scenarios can end up like this. During the Court trial a horrible showing can result in the accused being excuted and most of the other PC being locked up as well to await their own trials. On a more humorious note during the Ad scenario the pilots can make a commercial that's so bad it's horrible. The book throws around phrases like "less comfortable in [the gaming groups] presence", "worst in human history" and "economic disaster". In gameplay terms you will lose a class-action suit against the company that hired you, lose your ego barrier and force you to take the drawback "Dark Secret (Participated In Horrible Advertisement)".<ul><li> The After You! talent, on a success, shoves an ally in a specific direction. On a failure, it knocks the ally prone.</li><li> The third edition introduces non-proficiency risks for Restricted Skills, ie. skills children the same age as the pilots are not realistically expected to be familiar with. If a character, despite not being proficient at a certain Restricted Skill, tries anyway and fails the skill check (made easier by the -20 penalty), the result is invariably this trope, regardless of the skill in question.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a> - Some of the Archangels have similarities to the Angels from the series but play with the abilities in more imaginative ways.<ul><li> Galgaliel, for example, shares Gaghiel's amphibious nature; he's just far stronger.</li><li> Zaazenach can be seen as a scaled-up version of Iruel.</li><li> Marmaroth and Israfel both create copies of themselves by messing with time. While Israfel uses these to overpower it's oppnents Marmaroth just... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverTheSelvesShallMeet" title="/pmwiki/pmwiki.php/Main/NeverTheSelvesShallMeet">Ends The World</a>.</li><li> Aradia shares Arael's ability to attack its host mentally. Aradia just has physical attacks and firepower to back it up.</li><li> Kabaiel is drawn as looking similar to Ramiel, and even has the same sort of power (Positron blasts) but is a lot less... patient.</li><li> Gamaliel is some weird and horrifying mix of Leliel and Bardiel. The game actually makes Gamaliel's connection with Bardiel more obvious and encourages GM's to "trick" anyone who's seen the anime into thinking they're battling Bardiel.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyeScream" title="/pmwiki/pmwiki.php/Main/EyeScream">Eye Scream</a> - A variation of this can happen if an Eva takes critical damage to its head; the pilot will feel the damage too, which can cause anything from disrupted focus due to intense pain, to going slowly insane from the feeling of your head melting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlawedPrototype" title="/pmwiki/pmwiki.php/Main/FlawedPrototype">Flawed Prototype</a> - Evangelion with the "Patchwork" Drawback, described as being made from recycled pieces, dummy bodies, and duct tape.<ul><li> Provisional Type Evas can buy the Prosthetic Body upgrade, shrugging off the first leg-disabling hit they take in a battle... in exchange for being unable to jumb, climb, go berserk or even get up from the ground without assistance. They also get an evasion penalty when fighting in the countryside, due to their legs not having been designed for soft and uneven ground.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreakOut" title="/pmwiki/pmwiki.php/Main/FreakOut">Freak Out</a> - Stress Breaks and Ego Breaks in the third edition. Whenever a character's Stress or Ego exceeds their respective pool capacity, the value is reset to zero, the pool size is permanently reduced and the character permanently gains a Trauma, altering their personality in a specific way.<ul><li> However, if a character's Stress pool size or Ego pool size drops below half of its initial value or below 10, the character suffers a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Breakdown</a> (Stress) or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImHavingSoulPains" title="/pmwiki/pmwiki.php/Main/ImHavingSoulPains">Disruption</a> (Ego) instead.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GainaxEnding" title="/pmwiki/pmwiki.php/Main/GainaxEnding">Gainax Ending</a> - Not one, but NINE of them are detailed (including the one from <em>End of Evangelion</em>), each one as apocalyptic as the next.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodzillaThreshold" title="/pmwiki/pmwiki.php/Main/GodzillaThreshold">Godzilla Threshold</a> - Lose a battle, and you cross this, with the UN deploying a N2 mine. Later Operations Directors can call this in, but you'll probably still need to cross it before they will.<ul><li> There's an Angel encounter circumstance called "Miscommunication" which subverts this. The UN believe you are defeated and launch an N2 mine - meaning that you now have to stop the Angel on a time limit...</li><li> Using the Spear of Longinus as a weapon. Its immense power means it will almost certainly one-shot any Angel (if it hits), but the very same power will cause it to fly off into Earth orbit/the mantle. This leaves it far out of human reach and the Angels are sure to beeline for it to trigger Third Impact once it has been used.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoombaStomp" title="/pmwiki/pmwiki.php/Main/GoombaStomp">Goomba Stomp</a> - The Gravity Kick talent enables this. With high enough elevation can be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathFromAbove" title="/pmwiki/pmwiki.php/Main/DeathFromAbove">Death from Above</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GravityMaster" title="/pmwiki/pmwiki.php/Main/GravityMaster">Gravity Master</a> - Graviton weapons in the third edition use weaponized <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialGravity" title="/pmwiki/pmwiki.php/Main/ArtificialGravity">Artificial Gravity</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenSupplies" title="/pmwiki/pmwiki.php/Main/HiddenSupplies">Hidden Supplies</a> - Your city will supply you with these. Guns, ammunition, and spare umbilical power cables can be sent to the surface for the Evangelions to use.<ul><li> Characters may also use the Stash skill to hide stuff themselves; whoever searches for it must use an opposed skill check of Search to find it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a> - Well, duh. In addition to the Evangelions themselves, there's also Jet Alone, the Jet Alone Prime, and the T-RIDEN-T Land Cruiser, in Prototype, Interceptor and Artillery flavor. There's even rules to pilot a T-RIDEN-T instead of an Eva, which has its benefits (no Synch Ratio difficulties, unlimited amount of Structural and Weapon Upgrades) and its costs (only the Skirmisher and Pointman careers are open to you, no AT or Biological powers, limited selection of melee weapons).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilarityEnsues" title="/pmwiki/pmwiki.php/Main/HilarityEnsues">Hilarity Ensues</a> - In the new GM supplement you can have the players hold a dance competition starring the Evangelions, have a sports match with the Evangelions, or have the pilots create a 30 second commercial for a sponsor.<ul><li> The dance competition one has actually happened in at least one campaign that <em>doesn't</em> use the supplement. Said game also had a pop idol pilot's EVA backup dancing for her.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IllGirl" title="/pmwiki/pmwiki.php/Main/IllGirl">Ill Girl</a> - The third edition introduced material for playing such a character. Options range from requiring medication to being physically disabled to having a heart condition. The most extreme version requires constant intensive care in a room full of medical equipment; failure to spend time in the room causes permanent damage to the character and can kill them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItRunsOnNonsensoleum" title="/pmwiki/pmwiki.php/Main/ItRunsOnNonsensoleum">It Runs on Nonsensoleum</a> - The scientists haven't really figured out what an A.T. field actually <em>is</em>.<ul><li> Also even the book's writers don't even know what a S2 core does since it's never really explained in anything. They call it a contract between the GM and player about what happens during the end game of the campaign.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LudicrousGibs" title="/pmwiki/pmwiki.php/Main/LudicrousGibs">Ludicrous Gibs</a> - In the manual, there are 8 consecutive pages of critical hit tables <em>and nothing else</em>. Then there is one page with a short paragraph about how angels respond differently to critical damage than Evangelions (since Angels lack pilots), and then there are 8 more pages of critical hit tables. Some of the entries are things like "your Evangelion's head explodes so violently it becomes shrapnel and damages anyone else nearby."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MechaExpansionPack" title="/pmwiki/pmwiki.php/Main/MechaExpansionPack">Mecha Expansion Pack</a> - In addition to the standard B-Type armour you can also equip your Evangelion with A-Type (Aerial combat), C-Type (Deep sea combat), D-Type (Magma combat, like the one Asuka used against Sandalphon) and E-Type (Outer Space combat).<ul><li> The third edition <em>really</em> went wild with this, with a vast array of customization options for the shoulder pods. Choices range from extra batteries to a short umbilical cable for allies to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoulderCannon" title="/pmwiki/pmwiki.php/Main/ShoulderCannon">Shoulder Cannon</a>. Hell, Evas can now get a <em>jetpack</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">Mind Rape</a> - the "Touched by an Angel" scenario of [REDACTED] allows you to RP this. Characters that go through it receive the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConditionedToAcceptHorror" title="/pmwiki/pmwiki.php/Main/ConditionedToAcceptHorror">Cold Blooded talent</a>, giving them heightened resistance against further sanity loss (not counting the amount they lost during the ordeal itself, that is). The exact effectiveness of the talent is determined by how much the victim's psychological issues bother them.<ul><li> In the third edition, roleplaying this is even rewarded with a Luck point!</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MundaneUtility" title="/pmwiki/pmwiki.php/Main/MundaneUtility">Mundane Utility</a> - Using the Evas for a Dance Competition, or for sports. Supposedly it's to get more data on Synch Ratios but really?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie" title="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie">Negative Space Wedgie</a> - the "Horror" part of the [REDACTED] supplement includes two REALLY nasty scenarios involving these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Nerf" title="/pmwiki/pmwiki.php/Main/Nerf">Nerf</a> - many things were nerfed and buffed in version 2.5. Skirmishers are less of a <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameBreaker" title="/pmwiki/pmwiki.php/Main/GameBreaker">Game-Breaker</a>, AT Powers aren't as expensive, making the AT Tatician less useless, and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoryBreakerPower" title="/pmwiki/pmwiki.php/Main/StoryBreakerPower">Story-Breaker Power</a> Dirac Breach was severely nerfed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverTheSelvesShallMeet" title="/pmwiki/pmwiki.php/Main/NeverTheSelvesShallMeet">Never the Selves Shall Meet</a> - This is the whole point of the archangel Marmaroth. It has two bodies that are both from different time zones. If they come into contact with each other it'll basically kill itself and the rest of reality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoEndorHolocaust" title="/pmwiki/pmwiki.php/Main/NoEndorHolocaust">No Endor Holocaust</a> - Averted. There's a whole system of subsidiary damage called "Collateral Damage", and it reflects just how badly the surrounding terrain is screwed up after the fighting is over &mdash; the higher it is, the less system upgrade points you get as a result, as your organization spends more and more of its budget on fixing the damage. Taken to its extreme with Jet Alone; its Nuclear Powered trait means that if it takes critical damage to the body, there's a 50% chance (5 or less on a D10) that it'll melt down. It does no physical damage, and it stops Jet Alone but the players inflict 100 Collateral Damage on the battlefield. Jet Alone Prime, meanwhile, goes off almost exactly like an N2 Mine, thanks to having an N2 Reactor.<ul><li> As of third edition, the collateral damage system has been greatly simplified. Instead of using numeric values, collateral damage now uses a single rating with four possible values. Certain events have a specific rating associated with them, with the highest-rating event's category being the final result at the end of the battle. After the category has been determined, the exact consequences are rolled on a separate table.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHitKO" title="/pmwiki/pmwiki.php/Main/OneHitKO">One-Hit KO</a> - Averted using the Fate Point system. In any situation where the pilot would die, they can permanently sacrifice one of their fate points for a miraculous survival. Angels can do this too, so you can't win with a single lucky shot.<ul><li> The third edition took further steps to remedy this with the Minimum Momentum mechanic, specifically to avoid anticlimactic instant-kill criticals on the first turn. As of this edition, no one can be critted until they have suffered at least 15 points of damage.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerGivesYouWings" title="/pmwiki/pmwiki.php/Main/PowerGivesYouWings">Power Gives You Wings</a> - One of the uses of an S2 Organ in 2.0 .</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperlyParanoid" title="/pmwiki/pmwiki.php/Main/ProperlyParanoid">Properly Paranoid</a> - The "Paranoid" asset. Yes, asset. Not drawback.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchroedingersGun" title="/pmwiki/pmwiki.php/Main/SchroedingersGun">Schr&ouml;dinger's Gun</a> - A favorite of the Operations Directors; some of their talents specifically rely on the other people not asking what they have been up to. One of them allows them to show up in person to save one of the other <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PC" title="/pmwiki/pmwiki.php/Main/PC">PCs</a> as long as they haven't done anything location-specific in the last 10 minutes; another allows them to modify one of the city's buildings into a rocket-turret structure, and neglect to mention <em>which</em> building until he decides to use it, at which point it is retroactively decided that he had picked that building ahead of time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewDestiny" title="/pmwiki/pmwiki.php/Main/ScrewDestiny">Screw Destiny</a> - The Fate point system in 2.5 allowed both pilots and Angels to reroll a botched skill check by spending a Fate point. By permanently sacrificing a Fate point, it was even possible to miraculously survive a fatal event.<ul><li> The third edition overhauled the Fate point system into the Luck/Doom system. Roleplaying events and some goals generate Luck (Fate points were only granted at GM discretion) which the player can spend to Defy Fate. Aside from being able to reroll skill checks and escaping death, Defy Fate can also be used to alter the narrative in the character's favor. It is even possible to set up a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContrivedCoincidence" title="/pmwiki/pmwiki.php/Main/ContrivedCoincidence">Contrived Coincidence</a> or pull an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrwellianRetcon" title="/pmwiki/pmwiki.php/Main/OrwellianRetcon">Orwellian Retcon</a>, if the player has enough Luck to spend. However, blatantly contrived events and escaping death also causes the character to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TemptingFate" title="/pmwiki/pmwiki.php/Main/TemptingFate">accumulate Doom points</a>, which increases the Luck cost of certain options, making it progressively harder and costlier to Defy Fate.</li><li> Reducing the contrivance of a Defy Fate event and/or making the outcome depend on the character's skills also makes it less expensive. For example, giving a convenient <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AirVentPassageway" title="/pmwiki/pmwiki.php/Main/AirVentPassageway">Air-Vent Passageway</a> out of a dead-end alley costs much more (and accumulates Doom) than just putting in a drain pipe the character could climb with a skill check.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShotgunsAreJustBetter" title="/pmwiki/pmwiki.php/Main/ShotgunsAreJustBetter">Shotguns Are Just Better</a> - Not so with the "Giant Shotgun" from Boneyard, like most ballistic weapons that aren't the P-8 it's woefully ineffective against Angels.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> - <em>Touched By An Angel</em>, one of the possible scenarios in [REDACTED] and 2.5, includes a suggestion that figure is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GainaxEnding" title="/pmwiki/pmwiki.php/Main/GainaxEnding">"Congratulating you for ... something"</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsAir" title="/pmwiki/pmwiki.php/Main/SpaceIsAir">Space Is Air</a> - <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lampshaded" title="/pmwiki/pmwiki.php/Main/Lampshaded">Lampshaded</a>, the book makes the assumption that AT Float only works in an atmosphere but also admits that it's much easier and less time-consuming if you want to use that as a method of transport.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsCold" title="/pmwiki/pmwiki.php/Main/SpaceIsCold">Space Is Cold</a> - <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Averted" title="/pmwiki/pmwiki.php/Main/Averted">Averted</a> believe it or not. The sourcebook points out that Evangelions need specialised heat sinks and other equipment so that they don't overheat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS" title="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS">Spell My Name with an "S"</a> - The A.T. Fields are termed "Absolute Territory" fields in the handbook, as opposed to the opening of the show which hints they should be called "Absolute Terror" fields. The justification the book gives is that Angels use the A.T. field to define what space they can influence the laws of physics in, while humans use a much weaker A.T. field to define the body they house their soul in.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">Coincidentally</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Fanfic/ShinjiAndWarhammer40K" title="/pmwiki/pmwiki.php/Fanfic/ShinjiAndWarhammer40K">Shinji And Warhammer 40 K</a> (which the game took some inspiration from) also refers to it as this.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Splat" title="/pmwiki/pmwiki.php/Main/Splat">Splat</a> - Until the second edition, Background and Career. Each Background and all but one Career is based on one of the canonical characters. The third edition scrapped this system in favor of the Tree of Life, replacing Backgrounds with Roots and Careers with Branches. Unlike the old Careers however, characters may buy skills from any Branch they have unlocked, making cross-specialization possible.<ul><li> <strong>Neo-Spartan</strong>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TykeBomb" title="/pmwiki/pmwiki.php/Main/TykeBomb">Neo-Spartans have been trained in combat and piloting since a very young age</a>, taking the time to learn to use a large number of weapons. They are defined by their roles as warriors and pilots. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodKnight" title="/pmwiki/pmwiki.php/Main/BloodKnight">There is nothing else for them</a>.<ul><li> <strong>Skirmisher</strong> Career: Pilots trained to fight with virtually any conventional weapon, ranging from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsAkimbo" title="/pmwiki/pmwiki.php/Main/GunsAkimbo">Pistols</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SniperRifle" title="/pmwiki/pmwiki.php/Main/SniperRifle">Sniper Rifle</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GatlingGood" title="/pmwiki/pmwiki.php/Main/GatlingGood">heavy</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WaveMotionGun" title="/pmwiki/pmwiki.php/Main/WaveMotionGun">weapons</a>, all the way to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">melee</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DualWielding" title="/pmwiki/pmwiki.php/Main/DualWielding">weapons</a> but with limited AT Powers.</li></ul></li><li> <strong>Prodigy</strong>: Prodigies are pilots that have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NaiveNewcomer" title="/pmwiki/pmwiki.php/Main/NaiveNewcomer">only recently</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallingIntoTheCockpit" title="/pmwiki/pmwiki.php/Main/FallingIntoTheCockpit">been tapped</a>. They lack the extensive training of most other pilots, but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrouchingMoronHiddenBadass" title="/pmwiki/pmwiki.php/Main/CrouchingMoronHiddenBadass">maintain a synch ratio well above normal</a>.<ul><li> <strong>Berserker</strong> Career: Pilots with limited direct combat ability, and few AT Powers, but never <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooDumbToLive" title="/pmwiki/pmwiki.php/Main/TooDumbToLive">knock them out</a>; they don't <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBerserker" title="/pmwiki/pmwiki.php/Main/TheBerserker">deal</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnstoppableRage" title="/pmwiki/pmwiki.php/Main/UnstoppableRage">well with stress.</a></li></ul></li><li> <strong>Manufactured</strong>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialHuman" title="/pmwiki/pmwiki.php/Main/ArtificialHuman">A genetic experiment specifically designed to pilot an Evangelion</a>. While often suffering from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStoic" title="/pmwiki/pmwiki.php/Main/TheStoic">various</a> <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UncannyValley" title="/pmwiki/pmwiki.php/Main/UncannyValley">disorders</a>, they can synchronize and pilot effectively while being <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathIsCheap" title="/pmwiki/pmwiki.php/Main/DeathIsCheap">easily</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloningBlues" title="/pmwiki/pmwiki.php/Main/CloningBlues">replaced</a>.<ul><li> <strong>Pointman</strong> Career: Pilots who focus on disruption and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoneWall" title="/pmwiki/pmwiki.php/Main/StoneWall">forcing their enemy to fight them,</a> better at defending others than themselves. Their AT Powers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BarrierWarrior" title="/pmwiki/pmwiki.php/Main/BarrierWarrior">tend to be defensive.</a> They also posses a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LimitBreak" title="/pmwiki/pmwiki.php/Main/LimitBreak">surprising</a> late game <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack" title="/pmwiki/pmwiki.php/Main/DeathOrGloryAttack">trick</a> that can (potentally)<a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHitKill" title="/pmwiki/pmwiki.php/Main/OneHitKill">lay out enemies instantly</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicSacrifice" title="/pmwiki/pmwiki.php/Main/HeroicSacrifice">at a cost.</a></li></ul></li><li> <strong>Impact Survivor</strong>: They remember Second Impact and have seen the world at its worst and survived. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">The resourcefulness and luck</a> that got them through then is still on their side now.<ul><li> <strong>Operations Director</strong>: Not a pilot, but the support class, in control of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedshirtArmy" title="/pmwiki/pmwiki.php/Main/RedshirtArmy">tanks</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AirborneMook" title="/pmwiki/pmwiki.php/Main/AirborneMook">VTOLs</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedshirtArmy" title="/pmwiki/pmwiki.php/Main/RedshirtArmy">Turrets</a> during a battle. However, their key abilities are about giving crucial advise, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint" title="/pmwiki/pmwiki.php/Main/AttackItsWeakPoint">targeting data</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombinationAttack" title="/pmwiki/pmwiki.php/Main/CombinationAttack">coordination</a>.</li><li> <strong>AT Tactician</strong>: The only career without a representative of the show. Pilot with limited weapon skills, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeakButSkilled" title="/pmwiki/pmwiki.php/Main/WeakButSkilled">but</a> knows the most AT powers. Able to pull off wildly varying things from simple <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindOverMatter" title="/pmwiki/pmwiki.php/Main/MindOverMatter">push and pull</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Flight" title="/pmwiki/pmwiki.php/Main/Flight">floating</a>, to advanced spread patterns like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BulletTime" title="/pmwiki/pmwiki.php/Main/BulletTime">Accelerated Territory</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CleanCut" title="/pmwiki/pmwiki.php/Main/CleanCut">slicing</a> with a wave of their hand, to shooting blasts of force and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">eventually</a> bolts of what is best described as Anti-soul but are better off using their powers to counteract an Angel's own powers or assisting the efforts of their team-mates and not neutralizing. ATTs should never neutralize. They have better things to be doing.</li></ul></li><li> Roots introduced in the third edition:<ul><li> <strong>Athlete</strong>: Like the Prodigy, the Athlete is a recently-tapped newcomer. While their sync ratio is nothing special, they have a sports background that left them with a superior physical condition. They might <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DumbMuscle" title="/pmwiki/pmwiki.php/Main/DumbMuscle">not be the sharpest tools in the shed</a> but they're definitely a tough nut to crack.</li><li> <strong>Challenged</strong>: Challenged pilots <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IllGirl" title="/pmwiki/pmwiki.php/Main/IllGirl">suffer from a medical disorder</a> that would ordinarily disqualify them from piloting. However, they are also living proofs that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisabledMeansHelpless" title="/pmwiki/pmwiki.php/Main/DisabledMeansHelpless">Disabled Means Helpless</a> is bull, as they happen to possess <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomenessByAnalysis" title="/pmwiki/pmwiki.php/Main/AwesomenessByAnalysis">Awesomeness by Analysis</a> and putting up with a natural disadvantage on a constant basis turned them into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Determinator" title="/pmwiki/pmwiki.php/Main/Determinator">Determinators</a>.</li><li> <strong>Derelict</strong>: Not all pilots come from a stable background. The Derelict is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StreetUrchin" title="/pmwiki/pmwiki.php/Main/StreetUrchin">Street Urchin</a> who grew up in a Third World backwater before being tapped by NERV. What they lack in formal education and training, they make up for with streetwise thinking and improvisation.</li><li> <strong>Impact Baby</strong>: It is rare to find children who were born on the day of Second Impact and survived the turbulent aftermath. The Impact Baby happens to be one lucky survivor - and NERV is very interested in acquiring the services of such a person, as they seem to share an unexplainable attunement to the Evas.</li><li> <strong>Nerd</strong>: Also like the Prodigy, the Nerd was discovered by NERV during a public screening. They are the very epitome of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SquishyWizard" title="/pmwiki/pmwiki.php/Main/SquishyWizard">Squishy Wizard</a>, having <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSmartGuy" title="/pmwiki/pmwiki.php/Main/TheSmartGuy">scored above average on intelligence tests for their age group</a> but lacking the physical prowess to back it up.</li><li> <strong>Poster Child</strong>: Unfortunately, even NERV needs money to operate. And to acquire that money, they need to maintain good public relations. That is why the Poster Child was hired as a pilot, despite their sub-optimal sync ratio. While they can easily sweet-talk/manipulate people into doing what they want, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeUltimateHero" title="/pmwiki/pmwiki.php/Main/FakeUltimateHero">that unfortunately won't work against an Angel</a>. Only time will tell how far they'll make it...</li><li> <strong>Visionary</strong>: Another newcomer tapped by NERV, Visionaries are... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloudCuckooLander" title="/pmwiki/pmwiki.php/Main/CloudCuckooLander">not like the others</a>. They share a strange connection with their Eva no one can explain - much less how in the hell are these kids able to understand and manipulate AT fields to such a crazy extent.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists" title="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists">There Are No Therapists</a>: AVERTED! However they can only help you so much. Made more useful in 2.5, where now you can either reduce insanity by 3 points/month or drop it down to the nearest multiple of 10 (from 68 to 60, 99 to 90, so on). So now Insanity is less of a one-way street, but it takes a while to recover.<ul><li> Third edition revamped the system completely. Each character starts with a Stress pool of a specific size, rounded to a multiple of five, which is slowly filled up by every event that causes the character to gain Stress. Whenever the Stress pool is maxed out, the character suffers a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreakOut" title="/pmwiki/pmwiki.php/Main/FreakOut">Stress Break</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereIsNoKillLikeOverkill" title="/pmwiki/pmwiki.php/Main/ThereIsNoKillLikeOverkill">There Is No Kill Like Overkill</a>: Referenced by the Borderline Edition in their description of the Linear Rail Accelerator Cannon:<div class="indent"> When new, experimental technology proves to be wildly successful as a weapon, the most natural progression is to then build the biggest gun one can possibly make out of it. The simply named "Linear Rail Accelerator Cannon" is just that; a heavy weapons platform borne out of mankind's instinctive desire to push the limits of practicality in the name of overkill.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMonolith" title="/pmwiki/pmwiki.php/Main/TheMonolith">The Monolith</a>: Apart from SEELE's black and red holographic monoliths there's also the mysterious "Guidestone".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooAwesomeToUse" title="/pmwiki/pmwiki.php/Main/TooAwesomeToUse">Too Awesome to Use</a>: Anything that needs you to burn Fate points. You are permanently deprived of a Fate point that could have saved you from death later on, and it's hard to earn new ones.<ul><li> The primary problem with Fate points is that handing more out is entirely at the GM's discretion. The third edition fixes this by introducing specific situations (mostly involving roleplaying events), conditions and skills that award Luck points.</li><li> The third edition can still trigger this, as some uses of Luck accumulate Doom, which makes it harder to save yourself from death in the future. How much is that extraordinary success or that dead NPC worth to you, hmm?</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TotalPartyKill" title="/pmwiki/pmwiki.php/Main/TotalPartyKill">Total Party Kill</a>: The Mass Production Evangelions and Keter, from the [REDACTED] supplement, seem to be <em>designed</em> to do this (to the point where the writeup says that making the latter <em>tougher</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideogameCrueltyPotential" title="/pmwiki/pmwiki.php/Main/VideogameCrueltyPotential">is a legitimate reason for a divorce</a>.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TournamentArc" title="/pmwiki/pmwiki.php/Main/TournamentArc">Tournament Arc</a> - This is possible in the GM supplement as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TravelingAtTheSpeedOfPlot" title="/pmwiki/pmwiki.php/Main/TravelingAtTheSpeedOfPlot">Traveling at the Speed of Plot</a> - The Evangelion Carrier Plane literally has a listed speed of "As the plot demands".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnholyHolySword" title="/pmwiki/pmwiki.php/Main/UnholyHolySword">Unholy Holy Sword</a> - Evangelion typeZero, a clone of Adam or Lilith which hasn't been infused with human DNA, has <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperPrototype" title="/pmwiki/pmwiki.php/Main/SuperPrototype">far more power then any Eva unit made after it,</a> but spending more then a few seconds inside it's entry plug will cause its pilot's Ego to slowly decay <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FateWorseThanDeath" title="/pmwiki/pmwiki.php/Main/FateWorseThanDeath">until they dissolve into LCL, with no chance of recovery.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VerticalMechaFins" title="/pmwiki/pmwiki.php/Main/VerticalMechaFins">Vertical Mecha Fins</a> - Referred to as "Wings" by the book. You can use them to store weapons, additional batteries, markerlights and other equipments.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatTheHellHero" title="/pmwiki/pmwiki.php/Main/WhatTheHellHero">What the Hell, Hero?</a> - The [REDACTED] supplement includes options to have a pilot stand trial for crimes against humanity. The crime in question can be anything from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DestructiveSavior" title="/pmwiki/pmwiki.php/Main/DestructiveSavior">accidentally knocking down a building</a> to the completely uncalled-for detonation of an N2 mine or deployment of an Anti-AT field in a capital city. Consequences range from a landslide victory for the defense to <em>execution of the accused with everyone else being thrown into prison as well for not stopping him/her</em>.<ul><li> Methods of winning said trial includes ordinary courtroom tactics to underhanded ones such as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RightForTheWrongReasons" title="/pmwiki/pmwiki.php/Main/RightForTheWrongReasons">planting false evidence for the prosecution to find then calling the judge's attention to it</a> or the option called <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections">A Quiet Word</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourDaysAreNumbered" title="/pmwiki/pmwiki.php/Main/YourDaysAreNumbered">Your Days Are Numbered</a> - The Terminal Decohesion disruption.<div class="indent"> You have no future. Plan accordingly.</div></li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/GamesWorkshop">Creator/Games Workshop</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+</ul>
+<ul>
+<li>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/FourChan">Website/4chan</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Roleplay/TheBalladOfEdgardo">The Ballad of Edgardo</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Roleplay/AsukaQuest">Asuka Quest</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/FanWorks/NeonGenesisEvangelion">FanWorks/Neon Genesis Evangelion</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/AkiChansLife">Aki-chan's Life</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheRolePlayingGame">The Role-Playing Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Roleplay/PanopticonQuest">Panopticon Quest</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/FanWorks/TabletopGames">FanWorks/Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Aldartha">Aldartha</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

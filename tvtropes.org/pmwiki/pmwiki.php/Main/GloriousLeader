@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Glorious Leader - TV Tropes</title>
+<meta name="description" content="The Glorious Leader trope as used in popular culture. The whole world's going to hell. Crime, corruption, moral degeneration, and a soft, weak government &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/GloriousLeader" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Glorious Leader - TV Tropes" />
+<meta name="twitter:description" content="The Glorious Leader trope as used in popular culture. The whole world's going to hell. Crime, corruption, moral degeneration, and a soft, weak government &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/VoteCobraCommander_3739.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Glorious Leader - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Main/GloriousLeader" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/VoteCobraCommander_3739.jpg" />
+<meta property="og:description" content="The whole world's going to hell. Crime, corruption, moral degeneration, and a soft, weak government that can't do a thing to help. In comes this guy, promising to end all that&mdash;and being the idiots we are, we elect him, or at least wildly &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/TreehouseOfFun" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Manga/KyoKoiOHajimemasu" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Main/GloriousLeader?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Main/GloriousLeader">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Main.GloriousLeader">
+<i class="fa fa-history"></i> History</a></li><li class="link-discussion"><a href="/pmwiki/remarks.php?trope=Main.GloriousLeader">
+<i class="fa fa-comment"></i> Discussion</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Main/GloriousLeader?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Main" />
+<input type="hidden" id="title-hidden" value="GloriousLeader" />
+<input type="hidden" id="article_id" value="39689" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Main/GloriousLeader</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+Glorious Leader
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tropes",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Glorious Leader"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GloriousLeader" class="subpage-link curr-subpage" title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/GloriousLeader" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Quotes/GloriousLeader" class="subpage-link " title="The Quotes page">
+<span class="wrapper"><span class="spi quotes"></span>Quotes</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/GloriousLeader?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/GloriousLeader?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/GloriousLeader?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/GloriousLeader?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/GloriousLeader?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/GloriousLeader?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/GloriousLeader?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/GloriousLeader?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/GloriousLeader?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Recap/GloriousLeader?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/GloriousLeader?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/GloriousLeader?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/GloriousLeader?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/GloriousLeader?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/GloriousLeader?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/GloriousLeader?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:330px;"><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/GIJoe" title="/pmwiki/pmwiki.php/Franchise/GIJoe"><div class="lazy_load_img_box" style="padding-top:74.85%"><img src="https://static.tvtropes.org/pmwiki/pub/images/VoteCobraCommander_3739.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/VoteCobraCommander_3739.jpg" width="330" height="247"></div></a></div>
+<div class="acaptionright" style="width:330px;"><span class="font-s">Surprisingly, he's favored even by the voters he hasn't threatened to turn into snakes.</span> </div>
+<p>
+</p><p></p><div class="indent"><em>"People need to be properly guided. They need an absolute leader to guide them."</em>
+<div class="indent">&mdash; <strong>Paptimus Scirocco</strong>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitZetaGundam" title="/pmwiki/pmwiki.php/Anime/MobileSuitZetaGundam">Mobile Suit Zeta Gundam</a></em>, "Casualties of War"
+</div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>The whole world's going to hell. Crime, corruption, moral degeneration, and a soft, weak government that can't do a thing to help. In comes this guy, promising to end all that&mdash;and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GullibleLemmings" title="/pmwiki/pmwiki.php/Main/GullibleLemmings">being the idiots we are</a>, we <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PresidentEvil" title="/pmwiki/pmwiki.php/Main/PresidentEvil">elect him</a>, or at least <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackShirt" title="/pmwiki/pmwiki.php/Main/BlackShirt">wildly applaud his coup d'&eacute;tat</a>. Once he seizes power, he may become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGeneralissimo" title="/pmwiki/pmwiki.php/Main/TheGeneralissimo">The Generalissimo</a>.
+</p><p>The Glorious Leader is a political outsider who uses romantic and idealist rhetoric to hide some malevolent agenda. He talks lovingly about the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodOldWays" title="/pmwiki/pmwiki.php/Main/GoodOldWays">Good Old Ways</a> and/or the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewEraSpeech" title="/pmwiki/pmwiki.php/Main/NewEraSpeech">great new age he will bring about</a>, and every other sentence out of his mouth is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewEraSpeech" title="/pmwiki/pmwiki.php/Main/NewEraSpeech">New Era Speech</a>. Bonus points if he fingers some other group of outsiders as The Enemy, blaming them for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">degenerate modern era</a>, or decides the country ought to go to war on some implausible pretext just to prove its military strength.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeCodifier" title="/pmwiki/pmwiki.php/Main/TropeCodifier">Trope Codifier</a>, of course, is <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AdolfHitler" title="/pmwiki/pmwiki.php/UsefulNotes/AdolfHitler">Adolf Hitler</a>. Other examples: <a class="twikilink" href="/pmwiki/pmwiki.php/Series/DoctorWho" title="/pmwiki/pmwiki.php/Series/DoctorWho">Mr. Saxon</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Darth Sidious</a>, tyrannic leaders all throughout the 20th century, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/OttoVonBismarck" title="/pmwiki/pmwiki.php/UsefulNotes/OttoVonBismarck">Otto von Bismarck</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/JosefStalin" title="/pmwiki/pmwiki.php/UsefulNotes/JosefStalin">Josef Stalin</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/MaoZedong" title="/pmwiki/pmwiki.php/UsefulNotes/MaoZedong">Mao Zedong</a> have been accused of being this/portrayed this way (although there is room for debate about whether these portrayals are strictly speaking accurate). However, although this trope became much more common in fiction after <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII" title="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII">World War II</a>, it did not originate in the 20th Century. Various usurper Kings-or other rulers who were viewed as coming by their position through illegitimate means-throughout history have also been portrayed this way by their contemporaries (regardless of whether the facts actually support this portrayal). Particularly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnfortunateImplications" title="/pmwiki/pmwiki.php/Main/UnfortunateImplications">if female</a>. Similarly, in myth and fantasy fiction alike: usurpers or rulers viewed as otherwise illegitimate are almost always this trope. If a ruler is this without being a usurper or otherwise illegitimate: then expect him/her to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">corrupted by or tricked into being the puppet of some other entity</a>.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>Contrast <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkMessiah" title="/pmwiki/pmwiki.php/Main/DarkMessiah">Dark Messiah</a>, who this guy is <em>dangerously</em> close to becoming if there's a religious angle to the story.
+</p><p></p><hr><h2>Examples:</h2>
+<p></p><div class="folderlabel" onclick="toggleAllFolders();">&nbsp;&nbsp;&nbsp;&nbsp;open/close all folders&nbsp; </div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;Anime &amp; Manga&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;">
+<ul><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Gundam" title="/pmwiki/pmwiki.php/Franchise/Gundam">Gundam</a></em> franchise has had more than a few of these.
+<ul><li> The Universal Century timeline alone saw <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilPrince" title="/pmwiki/pmwiki.php/Main/EvilPrince">Evil Prince</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundam" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundam">Gihren Zabi</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IronLady" title="/pmwiki/pmwiki.php/Main/IronLady">Iron Lady</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitZetaGundam" title="/pmwiki/pmwiki.php/Anime/MobileSuitZetaGundam">Haman</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundamZZ" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundamZZ">Khan</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeensAreMonsters" title="/pmwiki/pmwiki.php/Main/TeensAreMonsters">evil teenager</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundamZZ" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundamZZ">Glemmy Toto</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcePilot" title="/pmwiki/pmwiki.php/Main/AcePilot">Ace Pilot</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundamCharsCounterattack" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundamCharsCounterattack">Char Aznable</a> try to fill this role for the Principality of Zeon and the various Neo-Zeonic movements, while <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkMessiah" title="/pmwiki/pmwiki.php/Main/DarkMessiah">Dark Messiah</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitZetaGundam" title="/pmwiki/pmwiki.php/Anime/MobileSuitZetaGundam">Paptimus Scirocco</a> aimed to be this for the Earth Federation. Expect a lot of talk about humans on Earth <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">being weighed down by gravity</a>.
+</li><li> In <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/AfterWarGundamX" title="/pmwiki/pmwiki.php/Anime/AfterWarGundamX">After War</a>, Seidel Rasso of the Space Revolutionary Army preaches that all spacenoids will become part of the Newtype <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterRace" title="/pmwiki/pmwiki.php/Main/MasterRace">Master Race</a> and plans to wipe out what remains of humanity on Earth, and brutally kills anyone who disagrees with his doctrine of genocidal conquest <span class="spoiler" title="you can set spoilers visible by default on your profile">like the entire colony of Satelicon and his trusted aide Nicola</span>.
+</li><li> In the Cosmic Era timeline, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeneralRipper" title="/pmwiki/pmwiki.php/Main/GeneralRipper">General Ripper</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundamSEED" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundamSEED">Patrick Zala</a> is tricked into becoming one of these by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> Rau Le Creuset, while <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundamSEEDDestiny" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundamSEEDDestiny">Gilbert Durandal</a> became one of his own volition.
+</li><li> In the Anno Domini timeline, <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundam00" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundam00">Ribbons Almark</a> achieves this position in the second season as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkMessiah" title="/pmwiki/pmwiki.php/Main/DarkMessiah">Dark Messiah</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOverlord" title="/pmwiki/pmwiki.php/Main/EvilOverlord">Evil Overlord</a> of the United Earth Federation.
+</li><li> Lord Ezelcant of from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundamAGE" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundamAGE">Gundam AGE</a></em>. He leads his people in a massive war against Earth because they abandoned the colonies on Mars that eventually became Vagan and is fond of making big, holographic-projected speeches about revenge and returning to the "Eden" of Earth. He turns out to have a hidden agenda to <span class="spoiler" title="you can set spoilers visible by default on your profile">force the "evolution" of peaceful humans by killing off people who fight, Earthrace and Vagan alike</span>.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Manga/Overlord2012" title="/pmwiki/pmwiki.php/Manga/Overlord2012">Overlord (2012)</a></em>: Ainz is this to the population of Nazarick, through no fault of his own (as the only guild member to be present in the game's final hours, the denizens look on him as a benevolent god). Later, he's established as the savior of a kingdom with one of the people he saved starting a literal cult devoted to him. Again, Ainz is totally out of his depth and has no idea that he's being worshipped by humans (he already has enough trouble keeping his people's worship under control).
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;Comic Books&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;">
+<ul><li> Adam J Susan (or Adam J Sutler) from <em><a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/VForVendetta" title="/pmwiki/pmwiki.php/ComicBook/VForVendetta">V for Vendetta</a></em>.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/NewGods" title="/pmwiki/pmwiki.php/ComicBook/NewGods">New Gods</a></em> villain Glorious Godfrey has (fittingly enough) played this role in numerous guises.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder2');">&nbsp;&nbsp;&nbsp;&nbsp;Film&nbsp;</div><div id="folder2" class="folder" isfolder="true" style="display:block;">
+
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Star Wars</a></em>:
+<ul><li> Chancellor Palpatine, aka the Sith Lord Darth Sidious. Three years into the Clone Wars, the Republic was a military dictatorship in all but name, and Sidious had a supermajority in the Senate who did everything he said (to the point where he could legitimately boast that he <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/IAmTheNoun" title="/pmwiki/pmwiki.php/Main/IAmTheNoun">was</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IAmTheNoun" title="/pmwiki/pmwiki.php/Main/IAmTheNoun">the Senate</a>). Although his rise to power had been planned out in meticulous detail (with a healthy dose of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/XanatosSpeedChess" title="/pmwiki/pmwiki.php/Main/XanatosSpeedChess">Xanatos Speed Chess</a> for any sudden changes in circumstances) before anyone noticed him, and his closest political allies <em>knew</em> he was a Sith Lord long before he made himself Emperor. It's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Implied" title="/pmwiki/pmwiki.php/Main/Implied">implied</a> that a great deal of his power came from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindControl" title="/pmwiki/pmwiki.php/Main/MindControl">mind control</a>. Indeed, in <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/StarWarsTheCloneWars" title="/pmwiki/pmwiki.php/WesternAnimation/StarWarsTheCloneWars">The Clone Wars</a></em>, it's shown that this is how he controlled <span class="spoiler" title="you can set spoilers visible by default on your profile"> the clone troopers, using a biological implant that made them execute Order 66 when a signal was broadcast.</span>
+</li><li> Count Dooku (Darth Tyranus) had a similar role among the Separatists as the public face of that faction with near-dictatorial powers over the Separatist state. However, he and the rest of the Separatist leadership also secretly took orders from Dooku's Sith master, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningBothSides" title="/pmwiki/pmwiki.php/Main/RunningBothSides">Darth</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManBehindTheMan" title="/pmwiki/pmwiki.php/Main/TheManBehindTheMan">Sidious</a> (although only Dooku knew that Sidious was actually Palpatine, as Sidious always appeared <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InTheHood" title="/pmwiki/pmwiki.php/Main/InTheHood">In the Hood</a> whenever he addressed the Separatists to prevent them from recognizing him).
+</li></ul></li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder3');">&nbsp;&nbsp;&nbsp;&nbsp;Literature&nbsp;</div><div id="folder3" class="folder" isfolder="true" style="display:block;">
+
+<ul><li> Greg Stillson, the obscure up-and-coming local politician destined to become President and destroy humanity from <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/StephenKing" title="/pmwiki/pmwiki.php/Creator/StephenKing">Stephen King</a>'s <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheDeadZone" title="/pmwiki/pmwiki.php/Literature/TheDeadZone">The Dead Zone</a></em>, certainly fits the "political outsider with bizarre behavior and no obvious qualifications who nonetheless manages to climb to power through populist rhetoric and spectacular publicity stunts" part of the trope. The narrator even outright says that Stillson is obviously unsuited for serious public office, but the voters enjoy his theatrics and vote him into power anyway as a sort of "screw you" to the Washington establishment, believing that he'll shake things up without doing any actual harm. This proves an exceptionally poor decision on the part of the voters, as while Stillson has no actual over-arching Evil Plan, he's obviously loony, secretly corrupt, and criminally inclined, and the sort of person who would start an unnecessary nuclear war just because he felt like it (and eventually does).
+</li><li> President Berzelius "Buzz" Windrip of Sinclaim Lewis' <em>It Can't Happen Here</em>, later adapted as <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/V1983" title="/pmwiki/pmwiki.php/Series/V1983">V (1983)</a></em>. And by extension Charles Lindbergh as presented in Philip Roth's <em>The Plot Against America</em> (Roth's novel is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritualSuccessor" title="/pmwiki/pmwiki.php/Main/SpiritualSuccessor">Spiritual Successor</a>).
+</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiChrist" title="/pmwiki/pmwiki.php/Main/AntiChrist">Antichrist</a> in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/LeftBehind" title="/pmwiki/pmwiki.php/Literature/LeftBehind">Left Behind</a></em>. Though his rise to power completely ignores <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaughtUpInTheRapture" title="/pmwiki/pmwiki.php/Main/CaughtUpInTheRapture">the Rapture occurring less than two weeks ago</a> and is even in complete contradiction to the supposed off screen record crime waves. He just becomes the head of the United Nations and says it would be nice if every nation would destroy or hand over all their weapons to him so there can be world peace. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IdiotPlot" title="/pmwiki/pmwiki.php/Main/IdiotPlot">This works.</a>
+</li><li> Big Brother in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/NineteenEightyFour" title="/pmwiki/pmwiki.php/Literature/NineteenEightyFour">1984</a></em>. Nobody has seen him in person, but his face is worshiped on posters and on the telescreens. It's implied he may not actually exist, but it holds if he's merely a symbol even so.
+</li><li> In Octavia Butler's <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/ParableOfTheSower" title="/pmwiki/pmwiki.php/Literature/ParableOfTheSower">Parable</a></em> series, a dystopian United States elects Reverend Andrew Steele Jarrett, a radical preacher who eventually leads a crusade against all non-Christians and other undesirable groups, blaming them for the devastation of the economy and using them as a scapegoat to unite the people against.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWarsLegends" title="/pmwiki/pmwiki.php/Franchise/StarWarsLegends">Star Wars Legends</a></em>: In the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/JediAcademyTrilogy" title="/pmwiki/pmwiki.php/Literature/JediAcademyTrilogy">Jedi Academy Trilogy</a></em>, Daala is sickened by the ranks and self-promotions the warlords have invented and/or given themselves. This, combined with other reasons, results in Daala ending the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyCivilWar" title="/pmwiki/pmwiki.php/Main/EnemyCivilWar">Enemy Civil War</a> and uniting the imperial military.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/SwordOfTruth" title="/pmwiki/pmwiki.php/Literature/SwordOfTruth">Sword of Truth</a></em>
+<ul><li> The series given its <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Anvilicious" title="/pmwiki/pmwiki.php/Main/Anvilicious">Anvilicious</a> libertarian themes, whenever an enemy is this, it instantly makes them an acceptable target for just about anything.
+</li><li> Jagang himself: he's essentially the product of magic in a society that hates and fears it, he snapped up almost all of the known world, and through exceedingly clever management, the ability to run a crowd like none other, control over the wizards and sorceresses, and demonizing the freedom-loving wizards and "New World"ers, he's well on his way to actually ruling the world. He even has popular support, despite the terrible economic system that the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManBehindTheMan" title="/pmwiki/pmwiki.php/Main/ManBehindTheMan">Brotherhood</a> runs.
+</li><li> Joseph Ander in particular, but the Anders in general, did this as a <em>race</em>, using guilt and political correctness to crush those who genuinely were trying to uplift them.
+</li></ul></li><li> Jake Featherston, the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AdolfHitler" title="/pmwiki/pmwiki.php/UsefulNotes/AdolfHitler">Adolf Hitler</a> analogue in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Timeline191" title="/pmwiki/pmwiki.php/Literature/Timeline191">Timeline-191</a></em>. Elected leader of the CSA, he cripples Congress, emasculates the courts, tries to destroy the Confederacy's black population in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalSolution" title="/pmwiki/pmwiki.php/Main/FinalSolution">Final Solution</a>, and invades the United States, planning to ruin them as a power forever more. In the end, he destroys only his own nation.
+</li><li> William Kraft in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Victoria" title="/pmwiki/pmwiki.php/Literature/Victoria">Victoria</a></em> is a rare <em>heroic</em> example of this. Kraft, a right-wing ideologue, uses a deft combination of reactionary agitation, moving public displays and political intrigue to seize power in the fledgling <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheRepublic" title="/pmwiki/pmwiki.php/Main/TheRepublic">Confederation</a>, whereupon he proceeds to implement his revolutionary agenda. A small but extremely brutal purge of about a hundred and fifty political enemies is his first major executive action, followed by various similarly ruthless acts of national consolidation and limited wars with neighboring states. However, while Kraft's methods are often portrayed as unsavory, the ultimate moral of the story is that they are also <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyBusiness" title="/pmwiki/pmwiki.php/Main/DirtyBusiness">necessary</a></em> to secure the new state. By the time he passes away decades later, he is remembered very fondly by the people as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FounderOfTheKingdom" title="/pmwiki/pmwiki.php/Main/FounderOfTheKingdom">the father of their nation</a>.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder4');">&nbsp;&nbsp;&nbsp;&nbsp;Live-Action TV&nbsp;</div><div id="folder4" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/DoctorWho" title="/pmwiki/pmwiki.php/Series/DoctorWho">Doctor Who</a></em>: British Prime Minister Harold Saxon, <span class="spoiler" title="you can set spoilers visible by default on your profile">a.k.a. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMaster" title="/pmwiki/pmwiki.php/Main/TheMaster">The Master</a>, a homicidal Time Lord,</span> notable for having strong public support <span class="spoiler" title="you can set spoilers visible by default on your profile">(using the ArchAngel network to subtly hypnotise them)</span>, being honest and open with his Cabinet <span class="spoiler" title="you can set spoilers visible by default on your profile">(giggling at them, throwing the paperwork in the air and then <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">having them all poisoned</a>)</span>, taking a strong stand in diplomatic relations with the US President <span class="spoiler" title="you can set spoilers visible by default on your profile">(having him murdered on international television)</span> and bringing about dramatic electoral reforms <span class="spoiler" title="you can set spoilers visible by default on your profile">(taking over the world)</span>. <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/DoctorWhoS29E12TheSoundOfDrums" title="/pmwiki/pmwiki.php/Recap/DoctorWhoS29E12TheSoundOfDrums">Vote Saxon!</a>
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/FlashGordon2007" title="/pmwiki/pmwiki.php/Series/FlashGordon2007">Flash Gordon</a></em>: Ming is called "Benevolent Father" and took control of Mongo during a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CivilWar" title="/pmwiki/pmwiki.php/Main/CivilWar">Civil War</a> or a time of overall anarchy.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheLastShip" title="/pmwiki/pmwiki.php/Series/TheLastShip">The Last Ship</a></em>: Season 5 <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> Gustavo "Tavo" Barros is the Simon Bolivar-like leader of a revolutionary movement aimed at uniting Latin America (by force, if necessary) and then usurping the United States' role as a world power. His followers view him as a champion of the common people and practically worship him.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder5');">&nbsp;&nbsp;&nbsp;&nbsp;Tabletop Games&nbsp;</div><div id="folder5" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/CallOfCthulhu" title="/pmwiki/pmwiki.php/TabletopGame/CallOfCthulhu">Call of Cthulhu</a></em> campaign <em>The Fungi from Yuggoth</em>. The Brotherhood of the Beast plans to cause worldwide disaster so its leader can step in, save the world and be made President of the U.S. (and eventually ruler of the world).
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Exalted" title="/pmwiki/pmwiki.php/TabletopGame/Exalted">Exalted</a></em>: The Scarlet Empress initiated her rule on the basis of her power over the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaponOfMassDestruction" title="/pmwiki/pmwiki.php/Main/WeaponOfMassDestruction">Realm Defense Grid</a> being the only thing capable of holding off the surviving <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFairFolk" title="/pmwiki/pmwiki.php/Main/TheFairFolk">raksha hordes</a> and maintaining peace and solidarity among the remaining Dragon Blooded.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder6');">&nbsp;&nbsp;&nbsp;&nbsp;Theatre&nbsp;</div><div id="folder6" class="folder" isfolder="true" style="display:block;">
+
+<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheWizardOfOz" title="/pmwiki/pmwiki.php/Film/TheWizardOfOz">The Wizard of Oz</a> as presented in the musical <em><a class="twikilink" href="/pmwiki/pmwiki.php/Theatre/Wicked" title="/pmwiki/pmwiki.php/Theatre/Wicked">Wicked</a></em>, though he is a more sympathetic example than most, being manipulated by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManipulativeBastard" title="/pmwiki/pmwiki.php/Main/ManipulativeBastard">Madam Morrible</a> into thinking what he is doing is helping the people achieve their true potential.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder7');">&nbsp;&nbsp;&nbsp;&nbsp;Video Games&nbsp;</div><div id="folder7" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/BioshockInfinite" title="/pmwiki/pmwiki.php/VideoGame/BioshockInfinite">Bioshock Infinite</a></em>: Zachary Comstock styled the secession of Columbia as this, saying that the United States condemning their destruction of Peking was a sign that it had fallen irredeemably into apostasy. Comstock's actual control of the city was something he had secured since its founding (although it's implied he had rivals who were violently removed early on, probably on similar grounds). Comstock justifies all of this by invoking divine sanction indicated by his visions of the future.
+</li></ul><ul><li> Scholar Visari of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Killzone" title="/pmwiki/pmwiki.php/VideoGame/Killzone">Killzone</a></em>, of which the Helghan race is based off the Nazis.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWarsLegends" title="/pmwiki/pmwiki.php/Franchise/StarWarsLegends">Star Wars Legends</a></em>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackKnight" title="/pmwiki/pmwiki.php/Main/BlackKnight">Darth Revan</a> has more then a few elements of this in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/KnightsOfTheOldRepublic" title="/pmwiki/pmwiki.php/VideoGame/KnightsOfTheOldRepublic">Knights of the Old Republic</a></em>, especially considering how loyal his followers tend to be to him and/or his ideals <span class="spoiler" title="you can set spoilers visible by default on your profile">even in the sequel, when he's been gone for at least five years.</span> Well, his followers who aren't <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStarscream" title="/pmwiki/pmwiki.php/Main/TheStarscream">Malak</a>, at any rate. Of course, Malak proceeded to (try to) set up his own cult of personality, although he was somewhat overshadowed by Revan even then. And the big honkin' tombs of the dead Sith Lords of Korriban suggests this is something of a tradition.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder8');">&nbsp;&nbsp;&nbsp;&nbsp;Web Comics&nbsp;</div><div id="folder8" class="folder" isfolder="true" style="display:block;">
+<ul><li> Von Gernsbach in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/MinionComics" title="/pmwiki/pmwiki.php/Webcomic/MinionComics">Minion Comics</a></em> rails against the governments, corporations, and the military who keep information secret from the people as justification for his organization's hacking efforts.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder9');">&nbsp;&nbsp;&nbsp;&nbsp;Web Original&nbsp;</div><div id="folder9" class="folder" isfolder="true" style="display:block;">
+<ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Roleplay/TheGamersAlliance" title="/pmwiki/pmwiki.php/Roleplay/TheGamersAlliance">The Gamer's Alliance</a></em>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilChancellor" title="/pmwiki/pmwiki.php/Main/EvilChancellor">Dylas</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyCommunists" title="/pmwiki/pmwiki.php/Main/DirtyCommunists">Pronin</a> pretend to be saviours of their people but are actually power-hungry tyrants who use people for their own purposes and aren't afraid to break a few eggs to make an omelette.
+</li><li> Following the 2000 US presidential election <em><a class="twikilink" href="/pmwiki/pmwiki.php/Website/TheOnion" title="/pmwiki/pmwiki.php/Website/TheOnion">The Onion</a></em> came out with <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/BillClinton" title="/pmwiki/pmwiki.php/UsefulNotes/BillClinton">President Clinton</a> <a class="urllink" href="http://www.theonion.com/articles/clinton-declares-self-president-for-life,191/">seizing the opportunity<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder10');">&nbsp;&nbsp;&nbsp;&nbsp;Real Life&nbsp;</div><div id="folder10" class="folder" isfolder="true" style="display:block;">
+<ul><li> The ancient Greeks called this form of government a Tyranny. In their political phraseology "Tyranny" meant not necessarily rule by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCaligula" title="/pmwiki/pmwiki.php/Main/TheCaligula">The Caligula</a>, but rule by an autocrat who rules based on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsskickingEqualsAuthority" title="/pmwiki/pmwiki.php/Main/AsskickingEqualsAuthority">force</a> and popular sentiment rather then by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyalBlood" title="/pmwiki/pmwiki.php/Main/RoyalBlood">Royal Blood</a> (who could of course be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCaligula" title="/pmwiki/pmwiki.php/Main/TheCaligula">The Caligula</a> but was often just a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagnificentBastard" title="/pmwiki/pmwiki.php/Main/MagnificentBastard">Magnificent Bastard</a>). Such rulers were common in <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AncientGreece" title="/pmwiki/pmwiki.php/UsefulNotes/AncientGreece">Ancient Greece</a> and some were well liked and reasonably good at their job. In any case the Ancients were quite familiar with Glorious Leaders, making this <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlderThanFeudalism" title="/pmwiki/pmwiki.php/Main/OlderThanFeudalism">Older Than Feudalism</a>.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/MaoZedong" title="/pmwiki/pmwiki.php/UsefulNotes/MaoZedong">Mao Zedong</a> was known as "The Great Helmsman" among other nicknames, and portrayed himself as the driving force behind China's journey to modernization, ignoring the millions of deaths and disasters that happened under his rule.
+</li><li> His rival, Generalissimo <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ChiangKaiShek" title="/pmwiki/pmwiki.php/UsefulNotes/ChiangKaiShek">Chiang Kai-shek</a>, was actually not much better. Although he kept his entire squabbling KMT party united and led China through its war with Japan, he engaged in some similar practices to Mao, such as hanging his portrait in Tiananmen Square. Additionally, Chiang ruled as an authoritarian dictator throughout his career, especially in Taiwan, where <a class="urllink" href="https://en.wikipedia.org/wiki/White_Terror_(Taiwan)">he introduced the second longest period of martial law in history<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/NorthKorea" title="/pmwiki/pmwiki.php/UsefulNotes/NorthKorea">The rulers of North Korea</a> have their people literally address them as this. Because of translation errors, political titles, military ranks, and propaganda messages, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IHaveManyNames" title="/pmwiki/pmwiki.php/Main/IHaveManyNames">there are multiple variations</a>; common ones include "Dear Leader", "Leader", "Ruler", "Marshal", and "General". An internet search is recommended for more information since listing all of their titles is not realistic.
+</li><li> <a class="urllink" href="http://www.cracked.com/search/search.php?sa=search&amp;q=dictators">cracked.com<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> has <a class="urllink" href="http://www.cracked.com/article_19095_the-5-most-shockingly-insane-modern-dictators.html">several<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.cracked.com/article_18850_7-modern-dictators-way-crazier-than-you-thought-possible.html">articles<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> about similar rulers.
+</li><li> In a similar case is <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/IdiAmin" title="/pmwiki/pmwiki.php/UsefulNotes/IdiAmin">Idi Amin</a>, whose <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TryToFitThatOnABusinessCard" title="/pmwiki/pmwiki.php/Main/TryToFitThatOnABusinessCard">full title</a> was <em>His Excellency President for Life, Field Marshal Al Hadji Doctor Idi Amin, Lord of All the Beasts of the Earth and Fishes of the Sea, and Conqueror of the British Empire in Africa in General and Uganda in Particular.</em>
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AugustoPinochet" title="/pmwiki/pmwiki.php/UsefulNotes/AugustoPinochet">Augusto Pinochet</a> set himself up as this following his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MilitaryCoup" title="/pmwiki/pmwiki.php/Main/MilitaryCoup">Military Coup</a> in Chile, portraying himself as the savior of Chile, while destroying the nation's democratic institutions, and killing 3000 of his people.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlderThanFeudalism" title="/pmwiki/pmwiki.php/Main/OlderThanFeudalism">Older Than Feudalism</a>: Gaius Octavian Caesar, later known as <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Augustus" title="/pmwiki/pmwiki.php/UsefulNotes/Augustus">Augustus</a>, took power after two decades of civil war had destabilized the Republic. Rather than framing himself as a simple autocrat like his adoptive father, Julius Caesar, he positioned himself as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustTheFirstCitizen" title="/pmwiki/pmwiki.php/Main/JustTheFirstCitizen">Just the First Citizen</a> who was here to restore the Republican principles of Rome. His propaganda machine heavily played Augustus up as a restorer of Rome's traditional power abroad, as well as a defender against <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralGuardian" title="/pmwiki/pmwiki.php/Main/MoralGuardian">immorality and vice</a>.
+</li><li> Any head of state who relies heavily on personal charisma, populist support and promises of sweeping change will inevitably be accused of being, or at least being in danger of becoming, this trope by the people who voted for the other guy. Those accusations are usually (but not always, as the above examples prove) greatly exaggerated.
+<ul><li> On the other hand, even in a democracy, a particularly charismatic leader can attract unhealthy adulation that goes beyond normal loyalty and respect. Some of her backbench MP's seriously suggested that anyone who thought <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/MargaretThatcher" title="/pmwiki/pmwiki.php/UsefulNotes/MargaretThatcher">Margaret Thatcher</a> was less than perfect, or that she was only normally human and could be wrong, was committing an act of treason. This was an attitude shared by some <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/BritishNewspapers" title="/pmwiki/pmwiki.php/UsefulNotes/BritishNewspapers">British Newspapers</a> such as the Daily Mail<span class="notelabel" onclick="togglenote('note0uxkw');"><sup>note&nbsp;</sup></span><span id="note0uxkw" class="inlinefolder" isnote="true" onclick="togglenote('note0uxkw');" style="cursor:pointer;font-size:smaller;display:none;">A newspaper that openly supported Hitler right until the outbreak of war in 1939</span>. Similarly, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TonyBlair" title="/pmwiki/pmwiki.php/UsefulNotes/TonyBlair">Tony Blair</a> attracted such adoration and worship from the backbench MP's known as the "Blair Babes", women who would cut their own right hands off rather than criticise The Leader, that they became derisively known as <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheStepfordWives" title="/pmwiki/pmwiki.php/Film/TheStepfordWives">The Stepford Wives</a>. Also witness the way <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/DonaldTrump" title="/pmwiki/pmwiki.php/UsefulNotes/DonaldTrump">Donald Trump</a> is even now so idolised by his supporters that they see no wrong in him. And dare we mention the fanatical support and hard-core followers of deposed Labour Party leader Jeremy Corbyn? People like <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/BenitoMussolini" title="/pmwiki/pmwiki.php/UsefulNotes/BenitoMussolini">Benito Mussolini</a> were voted into power in what were, to begin with, democracies.
+</li></ul></li></ul></div>
+<p></p><hr>
+</div>
+<div class="alt-titles section section-fact">
+<h3>
+<strong>Alternative Title(s):</strong>
+<span>The Glorious Leader</span> </h3>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GirlScoutsAreEvil">Girl Scouts Are Evil</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Villains">Villains</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GloryHound">Glory Hound</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GlacierWaif">Glacier Waif</a>
+</li>
+<li>
+ <a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice">Characters as Device</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GlurgeAddict">Glurge Addict</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheGoodChancellor">The Good Chancellor</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/PoliticsTropes">Politics Tropes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HailToTheThief">Hail to the Thief</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FrenchMaidOutfit">French Maid Outfit</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/Photography">ImageSource/Photography</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HanahakiDisease">Hanahaki Disease</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FamilyFriendlyFirearms">Family-Friendly Firearms</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/WesternAnimation">ImageSource/Western Animation</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/PutTheirHeadsTogether">Put Their Heads Together</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+ </ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

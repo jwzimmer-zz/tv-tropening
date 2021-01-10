@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Big Bad / Video Examples - TV Tropes</title>
+<meta name="description" content="" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Big Bad / Video Examples - TV Tropes" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Big Bad / Video Examples - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VideoExamples/BigBad" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/AngryGuardDog" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/VideoGame/SpaceQuest" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-video">
+<a href="/pmwiki/video_examples.php?groupname=Main&title=BigBad" data-modal-target="login">
+<i class="fa fa-film"></i> Edit Videos</a>
+</li> </ul>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+</ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article-Videos"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article-Videos ">
+<div id="main-entry" class="with-sidebar">
+<h1 itemprop="headline" class="entry-title">
+<strong>Video Examples / </strong>
+Big Bad</h1>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="subpage-link " title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/BigBad" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Quotes/BigBad" class="subpage-link " title="The Quotes page">
+<span class="wrapper"><span class="spi quotes"></span>Quotes</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Theatre/BigBad" class="subpage-link " title="The Theatre page">
+<span class="wrapper"><span class="spi theatre"></span>Theatre</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BigBad" class="subpage-link video-examples-tab  curr-subpage" title="Video Examples">
+<img src="/images/play-button-logo.png" alt="play" class="">
+<span class="wrapper">VideoExamples</span>
+</a>
+</li>
+<li class="more-subpages">
+<a href="javascript:void(0);" class="subpage-toggle-button">
+<span class="wrapper more">More <i class="fa fa-chevron-down"></i></span>
+<span class="wrapper less"><i class="fa fa-chevron-left"></i> Less</span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- More -</option>
+<option value="/pmwiki/pmwiki.php/Fr/BigBad">Fr</option>
+<option value="/pmwiki/pmwiki.php/FrTraitement/BigBad">FrTraitement</option>
+<option value="/pmwiki/pmwiki.php/Haiku/BigBad">Haiku</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/BigBad">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Nl/BigBad">Nl</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/BigBad">PlayingWith</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content">
+<h2>VIDEOS:</h2>
+<a id="VideoExamples"></a>
+<div>&nbsp;</div>
+<div class="video-examples has-thumbnails">
+<div class="video-examples-featured">
+<a href="#video-link" data-video-id="hos8g6" data-video-descrip="Psychiatrist, philanthropist and leader of the Rapture Family, Dr Sofia Lamb has emerged from a long period of imprisonment to seize control of Rapture following the events of Bioshock 2. With her collectivist cult now running the city, she now plots to eliminate the concept of individuality altogether, intending to use her daughter Eleanor as the centrepiece of this mad quest - bringing her into conflict with Eleanor's Big Daddy protector, Subject Delta." data-video-title="Dr Sofia Lamb" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/hos8g6_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/hos8g6.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/BioShock2" class="video-launch-link video-overlay-link featured-widget-vid">
+<div class="featured-widget-vid-iframe">
+<video id='featured-video-player' class='video-js vjs-default-skin vjs-16-9' controls data-setup='{"ga": {"eventsToTrack": ["error"]}}'>
+</video>
+</div>
+</a>
+<h2 class="bold font-l">Dr Sofia Lamb</h2>
+<p class="_pmvv-vidbox-descTxt">
+Psychiatrist, philanthropist and leader of the Rapture Family, Dr Sofia Lamb has emerged from a long period of imprisonment to seize control of Rapture following the events of Bioshock 2. With her collectivist cult now running the city, she now plots to eliminate the concept of individuality altogether, intending to use her daughter Eleanor as the centrepiece of this mad quest - bringing her into conflict with Eleanor's Big Daddy protector, Subject Delta. </p>
+<p class='example_row'>Example of:<br><a href="/pmwiki/pmwiki.php/Main/BigBad" class='trope-example-link'>Big Bad</a></p>
+</div>
+</div>
+<div id="block-view-cont" class="row video-gallery">
+<div class="video-block-cont" data-video-id="1b7n42">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="1b7n42" data-vimeo-id="487902115" data-video-descrip="The Mentor of the Levantine Assassin Order. He gives Altair the mission to assassinate nine corrupt head figures of the Holy Land as a way for him to earn redemption.&lt;br&gt;&lt;br&gt;In reality, he was a high-ranking member of the Templars, if not their leader. Once Al Mualim had the Piece of Eden, he sent Alta&amp;Atilde;&amp;macr;r to deal with the other nine Templars in the Holy Land to ensure he would remain unchallenged. Fortunately, Altair killed him once he discovered this treachery." data-video-title="Al Mualim" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/1b7n42_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/1b7n42.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/AssassinsCreedI" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/1b7n42.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 1 month ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="1b7n42" data-vimeo-id="487902115" data-video-descrip="The Mentor of the Levantine Assassin Order. He gives Altair the mission to assassinate nine corrupt head figures of the Holy Land as a way for him to earn redemption.&lt;br&gt;&lt;br&gt;In reality, he was a high-ranking member of the Templars, if not their leader. Once Al Mualim had the Piece of Eden, he sent Alta&amp;Atilde;&amp;macr;r to deal with the other nine Templars in the Holy Land to ensure he would remain unchallenged. Fortunately, Altair killed him once he discovered this treachery." data-video-title="Al Mualim" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/1b7n42_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/1b7n42.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/AssassinsCreedI" class="video-launch-link video-overlay-link font-m bold">Al Mualim </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="51014e">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="51014e" data-vimeo-id="483215772" data-video-descrip="Malachite is an evil sorcerer who wishes to regain his magic gauntlet and is the antagonist of Suburban Knights." data-video-title="Malachite" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/51014e_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/51014e.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="3.00" data-video-rating-count="4" data-video-media-sources="WebVideo/SuburbanKnights" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/51014e.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 1 month ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="51014e" data-vimeo-id="483215772" data-video-descrip="Malachite is an evil sorcerer who wishes to regain his magic gauntlet and is the antagonist of Suburban Knights." data-video-title="Malachite" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/51014e_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/51014e.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="3.00" data-video-rating-count="4" data-video-media-sources="WebVideo/SuburbanKnights" class="video-launch-link video-overlay-link font-m bold">Malachite </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="ylgrch">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="ylgrch" data-vimeo-id="469173248" data-video-descrip="Kayako was an ordinary Housewife who has an obsessive crush on a teacher Peter Kirk. Unfortunately, her husband Takeo found out and brutally killed her, along with her son Toshio and the family cat Mar. Brought back by her family's rage as a Curse, Kayako appears as a Stringy-Haired Ghost Girl, crawling about to hunt down and kill anyone who enters her house to consume them in the curse. She is most iconic for crawling her way down the stairs, and lets out a chilling death rattle whenever she appears." data-video-title="Kayako Saeki" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ylgrch_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ylgrch.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="Film/TheGrudge" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ylgrch.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 2 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="ylgrch" data-vimeo-id="469173248" data-video-descrip="Kayako was an ordinary Housewife who has an obsessive crush on a teacher Peter Kirk. Unfortunately, her husband Takeo found out and brutally killed her, along with her son Toshio and the family cat Mar. Brought back by her family's rage as a Curse, Kayako appears as a Stringy-Haired Ghost Girl, crawling about to hunt down and kill anyone who enters her house to consume them in the curse. She is most iconic for crawling her way down the stairs, and lets out a chilling death rattle whenever she appears." data-video-title="Kayako Saeki" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ylgrch_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ylgrch.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="Film/TheGrudge" class="video-launch-link video-overlay-link font-m bold">Kayako Saeki </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="1l9olm">
+<div class="thumbnail">
+ <div class="thumb-wrapper">
+<a href="#video-link" data-video-id="1l9olm" data-vimeo-id="465488244" data-video-descrip="Oogie Boogie is the main antagonist of The Nightmare Before Christmas; a malevolent monster banished from the town for his evil ways who tries to torture and kill Santa Claus for fun." data-video-title="Oogie Boogie" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/1l9olm_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/nightmare_christmas_disneyscreencapscom_579_6.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.60" data-video-rating-count="5" data-video-media-sources="WesternAnimation/TheNightmareBeforeChristmas" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/nightmare_christmas_disneyscreencapscom_579_6.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 2 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="1l9olm" data-vimeo-id="465488244" data-video-descrip="Oogie Boogie is the main antagonist of The Nightmare Before Christmas; a malevolent monster banished from the town for his evil ways who tries to torture and kill Santa Claus for fun." data-video-title="Oogie Boogie" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/1l9olm_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/nightmare_christmas_disneyscreencapscom_579_6.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.60" data-video-rating-count="5" data-video-media-sources="WesternAnimation/TheNightmareBeforeChristmas" class="video-launch-link video-overlay-link font-m bold">Oogie Boogie </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="zv8wk5">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="zv8wk5" data-vimeo-id="465269310" data-video-descrip="A sorcerer once in the employ of King Peregrin, eventually falling out of favor with the King due to his experiments on the bodies of the dead. He was banished from the kingdom and spent years perfecting his dark arts. He created an unholy army of undead soldiers and demons, which he used to conquer many major areas of Gallowmere until the King intervened and deployed Sir Daniel and his battalion for a titanic battle. Zarok's army was defeated, but Zarok's body was never accounted for. Though thought to be long dead, he returns after 100 years in a bid to take over Gallowmere once again. With a magic spell called the &amp;quot;Evernight&amp;quot;, he plunged the realm into perpetual darkness and robbed the living of their free will, along with raising the dead in the process." data-video-title="Zarok" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/zv8wk5_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/zv8wk5.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/MediEvil" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/zv8wk5.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 2 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="zv8wk5" data-vimeo-id="465269310" data-video-descrip="A sorcerer once in the employ of King Peregrin, eventually falling out of favor with the King due to his experiments on the bodies of the dead. He was banished from the kingdom and spent years perfecting his dark arts. He created an unholy army of undead soldiers and demons, which he used to conquer many major areas of Gallowmere until the King intervened and deployed Sir Daniel and his battalion for a titanic battle. Zarok's army was defeated, but Zarok's body was never accounted for. Though thought to be long dead, he returns after 100 years in a bid to take over Gallowmere once again. With a magic spell called the &amp;quot;Evernight&amp;quot;, he plunged the realm into perpetual darkness and robbed the living of their free will, along with raising the dead in the process." data-video-title="Zarok" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/zv8wk5_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/zv8wk5.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/MediEvil" class="video-launch-link video-overlay-link font-m bold">Zarok </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="s9n3rd">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="s9n3rd" data-vimeo-id="465270365" data-video-descrip="The Big Bad of Medievil 2, Palethorn acquired Zarok's spellbook and unleashed havoc on London. However, something went wrong with the spell, and as a result he was transformed into a red-skinned demon, and the pages of the spellbook were scattered across London, thus making the monsters he summoned almost uncontrollable. Palethorn now seeks the remaining pages of the spellbook so he can complete the spell and take over the world." data-video-title="Lord Palethorn" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/s9n3rd_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/s9n3rd.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/MediEvil2" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/s9n3rd.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 2 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="s9n3rd" data-vimeo-id="465270365" data-video-descrip="The Big Bad of Medievil 2, Palethorn acquired Zarok's spellbook and unleashed havoc on London. However, something went wrong with the spell, and as a result he was transformed into a red-skinned demon, and the pages of the spellbook were scattered across London, thus making the monsters he summoned almost uncontrollable. Palethorn now seeks the remaining pages of the spellbook so he can complete the spell and take over the world." data-video-title="Lord Palethorn" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/s9n3rd_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/s9n3rd.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/MediEvil2" class="video-launch-link video-overlay-link font-m bold">Lord Palethorn </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="3swyeu">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="3swyeu" data-vimeo-id="463994426" data-video-descrip="Malekith the Accursed is the ruler of Svartleheim, King of the Dark Elves and enemy of Asgard." data-video-title="Malekith the Accursed" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/3swyeu_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3swyeu.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="Film/ThorTheDarkWorld" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3swyeu.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 3 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="3swyeu" data-vimeo-id="463994426" data-video-descrip="Malekith the Accursed is the ruler of Svartleheim, King of the Dark Elves and enemy of Asgard." data-video-title="Malekith the Accursed" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/3swyeu_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3swyeu.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="Film/ThorTheDarkWorld" class="video-launch-link video-overlay-link font-m bold">Malekith the Accursed </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="xrsa69">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="xrsa69" data-vimeo-id="457157754" data-video-descrip="The antagonist of Spider-Man 2." data-video-title="Dr. Otto Octavius" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/xrsa69_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xrsa69.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="Film/SpiderMan2" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xrsa69.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 3 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="xrsa69" data-vimeo-id="457157754" data-video-descrip="The antagonist of Spider-Man 2." data-video-title="Dr. Otto Octavius" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/xrsa69_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xrsa69.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="Film/SpiderMan2" class="video-launch-link video-overlay-link font-m bold">Dr. Otto Octavius </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="arxc73">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="arxc73" data-vimeo-id="455152409" data-video-descrip="Driven mad by his tech and hungry fr revenge against Norman Osbourne, Dr. Otto Octavius - better known as Doctor Octopus - becomes the main antagonist of the game. " data-video-title="Dr. Otto Octavius" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/arxc73_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/arxc73.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/SpiderManPS4" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/arxc73.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 3 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="arxc73" data-vimeo-id="455152409" data-video-descrip="Driven mad by his tech and hungry fr revenge against Norman Osbourne, Dr. Otto Octavius - better known as Doctor Octopus - becomes the main antagonist of the game. " data-video-title="Dr. Otto Octavius" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/arxc73_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/arxc73.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/SpiderManPS4" class="video-launch-link video-overlay-link font-m bold">Dr. Otto Octavius </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="irj431">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="irj431" data-vimeo-id="449132357" data-video-descrip="King Olly is the titular main antagonist of Paper Mario The Origami King. He wants to fold the world into origami and brainwash people into serving him." data-video-title="King Olly" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/irj431_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/screen_shot_2020_08_20_at_24854_pm.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.00" data-video-rating-count="4" data-video-media-sources="VideoGame/PaperMarioTheOrigamiKing" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/screen_shot_2020_08_20_at_24854_pm.png" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 4 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="irj431" data-vimeo-id="449132357" data-video-descrip="King Olly is the titular main antagonist of Paper Mario The Origami King. He wants to fold the world into origami and brainwash people into serving him." data-video-title="King Olly" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/irj431_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/screen_shot_2020_08_20_at_24854_pm.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.00" data-video-rating-count="4" data-video-media-sources="VideoGame/PaperMarioTheOrigamiKing" class="video-launch-link video-overlay-link font-m bold">King Olly </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="q5x56n">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="q5x56n" data-vimeo-id="448432025" data-video-descrip="Jafar is the royal vizier of Agrabah and hungers for power, roping Aladdin into retrieving the magic lamp for him. " data-video-title="Jafar" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/q5x56n_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q5x56n.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="WesternAnimation/Aladdin" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q5x56n.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 4 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="q5x56n" data-vimeo-id="448432025" data-video-descrip="Jafar is the royal vizier of Agrabah and hungers for power, roping Aladdin into retrieving the magic lamp for him. " data-video-title="Jafar" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/q5x56n_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q5x56n.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="WesternAnimation/Aladdin" class="video-launch-link video-overlay-link font-m bold">Jafar </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="wqc3j1">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="wqc3j1" data-vimeo-id="448031526" data-video-descrip="Lord Volcazar aspires to godhood by becoming the demon Kraal. " data-video-title="Lord Volcazar" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/wqc3j1_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/wqc3j1.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="WesternAnimation/RonalTheBarbarian" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/wqc3j1.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 4 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="wqc3j1" data-vimeo-id="448031526" data-video-descrip="Lord Volcazar aspires to godhood by becoming the demon Kraal. " data-video-title="Lord Volcazar" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/wqc3j1_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/wqc3j1.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="WesternAnimation/RonalTheBarbarian" class="video-launch-link video-overlay-link font-m bold">Lord Volcazar </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="mzfsm7">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="mzfsm7" data-vimeo-id="446921878" data-video-descrip="Norman Osbourne, AKA The Green Goblin, is the main antagonist of the first Sam Riami Spider-Man movie. " data-video-title="The Green Goblin" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/mzfsm7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/mzfsm7.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="Film/SpiderMan1" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/mzfsm7.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 4 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="mzfsm7" data-vimeo-id="446921878" data-video-descrip="Norman Osbourne, AKA The Green Goblin, is the main antagonist of the first Sam Riami Spider-Man movie. " data-video-title="The Green Goblin" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/mzfsm7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/mzfsm7.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="Film/SpiderMan1" class="video-launch-link video-overlay-link font-m bold">The Green Goblin </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="3sydym">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="3sydym" data-vimeo-id="446967073" data-video-descrip="&amp;quot;Mr. Eye&amp;quot; is the leader of the Nether Race. He had actually been manipulating the Prog twins this whole time in order to free himself and the Nethers" data-video-title="&quot;Mr. Eye&quot;/Nether Leader" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/3sydym_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3sydym.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/RatchetAndClankIntoTheNexus" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3sydym.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 4 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="3sydym" data-vimeo-id="446967073" data-video-descrip="&amp;quot;Mr. Eye&amp;quot; is the leader of the Nether Race. He had actually been manipulating the Prog twins this whole time in order to free himself and the Nethers" data-video-title="&quot;Mr. Eye&quot;/Nether Leader" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/3sydym_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3sydym.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/RatchetAndClankIntoTheNexus" class="video-launch-link video-overlay-link font-m bold">"Mr. Eye"/Nether Leader </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="27h878">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="27h878" data-vimeo-id="442573843" data-video-descrip="When Captain Slag's head was grafted to Darkwater's undead body, they become the main antagonist of the Quest for Booty DLC." data-video-title="Captain Slag/Darkwater" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/27h878_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/27h878.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.75" data-video-rating-count="4" data-video-media-sources="VideoGame/RatchetAndClankFutureToolsOfDestruction" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/27h878.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="27h878" data-vimeo-id="442573843" data-video-descrip="When Captain Slag's head was grafted to Darkwater's undead body, they become the main antagonist of the Quest for Booty DLC." data-video-title="Captain Slag/Darkwater" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/27h878_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/27h878.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.75" data-video-rating-count="4" data-video-media-sources="VideoGame/RatchetAndClankFutureToolsOfDestruction" class="video-launch-link video-overlay-link font-m bold">Captain Slag/Darkwater </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="o0gpsk">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="o0gpsk" data-vimeo-id="439837632" data-video-descrip="The villain of Tools of Destruction, Tachyon is the last of the Cragmites, an Always Chaotic Evil race defeated by the Lombaxes years ago. As a result, he has a grudge against Ratchet's race." data-video-title="Emperor Percival Tachyon" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/o0gpsk_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/o0gpsk.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/RatchetAndClankFutureToolsOfDestruction" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/o0gpsk.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="o0gpsk" data-vimeo-id="439837632" data-video-descrip="The villain of Tools of Destruction, Tachyon is the last of the Cragmites, an Always Chaotic Evil race defeated by the Lombaxes years ago. As a result, he has a grudge against Ratchet's race." data-video-title="Emperor Percival Tachyon" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/o0gpsk_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/o0gpsk.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/RatchetAndClankFutureToolsOfDestruction" class="video-launch-link video-overlay-link font-m bold">Emperor Percival Tachyon </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="x4gxyn">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="x4gxyn" data-vimeo-id="439455700" data-video-descrip="The villain of Deadlocked, Gleeman Vox is a sadistic, money-grabbing billionaire owner of an underground media empire in the lawless Shadow Sector. He operates DreadZone, a holovision program where heroes are forced to fight each other to the death." data-video-title="Gleeman Vox" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/x4gxyn_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/x4gxyn.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/RatchetDeadlocked" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/x4gxyn.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="x4gxyn" data-vimeo-id="439455700" data-video-descrip="The villain of Deadlocked, Gleeman Vox is a sadistic, money-grabbing billionaire owner of an underground media empire in the lawless Shadow Sector. He operates DreadZone, a holovision program where heroes are forced to fight each other to the death." data-video-title="Gleeman Vox" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/x4gxyn_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/x4gxyn.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/RatchetDeadlocked" class="video-launch-link video-overlay-link font-m bold">Gleeman Vox </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="7opxvb">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="7opxvb" data-vimeo-id="439115503" data-video-descrip="The main antagonist of the movie. He's a government agent employed to track down Sonic and take the secrets of his powers, which he does with extreme prejudice, although to exploit that power for himself. Even Robotnik's nominal allies in the United States government would rather have nothing to do with him because of his reputation as a Mad Scientist, but he's the only one who can conceivably catch Sonic." data-video-title="Dr. Ivo &quot;Eggman&quot; Robotnik" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/7opxvb_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/7opxvb.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="5" data-video-media-sources="Film/SonicTheHedgehog2020" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/7opxvb.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="7opxvb" data-vimeo-id="439115503" data-video-descrip="The main antagonist of the movie. He's a government agent employed to track down Sonic and take the secrets of his powers, which he does with extreme prejudice, although to exploit that power for himself. Even Robotnik's nominal allies in the United States government would rather have nothing to do with him because of his reputation as a Mad Scientist, but he's the only one who can conceivably catch Sonic." data-video-title="Dr. Ivo &quot;Eggman&quot; Robotnik" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/7opxvb_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/7opxvb.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="5" data-video-media-sources="Film/SonicTheHedgehog2020" class="video-launch-link video-overlay-link font-m bold">Dr. Ivo "Eggman" Robotnik </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="kev8mt">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="kev8mt" data-vimeo-id="439088695" data-video-descrip="Dr. Nefarious is the antagonist of Up Your Arsenal, A Crack in Time, and the 2016 reimagining. This makes him the most recurring villain in the series." data-video-title="Dr. Nefarious" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/kev8mt_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5281075.jpeg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/RatchetAndClankUpYourArsenal" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5281075.jpeg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="kev8mt" data-vimeo-id="439088695" data-video-descrip="Dr. Nefarious is the antagonist of Up Your Arsenal, A Crack in Time, and the 2016 reimagining. This makes him the most recurring villain in the series." data-video-title="Dr. Nefarious" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/kev8mt_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5281075.jpeg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/RatchetAndClankUpYourArsenal" class="video-launch-link video-overlay-link font-m bold">Dr. Nefarious </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="ctjx4z">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="ctjx4z" data-vimeo-id="439112719" data-video-descrip="The Big Bad of the Sonic the Hedgehog. The portly scientist whose one desire is to rule over everyone and everything using his technology. Eggman doesn't have a significant background, but he did seemingly look up to his grandfather, Gerald Robotnik. Eggman's plans almost never change, and he's always willing to pull out all of the stops to accomplish his goal.&lt;br&gt;&lt;br&gt;Eggman may possess a high IQ, but his personality is far from mature. He wants things his way, and is very temperamental when denied as such. However, despite his immaturity, he's every bit as clever as he claims to be, able to create almost anything for his goals, and possesses quite a bit of cunning and planning to carry them out. If there's one thing that stands out about the doctor, however, it's his ego, which may only be rivaled by his long-time nemesis, Sonic the Hedgehog." data-video-title="Dr. Ivo &quot;Eggman&quot; Robotnik " data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ctjx4z_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ctjx4z.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="6" data-video-media-sources="VideoGame/SonicColors" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ctjx4z.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="ctjx4z" data-vimeo-id="439112719" data-video-descrip="The Big Bad of the Sonic the Hedgehog. The portly scientist whose one desire is to rule over everyone and everything using his technology. Eggman doesn't have a significant background, but he did seemingly look up to his grandfather, Gerald Robotnik. Eggman's plans almost never change, and he's always willing to pull out all of the stops to accomplish his goal.&lt;br&gt;&lt;br&gt;Eggman may possess a high IQ, but his personality is far from mature. He wants things his way, and is very temperamental when denied as such. However, despite his immaturity, he's every bit as clever as he claims to be, able to create almost anything for his goals, and possesses quite a bit of cunning and planning to carry them out. If there's one thing that stands out about the doctor, however, it's his ego, which may only be rivaled by his long-time nemesis, Sonic the Hedgehog." data-video-title="Dr. Ivo &quot;Eggman&quot; Robotnik " data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ctjx4z_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ctjx4z.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="6" data-video-media-sources="VideoGame/SonicColors" class="video-launch-link video-overlay-link font-m bold">Dr. Ivo "Eggman" Robotnik </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="ar52ee">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="ar52ee" data-vimeo-id="438014428" data-video-descrip="Having been outed as nothing more than Drek's minion in the first game, Captain Qwark becomes the antagonist of the second game when he tries putting the Bogon Galaxy in danger just so he could save it in his big comeback." data-video-title="Captain Qwark" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ar52ee_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ar52ee.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/RatchetAndClankGoingCommando" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ar52ee.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="ar52ee" data-vimeo-id="438014428" data-video-descrip="Having been outed as nothing more than Drek's minion in the first game, Captain Qwark becomes the antagonist of the second game when he tries putting the Bogon Galaxy in danger just so he could save it in his big comeback." data-video-title="Captain Qwark" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ar52ee_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ar52ee.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/RatchetAndClankGoingCommando" class="video-launch-link video-overlay-link font-m bold">Captain Qwark </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="xmmnou">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="xmmnou" data-vimeo-id="436956518" data-video-descrip="Red was a former Dragon Elder that betrayed his kind with the intent of world conquest." data-video-title="Red" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/xmmnou_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xmmnou.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/SpyroAHerosTail" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xmmnou.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="xmmnou" data-vimeo-id="436956518" data-video-descrip="Red was a former Dragon Elder that betrayed his kind with the intent of world conquest." data-video-title="Red" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/xmmnou_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xmmnou.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/SpyroAHerosTail" class="video-launch-link video-overlay-link font-m bold">Red </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="lcok6u">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="lcok6u" data-vimeo-id="436958853" data-video-descrip="The King of the Apes and Malefor's &amp;quot;right hand man&amp;quot;, and the final boss of the second The Legend of Spyro game." data-video-title="Gaul " data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/lcok6u_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/lcok6u.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/lcok6u.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="lcok6u" data-vimeo-id="436958853" data-video-descrip="The King of the Apes and Malefor's &amp;quot;right hand man&amp;quot;, and the final boss of the second The Legend of Spyro game." data-video-title="Gaul " data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/lcok6u_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/lcok6u.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link font-m bold">Gaul </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="zwym04">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="zwym04" data-vimeo-id="436957170" data-video-descrip="Cynder was an egg procured by Malefor, becoming his enforcer and the final boss in the first The Legend of Spyro game. " data-video-title="Cynder" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/zwym04_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/spyro_evil_cynder.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/spyro_evil_cynder.png" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="zwym04" data-vimeo-id="436957170" data-video-descrip="Cynder was an egg procured by Malefor, becoming his enforcer and the final boss in the first The Legend of Spyro game. " data-video-title="Cynder" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/zwym04_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/spyro_evil_cynder.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link font-m bold">Cynder </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="v4qpm7">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="v4qpm7" data-vimeo-id="436961597" data-video-descrip="According to the Chronicler, Malefor was revered as The Chosen One by the dragons, easily mastering numerous elemental powers they freely taught him, but was exiled when his lust for power corrupted him. He then turned to the Apes and taught them how to use the power of the crystals 'artificially', declaring war on his former allies, but his power became so great that his palace, the Mountain of Malefor, collapsed into itself, trapping him in Convexity. He spent the first two games trying to get out and when he finally did get free, he tried to summon an ancient monster to destroy the planet." data-video-title="Malefor" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/v4qpm7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/v4qpm7.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/v4qpm7.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 5 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="v4qpm7" data-vimeo-id="436961597" data-video-descrip="According to the Chronicler, Malefor was revered as The Chosen One by the dragons, easily mastering numerous elemental powers they freely taught him, but was exiled when his lust for power corrupted him. He then turned to the Apes and taught them how to use the power of the crystals 'artificially', declaring war on his former allies, but his power became so great that his palace, the Mountain of Malefor, collapsed into itself, trapping him in Convexity. He spent the first two games trying to get out and when he finally did get free, he tried to summon an ancient monster to destroy the planet." data-video-title="Malefor" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/v4qpm7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/v4qpm7.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link font-m bold">Malefor </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="n8zbyj">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="n8zbyj" data-vimeo-id="424672426" data-video-descrip="King K. Rool is ruler of the lizards that inhabits Congo Bongo Island and plans to use the Crystal Coconut to assert his claim over the entire island. " data-video-title="King K. Rool" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/n8zbyj_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/n8zbyj.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="Recap/DonkeyKongCountryS1E17TheLegendOfTheCrystalCocon,WesternAnimation/DonkeyKongCountry" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/n8zbyj.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 7 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="n8zbyj" data-vimeo-id="424672426" data-video-descrip="King K. Rool is ruler of the lizards that inhabits Congo Bongo Island and plans to use the Crystal Coconut to assert his claim over the entire island. " data-video-title="King K. Rool" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/n8zbyj_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/n8zbyj.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="Recap/DonkeyKongCountryS1E17TheLegendOfTheCrystalCocon,WesternAnimation/DonkeyKongCountry" class="video-launch-link video-overlay-link font-m bold">King K. Rool </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="ryau8u">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="ryau8u" data-vimeo-id="422174761" data-video-descrip="Fleming is the king of demons and ruler of the City of the Damned, kidnapping Garcia's girlfriend as payback for killing his minions." data-video-title="Fleming" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ryau8u_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ryau8u.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/ShadowsOfTheDamned" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ryau8u.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 7 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="ryau8u" data-vimeo-id="422174761" data-video-descrip="Fleming is the king of demons and ruler of the City of the Damned, kidnapping Garcia's girlfriend as payback for killing his minions." data-video-title="Fleming" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ryau8u_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ryau8u.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/ShadowsOfTheDamned" class="video-launch-link video-overlay-link font-m bold">Fleming </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="0q1pna">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="0q1pna" data-vimeo-id="422220409" data-video-descrip="Drek is an unscrupulous business man who has waged war and laid waste to countless planets all to profit from the dire needs of his own race the Blarg. " data-video-title="Alonzo Drek" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/0q1pna_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/drek_from_r&amp;c_2002_render.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="5" data-video-media-sources="VideoGame/RatchetAndClank2002" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/drek_from_r&c_2002_render.png" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 7 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="0q1pna" data-vimeo-id="422220409" data-video-descrip="Drek is an unscrupulous business man who has waged war and laid waste to countless planets all to profit from the dire needs of his own race the Blarg. " data-video-title="Alonzo Drek" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/0q1pna_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/drek_from_r&amp;c_2002_render.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="5" data-video-media-sources="VideoGame/RatchetAndClank2002" class="video-launch-link video-overlay-link font-m bold">Alonzo Drek </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-block-cont" data-video-id="e2s4tt">
+<div class="thumbnail">
+<div class="thumb-wrapper">
+<a href="#video-link" data-video-id="e2s4tt" data-vimeo-id="421238260" data-video-descrip="Swan was the one who started the Zombie Apocalypse so that the world would collapse in flames. " data-video-title="Swan" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/e2s4tt_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/e2s4tt.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/LollipopChainsaw" class="video-launch-link video-overlay-link">
+<img class="play-button-img" src="/images/play-button-logo.png" alt="play">
+<img class="thumb-wrapper-img lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/e2s4tt.jpg" alt="..." )">
+</a>
+</div>
+<div class="video-info-row">
+<div class="caption">
+<p class="time-added">Posted 7 months ago</p>
+<div class="clearfix"></div>
+</div>
+<a href="#video-link" data-video-id="e2s4tt" data-vimeo-id="421238260" data-video-descrip="Swan was the one who started the Zombie Apocalypse so that the world would collapse in flames. " data-video-title="Swan" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/e2s4tt_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/e2s4tt.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/LollipopChainsaw" class="video-launch-link video-overlay-link font-m bold">Swan </a>
+<div class="video-title-line">
+<div class="index-title-row">
+<p>Example of:</p>
+<a href="/pmwiki/pmwiki.php/Main/BigBad" class="font-m bold">Big Bad</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="pagination-box button-group text-center gutter-topx2" data-total-pages="3" data-url-prefix="/pmwiki/pmwiki.php/VideoExamples/BigBad?page=">
+<span class="pagination-jump-box-wrapper mobile-on">
+<form class="pagination-jump-box hidden-until-active font-m">
+<input value="1" type="tel">
+<a href="#jump-to-page" title="Jump to page" class="color-white dead-button" onClick="activate_jump_menu(this);return false;">GO <i class="fa fa-angle-right"></i></a>
+</form>
+</span>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BigBad?page=1" class="mobile-off ">
+<span class="current-page"> 1 </span> </a>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BigBad?page=2" class="mobile-off ">
+2 </a>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BigBad?page=3" class="mobile-off ">
+3 </a>
+<a href="#jump-to-page" title="Jump to page" class="pagination-jump-box-toggle mobile-on dead-button" onClick="toggle_jump_menu(this);return false;">
+<span class="font-s">page 1 of 3</span>
+</a>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BigBad?page=2">
+<span class="mobile-on"><i class="fa fa-angle-right"></i></span>
+<span class="mobile-off">Next</span>
+</a>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BigBad?page=3">
+<i class="fa fa-angle-double-right"></i>
+</a>
+</nav>
+<script type="text/javascript">
+
+	function toggle_jump_menu(e){
+		$(e).siblings('.pagination-jump-box-wrapper').children('.pagination-jump-box').toggle('active');
+	}
+
+	function activate_jump_menu(e){
+			var p = $(e).siblings('input').val();
+			var t = $(e).closest('.pagination-box').data('total-pages');
+
+			if(p > 0 && p <= t){
+					window.location.href = $(e).closest('.pagination-box').data('url-prefix') + p;
+			}else{
+					show_modal('alert',encodeURIComponent('Whoops, that page might be out of range.'));
+			}
+	}
+
+</script>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BFS">BFS</a>
+</li>
+<li>
+&#171; <a href="/pmwiki/namespace_index.php?ns=VideoExamples">Video Examples</a> &#187;
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoExamples/BigBadEnsemble">Big Bad Ensemble</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+ <li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="hos8g6" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title">Dr Sofia Lamb</h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+Psychiatrist, philanthropist and leader of the Rapture Family, Dr Sofia Lamb has emerged from a long period of imprisonment to seize control of Rapture following the events of Bioshock 2. With her collectivist cult now running the city, she now plots to eliminate the concept of individuality altogether, intending to use her daughter Eleanor as the centrepiece of this mad quest - bringing her into conflict with Eleanor's Big Daddy protector, Subject Delta.	</p>
+<div class="rating-row" data-video-id="hos8g6">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+5 (2 votes)
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope">Main / BigBad</div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media">Main / BigBad</div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+<div class="_pmvv-foot">
+<div class="_pmvv-foot-scrollwrapper">
+<a href="#video-link" data-video-id="hos8g6" data-vimeo-id="" data-video-descrip="Psychiatrist, philanthropist and leader of the Rapture Family, Dr Sofia Lamb has emerged from a long period of imprisonment to seize control of Rapture following the events of Bioshock 2. With her collectivist cult now running the city, she now plots to eliminate the concept of individuality altogether, intending to use her daughter Eleanor as the centrepiece of this mad quest - bringing her into conflict with Eleanor's Big Daddy protector, Subject Delta." data-video-title="Dr Sofia Lamb" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/hos8g6_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/hos8g6.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/BioShock2" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/hos8g6.jpg">
+<p><span class="bold">Dr Sofia Lamb</span></p>
+</a>
+<a href="#video-link" data-video-id="1b7n42" data-vimeo-id="487902115" data-video-descrip="The Mentor of the Levantine Assassin Order. He gives Altair the mission to assassinate nine corrupt head figures of the Holy Land as a way for him to earn redemption.&lt;br&gt;&lt;br&gt;In reality, he was a high-ranking member of the Templars, if not their leader. Once Al Mualim had the Piece of Eden, he sent Alta&amp;Atilde;&amp;macr;r to deal with the other nine Templars in the Holy Land to ensure he would remain unchallenged. Fortunately, Altair killed him once he discovered this treachery." data-video-title="Al Mualim" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/1b7n42_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/1b7n42.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/AssassinsCreedI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/1b7n42.jpg">
+<p><span class="bold">Al Mualim</span></p>
+</a>
+<a href="#video-link" data-video-id="51014e" data-vimeo-id="483215772" data-video-descrip="Malachite is an evil sorcerer who wishes to regain his magic gauntlet and is the antagonist of Suburban Knights." data-video-title="Malachite" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/51014e_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/51014e.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="3.00" data-video-rating-count="4" data-video-media-sources="WebVideo/SuburbanKnights" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/51014e.jpg">
+<p><span class="bold">Malachite</span></p>
+</a>
+<a href="#video-link" data-video-id="ylgrch" data-vimeo-id="469173248" data-video-descrip="Kayako was an ordinary Housewife who has an obsessive crush on a teacher Peter Kirk. Unfortunately, her husband Takeo found out and brutally killed her, along with her son Toshio and the family cat Mar. Brought back by her family's rage as a Curse, Kayako appears as a Stringy-Haired Ghost Girl, crawling about to hunt down and kill anyone who enters her house to consume them in the curse. She is most iconic for crawling her way down the stairs, and lets out a chilling death rattle whenever she appears." data-video-title="Kayako Saeki" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ylgrch_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ylgrch.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="Film/TheGrudge" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ylgrch.jpg">
+<p><span class="bold">Kayako Saeki</span></p>
+</a>
+<a href="#video-link" data-video-id="1l9olm" data-vimeo-id="465488244" data-video-descrip="Oogie Boogie is the main antagonist of The Nightmare Before Christmas; a malevolent monster banished from the town for his evil ways who tries to torture and kill Santa Claus for fun." data-video-title="Oogie Boogie" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/1l9olm_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/nightmare_christmas_disneyscreencapscom_579_6.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.60" data-video-rating-count="5" data-video-media-sources="WesternAnimation/TheNightmareBeforeChristmas" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/nightmare_christmas_disneyscreencapscom_579_6.jpg">
+<p><span class="bold">Oogie Boogie</span></p>
+</a>
+<a href="#video-link" data-video-id="zv8wk5" data-vimeo-id="465269310" data-video-descrip="A sorcerer once in the employ of King Peregrin, eventually falling out of favor with the King due to his experiments on the bodies of the dead. He was banished from the kingdom and spent years perfecting his dark arts. He created an unholy army of undead soldiers and demons, which he used to conquer many major areas of Gallowmere until the King intervened and deployed Sir Daniel and his battalion for a titanic battle. Zarok's army was defeated, but Zarok's body was never accounted for. Though thought to be long dead, he returns after 100 years in a bid to take over Gallowmere once again. With a magic spell called the &amp;quot;Evernight&amp;quot;, he plunged the realm into perpetual darkness and robbed the living of their free will, along with raising the dead in the process." data-video-title="Zarok" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/zv8wk5_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/zv8wk5.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/MediEvil" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/zv8wk5.jpg">
+<p><span class="bold">Zarok</span></p>
+</a>
+<a href="#video-link" data-video-id="s9n3rd" data-vimeo-id="465270365" data-video-descrip="The Big Bad of Medievil 2, Palethorn acquired Zarok's spellbook and unleashed havoc on London. However, something went wrong with the spell, and as a result he was transformed into a red-skinned demon, and the pages of the spellbook were scattered across London, thus making the monsters he summoned almost uncontrollable. Palethorn now seeks the remaining pages of the spellbook so he can complete the spell and take over the world." data-video-title="Lord Palethorn" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/s9n3rd_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/s9n3rd.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/MediEvil2" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/s9n3rd.jpg">
+<p><span class="bold">Lord Palethorn</span></p>
+</a>
+<a href="#video-link" data-video-id="3swyeu" data-vimeo-id="463994426" data-video-descrip="Malekith the Accursed is the ruler of Svartleheim, King of the Dark Elves and enemy of Asgard." data-video-title="Malekith the Accursed" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/3swyeu_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3swyeu.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="Film/ThorTheDarkWorld" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3swyeu.jpg">
+<p><span class="bold">Malekith the Ac...</span></p>
+</a>
+<a href="#video-link" data-video-id="xrsa69" data-vimeo-id="457157754" data-video-descrip="The antagonist of Spider-Man 2." data-video-title="Dr. Otto Octavius" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/xrsa69_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xrsa69.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="Film/SpiderMan2" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xrsa69.jpg">
+<p><span class="bold">Dr. Otto Octavius</span></p>
+</a>
+<a href="#video-link" data-video-id="arxc73" data-vimeo-id="455152409" data-video-descrip="Driven mad by his tech and hungry fr revenge against Norman Osbourne, Dr. Otto Octavius - better known as Doctor Octopus - becomes the main antagonist of the game. " data-video-title="Dr. Otto Octavius" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/arxc73_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/arxc73.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/SpiderManPS4" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/arxc73.jpg">
+<p><span class="bold">Dr. Otto Octavius</span></p>
+</a>
+<a href="#video-link" data-video-id="irj431" data-vimeo-id="449132357" data-video-descrip="King Olly is the titular main antagonist of Paper Mario The Origami King. He wants to fold the world into origami and brainwash people into serving him." data-video-title="King Olly" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/irj431_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/screen_shot_2020_08_20_at_24854_pm.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.00" data-video-rating-count="4" data-video-media-sources="VideoGame/PaperMarioTheOrigamiKing" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/screen_shot_2020_08_20_at_24854_pm.png">
+<p><span class="bold">King Olly</span></p>
+</a>
+<a href="#video-link" data-video-id="q5x56n" data-vimeo-id="448432025" data-video-descrip="Jafar is the royal vizier of Agrabah and hungers for power, roping Aladdin into retrieving the magic lamp for him. " data-video-title="Jafar" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/q5x56n_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q5x56n.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="WesternAnimation/Aladdin" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q5x56n.jpg">
+<p><span class="bold">Jafar</span></p>
+</a>
+<a href="#video-link" data-video-id="wqc3j1" data-vimeo-id="448031526" data-video-descrip="Lord Volcazar aspires to godhood by becoming the demon Kraal. " data-video-title="Lord Volcazar" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/wqc3j1_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/wqc3j1.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="WesternAnimation/RonalTheBarbarian" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/wqc3j1.jpg">
+<p><span class="bold">Lord Volcazar</span></p>
+</a>
+<a href="#video-link" data-video-id="mzfsm7" data-vimeo-id="446921878" data-video-descrip="Norman Osbourne, AKA The Green Goblin, is the main antagonist of the first Sam Riami Spider-Man movie. " data-video-title="The Green Goblin" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/mzfsm7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/mzfsm7.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="Film/SpiderMan1" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/mzfsm7.jpg">
+<p><span class="bold">The Green Goblin</span></p>
+</a>
+<a href="#video-link" data-video-id="3sydym" data-vimeo-id="446967073" data-video-descrip="&amp;quot;Mr. Eye&amp;quot; is the leader of the Nether Race. He had actually been manipulating the Prog twins this whole time in order to free himself and the Nethers" data-video-title="&quot;Mr. Eye&quot;/Nether Leader" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/3sydym_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3sydym.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/RatchetAndClankIntoTheNexus" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/3sydym.jpg">
+<p><span class="bold">"Mr. Eye"/Nethe...</span></p>
+</a>
+<a href="#video-link" data-video-id="27h878" data-vimeo-id="442573843" data-video-descrip="When Captain Slag's head was grafted to Darkwater's undead body, they become the main antagonist of the Quest for Booty DLC." data-video-title="Captain Slag/Darkwater" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/27h878_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/27h878.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.75" data-video-rating-count="4" data-video-media-sources="VideoGame/RatchetAndClankFutureToolsOfDestruction" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/27h878.jpg">
+<p><span class="bold">Captain Slag/Da...</span></p>
+</a>
+<a href="#video-link" data-video-id="o0gpsk" data-vimeo-id="439837632" data-video-descrip="The villain of Tools of Destruction, Tachyon is the last of the Cragmites, an Always Chaotic Evil race defeated by the Lombaxes years ago. As a result, he has a grudge against Ratchet's race." data-video-title="Emperor Percival Tachyon" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/o0gpsk_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/o0gpsk.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/RatchetAndClankFutureToolsOfDestruction" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/o0gpsk.jpg">
+<p><span class="bold">Emperor Perciva...</span></p>
+</a>
+<a href="#video-link" data-video-id="x4gxyn" data-vimeo-id="439455700" data-video-descrip="The villain of Deadlocked, Gleeman Vox is a sadistic, money-grabbing billionaire owner of an underground media empire in the lawless Shadow Sector. He operates DreadZone, a holovision program where heroes are forced to fight each other to the death." data-video-title="Gleeman Vox" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/x4gxyn_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/x4gxyn.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/RatchetDeadlocked" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/x4gxyn.jpg">
+<p><span class="bold">Gleeman Vox</span></p>
+</a>
+<a href="#video-link" data-video-id="7opxvb" data-vimeo-id="439115503" data-video-descrip="The main antagonist of the movie. He's a government agent employed to track down Sonic and take the secrets of his powers, which he does with extreme prejudice, although to exploit that power for himself. Even Robotnik's nominal allies in the United States government would rather have nothing to do with him because of his reputation as a Mad Scientist, but he's the only one who can conceivably catch Sonic." data-video-title="Dr. Ivo &quot;Eggman&quot; Robotnik" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/7opxvb_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/7opxvb.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="5" data-video-media-sources="Film/SonicTheHedgehog2020" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/7opxvb.jpg">
+<p><span class="bold">Dr. Ivo "Eggman...</span></p>
+</a>
+<a href="#video-link" data-video-id="kev8mt" data-vimeo-id="439088695" data-video-descrip="Dr. Nefarious is the antagonist of Up Your Arsenal, A Crack in Time, and the 2016 reimagining. This makes him the most recurring villain in the series." data-video-title="Dr. Nefarious" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/kev8mt_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5281075.jpeg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/RatchetAndClankUpYourArsenal" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5281075.jpeg">
+<p><span class="bold">Dr. Nefarious</span></p>
+</a>
+<a href="#video-link" data-video-id="ctjx4z" data-vimeo-id="439112719" data-video-descrip="The Big Bad of the Sonic the Hedgehog. The portly scientist whose one desire is to rule over everyone and everything using his technology. Eggman doesn't have a significant background, but he did seemingly look up to his grandfather, Gerald Robotnik. Eggman's plans almost never change, and he's always willing to pull out all of the stops to accomplish his goal.&lt;br&gt;&lt;br&gt;Eggman may possess a high IQ, but his personality is far from mature. He wants things his way, and is very temperamental when denied as such. However, despite his immaturity, he's every bit as clever as he claims to be, able to create almost anything for his goals, and possesses quite a bit of cunning and planning to carry them out. If there's one thing that stands out about the doctor, however, it's his ego, which may only be rivaled by his long-time nemesis, Sonic the Hedgehog." data-video-title="Dr. Ivo &quot;Eggman&quot; Robotnik " data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ctjx4z_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ctjx4z.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="6" data-video-media-sources="VideoGame/SonicColors" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ctjx4z.jpg">
+<p><span class="bold">Dr. Ivo "Eggman...</span></p>
+</a>
+<a href="#video-link" data-video-id="ar52ee" data-vimeo-id="438014428" data-video-descrip="Having been outed as nothing more than Drek's minion in the first game, Captain Qwark becomes the antagonist of the second game when he tries putting the Bogon Galaxy in danger just so he could save it in his big comeback." data-video-title="Captain Qwark" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ar52ee_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ar52ee.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/RatchetAndClankGoingCommando" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ar52ee.jpg">
+<p><span class="bold">Captain Qwark</span></p>
+</a>
+<a href="#video-link" data-video-id="xmmnou" data-vimeo-id="436956518" data-video-descrip="Red was a former Dragon Elder that betrayed his kind with the intent of world conquest." data-video-title="Red" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/xmmnou_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xmmnou.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="1" data-video-media-sources="VideoGame/SpyroAHerosTail" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xmmnou.jpg">
+<p><span class="bold">Red</span></p>
+</a>
+<a href="#video-link" data-video-id="lcok6u" data-vimeo-id="436958853" data-video-descrip="The King of the Apes and Malefor's &amp;quot;right hand man&amp;quot;, and the final boss of the second The Legend of Spyro game." data-video-title="Gaul " data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/lcok6u_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/lcok6u.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/lcok6u.jpg">
+<p><span class="bold">Gaul </span></p>
+</a>
+<a href="#video-link" data-video-id="zwym04" data-vimeo-id="436957170" data-video-descrip="Cynder was an egg procured by Malefor, becoming his enforcer and the final boss in the first The Legend of Spyro game. " data-video-title="Cynder" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/zwym04_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/spyro_evil_cynder.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/spyro_evil_cynder.png">
+<p><span class="bold">Cynder</span></p>
+</a>
+<a href="#video-link" data-video-id="v4qpm7" data-vimeo-id="436961597" data-video-descrip="According to the Chronicler, Malefor was revered as The Chosen One by the dragons, easily mastering numerous elemental powers they freely taught him, but was exiled when his lust for power corrupted him. He then turned to the Apes and taught them how to use the power of the crystals 'artificially', declaring war on his former allies, but his power became so great that his palace, the Mountain of Malefor, collapsed into itself, trapping him in Convexity. He spent the first two games trying to get out and when he finally did get free, he tried to summon an ancient monster to destroy the planet." data-video-title="Malefor" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/v4qpm7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/v4qpm7.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="4" data-video-media-sources="VideoGame/TheLegendOfSpyro" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/v4qpm7.jpg">
+<p><span class="bold">Malefor</span></p>
+</a>
+<a href="#video-link" data-video-id="n8zbyj" data-vimeo-id="424672426" data-video-descrip="King K. Rool is ruler of the lizards that inhabits Congo Bongo Island and plans to use the Crystal Coconut to assert his claim over the entire island. " data-video-title="King K. Rool" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/n8zbyj_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/n8zbyj.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="Recap/DonkeyKongCountryS1E17TheLegendOfTheCrystalCocon,WesternAnimation/DonkeyKongCountry" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/n8zbyj.jpg">
+<p><span class="bold">King K. Rool</span></p>
+</a>
+<a href="#video-link" data-video-id="ryau8u" data-vimeo-id="422174761" data-video-descrip="Fleming is the king of demons and ruler of the City of the Damned, kidnapping Garcia's girlfriend as payback for killing his minions." data-video-title="Fleming" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/ryau8u_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ryau8u.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="3" data-video-media-sources="VideoGame/ShadowsOfTheDamned" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/ryau8u.jpg">
+<p><span class="bold">Fleming</span></p>
+</a>
+<a href="#video-link" data-video-id="0q1pna" data-vimeo-id="422220409" data-video-descrip="Drek is an unscrupulous business man who has waged war and laid waste to countless planets all to profit from the dire needs of his own race the Blarg. " data-video-title="Alonzo Drek" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/0q1pna_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/drek_from_r&c_2002_render.png" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="5" data-video-media-sources="VideoGame/RatchetAndClank2002" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/drek_from_r&c_2002_render.png">
+<p><span class="bold">Alonzo Drek</span></p>
+</a>
+<a href="#video-link" data-video-id="e2s4tt" data-vimeo-id="421238260" data-video-descrip="Swan was the one who started the Zombie Apocalypse so that the world would collapse in flames. " data-video-title="Swan" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/e2s4tt_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/e2s4tt.jpg" data-video-trope="Main/BigBad" data-video-tropename="Big Bad" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/LollipopChainsaw" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/e2s4tt.jpg">
+<p><span class="bold">Swan</span></p>
+</a>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                            var elem2 = document.createElement('script');
+                elem2.async = false;
+                elem2.src = "/design/js/video_upload.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7";
+                document.getElementsByTagName('head')[0].appendChild(elem2);
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

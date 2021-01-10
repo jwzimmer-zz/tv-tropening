@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Flying Circus (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Flying Circus is a fantasy aviation Tabletop RPG game by Erika Chappell. It draws inspiration from the work of Hayao Miyazaki and is inspired by the Powered &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/FlyingCircus" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Flying Circus (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Flying Circus is a fantasy aviation Tabletop RPG game by Erika Chappell. It draws inspiration from the work of Hayao Miyazaki and is inspired by the Powered &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/4b5b11db_876b_4b0c_966b_bab6b531e20e.jpeg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Flying Circus (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/FlyingCircus" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/4b5b11db_876b_4b0c_966b_bab6b531e20e.jpeg" />
+<meta property="og:description" content="Flying Circus is a fantasy aviation Tabletop RPG game by Erika Chappell. It draws inspiration from the work of Hayao Miyazaki and is inspired by the Powered by the Apocalypse engine. In this game, the players roleplay as pilots of a Flying Circus &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/AnimalAssassin" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/October" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/FlyingCircus?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/FlyingCircus">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.FlyingCircus">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=FlyingCircus&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.FlyingCircus">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/FlyingCircus?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="FlyingCircus" />
+<input type="hidden" id="article_id" value="756639" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/FlyingCircus</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Flying Circus
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Flying Circus"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/FlyingCircus" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/FlyingCircus" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/FlyingCircus" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/FlyingCircus?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/FlyingCircus?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/FlyingCircus?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/FlyingCircus?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/FlyingCircus?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/FlyingCircus?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/FlyingCircus?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/FlyingCircus?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/FlyingCircus?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/FlyingCircus?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/FlyingCircus?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/FlyingCircus?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/FlyingCircus?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/FlyingCircus?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/FlyingCircus?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/FlyingCircus?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:150.57%"><img src="https://static.tvtropes.org/pmwiki/pub/images/4b5b11db_876b_4b0c_966b_bab6b531e20e.jpeg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/4b5b11db_876b_4b0c_966b_bab6b531e20e.jpeg" width="350" height="527"></div></div><div class="acaptionright" style="width:350px;">The original digital cover artwork.</div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Flying Circus</em> is a fantasy aviation <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TabletopRPG" title="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a> game by Erika Chappell. It draws inspiration from the work of <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HayaoMiyazaki" title="/pmwiki/pmwiki.php/Creator/HayaoMiyazaki">Hayao Miyazaki</a> and is inspired by the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/PoweredByTheApocalypse" title="/pmwiki/pmwiki.php/UsefulNotes/PoweredByTheApocalypse">Powered by the Apocalypse</a> engine.</p><p>In this game, the players roleplay as pilots of a Flying Circus, a group of mercenaries using salvaged aircraft to complete missions. These Flying Circuses complete missions as they roam the land of Himmilgard, a continent recovering from a magical war of apocalyptic scale. Authentically dangerous air combat meets whimsical magic, and moments of action are interspersed with social interactions where pilots make and break Trust with each other with the turn of a wheel and (hopefully) forge heartfelt relationships together.</p><p>Mechanically, <em>Flying Circus</em> deploys a specialized ruleset for simulating air combat, while interplaying it with other game modes that cover everything from inter-group social dynamics to relieving stress in a small town to managing finances and equipment.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p><em>Flying Circus</em> was funded through <a class="urllink" href="https://www.kickstarter.com/projects/310174564/flying-circus-a-roleplaying-game-of-high-flying-ad">a Kickstarter campaign<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> that ran from March to April 2018, raising more than CA$ 37,000. Several expansions are planned as stretch goals, including historical playbook sets and alternative settings, including a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Steampunk" title="/pmwiki/pmwiki.php/Main/Steampunk">Steampunk</a> adventure game <a class="twikilink" href="/pmwiki/pmwiki.php/Main/INSPACE" title="/pmwiki/pmwiki.php/Main/INSPACE">IN SPACE!</a>. The first of these expansions. <em>Flying Circus - Horrors of the Heights</em>, came out on December 1st, 2020, and adds supplementary material for high-altitude and alpine gameplay.</p><p>The core rulebook was released digitally in April 2020 and can be bought at <a class="urllink" href="https://www.drivethrurpg.com/product/310013/Flying-Circus--Core-Rulebook">DriveThruRPG<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and <a class="urllink" href="https://opensketch.itch.io/flying-circus">itch.io<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</p><p></p><hr><p></p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><h2> This game provides examples of:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcePilot" title="/pmwiki/pmwiki.php/Main/AcePilot">Ace Pilot</a>: Player characters are by definition ace pilots, starting the campaign as already-exceptional pilots with the potential to become more exceptional as they advance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionFilmQuietDramaScene" title="/pmwiki/pmwiki.php/Main/ActionFilmQuietDramaScene">Action Film, Quiet Drama Scene</a>: The game rotates through a cycle called a Routine, with the Mission being the bulk of the action. Outside the plane action, the players go through the Business &amp; Pleasure part, which can have its own share of action (especially if one pilot decides to instigate a Brawl during the Stress Relief phase), but encourages moments of calm and simmering social tension.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a>: The game takes place twenty years after Himmilgard is ravaged by war, destroying all its nations and decimating its cities.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AirstrikeImpossible" title="/pmwiki/pmwiki.php/Main/AirstrikeImpossible">Airstrike Impossible</a>: A Flying Circus can undertake nigh-impossible missions that only they can do.<ul><li> As a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ANewHope" title="/pmwiki/pmwiki.php/Film/ANewHope">A New Hope</a></em>, The Farmer's One in a Million move allows them to get a perfect hit anywhere they want one per Routine, allowing the player to recreate Luke Skywalker's iconic run on the Death Star.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAlcoholic" title="/pmwiki/pmwiki.php/Main/TheAlcoholic">The Alcoholic</a>: Since the game is set in fantasy Germany, it makes sense that most pilots start out familiar with drinking as a Vice. On top of this, pilots can become Addicted to drinking and must indulge this Vice (that is, drink a lot) in-between mission, lest they gain excess Stress.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSky" title="/pmwiki/pmwiki.php/Main/AlienSky">Alien Sky</a>: Himmilgard's night sky differs greatly from Earth in that its world is orbited by three moons, which the world's mythological traditions consider as Goddesses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ANaziByAnyOtherName" title="/pmwiki/pmwiki.php/Main/ANaziByAnyOtherName">A Nazi by Any Other Name</a>: The Goth Army, a Threat, is described partly as "the looming spectre of fascism." Their atrocities include a slave-driven economy and violent revanchism. The rulebook suggests saying to most groups that the Goths are "goddamn Nazis!" to make clear their real-world counterparts and why they&#146;re a Threat to topple.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">Apocalypse How</a>: At least a Class 0, if not a Class 1. The uncrossable oceans on both sides of Himmilgard prevents its inhabitants from knowing what&#146;s beyond them, so nobody knows what happened to the rest of the world, and the only indication the rulebook gives about the larger world is that there <em>is</em> something beyond the sea, but that it's beyond the setting's scope. If the War&#146;s fallout managed to cross the oceans and ravaged those lands, that would make the end of the world a Class 1: Planetary Scale, Societal Disruption. Otherwise, it&#146;s only a Class 0: Apocalypse, Regional Scale, Societal Disruption. What prevents the apocalypse from tipping into Societal Collapse is that societies have held on in the form of small towns and advanced technology remains in the world, even without the unification of nation-states nor scale of industrial production.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheApunkalypse" title="/pmwiki/pmwiki.php/Main/TheApunkalypse">The Apunkalypse</a>: Suitably for a game inspired by <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/ApocalypseWorld" title="/pmwiki/pmwiki.php/TabletopGame/ApocalypseWorld">Apocalypse World</a>, <em>Flying Circus</em> takes place twenty years "after the end of the world" and features many of the elements of punked-up apocalyptica, such as ravaged cities, warlords dominating the remains of civilization, and battle-hardened mercenaries riding scalvaged machines. The twist is that instead of being <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a> of our world, it's after the end of a late 19th century/early 20th century fantasy counterpart to Germany.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>: While magical beings exist, including The Witch playbook, all pilots can obtain Masteries and other top-tier abilities without tapping into magic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BarBrawl" title="/pmwiki/pmwiki.php/Main/BarBrawl">Bar Brawl</a>: In the "Stress Relief" section, a two-page spread depicts a fight breaking out, with various participants either watching, fleeing, or preparing to join in. Players can re-enact this scene in-game through the Brawl move.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BattleCouple" title="/pmwiki/pmwiki.php/Main/BattleCouple">Battle Couple</a>: If two Player Characters become mutual Confidants, they can spend Quality Time together on the ground while shooting up enemies together in the sky. Intimacy moves can even be triggered in the air. The "couple" can be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Polyamory" title="/pmwiki/pmwiki.php/Main/Polyamory">three or more pilots</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeCarefulWhatYouWishFor" title="/pmwiki/pmwiki.php/Main/BeCarefulWhatYouWishFor">Be Careful What You Wish For</a>: When you Parlay with the Strange, a partial hit can result in the supernatural giving you something that "isn't quite what you asked for."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BellyScrapingFlight" title="/pmwiki/pmwiki.php/Main/BellyScrapingFlight">Belly-Scraping Flight</a>: Typically, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityEnsues" title="/pmwiki/pmwiki.php/Main/RealityEnsues">flying at Altitude 0 is a bad idea</a>. Ground effects reduces Stall Speed, the plane hits the ground if it goes any lower, and pulling up from this altitude counts as an attempt to Evade Danger. However, the Dogfighter Mastery move Belly Scrape makes near-ground flight less dangerous.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterCustomization" title="/pmwiki/pmwiki.php/Main/CharacterCustomization">Character Customization</a>: As standard for PbtA games, players customize their character through their playbook, choosing stats, Moves, and character descriptors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClockworkCreature" title="/pmwiki/pmwiki.php/Main/ClockworkCreature">Clockwork Creature</a>: The Clockwerk men are made of what their name suggests, even as their golden keys indicate that their true mechanism is more magical.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingInHot" title="/pmwiki/pmwiki.php/Main/ComingInHot">Coming in Hot</a>: If a pilot attempts landing someplace where they shouldn't, they must make the Go Down move to determine whether the plane lands relatively safely or crashes horribly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingOfAgeStory" title="/pmwiki/pmwiki.php/Main/ComingOfAgeStory">Coming-of-Age Story</a>: Most of the playbooks are build around the coming-of-age narrative, stories of young ace pilots hoisted into adulthood. The Worker is the one playbook that avoids this narrative by default, as it's for the pilots who are the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeamDad" title="/pmwiki/pmwiki.php/Main/TeamDad">Team Dad</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolPlane" title="/pmwiki/pmwiki.php/Main/CoolPlane">Cool Plane</a>: Since airplanes are the core part of <em>Flying Circus</em>, the planes are cool by design.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalHit" title="/pmwiki/pmwiki.php/Main/CriticalHit">Critical Hit</a>: A couple of moves involve special effects from rolling a natural 20, including Personal Attack and Open Fire.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalMiss" title="/pmwiki/pmwiki.php/Main/CriticalMiss">Critical Miss</a>: Moves that involve a Critical Hit often have an equivalent penalty on a natural 1.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGas" title="/pmwiki/pmwiki.php/Main/DeadlyGas">Deadly Gas</a>: Poison gas is a weapon that both NPCs and PCs can deploy in combat, with the technology lingering from its use in the war. This hazard is prominent in the Poisoned Cities, where exposure to their pervasive fog can result in progressively dangerous effects.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExperienceMeter" title="/pmwiki/pmwiki.php/Main/ExperienceMeter">Experience Meter</a>: By default, the track for Mastery Advancement is five Mastery Progress, while other Moves and advancements can reduce the track's size. Meanwhile, the regular XP progression is a pool of points that acclimate and that the player can spend from variably.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExperiencePoints" title="/pmwiki/pmwiki.php/Main/ExperiencePoints">Experience Points</a>: Advancement is driven through XP, which is gained whenever a player clears Stress.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFairFolk" title="/pmwiki/pmwiki.php/Main/TheFairFolk">The Fair Folk</a>: The Wilds are the forest-filled domain of the Fae. Pilots can use the Parlay with the Strange move to bargain with the Fae, but at a price.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FairyTale" title="/pmwiki/pmwiki.php/Main/FairyTale">Fairy Tale</a>: Appropriately to the German aesthetic, the setting draws inspiration from <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/TheBrothersGrimm" title="/pmwiki/pmwiki.php/Creator/TheBrothersGrimm">The Brothers Grimm</a>, especially with any gameplay in The Wild.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameMaster" title="/pmwiki/pmwiki.php/Main/GameMaster">Game Master</a>: The system opts for the standard "Game Master" (GM).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GhibliHills" title="/pmwiki/pmwiki.php/Main/GhibliHills">Ghibli Hills</a>: Being inspired by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/StudioGhibli" title="/pmwiki/pmwiki.php/Creator/StudioGhibli">Studio Ghibli</a>, the game involves many idyllic yet dangerous landscapes, especially The Wilds. To drive home the land's beauty, pilots can trigger the Discover Beauty move when they "witness beauty in the world," which reduces Stress.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlobalCurrency" title="/pmwiki/pmwiki.php/Main/GlobalCurrency">Global Currency</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZigZagged" title="/pmwiki/pmwiki.php/Main/ZigZagged">Zig-Zagged</a>. In the fiction, each town has their own form of currency, which is abstracted away as "scrip." Meanwhile, trading companies handle larger costs through gold coins called "taler." So narratively, currency is a mishmash of local scrip and global taler, but the former especially gets abstracted on a mechanical level to reduce the complexity of reconciling one town's form of money with their neighbor's town completely different form of money.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreatOffscreenWar" title="/pmwiki/pmwiki.php/Main/GreatOffscreenWar">Great Offscreen War</a>: The entire setting lives in the shadow of the Great War, where Himmilgard's political powers bombarded each other out of existence, tainted the landscape, and traumatized the survivors. This war takes place twenty years before the game setting's start. That's enough time where campaigns won't take place in the Great War, while keeping it enough of a presence that most characters rather want to forget.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighAltitudeBattle" title="/pmwiki/pmwiki.php/Main/HighAltitudeBattle">High-Altitude Battle</a>: Most, if not all, of the combat in a <em>Flying Circus</em> campaign takes place high in the skies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighUpIceUp" title="/pmwiki/pmwiki.php/Main/HighUpIceUp">High-Up Ice-Up</a>: The ruleset can simulate the freezing dangers of high heights. The core rulebook notes the rate that temperature drops as altitude increases, and the advanced rules describe how batteries hold half their charge in extreme cold, on top of increased flight stress.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a>:<ul><li> Characters don't have a standard hitpoint stat with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure" title="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure">Critical Existence Failure</a> state. Instead, physical damage results in increasing Injury points, which serves as an ongoing penalty to all Attributes based. For example, 2 Injury results in a -2 penalty to Attributes. By default, Player Characters pass out at 3 Injury.</li><li> Meanwhile, planes have an Integrity stat, a combination of Toughness and Max Strains, with damage reducing Toughness first.</li><li> Other Threats in the game, such as artillery and Leviathans, have a standard set of HP.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImprobablePilotingSkills" title="/pmwiki/pmwiki.php/Main/ImprobablePilotingSkills">Improbable Piloting Skills</a>: While the air combat engine does follow a degree of verisimilitude, the "fantasy" aspect of aviation fantasy means that pilots can pull off maneuvers that defy real-life physics.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Kaiserreich" title="/pmwiki/pmwiki.php/Main/Kaiserreich">Kaiserreich</a>: Technically, <em>Flying Circus</em> takes place in the remnants of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Kaiserreich" title="/pmwiki/pmwiki.php/Main/Kaiserreich">Kaiserreich-style</a> land, with most aircraft being salvaged from the setting's equivalent of World War I.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MidairCollision" title="/pmwiki/pmwiki.php/Main/MidairCollision">Midair Collision</a>: The game has rules to cover the situation when two planes collide. As the player's aid remarks: "it's bad," damaging both planes based on speed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MidairRepair" title="/pmwiki/pmwiki.php/Main/MidairRepair">Midair Repair</a>:<ul><li> A player's pilot can attempt to work on a damaged engine in-flight through the Patch Fix move. This often requires the Wingwalk move, which makes Attribute rolls +Daring instead of the move's usual Attribute.</li><li> Whereas with the Blackthumb feature, a Threat's Ace pilot can repair their plane's broken part, even if it involves wingwalking to reach it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MechanicalMonster" title="/pmwiki/pmwiki.php/Main/MechanicalMonster">Mechanical Monster</a>: Several Threats are machine in nature, including the Clockwerk and the Leviathan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonCombatEXP" title="/pmwiki/pmwiki.php/Main/NonCombatEXP">Non-Combat EXP</a>: XP is gained by clearing Stress, and Stress can be accrued from combat and non-combat situation, so it&#146;s equally viable to gain XP from shooting down enemies and enduring anxiety-inducing social conversations (as with the Survivor playbook).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonLethalKO" title="/pmwiki/pmwiki.php/Main/NonLethalKO">Non-Lethal K.O.</a>: As brutal as the game's consequences can be, a Player Character cannot die unless their player agrees. In even the deadliest of situations, a Player Character can end up passing out. However, allied NPCs <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalDeath" title="/pmwiki/pmwiki.php/Main/FinalDeath">do not receive this luxury</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OminousFloatingCastle" title="/pmwiki/pmwiki.php/Main/OminousFloatingCastle">Ominous Floating Castle</a>: Leviathans can take the form of flying battleships with the appearance of a castle, with a lot of threat to boot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHitKill" title="/pmwiki/pmwiki.php/Main/OneHitKill">One-Hit Kill</a>:<ul><li> A Threat&#146;s Ace pilot can have the special feature Killer, which allows the Ace to kill an NPC on the player's side without a chance to intervene.</li><li> As the most-powerful Threat in the game, Dragons possess an Energy Beam that auto-kills on a full success. Mercifully, dragons are often too lazy to bother fighting mortal beings <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PressXToDie" title="/pmwiki/pmwiki.php/Main/PressXToDie">unless provoked</a>.</li><li> The Soldier's "Last Mistake" move allows them to auto-kill any one person they've marked as suspicious if that person tries to hurt them or their friends, at the cost of Stress.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OptionalSexualEncounter" title="/pmwiki/pmwiki.php/Main/OptionalSexualEncounter">Optional Sexual Encounter</a>: The game allows a group to avoid sexual content by either doing a "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/FadeToBlack" title="/pmwiki/pmwiki.php/Main/FadeToBlack">Fade to Black</a>" or agreeing to not indulge in sex as a Vice. Intimacy Moves can also be activated through emotionally intimate moments, such as confiding deeply with a friend, and indulging a vice through sex does not activate the move.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Our Dragons Are Different</a>: In <em>Flying Circus</em>, dragons aren't not just creatures, or even mere magical beings. They are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAgeless" title="/pmwiki/pmwiki.php/Main/TheAgeless">eons-old beings</a> which existed long before humans and are waiting for the humans to die off so they can reclaim their land. On top of their Energy Beam and devilous cunning, they possess Physic Control which they can use <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindManipulation" title="/pmwiki/pmwiki.php/Main/MindManipulation">to indoctrinate humans</a>. Even the dragons' eggs use indoctrination powers, implying that even unhatched dragons possess saptience. To quote the Dragon's stat block: "If the GM has to use this profile, you've made a mistake."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurKoboldsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurKoboldsAreDifferent">Our Kobolds Are Different</a>: The kobolds of Himmilgard draw influence from their traditional Germanic folklore origins, rather than the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em> version. Himmilgard's kobolds are one of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFairFolk" title="/pmwiki/pmwiki.php/Main/TheFairFolk">the Fae</a>, and they are a cohort of the faeries' landed nobility, along with being messengers and servants. They're described as having the form of a small animal, and the rulebook's artwork depicts a kobold as a seemingly normal-looking rabbit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RelationshipValues" title="/pmwiki/pmwiki.php/Main/RelationshipValues">Relationship Values</a>: Relationships between Player Characters are quantified with Trust, a binary, non-reciprocal value: either the pilot trusts somebody or does not trust somebody. These two extremes represent the intense emotions (or intense lack of) that pilots feel toward each other. Trust can change back and forth throughout play and affects Moves.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RestingRecovery" title="/pmwiki/pmwiki.php/Main/RestingRecovery">Resting Recovery</a>: During Finances, outside the Mission phase, pilots can heal Injuries by paying taler and waiting a certain amount of time per Injury treated. The more typical form of Resting Recovery is through Slow Healing, where one Injury is healed every three days. Alternatively, the process can be sped up to healing one Injury every three hours through Fast Healing&#151;but that requires weird, grotesque treatments and taking on Stress.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RolePlayingEndgame" title="/pmwiki/pmwiki.php/Main/RolePlayingEndgame">Role-Playing Endgame</a>: Player Characters who don't prematurely die can exit the game in one of two ways. They can take on a Destiny after fulfilling exceptional requirements, such as becoming a Nature Spirit after saving the Wild from destruction and becoming a part of it. A pilot can also opt for Retirement by spending a maximum of 15 thaler, a cost reduced by several factors, like overcoming an Addiction or adjusting to the world after losing a comrade.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanceSidequest" title="/pmwiki/pmwiki.php/Main/RomanceSidequest">Romance Sidequest</a>: If a pilot wants to maintain a meaningful long-term relationship, they can use the Get Real move to make another character (PC or NPC) A Confidant. A Confidant allows a pilot to use the Quality Time move relieve Stress without any mechanical drawbacks, and retiring with a Confidant makes retirement cheaper. However, the pilot then has to keep putting work in the relationship, fulfilling the Confidant's demands (such as not sleeping with other people) and making sure the Confidant doesn't get hurt. A pilot can only have multiple Confidants, but can only use the Quality Time move once per routine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceFantasy" title="/pmwiki/pmwiki.php/Main/ScienceFantasy">Science Fantasy</a>: <em>Flying Circus</em> features many of the technological marvels common in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SteamPunk" title="/pmwiki/pmwiki.php/Main/SteamPunk">Steampunk</a> genre and its cousins, especially with the planes, while mixing it in with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighFantasy" title="/pmwiki/pmwiki.php/Main/HighFantasy">High Fantasy</a> magic and beings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrikeEpisode" title="/pmwiki/pmwiki.php/Main/StrikeEpisode">Strike Episode</a>: If players mistreat the employees of their Flying Circus too much and fills up the Labour Clock, then the employees go on strike and take the planes hostage until their demands are made, which can take up much of the play session.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubSystemDamage" title="/pmwiki/pmwiki.php/Main/SubSystemDamage">Sub System Damage</a>: Planes can be hit in specific locations, such as with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalHit" title="/pmwiki/pmwiki.php/Main/CriticalHit">Crit</a>, causing specific penalties. For example, destroying the landing gear means that the pilot must make <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComingInHot" title="/pmwiki/pmwiki.php/Main/ComingInHot">the Go Down move</a> when they land.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork" title="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork">Teeth-Clenched Teamwork</a>: Gameplay makes it easy for teammates to break Trust with each other, while many of the Playbooks begin with not trusting most of their coworkers. Nevertheless, the pilots partake in missions for the sake of the company, even if they would be at each other's throat if they make it back to the ground.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThoseMagnificentFlyingMachines" title="/pmwiki/pmwiki.php/Main/ThoseMagnificentFlyingMachines">Those Magnificent Flying Machines</a>: While many of the flyable planes abide by the laws of physics, the setting's fantastical and magical nature means that much of the aircraft in <em>Flying Circus</em> is unrealistically magnificent.<ul><li> Most notably are the Leviathan machines, magical autonomous war machines in the vein of the title-granting machines of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/HowlsMovingCastle" title="/pmwiki/pmwiki.php/Anime/HowlsMovingCastle">Howl's Moving Castle</a></em> or <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/CastleInTheSky" title="/pmwiki/pmwiki.php/Anime/CastleInTheSky">Castle in the Sky</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transgender" title="/pmwiki/pmwiki.php/Main/Transgender">Transgender</a>: The author, Erika Chappell, is openly and proudly trans. The book includes a passage on how the player character can be transgender and can choose to medically transition, whether through old-world technology or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SupernaturallyValidatedTransPerson" title="/pmwiki/pmwiki.php/Main/SupernaturallyValidatedTransPerson">magical options</a>. In addition, The Survivor playbook is an allegory for trans people escaping from a toxic home situation, if the toxicity is both metaphorical <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGas" title="/pmwiki/pmwiki.php/Main/DeadlyGas">and literal</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UrbanRuins" title="/pmwiki/pmwiki.php/Main/UrbanRuins">Urban Ruins</a>: Most of Himmilgard's surviving inhabitants live outside of the cities, which are still decimated from the war and are filled with supernatural poison gas.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WronskiFeint" title="/pmwiki/pmwiki.php/Main/WronskiFeint">Wronski Feint</a>: The Wronski Feint by name is unlockable through the Slipstream Mastery, allowing a pilot to escape a pursuer by diving to the ground. On a full success, the pursuers crashes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZeppelinsFromAnotherWorld" title="/pmwiki/pmwiki.php/Main/ZeppelinsFromAnotherWorld">Zeppelins from Another World</a>: With the Great War stunting technology to the equivalent of the early-20th century, zeppelins and other airships remain a mainstay in Himmilgard.</li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Fellowship">Fellowship</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/PoweredByTheApocalypse">UsefulNotes/Powered by the Apocalypse</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ironsworn">Ironsworn</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/FringeFestival">Fringe Festival</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Administrivia/PagesNeedingAnEntryPimp">Administrivia/Pages Needing an Entry Pimp</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/GachaLife">Gacha Life</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Fellowship">Fellowship</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Ironsworn">Ironsworn</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Fellowship">Fellowship</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+ </li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MasksANewGeneration">Masks: A New Generation</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/FightingFantasy">Fighting Fantasy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyTabletopGames">Fantasy Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Godbound">Godbound</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/FlashPointFireRescue">Flash Point: Fire Rescue</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/Kickstarter">Website/Kickstarter</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Heroine">Heroine</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

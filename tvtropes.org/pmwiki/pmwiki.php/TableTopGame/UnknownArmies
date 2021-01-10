@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Unknown Armies (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Unknown Armies (abbreviated UA) is an occult-themed Role-Playing Game by John Tynes and Greg Stolze and published by Atlas Games. Subtitled &quot;A roleplaying &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/UnknownArmies" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Unknown Armies (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Unknown Armies (abbreviated UA) is an occult-themed Role-Playing Game by John Tynes and Greg Stolze and published by Atlas Games. Subtitled &quot;A roleplaying &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/unknown_armies_2nd-ed_cover_9094.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Unknown Armies (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/UnknownArmies" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/unknown_armies_2nd-ed_cover_9094.jpg" />
+<meta property="og:description" content="Unknown Armies (abbreviated UA) is an occult-themed Role-Playing Game by John Tynes and Greg Stolze and published by Atlas Games. Subtitled &quot;A roleplaying game of power and consequences&quot;. The game is divided into three levels: street, global, and &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ImprovisedArmour" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/SophieTurner" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/UnknownArmies?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/UnknownArmies">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.UnknownArmies">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=UnknownArmies&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.UnknownArmies">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/UnknownArmies?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="UnknownArmies" />
+<input type="hidden" id="article_id" value="317739" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/UnknownArmies</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Unknown Armies
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Unknown Armies"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/UnknownArmies" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/UnknownArmies" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/UnknownArmies" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/UnknownArmies?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/UnknownArmies?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/UnknownArmies?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/UnknownArmies?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/UnknownArmies?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/UnknownArmies?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/UnknownArmies?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/UnknownArmies?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/UnknownArmies?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/UnknownArmies?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/UnknownArmies?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/UnknownArmies?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/UnknownArmies?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/UnknownArmies?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/UnknownArmies?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/UnknownArmies?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:300px;"><div class="lazy_load_img_box" style="padding-top:118.33%"><img src="https://static.tvtropes.org/pmwiki/pub/images/unknown_armies_2nd-ed_cover_9094.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/unknown_armies_2nd-ed_cover_9094.jpg" width="300" height="355"></div></div><p></p><div class="indent"><em>"You did it!"</em></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Unknown Armies</em> (abbreviated UA) is an occult-themed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RolePlayingGame" title="/pmwiki/pmwiki.php/Main/RolePlayingGame">Role-Playing Game</a> by John Tynes and Greg Stolze and published by Atlas Games. Subtitled "A roleplaying game of power and consequences".</p><p>The game is divided into three levels: street, global, and cosmic. At the street level, you know only this: there is something very weird happening, and you've had a glimpse of it. Now you're about to find out just how strange the world really is. Only at the global level do you learn the truth: magick is real, it's postmodern, and it's everywhere.</p><p>The world you know is only the surface. The Occult Underground swarms beneath it like a nest of bugs. Adepts alter reality with the power of their own obsessions and madness. Avatars gain the favor of the cosmos by playing their part in the collective unconscious. Those without magick hunt down those with for their own purposes&mdash;to control, to suppress, or to assimilate. Sounds pretty interesting, right? There's a catch. There's always a catch. All labor in secret for fear of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TorchesAndPitchforks" title="/pmwiki/pmwiki.php/Main/TorchesAndPitchforks">the sleeping tiger</a>&mdash;magick may be powerful, but all the forces of the arcane aren't worth much compared to the panicked masses on a witch hunt. Further, magick power is bought at a steep price. You can alter human flesh only by scouring your own. You can gain the strength of the archetypal Warrior only by never relenting, even when tact or sanity say you should back down. You can bring about anything with magick&mdash;provided you're willing to sacrifice what it takes to do so.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Why risk so much of yourself for impressive but seemingly minor power? You'll need to reach the cosmic level to find out...</p><p>This is a fantastic and extremely gritty roleplaying game. Combat is brutal and bloody&mdash;the combat chapter opens up by describing several ways to <em>get out of a fight,</em> since more often than not you're gonna get torn the hell up if you're not careful, or even if you are. The rules are light, but clever and flavorful, with fancy dice tricks adding spice to the usual d% system. The powers of magick are even more flavorful, bizarre, and amazing. The setting is imaginative, detailed, and engrossing.</p><p>Greg Stolze also wrote a <a class="urllink" href="http://www.gregstolze.com/fiction.html#godwalker">novel, ''Godwalker'',<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> starring several of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonPlayerCharacter" title="/pmwiki/pmwiki.php/Main/NonPlayerCharacter">Non Player Characters</a> from the game books as they converge on a small town in the midwest and completely mess up it, themselves, and each other. If you'd like an idea of what it's like to play in a global/cosmic game of UA, Godwalker is a good place to start, and it only costs <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcNumber" title="/pmwiki/pmwiki.php/Main/ArcNumber">$3.33</a> in Kindle format.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>The game is often compared to <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OverTheEdge" title="/pmwiki/pmwiki.php/TabletopGame/OverTheEdge">Over the Edge</a></em>, due to both games featuring an abundance of surface level weirdness and protagonist empowerment, along with a do-it-yourself skills list. Both Tynes and Stolze also were writers for <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DeltaGreen" title="/pmwiki/pmwiki.php/TabletopGame/DeltaGreen">Delta Green</a></em>, with Tynes begin one of the original writers creating the first Delta Green scenario ever, <em>Convergence</em>, and Stolze would write for the 2016 edition. Some level of influence can be seen from Delta Green to Unknown Armies and vice-versa: A hidden occult world, gritty and grim ambience, destructive magic and with the 2016 edition of Delta Green, a level of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonalHorror" title="/pmwiki/pmwiki.php/Main/PersonalHorror">Personal Horror</a> with its own <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanityMeter" title="/pmwiki/pmwiki.php/Main/SanityMeter">Sanity Meter</a> adapted from Unknown Armies.</p><p>There also was a <a class="urllink" href="https://www.kickstarter.com/projects/atlasgames/unknown-armies-third-edition-roleplaying-game">successful Kickstarter for Third Edition<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, with an unedited beta text for a post 9/11 world available to backers.</p><p>Warning: many of these examples contain severe spoilers for those playing Street-level campaigns!</p><p></p><hr><h2>This role-playing game provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdultFear" title="/pmwiki/pmwiki.php/Main/AdultFear">Adult Fear</a>: Possibly more common than unnatural fear. Sure, you might have your body torn to bits by an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Unspeakable Servant</a>, but there's a much higher probability that you'll just lose your mind, become a recluse whose divorce from society is directly tied to a divorce from reality, and watch everything you loved or cared about slip away from you, until all you've got left is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LonelyAtTheTop" title="/pmwiki/pmwiki.php/Main/LonelyAtTheTop">your power</a>. And that's if you're <em>successful</em>. This trope runs rampant in the Weep scenario "Garden Full of Weeds". The city district of Garden View is an example of extreme urban decay made worse by supernatural phenomena. This means that there's a serial killer who traps peoples' souls in his sunglasses, but it also means that just about everyone is below the poverty line, every family is abusive, and extreme racism is coupled with rampant gang violence. Oh, and a Loogaroo running around murdering children under six months old.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguousGender" title="/pmwiki/pmwiki.php/Main/AmbiguousGender">Ambiguous Gender</a>: The shtick of avatars of the Mystic Hermaphrodite. At upper levels, this evolves into instant sex changes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmusingInjuries" title="/pmwiki/pmwiki.php/Main/AmusingInjuries">Amusing Injuries</a>: The Laff Riot videomancer spell protects everyone in the area from gunshots, reduces other types of attacks to five damage, and can turn a fall from a skyscraper from street pizza into an embarrassing pantsing. Watching the Detectives can retroactively turn any major injury short of death into a single point of damage. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameMaster" title="/pmwiki/pmwiki.php/Main/GameMaster">Game Masters</a> who enjoy the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfFunny" title="/pmwiki/pmwiki.php/Main/RuleOfFunny">Rule of Funny</a> can have quite an lot of fun here.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnotherDimension" title="/pmwiki/pmwiki.php/Main/AnotherDimension">Another Dimension</a>: The Otherspaces are like alternate realities where the rules of existence are fundamentally different. Since they're disconnected from real time and space, they can be useful for transport... but they're generally difficult to reach, and they're often very dangerous, if not <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanitySlippage" title="/pmwiki/pmwiki.php/Main/SanitySlippage">maddening</a>. In Third Edition, you can even make them, but it's hard keeping them around and they are never entirely controlled by their makers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiMagic" title="/pmwiki/pmwiki.php/Main/AntiMagic">Anti-Magic</a>: The sample NPC, Eustace Crane, is a walking fifty yard bubble of this that ironically wants to believe in magic. Other sources exist.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification" title="/pmwiki/pmwiki.php/Main/AnthropomorphicPersonification">Anthropomorphic Personification</a>: Each member of the <span class="spoiler" title="you can set spoilers visible by default on your profile"> Invisible Clergy</span> is one of these, personifying an idea of what a human being can be. The very concepts of things like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFool" title="/pmwiki/pmwiki.php/Main/TheFool">The Fool</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHecateSisters" title="/pmwiki/pmwiki.php/Main/TheHecateSisters">The Mother</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTrickster" title="/pmwiki/pmwiki.php/Main/TheTrickster">The Trickster</a> (among others) are represented by ascended mortals in the <span class="spoiler" title="you can set spoilers visible by default on your profile"> Clergy</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">A.I. Is a Crapshoot</a>: GNOMON, a strange governmental data miner program that somehow not only became sentient, but became the focus of an entire adept school focused around the concept of identity, knowledge, and espionage (you dicker with it for charges, and you use the search bar for spells). Not malevolent, but definitely has its own agenda, uncaring of its makers, and is a bit of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad Scientist</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcNumber" title="/pmwiki/pmwiki.php/Main/ArcNumber">Arc Number</a>: 333, <span class="spoiler" title="you can set spoilers visible by default on your profile">the number of seats in the Invisible Clergy. Once it's filled, the world will be reborn.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">Arc Words</a>: "You did it." In every sense of the phrase.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Archetype" title="/pmwiki/pmwiki.php/Main/Archetype">Archetypes</a>: To consciously be an Avatar <span class="spoiler" title="you can set spoilers visible by default on your profile"> and later ascend into the Stratosphere</span>, one has to find an unclaimed &amp; widespread archetype that exists in the collective unconscious and then embody it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion" title="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion">Armor-Piercing Question</a>: GNOMON is always willing to offer charges in return for filling out one of its personality questionnaires... which always end in such pointed and personalized inquiries it forces a Stress check.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedFanboy" title="/pmwiki/pmwiki.php/Main/AscendedFanboy">Ascended Fanboy</a>: A whole team of them: the Team Salvation is a team of occult do-gooders who used to play RPGs and read comics together as kids. The team leader's motivation is explicitly defined as "Be a superhero".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence" title="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence">Ascend to a Higher Plane of Existence</a>: A very popular goal in the game is to ascend as an Archetype, a fundamental principle of the universe. <span class="spoiler" title="you can set spoilers visible by default on your profile">This is the ultimate goal of many cabals, since they can then shape the next <em>universe</em> under their own principles.</span></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>: Most non-Adept and non-Avatar <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">PCs</a> in a Cosmic game. Hell, being one is a prerequisite for being one of the true leaders of The New Inquisition. Their leader realizes that putting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloudCuckooLander" title="/pmwiki/pmwiki.php/Main/CloudCuckooLander">actual mages</a> in charge of his group is a very, very bad idea.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadPowersBadPeople" title="/pmwiki/pmwiki.php/Main/BadPowersBadPeople">Bad Powers, Bad People</a>: Thanatomancers, people who gain power over life and death through <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">Human Sacrifice</a>, are not recommended as player characters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BecomingTheMask" title="/pmwiki/pmwiki.php/Main/BecomingTheMask">Becoming the Mask</a>: A constant worry if you're a Personamancer. The entire basis of Personamancy is pretending to be someone else - it's how they charge up their magic. One of the easiest ways to do so is to imitate someone else in front of a mirror. Over years of continually being someone else, the original "you" has a tendency to shrivel up and fade away. Truly experienced Personamancers embody the Peter Sellers quote: "There is no 'me'. 'I' do not exist."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a>: The Rage passion for a character is whatever seriously pisses that character off.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBrotherIsWatching" title="/pmwiki/pmwiki.php/Main/BigBrotherIsWatching">Big Brother Is Watching</a>: The Sleepers' favorite tactic; reminding you that joining their organization allows you to sense use of magick, especially that which endangers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Muggles" title="/pmwiki/pmwiki.php/Main/Muggles">Muggles</a>. It helps they can generate unnatural phenomenon purely based around raising paranoia.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing" title="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing">Bitch in Sheep's Clothing</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Uder Krazmersky</span> from the One Shots scenario "Jailbreak" appears to be just a gentle, kindly old craftsman who merely wants to be left in peace with his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UglyGuyHotWife" title="/pmwiki/pmwiki.php/Main/UglyGuyHotWife">improbably beautiful young wife</a> and fix watches in his home, struggling against a bunch of escaped prisoners who have barged in and holed up. <span class="spoiler" title="you can set spoilers visible by default on your profile"> He's an old, powerful Mechanomancer, and is every bit as insane and callous as one would imagine a person whose obsession is with a clockwork universe and whose magic is fueled by sacrificing memories. That wife of his? He killed her in a rage one day. What did he do? Why, he took her corpse and stuffed it full of gears, bringing it back to life as a clockwork automaton who will love him unconditionally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TomatoInTheMirror" title="/pmwiki/pmwiki.php/Main/TomatoInTheMirror">without even knowing that</a>. The memory he sacrificed to accomplish that feat? Why, that of murdering his own wife, of course! Living with the guilt would've been awful! And pray to God that you don't accidentally open the bedroom closet <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShmuckBait" title="/pmwiki/pmwiki.php/Main/ShmuckBait">emitting scary banging sounds</a>, or you might find yourself facing the clockwork abomination that is Bors Slavandrov, the last person to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">threaten Uder's wife.</a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BittersweetEnding" title="/pmwiki/pmwiki.php/Main/BittersweetEnding">Bittersweet Ending</a>: Mak Attax is in the aftermath of one in 3rd Edition: <span class="spoiler" title="you can set spoilers visible by default on your profile">They pulled off the Ritual of Light, resulting in a global <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeconReconSwitch" title="/pmwiki/pmwiki.php/Main/DeconReconSwitch">Decon-Recon Switch</a> for the entire Occult Underground and making it so optimism is the driving force of most political agendas... but they couldn't stop the September 11th attacks, and the Underground is no less dangerous-nobody said "optimism" couldn't be "hopes of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeOverTheWorld" title="/pmwiki/pmwiki.php/Main/TakeOverTheWorld">Take Over the World</a>"...</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Biomanipulation" title="/pmwiki/pmwiki.php/Main/Biomanipulation">Biomanipulation</a>:<ul><li> Epideromancy is a magic style revolving around molding the bodies of others (and oneself) like clay and is powered by self-mutilation. Its signature attack spell <em>isn't</em> the one that lets you break bones or tear flesh just by touching someone, it's the spell that lets you mold flesh about the area of your palm. Its most common use? <em>Seal someone's mouth and nose.</em> No surprise that it's the #1 source of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a> in the game.</li><li> The Freak from the novelization <em>Godwalker</em> demonstrates this power via shapeshifting, gendershifting as well as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HealingHands" title="/pmwiki/pmwiki.php/Main/HealingHands">healing</a> of self and others.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoozeBasedBuff" title="/pmwiki/pmwiki.php/Main/BoozeBasedBuff">Booze-Based Buff</a>: Dipsomancers, and most of the artifacts they make. Pity you have to be drunk to gain the benefits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrandX" title="/pmwiki/pmwiki.php/Main/BrandX">Brand X</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Mak Attax</span> is using a certain multinational corporation (<span class="spoiler" title="you can set spoilers visible by default on your profile"> McDonalds</span>) to further its agenda. The corporation is almost never mentioned by name. Ostensibly, this is because of the power of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrueName" title="/pmwiki/pmwiki.php/Main/TrueName">True Names</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrownNote" title="/pmwiki/pmwiki.php/Main/BrownNote">Brown Note</a>: The Alter language, and the book Das Garten.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButIPlayOneOnTV" title="/pmwiki/pmwiki.php/Main/ButIPlayOneOnTV">...But I Play One on TV</a>:<span style="display:none">invoked</span> A Personamancy spell lets you use any professional skill as long as you can convince those present that you <em>are</em> a professional.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonWelding" title="/pmwiki/pmwiki.php/Main/CanonWelding">Canon Welding</a>: The <em>Red Book of Westmarch</em> is mentioned as a real book in the setting - implying that all of <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TolkiensLegendarium" title="/pmwiki/pmwiki.php/Franchise/TolkiensLegendarium">Tolkien's Legendarium</a> existed in the dim recesses of the past.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromHitPoints" title="/pmwiki/pmwiki.php/Main/CastFromHitPoints">Cast From Hit Points</a>: Epideromancy works this way, as do certain rituals. <em>All</em> magic schools, however, are fundamentally self-destructive in some manner, whether physiologically or psychologically.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve" title="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve">Clap Your Hands If You Believe</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Clockpunk" title="/pmwiki/pmwiki.php/Main/Clockpunk">Clockpunk</a>: Nearly anything made by a Mechanomancer wanders into this trope, and will quite likely be self-motivated enough to rate as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClockworkCreature" title="/pmwiki/pmwiki.php/Main/ClockworkCreature">Clockwork Creature</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChainsawGood" title="/pmwiki/pmwiki.php/Main/ChainsawGood">Chainsaw Good</a>: Chainsaws do a lot of damage, up there with katanas. See <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KatanasAreJustBetter" title="/pmwiki/pmwiki.php/Main/KatanasAreJustBetter">Katanas Are Just Better</a> below.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChaoticStupid" title="/pmwiki/pmwiki.php/Main/ChaoticStupid">Chaotic Stupid</a>: Entropomancers are <em>encouraged</em> to act like this, since they're wizards who gain power over probabilities by putting things of value to themself (money, social standing, life and limb, etc) at risk. Unlike most examples of the trope, this behavior is played entirely for horror. As one reviewer put it, an Entropomancer with a single bullet and a revolver can gain, up to, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RussianRoulette" title="/pmwiki/pmwiki.php/Main/RussianRoulette">five</a> significant charges within seconds.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfSpies" title="/pmwiki/pmwiki.php/Main/CityOfSpies">City of Spies</a>: While not <em>explicit</em>, the Sleeping Tiger (ie. The general public) pretty much turns any game of Unknown Armies into spy central. With weird ass magic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheConspiracy" title="/pmwiki/pmwiki.php/Main/TheConspiracy">The Conspiracy</a>: Unknown Armies' theme that the supernatural world was, in many ways, a lot less amazing than it might first sound extended to its conspiracies. Whereas settings like <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheWorldOfDarkness" title="/pmwiki/pmwiki.php/Franchise/TheWorldOfDarkness">The World of Darkness</a></em> were filled to the brim with occult organizations so ancient and powerful <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy" title="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy">it's a wonder history happened without them</a>, the conspiracies that dominate the Occult Underground tended to be rather down-to-Earth. The very biggest one consisted of about 400 people, total, and considered comparatively powerless due to the impracticality of trying to keep track of so many "agents" (it didn't help they were mostly clueless amateurs in it for the lulz). Most couldn't even scratch 100. The "ancient" conspiracy <span class="spoiler" title="you can set spoilers visible by default on your profile"> was less than a century old and just thrumming up its own reputation as mystical badasses</span>, and even the ones with millions of dollars to throw around were simply too <em>practical</em> to bother with Hollywood bullshit like sending attack helicopters and squads of mercenaries after people where a hired thug with a silenced pistol tends to be enough to do the trick. It goes without saying that there's not a single organization in the entire setting that wouldn't be <em>squashed like a bug</em> if they ever pissed off the mundane authorities. There's a reason the Occult Underground remains that way.<ul><li> The 3rd edition took things even further by bringing down many of the previous era's bigger, richer and more influential organizations with either infighting, betrayal or an event referred to as "The Whisper War". The New Inquisition has gone underground and can no longer afford to throw money at every problem, the Sleepers have lost control of their ancient holdings and vaults full of artifacts, the Sect of the Naked Goddess split in three, and even Mak Attax has lost almost its whole leadership. All three are now rather more loosely organized, hodgepodge and gritty. This was likely done both in order to further focus the game thematically on the street-level, and to give more agency to player cabals.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness" title="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness">Contractual Genre Blindness</a>: The former is the taboo of the Cinemancy school-they see a potential for a cliche, they must finish it. Nothing says they can't <em>avoid</em> situations where a cliche would likely present itself, however, and all of their spells are based around invoking tropes in real life to their ultimate benefit (for example, using He's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RightBehindMe" title="/pmwiki/pmwiki.php/Main/RightBehindMe">Right Behind Me</a> to teleport another individual to their location, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TemptingFate" title="/pmwiki/pmwiki.php/Main/TemptingFate">Tempting Fate</a> to summon rain despite a drought).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Cosmic Horror Story</a>: Inverted. It's the anti-Lovecraft: you aren't scared because the cosmic powers that can crush you like a bug without noticing it are inhuman horrors from the depth of the cosmos. You are scared because they <span class="spoiler" title="you can set spoilers visible by default on your profile">were humans like you, and are living metaphor of what being human means. You aren't mortified because you're helpless, but because <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">you did it!</a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyHomelessPeople" title="/pmwiki/pmwiki.php/Main/CrazyHomelessPeople">Crazy Homeless People</a>: There's plenty of these, but watch out. Unknown Armies has a disproportionate number of hobos who are also powerful wizards.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure" title="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure">Critical Existence Failure</a>: Averted; you automatically pass out/otherwise go unconscious at 5 HP and die at 0, but you take cumulative stat penalties depending on how messed up you are.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalResearchFailure" title="/pmwiki/pmwiki.php/Main/CriticalResearchFailure">Critical Research Failure</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, in the second edition corebook, one cabal is a group of radical feminists trying to replace the Naked Goddess with their own creation, the Womyn. They know just enough about the Statosphere to be completely wrong. <span class="spoiler" title="you can set spoilers visible by default on your profile">First of all, to join the Invisible Clergy, you have to represent a concept the world recognizes as universal, like the Mother or the Hunter. There aren't <em>nearly</em> enough radical feminists for the Womyn to qualify. Even if there were, to <em>replace</em> a member of the Clergy, you have to represent a different facet of their concept, like the "bounty Hunter" replacing the "survival Hunter". If the Womyn ascended, she would do so <em>alongside</em> the Naked Goddess, not <em>in place of</em> her.</span> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">Also, "pornos" was not the Greek word for "female slave", and isn't what "porn" is short for anyway</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cult" title="/pmwiki/pmwiki.php/Main/Cult">Cult</a>: By the 3rd edition The New Inquisition has morphed into this, fueled by Alex Abel looking for perfect loyalty after having been betrayed by his bodyguard.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Deconstruction" title="/pmwiki/pmwiki.php/Main/Deconstruction">Deconstruction</a>: The game plays with most of the tropes you see in modern fantasy games, but makes sense of them the most mundane ways possible. If they can change reality, why aren't Adepts in charge? Because the very nature of their power makes them loony, and the price they pay to work their miracles makes them as useful as a carefully chosen tool, only weirder. Why is magic falling behind technology? Because technology is just better, and more reliable. Why isn't the supernatural more widespread? Because it makes you batshit crazy, and you don't trust what batshit crazy people tell you.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeconReconSwitch" title="/pmwiki/pmwiki.php/Main/DeconReconSwitch">Decon-Recon Switch</a>: Thanks to Mak Attax, 3rd Edition has elements of this; when it comes down to it, Adepts are still <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Determinator" title="/pmwiki/pmwiki.php/Main/Determinator">the kind of people</a> who look reality in the eye and tell it to get with <em>their</em> program... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyEnoughToWork" title="/pmwiki/pmwiki.php/Main/CrazyEnoughToWork">and reality bows its head</a>. Hence, they may not have power, but having power and getting what you want are two vastly different things.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Determinator" title="/pmwiki/pmwiki.php/Main/Determinator">Determinator</a>: One of the powers of the Masterless Man.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">Demonic Possession</a>: This is pretty much a demon's entire <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoalInLife" title="/pmwiki/pmwiki.php/Main/GoalInLife">Goal in Life</a> until they actually get a body; otherwise they're helplessly intangible and potentially vulnerable to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">Cruel Ones</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusSexMachina" title="/pmwiki/pmwiki.php/Main/DeusSexMachina">Deus Sex Machina</a>: Pornomancy. Subverted in that pornomantic sex rituals aren't much fun at all to their practitioner, and having <em>regular</em> sex is taboo to them. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlessedWithSuck" title="/pmwiki/pmwiki.php/Main/BlessedWithSuck">"Real shame about love, isn't it?"</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu" title="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu">Did You Just Punch Out Cthulhu?</a>: You can face the very principles of reality one on one. You can even take their place.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisabilitySuperpower" title="/pmwiki/pmwiki.php/Main/DisabilitySuperpower">Disability Superpower</a>: Some schizophrenics actively channel the backwash from any magic cast nearby, which can be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">a Very Bad thing</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DragonInChief" title="/pmwiki/pmwiki.php/Main/DragonInChief">Dragon-in-Chief</a>: While the House of Renunciation is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeniusLoci" title="/pmwiki/pmwiki.php/Main/GeniusLoci">Genius Loci</a>, it also does not have thoughts or goals beyond seeking subjects of its dubious help. <em>Agents</em> of Renunciation, on the other hand, are entirely human-and thus, beyond their fanatical belief in their Room's cause, can and do have ambitions beyond that and think of ways to bring their Room's way of thinking to the larger world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasterEgg" title="/pmwiki/pmwiki.php/Main/EasterEgg">Easter Egg</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Page 333.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyAmnesia" title="/pmwiki/pmwiki.php/Main/EasyAmnesia">Easy Amnesia</a>:<ul><li> The Personomancer spell "The Mirror, Crack'd" is a magical case of retrograde amnesia with some interesting side effects.</li><li> Mechanomancers exchange <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyAmnesia" title="/pmwiki/pmwiki.php/Main/EasyAmnesia">Easy Amnesia</a> for magickal mojo. The more memories you give up, and the more personal and important they are, the more mojo you get.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">The End of the World as We Know It</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">What happens when the number of Invisible Clergy hits 333.</span> Not necessarily a bad thing, if the right people are in charge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EquivalentExchange" title="/pmwiki/pmwiki.php/Main/EquivalentExchange">Equivalent Exchange</a>: There's No Such Thing As A Free Lunch. To do magick, you have to pay the price. Controlling probability means you have to take insane risks now and then, you have to hurt yourself to mold flesh, and you can't spend your money if you want to magickally manipulate the stock market.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyeOfNewt" title="/pmwiki/pmwiki.php/Main/EyeOfNewt">Eye of Newt</a>: Ritual Magick. Sample ingredients in the GM section include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoodleImplements" title="/pmwiki/pmwiki.php/Main/NoodleImplements">"A lock of hair from a red-headed lover", "Those Groucho glasses with the fake nose and moustache", and "A copy of the Torah, translated directly from Hebrew into Klingon"</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceHeelTurn" title="/pmwiki/pmwiki.php/Main/FaceHeelTurn">Face&#150;Heel Turn</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">One of the biggest events in 3rd edition was the Freak and the Comte Saint-Germain switching places and inverting morality. The Freak is now an idealistic androgine that calls hirself the Human Eternal and is in charge of being the new First and Last Man (the only constant between universes), and the Comte is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrumpyOldMan" title="/pmwiki/pmwiki.php/Main/GrumpyOldMan">bitter, cranky old lady</a> called Old Mother <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Apocalypse</a> who wants to make the current universe eternal and stop new ones from being created, by killing all of humanity if necessary.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FisherKing" title="/pmwiki/pmwiki.php/Main/FisherKing">Fisher King</a>: Known as "The True King" in this game, and one of several sample Avatar classes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFool" title="/pmwiki/pmwiki.php/Main/TheFool">The Fool</a>: Another Avatar type. Known specifically for doing foolish things and somehow surviving.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Functional Magic</a>: Mostly rule magic, although ritual magic is popular and wild magic shows up.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GadgeteerGenius" title="/pmwiki/pmwiki.php/Main/GadgeteerGenius">Gadgeteer Genius</a>: Mechanomancers are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClockPunk" title="/pmwiki/pmwiki.php/Main/ClockPunk">Clock Punk</a> adept versions of these.<ul><li> Third Edition adds avatars of the Hacker, whose taboos include literally not being able to use things they haven't tinkered with. As they get more channels, they start going into full <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic" title="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic">Sufficiently Analyzed Magic</a> territory.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenderBender" title="/pmwiki/pmwiki.php/Main/GenderBender">Gender Bender</a>: Avatars of the Mystic Hermaphrodite.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GhostlyGoals" title="/pmwiki/pmwiki.php/Main/GhostlyGoals">Ghostly Goals</a>: A ghost's personality has no subtlety; they can only act to fulfill their Obsession. If they want revenge, they will chase you to the end of the earth. If they want to collect every last Pokemon card, you better not have a tight grip on that Charizard.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoMadFromTheRevelation" title="/pmwiki/pmwiki.php/Main/GoMadFromTheRevelation">Go Mad from the Revelation</a>:<ul><li> "Sanity cannot exist for long under conditions of absolute reality." There are a lot of things that can cause you to gain some notches on the madness meters, but suddenly gaining an understanding of some cosmic truth is the most likely to cause a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreakOut" title="/pmwiki/pmwiki.php/Main/FreakOut">Freak Out</a>.</li><li> GNOMON's disciples have a spell that allows them to do this, burning a significant charge to turn the occult AI's considerable mental resources to answering any single question about the cosmic underpinnings of reality. They don't like using it, as GNOMON tells them <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThingsManWasNotMeantToKnow" title="/pmwiki/pmwiki.php/Main/ThingsManWasNotMeantToKnow">everything</a></em> it can find out in its report, causing a Stress check. Still, better to know, sometimes-because a lot of that stuff is <em>very useful</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodWasMyCopilot" title="/pmwiki/pmwiki.php/Main/GodWasMyCopilot">God Was My Copilot</a>: The <span class="spoiler" title="you can set spoilers visible by default on your profile">Comte De Saint-Germain</span>, immortal <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PhysicalGod" title="/pmwiki/pmwiki.php/Main/PhysicalGod">uberpower</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SociopathicHero" title="/pmwiki/pmwiki.php/Main/SociopathicHero">sadistic bastard</a>, and appearing in at least half the stock campaigns as a bit part, sometimes in simultaneous roles halfway across a state. Often provides <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusExMachina" title="/pmwiki/pmwiki.php/Main/DeusExMachina">Deus ex Machina</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolusExMachina" title="/pmwiki/pmwiki.php/Main/DiabolusExMachina">Diabolus ex Machina</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsAreWorthless" title="/pmwiki/pmwiki.php/Main/GunsAreWorthless">Guns Are Worthless</a>: Averted, at least for more skilled users. Someone with poor skill needs extreme luck to do much damage with a gun, though. Which is pretty realistic. Guns are surprisingly unwieldy and hard to use for people that haven't practiced with them, a problem that becomes ten times worse when threatened and under pressure.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality">Grey-and-Gray Morality</a>: In spades. Among the key factions are a private army of a dictatorial plutocrat (who genuinely wants to make the world a better place; albeit with him running it), a devoted hidden order determined to protect the world from magic's excesses (or just stop the flamboyant mages from ruining the game for everyone else, OR maybe just a pack of serial killers with a justification), and a gang of idealistic youngsters looking to make the world a better place (but who might have turned themselves into the perfect tool for someone looking to rule it). True examples of purely malignant or benign groups are very thin on the ground. <span class="spoiler" title="you can set spoilers visible by default on your profile">Well, other than demons. They're pretty much bastards. But even then, they're selfish and ruthless, not serving a greater evil.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GutturalGrowler" title="/pmwiki/pmwiki.php/Main/GutturalGrowler">Guttural Growler</a>: The Freak, as a result of drinking acid. <span class="spoiler" title="you can set spoilers visible by default on your profile">Not so much as the Human Eternal, though.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandOfGlory" title="/pmwiki/pmwiki.php/Main/HandOfGlory">Hand of Glory</a>: One of the mystical objects that people can craft.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HealingFactor" title="/pmwiki/pmwiki.php/Main/HealingFactor">Healing Factor</a>: Epideromancers can gain this, although it excludes self-inflicted wounds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceBrainwashing" title="/pmwiki/pmwiki.php/Main/HeelFaceBrainwashing">Heel&#150;Face Brainwashing</a>: From its perspective, this is the goal of any Room of Renunciation. The key to becoming a particular Room's Agent of Renunciation is, after having gone through its trial, coming to believe that more of that Room's Heel Face Brainwashing can only be a good thing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHecateSisters" title="/pmwiki/pmwiki.php/Main/TheHecateSisters">The Hecate Sisters</a>: These are said to be "masks", or recognized spiritual icons that mirror the Archetypes. It's an open question as to which is which (though "The Mother" is fairly unambiguous).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreSpecial" title="/pmwiki/pmwiki.php/Main/HumansAreSpecial">Humans Are Special</a>: One definite given in any UA game, on account of how the cosmos pretty much revolves around the collective will of humanity and its chosen representatives.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Immortality" title="/pmwiki/pmwiki.php/Main/Immortality">Immortality</a>: One goal to aim for; apparently, if Dirk Allen could ever get this for the Freak, the Freak would stop hating him so much...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntrinsicVow" title="/pmwiki/pmwiki.php/Main/IntrinsicVow">Intrinsic Vow</a>: Supplement <em>Statosphere</em>. The Invisible Clergy cannot make a mortal (such as a human) to do something against their will or prevent them from doing something they really want to do.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knight Templar</a>: Literal example in the Order of St. Cecil, who may simultaneously begin to brainwash the party adept and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">take on quite a number of nasty critters for you</a>. Other groups can serve, especially The New Inquisition and the Sleepers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LetsGetDangerous" title="/pmwiki/pmwiki.php/Main/LetsGetDangerous">Let's Get Dangerous!</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Mak Attax</span> were the joke of the Occult Underground. Then they managed <span class="spoiler" title="you can set spoilers visible by default on your profile">to get two dozen terrorists arrested in a single night and perform the single largest magical act in recent memory</span>. (And then they proceeded to <span class="spoiler" title="you can set spoilers visible by default on your profile">do bugger all afterwards</span>, until <span class="spoiler" title="you can set spoilers visible by default on your profile"> the events of the To Go campaign, the culmination of their Great Work. Depending on the outcome of the campaign, one of their higher-ups may ascend as the new True King.</span>)<ul><li> Since their goal is <span class="spoiler" title="you can set spoilers visible by default on your profile">the creation of a new age of magic, one of the outcomes where their higher up doesn't ascend is the one they'd really want.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LinearWarriorsQuadraticWizards" title="/pmwiki/pmwiki.php/Main/LinearWarriorsQuadraticWizards">Linear Warriors, Quadratic Wizards</a>: Averted. Adepts require not only a decent skill level to cast any sort of spell successfully, but also must charge up by doing particular ritual acts. Attacking via magic is less efficient than just using a gun. Avatar magic is flat-out linear, providing particular effects at a particular level of skill. Ritual magic progresses randomly, depending on the whims of the GM. Psychics are generally even more limited.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiquidAssets" title="/pmwiki/pmwiki.php/Main/LiquidAssets">Liquid Assets</a>: Played more literally than most, as an avatar of the Merchant can trade any intangible good between two other people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteraryAllusionTitle" title="/pmwiki/pmwiki.php/Main/LiteraryAllusionTitle">Literary Allusion Title</a>: "Unknown Armies" is a line cribbed from <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/WilliamButlerYeats" title="/pmwiki/pmwiki.php/Creator/WilliamButlerYeats">William Butler Yeats</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LonersAreFreaks" title="/pmwiki/pmwiki.php/Main/LonersAreFreaks">Loners Are Freaks</a>: Mechanically, any individual who is alone for prolonged periods of time <em>will</em> fill up the Isolation failed bar to go insane or head a long way toward going sociopath.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadHatter" title="/pmwiki/pmwiki.php/Main/MadHatter">Mad Hatter</a>: An adept being this is a good sign-that mean's he's capable of functioning.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadeOfIron" title="/pmwiki/pmwiki.php/Main/MadeOfIron">Made of Iron</a>: While combat is very deadly, certain adepts and avatars, such as an epideromancer or a masterless man, can become very hard to kill indeed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicAIsMagicA" title="/pmwiki/pmwiki.php/Main/MagicAIsMagicA">Magic A Is Magic A</a>: Played with, Adepts <em>must</em> embrace symbolic paradox and paying a price for their powers and avatars <em>must</em> act out their Stratospheric patron's archetype... but the very basis of magick working is the internal logic of the universe not always fitting together right. Unnatural phenomenon (side effects of uncontrolled magickal energy) are, by definition, devoid of all but symbolic logic and there's absolutely no law that some otherwise completely normal person can't have a supernatural ability that nobody can explain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicIsEvil" title="/pmwiki/pmwiki.php/Main/MagicIsEvil">Magic Is Evil</a>: According to the Order of St. Cecil, the actual Inquisition (as opposed to The New Inquisition, which is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NebulousEvilOrganization" title="/pmwiki/pmwiki.php/Main/NebulousEvilOrganization">Nebulous Amoral Organization</a>). Given how damaging magick is to its practioners' sanity, and how their first response is generally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerBornOfMadness" title="/pmwiki/pmwiki.php/Main/PowerBornOfMadness">psychological help</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheExtremistWasRight" title="/pmwiki/pmwiki.php/Main/TheExtremistWasRight">it's kinda understandable.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicLibrarian" title="/pmwiki/pmwiki.php/Main/MagicLibrarian">Magic Librarian</a>: The Bibliomancer class uses his personal library as a power source. The more books he has and the rarer they are, the more powerful he becomes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MamaBear" title="/pmwiki/pmwiki.php/Main/MamaBear">Mama Bear</a>: A powerful avatar of the Mother gets big bonuses whenever defending someone that sees them as a mother figure.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MartialPacifist" title="/pmwiki/pmwiki.php/Main/MartialPacifist">Martial Pacifist</a>: The Fulminaturgy school that views guns as, at their core, benign enforces of civilization, have a taboo of never actually shooting a human. Monsters are fair game though, as is using the actual magic to attack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Masquerade" title="/pmwiki/pmwiki.php/Main/Masquerade">Masquerade</a>: The occult underground stays hidden because whenever magic is discovered by the public, murder is soon to follow. The core book cites numerous instances throughout history in which accused magic-users have been lynched <em>en masse</em>. They even have (pretty elegant) rules for angry mobs and their consequences.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MilkmanConspiracy" title="/pmwiki/pmwiki.php/Main/MilkmanConspiracy">Milkman Conspiracy</a>: This is the game where one of the major dealers in the Occult Underground is <span class="spoiler" title="you can set spoilers visible by default on your profile"> a fast food chain that uses its meals in an attempt to align the chakra points of the American consciousness.</span> And it only gets weirder from there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">Mind Rape</a>: Entropics, demonic possession, and dozens of adept spells like the one that instantly spread a rumor to every one on Earth.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a>: And how! With extra strength in any scenario written by John Tynes. In one notable case, <span class="spoiler" title="you can set spoilers visible by default on your profile"> he wrote a scenario in which you run into a woman who fires bullets from her mouth by screaming "I'm a gun!", heal a man by binding pages of the bible to his body, free a young girl from a circle of corpses who drop coins from their mouths in a constant trickle, before fleeing in an ambulance ride with Jesus from murderous cars who can only be hurt by tossing the aforementioned coins at them. Man, all I wanted was some change. I don't love you anymore. (Said scenario is "A Few of My Favorite Things", from Weep.)</span></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MissingTime" title="/pmwiki/pmwiki.php/Main/MissingTime">Missing Time</a>: No, literally, one of the possible side effects of using powerful magic is that a group of people can just disappear for a few hours, and when they come back they don't realize that time has passed at all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Muggles" title="/pmwiki/pmwiki.php/Main/Muggles">Muggles</a>: But don't you mess with them. They are officially referred to as "the Sleeping Tiger," and the book includes some sobering tables outlining what happens when they wake up.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MugglesDoItBetter" title="/pmwiki/pmwiki.php/Main/MugglesDoItBetter">Muggles Do It Better</a>: Because technology is more reliable and cconsistent. But adepts do it in ways that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConfusionFu" title="/pmwiki/pmwiki.php/Main/ConfusionFu">defy logic</a>. Nobody gets to have it both ways.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MysteriousWatcher" title="/pmwiki/pmwiki.php/Main/MysteriousWatcher">Mysterious Watcher</a>: Sleepers and Agents of Renunciation tend to be this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NighInvulnerable" title="/pmwiki/pmwiki.php/Main/NighInvulnerable">Nigh-Invulnerable</a>: A powerful avatar of the Warrior becomes immune to physical harm - but only when fighting those he is ideologically opposed to.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ObstructiveCodeOfConduct" title="/pmwiki/pmwiki.php/Main/ObstructiveCodeOfConduct">Obstructive Code of Conduct</a>: The Taboo of any magick-user is basically this. There are some behaviors that you cannot engage in, ever, or you weaken your power in some way. On a meta level, the Self meter is meant to be this for the players, to prevent them from doing just anything (destroying own life's work, cannibalism, public denying their most deeply held beliefs) with their characters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OffTheRails" title="/pmwiki/pmwiki.php/Main/OffTheRails">Off the Rails</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlyAFleshWound" title="/pmwiki/pmwiki.php/Main/OnlyAFleshWound">Only a Flesh Wound</a>: The Videomancer spell Watching the Detectives is intentionally designed to invoke this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OtherworldlyAndSexuallyAmbiguous" title="/pmwiki/pmwiki.php/Main/OtherworldlyAndSexuallyAmbiguous">Otherworldly and Sexually Ambiguous</a>: The Mystic Hemaphrodite archetype is the embodiment of magick. It represents not just men and women, but other dualities as well: love and hate, war and peace, and killing and mercy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">Our Angels Are Different</a>: Never directly seen, but demons are universally terrified of what they call the Cruel Ones, and on the occasion they have apparently manifested directly there's <em>always</em> some form of a localized <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseWow" title="/pmwiki/pmwiki.php/Main/ApocalypseWow">Apocalypse Wow</a>. Since that name seems to exclusively come from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUsualAdversaries" title="/pmwiki/pmwiki.php/Main/TheUsualAdversaries">demons</a>, who seem to be the only thing they actually hate and all other actions seem to be the will of the Invisible Clergy, most checkers suspect this trope is the case.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">Our Demons Are Different</a>: They're actually this world's version of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurGhostsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurGhostsAreDifferent">ghosts</a>, and are universally terrified of moving on to the next life. Third Edition adds Fiends, monstrous byproducts of cruel magick use who feed on fear and pain, and Whisperers, symbiotes with demons who drive potential victims mad with shame and allow the demons to hop in.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Our Vampires Are Different</a>: They're all descendant from a particular Romanian bloodline which, owning to extensive inbreeding and pure, sheer luck, has managed to gather a itself a hodgepodge of mutations which might've given birth to the myths. They're usually albinos (accounting for the pallor and aversion to sunlight, although the myths rarely mention the poor eyesight that comes with it), are severely anemic (explaining the craving for raw meat), and are incredibly prone to mental illness (accounting for the majority of vampiric behaviors as people with the condition believe themselves to be vampires and insanely decide to play the role). On the plus side, the same genetic quirk causes them to age at about a tenth of the pace of a normal human, possibly allowing them to live for centuries and making them highly immune to disease (as they get to enjoy both a young person's robust immune system and an old one's exposure to a variety of pathogens). Their teeth also fall and regrow every couple of years, meaning they always look shining white. All in all, there's nothing supernatural about them. They're simply one of nature's curiosities.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent">Our Werewolves Are Different</a>: They're victims of demonic possession by a demon that had previously possessed an animal, which spontaneously and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetCon" title="/pmwiki/pmwiki.php/Main/RetCon">retroactively</a> change shapes.<ul><li> The 3rd edition adds Vestimancers, fashion-obsessed Adepts with the ability to create magical garments. One of their more notable powers allows them to take the classical route by making a wolfskin belt that allows the wearer to transform into a wolf.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaperThinDisguise" title="/pmwiki/pmwiki.php/Main/PaperThinDisguise">Paper-Thin Disguise</a>: A high-level avatar of the Trickster can disguise himself perfectly with just a few token props.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonalHorror" title="/pmwiki/pmwiki.php/Main/PersonalHorror">Personal Horror</a>: The Self madness meter is meant to address this trope specifically.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonalityPowers" title="/pmwiki/pmwiki.php/Main/PersonalityPowers">Personality Powers</a>: Adept magic has to match the adept's obsession, and avatar powers match the archetype's theme and personality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostModernMagik" title="/pmwiki/pmwiki.php/Main/PostModernMagik">Post-Modern Magik</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeNamer" title="/pmwiki/pmwiki.php/Main/TropeNamer">Trope Namer</a>. Adepts twists the meaning of culturally relevant phenomena, like TV or booze, to achieve their enlightenment. Some rituals are based on VHS tapes, or Bruce Lee paraphernalia.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerBornOfMadness" title="/pmwiki/pmwiki.php/Main/PowerBornOfMadness">Power Born of Madness</a>: Magic works by taking something that isn't <em>supposed</em> to work and <em>making</em> it work.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredByAForsakenChild" title="/pmwiki/pmwiki.php/Main/PoweredByAForsakenChild">Powered by a Forsaken Child</a>: The Hotchkiss Compass from <em>Godwalker</em>, an artefact that utilises an aborted hermaphroditic foetus to detect Mystic Hermaphrodites.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowersAsPrograms" title="/pmwiki/pmwiki.php/Main/PowersAsPrograms">Powers as Programs</a>: Skills can be stolen in a number of ways, both temporarily and permanently, even supernatural ones. The infomancy skill to do so is called Download, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lampshade" title="/pmwiki/pmwiki.php/Main/Lampshade">pointing this out</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowersThatBe" title="/pmwiki/pmwiki.php/Main/PowersThatBe">Powers That Be</a>: The <span class="spoiler" title="you can set spoilers visible by default on your profile">Invisible Clergy</span> have incredibly vague motives other than those tied to their Archetype, operate from ineffable levels of the cosmos, and <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGodsMustBeLazy" title="/pmwiki/pmwiki.php/Main/TheGodsMustBeLazy">can attack only indirectly, mostly by affecting probability, causing lucky coincidences, or siccing associates on you</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunctuatedPounding" title="/pmwiki/pmwiki.php/Main/PunctuatedPounding">Punctuated Pounding</a>: The Freak does this to <span class="spoiler" title="you can set spoilers visible by default on your profile">Jolene</span> in <em>Godwalker</em>:<div class="indent"><em>You don't hurt me! You don't fuck with me! No-one! No-one!</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychologicalTormentZone" title="/pmwiki/pmwiki.php/Main/PsychologicalTormentZone">Psychological Torment Zone</a>: This is the House of Renunciation's <em>raison d'arte</em>; finding people who are uncertain about something stable in their life and inverting it into something else. Not truly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">Mind Rape</a>, however, as the purpose of the House is to make people <em>want</em> the change it enforces (although it doesn't seem to care if they were asking beforehand, and would rather let its guests die than leave uninverted).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLifeWritesThePlot" title="/pmwiki/pmwiki.php/Main/RealLifeWritesThePlot">Real Life Writes the Plot</a>: Being based in "the real world, except <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">real</a>", 9/11 cast a pretty tall shadow over some of the events of the game. This particularly affects Mac Attax, who saved the world in 2000 only for the end to suddenly loom that much taller in 2k1. The scenario "Fly From Heaven" appears to reference 9/11, but it was written long before it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityWarper" title="/pmwiki/pmwiki.php/Main/RealityWarper">Reality Warper</a>: The Entropomancy spell Edit the World. Also the random magick of many schools, if you've got enough charges. Get a major charge and this is the kind of effect you're looking at.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retconjuration" title="/pmwiki/pmwiki.php/Main/Retconjuration">Retconjuration</a>: A few of the high-powered magicks can do this. If you sell something to Thorvald Drake, the past changes so that you never had it in the first place. A werewolf has either always been a human, or always been a wolf, depending on what it is right now. While Cliomancy can't <em>actually</em> change the past, it can change what everyone <em>thinks</em> happened.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetGone" title="/pmwiki/pmwiki.php/Main/RetGone">Ret-Gone</a>: Pissing off the House of Renunciation, or a particularly powerful Infomancer or Bibliomancer might do it. In addition, this weirdly happened to <span class="spoiler" title="you can set spoilers visible by default on your profile">The Naked Goddess</span> and nobody's really sure why.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RevolversAreJustBetter" title="/pmwiki/pmwiki.php/Main/RevolversAreJustBetter">Revolvers Are Just Better</a>: Averted. Revolvers have all the flaws they do in real life (low ammunition capacity, bulk, and ect.), making pistols and, for that matter, automatic weapons far more usefull. Entropomancers love revolvers though. To their minds, what good is owning a gun if you can't play Russian Roulette with it?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RhetoricalRequestBlunder" title="/pmwiki/pmwiki.php/Main/RhetoricalRequestBlunder">Rhetorical Request Blunder</a>: Less scrupulous (and less sane) Avatars of the Executioner have been known to interpret statements like "that guy really pisses me off!" as an excuse to murder someone- an Executioner can't kill anyone they haven't been ordered to by someone they consider an authority.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RitualMagic" title="/pmwiki/pmwiki.php/Main/RitualMagic">Ritual Magic</a>: Certain rituals seem to be "baked in" to reality itself, allowing people who aren't Adepts or Avatars to get in on the sweet magickal action. Ritual spells are unreliable, can be difficult, and are usually pretty small potatoes compared to what Adepts and Avatars can sling around... <em>but</em>, they do handily sidestep the whole "ruining your life to gain charges" thing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies" title="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies">Rocks Fall, Everyone Dies</a>: The players piss off the Freak, <span class="spoiler" title="you can set spoilers visible by default on your profile"> the number of Archetypes in the Invisible Clergy hits <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcNumber" title="/pmwiki/pmwiki.php/Main/ArcNumber">333</a></span>, pop in a CD full of Alter language, the characters piss off the Comte, get a unfiltered vision of <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Statosphere</span>, screw up a magick roll with a Major charge, the Cruel Ones show up...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Room101" title="/pmwiki/pmwiki.php/Main/Room101">Room 101</a>: The Otherside Room is a mystically empowered version, showing any fool with weak beliefs trapped in it the very worst of his or her beliefs. This is non-partisan and all-accepting, by the way; stick a Christian and a Communist in there, and both will walk out with their beliefs torn down. Many of the other Rooms of Renunciation work by similar principles; e.g. the Room of Cold Reflection forces the victim to face the consequences of their selfishness, while the Room of Rusted Things shakes up apathetic people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfThree" title="/pmwiki/pmwiki.php/Main/RuleOfThree">Rule of Three</a>: Invoked. 3 is a number that comes up a lot in magic. <span class="spoiler" title="you can set spoilers visible by default on your profile"> There are 333 members in the Invisible Clergy, for example, but there's no knowing if they started the 3 business or if they're as subject to it as everything else.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SalemIsWitchCountry" title="/pmwiki/pmwiki.php/Main/SalemIsWitchCountry">Salem Is Witch Country</a>: A cabal called the New Salem Coven is mentioned as being unexpectedly wiped out by The Freebusters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanityHasAdvantages" title="/pmwiki/pmwiki.php/Main/SanityHasAdvantages">Sanity Has Advantages</a>: No <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaksauceWeakness" title="/pmwiki/pmwiki.php/Main/WeaksauceWeakness">Taboo</a> to break, for example. Playing a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a> in this game is perfectly feasible. The New Inquisition's power lies in this. Alex Abel, their leader, is neither an adept or an avatar, so he's better suited to run a high-level organization than most of the characters in the cast. Additionally, <span class="spoiler" title="you can set spoilers visible by default on your profile"> the further up you go in the TNI, the less adepts you find, to the point that there are none in the highest tier of leadership.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanityMeter" title="/pmwiki/pmwiki.php/Main/SanityMeter">Sanity Meter</a>: Five of them (Violence, Unnatural, Self, Helplessness, Isolation), each with two aspects (Hardened, Failed).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanitySlippage" title="/pmwiki/pmwiki.php/Main/SanitySlippage">Sanity Slippage</a>: A consequence of gaining "notches" on your sanity meters. Getting hardened notches makes you more and more emotionally dead to a given stimulus, culminating in a complete immunity to stresses of a given kind along with total sociopathy. Getting failed notches makes you more acutely sensitive to a given stimulus, culminating in a severe phobia and total madness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScaledUp" title="/pmwiki/pmwiki.php/Main/ScaledUp">Scaled Up</a>: The Herpemancy formula, "I am become Typhon" &mdash; "Sometimes you just gotta turn into a giant snake."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney">Screw the Rules, I Have Money!</a>: Plutomancy, where holding down a good-paying job fuels your magic (and spending too much for any one object is taboo; most live in modest homes to avoid wiping their power with their mortgage payment). Alex Abel, eccentric billionaire, created a powerful occult cabal from scratch &mdash; the New Inquisition &mdash; that embodies this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriousBusiness" title="/pmwiki/pmwiki.php/Main/SeriousBusiness">Serious Business</a>: Adepts in general, as well as their lower-powered siblings, Mageekians. To be fair, said Serious Business causes actual magick powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: The <em>Statosphere</em> sourcebook implies that the Comte may have been <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Casablanca" title="/pmwiki/pmwiki.php/Film/Casablanca">Rick Blaine</a> in one incarnation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SleepsWithEveryoneButYou" title="/pmwiki/pmwiki.php/Main/SleepsWithEveryoneButYou">Sleeps with Everyone but You</a>: One theory behind the <span class="spoiler" title="you can set spoilers visible by default on your profile"> Naked Goddess is that she ascended as The Girl Everyone Can Have But You.</span></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SquishyWizard" title="/pmwiki/pmwiki.php/Main/SquishyWizard">Squishy Wizard</a>: Subverted with fleshworkers, who are usually enormously tough... but go down all too easily all too often because they <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromHitPoints" title="/pmwiki/pmwiki.php/Main/CastFromHitPoints">Cast From Hit Points</a>. Especially true if they go for the Major charge, which involves permanently damaging themselves in some hideous way. (Amputation's a popular one. The Freak <em>drank acid.</em>)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SympatheticMagic" title="/pmwiki/pmwiki.php/Main/SympatheticMagic">Sympathetic Magic</a>: Rituals and tilts use this heavily.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Technopath" title="/pmwiki/pmwiki.php/Main/Technopath">Technopath</a>: GNOMON's network gains power over information technology as well as more abstract concepts of data.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTrickster" title="/pmwiki/pmwiki.php/Main/TheTrickster">The Trickster</a>: Another one of the archetypes a character can channel. The powers of an avatar of the Trickster are pretty much straight from the trope, which is of course the idea.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnexpectedGameplayChange" title="/pmwiki/pmwiki.php/Main/UnexpectedGameplayChange">Unexpected Gameplay Change</a>: The most obvious consequence of casting the Ritual of Light is that Unknown Armies changes from being a "rules and dice" RPG to a pure story-telling RPG. Instead of rolling d10s to determine the outcome of any given check, the gaming group votes on whether they think the outcome should be a success or failure. The GM's vote does not count for more than the players'. This is because the player characters who cast the ritual are linking directly into the Statosphere: for a short time, reality is defined purely by their will, and their choices.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnfazedEveryman" title="/pmwiki/pmwiki.php/Main/UnfazedEveryman">Unfazed Everyman</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Depending on the outcome of To Go, this archetype may just ascend to the pantheon.</span>. Further spoilers: <span class="spoiler" title="you can set spoilers visible by default on your profile"> A side-effect of this is that adepts can suddenly turn ten minor charges into sigs, making magick immeasurably more powerful</span>. On a less spoilery note, everyone in a campaign who is directly involved in magic but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">doesn't practice it</a> is automatically this.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUsualAdversaries" title="/pmwiki/pmwiki.php/Main/TheUsualAdversaries">The Usual Adversaries</a>: Demons, and to a lesser extent astral parasites.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VancianMagic" title="/pmwiki/pmwiki.php/Main/VancianMagic">Vancian Magic</a>: Adepts kinda work like this. They're directly compared to Energizer batteries.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Whatevermancy" title="/pmwiki/pmwiki.php/Main/Whatevermancy">Whatevermancy</a>: Used heavily. Every magic school is some kind of "-mancy." Examples include the entropomancer (who powers up through risking her own life), dipsomancer (power from alcohol), bibliomancer (power from acquiring rare books), and many others.<ul><li> However, calling everything _____mancy is mentioned as a modern fashion. The name "Urbanomancy" is an example of this, with the book <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lampshaded" title="/pmwiki/pmwiki.php/Main/Lampshaded">stating that if mages cared about language</a> it would be called "Polisurgy". Earlier schools of magic were generally named things like The Way Of The Cogs, or The Way Of All Freedom.</li><li> One notable fan-made school of magick from the website is "<a class="urllink" href="http://www.unnaturalphenomena.com/wp/?p=3413">Tropamancy<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>". Yup. Inspired by this very wiki.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhoShotJFK" title="/pmwiki/pmwiki.php/Main/WhoShotJFK">Who Shot JFK?</a>: The "magic bullet" is an artifact that makes people shoot better. The game suggests some adept caused the assassination just to create the "magic bullet" or just took advantage of the situation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhyDidItHaveToBeSnakes" title="/pmwiki/pmwiki.php/Main/WhyDidItHaveToBeSnakes">Why Did It Have to Be Snakes?</a>: The Fear passion encompasses both the fears listed in this trope with others such as victimization, losing control, and other things that key off one of the Stress meters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity" title="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity">With Great Power Comes Great Insanity</a>: And with great insanity comes great power. And often the other way around too. Just ask Jeeter...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouKillItYouBoughtIt" title="/pmwiki/pmwiki.php/Main/YouKillItYouBoughtIt">You Kill It, You Bought It</a>: Supplement <em>Statosphere</em>. One of the ways for an Avatar to replace a Godwalker of their archetype is to kill them in a symbolically correct manner. For example, to replace the Executioner you would have to render them helpless and then execute them, preferably with an axe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourHeadASplode" title="/pmwiki/pmwiki.php/Main/YourHeadASplode">Your Head A-Splode</a>: Get hit by a minor Entropomancy blast, and it carves words or symbols into your flesh. Get hit by a significant one that's enough to kill you, and you <em>explode.</em></li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FutureFoodIsArtificial">Future Food Is Artificial</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/QuoteSource">Quote Source</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/PersonalHorror">Personal Horror</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/UnhallowedMetropolis">Unhallowed Metropolis</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HorrorTabletopGames">Horror Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Warhammer">Warhammer</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/WitchCraft">WitchCraft</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/UrbanJungle">Urban Jungle</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/UnicornusKnights">Unicornus Knights</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/UnstableUnicorns">Unstable Unicorns</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/UnhallowedMetropolis">Unhallowed Metropolis</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/WitchCraft">WitchCraft</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

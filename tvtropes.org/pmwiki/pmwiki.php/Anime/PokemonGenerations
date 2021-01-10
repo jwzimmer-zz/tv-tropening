@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Pokémon Generations (Web Animation) - TV Tropes</title>
+<meta name="description" content="A description of tropes appearing in Pokémon Generations. Pok&eacute;mon Generations is an animated short series in the same line of Pok&eacute;mon Origins, &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/PokemonGenerations" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Pokémon Generations (Web Animation) - TV Tropes" />
+<meta name="twitter:description" content="A description of tropes appearing in Pokémon Generations. Pok&eacute;mon Generations is an animated short series in the same line of Pok&eacute;mon Origins, &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/pokemon_generations_poster_1.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Pokémon Generations (Web Animation) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/PokemonGenerations" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/pokemon_generations_poster_1.png" />
+<meta property="og:description" content="Pok&eacute;mon Generations is an animated short series in the same line of Pok&eacute;mon Origins, a Truer to the Text adaption of the various generations of Pok&eacute;mon games. The series follows various characters (except the games' &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/MirrorMonster" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Music/BodyCount" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/WebAnimation/PokemonGenerations?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=WebAnimation/PokemonGenerations">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=WebAnimation.PokemonGenerations">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=PokemonGenerations&g=WebAnimation">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=WebAnimation.PokemonGenerations">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/WebAnimation/PokemonGenerations?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="WebAnimation" />
+<input type="hidden" id="title-hidden" value="PokemonGenerations" />
+<input type="hidden" id="article_id" value="756652" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/PokemonGenerations</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Web Animation / </strong>
+Pokémon Generations
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WebAnimation",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/WebAnimation"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Pok?mon Generations"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/PokemonGenerations" class="subpage-link " title="The Anime page">
+<span class="wrapper"><span class="spi anime"></span>Anime</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/PokemonGenerations" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/PokemonGenerations" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Fridge/PokemonGenerations" class="subpage-link " title="The Fridge page">
+<span class="wrapper"><span class="spi fridge"></span>Fridge</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/NightmareFuel/PokemonGenerations" class="subpage-link " title="The NightmareFuel page">
+<span class="wrapper"><span class="spi nightmarefuel"></span>NightmareFuel</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Recap/PokemonGenerations" class="subpage-link " title="The Recap page">
+<span class="wrapper"><span class="spi recap"></span>Recap</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/PokemonGenerations" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebAnimation/PokemonGenerations" class="subpage-link curr-subpage" title="The WebAnimation page">
+<span class="wrapper"><span class="spi webanimation"></span>WebAnimation</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/PokemonGenerations" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/PokemonGenerations" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoExamples/PokemonGenerations" class="subpage-link video-examples-tab  " title="Video Examples">
+<img src="/images/play-button-logo.png" alt="play" class="">
+<span class="wrapper">VideoExamples</span>
+</a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/PokemonGenerations?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/PokemonGenerations?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/PokemonGenerations?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Haiku/PokemonGenerations?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/PokemonGenerations?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/PokemonGenerations?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/PokemonGenerations?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/PokemonGenerations?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/PokemonGenerations?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/PokemonGenerations?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/PokemonGenerations?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/PokemonGenerations?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:142.29%"><img src="https://static.tvtropes.org/pmwiki/pub/images/pokemon_generations_poster_1.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/pokemon_generations_poster_1.png" width="350" height="498"></div></div><div class="acaptionright" style="width:350px;">These are the untold stories of the Pok&eacute;mon World.</div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Pok&eacute;mon Generations</em> is an animated short series in the same line of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PokemonOrigins" title="/pmwiki/pmwiki.php/Anime/PokemonOrigins">Pok&eacute;mon Origins</a></em>, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TruerToTheText" title="/pmwiki/pmwiki.php/Main/TruerToTheText">Truer to the Text</a> adaption of the various generations of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Pokemon" title="/pmwiki/pmwiki.php/Franchise/Pokemon">Pok&eacute;mon</a></em> games. The series follows various characters (except the games' protagonists), within various regions (Kanto to Kalos) and gets wrapped up in the plots involving the games. Each region/generation gets three episodes for itself.</p><p>The trailer for the series can be seen <a class="urllink" href="https://www.youtube.com/watch?v=wMzwcIG8vgk">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, with the rest of the series being uploaded to the official Pok&eacute;mon <a class="twikilink" href="/pmwiki/pmwiki.php/Website/YouTube" title="/pmwiki/pmwiki.php/Website/YouTube">YouTube</a> channel (<a class="urllink" href="https://www.youtube.com/playlist?list=PLQWzKIaERirwv9M89dxN3bNLY0PyuChOU">playlist<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>).</p><p><em>Pok&eacute;mon Generations</em> was succeeded by <em><a class="twikilink" href="/pmwiki/pmwiki.php/WebAnimation/PokemonTwilightWings" title="/pmwiki/pmwiki.php/WebAnimation/PokemonTwilightWings">Pok&eacute;mon: Twilight Wings</a></em>, a series of shorts based off of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonSwordAndShield" title="/pmwiki/pmwiki.php/VideoGame/PokemonSwordAndShield">Pok&eacute;mon Sword and Shield</a></em>.</p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><h2>This series contains the following tropes:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade" title="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade">Absurdly Sharp Blade</a>: Sceptile's Leaf Blade cuts through several metal doors as Brendan storms the Magma hideout.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalAttractiveness" title="/pmwiki/pmwiki.php/Main/AdaptationalAttractiveness">Adaptational Attractiveness</a>:<ul><li> Shelly in the games already had lots of fanservice but her body is much more detailed here as well as a couple of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaleGaze" title="/pmwiki/pmwiki.php/Main/MaleGaze">shots of her butt</a>. On the flipside, Archie is more muscular and his shirt is somehow tight enough to show that off, making you wonder why he's even bothering to wear it in the first place (or if it's even real and not, you know, <em>painted on</em>).</li><li> The Kanto Elite Four member Lorelei's design is taken up to eleven, complete with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Sideboob" title="/pmwiki/pmwiki.php/Main/Sideboob">Sideboob</a>, as if her anime counterpart wasn't <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuxomIsBetter" title="/pmwiki/pmwiki.php/Main/BuxomIsBetter">sexier enough</a>. Additionally, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkingShirtlessScene" title="/pmwiki/pmwiki.php/Main/WalkingShirtlessScene">Bruno's</a> muscles are significantly more detailed.</li><li> "The Old Chateau" features Cheryl of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonDiamondAndPearl" title="/pmwiki/pmwiki.php/VideoGame/PokemonDiamondAndPearl">Diamond and Pearl</a></em> with a noticeable hourglass shape and much softer, more feminized features than in her official art from that game. Considering the episode's tone, this may have been a deliberate move to make her seem more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheIngenue" title="/pmwiki/pmwiki.php/Main/TheIngenue">innocent and sympathetic</a>.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> Male version. "The Frozen World" shows off how muscular Drayden is despite being an old man.</li><li> The female Team Aqua Grunt is also a case of this. In the games, her midriff wasn't as detailed, didn't show off the pelvic bones, and was mostly flat chested; here, all detail is shown and she is also absolutely <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BuxomIsBetter" title="/pmwiki/pmwiki.php/Main/BuxomIsBetter">stacked</a> as well.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalBadass" title="/pmwiki/pmwiki.php/Main/AdaptationalBadass">Adaptational Badass</a>:<ul><li> Deoxys is already an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlympusMons" title="/pmwiki/pmwiki.php/Main/OlympusMons">Olympus Mon</a>; but in its fight with Mega Rayquaza, it's shown to be able to change formes on the fly, while it can't switch during battle in the games.</li><li> In the games, Gabby and Ty only interview passing trainers. Here, they're sneaking into guarded facilities and giving the slip to the personnel.</li><li> Mimi saving Emma from Xerosic's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindControl" title="/pmwiki/pmwiki.php/Main/MindControl">Mind Control</a> by itself counts as this, contrary to Xerosic turning off the mind control by himself. Xerosic was also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptedOut" title="/pmwiki/pmwiki.php/Main/AdaptedOut">Adapted Out</a>, which made this scene happen.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalHeroism" title="/pmwiki/pmwiki.php/Main/AdaptationalHeroism">Adaptational Heroism</a>: Somewhat with Lance's solution to the Electrode-powered generator; in the games, he decides that the best course of action is to knock them all out. Here, however, he just sets them free.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalVillainy" title="/pmwiki/pmwiki.php/Main/AdaptationalVillainy">Adaptational Villainy</a>:<ul><li> The human ghosts and Rotom in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonDiamondAndPearl" title="/pmwiki/pmwiki.php/VideoGame/PokemonDiamondAndPearl">Pok&eacute;mon Diamond and Pearl</a></em> were creepy but ultimately harmless. Not so much the case in "The Old Chateau", where they actively hunt and very likely harm Cheryl.</li><li> Colress is significantly more apathetic towards living things in <em>The Frozen World</em> than he is in the games. In the games he only joined Team Plasma to use their resources to further his research and doesn't really care about the player overthrowing the rest of the organization (he actually encourages them). Here, he blindly focuses on unlocking Kyurem's true potential, seemingly caring little for the well being of both it and that of the entire population of Opelucid City. Then again, this event from the games was never shown from Colress' POV and he <em>was</em> the captain of the Plasma Frigate at that time, so it's entirely possible he did act like that, especially since he later admits to you that he's willing to try a merciless approach like Team Plasma's and even destroy the world if it would gain him scientific knowledge.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptedOut" title="/pmwiki/pmwiki.php/Main/AdaptedOut">Adapted Out</a>:<ul><li> Petrel is the admin of Team Rocket's hideout in Mahogany Town as in the games, but fellow admin Ariana is conspicuously absent.</li><li> The Hoenn player character is absent from "The Cavern" where he/she would have been there to witness Kyogre's awakening in game.</li><li> The Sinnoh player character has been removed completely, and instead Cynthia confronts Team Galactic alone and Buck and Looker are the ones who defeat Charon when he tries to awaken Heatran.</li><li> The lake trio and their attempt to free Dialga and Palkia are also absent.</li><li> The Unova player character doesn't show during N's Castle's rising from the ground. Instead, Iris takes their place as the one witnessing the event before following right after with the Unova Gym Leaders coming to help stop Team Plasma. However, <span class="spoiler" title="you can set spoilers visible by default on your profile">he arrives in episode 15 to save N from White Kyurem at the end, despite never appearing in Black 2 and White 2's game plot. In fact, he ends up replacing the Black 2 and White 2 protagonist in that scene.</span></li></ul></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdvancingBossOfDoom" title="/pmwiki/pmwiki.php/Main/AdvancingBossOfDoom">Advancing Boss of Doom</a>: Lance's Dragonite. Eerily walking slowly and destroying everything in its path. And when it does attack, it's scary.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateContinuity" title="/pmwiki/pmwiki.php/Main/AlternateContinuity">Alternate Continuity</a>: Appears to be a separate one from <em>Origins</em> and the games themselves.<ul><li> Red is shown to have picked Bulbasaur as his starter (though if the fact Blue has a Blastoise is any indication, that's not the case in all of them), and after catching a Pikachu, uses it as his main Pok&eacute;mon, rather than Charizard. Also, Red goes through each region in turn, just like <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Pokemon" title="/pmwiki/pmwiki.php/Anime/Pokemon">Ash</a> did. It's also implied by Giovanni not reforming like he did at the end of <em>Origins</em> and Blue's design lacking the green jacket he was given in said series.</li><li> The issues are further complicated by Episode 7 following the events of Omega Ruby and Episode 8 following that of Alpha Sapphire, two mutually exclusive series of events.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Hilbert</span> shows up at the end of episode 15, which takes place in <em>Black &amp; White 2</em>. Nate is nowhere to be found. In the B/W2 games, the protagonists of the B/W games don't show up at all, and are only casually mentioned if you have an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OldSaveBonus" title="/pmwiki/pmwiki.php/Main/OldSaveBonus">Old Save Bonus</a>.</li><li> Mimi saves Emma from Xerosic's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindControl" title="/pmwiki/pmwiki.php/Main/MindControl">Mind Control</a> by damaging Essentia's helmet, which is different from how Xerosic turned it off by himself when he felt remorse for hurting Emma. The event also happens in the Lysandre Caf&eacute;, rather than in Team Flare's lab.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguousDisorder" title="/pmwiki/pmwiki.php/Main/AmbiguousDisorder">Ambiguous Disorder</a>: Courtney is a very quiet woman, but her fanatical devotion to Maxie swings into maniacal glee when "testing" Brendan and apparent future vision raise some questions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguousGender" title="/pmwiki/pmwiki.php/Main/AmbiguousGender">Ambiguous Gender</a>: In "The Scoop", the trainer riding Mega Rayquaza is completely covered up by a Team Magma suit, so it's impossible to tell if it's supposed to be Brendan or May in there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguousEnding" title="/pmwiki/pmwiki.php/Main/AmbiguousEnding">Ambiguous Ending</a>: "The Old Chateau" ends with a ghost, possibly Rotom in disguise given the similar eyes, menacing Cheryl and Chansey. Whether this takes place before her meeting with the protagonist of the Sinnoh games and explains why she needs an escort or takes place afterwards and has a darker context is left up to the viewer.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimalisticAbomination" title="/pmwiki/pmwiki.php/Main/AnimalisticAbomination">Animalistic Abomination</a>: Groudon and Kyogre cause untold disasters upon being awakened. The former just being a vision, but the latter being very real. Albeit there are indications in the games that being in primal form without a trainer causes them to go insane, hence their rampages.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">Apocalypse How</a>: In "The Vision", Magma Admin Courtney has a vision of one caused by Primal Groudon, in which Groudon destroys the surrounding islands with one Solar Beam and then kills Team Magma with another. One actually ends up being started in "The Cavern", complete with nightmarish depictions of natural disasters tearing Hoenn apart, both land and water Pok&eacute;mon suffering, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoistByHisOwnPetard" title="/pmwiki/pmwiki.php/Main/HoistByHisOwnPetard">Shelley and Archie about to be eaten by Kyogre</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtisticAge" title="/pmwiki/pmwiki.php/Main/ArtisticAge">Artistic Age</a>: While main characters in core Pok&eacute;mon titles often look older than they should, a particularly noticeable case is the already rather precocious-looking Blue, who not only looks like he should be 16 at the very least, but <em><img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DawsonCasting" title="/pmwiki/pmwiki.php/Main/DawsonCasting">sounds</a></em> it too. Note, the first generation protagonists are 11. It gets especially noticeable when compared to Red, whose design hasn't changed from <em>Origins</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtShift" title="/pmwiki/pmwiki.php/Main/ArtShift">Art Shift</a>: In "The Redemption", the story of <span class="spoiler" title="you can set spoilers visible by default on your profile">AZ and the great war from 3000 years ago</span> plays out in the same hand-drawn still-frame animation style as it's depicted in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonXAndY" title="/pmwiki/pmwiki.php/VideoGame/PokemonXAndY">Pok&eacute;mon X and Y</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedExtra" title="/pmwiki/pmwiki.php/Main/AscendedExtra">Ascended Extra</a>: In <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonRubyAndSapphire" title="/pmwiki/pmwiki.php/VideoGame/PokemonRubyAndSapphire">Pok&eacute;mon Ruby and Sapphire</a></em> and their remakes, Gabby and Ty were just reporters who interviewed passing trainers and had no relevance to the plot. Here, they the are the focus of Episode 9 where they are investigative journalists uncovering the footage that depicts the battle between the protagonist and Mega Rayquaza against Deoxys from the Mossdeep Space Center.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassAdorable" title="/pmwiki/pmwiki.php/Main/BadassAdorable">Badass Adorable</a>:<ul><li> Red's Pikachu from episode one. He goes from struggling against Caterpies and Woopers to taking on Volcarona and Noivern without much difficulty.</li><li> As if Dragonite wasn't enough of this, Lance's Dragonite has proven to be this in both of the shorts it's in, managing to tank a hit from Blue's Blastoise and to take on five Pok&eacute;mon at once and win in Episode 4.</li><li> While one could argue that it isn't "adorable" in the traditional sense, Looker's Croagunk is nonetheless proficient enough to hold back a Legendary Pok&eacute;mon like Heatran.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBadGuyWins" title="/pmwiki/pmwiki.php/Main/TheBadGuyWins">The Bad Guy Wins</a>:<ul><li> To an extent with Cyrus. While he didn't succeed in destroying the current world to create a new one like he had planned, the Distortion World is exactly what he wanted.</li><li> "The Frozen World" ends with <span class="spoiler" title="you can set spoilers visible by default on your profile"> Colress using Kyurem to freeze Opelucid City and Drayden forced to hand the DNA Splicers over to Zinzolin.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigDamnHeroes" title="/pmwiki/pmwiki.php/Main/BigDamnHeroes">Big Damn Heroes</a>:<ul><li> Giratina interferes with Cyrus' attempt to remake the world in episode 11.</li><li> Looker and his Croagunk help save Buck and his Claydol from a rampaging Heatran.</li><li> Clay saves Iris from getting pounced by 2 Liepard, before the rest of the Unova Gym Leaders show up to save the entirety of Unova from Team Plasma in episode 13.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Zekrom and Hilbert save N from the fused Kyurem's attack.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodierAndGorier" title="/pmwiki/pmwiki.php/Main/BloodierAndGorier">Bloodier and Gorier</a>: Downplayed. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodlessCarnage" title="/pmwiki/pmwiki.php/Main/BloodlessCarnage">While there's no actual blood</a> you do get to see Deoxys blasted with a massive hole in his chest.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BolivianArmyEnding" title="/pmwiki/pmwiki.php/Main/BolivianArmyEnding">Bolivian Army Ending</a>: Episode 8 ends with Primal Kyogre about to ram the Aqua submarine, with Archie and Shelly on board.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakTheCutie" title="/pmwiki/pmwiki.php/Main/BreakTheCutie">Break the Cutie</a>: Cheryl and Chansey at the Old Chateau. Being chased by the shapeshifting butler and being scared by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NightmareFace" title="/pmwiki/pmwiki.php/Main/NightmareFace">purple faced</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StringyHairedGhostGirl" title="/pmwiki/pmwiki.php/Main/StringyHairedGhostGirl">ghost girl</a> is enough to leave them scarred for life.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreatherEpisode" title="/pmwiki/pmwiki.php/Main/BreatherEpisode">Breather Episode</a>:<ul><li> After two pretty intense action episodes (Episode 3 and Episode 4), Episode 5 focuses solely on a conversation between Looker and Silver about the location of Giovanni.</li><li> Episode 16 is placed after nine more episodes following Episode 6, and after the intense confrontation between N and Ghetsis, it focuses on a closer look at Lysandre's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">Villain with Good Publicity</a> side.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BullyingADragon" title="/pmwiki/pmwiki.php/Main/BullyingADragon">Bullying a Dragon</a>:<ul><li> A group of 4 Team Rocket grunts know who Lance is and his level of experience as a trainer, yet decide to take him on. Given Lance's speciality, this trope is even taken literally, making their actions even dumber as they smugly challenge his Dragonite with a Grimer and a Magnemite.</li><li> After seeing them be revived by Ho-Oh, the townspeople become very afraid of Suicune, Entei, and Raikou. They quickly become violent and drive the legendary Pok&eacute;mon away, with one man even throwing a rock at Suicune. However, the Legendary Pok&eacute;mon don't really do anything to them in retaliation.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>:<ul><li> Petrel in "The Lake of Rage". He and his Weezing get their butts kicked by Lance's Dragonite, and the freed Electrodes then use Thunderbolt on him.</li><li> Charon's summoning of Heatran goes wrong so fast, even to the standards of a "villainous leader summons legendary" scene, it indeed almost borders on a parody of said scenes. Not only does Buck proceed to mostly ignore him when he starts ranting, Looker actually knocks him out with a neck chop, forcing his own grunts to carry him out of the place.</li><li> Cheryl and her Chansey spend the entire episode they appear being tormented, toyed with, and scared by ghosts in the Old Chateau.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CameBackStrong" title="/pmwiki/pmwiki.php/Main/CameBackStrong">Came Back Strong</a>: The Pok&eacute;mon that would become Suicune, Entei and Raikou presumably weren't all that impressive until they died and were brought back by Ho-Oh.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonWelding" title="/pmwiki/pmwiki.php/Main/CanonWelding">Canon Welding</a>: Since there is no specification whether Episode 13 takes place in Black or White's canon, both Drayden <em>and</em> Iris show up to help against Team Plasma rather than just one of them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastingGag" title="/pmwiki/pmwiki.php/Main/CastingGag">Casting Gag</a>: Overlapping with <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/RelationshipVoiceActor" title="/pmwiki/pmwiki.php/Main/RelationshipVoiceActor">Relationship Voice Actor</a>; <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RikiyaKoyama" title="/pmwiki/pmwiki.php/Creator/RikiyaKoyama">Rikiya Koyama</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/JamiesonPrice" title="/pmwiki/pmwiki.php/Creator/JamiesonPrice">Jamieson Price</a>, both of whom previously voiced Giovanni in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PokemonOrigins" title="/pmwiki/pmwiki.php/Anime/PokemonOrigins">Pok&eacute;mon Origins</a></em>, are now playing Archie.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCavalry" title="/pmwiki/pmwiki.php/Main/TheCavalry">The Cavalry</a>: In "The King Returns", <span class="spoiler" title="you can set spoilers visible by default on your profile">after Ghetsis forces N's Reshiram to fuse with Kyurem, Hilbert shows up riding on the back of Zekrom just in time to save N from a Fusion Flare</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusRetcon" title="/pmwiki/pmwiki.php/Main/CerebusRetcon">Cerebus Retcon</a>: <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguousSituation" title="/pmwiki/pmwiki.php/Main/AmbiguousSituation">If</a></em> Cheryl's traumatic ordeal in the Old Chateau is meant to take place before she meets the protagonist in the game, it provides a pretty good reason for why she's afraid of going through the forest without an escort.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColdOpen" title="/pmwiki/pmwiki.php/Main/ColdOpen">Cold Open</a>: The first episode's title only shows up at the very end. Given the format, the episode will likely serve as the opening credits for a combined showing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurbStompBattle" title="/pmwiki/pmwiki.php/Main/CurbStompBattle">Curb-Stomp Battle</a>:<ul><li> In "The Challenger", Blue is shown completely destroying each member of the Elite Four in battle.</li><li> In "The Lake of Rage", Lance and his Dragonite quickly and handily beat any Team Rocket grunt they come across.</li><li> In "The Vision", Brendan's Sceptile annihilates every single grunt the pair come across while storming Team Magma's hideout.</li><li> In "The Uprising", the Unovan Gym Leaders and their Pok&eacute;mon that show up after Iris and her Druddigon quickly take down several Team Plasma grunts as they show up at the entrance to N's castle.</li><li> In "The Redemption", Calem's Chesnaught does this to AZ's Golurk, ending his battle with him. The rest of the battle was not shown, as it was obscured by the girl recalling the story her mother told her about AZ's past.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuteButPsycho" title="/pmwiki/pmwiki.php/Main/CuteButPsycho">Cute But Psycho</a>: Courtney in "The Vision". She gets quite the crazy set of eyes when she gleefully tells Brandon that she wants to "analyze" him.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuttingOffTheBranches" title="/pmwiki/pmwiki.php/Main/CuttingOffTheBranches">Cutting Off the Branches</a>: Episode 16 specifically takes place in <em>Pok&eacute;mon Y</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a>: When compared to the vast majority of the rest of the franchise. The fact that several of the villainous teams basically amount to terrorist groups is not glossed over, and actual SWAT teams are called in to deal with them (with Machamp and Arcanine even being used to breach walls). And that's not counting the apocalypses shown in the first two Hoenn episodes and the first Sinnoh episode demonstrating how terrifying Ghost types can be.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefiniteArticleTitle" title="/pmwiki/pmwiki.php/Main/DefiniteArticleTitle">Definite Article Title</a>: In the English version, all episodes begin with the word "The" followed by a noun or two.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu" title="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu">Did You Just Punch Out Cthulhu?</a>: The Hoenn player character captures Deoxys, admittedly with the help of Mega Rayquaza. This means they also managed to catch Rayquaza, and may or may not have had an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlympusMons" title="/pmwiki/pmwiki.php/Main/OlympusMons">Olympus Mon</a> for that one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDogBitesBack" title="/pmwiki/pmwiki.php/Main/TheDogBitesBack">The Dog Bites Back</a>: Upon being freed from powering Team Rocket's radio machine, the Electrode immediately move towards zapping Petrel.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerEnding" title="/pmwiki/pmwiki.php/Main/DownerEnding">Downer Ending</a>: "The Frozen World" ends with <span class="spoiler" title="you can set spoilers visible by default on your profile"> Colress using Kyurem to freeze Opelucid City while Drayden is forced to hand the DNA Splicers over to Zinzolin.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DraggedOffToHell" title="/pmwiki/pmwiki.php/Main/DraggedOffToHell">Dragged Off to Hell</a>: Giratina frees Dialga and Palkia from Cryus, then takes him to the Distortion World. Subverted as Cyrus sees it as what he wanted all along.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DragonRider" title="/pmwiki/pmwiki.php/Main/DragonRider">Dragon Rider</a>: The Hoenn player character dons a Team Magma suit and rides Rayquaza into space to fight Deoxys.<ul><li> Hibert comes in at the end of Episode 15 riding atop Zekrom.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyBirdCameo" title="/pmwiki/pmwiki.php/Main/EarlyBirdCameo">Early-Bird Cameo</a>: Zygarde's 100% form makes its first official appearance (excluding the Magearna movie and the Team Flare arc in the Anime) in the final seconds of Episode 1, beating out <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonSunAndMoon" title="/pmwiki/pmwiki.php/VideoGame/PokemonSunAndMoon">its game debut</a> by just a couple of months.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarnYourHappyEnding" title="/pmwiki/pmwiki.php/Main/EarnYourHappyEnding">Earn Your Happy Ending</a>:<ul><li> A sort of meta example. After <em>five years</em>, we finally have an official version of the Generation Five storyline where <span class="spoiler" title="you can set spoilers visible by default on your profile">N and the player character (Hilbert in this case) are reunited</span>.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">AZ finally reunites with his Floette after 3000 years of separation</span> after finally redeeming himself with a Pok&eacute;mon battle against Calem.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a>:<ul><li> Giratina makes its entrance as concentrated darkness, causes two legendaries to flee for their survival and drags Cyrus into its bizarre dimension.</li><li> Dialga and Palkia are said to be able to recreate the world from scratch by combining their powers.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFaceless" title="/pmwiki/pmwiki.php/Main/TheFaceless">The Faceless</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Characters</a> from the games never have their faces clearly visible; they're always obscured by something or out of focus.<ul><li> Calem's face is obscured by blinding sun rays at his champion coronation ceremony, though his Chestnaught and Charizard, Diantha, and Professor Sycamore are clearly seen. Subsequent shots show him too far in the background for any detail, being shown up close from behind, and then later obscured by sun rays again.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyGunControl" title="/pmwiki/pmwiki.php/Main/FantasyGunControl">Fantasy Gun Control</a>: As implied in <em>Black and White</em>, shown in full effect here. The SWAT team infiltrating the Viridian Gym is only shown to carry batons and riot shields. Presumably, this is because their Pok&eacute;mon could go above and beyond the roles that firearms perform, with an Arcanine's Flamethrower shown to outright reduce a wall to slag. Giovanni is also referred to as being a great Pok&eacute;mon Trainer in the same tone of voice as if he was heavily armed. During Team Rocket's takeover of the Goldenrod Radio Tower, one of the grunts has his Arbok visibly threaten one of the tower's staff into broadcasting as if he was holding him at gunpoint.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyTwist" title="/pmwiki/pmwiki.php/Main/FantasyTwist">Fantasy Twist</a>: Courtney has a vision of the outcome of Team Magma's mission, whereby Primal Groudon Solar Beams them to kingdom come. However, it's left ambiguous as to whether it was a derailed fantasy, or her actually having a vision.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreezeFrameEnding" title="/pmwiki/pmwiki.php/Main/FreezeFrameEnding">Freeze-Frame Ending</a>: Episode 8 ends with Archie and Shelly screaming in front of Kyogre's gaping maw, freezing just as Kyogre opens its mouth.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreezeRay" title="/pmwiki/pmwiki.php/Main/FreezeRay">Freeze Ray</a>: Colress uses Kyurem to power up a freeze ray and uses it on Opelucid City.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenerationXerox" title="/pmwiki/pmwiki.php/Main/GenerationXerox">Generation Xerox</a>: Agatha mocks Blue by saying she expected him to be filling the Pok&eacute;dex, just like his grandpa, which infuriates him.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoneHorriblyRight" title="/pmwiki/pmwiki.php/Main/GoneHorriblyRight">Gone Horribly Right</a>: Archie awakens Kyogre to reset the world back to the way it was (meaning before the birth of human civilization); but Kyogre is intent on flooding the world, wiping out all people and Pok&eacute;mon, on land and in sea alike.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Gonk" title="/pmwiki/pmwiki.php/Main/Gonk">Gonk</a>: Compared to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MsFanservice" title="/pmwiki/pmwiki.php/Main/MsFanservice">Loralei</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hunk" title="/pmwiki/pmwiki.php/Main/Hunk">Bruno</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bishonen" title="/pmwiki/pmwiki.php/Main/Bishonen">Lance</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolOldLady" title="/pmwiki/pmwiki.php/Main/CoolOldLady">Agatha's</a> an old and somewhat mannish looking woman who's usually seen wearing a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlasherSmile" title="/pmwiki/pmwiki.php/Main/SlasherSmile">Slasher Smile</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalloweenEpisode" title="/pmwiki/pmwiki.php/Main/HalloweenEpisode">Halloween Episode</a>: "The Old Chateau" is the first of the Sinnoh episodes and was released three days before the Halloween of 2016. <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/NightmareFuel" title="/pmwiki/pmwiki.php/Main/NightmareFuel">It's also one of the most terrifying things to come out of Pok&eacute;mon animation</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelRealization" title="/pmwiki/pmwiki.php/Main/HeelRealization">Heel Realization</a>: Shelly has undergone one by the start of Episode 8, and we're shown her horrified reaction to her discovery of Primal Kyogre's power at the Weather Institute. Archie also has one, but it's far too late as the rampaging Primal Kyogre lunges forward to attack him.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HelmetsAreHardlyHeroic" title="/pmwiki/pmwiki.php/Main/HelmetsAreHardlyHeroic">Helmets Are Hardly Heroic</a>: Looker not only doesn't wear a helmet during the assault on Viridian Gym, he doesn't wear any kind of armor; and he runs in <em>first</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroOfAnotherStory" title="/pmwiki/pmwiki.php/Main/HeroOfAnotherStory">Hero of Another Story</a>: It's revealed that Looker was in Kanto during the events of the <em>Red and Blue</em>, and was in charge of the police's hunt for Giovanni and Team Rocket.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotterAndSexier" title="/pmwiki/pmwiki.php/Main/HotterAndSexier">Hotter and Sexier</a>:<ul><li> While Lorelei and Shelly's designs are already fanservicey, their limelight feature them with designs, including Lorelei's Sideboobs and Shelly's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaleGaze" title="/pmwiki/pmwiki.php/Main/MaleGaze">Male Gaze</a>. In addition, the female Aqua grunt's design adds a more detailed midriff and Courtney's dialogue with Brendan at the end of Episode 7 is rather suggestive. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedTrope" title="/pmwiki/pmwiki.php/Main/JustifiedTrope">Justified</a> since the shorts appeal more to the older fans, and many of them are already adults.</li><li> Cheryl is a mild example. She has a permanent blush, exhales when she talks and there are several closeups of her glossy lips while she eats. While she's not flashing any skin or seductively posing, there's definitely a fanservice vibe.</li><li> Emma is notably 16 and because of that her "assets" and body type are very developed especially in comparison to the games.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowYoureInThereSomewhereFight" title="/pmwiki/pmwiki.php/Main/IKnowYoureInThereSomewhereFight">"I Know You're in There Somewhere" Fight</a>: When Kyurem absorbs N's Reshiram to become White Kyurem, N tries to urge Reshiram to resist Ghetsis's control. <span class="spoiler" title="you can set spoilers visible by default on your profile">It works for a moment, but it ultimately fails to disobey Ghetsis. Fortunately, N is saved by Hilbert's Zekrom.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IdiosyncraticEpisodeNaming" title="/pmwiki/pmwiki.php/Main/IdiosyncraticEpisodeNaming">Idiosyncratic Episode Naming</a>: All episodes are named "The ____", following on from <em>Pok&eacute;mon Origin's</em> Japanese name "The Origin."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IgnoredExpert" title="/pmwiki/pmwiki.php/Main/IgnoredExpert">Ignored Expert</a>: Shelly tries in vain to warn Archie that she learnt from the Weather Institute how releasing Kyogre will end up destroying the world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntrepidReporter" title="/pmwiki/pmwiki.php/Main/IntrepidReporter">Intrepid Reporter</a>: Gabby drags her cameraman Ty into hacking video footage of the meteor destruction from the Mossdeep Space Center.<div class="indent"><strong>Gabby:</strong> You gotta be a little crazy if you want to go for the big scoop.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JumpScare" title="/pmwiki/pmwiki.php/Main/JumpScare">Jump Scare</a>: The ghost girl from the Old Chateau does this to Cheryl and her Chansey in Episode 10.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustInTime" title="/pmwiki/pmwiki.php/Main/JustInTime">Just in Time</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Hilbert shows up riding on the back of Zekrom</span> and saves N from White Kyurem's Fusion Flare right at the end of "The King Returns."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheDog" title="/pmwiki/pmwiki.php/Main/KickTheDog">Kick the Dog</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FamilyUnfriendlyViolence" title="/pmwiki/pmwiki.php/Main/FamilyUnfriendlyViolence">Espurr gets kicked</a> by Essentia in Episode 17.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">Large Ham</a>:<ul><li> Agatha of the Elite Four; she's depicted as fairly loud and brash, even managing to <em>summon her Pok&eacute;mon</em> theatrically!</li><li> Bruno even moreso, letting out a loud battle cry before facing off against Blue, for absolutely no reason beyond being dramatic.</li><li> Lance hams it up pretty epicly for his battle against Green.</li><li> Tabitha of Team Magma, especially noticeably compared to Maxie who is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStoic" title="/pmwiki/pmwiki.php/Main/TheStoic">The Stoic</a>.</li><li> Archie hams it up all throughout Episode 8. Every sentence is punctuated by waving his arms around.</li><li> The sages from Team Plasma in Episode 13, big time. Not only they tell a bunch of philosophical metaphors solemnly, but they shout that they're the chosen ones to change the world and that no one's going to rebel against their master, Ghetsis. All while they rise to the skies on top of their castle and lightnings strike.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LimelightSeries" title="/pmwiki/pmwiki.php/Main/LimelightSeries">Limelight Series</a>: This is the premise of many shorts in the series, being "untold stories" of what secondary characters from the games did offscreen.<ul><li> Episode 1 features Pikachu's adventure with Red throughout six different regions.</li><li> Episode 2 features Looker as he hunts down Giovanni during the events of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonRedAndBlue" title="/pmwiki/pmwiki.php/VideoGame/PokemonRedAndBlue">Pok&eacute;mon Red and Blue</a></em>.</li><li> Episode 3 features Blue taking on (and defeating) the Elite Four of Kanto.</li><li> Episode 4 features the raid on Rocket's Mahogany Town hideout from Lance's perspective.</li><li> Episode 5 features Silver/Gen 2 Rival and Looker.</li><li> Episode 6 features Eusine's reflections of Suicune and the Legendary Beasts.</li><li> Episodes 7 &amp; 8 feature Hoenn's villainous teams, Magma and Aqua respectively.</li><li> Episode 9 features the Hoenn news reporters, Gabby and Ty, as they investigate the events of the Delta Episode.</li><li> Episode 10 features Cheryl and her Chansey in the Old Chateau.</li><li> Episode 11 features Team Galactic at the Spear Pillar.</li><li> Episode 12 features Buck and Charon, and brings back Looker again.</li><li> Episode 13 features the Unovan gym leaders as they defend Unova from Team Plasma.</li><li> Episode 14 focuses on Team Plasma as they freeze Opelucid City during the events of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonBlack2AndWhite2" title="/pmwiki/pmwiki.php/VideoGame/PokemonBlack2AndWhite2">Black 2 and White 2</a></em>.</li><li> Episode 15 features N confronting Ghetsis and N's Reshiram fusing with Kyurem.</li><li> Episode 16 features Lysandre and gives us a closer look at his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">Villain with Good Publicity</a> side.</li><li> Episode 17 features Looker once more as he thinks back on his assistants Emma and Mimi while chasing down Essentia.</li><li> Episode 18 features AZ challenging the player character in order to redeem himself of his past mistakes, while a small child recalls the story her mother told her of AZ's past.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingShadow" title="/pmwiki/pmwiki.php/Main/LivingShadow">Living Shadow</a>:<ul><li> Agatha's Gengar takes on this appearance briefly when it first appears, pooling out of Agatha's Pok&eacute;ball as a sinister mass of darkness, taking on a shadowy form and then solidifying into its true appearance. Fitting, seeing as it's "the Shadow Pok&eacute;mon".</li><li> Giratina appears in the real world as a mostly shadowy ooze, then in its normal form once it's back in the Distortion World.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LowerDeckEpisode" title="/pmwiki/pmwiki.php/Main/LowerDeckEpisode">Lower-Deck Episode</a>: Gabby and Ty, two unimportant NPCs in the Hoenn games, are the protagonists of Episode 9.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MinorMajorCharacter" title="/pmwiki/pmwiki.php/Main/MinorMajorCharacter">Minor Major Character</a>:<ul><li> Red. Despite his central role in events and character motivations his face is always obscured, he never speaks, his name is never said aloud and his onscreen appearances mostly have him in the background. Also, while he's responsible for the downfall of Team Rocket, there's no evidence that Looker or the police even know who he is.</li><li> Ethan in Episode 4, where he appears barely twice, and is only mentioned off-hand as Lance's distraction.</li><li> Zig-zagged with Brendan in Episode 7. He's not front and center, with the episode being told from Team Magma's perspective, but he's directly addressed as a threat.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MookHorrorShow" title="/pmwiki/pmwiki.php/Main/MookHorrorShow">Mook Horror Show</a>: Episode 7 is told from Team Magma's perspective as Brendan attacks their base. His Sceptile is shown making quick work of any grunt Pok&eacute;mon and security doors in his way with the grunts being helpless to stop him.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MrExposition" title="/pmwiki/pmwiki.php/Main/MrExposition">Mr. Exposition</a>: Eusine spends the entire Episode 6 narrating the legend of Johto's Legendary Beasts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MsFanservice" title="/pmwiki/pmwiki.php/Main/MsFanservice">Ms. Fanservice</a>: The Elite 4's Lorelei, Team Aqua's Shelly and Unova's Gym Leaders Elesa and Skyla.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MundaneUtility" title="/pmwiki/pmwiki.php/Main/MundaneUtility">Mundane Utility</a>:<ul><li> The SWAT team uses Machamp as a breacher and a Magnemite to short-circuit the electronic lock on the Viridian Gym.</li><li> In "The Scoop", a number of Pok&eacute;mon such as Ninjask, Dusclops, Castform, and Loudred help move and set up equipment at the Mauville TV news station.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyGodWhatHaveIDone" title="/pmwiki/pmwiki.php/Main/MyGodWhatHaveIDone">My God, What Have I Done?</a>: Just like in the Hoenn games, Archie immediately attempts to stop Kyogre's rampage upon being informed by Matt of how it's threatening to sink the entire world and everything in it beneath the ocean surface.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MythologyGag" title="/pmwiki/pmwiki.php/Main/MythologyGag">Mythology Gag</a>:<ul><li> The way Sceptile uses Leaf Storm to take down a Golbat in Episode 7 is extremely similar to how the move is depicted in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokkenTournament" title="/pmwiki/pmwiki.php/VideoGame/PokkenTournament">Pokk&eacute;n Tournament</a></em>.</li><li> Many of the noises made by the Pok&eacute;mon in this series reference their cries from the original games.</li><li> The Haunter that attacks Cheryl and Chansey bears more than a passing resemblance to the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Manga/TheElectricTaleOfPikachu" title="/pmwiki/pmwiki.php/Manga/TheElectricTaleOfPikachu">Electric Tale</a></em>'s Black Fog.</li><li> Iris is saved by Clay's Excadrill, bringing the main anime to mind where she had an Excadrill as one of her stronger Pok&eacute;mon and it was even her starter.</li><li> Red's starter is Bulbasaur, like in <a class="urllink" href="http://www.sailorteam.com/fakecard/starters/rgb.jpg">a piece of early art<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> for the original games.</li><li> Red's Pikachu uses many of the same moves that <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Pokemon" title="/pmwiki/pmwiki.php/Anime/Pokemon">Ash's Pikachu</a> is known for using, such as Electro Ball, Iron Tail, Thunderbolt, and Volt Tackle.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed" title="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed">No Celebrities Were Harmed</a>: Lysandre's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">Villain with Good Publicity</a> act, especially the hype and runaway success of the Holocaster bring to mind the late Steve Jobs and the iPod and iPhone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoNameGiven" title="/pmwiki/pmwiki.php/Main/NoNameGiven">No Name Given</a>: If a character is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HelloInsertNameHere" title="/pmwiki/pmwiki.php/Main/HelloInsertNameHere">given a name by the player</a> in game, they won't have their name mentioned in Generations.<ul><li> Gen 1's Rival is referred to as Oak's Grandson and Gen 2's Rival as Giovanni's son.</li><li> The player characters are only ever referred to as "that kid", "that trainer" or "the intruder".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoSell" title="/pmwiki/pmwiki.php/Main/NoSell">No-Sell</a>:<ul><li> In Episode 1, the Wooper are completely unfazed by Pikachu's electric attack due to their ground typing.</li><li> In Episode 4, Lance's Dragonite is attacked by a Grimer, Raticate, Magnemite, Houndoom, and Golbat. They don't even make it flinch.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlympusMons" title="/pmwiki/pmwiki.php/Main/OlympusMons">Olympus Mons</a>: This series features 23 different Legendary Pok&eacute;mon within a span of 18 episodes.<ul><li> In Episode 1, seven Legendary Pok&eacute;mon pass through Red's adventure with Pikachu. Zapdos in Kanto, Lugia in Johto, Latias and Latios in Hoenn, Regigigas in Sinnoh, Landorus in Unova, and Complete Forme Zygarde in Kalos. Pikachu even gets to fight Regigigas and Landorus.</li><li> In Episode 6, Eusine narrates the tale of Ho-Oh giving life to Suicune, Entei and Raikou.</li><li> In Episode 7, Courtney has a vision of Primal Groudon destroying everything.</li><li> In Episode 8, Archie forces Kyogre to turn into Primal Kyogre to flood all lands.</li><li> In Episode 9, Mega Rayquaza battles Deoxys in all of its Formes.</li><li> In Episode 11, Cyrus enslaves Dialga and Palkia, but his plan is foiled by Giratina, also shown in both of its Formes.</li><li> In Episode 12, Buck and Looker fight the awakened Heatran.</li><li> In Episode 14, Colress uses Kyurem's power to freeze Opelucid City.</li><li> In Episode 15, Gethsis fuses Kyurem with Reshiram to create White Reshiram, who is then confronted by Zekrom.</li><li> In Episode 16, Team Flare has the cocoon containing Yveltal in their possession.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParentalNeglect" title="/pmwiki/pmwiki.php/Main/ParentalNeglect">Parental Neglect</a>: Giovanni is implied to be a perpetrator of this in <em>The Legacy</em>, leaving Viridian City while Silver was still young in order to go and rebuild Team Rocket after being beaten by Blue and Red. Silver didn't take it well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PokemonSpeak" title="/pmwiki/pmwiki.php/Main/PokemonSpeak">Pok&eacute;mon Speak</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AvertedTrope" title="/pmwiki/pmwiki.php/Main/AvertedTrope">Averted</a>. Pok&eacute;mon make animalistic/electronic noises instead of speaking their names. Played with for Pikachu; while it also makes more animalistic sounds, "chu" is an onomatopoeia for a mouse squeak. Several of them make noises similar to the cries they make in the games, most noticeably Ho-Oh. Chansey, not being based on a real animal, makes cutesy squeaks instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoliceAreUseless" title="/pmwiki/pmwiki.php/Main/PoliceAreUseless">Police Are Useless</a>: For once in the franchise, <em>averted</em>. The second short shows that while Red may have been the one who ultimately took down Team Rocket, the Kanto police force was also hot on their trail (if only cleaning up after him, but still), and that they very much had the means to be; while Looker leads the operation, Interpol agents are <em>by no means</em> the only competent members of the police like most fans of the franchise have come to expect at this point, complete with a SWAT team. <br><br>It is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Invoked" title="/pmwiki/pmwiki.php/Main/Invoked">invoked</a> by Buck in Episode 12, however, when Looker defers to his judgment in dealing with Heatran.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerWalk" title="/pmwiki/pmwiki.php/Main/PowerWalk">Power Walk</a>: The four Rocket grunts in Episode 4 <em>attempt</em> this. Unfortunately for them, they don't have the muscle to back it up against Lance's Dragonite.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityEnsues" title="/pmwiki/pmwiki.php/Main/RealityEnsues">Reality Ensues</a>: Agatha's comments about it being a long time since the Elite Four had a challenger makes sense when you realize that while anyone can become a Pok&eacute;mon trainer, very few are able to take on the Pok&eacute;mon League. Taking on the League requires traveling the entire country and training a Pok&eacute;mon team strong enough to get all eight badges and get through Victory Road, something only a handful of people would have the time and ability to do.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheReasonYouSuckSpeech" title="/pmwiki/pmwiki.php/Main/TheReasonYouSuckSpeech">"The Reason You Suck" Speech</a>: Silver gives one to Giovanni after the latter is preparing to go into hiding following his losses to Red and Blue.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecurringElement" title="/pmwiki/pmwiki.php/Main/RecurringElement">Recurring Element</a>: <em>Generations</em> as a whole fits into the "Animated Adaption targeted at older fans, that came out during a main-series game's pre-release season" niche, for each main-series game since Black 2 and White 2; <em>Generations</em> itself is this for <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonSunAndMoon" title="/pmwiki/pmwiki.php/VideoGame/PokemonSunAndMoon">Pok&eacute;mon Sun and Moon</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedemptionRejection" title="/pmwiki/pmwiki.php/Main/RedemptionRejection">Redemption Rejection</a>: In Episode 15, as with <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonBlack2AndWhite2" title="/pmwiki/pmwiki.php/VideoGame/PokemonBlack2AndWhite2">Black 2 and White 2</a></em>, N attempts to convince Ghetsis that Pok&eacute;mon were the partners of humans instead of tools, and that Pok&eacute;mon and humans have taken each other to greater heights. Ghetsis, of course, responds to that by shouting at him hysterically, claiming that no real person could talk to Pok&eacute;mon, before attempting to off him with Kyurem's Fusion Flare <span class="spoiler" title="you can set spoilers visible by default on your profile">(which Hilbert and Zekrom arrive just in time to stop via <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigDamnHeroes" title="/pmwiki/pmwiki.php/Main/BigDamnHeroes">Big Damn Heroes</a> moment)</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheRemnant" title="/pmwiki/pmwiki.php/Main/TheRemnant">The Remnant</a>: A few of the stories concern the remaining members of a villainous group trying to regain their former power.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retraux" title="/pmwiki/pmwiki.php/Main/Retraux">Retraux</a>: Episode 1 starts off using gameplay footage from the original <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonRedAndBlue" title="/pmwiki/pmwiki.php/VideoGame/PokemonRedAndBlue">Pok&eacute;mon Red</a></em>, which is monochrome with low resolution sprites.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfThree" title="/pmwiki/pmwiki.php/Main/RuleOfThree">Rule of Three</a>: Each of the six generations gets three episodes a piece, for a total of 18 episodes in all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScreamDiscretionShot" title="/pmwiki/pmwiki.php/Main/ScreamDiscretionShot">Scream Discretion Shot</a>: Episode 10 ends with Cheryl and her Chansey screaming at the sight of the ghost girl.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScreenShake" title="/pmwiki/pmwiki.php/Main/ScreenShake">Screen Shake</a>: Happens in Episode 9 when Gabby runs towards the camera to pick up a flash drive on the ground. Everything shakes as if the ground was.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> Deoxys vs Mega Rayquaza looks like something that would come right out of <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/DragonBallZ" title="/pmwiki/pmwiki.php/Anime/DragonBallZ">Dragon Ball Z</a>.</li><li> Heatran in episode 12 has the roar of a <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/JurassicPark" title="/pmwiki/pmwiki.php/Film/JurassicPark">Jurassic Park</a></em> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TyrannosaurusRex" title="/pmwiki/pmwiki.php/Main/TyrannosaurusRex">Tyrannosaurus rex</a></em>.</li><li> The ending scene of Episode 13 is similar to that of the scene where Team Iron Man and Team Captain America run towards each other in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/CaptainAmericaCivilWar" title="/pmwiki/pmwiki.php/Film/CaptainAmericaCivilWar">Captain America: Civil War</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShownTheirWork" title="/pmwiki/pmwiki.php/Main/ShownTheirWork">Shown Their Work</a>: The Charizard present at the ceremony in Lumiose City is no bigger than Professor Sycamore; an adult. Unlike in the anime, Charizard aren't exactly taller than an average adult, as stated in its dex entry. It is roughly the size of a teenager.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmugSnake" title="/pmwiki/pmwiki.php/Main/SmugSnake">Smug Snake</a>: The entire Team Rocket garrison of episode 4, who believe they can take down <em>the most powerful of the Elite Four</em> and have the nerve to walk up to him swaggering confidently. Lance <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurbStompBattle" title="/pmwiki/pmwiki.php/Main/CurbStompBattle">quickly dissuades them of that notion.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritualSuccessor" title="/pmwiki/pmwiki.php/Main/SpiritualSuccessor">Spiritual Successor</a>: To <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PokemonOrigins" title="/pmwiki/pmwiki.php/Anime/PokemonOrigins">Pok&eacute;mon Origins</a></em>, as a more serious and faithful <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimatedAdaptation" title="/pmwiki/pmwiki.php/Main/AnimatedAdaptation">Animated Adaptation</a> of the main games aimed towards the series' <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/PeripheryDemographic" title="/pmwiki/pmwiki.php/Main/PeripheryDemographic">Periphery Demographic</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SteppingStonesInTheSky" title="/pmwiki/pmwiki.php/Main/SteppingStonesInTheSky">Stepping Stones in the Sky</a>: Buck has his Claydol levitate rocks so he can jump on them to get to the Magma Stone, since Heatran is blocking the only path to it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StockSoundEffect" title="/pmwiki/pmwiki.php/Main/StockSoundEffect">Stock Sound Effect</a>: Blue's Pidgeot does a red-tailed hawk screech when it attacks Bruno's Machamp. Various other Pok&eacute;mon are heard to have these as well. Lapras sounds like a dinosaur, and Wingull are actual seagulls.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoryArc" title="/pmwiki/pmwiki.php/Main/StoryArc">Story Arc</a>: Unlike the episodes for previous generations, which were just disjointed moments from the games with little-to-no continuity between each other, the Unova episodes roughly form this. The first episode focuses on the gym leaders attacking N's Castle, led by Drayden. The second episode focuses on Neo Team Plasma getting their revenge by freezing Opelucid City with Kyurem, and Zinzolin forcing Drayden to hand him the DNA splicers. The final episode focuses on N confronting Ghetsis, who fuses N's Reshiram with the Kyurem using the DNA splicers, <span class="spoiler" title="you can set spoilers visible by default on your profile">before N gets saved by Hilbert</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Stripperiffic" title="/pmwiki/pmwiki.php/Main/Stripperiffic">Stripperiffic</a>: Elesa's outfit is nothing more than a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DangerouslyShortSkirt" title="/pmwiki/pmwiki.php/Main/DangerouslyShortSkirt">short skirt</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsoluteCleavage" title="/pmwiki/pmwiki.php/Main/AbsoluteCleavage">a top with exposed cleavage</a> and it being basically a bikini.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStoic" title="/pmwiki/pmwiki.php/Main/TheStoic">The Stoic</a>: Special mention goes to Cyrus. No matter if he accomplished his goal, got said goal stopped by a third beast, got stared down by an epitome of nightmares and just stood there <em>taking a lunging move that takes him to the Distortion World</em>, he hardly has any change in expressions and takes everything with a speck of salt.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuplexFinisher" title="/pmwiki/pmwiki.php/Main/SuplexFinisher">Suplex Finisher</a>: Brendan's Sceptile does this to a Magma Grunt's Golbat in episode 7.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TearsOfFear" title="/pmwiki/pmwiki.php/Main/TearsOfFear">Tears of Fear</a>: Cheryl and her Chansey when they're confronted by the ghost girl at the end of Episode 10.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TearsOfJoy" title="/pmwiki/pmwiki.php/Main/TearsOfJoy">Tears of Joy</a>: AZ once he finally reunites with his beloved Floette at the end of Episode 18.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TookALevelInBadass" title="/pmwiki/pmwiki.php/Main/TookALevelInBadass">Took a Level in Badass</a>: The Pikachu in Episode 1 went from struggling with a Caterpie to one hit Ko'ing a Volcarona and fending off a Noivern while the mine cart he's on is in motion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TruerToTheText" title="/pmwiki/pmwiki.php/Main/TruerToTheText">Truer to the Text</a>: Much like <em>Origins</em>, it adapts the games much closer than the on-going anime.<ul><li> Team Rocket disbands after Giovanni's defeat, instead of persisting.</li><li> The Pok&eacute;mon League challenge is a gauntlet of four powerful trainers instead of a tournament.</li><li> Silver exists as Giovanni's son.</li><li> In a meta example, Deoxys is caught with the more game-appropriate Ultra Ball instead of a normal Pok&eacute; Ball.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UngratefulTownsfolk" title="/pmwiki/pmwiki.php/Main/UngratefulTownsfolk">Ungrateful Townsfolk</a>: Episode 6 shows that while the people of Ecruteak City mourned the deaths of the Pok&eacute;mon that would become Suicune, Entei and Raikou, Ho-Oh appeared and breathed new life into the Legendary Beasts. Rather than rejoice, many of the villagers reacted to this violation of nature by turning into an angry mob. The trio, less than impressed with the villagers, decided to leave without a fight, never to return until they learned to trust people again.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUnreveal" title="/pmwiki/pmwiki.php/Main/TheUnreveal">The Unreveal</a>: The Legendary Beasts' previous incarnations are depicted as just canine silhouettes that don't resemble any particular Pok&eacute;mon. Also serves to <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jossed" title="/pmwiki/pmwiki.php/Main/Jossed">Joss</a> the popular fan theory that the Legendary Beasts are reincarnated Eeveelutions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwittingPawn" title="/pmwiki/pmwiki.php/Main/UnwittingPawn">Unwitting Pawn</a>: At the end of episode 17, Essentia is revealed as Emma, but she's absolutely confused as to what's going on, meaning she's been in a trance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainEpisode" title="/pmwiki/pmwiki.php/Main/VillainEpisode">Villain Episode</a>: Episode 16 focuses on Lysandre, specifically his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">Villain with Good Publicity</a> side.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainousBreakdown" title="/pmwiki/pmwiki.php/Main/VillainousBreakdown">Villainous Breakdown</a>: Episode 15 clearly shows us what Ghetsis has been going through; in the beginning, you can clearly see him panting and sweating, and when N has his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowYoureInThereSomewhereFight" title="/pmwiki/pmwiki.php/Main/IKnowYoureInThereSomewhereFight">"I Know You're in There Somewhere" Fight</a> with White Kyurem, his father snaps even further.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">Villain with Good Publicity</a>: "The Beauty Eternal" shows how incredibly honest and charitable Lysandre is to the public, while of course hiding his true agenda from officials.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVoiceless" title="/pmwiki/pmwiki.php/Main/TheVoiceless">The Voiceless</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Characters</a> are never heard speaking.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamShot" title="/pmwiki/pmwiki.php/Main/WhamShot">Wham Shot</a>: In "The King Returns", N gets rescued by Zekrom and...<span class="spoiler" title="you can set spoilers visible by default on your profile"><em>Hilbert!?</em></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatIf" title="/pmwiki/pmwiki.php/Main/WhatIf">What If?</a>: "The Cavern" is an alternative vision of what happens if the Hoenn <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a> doesn't show up to stop Team Aqua. <span class="spoiler" title="you can set spoilers visible by default on your profile">Kyogre causes mass destruction and possibly kills Archie and Shelly.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWorfEffect" title="/pmwiki/pmwiki.php/Main/TheWorfEffect">The Worf Effect</a>: The Elite Four are ultimately taken out pretty quickly by Blue. Justified somewhat though, since it's a barely 5 minute short, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NecessaryWeasel" title="/pmwiki/pmwiki.php/Main/NecessaryWeasel">meaning that there's a limited amount of screentime</a> to show off each fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWorldIsNotReady" title="/pmwiki/pmwiki.php/Main/TheWorldIsNotReady">The World Is Not Ready</a>: The scientist at the end of episode nine tries to suppress the information of the protagonist's fight with, and capture of, Deoxys, noting the world isn't ready to learn of extraterrestrial Pok&eacute;mon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfHam" title="/pmwiki/pmwiki.php/Main/WorldOfHam">World of Ham</a>: Certain episodes really show how nearly <em>everyone</em> is a large ham. The Elite Four, Team Aqua, the Seven Sages, the Unovan Gym Leaders, the list goes on.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorthyOpponent" title="/pmwiki/pmwiki.php/Main/WorthyOpponent">Worthy Opponent</a>:<ul><li> Agatha seems to see Blue as such - whereas the other members of the Elite Four respond to him defeating them with either annoyance (Lorelei) or disbelief (Bruno)- Agatha seems legitimately impressed with his level of skill, and even gives him something resembling a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGotSpunk" title="/pmwiki/pmwiki.php/Main/YouGotSpunk">You Got Spunk</a> compliment. It probably helps that she knew his grandpa personally.</li><li> Naturally, Blue sees Red as such, evidently being equally impressed that his rival made it this far as well.</li><li> Courtney seems pretty interested in facing off against Brendan. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuteButPsycho" title="/pmwiki/pmwiki.php/Main/CuteButPsycho">Perhaps a little too interested.</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrestlerInAllOfUs" title="/pmwiki/pmwiki.php/Main/WrestlerInAllOfUs">Wrestler in All of Us</a>: Brendan's Sceptile <em>suplexes</em> a <em>Golbat</em> &mdash; a resistant type it should not even try to fight &mdash; in <strong>midair</strong> and takes it down. Literally. In both senses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WouldHurtAChild" title="/pmwiki/pmwiki.php/Main/WouldHurtAChild">Would Hurt a Child</a>: Team Plasma try to attack Iris directly with three Liepards.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yandere" title="/pmwiki/pmwiki.php/Main/Yandere">Yandere</a>: Like in the games, Courtney comes across as this in her interactions with Brendan. <a class="urllink" href="http://68.media.tumblr.com/6bb61dcb53f3c563b8c4a7b7b3f572fa/tumblr_of212bmOfu1r3o4wlo1_1280.png">This face in particular.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YankTheDogsChain" title="/pmwiki/pmwiki.php/Main/YankTheDogsChain">Yank the Dog's Chain</a>: Much like in the games, Blue has only just become the Pok&eacute;mon League Champion by the time Red shows up and fights his way through the Indigo Plateau to beat him. Not that Blue seems to care, he actually seems kinda <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/VictoryIsBoring" title="/pmwiki/pmwiki.php/Main/VictoryIsBoring">bored</a></em> just sitting on his throne and hoping that Red would come soon, and is <em>thrilled</em> when he does.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouDontLookLikeYou" title="/pmwiki/pmwiki.php/Main/YouDontLookLikeYou">You Don't Look Like You</a>: Pikachu's design is rather different than how it usually looks, having smaller ears and a more mouse-like body similar to Pichu. This is because its design is a modern interpretation of its sprite from <em>Red and Blue</em>, as well as resembling how it is usually drawn in Sugimori art.</li></ul><p></p><hr>
+</div>
+<div class="alt-titles section section-fact">
+<h3>
+<strong>Alternative Title(s):</strong>
+<span>Pokemon Generations</span> </h3>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/PokemonOrigins">Pokémon Origins</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/Pokemon">Franchise/Pokémon</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebAnimation/PokemonTwilightWings">Pokémon: Twilight Wings</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

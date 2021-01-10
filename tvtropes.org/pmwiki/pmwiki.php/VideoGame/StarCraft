@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>StarCraft (Video Game) - TV Tropes</title>
+<meta name="description" content="A Real-Time Strategy video-game series by Blizzard Entertainment. It's composed of the games...  StarCraft I (Windows, 1998; Mac OS, 1999; Nintendo 64, 2000 &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/Starcraft" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="StarCraft (Video Game) - TV Tropes" />
+ <meta name="twitter:description" content="A Real-Time Strategy video-game series by Blizzard Entertainment. It's composed of the games...  StarCraft I (Windows, 1998; Mac OS, 1999; Nintendo 64, 2000 &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="StarCraft (Video Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/Starcraft" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="A Real-Time Strategy video-game series by Blizzard Entertainment. It's composed of the games...  StarCraft I (Windows, 1998; Mac OS, 1999; Nintendo 64, 2000). Also includes the Expansion Pack, StarCraft: Brood War (1998) StarCraft II comes in &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/VehicularAssault" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Series/FlandersCompany" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VideoGame/Starcraft?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VideoGame/Starcraft">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VideoGame.Starcraft">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Starcraft&g=VideoGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VideoGame.Starcraft">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VideoGame/Starcraft?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VideoGame" />
+<input type="hidden" id="title-hidden" value="Starcraft" />
+<input type="hidden" id="article_id" value="280334" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VideoGame/StarCraft</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Video Game / </strong>
+StarCraft
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VideoGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "StarCraft"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Starcraft" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/Starcraft" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/FanficRecs/StarCraft" class="subpage-link " title="The FanficRecs page">
+<span class="wrapper"><span class="spi fanficrecs"></span>FanficRecs</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Fridge/Starcraft" class="subpage-link " title="The Fridge page">
+<span class="wrapper"><span class="spi fridge"></span>Fridge</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Starcraft" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Headscratchers/Starcraft" class="subpage-link " title="The Headscratchers page">
+<span class="wrapper"><span class="spi headscratchers"></span>Headscratchers</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/Starcraft" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/Starcraft" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/Starcraft" class="subpage-link " title="The Literature page">
+<span class="wrapper"><span class="spi literature"></span>Literature</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/NightmareFuel/Starcraft" class="subpage-link " title="The NightmareFuel page">
+<span class="wrapper"><span class="spi nightmarefuel"></span>NightmareFuel</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Pantheon/StarCraft" class="subpage-link " title="The Pantheon page">
+<span class="wrapper"><span class="spi pantheon"></span>Pantheon</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Quotes/Starcraft" class="subpage-link " title="The Quotes page">
+<span class="wrapper"><span class="spi quotes"></span>Quotes</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Recap/StarCraft" class="subpage-link " title="The Recap page">
+<span class="wrapper"><span class="spi recap"></span>Recap</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ShoutOut/Starcraft" class="subpage-link " title="The ShoutOut page">
+<span class="wrapper"><span class="spi shoutout"></span>ShoutOut</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TearJerker/StarCraft" class="subpage-link " title="The TearJerker page">
+<span class="wrapper"><span class="spi tearjerker"></span>TearJerker</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Starcraft" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Starcraft" class="subpage-link curr-subpage" title="The VideoGame page">
+<span class="wrapper"><span class="spi videogame"></span>VideoGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/StarCraft" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Starcraft" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Haiku/StarCraft" class="subpage-link " title="The Haiku page">
+<span class="wrapper">Haiku</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Monster/StarCraft" class="subpage-link " title="The Monster page">
+<span class="wrapper">Monster</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Starcraft?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Starcraft?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Starcraft?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Starcraft?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Starcraft?action=edit">ReferencedBy</option>
+ <option value="/pmwiki/pmwiki.php/Synopsis/Starcraft?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Starcraft?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="indent"><em>"This is not </em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Warcraft" title="/pmwiki/pmwiki.php/VideoGame/Warcraft">Warcraft</a><em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InSpace" title="/pmwiki/pmwiki.php/Main/InSpace">IN SPACE!</a>! I-it's much more sophisticated!"</em><div class="indent">&mdash;<strong>Artanis</strong></div></div><p>A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealTimeStrategy" title="/pmwiki/pmwiki.php/Main/RealTimeStrategy">Real-Time Strategy</a> video-game series by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/BlizzardEntertainment" title="/pmwiki/pmwiki.php/Creator/BlizzardEntertainment">Blizzard Entertainment</a>. It's composed of the games...</p><p></p><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftI" title="/pmwiki/pmwiki.php/VideoGame/StarCraftI">StarCraft I</a></em> (<a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/IBMPersonalComputer" title="/pmwiki/pmwiki.php/UsefulNotes/IBMPersonalComputer">Windows</a>, 1998; <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AppleMacintosh" title="/pmwiki/pmwiki.php/UsefulNotes/AppleMacintosh">Mac OS</a>, 1999; <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Nintendo64" title="/pmwiki/pmwiki.php/UsefulNotes/Nintendo64">Nintendo 64</a>, 2000). Also includes the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpansionPack" title="/pmwiki/pmwiki.php/Main/ExpansionPack">Expansion Pack</a>, <em>StarCraft: Brood War</em> (1998)</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftII" title="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a></em> comes in three parts:<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIIWingsOfLiberty" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIIWingsOfLiberty">StarCraft II: Wings of Liberty</a></em>: The terran campaign. (2010)</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIIHeartOfTheSwarm" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIIHeartOfTheSwarm">StarCraft II: Heart of the Swarm</a></em>: The zerg campaign. (2013)</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIILegacyOfTheVoid" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIILegacyOfTheVoid">StarCraft II: Legacy of the Void</a></em>: The protoss campaign. (2015)<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftIICoopMode" title="/pmwiki/pmwiki.php/VideoGame/StarcraftIICoopMode">Co-op Mode</a>: The online cooperative mode. (2015)</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIINovaCovertOps" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIINovaCovertOps">StarCraft II: Nova Covert Ops</a></em>: DLC campaign (2016)</li></ul></li></ul><p>...<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpandedUniverse" title="/pmwiki/pmwiki.php/Main/ExpandedUniverse">and several tie-in works including</a>:</p><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Comics" title="/pmwiki/pmwiki.php/Main/Comics">Comics</a></span></p><ul><li> <em>StarCraft</em> (2009-2010)</li><li> <em>StarCraft: Frontline</em> (2008-2009)</li><li> <em>StarCraft: Ghost Academy</em> (2010-2011)</li><li> <em>Kerrigan - Hope and Vengeance</em> (2013)</li><li> <em>Artanis: Sacrifice</em> (2015)</li><li> <em>Nova - The Keep</em> (2016)</li><li> <em>Shadow Wars</em> (2017)</li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Literature" title="/pmwiki/pmwiki.php/Main/Literature">Literature</a></span></p><ul><li> <em>Uprising</em> (2000)</li><li> <em>Liberty's Crusade</em> (2001)</li><li> <em>Shadow of the Xel'Naga</em> (2001</li><li> <em>Speed of Darkness</em> (2002)</li><li> <em>Queen of Blades</em> (2006)</li><li> <em>Ghost: Nova</em> (2006)</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/StarCraftTheDarkTemplarSaga" title="/pmwiki/pmwiki.php/Literature/StarCraftTheDarkTemplarSaga">The Dark Templar Saga</a></em><ul><li> <em>Firstborn</em> (2007)</li><li> <em>Shadow Hunters</em> (2007)</li><li> <em>Twilight</em> (2009)</li></ul></li><li> <em>I, Mengsk</em> (2008)</li><li> <em>Heaven's Devils</em> (2010)</li><li> <em>Devils' Due</em> (2011)</li><li> <em>Ghost: Spectres</em> (2011)</li><li> <em>Flashpoint</em> (2012)</li><li> <em>War Stories</em> (2014)</li><li> <em>StarCraft Field Manual</em> (2015)</li><li> <em>Evolution</em> (2016)</li></ul>and then there are the short stories published in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Magazine/AmazingStories" title="/pmwiki/pmwiki.php/Magazine/AmazingStories">Amazing Stories</a></em> and online:<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/StarcraftOnePeopleOnePurpose" title="/pmwiki/pmwiki.php/Literature/StarcraftOnePeopleOnePurpose">Starcraft One People One Purpose</a></em> (2020)</li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TabletopGames" title="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a></span></p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Alternity" title="/pmwiki/pmwiki.php/TabletopGame/Alternity">Alternity</a> Adventure Game: StarCraft Edition</em> (2000)</li><li> <em>StarCraft: The Board Game</em> (2007)</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Risk" title="/pmwiki/pmwiki.php/TabletopGame/Risk">Risk</a>: StarCraft</em> (2012)</li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGames" title="/pmwiki/pmwiki.php/Main/VideoGames">Video Games</a></span></p><ul><li> <em>StarCraft: Insurrection</em> (1998), a licensed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpansionPack" title="/pmwiki/pmwiki.php/Main/ExpansionPack">Expansion Pack</a> for the original game developed by Aztech New Media.</li><li> <em>StarCraft: Retribution</em> (1998), a licensed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpansionPack" title="/pmwiki/pmwiki.php/Main/ExpansionPack">Expansion Pack</a> for <em>Brood War</em> developed by WizardWorks Software.</li><li> <em>StarCraft: Ghost</em>, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThirdPersonShooter" title="/pmwiki/pmwiki.php/Main/ThirdPersonShooter">Third-Person Shooter</a> set <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GaidenGame" title="/pmwiki/pmwiki.php/Main/GaidenGame">a few years after Brood War</a> (but some before <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftII" title="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a></em>) and announced in 2001. After five years in development and several postponed releases, it was put <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Vaporware" title="/pmwiki/pmwiki.php/Main/Vaporware">on hold indefinitely</a> in 2006.</li></ul><p>Set in the "Koprulu Sector" of space, tens of thousands of light years distant from Earth, the story unfolds between three playable races. The Terrans, human beings descended from outcasts, criminals and political dissidents who were exiled from the Sol system centuries earlier, boast a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UsedFuture" title="/pmwiki/pmwiki.php/Main/UsedFuture">Used Future</a> society with a military based around cybernetics, heavy artillery, and "Ghosts" &mdash; covert operatives with latent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">psychic abilities</a>. While fighting each other, the Terran planets get invaded by the Zerg, an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigCreepyCrawlies" title="/pmwiki/pmwiki.php/Main/BigCreepyCrawlies">insectoid</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts" title="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts">Horde of Alien Locusts</a> with the ability to "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVirus" title="/pmwiki/pmwiki.php/Main/TheVirus">infest</a>" creatures of other species and assimilate their genetic properties for their own benefit. The majority of the Zerg are drones lacking free will, controlled by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Minds</a> called Cerebrates which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManBehindTheMan" title="/pmwiki/pmwiki.php/Main/TheManBehindTheMan">in turn</a> are controlled by an entity called <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">the Overmind</a>, which sees its sole <em>raison d'etre</em> as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouWillBeAssimilated" title="/pmwiki/pmwiki.php/Main/YouWillBeAssimilated">the assumption of all life</a> into the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts" title="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts">zerg swarm</a>. Soon after, another race enters the conflict &mdash; the Protoss, a race of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">highly fanatical</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorPoet" title="/pmwiki/pmwiki.php/Main/WarriorPoet">warrior philosophers</a> that are determined to stop the Zerg at all costs &mdash; including burning down entire Terran colonies that provide a lot of cannon fodder for the Zerg through infestation. The Protoss use advanced <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">psionic capabilities</a> are as important on the battlefield as their advanced weaponry or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MechaMooks" title="/pmwiki/pmwiki.php/Main/MechaMooks">robots</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p><em>StarCraft</em> was one of the first games to become popularly used in professional gaming competitions, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GermansLoveDavidHasselhoff" title="/pmwiki/pmwiki.php/Main/GermansLoveDavidHasselhoff">particularly in South Korea</a>, where <em>StarCraft</em> matches are played out <em>in sports arenas (occasionally jumbo jet hangars), with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriousBusiness" title="/pmwiki/pmwiki.php/Main/SeriousBusiness">giant televisions displaying the action and simulcast on nationwide networks!</a></em> And let's not even talk about the <em>two</em> cable-television channels devoted to it. Yes, two.</p><p>As of March 27th, 2017, Blizzard has <a class="urllink" href="https://blizzard.gamespress.com/Evolution-Complete-Blizzard-Entertainment-Announces-StarCraft-Remaster/">announced<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> that they're remastering the original StarCraft and Brood War in 4K UHD and with fully-rerecorded high-definition audio, set for release sometime in summer 2017. In the meantime, over the coming weeks the original game will be released as free-to-play, and see a huge modernization patch, patch 1.18, which will bring about major improvements to the game. The original game officially became free-to-play on April 18th, 2017. The game can be launched offline and single-player campaigns are fully playable without an Internet connecton, but the game has been upgraded to use the latest version of the Battle.Net Agent anti-cheat system to ensure fair multiplayer games online.</p><p></p><hr><h2>Tropes found across the series include:</h2><p></p><div class="folderlabel" onclick="toggleAllFolders();">&nbsp;&nbsp;&nbsp;&nbsp;open/close all folders&nbsp; </div><p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;Tropes A to C&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationInducedPlotHole" title="/pmwiki/pmwiki.php/Main/AdaptationInducedPlotHole">Adaptation-Induced Plot Hole</a>: In penultimate mission of Terran campaign in original game, after Zerg were lured to Confederate capital world of Tarsonis via usage of psi emitters (courtesy of Sons of Korhal), the Protoss intervene and attack them. Fearing that this will drive the Zerg away from Confederates, Mengsk sends Kerrigan with a strike force against the Protoss vanguard. Fittingly, the battle takes place on orbital platform, where Kerrigan can intercept the Protoss before they can even reach the Zerg on Tarsonis. For reasons unknown (if there ever were any), this rather crucial detail was changed in <em>StarCraft: Liberty's Crusade</em> official novelization, which made Kerrigan and her forces fight the Protoss on the planet's surface... even though it makes <em>zero</em> sense, since the very nature of her task was to prevent the Protoss from even getting there. If they're on the surface of Tarsonis already, they are free to engage the Zerg wherever they want, and a single skirmish with Kerrigan does not change anything. What makes it more jarring is that this change was made canon and even in one of cinematics in <em>StarCraft II: Wings of Liberty</em> we see Kerrigan fighting the Zerg on planet's surface... despite the fact that it would make her mission <em>utterly, completely pointless</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AliensSpeakingEnglish" title="/pmwiki/pmwiki.php/Main/AliensSpeakingEnglish">Aliens Speaking English</a>:<ul><li> The protoss are telepaths, presumably the listener hears in whatever language they know. Note, however, that they <em>do</em> have a language of sorts, that can be both written and telepathically "vocalized".</li><li> The zerg, being a hive-mind, have no need for language. Only the rare sentient Infested Terrans have been known to occasionally communicate with other species. <span class="spoiler" title="you can set spoilers visible by default on your profile">The Primal Zerg in <em>Heart of the Swarm</em> have no problem communicating with their distant cousins (despite lacking a hive mind), but are never shown communicating with Terrans, so it's not quite clear what is happening there</span>.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Justified" title="/pmwiki/pmwiki.php/Main/Justified">Justified</a> in the "Queen Of Blades" novel. Jim Raynor can hear the Zerg speaking English because he's still mentally linked to Kerrigan, and <em>Kerrigan</em> hears them speaking English because that's the easiest way for her still mostly human mind to process Zerg telepathy.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">All There in the Manual</a>: A widespread problem with the series is that a lot of background information is only given in written materials like manuals, websites, novels, and comic books, of which there are dozens. This can make it difficult to properly contextualize what is happening in the games.<ul><li> Perhaps the most pertinent instance of this is the romance between Jim Raynor and Sarah Kerrigan. Raynor and Kerrigan don't get a lot of one-on-one interactions in the Terran campaign of the first game, and what interactions they did have implied friendship at the most. The expanded universe gives more time to build up their romance, establishing they were a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BattleCouple" title="/pmwiki/pmwiki.php/Main/BattleCouple">Battle Couple</a> during their time in the Sons of Korhal and fought together on missions for several months.</li><li> Many of the factions throughout the series only have their histories explained in the expanded universe. Even in the original <em>Starcraft</em>, the game clearly expects you to have actually read the manual so you understand what the Terran Confederacy is. This particularly problematic in the Protoss campaign, where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JurisdictionFriction" title="/pmwiki/pmwiki.php/Main/JurisdictionFriction">Jurisdiction Friction</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFundamentalist" title="/pmwiki/pmwiki.php/Main/TheFundamentalist">Religious Fundamentalism</a> are significant motivators for characters, but you're not given any history on the race and its societal structure to understand why, leaving players to just infer what terms like "the Khala" and "the Dark Templar" mean.</li><li> With the sequel, many characters made their debut in the expanded universe before appearing in the games. If you want to know who Valerian Mengsk and Selendis are, better pick up <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/StarCraftTheDarkTemplarSaga" title="/pmwiki/pmwiki.php/Literature/StarCraftTheDarkTemplarSaga">StarCraft: The Dark Templar Saga</a></em> and <em>I, Mengsk</em>. The <em>Ghost</em> graphics novels will fill you in on Nova and Gabriel Tosh.<ul><li> For that matter, the story between <em>Wings of Liberty</em> and <em>Heart of the Swarm</em> is covered in the novel <em>Flashpoint</em>. Without reading that, you'll have no idea why the heroes are hiding out on Umoja experimenting on Kerrigan and will be wondering what happened to Valerian's army that he's entirely alone now. <em>Heart of the Swarm</em> has <span class="spoiler" title="you can set spoilers visible by default on your profile">Emil Narud</span> as an antagonist in a mission chain, and no one is surprised by his apparent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceHeelTurn" title="/pmwiki/pmwiki.php/Main/FaceHeelTurn">Face&#150;Heel Turn</a>, because it happened in <em>Flashpoint</em>.</li></ul></li><li> If you don't read the short story <em>Ascension</em> before playing <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIILegacyOfTheVoid" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIILegacyOfTheVoid">Legacy of the Void</a></em>, you'll be left wondering how <span class="spoiler" title="you can set spoilers visible by default on your profile">Alarak found out Amon's true intentions about the future of the Tal'darim</span>.</li><li> This was intended but averted for <em>Starcraft II</em> with <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/StarCraftTheDarkTemplarSaga" title="/pmwiki/pmwiki.php/Literature/StarCraftTheDarkTemplarSaga">StarCraft: The Dark Templar Saga</a></em>. The developers were open in saying that the novels would introduce plot elements that would be worked into the games. However, as the story of the video games kept shifting in subtle ways, this ended up not being the case &mdash; most of the things the novels touched on that are important to the games are either explained again in-game anyway, or are redefined to the point that anything you thought you knew about them from the novels can be disregarded.<span class="notelabel" onclick="togglenote('note07qb0');"><sup>note&nbsp;</sup></span><span id="note07qb0" class="inlinefolder" isnote="true" onclick="togglenote('note07qb0');" style="cursor:pointer;font-size:smaller;display:none;">The most blatant instance of this are the Tal'darim. While the Tal'darim of the novels and the Tal'darim of the games were definitely intended to be the same group at some point, with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DummiedOut" title="/pmwiki/pmwiki.php/Main/DummiedOut">Dummied Out</a> lines in <em>Wings of Liberty</em> having the Tal'darim refer to Ulrezaj as their Benefactor, in the final product they have no connection of <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> has directly stated they are not related.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationExpansion" title="/pmwiki/pmwiki.php/Main/AdaptationExpansion">It is actually inverted</a> in a few cases &mdash; for instance, in the original Zerg and Protoss campaigns, there is <em>nothing</em> that hinted at the fact Raynor, Tassadar and Zeratul had forged an alliance on Char, until it is shown when Aldaris plans to arrest Tassadar. While Tassadar does explain in the second mission that he learned how to kill a Cerebrate from meeting with Zeratul, Raynor's presence is not explained (There was a hint about this on a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DummiedOut" title="/pmwiki/pmwiki.php/Main/DummiedOut">Dummied Out</a> mission, where Tassadar helps the Sons of Korhal destroy a Zerg base on Antiga Prime to let them escape before the Protoss purify the planet). Until <em>Starcraft: Queen of Blades</em> was released, Raynor's presence looked more like an <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/AssPull" title="/pmwiki/pmwiki.php/Main/AssPull">Ass Pull</a> than anything else.</li><li> There's also the <em>Dominion Marine Corps Field Manual</em>, which is this trope twice over. It's an update of the backstory parts of the first game's manual from an out-of-universe perspective. It's also effectively the <em>in-universe</em> manual for the titular marines, serving as an intelligence briefing on the factions.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/AmericanAccents" title="/pmwiki/pmwiki.php/UsefulNotes/AmericanAccents">American Accents</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnyoneCanDie" title="/pmwiki/pmwiki.php/Main/AnyoneCanDie">Anyone Can Die</a>: Several major characters bite the dust over the series.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">Apocalypse How</a>:<ul><li> Protoss do Class 6 type to get rid of the zerg. The planet is covered with plasma and magma when they're done. Nothing gonna be living in that mess. Somehow, the Zerg still do.<ul><li> The amount of damage is somewhat inconsistent in the sources. At least one comic shows Raynor visiting the quite recognizable ruins of his old house.</li></ul></li><li> Terrans also demonstrated a capacity to do this, by launching numerous nukes from orbit and reducing the surface of the planet to a black glassy substance. This led to the outlawing the manufacturing of full-size nukes to prevent such an event occurring again, leading to the multiplayer usage of "mini-nukes" that inflict underwhelming damage at relatively cheap cost.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitraryMinimumRange" title="/pmwiki/pmwiki.php/Main/ArbitraryMinimumRange">Arbitrary Minimum Range</a>: Siege tanks from <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftI" title="/pmwiki/pmwiki.php/VideoGame/StarCraftI">StarCraft I</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftII" title="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorIsUseless" title="/pmwiki/pmwiki.php/Main/ArmorIsUseless">Armor Is Useless</a>: Downplayed. Terran marines wear <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">a high tech suit of armor</a> in combat to protect them from small arms fire and radiological hazards, but in-game they still get pretty much shredded by anything bigger than them as well as other marines. As the second weakest unit in the entire game, marines' best bet for survival is sticking together in large numbers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmyOfThievesAndWhores" title="/pmwiki/pmwiki.php/Main/ArmyOfThievesAndWhores">Army of Thieves and Whores</a>: About fifty percent of the Terran armed forces are criminals who have undergone biochemical resocialization (read: brainwashing). These criminals range from the usual suspects (murderers, thieves, rapists, etc.) to the occasional political prisoner.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedToAHigherPlaneOfExistence" title="/pmwiki/pmwiki.php/Main/AscendedToAHigherPlaneOfExistence">Ascended to a Higher Plane of Existence</a>:<ul><li> The Protoss believe that they ascend into the Khala when they die, which treated like some kind of a gestalt consciousness uniting the entire Protoss race. They believe that particularly powerful or influential individuals linger on long afterwards.</li><li> The Xel'Naga <span class="spoiler" title="you can set spoilers visible by default on your profile">are "born" from the fusion of two races, one pure of essence, and one pure of form, which are then granted the essence of the Xel'Naga that created them. Therefore, every Xel'Naga is an ascended person from a race they once created. This happens to Kerrigan at the conclusion of <em>Starcraft II</em>.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsYouKnow" title="/pmwiki/pmwiki.php/Main/AsYouKnow">As You Know</a>:<ul><li> During the Terran 7 mission briefing, Kerrigan explains the origin of Terran Ghosts to Raynor and Mengsk, even though both characters have had quite a bit of experience with them already (Raynor <span class="spoiler" title="you can set spoilers visible by default on your profile">losing a son to the Ghost program</span>, and Mengsk having Kerrigan, a Ghost herself, as his second-in-command <span class="spoiler" title="you can set spoilers visible by default on your profile">and the one who killed his father</span>).</li><li> Alexei also gives a brief history of the war between the Confederacy and Korhal in Brood War's Terran mission 4, which he himself said that the Captain may have already known from his research.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBadGuyWins" title="/pmwiki/pmwiki.php/Main/TheBadGuyWins">The Bad Guy Wins</a>: It happens quite often in the Starcraft universe, mainly because <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">they represent the vast majority of characters</a> and because "the bad guy" is usually <em>playable</em> in that race's campaign, so the bad guy wins <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero" title="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero">because the player wins</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BagOfSpilling" title="/pmwiki/pmwiki.php/Main/BagOfSpilling">Bag of Spilling</a>: Almost universally, any army you built up in the previous mission is taken from you and you start the next mission from scratch, even if it's on the same planet as the last mission. Justified since obviously you could build up a massive army at the start of the campaign and let it carry you, but it can still be a nuisance. For a painful example, in Episode V, the UED hijacks eighteen Battlecruisers from the Dominion. Don't count on seeing them again no matter how much you'll wish you had a third that number. There is a single partial aversion in Episode VI. One mission has you gathering 10,000 minerals and infesting Command Centers, with the story justification it's needed for the next mission. In said mission, you keep the minerals and Command Centers, though you're on a new planet so your base is back to square one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaseOnWheels" title="/pmwiki/pmwiki.php/Main/BaseOnWheels">Base on Wheels</a>: One of the major Terran advantages. Their command base and primary production facilities are all capable of being lifted up off the ground and moved to other locations, either if there's an imminent enemy attack or if they just need to move to an area with better resources. Technically they don't roll on the ground as per standard for this trope, but they're not able to be used as bases until they touch down, and their movement speed is pretty slow.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BetrayalByInaction" title="/pmwiki/pmwiki.php/Main/BetrayalByInaction">Betrayal by Inaction</a>:<ul><li> Part of Mengsk's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UriahGambit" title="/pmwiki/pmwiki.php/Main/UriahGambit">Uriah Gambit</a>, when he sends Kerrigan to keep a Protoss force from destroying a hive of Zerg, which he wishes to use for his own purpose. Once the Protoss are destroyed, he immediately orders all ships to retreat, leaving Kerrigan on the ground with the Zerg and not responding to her requests for evac. It didn't turn out too well for him in the long run.</li><li> The intro cinematic for <em>Brood War</em> has a huge battlecruiser sitting there without participating in the battle against the Zerg, finally leaving under the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathGlare" title="/pmwiki/pmwiki.php/Main/DeathGlare">Death Glare</a> of the Marine who's about to be overrun.</li><li> One level ends where Stukov and Duran are guarding your flanks as you try to capture Raynor and Mengsk. At the end of the level, the capture is interrupted by a massive Zerg swarm. Stukov tells Duran to move his troops in there immediately, but Duran claims he's not seeing anything, even suggesting Stukov's sensors are off, ending the call with the usual static and "you're breaking up" as Raynor and Mengsk escape. Stukov isn't fooled for a second, realizing Duran was a Zerg traitor all along.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: At first it seems to be the Overmind, then Kerrigan. <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's not. It's actually The Dark Voice aka Amon, a vengeful Xel'Naga who tried to destroy and recreate all life in the universe in a fit of pride and jealousy and was put down by the other Xel'Naga for it.</span> Emperor Arcturus Mengsk is this for most the franchise.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>: Zeratul and Jim Raynor. Tassadar too, <span class="spoiler" title="you can set spoilers visible by default on your profile"> before his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicSacrifice" title="/pmwiki/pmwiki.php/Main/HeroicSacrifice">Heroic Sacrifice</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BizarreAlienBiology" title="/pmwiki/pmwiki.php/Main/BizarreAlienBiology">Bizarre Alien Biology</a>:<ul><li> Protoss and Zerg can survive in hard vacuum unprotected, apparently.</li><li> Protoss are photosynthetic, and their skin color changes based on their mood. No mouths, noses, or visible ears and three hearts.</li><li> Zerg organ tissues randomly mutate (and, in certain cases, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAssimilator" title="/pmwiki/pmwiki.php/Main/TheAssimilator">steal new DNA from a new prey creature</a>), and their hyperpowered immune system hunts it down, invoking "survival of the fittest, nature red in tooth and claw" on the genetic level. This allows a piece of formerly dead and rotten Zerg tissue cultured in a laboratory to un-decompose, and evolve 1000,000 times more than humans ever have in the space of <em>a week</em>. Their alpha amino acids have unique "R groups" that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HealingFactor" title="/pmwiki/pmwiki.php/Main/HealingFactor">allow damaged cells to fuse with protein to repair themselves.</a> It also allows them to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoBiochemicalBarriers" title="/pmwiki/pmwiki.php/Main/NoBiochemicalBarriers">ignore Biochemical Barriers by adapting to be compatible with host organisms.</a> They can reproduce through parasitic fusion, or larvae produced from a building that eats mineral crystals, drinks liquid vespene gas, and is built around six wombs (complete with birth canals), a brain, and a stomach. Their buildings are really self-contained organisms that are based on the genetically programmed nest site architecture of their prey species, and one building is specifically designed to do that ultra-evolution thing at an accelerated rate. They don't need to breathe, and their flesh is dense enough to count as a spacesuit. Their metabolism is so fast that, on top of meat, they eat minerals and drink vespene (which is a mutagen, so that helps things along considerably). The downside to this is that they are very susceptible to radiation poisoning.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BittersweetEnding" title="/pmwiki/pmwiki.php/Main/BittersweetEnding">Bittersweet Ending</a>: In most cases.<ul><li> The original <em>Starcraft</em> ends with Tassadar heroically destroying the Zerg Overmind at the cost of his own life, but Aiur is still overrun with Zerg, Mengsk has won and become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmperor" title="/pmwiki/pmwiki.php/Main/TheEmperor">The Emperor</a>, Raynor continues to fight the now leaderless Zerg alongside the Protoss and Kerrigan is still the Queen of Blades.</li><li> <em>Starcraft II</em> ultimately ends with Kerrigan becoming a god-like Xel'Naga, saving the universe and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence" title="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence">leaving the man she loves behind</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile">Or does she?</span></li><li> <em>Brood War</em> on the other hand, is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerEnding" title="/pmwiki/pmwiki.php/Main/DownerEnding">Downer Ending</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyArmorAsHitPoints" title="/pmwiki/pmwiki.php/Main/BodyArmorAsHitPoints">Body Armor as Hit Points</a>: Protoss units and buildings have a blue bar over their HP bar which indicates the current strength of their shields. Once these are depleted, damage is applied directly to their HP, and a visual effect indicates whether a unit/building has shields.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood" title="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood">Brainwashing for the Greater Good</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy" title="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy">Brainwashed and Crazy</a>: The Zerg were forcibly changed from a race of peaceful worms low on their world's food chain to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AssimilationPlot" title="/pmwiki/pmwiki.php/Main/AssimilationPlot">Assimilation Plot</a> driven <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts" title="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts">Horde of Alien Locusts</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a> we all know and love by the Xel'naga <span class="spoiler" title="you can set spoilers visible by default on your profile"> and the Dark Voice</span>. Note that some strains of Zerg are actually derived from various species that the Swarm encountered and consumed throughout the Galaxy. The Hydralisks were once the herbivorous Slothien herd animals, the Mutalisks were Mantis Screamers, and the Behemoths (likely now Leviathans) used to be peaceful <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceWhale" title="/pmwiki/pmwiki.php/Main/SpaceWhale">Space Whales</a>.<ul><li> Subverted by the Overlords whose host species willingly offered themselves up for infestation to avert their oncoming extinction through starvation.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BugWar" title="/pmwiki/pmwiki.php/Main/BugWar">Bug War</a>: Any fight against the Zerg.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaptainErsatz" title="/pmwiki/pmwiki.php/Main/CaptainErsatz">Captain Ersatz</a>: The "Tarrasque" strain of Ultralisk is a direct copypaste of the monster from <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em>. Both are massive, highly destructive monsters with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ResurrectiveImmortality" title="/pmwiki/pmwiki.php/Main/ResurrectiveImmortality">Resurrective Immortality</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromHitPoints" title="/pmwiki/pmwiki.php/Main/CastFromHitPoints">Cast From Hit Points</a>: Stim Packs allow Terran Infantry to move and fire 50% faster at the cost of 20-25% of their HP. The combined cost of recruiting infantry and using stim packs was considered detrimental in the long run which is one of the reasons why Field Medics debuted in the <em>Brood War</em> expansion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CivilWarcraft" title="/pmwiki/pmwiki.php/Main/CivilWarcraft">Civil Warcraft</a>: Whether the reason is overt warfare, civil war, or rebellions in which the player is on one side or the other, every single campaign in every game contains scenarios where you fight all three factions at least once - including whichever race you're playing at the time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConvectionSchmonvection" title="/pmwiki/pmwiki.php/Main/ConvectionSchmonvection">Convection Schmonvection</a>: Magma tiles in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalLavaLand" title="/pmwiki/pmwiki.php/Main/LethalLavaLand">Ashworld tileset</a> (e.g. Char) act exactly like water tiles on any other tileset, and no units take damage from being nearby. This may be justified though: the Terrans are all either in vehicles or wearing <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armor</a> (which we know can survive hard vacuum, so being heat-resistant isn't much of a stretch), the Protoss have shields and probably other applicable phlebotinum, and the Zerg have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptiveAbility" title="/pmwiki/pmwiki.php/Main/AdaptiveAbility">Adaptive Ability</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack Universe</a>: The individual factions all suck one way or the other, the only genuinely nice, trustworthy people are the individuals with no real power.<ul><li> Terrans act somewhat like locusts, moving from world to world to drain the resources and most of their standing military consists of mind-controlled convicts. Of their governments, the Confederacy was corrupt to its core, the Dominion is slightly better but compensates with its Emperor's extreme narcissism, and the UED are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ANaziByAnyOtherName" title="/pmwiki/pmwiki.php/Main/ANaziByAnyOtherName">Space Nazis</a>. The lesser governments are the Kel-Morian Combine and the Umojan Protectorate. The Kel-Morian Combine has been compared to a massive criminal organization, and is said to practice slavery. The Umojan Protecorate is apparently the only good government, but it is generally weaker and less populous than either the Combine or the Confederacy/Dominion, but evens the odds with extremely potent technology and a huge spy network.</li><li> The Protoss are fairly nice, but they're <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens" title="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens">Scary Dogmatic Aliens</a> and have enough trouble keeping peace among their own tribes without involving the other races. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsTheOnlyWayToBeSure" title="/pmwiki/pmwiki.php/Main/ItsTheOnlyWayToBeSure">And Lord help you if the Zerg have seeded your planet</a>.</li><li> The Zerg want to achieve perfection... by absorbing every other being they encounter, until they're the only race left.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure" title="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure">Critical Existence Failure</a>: Units and buildings will be perfectly fine so long as they have any health, though Zerg and Protoss buildings will <em>show</em> damage. The only exceptions are Terran buildings: if their damage meter dips into the red range, they'll catch on fire and start taking damage even if they're no longer being attacked. But if <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorkerUnit" title="/pmwiki/pmwiki.php/Main/WorkerUnit">SCVs</a> repair them back into at least the yellow health range, they'll be perfectly fine and functional.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas" title="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas">Crystal Spires and Togas</a>: The Protoss are a near-literal example. Khaydarin crystals are featured heavily in their architecture due to them acting as a conduit for psionic energy, and out of battle the Protoss wear simple cloth garments like loincloths, cloaks and capes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CryoPrison" title="/pmwiki/pmwiki.php/Main/CryoPrison">Cryo-Prison</a>: The colony ships that brought the Terrans to the Koprulu Sector were full of inmates from Earth's internment camps on ice. While Tychus Findlay was sentenced to cryo for some reason instead of being resocialized like most violent criminals.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cutscene" title="/pmwiki/pmwiki.php/Main/Cutscene">Cutscene</a>: Of the Blizzard cinematic variety. <em>Starcraft II</em> also uses the game engine for some pretty high-end cutscenes, that are only inches below the actual cinematics.</li></ul></div><p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;Tropes D to G&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DamageIsFire" title="/pmwiki/pmwiki.php/Main/DamageIsFire">Damage Is Fire</a>: Terran and Protoss buildings burn. Zerg buildings bleed. Terran buildings on fire take further damage from it until it's destroyed or sufficiently repaired. The heavier the damage, the more widespread the fire/blood.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DangerousForbiddenTechnique" title="/pmwiki/pmwiki.php/Main/DangerousForbiddenTechnique">Dangerous Forbidden Technique</a>: Protoss High Templars/Dark Templars merging mind and body, sacrificing their physical forms to create the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence" title="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence">Archon and Dark Archon.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DataCrystal" title="/pmwiki/pmwiki.php/Main/DataCrystal">Data Crystal</a>: The Protoss use these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefenselessTransports" title="/pmwiki/pmwiki.php/Main/DefenselessTransports">Defenseless Transports</a>:<ul><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DropShip" title="/pmwiki/pmwiki.php/Main/DropShip">Drop Ships</a> used by all three races have no attacks. Neither do Protoss carriers. But <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation" title="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation">between missions</a> Terran dropships and other units are carried from system to system aboard <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBattlestar" title="/pmwiki/pmwiki.php/Main/TheBattlestar">Battlecruisers</a>, and Carriers are supposed to have energy weapons capable of sterilizing planets.</li><li> The lack of weapons on dropships is lampshaded by one of the <em>Hyperion's</em> engineers in the novel <em>Flashpoint</em>, and she outfits one with guns just in time for a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunshipRescue" title="/pmwiki/pmwiki.php/Main/GunshipRescue">Gunship Rescue</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeflectorShields" title="/pmwiki/pmwiki.php/Main/DeflectorShields">Deflector Shields</a>: Personal type. Every protoss unit has them. In some of the games, some Terran units can create a Defensive Matrix for friendly units or create their own.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DigAttack" title="/pmwiki/pmwiki.php/Main/DigAttack">Dig Attack</a>:<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftI" title="/pmwiki/pmwiki.php/VideoGame/StarcraftI">Starcraft I</a></em> has the Zerg's burrowing ability, which allows every ground unit (except the Ultralisk) to burrow, sacrificing movement for invisibility. Lurkers, an evolution of the Hydralisk, need to be burrowed to attack by sending rows of spines at enemies.</li><li> Ultralisks in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftII" title="/pmwiki/pmwiki.php/VideoGame/StarcraftII">Starcraft II</a></em> have an optional campaign-only ability called Burrow Charge, where they burrow, tunnel towards the enemy and breach explosively, damaging the units.</li><li> Roaches and Infestors can move around while buried. They can't attack, but the Roach heals a lot faster, while the Infestor can still create Infested Marines while underground. Banelings had the ability to do so as well, but was removed.</li><li> The Widow Mine is a unit introduced in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/HeartOfTheSwarm" title="/pmwiki/pmwiki.php/VideoGame/HeartOfTheSwarm">Heart of the Swarm</a></em> chapter. Mobile-mode can reversibly burrow, becoming immobile, impossible to target without use of detection, as well as gaining ability to attack any nearby enemies with high, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AreaOfEffect" title="/pmwiki/pmwiki.php/Main/AreaOfEffect">Area of Effect</a> damage. The drawbacks are lock-on activation lag and attack <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cooldown" title="/pmwiki/pmwiki.php/Main/Cooldown">cooldown</a>, but still it is available at low tech level and complements strategies heavy on mechanical units.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisproportionateRetribution" title="/pmwiki/pmwiki.php/Main/DisproportionateRetribution">Disproportionate Retribution</a>: The Confederacy fired 1000 Apocalypse-class Nuclear Missiles at Korhal IV for successfully rebelling against them and supposedly forming an alliance with Umoja.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DissonantSerenity" title="/pmwiki/pmwiki.php/Main/DissonantSerenity">Dissonant Serenity</a>: The Protoss don't seem to get upset about anything. Not units under fire, not bases being attacked, not even a nuclear launch being detected.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoomedByCanon" title="/pmwiki/pmwiki.php/Main/DoomedByCanon">Doomed by Canon</a>: One of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpandedUniverse" title="/pmwiki/pmwiki.php/Main/ExpandedUniverse">novels</a> "I, Mengsk," goes into the details of Arcturus Mengsk's past, including his homeworld of Korhal and his family. People who are familar with the story of the games know what happens to Korhal and the Mengsk clan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DuringTheWar" title="/pmwiki/pmwiki.php/Main/DuringTheWar">During the War</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>: In the first game the Protoss had varied eye colors in no particular pattern; Tassadar has blue eyes, Zeratul has red, Aldaris has yellow eyes, and Fenix, Artanis, and Raszagal, have orange. The sequel would codify that the eye color of Protoss depends on the sources of their psionic powers; the Khalai are universally blue-eyed, the Nerazim are green, and the Tal'darim are red.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarthShatteringKaboom" title="/pmwiki/pmwiki.php/Main/EarthShatteringKaboom">Earth-Shattering Kaboom</a>: The Protoss doctrine for dealing with a Zerg-infested world goes something like "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">burn it from orbit until everything on the surface is dead</a>." This is how the Terrans first found out that aliens existed: a Protoss fleet appeared near the planet Chau Sara and blasted it without warning or explanation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyCommunication" title="/pmwiki/pmwiki.php/Main/EasyCommunication">Easy Communication</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a>:<ul><li> If Zamara is right, Duran's hybrids are these.</li><li> Also, Ulrezaj in his archon form and their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">boss</a>, <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Dark Voice</span>.</li><li> The Overmind might also count.</li><li> And the same goes to several of the pack leaders of the Primal Zerg, particularly Zurvan.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchLocation" title="/pmwiki/pmwiki.php/Main/EldritchLocation">Eldritch Location</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Void</span> serves as this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBall" title="/pmwiki/pmwiki.php/Main/EnergyBall">Energy Ball</a>: Numerous units can fire these out, most notably the Protoss phase disruptors, used by photon cannons and most of their vehicles.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCounterpart" title="/pmwiki/pmwiki.php/Main/EvilCounterpart">Evil Counterpart</a>: The Zerg were deliberately engineered by the Xel'Naga to be an opposite of the Protoss as part of their experiments. The Protoss have "purity of form" while the Zerg have "purity of essence." The Protoss use a telepathic link that connects all of them, the Zerg are a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a>. The Protoss are graceful and intelligent, the Zerg are bestial and driven by instinct. Even in battle they use opposite techniques, the Protoss army consisting of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneManArmy" title="/pmwiki/pmwiki.php/Main/OneManArmy">singular elite soldiers</a> who have spent years <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrainingFromHell" title="/pmwiki/pmwiki.php/Main/TrainingFromHell">training for</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSpartanWay" title="/pmwiki/pmwiki.php/Main/TheSpartanWay">war</a>, against the Zerg army consisting of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZergRush" title="/pmwiki/pmwiki.php/Main/ZergRush">lots and lots of expendable units</a> evolved to be killing machines, and little else. <br><br>Of course, this is only a superficial interpretation. The <em>Dark Templar</em> novels reveal that <span class="spoiler" title="you can set spoilers visible by default on your profile"> the "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/TurnedAgainstTheirMasters" title="/pmwiki/pmwiki.php/Main/TurnedAgainstTheirMasters">Turned Against Their Masters</a>" gig is a Protoss fabrication. The Zerg and Protoss were created in order to unite with each other and create a new iteration of the Xel'Naga (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">it's just how those guys worked</a>) as part of their life-cycle. The Zerg got corrupted by an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a> before that could happen, however, and were made to attack their makers and the Protoss</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilIsNotAToy" title="/pmwiki/pmwiki.php/Main/EvilIsNotAToy">Evil Is Not a Toy</a>: The Confederates tried to use the Zerg as a weapon, with the psionic emanations of Ghosts as the bait; Arcturus used the Confederates' own technology to turn the Zerg against the Confederacy; the UED tried to enslave the Overmind itself; and <span class="spoiler" title="you can set spoilers visible by default on your profile">even Valerian tried some experiments on Kerrigan and the Zerg after she was "purged" of infestation.</span> Needless to say, all of these attempts to control the Zerg ended disastrously, although in Arcturus' case the disaster from his attempt to use the Zerg didn't strike until <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrickJoke" title="/pmwiki/pmwiki.php/Main/BrickJoke">much later</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilIsVisceral" title="/pmwiki/pmwiki.php/Main/EvilIsVisceral">Evil Is Visceral</a>: Aspects of the Zerg that do not fit neatly into other tropes: the way that buildings pulsate when they are being constructed, their sound effects (especially if liquids are involved), the Overmind's influence is represented by a big eye. Then there's the growing tissue sample in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftII" title="/pmwiki/pmwiki.php/VideoGame/StarcraftII">Starcraft II</a></em>...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilVersusEvil" title="/pmwiki/pmwiki.php/Main/EvilVersusEvil">Evil vs. Evil</a>: Most of the conflicts that Arcturus Mengsk is evolved in &mdash; he starts in a kind of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackAndGreyMorality" title="/pmwiki/pmwiki.php/Main/BlackAndGreyMorality">Black-and-Grey Morality</a> situation against the Confederacy, and once he gains power falls into a neat <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOverlord" title="/pmwiki/pmwiki.php/Main/EvilOverlord">Evil Overlord</a> niche, but the fact that genocidal aliens and imperialistic Earthlings are a greater threat means he's constantly able to fight them and portray himself and the Dominion as heroes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpandedUniverse" title="/pmwiki/pmwiki.php/Main/ExpandedUniverse">Expanded Universe</a>: In the form of paperback novels and graphic novels.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExplosiveBreeder" title="/pmwiki/pmwiki.php/Main/ExplosiveBreeder">Explosive Breeder</a>: The Zerg seems to be this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FactionCalculus" title="/pmwiki/pmwiki.php/Main/FactionCalculus">Faction Calculus</a>: One of the most famous examples (as measured in "<img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/FollowTheLeader" title="/pmwiki/pmwiki.php/Main/FollowTheLeader">games that copy it</a>"), providing a huge amount of depth to the game.<ul><li> Terrans are Balanced. They have all the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LongRangeFighter" title="/pmwiki/pmwiki.php/Main/LongRangeFighter">Long Range Fighters</a>, with only one melee unit (the Firebat), and for a long time had the unit with the longest firing range (the Siege Tank; eventually its title as longest-range combatant was usurped by the Protoss Tempest), but their units tend to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlassCannon" title="/pmwiki/pmwiki.php/Main/GlassCannon">Glass Cannons</a> in compensation. They have the best standing defenses in the form of Bunkers, which <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GarrisonableStructures" title="/pmwiki/pmwiki.php/Main/GarrisonableStructures">you can hide infantry in</a>, and some of their buildings can <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaseOnWheels" title="/pmwiki/pmwiki.php/Main/BaseOnWheels">take off and fly to other locations</a>, but at the cost of subverted <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure" title="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure">Critical Existence Failure</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DamageIsFire" title="/pmwiki/pmwiki.php/Main/DamageIsFire">Damage Is Fire</a>, and if a Terran building's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LifeMeter" title="/pmwiki/pmwiki.php/Main/LifeMeter">Life Meter</a> is reduced far enough, it will burn down of their own accord unless repaired. Finally, the Terran military is less mobile as a whole; their units are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterOfNone" title="/pmwiki/pmwiki.php/Main/MasterOfNone">Master of None</a>, they need to rely on each other for support, and they have to either <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverSplitTheParty" title="/pmwiki/pmwiki.php/Main/NeverSplitTheParty">leave some units at home</a> or leave their base undefended.</li><li> Zerg are Subversive, with lots of small, fast, weak units suitable for a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZergRush" title="/pmwiki/pmwiki.php/Main/ZergRush">Zerg Rush</a>, all the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuicideAttack" title="/pmwiki/pmwiki.php/Main/SuicideAttack">Suicide Attackers</a>, and lots of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HollywoodAcid" title="/pmwiki/pmwiki.php/Main/HollywoodAcid">Hollywood Acid</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatTentacles" title="/pmwiki/pmwiki.php/Main/CombatTentacles">Combat Tentacles</a>. Their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorkerUnit" title="/pmwiki/pmwiki.php/Main/WorkerUnit">Worker Units</a> don't so much build structures as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrganicTechnology" title="/pmwiki/pmwiki.php/Main/OrganicTechnology">mutate into them</a> (consuming the Worker in the process), and many of their powerful units have to mutate out of a pre-existing lower-tier unit. Their structures must be built on "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeatMoss" title="/pmwiki/pmwiki.php/Main/MeatMoss">Creep</a>," which is generated naturally from their central Hatcheries and blocks the other two races from placing building. Zerg have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RegeneratingHealth" title="/pmwiki/pmwiki.php/Main/RegeneratingHealth">Regenerating Health</a> and will heal <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromASingleCell" title="/pmwiki/pmwiki.php/Main/FromASingleCell">From a Single Cell</a>. Where a few Terran and Protoss units have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvisibilityCloak" title="/pmwiki/pmwiki.php/Main/InvisibilityCloak">Invisibility Cloaks</a>, almost <em>all</em> Zerg ground units can <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FastTunnelling" title="/pmwiki/pmwiki.php/Main/FastTunnelling">"burrow" underground</a>, allowing them to ambush, recon and heal. Finally, because of the way Zerg build units<span class="notelabel" onclick="togglenote('note1s871');"><sup>note&nbsp;</sup></span><span id="note1s871" class="inlinefolder" isnote="true" onclick="togglenote('note1s871');" style="cursor:pointer;font-size:smaller;display:none;">The other two races can only build one unit at a time from their production facilities, and each facility is limited to a single style of unit: barracks can't make airplanes, for instance, and airports can't make soldiers. Any Zerg Hatchery can build <em>any</em> type of unit currently available, <em>three at a time</em></span>, they can generate new armies at an instant, in case there's been a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TotalPartyKill" title="/pmwiki/pmwiki.php/Main/TotalPartyKill">Total Party Kill</a> or you've found some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TacticalRockPaperScissors" title="/pmwiki/pmwiki.php/Main/TacticalRockPaperScissors">Tactical Rock&#150;Paper&#150;Scissors</a> to exploit, but their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechTree" title="/pmwiki/pmwiki.php/Main/TechTree">Tech Tree</a> is also markedly more vulnerable to destruction.</li><li> Protoss are Powerhouse. They have an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EliteArmy" title="/pmwiki/pmwiki.php/Main/EliteArmy">Elite Army</a> with impressive <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">psionic powers</a>, which they have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">combined with technology</a>; the best <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SquishyWizard" title="/pmwiki/pmwiki.php/Main/SquishyWizard">Squishy Wizards</a>; some cyborg units and others which are completely robotic; and the most late-game units out of everyone. They have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeflectorShield" title="/pmwiki/pmwiki.php/Main/DeflectorShield">Deflector Shields</a> which regenerate over time, supplementing their already-high <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a>, with the downside of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RegeneratingShieldsStaticHealth" title="/pmwiki/pmwiki.php/Main/RegeneratingShieldsStaticHealth">Regenerating Shields, Static Health</a>. All Protoss buildings must be built near a Pylon, and stop functioning if all nearby Pylons are destroyed. Pylons also raise your <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitraryHeadcountLimit" title="/pmwiki/pmwiki.php/Main/ArbitraryHeadcountLimit">Arbitrary Headcount Limit</a>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaksauceWeakness" title="/pmwiki/pmwiki.php/Main/WeaksauceWeakness">They are the Protoss' least-durable building.</a> Having said that, the Protoss <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorkerUnit" title="/pmwiki/pmwiki.php/Main/WorkerUnit">Worker Unit</a> simply opens a portal (through which the building teleports) and then can wander off to do other things, instead of having to stay temporarily (Terran) or permanently (Zerg), so it's relatively easy to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConstructAdditionalPylons" title="/pmwiki/pmwiki.php/Main/ConstructAdditionalPylons">Construct Additional Pylons</a> if things go south.</li><li> It's also interesting to compare each faction's basic units. Terrans have the Marine, who has has the lowest <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">Hit Points</a> of the lot<span class="notelabel" onclick="togglenote('note2suuv');"><sup>note&nbsp;</sup></span><span id="note2suuv" class="inlinefolder" isnote="true" onclick="togglenote('note2suuv');" style="cursor:pointer;font-size:smaller;display:none;">40 in <a class="createlink" href="/pmwiki/pmwiki.php/Main/SC1" title="/pmwiki/pmwiki.php/Main/SC1">SC 1</a>, 45 in <a class="createlink" href="/pmwiki/pmwiki.php/Main/SC2" title="/pmwiki/pmwiki.php/Main/SC2">SC 2</a> with an upgrade to give them 10 more</span>, but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsVsSwords" title="/pmwiki/pmwiki.php/Main/GunsVsSwords">carries a gun against the other units' melee attacks</a>. The Zergling is a four-legged beast, with the fastest movespeed of the three units and an upgrade to make it faster, and is so cheap that Zerg players get <em>two</em> of them for the cost of one Marine<span class="notelabel" onclick="togglenote('note3t8y6');"><sup>note&nbsp;</sup></span><span id="note3t8y6" class="inlinefolder" isnote="true" onclick="togglenote('note3t8y6');" style="cursor:pointer;font-size:smaller;display:none;">with 35 HP each, for a total of 70</span>. Finally, Protoss have the Zealot, who has the most HP<span class="notelabel" onclick="togglenote('note4ty6z');"><sup>note&nbsp;</sup></span><span id="note4ty6z" class="inlinefolder" isnote="true" onclick="togglenote('note4ty6z');" style="cursor:pointer;font-size:smaller;display:none;">100 HP, 60 shields</span> and does the most damage per attack, but costs twice the resources, twice the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitraryHeadcountLimit" title="/pmwiki/pmwiki.php/Main/ArbitraryHeadcountLimit">Supply points</a>, and takes up twice the room aboard a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Dropship" title="/pmwiki/pmwiki.php/Main/Dropship">dropship</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRankSystem" title="/pmwiki/pmwiki.php/Main/FantasticRankSystem">Fantastic Rank System</a>: The Protoss have a different rank structure, though only three ranks are ever mentioned in the original game:<ul><li> Praetor: Probably close to an Army Captain, Fenix held this rank, as did Artanis in Brood War.</li><li> Executor: Probably close to a Brigadier (1-star) General; Tassadar, Artanis, and Selendis held this rank. The High Executor leads the caste.</li><li> Judicator: A high-ranking government official, Aldaris held this rank.</li><li> Prelate: The Dark Templar equivalent of Praetor. Zeratul was addressed as such in <em>Brood War</em>.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftII" title="/pmwiki/pmwiki.php/VideoGame/StarcraftII">Starcraft II</a></em> introduces cosmetic ranks for any standard unit based on number of kills. For Protoss, 0-4 kills is a Disciple, 5-9 is a Mentor, 10-14 an Instructor, 15-19 a Master, and 20+ an Executor. Zerg equivalents are Predator, Slayer, Ravager Assassin and Metamorph, and while hardly fantastic, for the sake of completion, Terran get Recruit, Corporal, Sergeant, Captain, Commander.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FasterThanLightTravel" title="/pmwiki/pmwiki.php/Main/FasterThanLightTravel">Faster-Than-Light Travel</a>:<ul><li> The Protoss and Terrans have FTL Warp drives, while the Zerg Overmind can use its <em>massive</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a> to tear <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWormholesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWormholesAreDifferent">warp rifts</a> in spacetime.</li><li> Protoss have near-instantaneous precision warps, to the point that their buildings, infantry and ships are not "built" but are warped in from their homeworld or automated factories. Protoss soldiers even have armor that teleports them out when they are gravely wounded in battle.</li><li> The arrival of the Terrans in Koprulu was actually a navigational accident. The flight computers on their sleeper FTL ships malfunctioned, and overshot their destination, travelling at FTL speeds for about 30 years (adding up to some 60,000 light-years from Earth). Over time, the Earth Directorate has managed to advance <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FTL" title="/pmwiki/pmwiki.php/Main/FTL">FTL</a> technology to allow them to get to the Koprulu Sector from Earth in a matter of months.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalExchange" title="/pmwiki/pmwiki.php/Main/FinalExchange">Final Exchange</a>: The franchise is full of these, especially in the sequel <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftII" title="/pmwiki/pmwiki.php/VideoGame/StarcraftII">Starcraft II</a></em>.<ul><li> Kerrigan and Mengsk</li></ul><div class="indent"> <strong>Mengsk</strong>: I made ya into a monster, Kerrigan!</div><div class="indent"> <strong>Kerrigan</strong>: You made us all into monsters. <span class="spoiler" title="you can set spoilers visible by default on your profile">Uses pyschic attack that blows up Mengsk and his entire office.</span></div><ul><li> Malash and Alarak, when the latter is close to the Pit of Sacrifice.</li></ul><div class="indent"> <strong>Malash</strong>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAreTooLate" title="/pmwiki/pmwiki.php/Main/YouAreTooLate">The master has already won, Alarak.</a> You will lead our people to their doom...</div><div class="indent"> <strong>Alarak</strong>: You're right about one thing, Malash. <em>I! will! lead them!</em> <em>(pushes Malash in the Pit)</em></div><ul><li> Narud and Stukov</li></ul><div class="indent"> <strong>Narud</strong>: Stukov...you came here to gloat, haven't you?</div><div class="indent"> <strong>Stukov</strong>: No, I came here to say "good night", you son of a bitch! <em>(fires a Corrosive Blast that destroys Narud)</em></div><ul><li> Amon and Kerrigan</li></ul><div class="indent"> <strong>Amon</strong>: You are but a product of the flawed cycle. Manipulated for the entirety of your existence...</div><div class="indent"> <strong>Kerrigan</strong>: You know nothing about me! I care little for the xel'naga's Infinite Cycle or your twisted lies. No, I choose something different. I choose freedom... for all of us. <em>(obliterates Amon)</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FogOfWar" title="/pmwiki/pmwiki.php/Main/FogOfWar">Fog of War</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianTrio" title="/pmwiki/pmwiki.php/Main/FreudianTrio">Freudian Trio</a>: Zerg are the Id, Terran are the Ego and Protoss are the Superego.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromASingleCell" title="/pmwiki/pmwiki.php/Main/FromASingleCell">From A Single HP</a>: <strong>All</strong> Zerg units and buildings will recover, if not killed, eventually.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromBadToWorse" title="/pmwiki/pmwiki.php/Main/FromBadToWorse">From Bad to Worse</a>: Repeatedly in the original. It never gets better in <em>Brood War.</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FullCircleRevolution" title="/pmwiki/pmwiki.php/Main/FullCircleRevolution">Full-Circle Revolution</a>: From the Confederacy to the Dominion...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FutureSlang" title="/pmwiki/pmwiki.php/Main/FutureSlang">Future Slang</a>: The novels introduce "fekk" as a curse word. Of course, 'feck' is contemporary British slang.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitPileup" title="/pmwiki/pmwiki.php/Main/GambitPileup">Gambit Pileup</a>: The entire storyline. Every major character in this game, human or otherwise, seems to have some sort of hidden agenda and it's nigh-impossible to tell who's getting the upper hand. Mostly, it doesn't work out well for anybody.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameLobby" title="/pmwiki/pmwiki.php/Main/GameLobby">Game Lobby</a>: The series works this way. They're strategy games, so drop-in/drop-out would be disastrous. Fortunately, the games are very popular, and matches are relatively short.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GarrisonableStructures" title="/pmwiki/pmwiki.php/Main/GarrisonableStructures">Garrisonable Structures</a>: Terran Bunkers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenocideBackfire" title="/pmwiki/pmwiki.php/Main/GenocideBackfire">Genocide Backfire</a>: The Terrans in the Koprulu sector were descendants of unwanted people on Earth who were sent on hardly inhabitable places to test if they could survive. They can. It should be noted that the genocide might not have backfired if the sleeper ships hadn't <em>missed their destinations</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreRoulette" title="/pmwiki/pmwiki.php/Main/GenreRoulette">Genre Roulette</a>: "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceOpera" title="/pmwiki/pmwiki.php/Main/SpaceOpera">Space Opera</a>" is always the base genre, but there are distinct flavors depending on which race is currently in the spotlight: Terran campaigns are typically <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceWestern" title="/pmwiki/pmwiki.php/Main/SpaceWestern">Space Westerns</a> in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UsedFuture" title="/pmwiki/pmwiki.php/Main/UsedFuture">Used Future</a>, zerg campaigns are a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Cosmic Horror Story</a> where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainProtagonist" title="/pmwiki/pmwiki.php/Main/VillainProtagonist">you're playing as the monsters</a>, and protoss campaigns fall more into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceFantasy" title="/pmwiki/pmwiki.php/Main/ScienceFantasy">Science Fantasy</a> with an emphasis on mysticism and prophecy and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas" title="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas">Crystal Spires and Togas</a> aesthetic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlowingEyesOfDoom" title="/pmwiki/pmwiki.php/Main/GlowingEyesOfDoom">Glowing Eyes of Doom</a>: All Protoss and some Zerg have them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousGreek" title="/pmwiki/pmwiki.php/Main/GratuitousGreek">Gratuitous Greek</a>: The Confederacy (and later the Dominion) had several squadrons named after Greek letters: specifically Alpha, Delta, Epsilon, and Omega. Moreover, the "firstborn" of the Xel'naga are called the "Protoss," which resembles the Greek word "&Pi;&rho;&omega;&tau;&omicron;&sigmaf;" meaning "first".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunshipRescue" title="/pmwiki/pmwiki.php/Main/GunshipRescue">Gunship Rescue</a>: Subverted in the opening cinematic to <em>Brood War</em>, wherein the UED flagship is seen hovering overhead... and then leaves without firing a shot, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheDog" title="/pmwiki/pmwiki.php/Main/KickTheDog">abandoning the marines below to the fury of the Zerg Swarm.</a></li></ul></div><p></p><div class="folderlabel" onclick="togglefolder('folder2');">&nbsp;&nbsp;&nbsp;&nbsp;Tropes H to O&nbsp;</div><div id="folder2" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hammerspace" title="/pmwiki/pmwiki.php/Main/Hammerspace">Hammerspace</a>: Terrans have building components appear and snap themselves together out of thin air.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a>: The zerg Swarm, obviously. The Khala of the protoss is also somewhat like this, only the protoss in the Khala retain their individuality and free will, and can choose not to share all of their thoughts and feelings with others. <span class="spoiler" title="you can set spoilers visible by default on your profile">But it comes closer to the traditional Hive Mind in <em>Legacy of the Void</em> when Amon takes control of the Khalai through it; the only protoss free from his control afterward are the Nerazim who ritually sever their nerve chords to cut themselves off from the Khala, the Khalai who subsequently have their nerve chords severed by the free Nerazim, and the Tal'Darim who follow Amon out of free choice.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HollywoodAcid" title="/pmwiki/pmwiki.php/Main/HollywoodAcid">Hollywood Acid</a>: Often used as a weapon by the Zerg. And now there is a <em>Starcraft II</em> short story called "Acid Burns".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomingBoulders" title="/pmwiki/pmwiki.php/Main/HomingBoulders">Homing Boulders</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts" title="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts">Horde of Alien Locusts</a>: Zerg</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HufflepuffHouse" title="/pmwiki/pmwiki.php/Main/HufflepuffHouse">Hufflepuff House</a>: Both the Kel-Morian Combine and the Umojan Protectorate get no screentime in the original game, beyond a blurb in the manual. The Combine was later elaborated on in Brood War, but Umoja only makes a small appearance in the prologue of Heart of the Swarm.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreDivided" title="/pmwiki/pmwiki.php/Main/HumansAreDivided">Humans Are Divided</a>: Humans are the most divided of the three races by far, with every game having a war between two or more of their factions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreSpecial" title="/pmwiki/pmwiki.php/Main/HumansAreSpecial">Humans Are Special</a>: Deconstructed. The Terrans of the Koprulu Sector are only a few generations away from becoming a psionic species. Instead of indicating that humanity is on the verge of becoming something greater, this just means they drew the attention of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouWillBeAssimilated" title="/pmwiki/pmwiki.php/Main/YouWillBeAssimilated">Zerg</a>, who view their psionic potential as the key to fighting their <em>real</em> target, the Protoss, on equal grounds. Interestingly, Humans are the only major race that was not created/uplifted by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Precursors" title="/pmwiki/pmwiki.php/Main/Precursors">Xel'Naga</a>.<ul><li> Averted until <em>Legacy of the Void,</em> the final campaign of <em>Starcraft II.</em> The ultimate conflict of the series revolves around Zerg and Protoss struggling to integrate with each other&mdash;something the Zerg desperately want and Protoss desperately want to avoid. The second half of <em>Starcraft II</em> deals more and more heavily with such Protoss/Zerg hybrids. Humans just kind of stumbled into the arena of this conflict on accident because of a glitchy navigation system a few generations beforehand.</li><li> Ultimately played straight in the finale of <em>Legacy of Void,</em> when <span class="spoiler" title="you can set spoilers visible by default on your profile"> Kerrigan ascends to become a Xel'Naga</span>, an achievement that few species in the galaxy ever reach.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansByAnyOtherName" title="/pmwiki/pmwiki.php/Main/HumansByAnyOtherName">Humans by Any Other Name</a>: For all intents and purposes the term "Terran" is used as a substitute, both by humans and by non-humans, for the word human. This is particularly odd since Earth (except for in the expansion) is practically a non-factor and the word Protoss has nothing at all to do with the name of the protoss homeworld (Aiur). As for the Zerg, it's unclear if they're named after Zerus (given the unusual spelling) or whether Zerus is named after <em>them</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansNeedAliens" title="/pmwiki/pmwiki.php/Main/HumansNeedAliens">Humans Need Aliens</a>:<ul><li> Humans in the series are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreFlawed" title="/pmwiki/pmwiki.php/Main/HumansAreFlawed">considered flawed</a>, weak, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreWarriors" title="/pmwiki/pmwiki.php/Main/HumansAreWarriors">violent</a>, and greedy by the Protoss and Zerg. Outside of Raynor's alliances with the Protoss, the humans are prone to civil wars and in-fighting even as they flee/fight the Zerg and Protoss. The climax of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIIWingsOfLiberty" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIIWingsOfLiberty">StarCraft II: Wings of Liberty</a></em>, when <span class="spoiler" title="you can set spoilers visible by default on your profile">Raynor and the Dominion invade Char and de-infest Kerrigan</span> is pretty much the only heroic thing the race has done in the grand scheme of things.</li><li> Also in <em>Wings of Liberty</em>, Jim Raynor is shown a vision of a possible future where the Terrans and Protoss are driven to extinction by the zerg/protoss hybrids in a timeline where Kerrigan dies, and can't lead the Zerg swarm.</li><li> Then again, humans have been shown to at least be better at fighting the zerg than the Protoss in the games making this a possible <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">subversion</a>. Raynor played a major part in the defeat of the first overmind on Aiur, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWarOfEarthlyAggression" title="/pmwiki/pmwiki.php/Main/TheWarOfEarthlyAggression">United Earth Directorate</a> seized control of the second in brood war, and humans took one of the zerg's best defended worlds, Char, twice. Let's also not forget that Sarah Kerrigan, the Zerg's current leader is a former human. Also, Terrans are the only one of the three races that were not uplifted by the local <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAliens" title="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAliens">Sufficiently Advanced Aliens</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HybridPower" title="/pmwiki/pmwiki.php/Main/HybridPower">Hybrid Power</a>: The protoss and zerg were both uplifted by the Xel'Naga to have "purity of form" and "of essence", respectively. The program to hybridise them theoretically creates the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UltimateLifeForm" title="/pmwiki/pmwiki.php/Main/UltimateLifeForm">Ultimate Life Form</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantWinCondition" title="/pmwiki/pmwiki.php/Main/InstantWinCondition">Instant-Win Condition</a>: In the multiplayer; you win the game if you destroy every building the enemy player controls, even if your own base is in shambles and you're on your last unit. There is a reason for this: During the beta for the first game, a very common dirty trick was for a losing player to hide a very difficult to spot building such as a supply building in an obscure part of the map in hopes that the opponent would give up and cede the game in frustration.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ISOStandardHumanSpaceship" title="/pmwiki/pmwiki.php/Main/ISOStandardHumanSpaceship">ISO Standard Human Spaceship</a>: The whole Terran Navy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsTheOnlyWayToBeSure" title="/pmwiki/pmwiki.php/Main/ItsTheOnlyWayToBeSure">It's the Only Way to Be Sure</a>: Protoss policy on planets that have become too infested with Zerg to be saved is to glass the entire planet from orbit. It's a last resort and its main use is to make sure that even if a planet is lost, the Zerg will at least not gain another foothold. Some of the problems in the first game come about because Tassadar decided to be merciful and let some of the Terrans escape, which let the Zerg do the same.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">Kill It with Fire</a>: The Protoss burn Zerg from orbit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler" title="/pmwiki/pmwiki.php/Main/LateArrivalSpoiler">Late-Arrival Spoiler</a>: Woe to any who has no existing knowledge of the series, as Sarah Kerrigan becoming the Queen of Blades <em>was</em> a major spoiler in the middle of the original game's campaign, but it is now common knowledge since the game in question was released in 1998 and she has essentially become the face of the franchise since then.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall" title="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall">Leaning on the Fourth Wall</a>:<ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIIWingsOfLiberty" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIIWingsOfLiberty">Wings of Liberty</a></em>, just before the final mission if you click on Tychus he will comment that he is worried about the artifact they are using and that he fears it might shatter the entire space-time continuum. Raynor's response is to tell him that it's not science fiction.</li><li> Ten years passed between the release of the original <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftI" title="/pmwiki/pmwiki.php/VideoGame/StarCraftI">StarCraft</a></em> and the announcement of its sequel. What were the first word's spoken by a character and the only line in the trailer?</li></ul><div class="indent"><strong>Tychus Findlay</strong>: <em>"Hell... it's about time."</em></div><ul><li> In <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftIIHeartOfTheSwarm" title="/pmwiki/pmwiki.php/VideoGame/StarCraftIIHeartOfTheSwarm">Heart of the Swarm</a>, when breaking into a lab, Kerrigan notes how heavily fortified it is and comments, "Just getting inside will be an achievement." Sure enough, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmeticAward" title="/pmwiki/pmwiki.php/Main/CosmeticAward">achievement</a> for completing the ensuing mission is named, "Just Getting Inside".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LegoGenetics" title="/pmwiki/pmwiki.php/Main/LegoGenetics">LEGO Genetics</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandWave" title="/pmwiki/pmwiki.php/Main/HandWave">Hand Wave</a> for how the Zerg can have unit upgrades.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagiTek" title="/pmwiki/pmwiki.php/Main/MagiTek">Magitek</a>: Protoss vehicles and structures, as well as Ghost cloaking devices, are powered by psychic energy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicByAnyOtherName" title="/pmwiki/pmwiki.php/Main/MagicByAnyOtherName">Magic by Any Other Name</a>: Psionics.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManaMeter" title="/pmwiki/pmwiki.php/Main/ManaMeter">Mana Meter</a>: Energy is used for technological, biological and psi abilities, and also for units with a limited lifespan such as Hallucinations and Broodlings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MascotVillain" title="/pmwiki/pmwiki.php/Main/MascotVillain">Mascot Villain</a>: Kerrigan is one of the most recognizable characters from the game, and is commonly the game's face in promotional materials, including the box art for <em>Brood War</em> and <em>Heart of the Swarm.</em> Played with when the events of <em>Heart of the Swarm</em> <span class="spoiler" title="you can set spoilers visible by default on your profile"> make her a lot less villainous.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a>:<ul><li> Planet "Char" didn't earn its name by being a planet of rainforests and crystal blue oceans.</li><li> Protoss means "first born" in the language of the Xel'naga, and is derived from the Greek word &pi;&rho;&omega;&tau;&omicron;&sigmaf;, which is pronounced the same way and means "first".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeatMoss" title="/pmwiki/pmwiki.php/Main/MeatMoss">Meat Moss</a>: Zerg Creep.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MentalFusion" title="/pmwiki/pmwiki.php/Main/MentalFusion">Mental Fusion</a>: The Khala, the basis of the Protoss religion and integral part of their identity, is a form of this. Protoss are universally psychic, and evolved a super-powerful collective consciousness that manifests as magic-like abilities. Communion with this "Khala" is actually touching all the minds, thoughts, and emotions of the Protoss race at large. Unlike some forms of fusion, however, the communion with the Khala is expected rather than completely voluntary, and opponents are seen as heretics: there is a small group of protoss who fear that this will, one day, completely subsume their personalities, and take steps to sever themselves from it permanently (they evolved their own culture).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MergerOfSouls" title="/pmwiki/pmwiki.php/Main/MergerOfSouls">Merger of Souls</a>: The various <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeing" title="/pmwiki/pmwiki.php/Main/EnergyBeing">"archons"</a> created by the protoss.<ul><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftI" title="/pmwiki/pmwiki.php/VideoGame/StarCraftI">first game's</a> high templars can perform a one-way fusion into an archon, a ghostly psionic entity that is very damaging and quite hard to kill<span class="notelabel" onclick="togglenote('note0husx');"><sup>*&nbsp;</sup></span><span id="note0husx" class="inlinefolder" isnote="true" onclick="togglenote('note0husx');" style="cursor:pointer;font-size:smaller;display:none;">barring use of the science vessel's EMP, which strips their shields to leave them with just a small amount of HP</span>. <em>Brood War</em> allows two dark templar to fuse into a dark archon, a caster unit.</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpandedUniverse" title="/pmwiki/pmwiki.php/Main/ExpandedUniverse">Expanded Universe</a> and <em>Enslavers II</em> add-on campaign have Ulrezaj, a rebel dark templar who eventually fuses with <em>five</em> others to form an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxCrazy" title="/pmwiki/pmwiki.php/Main/AxCrazy">Ax-Crazy</a> super-archon of sorts. He's eventually defeated in the <em><a class="createlink" href="/pmwiki/pmwiki.php/Literature/DarkTemplarTrilogy" title="/pmwiki/pmwiki.php/Literature/DarkTemplarTrilogy">Dark Templar Trilogy</a></em> by <span class="spoiler" title="you can set spoilers visible by default on your profile">having the last of the templar Preservers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicSacrifice" title="/pmwiki/pmwiki.php/Main/HeroicSacrifice">sacrifice herself</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">seal him with her into a khaydarin crystal</a></span>.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftII" title="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a></em> dispenses with the dark archon, allowing archons (initially called twilight archons, but this was dropped in early patches) to be created from any combination of two high templar or dark templar.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MessianicArchetype" title="/pmwiki/pmwiki.php/Main/MessianicArchetype">Messianic Archetype</a>: Khas, Adun, and Tassadar for the protoss. The first was the originator of the Khala, which brought an end to their tribal warfare period and unified them as a single race. The second refused to exterminate the dark templar on orders of the Conclave and eventually sacrificed himself to protect them. The third sacrificed himself to kill the Overmind and save Aiur. <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOrIsIt" title="/pmwiki/pmwiki.php/Main/TheEndOrIsIt">Or did he?</a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Metagame" title="/pmwiki/pmwiki.php/Main/Metagame">Metagame</a>:<ul><li> To a terrifying degree. The metagame has gotten so intricate that good players can tell exactly where the other player's base is simply by how long it takes for an enemy scouting unit to find them. The presence or absence of gas production buildings at certain points in the game can reveal volumes about a player's strategy. And of course, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KansasCityShuffle" title="/pmwiki/pmwiki.php/Main/KansasCityShuffle">feigning one tactic and going for another</a> can have devastating consequences. <br><br>To give a specific example, one common Terran strategy vs. Protoss was to put down two factories and produce lots of units to make an attack. Then the Terran metagame evolved to incorporate acting like you're putting down two Factories and making a little attack to put the opponent on the defensive but you're actually only making one Factory and saving for an expansion to gain an economic advantage - the fake double. This became so popular that it is normal and Protoss players anticipated it, so now Terrans can now also try to give the appearance that they are doing the fake double but meanwhile they <em>actually really are putting down two Factories</em> to make a serious attack. Which is known as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitPileup" title="/pmwiki/pmwiki.php/Main/GambitPileup">fake fake double</a>. Mindbending.<ul><li> Not the end of the story. If they're going for a fake double, they often show that they are mining their Vespene Gas at maximum efficiency in exchange for Mineral mining. This is a sign that they are going for a double. In fact, many players mine gas at maximum efficiency until their opponent's scout is gone, then stop, to make the opponent think they are going double. Most Protoss players have figured this out though, and now usually know it's an early expansion. In fact, the Terrans adapted to the Protoss, and actually <em>do</em> go for the double. Yes, the Protoss adapted again, and play safer, but then the Terrans just go for the expansion. Continuous metagame development.</li></ul></li><li> This becomes much more prevalent in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftII" title="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a></em> where scouts are crucial in knowing what you are dealing with. For Zerg it is fairly straightforward, early expansion or just go for the safer spawning pool? Do you produce a slew of Zerglings to prep yourself for Tier 2 or go for Roaches to buff up your defenses? Did your opponent research Burrow? Or did he go for the Ventral Sacs? The questions are never answered unless you know what your opponent is doing. Because of how fast the games get (due to the bases getting mined out earlier) it makes it all the more important to scout because everything moves quickly. Ironically it also makes the Terran much more difficult to predict because of the ease to build and swap attachments. Since buildings can swap, it means that when you thought he was going for Marauders when he built that Barracks for the Tech Lab, he can just fake you out and swap it for a Factory to build Siege Tanks and Thors.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Metamorphosis" title="/pmwiki/pmwiki.php/Main/Metamorphosis">Metamorphosis</a>: This is how the Zerg race produce their units and buildings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MobileFactory" title="/pmwiki/pmwiki.php/Main/MobileFactory">Mobile Factory</a>: All Terran structures capable of producing units are mobile.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MohsScaleOfSciFiHardness" title="/pmwiki/pmwiki.php/Main/MohsScaleOfSciFiHardness">Mohs Scale of Sci-Fi Hardness</a>: The psi blades, psychic powers, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LegoGenetics" title="/pmwiki/pmwiki.php/Main/LegoGenetics">LEGO Genetics</a> push it toward the softer end of the scale.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MonsterProtectionRacket" title="/pmwiki/pmwiki.php/Main/MonsterProtectionRacket">Monster Protection Racket</a>: The main reason the Confederacy was experimenting on the Zerg.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mordor" title="/pmwiki/pmwiki.php/Main/Mordor">Mordor</a>: Char and so does <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Void</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MovingBuildings" title="/pmwiki/pmwiki.php/Main/MovingBuildings">Moving Buildings</a>: Most of the major Terran buildings can just pick up and move on whenever they wanted to.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeglectfulPrecursor" title="/pmwiki/pmwiki.php/Main/NeglectfulPrecursor">Neglectful Precursor</a>: Early on, it's revealed that the Xel'Naga were trying to create a perfect race: The Protoss were a failed experiment, but they succeeded with the Zerg, up until the point where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TurnedAgainstTheirMasters" title="/pmwiki/pmwiki.php/Main/TurnedAgainstTheirMasters">they got eaten</a>. <br><br>In the <em>Dark Templar</em> novels, however, it's revealed that the Xel'Naga were <span class="spoiler" title="you can set spoilers visible by default on your profile"><em>done</em> with the Protoss</span>; they had completed their work and left to create the Zerg as <span class="spoiler" title="you can set spoilers visible by default on your profile">a complementary species, which would have, in time, joined with the Protoss to create the Xel'Naga's descendants. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Someone</a> screwed that gig up</span>, though.<ul><li> Legacy of the Void revealed that <span class="spoiler" title="you can set spoilers visible by default on your profile">the Xel'Naga's MO actually forbid them from interface with other race. Three guess about who uplifted the Protoss</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeutralsCrittersAndCreeps" title="/pmwiki/pmwiki.php/Main/NeutralsCrittersAndCreeps">Neutrals, Critters, and Creeps</a>: Alien wildlife, such as Scantids and Rhinodons. These can be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeeingThroughAnothersEyes" title="/pmwiki/pmwiki.php/Main/SeeingThroughAnothersEyes">parasitized</a> by Zerg players for a free <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimalEyeSpy" title="/pmwiki/pmwiki.php/Main/AnimalEyeSpy">Animal Eye Spy</a>, as the AI ignores them. They also (harmlessly) explode into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingMakesAMushroom" title="/pmwiki/pmwiki.php/Main/EverythingMakesAMushroom">mushroom cloud</a> if clicked too often.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero" title="/pmwiki/pmwiki.php/Main/NiceJobBreakingItHero">Nice Job Breaking It, Hero!</a>: <em>Repeatedly</em>. To their credit though, they are usually aware of it and are appropriately horrified.<ul><li> Raynor, and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a>, help Mengsk defeat the Confederacy; only for Mengsk to prove himself to be just as bad as the Confederacy and proclaim himself Emperor.</li><li> In the end of the Protoss campaign in <em>Brood War</em>, the Protoss acknowledge that by using that Xel'Naga temple to destroy the Zerg on Shakuras they will greatly weaken Daggoth's forces, which in turn will help Kerrigan. They also state though that doing so is the only way that they will survive.</li><li> Zeratul's killing of Zasz was the first time a Cerebrate actually died, but it also linked his mind with the Overmind and revealed the location of Auir. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Zeratul later killed the second Overmind ending the UED's control of the Zerg, which meant that Kerrigan then had complete control of all the Zerg</span>.</li><li> The UED just made <em>everything</em> worse. Not that they can be considered any sort of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainProtagonist" title="/pmwiki/pmwiki.php/Main/VillainProtagonist">heroic</a>, of course.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceJobFixingItVillain" title="/pmwiki/pmwiki.php/Main/NiceJobFixingItVillain">Nice Job Fixing It, Villain!</a>: There are some decisions in the lore which ended up biting the people that made them.<ul><li> The Confederacy had been secretly using PSI Emitters to lure the Zerg to the fringe worlds such as Mar Sara. Arcturus then starts using the Emitters against the Confederacy which ultimately destroys them.</li><li> Arcturus leaves Kerrigan to die on Tarsonis after foiling the Protoss Fleet. The Overmind then remakes her into a Zerg-Terran hybrid who proceeds to manipulate Arcturus into helping her and then castrates his Dominion Forces by killing his best available General, Edmund Duke. Years later, Kerrigan pushes the Dominion to the brink of defeat before being purified by the Xel'naga artifact. Arcturus attacks the Umojan research facility where Kerrigan is being held in an attempt to capture her but she escapes, becomes the Queen of Blades again, and reunites the Zerg swarm before invading Korhal IV and ultimately killing Arcturus.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoMouth" title="/pmwiki/pmwiki.php/Main/NoMouth">No Mouth</a>: The Protoss.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoProductSafetyStandards" title="/pmwiki/pmwiki.php/Main/NoProductSafetyStandards">No Product Safety Standards</a>: Starcraft does this trope proud. Many of the Terrans' combat machines are out to passively or actively kill them. Most notable is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TransformingMecha" title="/pmwiki/pmwiki.php/Main/TransformingMecha">Viking</a>, a versatile transforming fighter which claims so many of its pilots, that they are known as 'Cherries' until they survive one transformation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed" title="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed">No Transhumanism Allowed</a>: In-universe. One of the reasons for Project Purification that was carried out by the UPL.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NothingIsScarier" title="/pmwiki/pmwiki.php/Main/NothingIsScarier">Nothing Is Scarier</a>: A retroactive Type 1 example: One complaint about the Hybrids in Starcraft II is that they aren't nearly as frightening in that game as they were in Starcraft I; and one reason why they were so scary in Starcraft I is that almost nothing was known about them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotPlayingFairWithResources" title="/pmwiki/pmwiki.php/Main/NotPlayingFairWithResources">Not Playing Fair With Resources</a>: The AI, on harder difficulty levels.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OldSchoolDogfight" title="/pmwiki/pmwiki.php/Main/OldSchoolDogfight">Old-School Dogfight</a>: Happens during some cutscenes in space.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OptionalStealth" title="/pmwiki/pmwiki.php/Main/OptionalStealth">Optional Stealth</a>: All three races offer a substantial variety of units, so you can employ a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZergRush" title="/pmwiki/pmwiki.php/Main/ZergRush">Zerg Rush</a>, use stealthy tactics or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoreDakka" title="/pmwiki/pmwiki.php/Main/MoreDakka">More Dakka</a>. For example, in the final mission in the original game, the nominal strategy is to wage a war of attrition using stealth as a secondary tactic, but a more spectacular and equally effective (though more costly) method is to simply build a massive force for an all-or-nothing battle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrganicTechnology" title="/pmwiki/pmwiki.php/Main/OrganicTechnology">Organic Technology</a>: Zerg buildings are grown out of a certain kind of Zerg.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrphanedPunchline" title="/pmwiki/pmwiki.php/Main/OrphanedPunchline">Orphaned Punchline</a>:<div class="indent"> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheComicStripPresents" title="/pmwiki/pmwiki.php/Series/TheComicStripPresents">"Answer that and stay fashionable!"</a></em></div></li></ul></div><p></p><div class="folderlabel" onclick="togglefolder('folder3');">&nbsp;&nbsp;&nbsp;&nbsp;Tropes P to Z&nbsp;</div><div id="folder3" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParasiticHorror" title="/pmwiki/pmwiki.php/Main/ParasiticHorror">Parasitic Horror</a>: Infested Terrans are stuffed so full of alien parasites they're pouring out of their spacesuits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetTerra" title="/pmwiki/pmwiki.php/Main/PlanetTerra">Planet Terra</a>: Humans are called Terrans, though their homeworld is still called Earth.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePoliticalOfficer" title="/pmwiki/pmwiki.php/Main/ThePoliticalOfficer">The Political Officer</a>: Judicator Aldaris is this to the player-character Executor in the first game. The very first words he say are a reminder to be more loyal to the Conclave than your predecessor. However, the player ultimately defies him and gets away with it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerEchoes" title="/pmwiki/pmwiki.php/Main/PowerEchoes">Power Echoes</a>: The Protoss units have this in varying degrees.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerGlows" title="/pmwiki/pmwiki.php/Main/PowerGlows">Power Glows</a>: Anything, unit or building, built by the Protoss.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrecursorKillers" title="/pmwiki/pmwiki.php/Main/PrecursorKillers">Precursor Killers</a>: The Zerg</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Precursors" title="/pmwiki/pmwiki.php/Main/Precursors">Precursors</a>: The Xel'naga.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProlongedVideoGameSequel" title="/pmwiki/pmwiki.php/Main/ProlongedVideoGameSequel">Prolonged Video Game Sequel</a>: The two campaigns for each race in the original <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Starcraft" title="/pmwiki/pmwiki.php/VideoGame/Starcraft">Starcraft</a></em> and its expansion <em>Brood War</em> had ten missions each, witht he exception of the second Protoss and Terran campaigns, that had 8. The campaign of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftIIWingsOfLiberty" title="/pmwiki/pmwiki.php/VideoGame/StarcraftIIWingsOfLiberty">Starcraft II Wings Of Liberty</a></em> is 29 missions long, eleven more missions than both Terran campaigns from vanilla and <em>Brood War</em> combined, while <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftIIHeartOfTheSwarm" title="/pmwiki/pmwiki.php/VideoGame/StarcraftIIHeartOfTheSwarm">Heart of the Swarm</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Videogame/StarcraftIILegacyOfTheVoid" title="/pmwiki/pmwiki.php/Videogame/StarcraftIILegacyOfTheVoid">Legacy of the Void</a></em> have 20 missions each.<p></p></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>: The protoss have them, and the potential for them is why the Zerg are interested in humanity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PuppeteerParasite" title="/pmwiki/pmwiki.php/Main/PuppeteerParasite">Puppeteer Parasite</a>: The Zerg.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PuttingOnTheReich" title="/pmwiki/pmwiki.php/Main/PuttingOnTheReich">Putting on the Reich</a>:<ul><li> The uniforms worn by United Earth Directorate officers resemble Nazi uniforms, right down to the grey overcoats and hats. Oddly, their bosses are a Frenchman and a Russian.</li><li> The UED gets bonus points for using the same interior decorators as Nazi Germany. Both have red flags with similar symbolism; the UED shows an eagle atop the Earth, echoing the Third Reich's eagle atop the swastika.</li><li> How about their predecessor, the United Powers League, who rounded up all cyborgs, mutants, punks and "undesirables" from Earth and either killed them or shot them off into space?</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledInSpace" title="/pmwiki/pmwiki.php/Main/RecycledInSpace">Recycled In Space</a>: Many elements from the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Warcraft" title="/pmwiki/pmwiki.php/VideoGame/Warcraft">Warcraft</a></em> games before it were recycled. This is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lampshade" title="/pmwiki/pmwiki.php/Main/Lampshade">lampshaded</a> by Artanis's "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/StopPokingMe" title="/pmwiki/pmwiki.php/Main/StopPokingMe">annoyed</a>" dialog in <em>Brood War</em>.<div class="indent"><strong>Artanis:</strong> This is not <em>Warcraft</em> in space! <br><strong>Artanis:</strong> It is, much more sophisticated! <br><strong>Artanis:</strong> I KNOW it's not 3-d! <br><strong>Artanis:</strong> What do I look like, an orc?</div><ul><li> Many of the elements were reused in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/WarcraftIII" title="/pmwiki/pmwiki.php/VideoGame/WarcraftIII">Warcraft III</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfThree" title="/pmwiki/pmwiki.php/Main/RuleOfThree">and then re-used</a> in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftII" title="/pmwiki/pmwiki.php/VideoGame/StarcraftII">Starcraft II</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealRobot" title="/pmwiki/pmwiki.php/Main/RealRobot">Real Robot</a>: Goliaths, Thors... you name em'.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealTimeStrategy" title="/pmwiki/pmwiki.php/Main/RealTimeStrategy">Real-Time Strategy</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedOniBlueOni" title="/pmwiki/pmwiki.php/Main/RedOniBlueOni">Red Oni, Blue Oni</a>: The Khalai and Dark Templar Protoss respectively. Where the Khalai tend towards the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">Large Ham</a> and boisterous (MY LIFE FOR AIUR!), the Dark Templar are much more subdued and sarcastic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RegeneratingShieldStaticHealth" title="/pmwiki/pmwiki.php/Main/RegeneratingShieldStaticHealth">Regenerating Shield, Static Health</a>: The Protoss faction. In contrast the Zerg regenerate health slowly while the Terrans have units that can restore the health of others, and neither faction has shields.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheRemnant" title="/pmwiki/pmwiki.php/Main/TheRemnant">The Remnant</a>: The Confederacy just won't seem to go away after being defeated by Mengsk. The UED still has pockets of forces left behind in the sector. Groups of both go to work as mercenaries. The novels also mention other rebel groups that fought the Confederacy separately...and then went right on to fight the Dominion, since it wasn't any improvement.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheRepublic" title="/pmwiki/pmwiki.php/Main/TheRepublic">The Republic</a>: The Umojan Protectorate, which of all the major Terran states seems to be the only one that's consistently "good".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculouslyFastConstruction" title="/pmwiki/pmwiki.php/Main/RidiculouslyFastConstruction">Ridiculously Fast Construction</a>:<ul><li> Justified for the Protoss, who warp in their structures and units already constructed from somewhere else.</li><li> Justified for the Terrans; all their buildings are prefabricated, and Starcraft II's better animations show that the SCV is operating an assembly armature that is included in the building kit, rather than welding the whole thing together by hand.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>: You are on a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoldTheLine" title="/pmwiki/pmwiki.php/Main/HoldTheLine">Hold the Line</a> mission and Kerrigan is involved in it? It's a safe bet that she's what you are protecting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScarabPower" title="/pmwiki/pmwiki.php/Main/ScarabPower">Scarab Power</a>: Scarabs are the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionBomb" title="/pmwiki/pmwiki.php/Main/ActionBomb">Action Bombs</a> created as the primary armament of Reavers, segmented robots similar in appearance to a pillbug. How the alien Protoss know what a scarab is is not explained.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SciFiWritersHaveNoSenseOfScale" title="/pmwiki/pmwiki.php/Main/SciFiWritersHaveNoSenseOfScale">Sci-Fi Writers Have No Sense of Scale</a>: When the Terrans first arrived to the Koprulu sector, they only numbered approximately 32,000. According to Blizzard's website, there are at least twelve <em>billion</em> Terrans in the Koprulu sector at the beginning of <em>Starcraft II</em>, and Raynor mentions Kerrigan killing eight billion people during the first game. He might have been including the Protoss but that still means you're looking at more than twelve billion humans living in the sector. <a class="urllink" href="http://sclegacy.com/forums/showthread.php?p=6756">As mentioned here,<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> to have this many people after only 240 years would require the population to at <em>least</em> double every decade, for 24 decades, not taking into account the deaths that occur from any number of natural and unnatural causes, because the Terrans have a history of civil wars.<ul><li> The original supercarriers all had a large supply of cryogenicly frozen embryos and fertilized eggs as well as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UterineReplicator" title="/pmwiki/pmwiki.php/Main/UterineReplicator">technology</a> for them to develop in (which would continue to work for 50 years until breaking down). Which could explain the initial population.</li><li> There's also the matter of the Dominion's military as a whole. The entire Dominion Fleet is stated in the Flashpoint novel to only be 50 ships, and over the course of both the finale of <em>Wings of Liberty</em> and the <em>Flashpoint</em> novel afterwards, nearly half of that is destroyed, yet the Dominion continues to be a major military power in the sector. The average lifespan of a Terran Marine when they're deployed is also <em>six seconds</em>, in spite of all of their armor and the technology that goes into creating them, yet they are able to constantly fight devastating wars and face enormous defeats with no sign of exhaustion until <em>Heart of the Swarm</em> when they're driven back to Korhal, which in itself is heavily defended. If a true faction with only 50 ships and that much of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedshirtArmy" title="/pmwiki/pmwiki.php/Main/RedshirtArmy">Redshirt Army</a> fought a war the Dominion would have been long dead by now, especially considering the large number of planets we see under Dominion control.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SequelHook" title="/pmwiki/pmwiki.php/Main/SequelHook">Sequel Hook</a>: Dark Origin. Which is notable due to the level being a unlockable secret. Unless you finished the previous mission within a certain amount of time, and haven't cheated, the player would never learn about the plot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShapeshiftingHealsWounds" title="/pmwiki/pmwiki.php/Main/ShapeshiftingHealsWounds">Shapeshifting Heals Wounds</a>:</li><li> Subverted in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftI" title="/pmwiki/pmwiki.php/VideoGame/StarcraftI">StarcraftI</a></em>: Zerg structures are made by a Drone making a cocoon that morphs into the structure, so if the drone is damaged the structure will be as well. Similarly, Zerg creatures that undergo metamorphosis into other forms retain their partial HP.<ul><li> This is reversed in <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftII" title="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a>, with any Zerg unit which undergoes a successful transformation healing to full.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShootTheShaggyDogStory" title="/pmwiki/pmwiki.php/Main/ShootTheShaggyDogStory">Shoot The Shaggy Dog Story</a>: By the end of <em>Brood War</em>, <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Confederacy was replaced by the equally rotten Terran Dominion, which was then devastated by the UED and Kerrigan. The Zerg invaded Auir, were stopped, but killed virtually the whole population first. The Protoss evacuated to Shakuras, but were still devastated and lost their leaders. The UED conquered the sector, but were defeated and wiped out by Kerrigan. The Zerg created a second Overmind (virtually undoing Tassadar's sacrifice), which was then killed. In the end, Kerrigan is the ruler of the sector, and the heroes have been defeated in virtually every way</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: With its <a class="twikilink" href="/pmwiki/pmwiki.php/ShoutOut/Starcraft" title="/pmwiki/pmwiki.php/ShoutOut/Starcraft">own page</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowsDamage" title="/pmwiki/pmwiki.php/Main/ShowsDamage">Shows Damage</a>: Type 2 example to buildings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SleeperStarship" title="/pmwiki/pmwiki.php/Main/SleeperStarship">Sleeper Starship</a>: The original Koprulu sector colonists were loaded onto a bunch of ships with experimental warp drives in cryo and spent thirty years in warp due to a computer error. The UED Expeditionary force used cryo as well though they made the trip in less than one year.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVsCynicism" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVsCynicism">Sliding Scale of Idealism vs. Cynicism</a>: The first game is somewhere in the middle but leans more towards the idealistic side. <em>Brood War</em> abruptly veers to the cynical side and keeps going until it becomes downright depressing. <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarCraftII" title="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a></em> turns things back towards the idealistic side of things.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSociopath" title="/pmwiki/pmwiki.php/Main/TheSociopath">The Sociopath</a>: Arcturus Mengsk. Reviewing his key personality traits is like reading through a sociopath diagnostic checklist: superficial charm, a grandiose sense of self, pathological lying, a penchant for manipulating others to achieve his own ends, an absolutely <em><strong>astonishing</strong></em> lack of empathy or remorse for any of his actions, and an insatiable lust for power and dominance that drives his every move. He unleashed the Zerg on an entire planet populated by <em>billions</em> of people just to overthrow a few hundred individuals at most and establish himself as the preeminent political figure among the Terrans of the Koprulu sector. He has no qualms whatsoever about sacrificing those closest to him if it suits his purposes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SomeKindOfForceField" title="/pmwiki/pmwiki.php/Main/SomeKindOfForceField">Some Kind of Force Field</a>: The Protoss shields are invisible until struck forcibly.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceWestern" title="/pmwiki/pmwiki.php/Main/SpaceWestern">Space Western</a>: The general feel of the story from the Terran point of view.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StatusQuoIsGod" title="/pmwiki/pmwiki.php/Main/StatusQuoIsGod">Status Quo Is God</a>: After 12 years without an official release, <em>Wings of Liberty</em> ended on the huge plot point of Kerrigan being de-infested. Guess what happens within the first few missions of <em>Heart of the Swarm?</em><ul><li> Worth noting, however, that all of this changed her personality quite significantly, stripping away most of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil" title="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil">Always Chaotic Evil</a> tendencies that her initial infestation added, best described by Kerrigan herself in <em>Brood War</em> as "Queen Bitch of the Universe."</li></ul></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StealthyMook" title="/pmwiki/pmwiki.php/Main/StealthyMook">Stealthy Mook</a>: Protoss Dark Templar and Observers are permanently invisible, while Terran Ghosts and Wraiths / Banshees use energy to do so. In the first game, the Protoss Arbiter turned all friendly units around it invisible, this role is taken over by the Mothership in the second. All Zerg units are invisible when burrowed, but only the Lurker can attack while burrowed, and only Roaches and Infestors can move while buried.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StuffBlowingUp" title="/pmwiki/pmwiki.php/Main/StuffBlowingUp">Stuff Blowing Up</a>: Everything explodes. This is most obvious with the Zerg, in that killing their living buildings results in the building splattering spectacularly in a shower of blood.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAlien" title="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAlien">Sufficiently Advanced Alien</a>: The Xel'Naga in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackStory" title="/pmwiki/pmwiki.php/Main/BackStory">Back Story</a>. Also, the Protoss <em>appear</em> to be this at first.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperCellReception" title="/pmwiki/pmwiki.php/Main/SuperCellReception">Super Cell Reception</a>:<ul><li> Whatever communications systems are used by Terrans work perfectly, no matter the terrain or distance. The closest it comes to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CellPhonesAreUseless" title="/pmwiki/pmwiki.php/Main/CellPhonesAreUseless">Cell Phones Are Useless</a> is in Brood War, where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ObviouslyEvil" title="/pmwiki/pmwiki.php/Main/ObviouslyEvil">Duran</a> claims Admiral Stukov's signal is breaking up, and that he can't see the Zerg swarms supposedly attacking the base, possibly due to a sensor malfunction. He is, of course, lying, as the player sees the Zerg attacking.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurprisinglySuddenDeath" title="/pmwiki/pmwiki.php/Main/SurprisinglySuddenDeath">Surprisingly Sudden Death</a>: The Zerg. 5 out of 13 unit types can invoke this at will.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySmallArmy" title="/pmwiki/pmwiki.php/Main/SuspiciouslySmallArmy">Suspiciously Small Army</a>: Rampant, in quite a few missions your enemies have very small armies, or at least small armies that you see. The later missions have larger bases with more troops, but you're still not going to be seeing enemy forces number in the thousands like you would expect from an actual army.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SweetHomeAlabama" title="/pmwiki/pmwiki.php/Main/SweetHomeAlabama">Sweet Home Alabama</a>: The Terrans. To the point where a cover of said song appears in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftII" title="/pmwiki/pmwiki.php/VideoGame/StarcraftII">Starcraft II</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TacticalRockPaperScissors" title="/pmwiki/pmwiki.php/Main/TacticalRockPaperScissors">Tactical Rock&#150;Paper&#150;Scissors</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Exaggerated" title="/pmwiki/pmwiki.php/Main/Exaggerated">Exaggerated</a>. In addition to some units only being able to hit airborne or ground-going enemies, the first game had damage types, which gained or lost effectiveness in percentages depending on the opposing unit's physical size (small vs large). The sequel added unit composition (biological vs armored) and replaced the percentages with specific, individual bonuses. And, always, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZergRush" title="/pmwiki/pmwiki.php/Main/ZergRush">lots of small cheap units</a> can easily gang up on a large expensive one. The end result is a tangled web of counters, with each unit being specifically strong against one unit from each race, and being weak to one of each as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeleportationRescue" title="/pmwiki/pmwiki.php/Main/TeleportationRescue">Teleportation Rescue</a>: In both games, Protoss Zealots disappear when killed, since their armor contains an emergency teleporter that instantly warps them back to Aiur (or their home base) when destroyed. Other troops like Dragoons and Immortals aren't so lucky (being grievously wounded Zealots in a battlesuit) and suffer <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalDeath" title="/pmwiki/pmwiki.php/Main/FinalDeath">Final Death</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemedCursor" title="/pmwiki/pmwiki.php/Main/ThemedCursor">Themed Cursor</a>: A sonar-like thing whose color changes depending on the alignment of whatever you're hovering it over. Green, yellow and red are friendly, neutral and enemies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheyLookLikeUsNow" title="/pmwiki/pmwiki.php/Main/TheyLookLikeUsNow">They Look Like Us Now</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TokenMinority" title="/pmwiki/pmwiki.php/Main/TokenMinority">Token Minority</a>: Prior to the Brood War Campaign, most of the Terran characters seen in Starcraft were either white or hispanic.<ul><li> Samir Duran. <span class="spoiler" title="you can set spoilers visible by default on your profile">Technically doesn't count due to being a shapeshifter.</span></li><li> Gabriel Tosh.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TouchedByVorlons" title="/pmwiki/pmwiki.php/Main/TouchedByVorlons">Touched By Xel'naga</a>: The Protoss and Zerg have been this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TradingBarsForStripes" title="/pmwiki/pmwiki.php/Main/TradingBarsForStripes">Trading Bars for Stripes</a>: Terran soldiers are recruited from prison and "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/Brainwashed" title="/pmwiki/pmwiki.php/Main/Brainwashed">neurally resocialized</a>".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TurnedAgainstTheirMasters" title="/pmwiki/pmwiki.php/Main/TurnedAgainstTheirMasters">Turned Against Their Masters</a>: Both the Protoss and the Zerg, against the Xel'Naga; the Protoss merely shooed them away from their world, while the Zerg killed most of them. The Protoss rebellion was just as violent as the Zerg's was. The only difference is the Zerg were all working towards assimilation of the Xel'Naga, and the Protoss were just killing anything that moved, including themselves. A good number of Xel'Naga were killed during the Protoss uprising.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnholyGround" title="/pmwiki/pmwiki.php/Main/UnholyGround">Unholy Ground</a>: Not literally unholy, but Zerg <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienKudzu" title="/pmwiki/pmwiki.php/Main/AlienKudzu">Creep</a> has a function analogous to <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/WarcraftIII" title="/pmwiki/pmwiki.php/VideoGame/WarcraftIII">Warcraft III</a></em> 's Blight, though biological in nature. Unlike Blight, it slowly dies if there are no Zerg structures to maintain it but Terran and Protoss structures cannot be built on it. In <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StarcraftII" title="/pmwiki/pmwiki.php/VideoGame/StarcraftII">Starcraft II</a></em>, Zerg units get a speed bonus if moving on Creep, and it can be spread via Creep Tumors and stationary Overlords in addition to buildings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UniversalUniverseTime" title="/pmwiki/pmwiki.php/Main/UniversalUniverseTime">Universal Universe Time</a>: The UED uses "standard hours," <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AvertedTrope" title="/pmwiki/pmwiki.php/Main/AvertedTrope">implying that there are non-standard hours.</a> Everyone else measures time in years, and <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> is that Raynor's Raiders use Earth-years despite having no reason to do so.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Unobtainium" title="/pmwiki/pmwiki.php/Main/Unobtainium">Unobtainium</a>: Neosteel, Khaydarin crystals and both Vespene Gas and "minerals".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UntranslatedCatchPhrase" title="/pmwiki/pmwiki.php/Main/UntranslatedCatchPhrase">Untranslated Catchphrase</a>: The Protoss have the <a class="urllink" href="http://starcraft.wikia.com/wiki/Khalani">Khalani<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> language, and the two phrases which have the most uses are "En Taro Adun/<span class="spoiler" title="you can set spoilers visible by default on your profile">Tassadar/Zeratul/Artanis</span>" and "Adun Toridas". The phrase basically means "In [name's] name," Adun is a historical messiah figure to the dark templar for preventing their genocide by the Conclave.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpgradeVsPrototypeFight" title="/pmwiki/pmwiki.php/Main/UpgradeVsPrototypeFight">Upgrade vs. Prototype Fight</a>: The <em>Frontline</em> comics features a dogfight between a Viking, the Dominion's new experimental transforming gunship, and the Wyrm, the Viking's vastly inferior prototype.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UsedFuture" title="/pmwiki/pmwiki.php/Main/UsedFuture">Used Future</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VestigialEmpire" title="/pmwiki/pmwiki.php/Main/VestigialEmpire">Vestigial Empire</a>: The Protoss empire, apparently even before the invasion of Aiur. It's implied this is because they've been fighting the Zerg for many years and are losing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AVillainNamedZrg" title="/pmwiki/pmwiki.php/Main/AVillainNamedZrg">A Villain Named "Z__rg"</a>: To quote that page, "What four tropers out of five thought when seeing the title."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkItOff" title="/pmwiki/pmwiki.php/Main/WalkItOff">Walk It Off</a>: Any Zerg unit or building slowly regenerates health. Protoss also slowly recharge their shields over time, which can make up between half to about ninty percent of their total effective health.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WaveMotionGun" title="/pmwiki/pmwiki.php/Main/WaveMotionGun">Wave-Motion Gun</a>: The Terran battlecruser has a rather powerful one, named after the <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/SpaceBattleshipYamato" title="/pmwiki/pmwiki.php/Anime/SpaceBattleshipYamato">trope namer itself</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeakTurretGun" title="/pmwiki/pmwiki.php/Main/WeakTurretGun">Weak Turret Gun</a>: Encountered frequently in installation missions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity" title="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity">With Great Power Comes Great Insanity</a>: Tends to happen to humans with high psi levels if not restrained quickly. The novels also provide this in device form, which blocks any attempts at mind reading at the cost of the user going slowly mental if it's used for more than a couple of hours. Which happens to both characters that had been using them for selfish reasons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfBadass" title="/pmwiki/pmwiki.php/Main/WorldOfBadass">World of Badass</a>: There are too many to count that even support units are this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfHam" title="/pmwiki/pmwiki.php/Main/WorldOfHam">World of Ham</a>: One way or the other, those who are not hams are easily numbered compared to those <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">who are</a>.</li></ul></div><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/SpiderMan">Spider-Man</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TropeOverdosed">Trope Overdosed</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Series/StargateAtlantis">Stargate Atlantis</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StalinVsMartians">Stalin vs. Martians</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/RealTimeStrategy">Real-Time Strategy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarCraftI">StarCraft I</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SpecOpsTheLine">Spec Ops: The Line</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MilitaryAndWarfareVideoGames">Military and Warfare Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarWarsBattlefront">Star Wars: Battlefront</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/DiabloIII">Diablo III</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/BlizzardEntertainment">Creator/Blizzard Entertainment</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarCraftI">StarCraft I</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/Sprung">Sprung</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TeenRating">Teen Rating</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarCraftI">StarCraft I</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarControl">Star Control</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/AppleMacintosh">UsefulNotes/Apple Macintosh</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarFlight">StarFlight</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarControl">Star Control</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionVideoGames">Science Fiction Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarCraftI">StarCraft I</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/SilentHill">Silent Hill</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeOverdosedFranchises">JustForFun/Trope Overdosed Franchises</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Series/Supernatural">Supernatural</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/SpiderMan">Spider-Man</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeOverdosed">JustForFun/Trope Overdosed</a>
+</li>
+ <li>
+<a href="/pmwiki/pmwiki.php/Series/StargateAtlantis">Stargate Atlantis</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Videogame/StarConflict">Star Conflict</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/WindowsGames">UsefulNotes/Windows Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/StarCraftII">StarCraft II</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/ShinMegamiTenseiStrangeJourney">Shin Megami Tensei: Strange Journey</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction">Military Science Fiction</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Starsiege">Starsiege</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['videogame']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

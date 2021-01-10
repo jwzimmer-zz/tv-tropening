@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>SHUFFLE! (Visual Novel) - TV Tropes</title>
+<meta name="description" content="SHUFFLE! is an H-Game developed by Navel that was adapted into a successful Harem Anime by Asread. The series is notable for its vivid character designs, &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/Shuffle" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="SHUFFLE! (Visual Novel) - TV Tropes" />
+<meta name="twitter:description" content="SHUFFLE! is an H-Game developed by Navel that was adapted into a successful Harem Anime by Asread. The series is notable for its vivid character designs, &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/ShuffleMT1.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="SHUFFLE! (Visual Novel) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/Shuffle" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/ShuffleMT1.jpg" />
+<meta property="og:description" content="SHUFFLE! is an H-Game developed by Navel that was adapted into a successful Harem Anime by Asread. The series is notable for its vivid character designs, catchy tunes, and interesting plot twists. While still a comedy, SHUFFLE! is far more &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/BioAugmentation" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/WillemDafoe" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VisualNovel/Shuffle?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VisualNovel/Shuffle">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VisualNovel.Shuffle">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=VisualNovel&target_title=Shuffle">
+<i class="fa fa-star-half-o"></i> 2 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VisualNovel.Shuffle">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VisualNovel/Shuffle?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VisualNovel" />
+<input type="hidden" id="title-hidden" value="Shuffle" />
+<input type="hidden" id="article_id" value="314068" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/Shuffle</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Visual Novel / </strong>
+SHUFFLE!
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VisualNovel",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "SHUFFLE!"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/Shuffle" class="subpage-link " title="The Anime page">
+<span class="wrapper"><span class="spi anime"></span>Anime</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Shuffle" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/Shuffle" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Fridge/Shuffle" class="subpage-link " title="The Fridge page">
+<span class="wrapper"><span class="spi fridge"></span>Fridge</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Shuffle" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/Shuffle" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TearJerker/Shuffle" class="subpage-link " title="The TearJerker page">
+<span class="wrapper"><span class="spi tearjerker"></span>TearJerker</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Shuffle" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Shuffle" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/Shuffle" class="subpage-link curr-subpage" title="The VisualNovel page">
+<span class="wrapper">VisualNovel</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Shuffle?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Shuffle?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Shuffle?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Shuffle?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Shuffle?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Shuffle?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Shuffle?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Shuffle?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Shuffle?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Shuffle?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Shuffle?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Shuffle?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Shuffle?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/Shuffle?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:100%"><img src="https://mediaproxy.tvtropes.org/width/350/https://static.tvtropes.org/pmwiki/pub/images/ShuffleMT1.jpg" class="embeddedimage" border="0" alt="https://mediaproxy.tvtropes.org/width/350/https://static.tvtropes.org/pmwiki/pub/images/ShuffleMT1.jpg" width="350" height="350"></div></div><div class="acaptionright" style="width:350px;"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnTheNextEpisodeOfCatchphrase" title="/pmwiki/pmwiki.php/Main/OnTheNextEpisodeOfCatchphrase">Which girl would you choose?</a></div><p></p><div class="indent"><strong>Eustoma:</strong> To put it plainly, you can choose to become king of the gods, or king of the demons. If you pick my Sia, you can use the power of the gods as much as you want! <br><strong>Forbesii:</strong> But choose Nerine, and all the power of the demons will be yours to use however your heart desires. <br><strong>Rin:</strong> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoudGulp" title="/pmwiki/pmwiki.php/Main/LoudGulp">*Gulp*</a></em><div class="indent">&mdash; "The Man Who Could Become a God or a Demon!"</div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>SHUFFLE!</em> is an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HGame" title="/pmwiki/pmwiki.php/Main/HGame">H-Game</a> developed by Navel that was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BleachedUnderpants" title="/pmwiki/pmwiki.php/Main/BleachedUnderpants">adapted</a> into a successful <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HaremGenre" title="/pmwiki/pmwiki.php/Main/HaremGenre">Harem Anime</a> by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Asread" title="/pmwiki/pmwiki.php/Creator/Asread">Asread</a>. The series is notable for its vivid character designs, catchy tunes, and interesting plot twists. While still a comedy, <em>SHUFFLE!</em> is far more emotional than many of its counterparts in the harem genre.</p><p>The series is set in a world much like our own, but which diverged from ours when, about a decade previous to the start of the story, a gateway to the world of the demons and the world of the gods appeared (in spite of their names, the gods and demons aren't any more or less evil or good than humans, the only difference from humans being their ability to use magic and their pointed triangular ears, and the only difference between the gods and the demons being the length of the ears). Gods and demons begin migrating to Earth, and in spite of the presence of magic and non-humans, everyday life continues on much as it had before.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>The story starts when the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent" title="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent">ordinary lives</a> of Rin and his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnluckyChildhoodFriend" title="/pmwiki/pmwiki.php/Main/UnluckyChildhoodFriend">childhood friend</a> Kaede is disrupted by the arrival of the king of the gods and the king of the demons, both of whom have decided the human Rin is to be the heir to their kingdoms... meaning that they each want him to marry their respective daughters, Lisianthus (Sia) of the gods and Nerine (Rin again in the Japanese version, Rina in the dub to avoid confusion with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnluckyEverydude" title="/pmwiki/pmwiki.php/Main/UnluckyEverydude">Unlucky Everydude</a>) of the demons. Soon thereafter the mysterious, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmotionlessGirl" title="/pmwiki/pmwiki.php/Main/EmotionlessGirl">emotionless</a> Primula (or Rimu/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS" title="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS">Rim</a>) shows up. Together with Kaede's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SempaiKohai" title="/pmwiki/pmwiki.php/Main/SempaiKohai">senpai</a> Asa, these are the five girls from whom Rin must choose his girlfriend.</p><p>There's also a second season, <em>SHUFFLE! Memories</em> (which is basically a recap of the first anime), an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpdatedRerelease" title="/pmwiki/pmwiki.php/Main/UpdatedRerelease">Updated Re-release</a> named <em>Shuffle! Essence+</em> and three spin-off games: <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/TickTack" title="/pmwiki/pmwiki.php/VisualNovel/TickTack">Tick! Tack!</a></em>, <em>Really? Really!</em> and <em>SHUFFLE! Love Rainbow</em>. The original game, <em>Tick! Tack!</em> and <em>Really? Really!</em> were officially released in English by Mangagamer.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>In May 29, 2020, <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/ShuffleEpisode2" title="/pmwiki/pmwiki.php/VisualNovel/ShuffleEpisode2">a sequel was released on PC.</a></p><p><strong>Please move any character tropes to the proper <a class="twikilink" href="/pmwiki/pmwiki.php/Characters/Shuffle" title="/pmwiki/pmwiki.php/Characters/Shuffle">character page</a>.</strong></p><p></p><hr><h2>This work provides examples of:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoDVisualsThreeDEffects" title="/pmwiki/pmwiki.php/Main/TwoDVisualsThreeDEffects">2D Visuals, 3D Effects</a>: The teacups at the love theme park in episode 18 stands out.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalKiss" title="/pmwiki/pmwiki.php/Main/AccidentalKiss">Accidental Kiss</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Refer to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CleaningUpRomanticLooseEnds" title="/pmwiki/pmwiki.php/Main/CleaningUpRomanticLooseEnds">Cleaning Up Romantic Loose Ends</a>. Completely by accident, Kaede ends up falling over Sia and kisses her due to the momentum. Doubles as <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoYay" title="/pmwiki/pmwiki.php/Main/HoYay">Les Yay</a> and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShipTease" title="/pmwiki/pmwiki.php/Main/ShipTease">Ship Tease</a>. It may be possible they become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchoolgirlLesbians" title="/pmwiki/pmwiki.php/Main/SchoolgirlLesbians">Schoolgirl Lesbians</a>, but it's never explained.</span></li><li> Happens in Really? Really! with Kaede falling on Rin.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalPervert" title="/pmwiki/pmwiki.php/Main/AccidentalPervert">Accidental Pervert</a>: Rin with just about any girl.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ACupAngst" title="/pmwiki/pmwiki.php/Main/ACupAngst">A-Cup Angst</a>: Mayumi<ul><li> It is not that she dislikes her breasts, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PetitePride" title="/pmwiki/pmwiki.php/Main/PetitePride">in fact far from it</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">it is just she hates being teased about it</a>. Really? Really! retcons her not disliking her breasts by having her adjust their size in multiple memories. She always gets called out on it and gets depressed that nobody goes along with it. Though another memory shows that she's about b-cup, meaning the teasing doesn't make any sense.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationDyeJob" title="/pmwiki/pmwiki.php/Main/AdaptationDyeJob">Adaptation Dye-Job</a>:<ul><li> Asa's hair in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualNovel" title="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a> is a different shade of green, along with slight hair colour changes in other characters as well.</li><li> Mayumi got a dye job to her <em>eyes</em>, of all things. Her heterochromia are much, much more obvious in the game than the show.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalVillainy" title="/pmwiki/pmwiki.php/Main/AdaptationalVillainy">Adaptational Villainy</a>: Toned down. Kaede in the visual novel is a normal and sweet <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YamatoNadeshiko" title="/pmwiki/pmwiki.php/Main/YamatoNadeshiko">Yamato Nadeshiko</a> who gladly backs down if Rin wanted to choose her. In the anime, <span class="spoiler" title="you can set spoilers visible by default on your profile">when Rin starts choosing Asa instead, Kaede snaps and becomes a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yandere" title="/pmwiki/pmwiki.php/Main/Yandere">Yandere</a> that ends up triggering Asa's own issues. However, they managed to get over their differences quickly before Kaede goes to the deep end.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AgainstTheSettingSun" title="/pmwiki/pmwiki.php/Main/AgainstTheSettingSun">Against the Setting Sun</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Rin confesses to Asa, and they kiss <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AgainstTheSettingSun" title="/pmwiki/pmwiki.php/Main/AgainstTheSettingSun">Against the Setting Sun</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateTimelineAncestry" title="/pmwiki/pmwiki.php/Main/AlternateTimelineAncestry">Alternate Timeline Ancestry</a>: "Tick! Tack!" has Rin, Nerine, Mayumi, and Itsuki <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeTravel" title="/pmwiki/pmwiki.php/Main/TimeTravel">Time Travel</a> to before Nerine's father Forbesii chooses his bride, the player's choices can change Nerine's mother from Sage to Ai. This also alters her physical features, personality, and memory.</li></ul>[[/folder]]<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmusingInjuries" title="/pmwiki/pmwiki.php/Main/AmusingInjuries">Amusing Injuries</a>: Mostly involving God's head being connected to Sia's choice of chair for the day.<ul><li> And this:</li></ul><div class="indent"> <strong>Itsuki:</strong> (Referring to Primula) Don't worry Rin, it's healthy to embrace your fetishes... <br><strong>Rin:</strong> You bastard... <br><strong>Mayumi:</strong> Huh, what do you mean?</div><div class="indent"> <strong>Itsuki:</strong> What I'm trying to say is that Rin is a Loli-Pedo...</div><div class="indent"> <strong>Rin:</strong> (SMASHES his fist into Itsuki's solar plexus) <br><strong>Itsuki:</strong>' Wheeeze.... (Dies)</div><ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Averted with Kaede's treatment of Rin in the past.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialHuman" title="/pmwiki/pmwiki.php/Main/ArtificialHuman">Artificial Human</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Primula and Nerine's clone Lycoris.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BatmanGambit" title="/pmwiki/pmwiki.php/Main/BatmanGambit">Batman Gambit</a>: Forbesii and Eustoma constantly use this to encourage Rin to choose their respective daughter over the other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BecauseYouWereNiceToMe" title="/pmwiki/pmwiki.php/Main/BecauseYouWereNiceToMe">Because You Were Nice to Me</a>: Both Sia and Nerine towards Rin.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Kaede,</span> see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClingyJealousGirl" title="/pmwiki/pmwiki.php/Main/ClingyJealousGirl">Clingy Jealous Girl</a> below.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes" title="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes">Beware the Nice Ones</a>:<ul><li> Nerine: sweet, kind and gentle, but say anything about Rin and you go explodey</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Kaede.</span> Very sweet, but take Rin away from her, and... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yandere" title="/pmwiki/pmwiki.php/Main/Yandere">hoo boy...</a> <span class="spoiler" title="you can set spoilers visible by default on your profile">Though only in the anime.</span>)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bishonen" title="/pmwiki/pmwiki.php/Main/Bishonen">Bish&#333;nen</a>: Arguably Rin, but YMMV.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bokukko" title="/pmwiki/pmwiki.php/Main/Bokukko">Bokukko</a>: Asa AND her Mommy Ama, the latter of whom amazingly is <em>still</em> girly in spite of her use of masculine pronouns to refer to herself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bookends" title="/pmwiki/pmwiki.php/Main/Bookends">Bookends</a>:<ul><li> The scene in the first episode where Kaede gives Rin his lunch while forgetting her own is replicated in the last episode, where <span class="spoiler" title="you can set spoilers visible by default on your profile"> Rin is replaced by Primula</span>.</li><li> The first and last episodes both show Kaede wrapped in a green towel after a bath.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakTheCutie" title="/pmwiki/pmwiki.php/Main/BreakTheCutie">Break the Cutie</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> This happened to Kaede when her mother died. She was so hopeless that Rin made her think that he was at fault so she'd at least live to <em>hate</em> him since she was just fading away otherwise.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BumblingDad" title="/pmwiki/pmwiki.php/Main/BumblingDad">Bumbling Dad</a>:<ul><li> Sia's father, Eustoma.</li><li> In the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HGame" title="/pmwiki/pmwiki.php/Main/HGame">H-Game</a>, both Sia and Nerine's dads.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CameraFiend" title="/pmwiki/pmwiki.php/Main/CameraFiend">Camera Fiend</a>: Mayumi. If there's a relationship development and she's around, it's getting recorded for posterity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchPhrase" title="/pmwiki/pmwiki.php/Main/CatchPhrase">Catchphrase</a>: "My my my!" from Kareha.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a>: There are numerous examples scattered throughout the series. A few examples: Sia <span class="spoiler" title="you can set spoilers visible by default on your profile">and mirrors</span>, the flashback with Kaede, and Rin getting <span class="spoiler" title="you can set spoilers visible by default on your profile">the boxcutter</span> in episode 23.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChildhoodFriendRomance" title="/pmwiki/pmwiki.php/Main/ChildhoodFriendRomance">Childhood Friend Romance</a>: Kaede, who tends to wait on Rin hand and foot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CleaningUpRomanticLooseEnds" title="/pmwiki/pmwiki.php/Main/CleaningUpRomanticLooseEnds">Cleaning Up Romantic Loose Ends</a>: Shown in one mini-scene in the ending credits of the final episode, rather than in the series itself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClingyJealousGirl" title="/pmwiki/pmwiki.php/Main/ClingyJealousGirl">Clingy Jealous Girl</a>: Some of the girls towards Rin, but <em>especially</em> Kaede. Five words: "Give Rin-kun... <em>back</em> to me..."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloneDegeneration" title="/pmwiki/pmwiki.php/Main/CloneDegeneration">Clone Degeneration</a>: The clone of <span class="spoiler" title="you can set spoilers visible by default on your profile">Nerine</span> was never expected to live very long.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColorCodedCharacters" title="/pmwiki/pmwiki.php/Main/ColorCodedCharacters">Color-Coded Characters</a>: Each of the eligible girls has a different hair colour, which can also be related to her personality and one of the five <a class="urllink" href="http://en.wikipedia.org/wiki/Five_elements_(Japanese_philosophy)">Japanese Elements<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.<ul><li> Kaede is orange haired, with a very down-to-earth and dependable attitude. (Earth)</li><li> Nerine has <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair" title="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair">blue hair</a>, with hidden depths and a mostly calm demeanor. (Water)</li><li> Asa has green hair, and tends to be energetic and capricious. (Wind)</li><li> Lisianthus has red hair, and a bit of a fiery temper (especially if you're her dad). (Fire)</li><li> Primula's hair is purple, and at first she seems to be an empty <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmotionlessGirl" title="/pmwiki/pmwiki.php/Main/EmotionlessGirl">Emotionless Girl</a>. (Void)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolBigSis" title="/pmwiki/pmwiki.php/Main/CoolBigSis">Cool Big Sis</a>: Asa-senpai, oh, so very, very cool.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CovertPervert" title="/pmwiki/pmwiki.php/Main/CovertPervert">Covert Pervert</a>: Kareha. Only covert in that she doesn't say out loud what she's imagining. However, whenever a situation that could be construed as romantic or perverted presents itself, she will <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Squee" title="/pmwiki/pmwiki.php/Main/Squee">Squee!</a> and glow.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CuttingOffTheBranches" title="/pmwiki/pmwiki.php/Main/CuttingOffTheBranches">Cutting Off the Branches</a>: Averted. Barring Primula, each girl wins in a different continuity or followup. Lisanthus gets the manga, Asa the anime, Really? Really! is a continuation of Kaede's path while <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/TickTack" title="/pmwiki/pmwiki.php/VisualNovel/TickTack">Tick! Tack!</a> is a sequel for Nerine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsNotEvil" title="/pmwiki/pmwiki.php/Main/DarkIsNotEvil">Dark Is Not Evil</a>: Demons here aren't evil. In fact, Forbesii is a really <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceGuy" title="/pmwiki/pmwiki.php/Main/NiceGuy">Nice Guy</a> though he is fairly savvy to common anime fetishes like maid and catgirl outfits.<div class="indent"> <strong>Forbesii:</strong> "My wife and Nerine-chan won't let me do chores at home because they're worried about what others might say..." <br><strong>Rin:</strong> "I bet the number of devil worshipers is decreasing..."</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DatePeepers" title="/pmwiki/pmwiki.php/Main/DatePeepers">Date Peepers</a>: When four people conspire to create the perfect date for a couple, don't expect them to let the date happen naturally.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirtyKid" title="/pmwiki/pmwiki.php/Main/DirtyKid">Dirty Kid</a>: There's a little kid called Masato who likes to pull up the girls' skirts at the tea shop Kareha works at. She's not very disturbed by it. The temp waitress, on the other hand, is terrified, for the simple reason that she <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoingCommando" title="/pmwiki/pmwiki.php/Main/GoingCommando">lost her panties</a> earlier.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToSuicide" title="/pmwiki/pmwiki.php/Main/DrivenToSuicide">Driven to Suicide</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Killing himself is the <em>ONLY</em> way that Rin can save Asa from dying. It forces her to use all the built up magic in her body to bring him back to life, which was the very problem that was killing her.</span></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Attempted by Kaede in the anime after she learns the truth about her mother's death. She only lives because Rin pulled her back a moment before a truck hit her.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmotionlessGirl" title="/pmwiki/pmwiki.php/Main/EmotionlessGirl">Emotionless Girl</a>: Primula. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Though as her own route reveals, its not that she doesn't have emotions, she just doesn't know how to express them. Her actual personality is really very bubbly and cheerful</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EstablishingCharacterMusic" title="/pmwiki/pmwiki.php/Main/EstablishingCharacterMusic">Establishing Character Music</a>: When the five main girls first appear in the anime, they are introduced with their own leitmotifs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtremeDoormat" title="/pmwiki/pmwiki.php/Main/ExtremeDoormat">Extreme Doormat</a>: Invoked by Kaede. She absolutely refuses to let Rin do <em>any</em> work without Rin taking a long time to convince her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyeCatch" title="/pmwiki/pmwiki.php/Main/EyeCatch">Eye Catch</a>: Either some happy frolicking cats if it's a happy episode or the girls looking serious if it's a dramatic episode.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyeScream" title="/pmwiki/pmwiki.php/Main/EyeScream">Eye Scream</a>: In their flashbacks together, <span class="spoiler" title="you can set spoilers visible by default on your profile">Kaede is seen dropping a boxcutter in such a way so that it slices Rin's eye.</span> He gets better, though.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyesAreUnbreakable" title="/pmwiki/pmwiki.php/Main/EyesAreUnbreakable">Eyes Are Unbreakable</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Rin's eye suffers no permanent damage from Kaede cutting it by dropping a boxcutter that cuts Rin's eye.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExcitedShowTitle" title="/pmwiki/pmwiki.php/Main/ExcitedShowTitle">Excited Show Title!</a>: Well, the title has an exclamation mark at the end.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanDisservice" title="/pmwiki/pmwiki.php/Main/FanDisservice">Fan Disservice</a>: Especially later on in the anime: if you see a naked breast, clearly, something is about to happen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fanservice" title="/pmwiki/pmwiki.php/Main/Fanservice">Fanservice</a>: Plenty all around. You see every major female character's breasts at one point or another, with <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FirstGirlWins" title="/pmwiki/pmwiki.php/Main/FirstGirlWins">Asa</a> being the first</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticArousal" title="/pmwiki/pmwiki.php/Main/FantasticArousal">Fantastic Arousal</a>: Nerine's ears.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FirstGirlWins" title="/pmwiki/pmwiki.php/Main/FirstGirlWins">First Girl Wins</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Averted BIG time</span> in the anime series. In the Visual Novel, there's no clear main heroine, so it's mostly averted.</li><li> Played straight <span class="spoiler" title="you can set spoilers visible by default on your profile"> in the manga with Lisianthus, although she's apparently <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarryThemAll" title="/pmwiki/pmwiki.php/Main/MarryThemAll">willing to share!</a></span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FloralThemeNaming" title="/pmwiki/pmwiki.php/Main/FloralThemeNaming">Floral Theme Naming</a>: A lot of names are themed around plants, especially flowers.<ul><li> Kaede (maple), <a class="urllink" href="http://en.wikipedia.org/wiki/Eustoma">Lisianthus (and Eustoma)<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://en.wikipedia.org/wiki/Nerine">Nerine<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>/<a class="urllink" href="http://en.wikipedia.org/wiki/Lycoris_(plant)">Lycoris<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and <a class="urllink" href="http://en.wikipedia.org/wiki/Primula">Primula<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> Mayumi <a class="urllink" href="http://en.wikipedia.org/wiki/Thyme">Thyme<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and Benibara <a class="urllink" href="http://en.wikipedia.org/wiki/Dianthus_superbus">Nadeshiko<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="urllink" href="http://en.wikipedia.org/wiki/Salvia">Sage<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and Ai (<a class="urllink" href="http://en.wikipedia.org/wiki/Indigofera">indigo plant<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>) - Forbesii's wife (former maid) and former fiancee.</li><li> <a class="urllink" href="http://en.wikipedia.org/wiki/Cineraria">Cineraria<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://en.wikipedia.org/wiki/Lilac">Lilac<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and <a class="urllink" href="http://en.wikipedia.org/wiki/Iris_(plant)">Iris<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> - Eustoma's wives.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CherryBlossomGirl" title="/pmwiki/pmwiki.php/Main/CherryBlossomGirl">Sakura</a> Yae, <a class="urllink" href="http://en.wikipedia.org/wiki/Asteraceae">Daisy<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and Erica Suzuran (<a class="urllink" href="http://en.wikipedia.org/wiki/Lily_of_the_Valley">lily-of-the-valley<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>) - in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpdatedRerelease" title="/pmwiki/pmwiki.php/Main/UpdatedRerelease">Essence+</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreakOut" title="/pmwiki/pmwiki.php/Main/FreakOut">Freak Out</a>: Kaede after her mother's death and in the anime <span class="spoiler" title="you can set spoilers visible by default on your profile">once Rin starts spending less time with her and more time with Asa</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Gainaxing" title="/pmwiki/pmwiki.php/Main/Gainaxing">Gainaxing</a>: Everyone, but Benibara-sensei deserves special mention.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenkiGirl" title="/pmwiki/pmwiki.php/Main/GenkiGirl">Genki Girl</a>: Asa and Sia</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a>: Kaede goes into one at her mother's funeral. She no longer had any will or reason to live due to the shock. Another occures when Rin starts spending more time with Asa.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HexagonalSpeechBalloon" title="/pmwiki/pmwiki.php/Main/HexagonalSpeechBalloon">Hexagonal Speech Balloon</a>: The anime frequently uses arrow-shaped boxes when someone is talking, both when they're too far away to be seen, and when they're off-screen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IdiotBall" title="/pmwiki/pmwiki.php/Main/IdiotBall">Idiot Ball</a>: Gets passed around in a few of the arcs, most notably, Asa's and Kaede's.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IllGirl" title="/pmwiki/pmwiki.php/Main/IllGirl">Ill Girl</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Asa and Primula</span>, at least to some extent.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantFanClub" title="/pmwiki/pmwiki.php/Main/InstantFanClub">Instant Fan Club</a>: parodied mercilessly. Just look at <em>Kitto Kitto Kaede</em> and <em>Ai Ai Asa</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia" title="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia">Laser-Guided Amnesia</a>:<ul><li> When <span class="spoiler" title="you can set spoilers visible by default on your profile">Primula</span> starts to lose control, the experimenters were planning on resetting her emotions to bring her back in line.</li><li> In the H-Game, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Primula</span> pulls it with Rin. In a really inappropriate moment.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LectureAsExposition" title="/pmwiki/pmwiki.php/Main/LectureAsExposition">Lecture as Exposition</a>: The first lecture is the history of the gate opening between the human world and the realms of the gods and demons. Another lecture later on refers to medieval alchemy, relating to the development of science and relating to magic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Leitmotif" title="/pmwiki/pmwiki.php/Main/Leitmotif">Leitmotif</a>: Some characters have this, the most obvious being Sia and Kaede, whose <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Leitmotif" title="/pmwiki/pmwiki.php/Main/Leitmotif">Leitmotifs</a> evolved into their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImageSong" title="/pmwiki/pmwiki.php/Main/ImageSong">Image Songs</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingEmotionalCrutch" title="/pmwiki/pmwiki.php/Main/LivingEmotionalCrutch">Living Emotional Crutch</a>: Caring for Rin props up Kaede's entire life. When this is removed, it's not pretty for anyone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LowerDeckEpisode" title="/pmwiki/pmwiki.php/Main/LowerDeckEpisode">Lower-Deck Episode</a>: The episode that featured Mayumi and Ms. Beni.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManlyTears" title="/pmwiki/pmwiki.php/Main/ManlyTears">Manly Tears</a>: For being the King of the Gods, Eustoma sheds quite a few of them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarryThemAll" title="/pmwiki/pmwiki.php/Main/MarryThemAll">Marry Them All</a>: Sia also notes that the world of the gods is polygamous, thus leaving things potentially open ended. A couple endings do build on this:<ul><li> Sia has two endings, one of which involves sharing Rin with her sister.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/TickTack" title="/pmwiki/pmwiki.php/VisualNovel/TickTack">Tick! Tack!</a></em>, a Nerine spinoff, has something similar as an option.</li><li> In Kareha's route Kaede and the other original Shuffle girls (apart from Asa, who is basically included in this decision despite her absence) pull Rin aside to let him know that while they're accepting of his relationship with her, they're not going to give up yet. When Rin tells Kareha about it, she just says that she doesn't know if she'd get jealous or not but if Rin wants to she doesn't really have any problem with the idea. She <em>is</em> from the world of the gods, even if she's been attending Rin's school for a few years. <span class="spoiler" title="you can set spoilers visible by default on your profile">In Kareha's epilogue, Tsubomi invites herself into the relationship.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaybeEverAfter" title="/pmwiki/pmwiki.php/Main/MaybeEverAfter">Maybe Ever After</a>: A few endings leave things open for Rin to be polygamous, though the story generally refrains from actually making it canon apart from very specific scenarios.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MistakenForServant" title="/pmwiki/pmwiki.php/Main/MistakenForServant">Mistaken for Servant</a>: Kaede is mistaken for Rin's maid when their new neighbors come to visit for the first time. Amusingly, she happily agrees that's more or less the case while Rin denies it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MuggleAndMagicalLoveTriangle" title="/pmwiki/pmwiki.php/Main/MuggleAndMagicalLoveTriangle">Muggle-and-Magical Love Triangle</a>: More like love hexagon, but Rin has to choose between the obviously magical Sia, Primula, or Rina, the completely human Kaede, or the almost completely human&mdash;save for having contained magical powers&mdash;Asa. In the anime at least, <span class="spoiler" title="you can set spoilers visible by default on your profile">Asa wins.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultipleChoicePast" title="/pmwiki/pmwiki.php/Main/MultipleChoicePast">Multiple-Choice Past</a>: Inverted with the final choice of Really? Really!, where you're asked by Kaede if you prefer Asa's hair long or short. A few in-game minutes later, Asa appears with the hair length you chose, despite her not even being near you when you answered.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MythologyGag" title="/pmwiki/pmwiki.php/Main/MythologyGag">Mythology Gag</a>: The covers of both the anime and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualNovel" title="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novels</a> shows our heroines standing among sunflowers, even though they're never shown anywhere else in the series.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewTransferStudent" title="/pmwiki/pmwiki.php/Main/NewTransferStudent">New Transfer Student</a>: Lisianthus and Nerine. <span class="spoiler" title="you can set spoilers visible by default on your profile">Primula starts school as well, one grade below the others</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoAntagonist" title="/pmwiki/pmwiki.php/Main/NoAntagonist">No Antagonist</a>: There's no bad guy, of course, but all the girls generally get along, so there aren't any real conflicts among them if Rin happens to like someone else. So the story is generally pretty free of conflict.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Ojou" title="/pmwiki/pmwiki.php/Main/Ojou">Ojou</a>: Lisianthus and Nerine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlderThanTheyLook" title="/pmwiki/pmwiki.php/Main/OlderThanTheyLook">Older Than They Look</a>:<ul><li> Primula has the appearance of a twelve/thirteen year-old girl. She's actually only one year younger than the main characters, who are in high school.</li><li> Ama, Asa's mother also qualifies. She's way <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OlderThanTheyLook" title="/pmwiki/pmwiki.php/Main/OlderThanTheyLook">older than she looks</a>. It seems like she's as old as Asa, and Itsuki hits on her before they're introduced.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneSteveLimit" title="/pmwiki/pmwiki.php/Main/OneSteveLimit">One Steve Limit</a>: There are two Rins. The protagonist, and Nerine, who is called Rin <span class="spoiler" title="you can set spoilers visible by default on your profile">because Lycoris named her after Rin when they met eight years ago</span>. Primula is shortened to Rim to add to the confusion. The English dub tries to makes things clearer by changing Nerine's nickname to Rina and Primula's to Rimu.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWordTitle" title="/pmwiki/pmwiki.php/Main/OneWordTitle">One-Word Title</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlySaneMan" title="/pmwiki/pmwiki.php/Main/OnlySaneMan">Only Sane Man</a>: Let's just say that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnluckyEverydude" title="/pmwiki/pmwiki.php/Main/UnluckyEverydude">Rin</a>'s friends/love interests have some interesting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurvivorsGuilt" title="/pmwiki/pmwiki.php/Main/SurvivorsGuilt">personal</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DysfunctionJunction" title="/pmwiki/pmwiki.php/Main/DysfunctionJunction">issues</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlySixFaces" title="/pmwiki/pmwiki.php/Main/OnlySixFaces">Only Six Faces</a>: Seriously, half of the characters are palette swaps.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent" title="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent">Ordinary High-School Student</a>: Rin, Kaede and Asa.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">Our Demons Are Different</a>: The only notable difference between demons, gods, and humans is that the two former can use magic and have longer ears.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PalsWithJesus" title="/pmwiki/pmwiki.php/Main/PalsWithJesus">Pals with Jesus</a>: By the start of the series, the god and demon worlds have become so assimilated with the human world that nearly half of Rin's class is made up of them, and Mayumi is actually a half-demon (though the only thing that gives her away is her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarkOfTheSupernatural" title="/pmwiki/pmwiki.php/Main/MarkOfTheSupernatural">heterochromia eyes</a>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PantyShot" title="/pmwiki/pmwiki.php/Main/PantyShot">Panty Shot</a>: The camera is often set far far lower than it has any other reason to be. Funimation's previews of the anime uses nothing but panty shots as the entire selling point.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParentalAbandonment" title="/pmwiki/pmwiki.php/Main/ParentalAbandonment">Parental Abandonment</a>: Rin and Kaede: <span class="spoiler" title="you can set spoilers visible by default on your profile">Rin's parents and Kaede's mom died in the same car crush and their tutor, Kaede's dad, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisappearedDad" title="/pmwiki/pmwiki.php/Main/DisappearedDad">is frequently away in business</a>.</span> Also, Sia and Nerine's mothers are never shown. At least not in the anime; their mothers both appear in the game sequels <em>Tick! Tack!</em> and <em>Really? Really!</em>, with Nerine's mother being at the center of the plot of <em>Tick! Tack!</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PeopleJars" title="/pmwiki/pmwiki.php/Main/PeopleJars">People Jars</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Primula and Ama</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PleaseDontLeaveMe" title="/pmwiki/pmwiki.php/Main/PleaseDontLeaveMe">Please Don't Leave Me</a>: Kaede does this several times to Rin late in the anime. Once while <span class="spoiler" title="you can set spoilers visible by default on your profile"> naked and holding him in bed</span>, and later when Rin makes the decision <span class="spoiler" title="you can set spoilers visible by default on your profile"> to move out of her house</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerOfLove" title="/pmwiki/pmwiki.php/Main/PowerOfLove">Power of Love</a>:<ul><li> Primula is saved via <span class="spoiler" title="you can set spoilers visible by default on your profile">Lycoris/Nerine</span> and Rin's love for her.</li><li> In the game, Primula's storyline includes<span class="spoiler" title="you can set spoilers visible by default on your profile"> her wiping Rin's mind so he won't miss her when she leaves. The next time he sees her, the memory is miraculously restored.</span> The Devil King gives some elaborate theory as to why this could have happened, but in the end says they might just as well call it... That's right. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Primula stays.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PetitePride" title="/pmwiki/pmwiki.php/Main/PetitePride">Petite Pride</a>: Mayumi, who wears it as a badge of honour. "<a class="twikilink" href="/pmwiki/pmwiki.php/Manga/LuckyStar" title="/pmwiki/pmwiki.php/Manga/LuckyStar">A flat chest is a symbol of status! A rarity!</a>"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityEnsues" title="/pmwiki/pmwiki.php/Main/RealityEnsues">Reality Ensues</a>: In episode 4 of the anime, after Nerine nearly blows up a gymnasium when she attacks two delinquents for insulting Rin, she and Rin are summoned to Benibara's office.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecurringExtra" title="/pmwiki/pmwiki.php/Main/RecurringExtra">Recurring Extra</a>: Masato, a kid who appears in a lot of Navel and Basil games, as <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/SoulLink" title="/pmwiki/pmwiki.php/VisualNovel/SoulLink">Soul Link</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/WeWithoutWings" title="/pmwiki/pmwiki.php/VisualNovel/WeWithoutWings">We Without Wings</a></em>, and mischievously lifts the skirts of the heroines.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RelaxOVision" title="/pmwiki/pmwiki.php/Main/RelaxOVision">Relax-o-Vision</a>: Used when Sia is beating up her father with a chair, when he showed her a wedding dress at the wrong moment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RememberTheNewGuy" title="/pmwiki/pmwiki.php/Main/RememberTheNewGuy">Remember the New Guy?</a>: Sakura in Really? Really!. She's Rin's and Kaede's childhood friend who lives in the same town, but hasn't been introduced in the anime or game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>:<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarryThemAll" title="/pmwiki/pmwiki.php/Main/MarryThemAll">Fortunately, the world of gods allows polygamy!</a> It's never <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatCouldHaveBeen" title="/pmwiki/pmwiki.php/Main/WhatCouldHaveBeen">followed through on</a> in the game outside of the ending of Primula's route, though.</li><li> In the dub, Kitto Kitto Kaede (now the Knights of Kissing Kaede) always follow up their name with "...Not the guys with the sheets."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScareChord" title="/pmwiki/pmwiki.php/Main/ScareChord">Scare Chord</a>: A couple in the game. Uses such as when Benibara Nadeshiko first appears or when Rin and Kaede realize their history teacher may give them a really tough assignment are borderline parody.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScaryShinyGlasses" title="/pmwiki/pmwiki.php/Main/ScaryShinyGlasses">Scary Shiny Glasses</a>: Used to full effect in the anime by Itsuki numerous times. However, it is usually done as emphasis of expression, not really for intimidation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecondYearProtagonist" title="/pmwiki/pmwiki.php/Main/SecondYearProtagonist">Second Year Protagonist</a>: Asa and Kareha are older, Primula is younger, no graduation in sight and everyone is comfortable.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SempaiKohai" title="/pmwiki/pmwiki.php/Main/SempaiKohai">Sempai/Kohai</a>: Used to address Asa until late in her route. She gets irritated over it when they start dating.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> In the anime, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassAdorable" title="/pmwiki/pmwiki.php/Main/BadassAdorable">Badass Adorable</a> cat that appears in the show-to-commercials transition ends his combo with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StreetFighter" title="/pmwiki/pmwiki.php/Main/StreetFighter">Hadoken.</a></li><li> There's a <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Gundam" title="/pmwiki/pmwiki.php/Franchise/Gundam">Nyandam</a> transformable action figure at a toy store.</li><li> Really? Really! has scenes <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/AceAttorney" title="/pmwiki/pmwiki.php/Franchise/AceAttorney">similar to a certain series' cross-examination.</a> It even has Rin point his finger out and shout "Really!" (which sounds similar to "Igiari", the Japanese equivalent of "Objection") when you present evidence of a contradiction.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SickEpisode" title="/pmwiki/pmwiki.php/Main/SickEpisode">Sick Episode</a>: Primula in episodes 12-13, and Asa gets a few episodes due to <span class="spoiler" title="you can set spoilers visible by default on your profile"> a childhood condition that comes back full force.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SplitPersonality" title="/pmwiki/pmwiki.php/Main/SplitPersonality">Split Personality</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Nerine's clone, Lycoris, is a partial example, and Sia also has the soul of her dead sister living inside her.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StepfordSmiler" title="/pmwiki/pmwiki.php/Main/StepfordSmiler">Stepford Smiler</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Kaede</span> gives off these vibes, before <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yandere" title="/pmwiki/pmwiki.php/Main/Yandere">flipping out.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TantrumThrowing" title="/pmwiki/pmwiki.php/Main/TantrumThrowing">Tantrum Throwing</a>: In the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualNovel" title="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a>, when Rin walks on Primula while she's changing, she starts throwing pillows at him. He mentally notes that if he doesn't leave, she will start throwing heavier things. And when she runs out of heavy things, she will start throwing magic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemeNaming" title="/pmwiki/pmwiki.php/Main/ThemeNaming">Theme Naming</a>: Most of the characters are named for plants. Kaede is maple, Primula is a kind of flower, Nerine is a genus of flowers, Benibara means red rose and then more obvious names like Daisy or Sakura.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemeTuneCameo" title="/pmwiki/pmwiki.php/Main/ThemeTuneCameo">Theme Tune Cameo</a>: In the anime episode "I Wanted To See You!", the theme song is played in the arcade where Rin meets Primula.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists" title="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists">There Are No Therapists</a>: Being the main character means having to take over all the responsibilities.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrappedInThePast" title="/pmwiki/pmwiki.php/Main/TrappedInThePast">Trapped in the Past</a>: The main plot of <em>Tick! Tack!</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoTeacherSchool" title="/pmwiki/pmwiki.php/Main/TwoTeacherSchool">Two-Teacher School</a>: Ms. Beni is the only faculty member ever shown at school.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwantedHarem" title="/pmwiki/pmwiki.php/Main/UnwantedHarem">Unwanted Harem</a>:<ul><li> All the pressure to choose a romantic interest among the 5 girls ends up leading to each of them developing their own problems over the whole issue.</li><li> It gets worse in the manga adaptation for <em>Tick! Tack!</em> and <em>Really? Really!</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaponOfChoice" title="/pmwiki/pmwiki.php/Main/WeaponOfChoice">Weapon of Choice</a>: Sia <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hammerspace" title="/pmwiki/pmwiki.php/Main/Hammerspace">always has a chair at the ready</a> to wallop her father with. Folding, Patio, School Desk, Recliner.. She has a LOT of chairs to choose from. It may even be that she has a spell to summon chairs. It would be useful for dinner parties where more guests show up than you have chairs, but, obviously, Sia has found another use for it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: Episode 19 is when it becomes obvious that this isn't just another happy comedy harem series.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamShot" title="/pmwiki/pmwiki.php/Main/WhamShot">Wham Shot</a>: In Episode 19, Primula sees something, has an immediate <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">Oh, Crap!</a> reaction, and rushes downstairs. It turns out that <span class="spoiler" title="you can set spoilers visible by default on your profile">Kaede found some photos of Rin with Asa, took a marker and drew over Asa's face. While she'd always been somewhat unstable, this foreshadows her jealousy and rage toward Asa</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse" title="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse">What Happened to the Mouse?</a>: So, what did happen to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantFanclub" title="/pmwiki/pmwiki.php/Main/InstantFanclub">Instant Fanclub</a> each girl developed, anyhow? (Though their absence can be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandWaved" title="/pmwiki/pmwiki.php/Main/HandWaved">Hand Waved</a> by noting that it would have been <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodDissonance" title="/pmwiki/pmwiki.php/Main/MoodDissonance">Mood Dissonance</a> to have their presence in the second half of the series.) Perhaps explained by the action of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Gonk" title="/pmwiki/pmwiki.php/Main/Gonk">Gonk</a> stalking the main cast every now and then by the final episode <span class="spoiler" title="you can set spoilers visible by default on your profile"> he was thanking Rin for choosing Asa making the other girls available, so the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InstantFanclub" title="/pmwiki/pmwiki.php/Main/InstantFanclub">Instant Fanclubs</a> were no longer needed to deal with Rin and they simply disbanded.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YamatoNadeshiko" title="/pmwiki/pmwiki.php/Main/YamatoNadeshiko">Yamato Nadeshiko</a>:<ul><li> Three out of the five girls in the harem are variations on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YamatoNadeshiko" title="/pmwiki/pmwiki.php/Main/YamatoNadeshiko">Yamato Nadeshiko</a> to varying degrees.</li><li> Despite the teacher's last name being Nadeshiko, it's actually averted with her.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yandere" title="/pmwiki/pmwiki.php/Main/Yandere">Yandere</a>: Anime only: <span class="spoiler" title="you can set spoilers visible by default on your profile">Kaede starts heading down this path very quickly near the end when it becomes clear she didn't get Rin.</span> Subverted. <span class="spoiler" title="you can set spoilers visible by default on your profile"> She pushes Asa down.</span> Even that made her feel horrible. It might have been worse if Rin hadn't been there though.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair" title="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair">You Gotta Have Blue Hair</a>: And Orange, Green, Red, Yellow, Purple...</li></ul><hr>
+</div>
+<div class="alt-titles section section-fact">
+<h3>
+<strong>Alternative Title(s):</strong>
+<span>Shuffle</span> </h3>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/Shitsurakuen">Shitsurakuen</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/HaremGenre/AnimeAndManga">HaremGenre/Anime & Manga</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/LightNovel/SisterPrincess">Sister Princess</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/KajiriKamuiKagura">Kajiri Kamui Kagura</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyVisualNovels">Fantasy Visual Novels</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/ShuffleEpisode2">SHUFFLE! Episode 2</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/SerialExperimentsLain">Serial Experiments Lain</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheAnimeOfTheGame">The Anime of the Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SiN">SiN</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/ShinkonGattaiGodannar">Shinkon Gattai Godannar!!</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Ecchi">Ecchi</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/SisconAniToBroconImoutoGaShoujikiNiNattara">Siscon Ani To Brocon Imouto Ga Shoujiki Ni Nattara</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/ShowByRock">Show by Rock!!</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/NakamuraProductions">Creator/Nakamura Productions</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/ShugoChara">Shugo Chara!</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/ShinyDays">Shiny Days</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HGame">H-Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/ShuffleEpisode2">SHUFFLE! Episode 2</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/ShamanKing">Shaman King</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AnimeAndMangaOfThe2000s">Anime and Manga of the 2000s</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/SkipBeat">Skip Beat!</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/LightNovel/ShakuganNoShana">Shakugan no Shana</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AnimeOfThe2000s">Anime of the 2000s</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/Sidooh">Sidooh</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/KajiriKamuiKagura">Kajiri Kamui Kagura</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/ShuffleEpisode2">SHUFFLE! Episode 2</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/ShrineOfTheMorningMist">Shrine of the Morning Mist</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Anime">Anime</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/ShugoChara">Shugo Chara!</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/ShowByRock">Show by Rock!!</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Funimation">Creator/Funimation</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/LightNovel/SkyWizardsAcademy">Sky Wizards Academy</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

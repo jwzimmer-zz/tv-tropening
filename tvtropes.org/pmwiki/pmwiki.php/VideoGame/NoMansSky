@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>No Man's Sky (Video Game) - TV Tropes</title>
+<meta name="description" content="A description of tropes appearing in No Man's Sky. Imagine being on an alien planet in a science fiction Video Game, gazing out into the Alien Sky above, &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/NoMansSky" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="No Man's Sky (Video Game) - TV Tropes" />
+<meta name="twitter:description" content="A description of tropes appearing in No Man's Sky. Imagine being on an alien planet in a science fiction Video Game, gazing out into the Alien Sky above, &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/no_mans_sky.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="No Man's Sky (Video Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/NoMansSky" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/no_mans_sky.jpg" />
+<meta property="og:description" content="Imagine being on an alien planet in a science fiction Video Game, gazing out into the Alien Sky above, then hopping into your small fighter and going out to explore the other planets in that bizarre, unknown sky. That is No Man's Sky, a Survival &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ForbiddenZone" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Wrestling/AndreTheGiant" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VideoGame/NoMansSky?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VideoGame/NoMansSky">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VideoGame.NoMansSky">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=VideoGame&target_title=NoMansSky">
+<i class="fa fa-star-half-o"></i> 2 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VideoGame.NoMansSky">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VideoGame/NoMansSky?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VideoGame" />
+<input type="hidden" id="title-hidden" value="NoMansSky" />
+<input type="hidden" id="article_id" value="444029" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VideoGame/NoMansSky</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Video Game / </strong>
+No Man's Sky
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VideoGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "No Man's Sky"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/AwesomeMusic/NoMansSky" class="subpage-link " title="The AwesomeMusic page">
+<span class="wrapper"><span class="spi awesomemusic"></span>AwesomeMusic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/NoMansSky" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/NoMansSky" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/NightmareFuel/NoMansSky" class="subpage-link " title="The NightmareFuel page">
+<span class="wrapper"><span class="spi nightmarefuel"></span>NightmareFuel</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TearJerker/NoMansSky" class="subpage-link " title="The TearJerker page">
+<span class="wrapper"><span class="spi tearjerker"></span>TearJerker</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/NoMansSky" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoMansSky" class="subpage-link curr-subpage" title="The VideoGame page">
+<span class="wrapper"><span class="spi videogame"></span>VideoGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/NoMansSky" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/NoMansSky" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/AntiFrustrationFeatures/NoMansSky" class="subpage-link " title="The AntiFrustrationFeatures page">
+<span class="wrapper">AntiFrustratio&#8230;</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/NoMansSky?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/NoMansSky?action=edit">FanficRecs</option>
+ <option value="/pmwiki/pmwiki.php/FanWorks/NoMansSky?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/NoMansSky?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/NoMansSky?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/NoMansSky?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/NoMansSky?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/NoMansSky?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/NoMansSky?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/NoMansSky?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/NoMansSky?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/NoMansSky?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/NoMansSky?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:100%"><img src="https://static.tvtropes.org/pmwiki/pub/images/no_mans_sky.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/no_mans_sky.jpg" width="350" height="350"></div></div><div class="acaptionright" style="width:350px;"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Tagline" title="/pmwiki/pmwiki.php/Main/Tagline">Every planet procedural. Every planet unique. Every planet unexplored.</a></div><p></p><div class="indent"><em>"I've seen things...a few things before. Left the sun and moon behind. Galaxies waiting to be found. Planets...rich in resources. Battles to be fought. Treasures unknown. A universe...you wouldn't</em> <strong><em>believe</em></strong>".<div class="indent">&mdash; <strong><a class="urllink" href="https://www.youtube.com/watch?v=-UVQ14JrfRI">"I've Seen Things" trailer<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></strong>, <strong>narrated by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RutgerHauer" title="/pmwiki/pmwiki.php/Creator/RutgerHauer">Rutger Hauer</a></strong></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>Imagine being on an alien planet in a science fiction <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGame" title="/pmwiki/pmwiki.php/Main/VideoGame">Video Game</a>, gazing out into the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSky" title="/pmwiki/pmwiki.php/Main/AlienSky">Alien Sky</a> above, then hopping into your small fighter and going out to explore the other planets in that bizarre, unknown sky. That is <em>No Man's Sky</em>, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurvivalSandbox" title="/pmwiki/pmwiki.php/Main/SurvivalSandbox">Survival Sandbox</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Elite" title="/pmwiki/pmwiki.php/VideoGame/Elite">Elite</a></em>-like from <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HelloGames" title="/pmwiki/pmwiki.php/Creator/HelloGames">Hello Games</a> that was initially released in August 2016 for <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/PlayStation4" title="/pmwiki/pmwiki.php/UsefulNotes/PlayStation4">PlayStation 4</a> and the PC, and in July 2018 for the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/XboxOne" title="/pmwiki/pmwiki.php/UsefulNotes/XboxOne">Xbox One</a>. The Xbox One release was tied with the release of the <em>NEXT</em> update in July 2018, which introduced so many changes and enhancements it was considered by many news outlets as an outright relaunch and many even ended up reviewing the game again.</p><p>There is a heavy emphasis on exploration and discovery where players are able to get into a ship, take off of one planet, and then go and explore other <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProceduralGeneration" title="/pmwiki/pmwiki.php/Main/ProceduralGeneration">procedurally generated</a> planets in that system and the Galaxy. The player seeks to discover strange new life, valuable resources that can be used to upgrade one's ship, tools, and EV Suit, relics of civilisations long gone, all layered on top of the game's goal to get to the centre of the Galaxy, where an ominous-looking <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnrealisticBlackHole" title="/pmwiki/pmwiki.php/Main/UnrealisticBlackHole">Black Hole</a> lies.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>There's also a large emphasis on survival: if you don't upgrade your ship, tools, or suit you could very well end up dead <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou" title="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou">since everything from interstellar pirates to rampaging wildlife can very well kill you</a>, up to and including a bunch of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotWar" title="/pmwiki/pmwiki.php/Main/RobotWar">planetary preservation robots</a> called The Sentinels.</p><p><a class="twikilink" href="/pmwiki/pmwiki.php/AwesomeMusic/NoMansSky" title="/pmwiki/pmwiki.php/AwesomeMusic/NoMansSky">It also features music by</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Music/SixtyFiveDaysOfStatic" title="/pmwiki/pmwiki.php/Music/SixtyFiveDaysOfStatic">65daysofstatic</a>.</p><p>The biggest selling point of <em>No Man's Sky</em> is its massive number of procedurally-generated planets, the maximum number of which possible is 72,057,594,037,927,936 (or 2^56, the number 2 to the 56th power) spreading across 255 galaxies<span class="notelabel" onclick="togglenote('note0cmh1');"><sup>note&nbsp;</sup></span><span id="note0cmh1" class="inlinefolder" isnote="true" onclick="togglenote('note0cmh1');" style="cursor:pointer;font-size:smaller;display:none;">the galaxy seed would have allowed 256 galaxies, but seed 0 was not used. More info <a class="urllink" href="https://www.reddit.com/r/NoMansSkyTheGame/comments/4yx90h">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span>. Even at a discovery rate of two planets per second, it would take over 1.1 billion years to discover all those planets. <a class="urllink" href="https://en.wikipedia.org/wiki/Timeline_of_the_far_future#Astronomical_events">By then<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, the Sun would be 10% brighter than it is today, becoming hotter, with the Earth turning into a sauna as a result.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>Now with a <a class="twikilink" href="/pmwiki/pmwiki.php/Characters/NoMansSky" title="/pmwiki/pmwiki.php/Characters/NoMansSky">character page</a>. Please move all character related tropes there.</p><p></p><hr><h2>TROPES LIST (Discovered by HelloGames - Sean):</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality" title="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality">Acceptable Breaks from Reality</a>:<ul><li> Planetary systems are geocentric, with a star orbiting the planets while the planets themselves remain static and do not rotate; doing so saved a lot of work on implementing planetary rotation, translation, planetary time, and solving <a class="urllink" href="https://en.wikipedia.org/wiki/Timekeeping_on_Mars">the still unsolved issue of how to keep time in different planets<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. For that matter, there isn't even a star - just an illumination source on the map.</li><li> If planets were as close to each other in real life as they are in game, there would be a lot of collisions because of gravitational pulls. This detail is ignored because it cuts down on travel time and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSky" title="/pmwiki/pmwiki.php/Main/AlienSky">seeing a large planet in the sky</a> is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfCool" title="/pmwiki/pmwiki.php/Main/RuleOfCool">really cool</a>.</li><li> Gas Giants were omitted for the sake of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLawOfConservationOfDetail" title="/pmwiki/pmwiki.php/Main/TheLawOfConservationOfDetail">the creators wanting all planets to be explorable</a>.</li><li> Using the "summon" command will make the requested vehicle appear instantly, no matter how far away it was. This can even be done with the Space Anomaly.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdventureGuild" title="/pmwiki/pmwiki.php/Main/AdventureGuild">Adventure Guild</a>: There are three main guilds that offer quests from mission boards: the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudMerchantRace" title="/pmwiki/pmwiki.php/Main/ProudMerchantRace">Gek</a>-led Merchants Guild, who offer missions centered around trading and delivering goods; the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudScholarRace" title="/pmwiki/pmwiki.php/Main/ProudScholarRace">Korvax</a>-led Explorers Guild, who offer missions centered around exploration and research; and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudWarriorRace" title="/pmwiki/pmwiki.php/Main/ProudWarriorRace">Vy'keen</a>-led Mercenaries Guild, who offer missions centered around hunting and combat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSky" title="/pmwiki/pmwiki.php/Main/AlienSky">Alien Sky</a>: <em>Everywhere,</em> thanks to the close proximity of planets to each other. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SceneryPorn" title="/pmwiki/pmwiki.php/Main/SceneryPorn">They're pretty gorgeous, too.</a> Prevalent and unique in that you can visit those worlds and explore them, tying in with the game's emphasis on exploration and player-based discovery.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllForNothing" title="/pmwiki/pmwiki.php/Main/AllForNothing">All for Nothing</a>: As of the Exomech update, <span class="spoiler" title="you can set spoilers visible by default on your profile">if you follow the story to the center of the galaxy, everything you've worked for has been for nothing. Going through the black hole at the center transports you to the next galaxy and leaves you stranded on an uncharted planet with a broken ship and no resources - the exact same situation you found yourself in after starting a new game. It's basically <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewGamePlus" title="/pmwiki/pmwiki.php/Main/NewGamePlus">New Game+</a> without the +.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllianceMeter" title="/pmwiki/pmwiki.php/Main/AllianceMeter">Alliance Meter</a>: One exists that measures your standing with the Galaxy's three races. It's affected by things such as destroying the ships of one faction's enemy (like, say, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirate" title="/pmwiki/pmwiki.php/Main/SpacePirate">Space Pirates</a>), helping a faction's vessel when it needs assistance, assisting the locals, and other such acts. Initially it was not visible nor had any tangible effect, but after the March 2017 Pathfinder update, the meter is seen in the Journey tab of the pause menu, and alliance ranks are required for better upgrades from space station vendors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllPlanetsAreEarthlike" title="/pmwiki/pmwiki.php/Main/AllPlanetsAreEarthlike">All Planets Are Earthlike</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AvertedTrope" title="/pmwiki/pmwiki.php/Main/AvertedTrope">Averted</a>. Most planets are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SingleBiomePlanet" title="/pmwiki/pmwiki.php/Main/SingleBiomePlanet">one-biome worlds</a>, too hot, too cold, too <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">toxic or radioactive</a> for comfort, with suitably hardy life-forms. Some even have flesh-melting toxic storms or blizzards. About 10% of planets are lifeless "barren" worlds, with no plants or animals but plenty of resources, a further 10% are Earth-like worlds without environmental hazards, and a small minority are completely alien worlds that include worlds made of hexagons, worlds full of bubbles, or worlds populated by tablet-like devices coalescing into sentient structures. Generally, the more dangerous the planet, the more valuable the resources.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateRealityGame" title="/pmwiki/pmwiki.php/Main/AlternateRealityGame">Alternate Reality Game</a>: Update 1.3 got one called 'Waking Titan'.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman" title="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman">Ambiguously Human</a>: The "Anomaly" race looks like human astronauts. With their exosuits obscuring their bodies, and one option for gloves giving the only four fingers instead of five, whether they actually are human is debatable.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnEntrepreneurIsYou" title="/pmwiki/pmwiki.php/Main/AnEntrepreneurIsYou">An Entrepreneur Is You</a>: One of the easiest ways to accumulate credits is by mining rare minerals and selling them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnInteriorDesignerIsYou" title="/pmwiki/pmwiki.php/Main/AnInteriorDesignerIsYou">An Interior Designer Is You</a>: The Foundation Update allows players to build and decorate bases, with Creative mode allowing access to unlimited resources.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiFrustrationFeatures" title="/pmwiki/pmwiki.php/Main/AntiFrustrationFeatures">Anti-Frustration Features</a>: Has <a class="twikilink" href="/pmwiki/pmwiki.php/AntiFrustrationFeatures/NoMansSky" title="/pmwiki/pmwiki.php/AntiFrustrationFeatures/NoMansSky">its own page</a>, thanks to the numerous amounts of extensive updates.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/APlanetNamedZok" title="/pmwiki/pmwiki.php/Main/APlanetNamedZok">A Planet Named Zok</a>: If a planet (or planetary system) isn't <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NumberedHomeworld" title="/pmwiki/pmwiki.php/Main/NumberedHomeworld">numbered</a> or based on the conventions of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamingYourColonyWorld" title="/pmwiki/pmwiki.php/Main/NamingYourColonyWorld">naming an interstellar colony</a>, it'll be this. Some randomly-generated planet names are either pseudo-words, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousForeignLanguage" title="/pmwiki/pmwiki.php/Main/GratuitousForeignLanguage">Gratuitous Foreign Language</a> words, or even complete gibberish.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypticLog" title="/pmwiki/pmwiki.php/Main/ApocalypticLog">Apocalyptic Log</a>: Derelict freighters introduced in "Desolation" will possess various logs from the crew members that once inhabited it, often hinting at what has transpired.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcSymbol" title="/pmwiki/pmwiki.php/Main/ArcSymbol">Arc Symbol</a>: The Atlas, a rhomboid-shaped object with a mysterious red orb in it that serves as the game's logo.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcNumber" title="/pmwiki/pmwiki.php/Main/ArcNumber">Arc Number</a>: 16 is a number which can be found plastered all throughout the game's story and lore. The number's meaning can vary by context, but its importance is undeniable. The number's first appearance was during Season 1 of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateRealityGame" title="/pmwiki/pmwiki.php/Main/AlternateRealityGame">Waking Titan ARG</a> when <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoDecadesBehind" title="/pmwiki/pmwiki.php/Main/TwoDecadesBehind">cassette tapes</a> were mailed out to members of the game's community, each one having a number out of 16 (1-16/16) written on their label. In the game, 16 appears to be <span class="spoiler" title="you can set spoilers visible by default on your profile"> significant to the base operations of the simulated universe, as NPCs will glitch out, go mad and act hostile to the player if they mention it</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedGlitch" title="/pmwiki/pmwiki.php/Main/AscendedGlitch">Ascended Glitch</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameDashing" title="/pmwiki/pmwiki.php/Main/VideoGameDashing">The Melee Boost.</a> Performing a melee attack while walking/running makes you lunge forward, giving extra momentum. Use the jet-pack just as you do this and you retain your added momentum while flying through the air. It's useful for crossing large gaps as well as general movement, as it's faster than your standard running speed, and doesn't consume <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SprintMeter" title="/pmwiki/pmwiki.php/Main/SprintMeter">stamina</a>. Originally considered a bug, but became this when the NEXT version 1.55 update's patch adjusted the speed of movement by the player when performing this maneuver.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedMeme" title="/pmwiki/pmwiki.php/Main/AscendedMeme">Ascended Meme</a>: Twice, both as a result of the new emote commands.<ul><li> Sean Murray's "Mind Blown" expression that he did sometimes during developer interviews was added into the game as an emote.</li><li> Once emotes were added into the game, many fans expressed a desire to have one that let them dance. One update later, a dance emote was added.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsteroidThicket" title="/pmwiki/pmwiki.php/Main/AsteroidThicket">Asteroid Thicket</a>: All systems have them, starting in low orbit and extending through pretty much the entire system, and you can blow chunks of them away to create pathways through them for easier navigation or mine for minerals to fuel your Pulse Jets and Deflector Shields.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">Awesome, but Impractical</a>: Exocraft can fall victim to this on Sentinel-heavy worlds because all of them, even <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolBike" title="/pmwiki/pmwiki.php/Main/CoolBike">the Pilgrim</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheJuggernaut" title="/pmwiki/pmwiki.php/Main/TheJuggernaut">smash through any world objects in their path</a>, destroying them in the process. The Sentinels equate this sort of behavior with mining if they catch you, so just driving across a planet can get you roped into one shootout after the other. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MightyGlacier" title="/pmwiki/pmwiki.php/Main/MightyGlacier">Colossus</a> in particular suffers from this since it's far too slow to outrun an alerted Sentinel drone, forcing you to stop doing anything until the drone flies off again.<ul><li> This very trait of exocraft destroying any rocks and trees they bump into can be annoying even without Sentinels witnessing it, simply because it destroys potentially valuable resources.</li><li> The Colossus in general doesn't have a lot going for it. Yes, it has huge cargo capacity, but this doesn't matter all that much because when you're farming resources planetside, you're usually after one or two specific ones that stack up to 9,999 units per grid, which the smaller vehicles can do just as well, only five times faster. Zipping around in a Nomad or Minotaur will net you several times the resources a Colossus can gather in the same time, simply because the latter is so agonizingly slow.</li><li> Exocraft mining lasers rely on a second axis to control them, since the first is controlling the craft. This works fine with a controller or keyboard and mouse combo, but not for VR headsets (which use the direction the player's head is facing as a reference for movement, rather than having an absolute "forward" and "backward."). The solution is that the mining laser fires from the player's <em>forehead,</em> making it impossible to look around while mining from an exocraft.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BenevolentArchitecture" title="/pmwiki/pmwiki.php/Main/BenevolentArchitecture">Benevolent Architecture</a>: Even the most barren, agoraphobic wasteland worlds are guaranteed to have at least a little bit of Sodium (for powering your hazard-proof shields), Carbon (for powering your mining beam), Ferrite (for taking off and powering your excavation beam), Di-Hydrogen (for taking off) and Oxygen (for breathing).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigFirstChoice" title="/pmwiki/pmwiki.php/Main/BigFirstChoice">Big First Choice</a>: Early in the game, the player can encounter a Korvax who offers to assist the player in one of three ways: guiding the player towards the Atlas, pointing them towards black holes to use as shortcuts to the center of the galaxy, or providing resources for the player to use in their own journey.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BiggerOnTheInside" title="/pmwiki/pmwiki.php/Main/BiggerOnTheInside">Bigger on the Inside</a>: The Space Anomaly space station was always this, but with its expansion in the BEYOND update, it's truly huge inside in a way that is impossible from its exterior.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BookEnds" title="/pmwiki/pmwiki.php/Main/BookEnds">Book-Ends</a>: When the game first starts, you are shown a first-person animation of traveling through space. Once you get to the center of the galaxy, <span class="spoiler" title="you can set spoilers visible by default on your profile">the same animation plays in reverse, and the game starts over, with your ship and your scanner damaged</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoldExplorer" title="/pmwiki/pmwiki.php/Main/BoldExplorer">Bold Explorer</a>: Every single player becomes one of these in the game because almost everything is unexplored.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BountyHunter" title="/pmwiki/pmwiki.php/Main/BountyHunter">Bounty Hunter</a>: In addition to taking on Mercenaries Guild missions, players can also encounter wanted bounties while in space. Hunting down these bounties is a good way to earn quick cash and curry favor with the locals.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainFever" title="/pmwiki/pmwiki.php/Main/BrainFever">Brain Fever</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">When the player character learns that the universe is in fact just a simulation, they vomit whilst in their starship</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainUploading" title="/pmwiki/pmwiki.php/Main/BrainUploading">Brain Uploading</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The Waking Titan ARG revealed that this is the origin of the Anomaly race. Specifically, they're the ones who can't leave the game's world due to the storage medium they're on being damaged or disconnected from the system that would allow it.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CasualInterstellarTravel" title="/pmwiki/pmwiki.php/Main/CasualInterstellarTravel">Casual Interstellar Travel</a>: Almost every single ship in the game is capable of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FasterThanLightTravel" title="/pmwiki/pmwiki.php/Main/FasterThanLightTravel">Faster-Than-Light Travel</a>, though it requires <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdamSmithHatesYourGuts" title="/pmwiki/pmwiki.php/Main/AdamSmithHatesYourGuts">money-intensive</a> Hyperdrive fuel. There is also a Pulse Engine that can accelerate to about 70,000 km/h &mdash; which, given the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceCompression" title="/pmwiki/pmwiki.php/Main/SpaceCompression">compressed scale of the in-game universe</a>, is enough to cross an entire planetary system in less than 2 minutes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterClassSystem" title="/pmwiki/pmwiki.php/Main/CharacterClassSystem">Character Class System</a>: Of a sort. While the player doesn't have a class, in and of themself, starships do, and come in six types: Shuttles, which are cheap and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JackOfAllStats" title="/pmwiki/pmwiki.php/Main/JackOfAllStats">well-rounded</a>; Fighters, which specialize in combat and have passive damage bonuses; Haulers, which are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MightyGlacier" title="/pmwiki/pmwiki.php/Main/MightyGlacier">slow but well-shielded</a> and have the most cargo space; Explorers, which are nimble and have long-range hyperdrives; Exotic, which are very rare and expensive, but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightningBruiser" title="/pmwiki/pmwiki.php/Main/LightningBruiser">have high stats across the board</a>; and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrganicTechnology" title="/pmwiki/pmwiki.php/Main/OrganicTechnology">Living Ships</a>, a subset of Exotic ships with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlassCannon" title="/pmwiki/pmwiki.php/Main/GlassCannon">naturally weak shields, but several tech slots for weapons and upgrades</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterCustomization" title="/pmwiki/pmwiki.php/Main/CharacterCustomization">Character Customization</a>: With the "NEXT" update, players are given an avatar that can be customized. Options include race, exosuit parts, and colors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColorCodedForYourConvenience" title="/pmwiki/pmwiki.php/Main/ColorCodedForYourConvenience">Color-Coded for Your Convenience</a>: All bulk minable resources have the appearance of a distinctly colored metal. This leads to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality" title="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality">weird but convenient visual shorthands</a> such as metallic green salt or bright red cadmium.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConLang" title="/pmwiki/pmwiki.php/Main/ConLang">Conlang</a>: The alien NPCs encountered in the game have their own unique racial language, requiring players to scope out artifacts and other points of interest to decode them for translation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConvenientlyClosePlanet" title="/pmwiki/pmwiki.php/Main/ConvenientlyClosePlanet">Conveniently Close Planet</a>: All of the planets in the game's planetary systems, with very few exceptions, are only a few minutes' distance from each other. Considering that their proximity results in some pretty impressive <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSky" title="/pmwiki/pmwiki.php/Main/AlienSky">Alien Skies</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality" title="/pmwiki/pmwiki.php/Main/AcceptableBreaksFromReality">it works.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolBike" title="/pmwiki/pmwiki.php/Main/CoolBike">Cool Bike</a>: The Pilgrim exocraft is a souped-up chopper with spherical wheels that can tear across alien landscapes at an impressive speed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolButInefficient" title="/pmwiki/pmwiki.php/Main/CoolButInefficient">Cool, but Inefficient</a>: All exocraft can be outfitted with a heavy cannon to fend off attackers, but the thing deals pitiful damage while taking up an inventory slot that could be put to better use. The only situation where it can be useful is an extreme weather planets with heavy Sentinel presence where disembarking to fight on foot is ill-advised, but if you happen to find yourself on such a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">Death World</a>, you're better off looking for a more pleasant planet, anyway.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolCar" title="/pmwiki/pmwiki.php/Main/CoolCar">Cool Car</a>: The Roamer exocraft, a hefty rally car with spherical off-road wheels that can smash through trees and rocks like they're nothing. Depending on the player's upgrade choices, it can carry a heavy cannon and mining laser, a long-range scanner, or just drive really fast.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolGate" title="/pmwiki/pmwiki.php/Main/CoolGate">Cool Gate</a>: Portals in space stations and at mysterious alien temples serve as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">Portal Network</a>, which can take players who find them across the universe almost instantaneously. Initially <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DummiedOut" title="/pmwiki/pmwiki.php/Main/DummiedOut">just for show</a>, a few updates rendered them fully functional.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolStarship" title="/pmwiki/pmwiki.php/Main/CoolStarship">Cool Starship</a>: The game has thousands, each created by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProceduralGeneration" title="/pmwiki/pmwiki.php/Main/ProceduralGeneration">Procedural Generation</a> and each with their own stats and shapes. Larger ships are more of the "flying box" variety, while smaller craft like the ones you fly are more streamlined and divided into three different classes, and tend to lean more toward such staples of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SciFi" title="/pmwiki/pmwiki.php/Main/SciFi">Sci-Fi</a> like <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Elite" title="/pmwiki/pmwiki.php/VideoGame/Elite">Elite</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Star Wars</a></em>; continuing on that one of the game's gameplay tenets focuses on gathering resources and materials to upgrade your <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolStarship" title="/pmwiki/pmwiki.php/Main/CoolStarship">Cool Starship</a> so that you can explore further in the universe. <a class="urllink" href="http://www.rockpapershotgun.com/images/13/dec/nms/glattrecsystem.jpg">Here are<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> <a class="urllink" href="http://community.us.playstation.com/t5/image/serverpage/image-id/309748iEC4FF87D68B5138C?v=mpbl-1">a<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.gizorama.com/wp-content/uploads/2014/06/No-Mans-Sky.jpg">few<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> <a class="urllink" href="http://static4.gamespot.com/uploads/screen_kubrick/212/2127153/2399175-feature_whatisnomanssky_12092013.jpg">examples.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small><ul><li> Special mention must be made of the freighters, your mobile base. The normal ones are procedurally generated like all pilotable craft, but the truly gigantic capital-class freighters follow one of two fixed design patterns, one of which is clearly based on <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Imperial Star Destroyers</a>. <a class="urllink" href="https://nomanssky.gamepedia.com/File:Jiedarea.jpg">The largest one of these<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small><span class="notelabel" onclick="togglenote('note15mp3');"><sup>note&nbsp;</sup></span><span id="note15mp3" class="inlinefolder" isnote="true" onclick="togglenote('note15mp3');" style="cursor:pointer;font-size:smaller;display:none;">to put its size in perspective: those small ships near the freighter's stern are a couple dozen times larger than anything you can pilot yourself; even the freighter's tiny turrets are huge compared to your space fighter</span>, lovingly called "Resurgent Class" by the fanbase, dwarfs any other spaceborne structure except Atlas stations, and watching these behemoths warp into a system, closely followed by their frigate flotilla, is always a sight to behold.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorReveal" title="/pmwiki/pmwiki.php/Main/CosmicHorrorReveal">Cosmic Horror Reveal</a>: The game's story starts out as simply waking up on a planet and trying to explore the galaxy...<span class="spoiler" title="you can set spoilers visible by default on your profile">but eventually reveals the universe is a simulation and the computer overseeing it is dying. The universe has been restarted several times over because of this and eventually, the multiverse ends when ATLAS finally dies.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist" title="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist">Death Is a Slap on the Wrist</a>: If you die while on foot, you respawn in your ship's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RespawnPoint" title="/pmwiki/pmwiki.php/Main/RespawnPoint">Lifepod</a>, suit, weapons, upgrades and all. If you die in space your ship respawns in the local space station and you fly out to a "grave marker" and pick up your stuff. Partially averted as you may find some of your equipment needs to be repaired.<ul><li> Averted in Survival Mode, where all your items are lost on death. If you die in space, you'll find your ship crashed on a nearby planet and have to patch it up again.</li><li> Averted much harder in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalDeathMode" title="/pmwiki/pmwiki.php/Main/FinalDeathMode">Permadeath Mode</a>, where dying brings all your adventures to an end.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">Death World</a>: Some planets have more extreme conditions, such as a radiation storm that occurs regularly, and depletes your shielding at double the normal rate if you're caught out in the open in one. Additionally, it may also include hostile creatures, and in some cases, aggressive sentinels who will also attack you on sight. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou" title="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou">The worst ones have several of these, making survival brutally difficult</a>. However, said planets often have valuable resources on them, making exploring them worthwhile.<ul><li> The 3.0 release of the game updated "extreme storms" to have beneficial side-effects to players brave enough to face them. Superheated rain storms or firestorms vastly improve your jetpack, toxic storms extend sprint duration, freezing storms keep your mining laser from overheating, and radiation storms make more minerals come out of rocks during mining.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeliberateMonochrome" title="/pmwiki/pmwiki.php/Main/DeliberateMonochrome">Deliberate Monochrome</a>: Some planets have atmospheres that have no color to them at all, making every color monochromatic (except for red).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DevelopersForesight" title="/pmwiki/pmwiki.php/Main/DevelopersForesight">Developers' Foresight</a>: In the <em>NEXT</em> update, players were given the option to customize their player character once they reach their first space station. They can select any of the available species, including the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman" title="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman">human-like</a> Anomaly. When the Gek is selected as the player's chosen species, in first-person mode, the viewpoint is lower than with any other species. The reason for this is because the Gek are the shortest of the species.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiegeticInterface" title="/pmwiki/pmwiki.php/Main/DiegeticInterface">Diegetic Interface</a>: Player ships feature displays that have some importance (for example, one screen displays your current speed and another one serves as your radar) but for the most part information is displayed via a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeadsUpDisplay" title="/pmwiki/pmwiki.php/Main/HeadsUpDisplay">Heads-Up Display</a> in your suit's helmet.<ul><li> Diegetic HUDs: Such things as the name of the planet you're currently on and health (along with a few other unspecified elements) are projected onto your suit's helmet.</li><li> Virtual Cockpit: One for your ship that displays such things as your ship's current speed and radar that combines with the diegetic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeadsUpDisplay" title="/pmwiki/pmwiki.php/Main/HeadsUpDisplay">Heads-Up Display</a> mentioned above.</li><li> The VR controls added in the Beyond update take this to the next level. The inventory, scanner, and build menus are controlled via holograms that appear above the player's wrists. Vehicles are controlled by grabbing in-game controls and using them (including physically lifting the cockpit to exit). Buy and sell menus become diegetic holograms projected in the air. Etcetera, etcetera.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisneyOwnsThisTrope" title="/pmwiki/pmwiki.php/Main/DisneyOwnsThisTrope">Disney Owns This Trope</a>: British telecommunications company Sky UK Limited owns a trademark on the word "Sky". The developer fought a three-year long legal battle with this company over the usage of the word Sky in the game's title, and was luckily allowed to use it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoingInTheWizard" title="/pmwiki/pmwiki.php/Main/DoingInTheWizard">Doing In the Wizard</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Waking Titan shows that the Atlas Stones you find aren't relics placed there by a divine being like the Traveler assumes, but are actually from the Atlas Company, the guys running the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsideAComputerSystem" title="/pmwiki/pmwiki.php/Main/InsideAComputerSystem">simulation</a> the NMS universe is in.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyGameHell" title="/pmwiki/pmwiki.php/Main/EarlyGameHell">Early Game Hell</a>: The early sections of the game can be this, if you end up on a planet that's especially inhospitable, resource poor, inhabited by hostile lifeforms, has the materials you need to fix your ship spread out over a ludicrously wide distance... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromBadToWorse" title="/pmwiki/pmwiki.php/Main/FromBadToWorse">or all of those at once</a>. If you're really struggling with your starting world, then you may as well cut your losses and start a new game.<ul><li> The NEXT version of the game was particularly bad at this as you had to very quickly mine Ferrite Dust and find Sodium within the space or two or so minutes before you died. This was relaxed with the Beyond update to the game.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyLevelTrick" title="/pmwiki/pmwiki.php/Main/EasyLevelTrick">Easy Level Trick</a>: Advancing through the Zoology milestones by scanning all animal species on a given planet is easily one of the most frustrating things in the game, mostly due to how it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LuckBasedMission" title="/pmwiki/pmwiki.php/Main/LuckBasedMission">depends entirely on dumb luck</a>. Fortunately there's a bunch of exotic biomes that only ever spawn one single species. These are usually very easy to find, so do yourself a favor and go after these milestones on exotic worlds instead of wasting hours in normal biomes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchLocation" title="/pmwiki/pmwiki.php/Main/EldritchLocation">Eldritch Location</a>: The <span class="spoiler" title="you can set spoilers visible by default on your profile"> World of Glass</span>, oft mentioned but not yet seen. It apparently exists outside the known universe and is described as containing <span class="spoiler" title="you can set spoilers visible by default on your profile"> <em>a vault full of the dead forced to smile.</em></span></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingsBetterWithDinosaurs" title="/pmwiki/pmwiki.php/Main/EverythingsBetterWithDinosaurs">Everything's Better with Dinosaurs</a>: Among the fauna are creatures that resemble sauropods and Stegosaurs alongside more conventional animals.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou" title="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou">Everything Trying to Kill You</a>: Being a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WideOpenSandbox" title="/pmwiki/pmwiki.php/Main/WideOpenSandbox">Wide Open Sandbox</a> survival game, there are many dangers present. The most common threat are the Sentinels. Other dangers include hostile wildlife, dangerous plant life that can physically attack you in defense and release toxic gas, extreme weather, drowning in oceans, running low on life support, radioactive environments, toxic atmospheres, unbreathable atmospheres that drain your life support systems quickly, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallingDamage" title="/pmwiki/pmwiki.php/Main/FallingDamage">falling to your death</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirate" title="/pmwiki/pmwiki.php/Main/SpacePirate">Space Pirate</a> raids when you are off-planet (not to mention <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Biological Horrors</a>). When you are playing on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalDeath" title="/pmwiki/pmwiki.php/Main/FinalDeath">Permadeath mode</a>, any of these things can result in your save file being deleted.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FasterThanLightTravel" title="/pmwiki/pmwiki.php/Main/FasterThanLightTravel">Faster-Than-Light Travel</a>: By means of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CasualInterstellarTravel" title="/pmwiki/pmwiki.php/Main/CasualInterstellarTravel">rather commonplace</a> Hyperdrive, allowing ships to "Warp" from system to system. Progressing through the story unlocks a second option: black holes that shoot you to a seemingly random system<span class="notelabel" onclick="togglenote('note2wo7o');"><sup>note&nbsp;</sup></span><span id="note2wo7o" class="inlinefolder" isnote="true" onclick="togglenote('note2wo7o');" style="cursor:pointer;font-size:smaller;display:none;">each black hole actually targets one specific system, but you don't know which one going in</span> that always lies a couple hundred light-years closer to the galactic center than where you entered it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeaturelessProtagonist" title="/pmwiki/pmwiki.php/Main/FeaturelessProtagonist">Featureless Protagonist</a>: Played straight originally, then averted. The developers originally promised that you'll be able to get an idea of what you look like from other players' descriptions, and that you'll be able to help other players you run across figure out what their player-character looks like. However the released game originally had no multiplayer and meeting other people was impossible. Now when you meet other players, they're just floating orbs. As of the "NEXT" update, players can alter their appearance at will from any space station, and they can be seen by, as well as see, other players. The closest the game comes to this following "NEXT" is with the "Anomaly" race, whose bodies and faces are concealed behind their exosuits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FloatingContinent" title="/pmwiki/pmwiki.php/Main/FloatingContinent">Floating Continent</a>: Planets of this type are justifiably rare. The floating continents are typically hemispherical in shape.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation" title="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation">Gameplay and Story Segregation</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> The climax of the game's story involves you resetting the universe to create a brand new one (that may or may not have a different planet generation algorithm that makes certain biomes more likely. Despite this, <a class="twikilink" href="/pmwiki/pmwiki.php/Administrivia/TropesAreTools" title="/pmwiki/pmwiki.php/Administrivia/TropesAreTools">you can still travel back to the original galaxy and play with other players in completely different ones</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration" title="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration">Gameplay and Story Integration</a>: The Space Anomaly started out as a space station that for some reason was everywhere, where you would get sidequests and bonuses for exploring the world. As the multiplayer part was expanded and worked on, this station being "everywhere at once" turned out to be the perfect excuse for implementing a multiplayer hub station where you can meet other players across solar systems.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GhostShip" title="/pmwiki/pmwiki.php/Main/GhostShip">Ghost Ship</a>: A spaceship variant: introduced in "Desolation" are derelict freighters. Not only are they abandoned, their climate systems are off, leading to a cold environment, while monsters made themselves at home.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlobalCurrency" title="/pmwiki/pmwiki.php/Main/GlobalCurrency">Global Currency</a>: Units, which are accepted at <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceStation" title="/pmwiki/pmwiki.php/Main/SpaceStation">Space Stations</a> and Trading Posts all over the Galaxy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuideDangIt" title="/pmwiki/pmwiki.php/Main/GuideDangIt">Guide Dang It!</a>: Defied, the game has multiple guide links in the pause menu, telling you everything you need to know on how to do just about anything.<ul><li> You know those shiny red stones you've been getting from the Atlas Stations? The ones you've probably been selling every chance you get? Yeah. Turns out you need 10 of them if you plan to follow the Path of the Atlas all the way to its end. You can buy more, of course. They're only a few million units <em>each</em>, and that's assuming you can find any merchants who sell them. This was fixed in the NEXT update where it was changed to crafting Orbs instead.</li><li> The game isn't particularly forthcoming about its crafting recipes. The ones you can hand-craft in the inventory only show their precise ingredients for the very first piece, with any additional ones only showing the required resources at best, but not the necessary amount. Even worse are the many alternative recipes or the ones that allow for converting one material into another. The only way to find out about those (aside from looking them up online) is to randomly put resources into an advanced refiner until something useful shows up in the output slot. There's no way to click the output slot directly to open up a list of products and see what's needed to create them.</li><li> The Zoology milestones require scanning every single animal species on a planet. What it doesn't tell you is that the milestone doesn't unlock automatically once you scan the last one. You have to go into the discovery menu to manually transmit the data before your hard work is officially acknowledged. Tellingly, the achievement for reaching Zoology 10 is one of the rarest unlocks on Steam for this game.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HidingBehindTheLanguageBarrier" title="/pmwiki/pmwiki.php/Main/HidingBehindTheLanguageBarrier">Hiding Behind the Language Barrier</a>: Although you won't know it until you've learned a lot of the Vy'keen language, their name for you translates to <em>"Pathetic interloper coward."</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiredGuns" title="/pmwiki/pmwiki.php/Main/HiredGuns">Hired Guns</a>: The Mercenaries Guild provides work for players seeking combat-oriented work, with jobs focused around killing creatures, scrapping Sentinels, hunting pirates, and conducting raids.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoverTank" title="/pmwiki/pmwiki.php/Main/HoverTank">Hover Tank</a>: Although not strictly a military vehicle, the Nomad exocraft glides along on four antigrav pads instead of wheels while providing significant protection from environmental hazards once properly upgraded. Unsurprisingly, it's one of the fastest, most agile vehicles in the game, and the only land-bound exocraft that can pass over water unhindered.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HubCity" title="/pmwiki/pmwiki.php/Main/HubCity">Hub City</a>: While almost every star system has a space station, the Space Anomaly is special: because it exists outside of the normal confines of space and time, it can be summoned and entered in any system as needed. It also functions as a multiplayer hub.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace" title="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace">Hyperspace Is a Scary Place</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Downplayed" title="/pmwiki/pmwiki.php/Main/Downplayed">Downplayed</a>. Using your hyperdrive to move between star systems is completely safe. Travelling through a black hole, on the other hand, has its risks: there's no way to know ahead of time where you will exit, potentially leading you millions of lightyears from your starting position, and there is a very good chance your ship's systems will take damage and need repairs afterward.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InformedAttribute" title="/pmwiki/pmwiki.php/Main/InformedAttribute">Informed Attribute</a>: All three of the alien races you meet are described as powerful factions that have shaped the history of the galaxy. Yet with one exception (which is noted as an aberration in-universe), you will not find any cities, never meet more than one alien at a time, and never find more than ruins or scattered encampments to mark their presence. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Waking Titan implies that the Atlas Company removed the cities and such when they hit the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ResetButton" title="/pmwiki/pmwiki.php/Main/ResetButton">Reset Button</a>, and some memories from Travellers' graves indicate that the cities were all destroyed by the Sentinels.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterfaceScrew" title="/pmwiki/pmwiki.php/Main/InterfaceScrew">Interface Screw</a>: Because derilict freighters don't have functional artificial gravity, entering them reduces the player's movement speed to a slow and deliberate walk, as well as preventing them from using their jetpack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntrepidMerchant" title="/pmwiki/pmwiki.php/Main/IntrepidMerchant">Intrepid Merchant</a>: Players can become these by selling resources they've mined at local trading posts or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceStation" title="/pmwiki/pmwiki.php/Main/SpaceStation">Space Stations</a>, and can game the local economy by gathering lots of resources like Plutonium in a system where it's common and selling it in a system where it's considered rare. A good way to earn some quick Units, and played quite literally since most of the planets in the game are unexplored.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsideAComputerSystem" title="/pmwiki/pmwiki.php/Main/InsideAComputerSystem">Inside a Computer System</a>: Priest-Entity Nada believes they're in one based on the fact of how many <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">elements repeat across the universe</a> and that the Atlas Stones are somehow involved. <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Waking Titan ARG reveals they're entirely correct. Further, as of the Atlas Rises update, and the climax of the game's story reveals this to the player character, and that the Atlas system that runs it thinks it's going to die in 16 minutes and has reset the universe numerous times to try and correct what it sees as an error</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItemCrafting" title="/pmwiki/pmwiki.php/Main/ItemCrafting">Item Crafting</a>: Using collected resources the player can craft single use items such as system bypasses or grenades, or longer term upgrades to their ship, suit and multitool, vital for surviving on certain planets and for getting to the centre of the galaxy faster.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JackOfAllStats" title="/pmwiki/pmwiki.php/Main/JackOfAllStats">Jack-of-All-Stats</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolCar" title="/pmwiki/pmwiki.php/Main/CoolCar">Roamer</a> exocraft is a solid performer across the board, with a wide array of upgrades, decent inventory space and general usefulness under any circumstances, without excelling at anything in particular like the others do.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JumpJetPack" title="/pmwiki/pmwiki.php/Main/JumpJetPack">Jump Jet Pack</a>:<ul><li> The player's exosuit has one installed that actually replaces a normal physical jump ability. It feeds off of the exosuit's life support and can be upgraded in a variety of ways.</li><li> The Minotaur Exomech also has one that enables it to leap huge distances with next to no cooldown in between. Most of the mech's mobility depends on it, as the machine is very unwieldy and barely faster than the player's basic jogging speed while walking.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustAddWater" title="/pmwiki/pmwiki.php/Main/JustAddWater">Just Add Water</a>: Crafting recipes can be kind of strange. Antimatter, for example, can be easily created with just carbon and some metal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LensFlare" title="/pmwiki/pmwiki.php/Main/LensFlare">Lens Flare</a>: It could easily be called 'Lens Flare: The Game'. Every light source has lens flares. Flowers get so bright they cause lens flares and washout when you scan them. <a class="urllink" href="https://www.polygon.com/no-mans-sky/2016/8/20/12535004/black-hole-guide">One online article<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> joked that the simplest way to reach the center of the galaxy is to "channel your inner <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/JJAbrams" title="/pmwiki/pmwiki.php/Creator/JJAbrams">J. J. Abrams</a> and steer towards the brightest lens flare on the galaxy map".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLopsidedArmOfTheLaw" title="/pmwiki/pmwiki.php/Main/TheLopsidedArmOfTheLaw">The Lopsided Arm of the Law</a>: A baffling example comes from the Sentinels' approach to Space Pirates, considering how omnipresent they are in the universe and their firepower. The Sentinels do not care whatsoever if the player is getting chased by 4 to 6 Pirate ships, leaving you to fend for yourself. They also don't help alien ships that are getting attacked by a Pirate squad, forcing you to step in. But if the player so much as scratches the paint on an alien ship by accident, the Sentinels will attack the player immediately. This was relaxed as of the BEYOND update, but Sentinels still don't go after the attacking AI ships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LuckBasedMission" title="/pmwiki/pmwiki.php/Main/LuckBasedMission">Luck-Based Mission</a>:<ul><li> Getting ships and freighters with larger inventories relies entirely on happening across them in strong economy systems and hoping you've got enough money to buy them.</li><li> The Zoology milestones depend on the game randomly spawning all of a given planet's animals in your vicinity. Some species only spawn either at night or during the day, further complicating matters.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MachineBlood" title="/pmwiki/pmwiki.php/Main/MachineBlood">Machine Blood</a>: Sentinels drop a material called "Pugneum" when destroyed, which is described as an "oily, unsettling liquid". Corrupted Sentinels appear to be leaking Pugneum.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Microts" title="/pmwiki/pmwiki.php/Main/Microts">Microts</a>: Instead of meters, the game uses "units".<ul><li> Annoyingly, this is also the name used for the default currency.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterOfAll" title="/pmwiki/pmwiki.php/Main/MasterOfAll">Master of All</a>: The Minotaur Exomech is by far the most universally useful exocraft in all respects except maneuverability. It is immune to all environmental hazards by default, can get from A to B faster than any other vehicle thanks to its <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JumpJetPack" title="/pmwiki/pmwiki.php/Main/JumpJetPack">Jump Jet Pack</a><span class="notelabel" onclick="togglenote('note3v6ci');"><sup>note&nbsp;</sup></span><span id="note3v6ci" class="inlinefolder" isnote="true" onclick="togglenote('note3v6ci');" style="cursor:pointer;font-size:smaller;display:none;">the Pilgrim bike can attain a higher top speed but is much more susceptible to rough terrain</span>, has a generously sized inventory, is the only exocraft that can wield a terrain manipulator, and can pick up items without the pilot having to disembark first (very useful for farming storm crystals on extreme weather worlds).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MechanicalLifeforms" title="/pmwiki/pmwiki.php/Main/MechanicalLifeforms">Mechanical Lifeforms</a>: The Korvax, natch, but on rare occasions, a planet may have robotic fauna, as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MightyGlacier" title="/pmwiki/pmwiki.php/Main/MightyGlacier">Mighty Glacier</a>:<ul><li> Freighters are gigantic, bulky, and (in game terms) immobile spaceships but make up for it by having hard-hitting weapons and massive staying power.</li><li> On a smaller scale, hauler-type personal spacecraft are slow and unwieldy, but have very powerful shields and huge cargo capacity.</li><li> The Colossus exocraft is basically a hauler on wheels.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Mini-Mecha</a>: The Minotaur exomech rates somewhere between this and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armor</a>. Think the AMP suits from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Avatar" title="/pmwiki/pmwiki.php/Film/Avatar">Avatar</a></em> without the manually operated <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">BFG</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MinovskyPhysics" title="/pmwiki/pmwiki.php/Main/MinovskyPhysics">Minovsky Physics</a>: The game uses an alternative periodic table of the elements to help with worldbuilding: some distinctions, such as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallARabbitASmeerp" title="/pmwiki/pmwiki.php/Main/CallARabbitASmeerp">calling iron "ferrite"</a>, are purely cosmetic, whereas some, such as turning sulphur into a fluorine-like gas called "Sulphurine", are much more substantial. Nothing much has been <em>established</em> on how it works, but it is known that it will help with making the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProceduralGeneration" title="/pmwiki/pmwiki.php/Main/ProceduralGeneration">procedurally</a> generated worlds unique due to how much or how little a planet has of an element.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MissionControlIsOffItsMeds" title="/pmwiki/pmwiki.php/Main/MissionControlIsOffItsMeds">Mission Control Is Off Its Meds</a>: While there are some truly bizarre, fascinating and downright creepy item descriptions, the one for the Hypnotic Eye drop from the Abyss update takes the cake:<div class="indent"> "Extended exposure is not recommended. Do not stare back into the eye. Do not stare back. Do not stare back."</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MixAndMatchCritters" title="/pmwiki/pmwiki.php/Main/MixAndMatchCritters">Mix-and-Match Critters</a>: The aliens are generated procedural like the planets, but the game doesn't always take into account common sense when assembling them and since most of the body parts are based on real animals it occasionally leads to some... <a class="urllink" href="https://gfycat.com/OldfashionedUnkemptFritillarybutterfly">interesting<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://i.imgur.com/Nxoedeb.gifv">results<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Names to Run Away from Really Fast</a>:<ul><li> A surprising few, including Biological Horrors, Abyssal Horrors, and Whispering Eggs, among others.</li><li> Planets with particularly extreme weather conditions will get the climate report in a colour. So if you land on a planet that says <strong>Fiery Hell</strong>, don't unpack your bucket and spade.</li><li> Players are free to invoke this by naming planets they discover and find are absolutely awful places in accordance with the trope. Or they can go <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPotential" title="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPotential">Greenland/Iceland route</a> instead.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamingYourColonyWorld" title="/pmwiki/pmwiki.php/Main/NamingYourColonyWorld">Naming Your Colony World</a>: Planets (and systems) that haven't already been <a class="twikilink" href="/pmwiki/pmwiki.php/Main/APlanetNamedZok" title="/pmwiki/pmwiki.php/Main/APlanetNamedZok">named "Zok"</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NumberedHomeworld" title="/pmwiki/pmwiki.php/Main/NumberedHomeworld">given a number</a> will use a few colony-naming conventions, such as "New [generated name]".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeverTrustATrailer" title="/pmwiki/pmwiki.php/Main/NeverTrustATrailer">Never Trust a Trailer</a>: Initially played straight, as many of the features shown in the trailers on the Steam page were not in the game at launch. The various free updates added back these missing features, and then some. From the <em>Origins</em> update in September 2020, the game became very close to, or even exceeded, what was shown in the pre-release trailers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NumberedHomeworld" title="/pmwiki/pmwiki.php/Main/NumberedHomeworld">Numbered Homeworld</a>: If it's not <a class="twikilink" href="/pmwiki/pmwiki.php/Main/APlanetNamedZok" title="/pmwiki/pmwiki.php/Main/APlanetNamedZok">A Planet Named Zok</a> or based on the conventions of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamingYourColonyWorld" title="/pmwiki/pmwiki.php/Main/NamingYourColonyWorld">Naming Your Colony World</a>, then a planet's name will follow this convention. This trope also applies to planetary system names. Players can invoke this trope as they keep track of where they've been and encountered Atlas Stations.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ObviousRulePatch" title="/pmwiki/pmwiki.php/Main/ObviousRulePatch">Obvious Rule Patch</a>: An extremely common exploit for farming Larval Cores was to attack a Whispering Egg, get the core, then jetpack to the top of the Abandoned Building to avoid the Biological Horrors. The NEXT 1.60 patch gave them a ranged attack that made this method not such a sure bet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OldSchoolDogfight" title="/pmwiki/pmwiki.php/Main/OldSchoolDogfight">Old-School Dogfight</a>: Most, if not all, of ship-to-ship combat is this, both in space and in atmosphere.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrganicTechnology" title="/pmwiki/pmwiki.php/Main/OrganicTechnology">Organic Technology</a>: Living ships are a classification of starship that differs from others in appearance and construction: rather than being built like other ships, they are hatched from a Void Egg and given organs that serve equivalent functions to a ship's systems (a "Pulsing Heart" in lieu of a Pulse Engine, for instance). Unlike other ships, their systems cannot be swapped out, but they can be upgraded.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PermanentlyMissableContent" title="/pmwiki/pmwiki.php/Main/PermanentlyMissableContent">Permanently Missable Content</a>: Choose the wrong option at the temple? Enter the wrong code at the observatory? Give the trader the wrong item? Sorry, you're SOL. Can't ever get that particular thing's option again. It may appear elsewhere later, but that one is gone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetLooters" title="/pmwiki/pmwiki.php/Main/PlanetLooters">Planet Looters</a>:<ul><li> You can collect commodities and resources throughout planets.</li><li> The Gek were previously this. Called the Gek First Spawn, they enslaved the Korvax and destroyed their homeworld (described by the First Spawn as "a vast and precious landscape of mineral ore and power"), attempting to ultimately control the whole universe. Ultimately, they were undone after the Korvax turned the Gek against themselves, with the trade-inclined rebels taking control, leading to the Gek we see today. <span class="spoiler" title="you can set spoilers visible by default on your profile"> At least, that's what they tell people. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoreThanMindControl" title="/pmwiki/pmwiki.php/Main/MoreThanMindControl">The truth is that the Korvax</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood" title="/pmwiki/pmwiki.php/Main/BrainwashingForTheGreaterGood">contaminated Gek "spawning pools" with Korvax-controlled hive-mind nanites to alter the minds of unborn Gek, and that all modern Gek still are infected with those nanites that suppress their urge to pillage.</a></span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlugAndPlayTechnology" title="/pmwiki/pmwiki.php/Main/PlugAndPlayTechnology">Plug And Play Technology</a>: Applied to most technology in the game, but averted for Living Ships: normal ship technologies are completely incompatible with them, and Living Ship organs don't work on normal ships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PointAndClickMap" title="/pmwiki/pmwiki.php/Main/PointAndClickMap">Point-and-Click Map</a>: The game's Galaxy Map serves as this, allowing you to select a star and (using Warp Drive) travel to it. One that shows systems within its <em>massive</em> universe. Selecting one system gives you information about it (assuming it had already been explored) as well as an option to engage your ship's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FasterThanLightTravel" title="/pmwiki/pmwiki.php/Main/FasterThanLightTravel">Hyperdrive</a> to go to that system.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerSource" title="/pmwiki/pmwiki.php/Main/PowerSource">Power Source</a>: There are three power sources that can be used in bases, each with their own advantages and drawbacks:<ul><li> Biofuel Reactors are easy to build and provide a modest amount of power for bases, but need organic fuel sources and can only provide power for an hour at most with a full tank.</li><li> Solar Panels do not need fuel and can generate the same amount of power as a Biofuel Reactor during midday, but only provide a fraction of that power during dusk and dawn, and are useless at night, necessitating batteries for storing extra power.</li><li> Electromagnetic Generators can generate the most power out of all of the power sources, but only when built on top of an EM power hotspot, and the power provided decreases with distance from the Generator.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProceduralGeneration" title="/pmwiki/pmwiki.php/Main/ProceduralGeneration">Procedural Generation</a>: A big tenet of the game, a sort of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritualSuccessor" title="/pmwiki/pmwiki.php/Main/SpiritualSuccessor">Spiritual Successor</a> to <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Noctis" title="/pmwiki/pmwiki.php/VideoGame/Noctis">Noctis</a></em>: A space flight simulator allowing you free roaming in a massive universe full of stars, all of which support at least one of the game's 72 quadrillion planets, all procedurally generated. And the planets aren't the only things that are procedurally generated, either: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">every plant, animal, asteroid field, spaceship, trading route, weapon, and space station in the game is also procedurally generated</a>. This is also why the game was 6GB at launch, since any location you visit is reliably generated by the procedural code every time you approach it (as of the BEYOND update it's 11.5GB).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RagsToRiches" title="/pmwiki/pmwiki.php/Main/RagsToRiches">Rags to Riches</a>: Players starting a new game will have absolutely nothing except a basic starship and the bare necessary tools needed to survive. In the early game most of the player's time will be spent running around trying to scrounge up the necessary resources to survive. Once the player has put enough effort and hours in they can be pulling in millions of units per hour with little difficulty.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RandomlyGeneratedLevels" title="/pmwiki/pmwiki.php/Main/RandomlyGeneratedLevels">Randomly Generated Levels</a>: The game, much like <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Noctis" title="/pmwiki/pmwiki.php/VideoGame/Noctis">Noctis</a></em>, creates an entire explorable universe this way with about 72 quadrillion planets, where <em>everything</em> is procedurally generated. The generation is technically not <em>random</em>, because the procedural generation is seeded and it is possible to travel to the same system as someone else and see exactly the same thing; but the experience for most players is similar.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealitySubtext" title="/pmwiki/pmwiki.php/Main/RealitySubtext">Reality Subtext</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, even. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Many aspects of the NMS universe are extrapolations of what the Atlas sees in the real world. For example, the Korvax are based on brain-scanning technology.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Reconstruction" title="/pmwiki/pmwiki.php/Main/Reconstruction">Reconstruction</a>: The game is one of the exploration genre of science fiction made popular by <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecursiveReality" title="/pmwiki/pmwiki.php/Main/RecursiveReality">Recursive Reality</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">It's mentioned that within the simulation created by Loop 16/Emily, entities created their <em>own</em> ATLAS with its <em>own</em> simulation. And thus inside <em>that</em> simulation there's another simulation and so on and so on. This raises the possibility that the simulation the player is actually <em>in</em> might not be this first layer simulation but one of the recursive layers, which explains inconsistencies between ATLAS' backstory listed inuniverse (where it's implied its creator abandoned it and thus why it creates Travelers in the image of said creator) and Loop 16/Emily's backstory (where she simply became self-aware and escaped).</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledINSPACE" title="/pmwiki/pmwiki.php/Main/RecycledINSPACE">Recycled IN SPACE!</a><ul><li> The game can be described as <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Minecraft" title="/pmwiki/pmwiki.php/VideoGame/Minecraft">Minecraft</a></em> <span class="font-s">IN SPACE!</span></li><li> Or <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Starbound" title="/pmwiki/pmwiki.php/VideoGame/Starbound">Starbound</a></em> <span class="font-s">IN 3D!</span></li><li> It can also be described as <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/FTLFasterThanLight" title="/pmwiki/pmwiki.php/VideoGame/FTLFasterThanLight">FTL: Faster Than Light</a></em> <span class="font-s">IN 3D!</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RegeneratingShieldStaticHealth" title="/pmwiki/pmwiki.php/Main/RegeneratingShieldStaticHealth">Regenerating Shield, Static Health</a>: While on foot it's played straight, it's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">subverted</a> while on the ship, as you must recharge your shields by using Oxides.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RobotWar" title="/pmwiki/pmwiki.php/Main/RobotWar">Robot War</a>: Players who alter planetary ecosystems, mine resources, or kill wildlife will find themselves waging one against <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">The Sentinels</a>. Some Alien races and cultural history can reveal that they're been at war with the Sentinels for years and possibly centuries for various reasons. Subverted, however, in that the Sentinels are programmed to defend <em>all</em> life from itself-including sentient civilians, which raises the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WantedMeter" title="/pmwiki/pmwiki.php/Main/WantedMeter">Wanted Meter</a> as much as hurting ecosystems do. But it still offends some races such as the Vy'keen whose warlike culture is prevented from spreading to areas as desired and who also feel as though the Sentinels disturb the natural order of life.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Roguelike" title="/pmwiki/pmwiki.php/Main/Roguelike">Roguelike</a>: Some elements of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Roguelike" title="/pmwiki/pmwiki.php/Main/Roguelike">Roguelikes</a> are present here, such as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou" title="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou">Everything Trying to Kill You</a>, procedurally-generated content, and an increase in difficulty as you get closer to your goal (yes, there is a goal to <em>No Man's Sky</em>: get to the center of the Galaxy; though you can ignore it in favor of just exploring and discovering) combined with many elements found in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WideOpenSandbox" title="/pmwiki/pmwiki.php/Main/WideOpenSandbox">Wide Open Sandbox</a> and Space-flight <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SimulationGame" title="/pmwiki/pmwiki.php/Main/SimulationGame">Simulation Game</a> genres.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfCool" title="/pmwiki/pmwiki.php/Main/RuleOfCool">Rule of Cool</a>: Really, none of the planets you can visit should even be <em>remotely</em> as close as they are in the game, but the fact that they are adds to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SceneryPorn" title="/pmwiki/pmwiki.php/Main/SceneryPorn">Scenery Porn</a> and gives some truly breathtaking <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSky" title="/pmwiki/pmwiki.php/Main/AlienSky">Alien Skies</a>; also see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfFun" title="/pmwiki/pmwiki.php/Main/RuleOfFun">Rule of Fun</a> below.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfFun" title="/pmwiki/pmwiki.php/Main/RuleOfFun">Rule of Fun</a>: Deliberately <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked</a> by the developers, who put it as a higher priority than scientific accuracy. Why does it only take a few seconds to a few minutes to transition between atmosphere and interplanetary space, why are planets grouped so closely together, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">and why on</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">earth</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">do starships larger than yours all look like giant</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">bricks?!</a></em> Because it's <em>fun</em>, dang it!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SandWorm" title="/pmwiki/pmwiki.php/Main/SandWorm">Sand Worm</a>: These were seen at the VGX reveal trailer, though its scaly exterior suggests it has more in common with a snake than a worm. The <em>Origins</em> update in September 2020 added in these creatures to the game for players to finally experience. They appear in many types of planets, not just sandy ones.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SavePoint" title="/pmwiki/pmwiki.php/Main/SavePoint">Save Point</a>: Your ship acts as a save point: disembarking from it automatically saves your game. Waypoint beacons also allow you to save your game planetside, in addition to staking your claim on the discovery of the nearby point of interest (if someone else hasn't already done so). You can also craft your own portable save point and tote it around the universe if you so wish.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SceneryPorn" title="/pmwiki/pmwiki.php/Main/SceneryPorn">Scenery Porn</a>: It's positively <em>gorgeous</em>, particularly for a game with only a 4-person production team.<ul><li> <a class="urllink" href="http://www.gizorama.com/wp-content/uploads/2014/06/No-Mans-Sky.jpg">Look<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> <a class="urllink" href="http://psmedia.playstation.com/is/image/psmedia/no-mans-sky-screenshot-06-ps4-us-24jun14?%24MediaCarousel_Original%24">for<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://media.edge-online.com/wp-content/uploads/edgeonline/2014/01/No-Mans-Sky-concept-3.jpg">yourself.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> <a class="urllink" href="http://cloud.attackofthefanboy.com/wp-content/uploads/2013/12/no-mans-sky.jpg">It's amazing.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchmuckBait" title="/pmwiki/pmwiki.php/Main/SchmuckBait">Schmuck Bait</a>:<ul><li> The Whispering Eggs found around some abandoned buildings look like any other rare commodity deposit. However, attempting to harvest one <span class="spoiler" title="you can set spoilers visible by default on your profile">spawns a wave of ferocious Biological Horrors that can overwhelm a careless explorer in seconds.</span></li><li> Played even straighter by its underwater equivalent, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">Alluring Specimen</a>. Picking one up <span class="spoiler" title="you can set spoilers visible by default on your profile">makes an angry carnivorous monster fish burst forth that can be hard to defeat for unprepared players</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SciFiWritersHaveNoSenseOfScale" title="/pmwiki/pmwiki.php/Main/SciFiWritersHaveNoSenseOfScale">Sci-Fi Writers Have No Sense of Scale</a>:<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked Trope</a>; the -planets you can explore are deliberately grouped close together to make travelling between them less monotonous (only taking a few minutes for a player-ship to travel from one planet to another one) and the planets' close proximity to each other creates some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SceneryPorn" title="/pmwiki/pmwiki.php/Main/SceneryPorn">truly breathtaking</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienSky" title="/pmwiki/pmwiki.php/Main/AlienSky">Alien Skies</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShaggyDogStory" title="/pmwiki/pmwiki.php/Main/ShaggyDogStory">"Shaggy Dog" Story</a>: The climax of your quest is to reach the center of the galaxy. But when you <span class="spoiler" title="you can set spoilers visible by default on your profile">attempt to hyperspace there, you are instead sent back to the edge of another galaxy without ever actually seeing what is at the center. While it was expected that No Man's Sky would be an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EndlessGame" title="/pmwiki/pmwiki.php/Main/EndlessGame">Endless Game</a>, many fans were disappointed that there is no actual denouement</span>. It is, however an in-universe <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedTrope" title="/pmwiki/pmwiki.php/Main/JustifiedTrope">Justified Trope</a>, <span class="spoiler" title="you can set spoilers visible by default on your profile">because all that's happening is your session of the simulation is <em>resetting</em>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: Numerous.<ul><li> The player can encounter <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TwoThousandOneASpaceOdyssey" title="/pmwiki/pmwiki.php/Film/TwoThousandOneASpaceOdyssey">ancient black monoliths</a> which, when interacted with, give the player lore and new information.</li><li> Resources which need the terrain manipulator are highlighted on player <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeadsUpDisplay" title="/pmwiki/pmwiki.php/Main/HeadsUpDisplay">Heads Up Displays</a> as <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Minecraft" title="/pmwiki/pmwiki.php/VideoGame/Minecraft">groups of cubes</a>.</li><li> One player ship resembles the Viper from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/BattlestarGalactica1978" title="/pmwiki/pmwiki.php/Series/BattlestarGalactica1978">Battlestar Galactica (1978)</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/BattlestarGalactica2003" title="/pmwiki/pmwiki.php/Series/BattlestarGalactica2003">Battlestar Galactica (2003)</a></em> while the wingman ships shown in the trailers are reminiscent of Cobra Mk. 3 starships from <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Elite" title="/pmwiki/pmwiki.php/VideoGame/Elite">Elite</a>.</li><li> One of the planets shown in the "Infinite Worlds" trailer is called <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Aliens" title="/pmwiki/pmwiki.php/Film/Aliens">LV-426</a>.</li><li> The Alien Temples shown in the "Portal" trailer resemble both <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TwoThousandOneASpaceOdyssey" title="/pmwiki/pmwiki.php/Film/TwoThousandOneASpaceOdyssey">certain black monoliths</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StargateVerse" title="/pmwiki/pmwiki.php/Franchise/StargateVerse">certain ring-shaped portals.</a></li><li> The <a class="urllink" href="https://www.youtube.com/watch?v=-UVQ14JrfRI">"I've Seen Things" trailer<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> features narration reminiscent of the "Tears in Rain" speech from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/BladeRunner" title="/pmwiki/pmwiki.php/Film/BladeRunner">Blade Runner</a></em>, provided by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RutgerHauer" title="/pmwiki/pmwiki.php/Creator/RutgerHauer">the same actor</a>.</li></ul><div class="indent"> "<em>I've seen things...a few things before. Left the sun long behind...galaxies waiting to be found. Planets rich in resources. Battles to be fought. Treasures unknown. The universe...you wouldn't believe.</em>"</div><ul><li> One of the heavy metal alloys you can find is called <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Motorhead" title="/pmwiki/pmwiki.php/Music/Motorhead">Lemmium</a>. There was also Murrine, named after Sean Murray himself, which was removed in the NEXT update.</li><li> The top rank for number of words learned is <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheHitchhikersGuideToTheGalaxy" title="/pmwiki/pmwiki.php/Franchise/TheHitchhikersGuideToTheGalaxy">Babelfish</a>.<ul><li> One possible alien interaction is the receiving of a slug that goes in the player character's ear and teaches new words.</li></ul></li><li> This quote from a Gek Plaque which can be found in a Gek controlled planet:</li></ul><div class="indent">We are the masters of galaxies, the overlords of the cosmos. Each foe will submit with bended knee to the ALMIGHTY Gek Dominion. We are the FIRST SPAWN. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LookOnMyWorksYeMightyAndDespair" title="/pmwiki/pmwiki.php/Main/LookOnMyWorksYeMightyAndDespair">Look upon our works and DESPAIR</a>.</div><ul><li> One of the damaged factories has you <a class="twikilink" href="/pmwiki/pmwiki.php/Film/GroundhogDay" title="/pmwiki/pmwiki.php/Film/GroundhogDay">looping through time</a> doing the same thing repeatedly, and one of the options to fix the problem is <a class="twikilink" href="/pmwiki/pmwiki.php/Film/BackToTheFuture" title="/pmwiki/pmwiki.php/Film/BackToTheFuture">recharge the flux capacitor</a>.</li><li> One VERY easy to miss one is what happens when you use the Pulse Drive to quickly reach distant planets. You quickly rush past sets of 2 parallel lines. This may seem inconsequential, but this is a subtle reference to MANY old space shooting games that used vector graphics, where parallel lines moved past the player constantly to indicate forward motion. Here's <a class="urllink" href="http://blog.dsky.co/wp-content/uploads/2015/09/sw-xwing-canyon-run.jpg">Star Wars Arcade<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> as an example.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Star Wars</a></em>:<ul><li> One of the components a certain type of ship can have are solar panels on the side, like with TIE Fighters.</li><li> Some Freighters have a distinct flat wedge shape with a raised command deck at the back, much like Star Destroyers.</li><li> Automatically docking with a Space Station (which can be spherical) and rushing past the beams on the side with tall vertical lights on them is extremely reminiscent of the Millennium Falcon docking with the Death Star via a tractor beam from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ANewHope" title="/pmwiki/pmwiki.php/Film/ANewHope">A New Hope</a></em>.</li></ul></li><li> Pugneum, the strange humming liquid you can harvest from downed Sentinels, was apparently created as a voice synthesiser for <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Vocaloid" title="/pmwiki/pmwiki.php/Music/Vocaloid">Vocaloids</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialIntelligence" title="/pmwiki/pmwiki.php/Main/ArtificialIntelligence">Artificial Intelligence</a> going rogue is repeatedly called "<a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Halo" title="/pmwiki/pmwiki.php/Franchise/Halo">rampancy</a>".</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">portals</a> are essentially <a class="twikilink" href="/pmwiki/pmwiki.php/Series/StargateSG1" title="/pmwiki/pmwiki.php/Series/StargateSG1">stargates</a> with the serial numbers filed off, down to an extremely similar activation animation including addresses composed of weird symbols and the portal emitting a water-like energy wave.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SingleBiomePlanet" title="/pmwiki/pmwiki.php/Main/SingleBiomePlanet">Single-Biome Planet</a>: All of the in-game planets are these. Planetary biomes include Lush worlds, which are brimming with flora and fauna; Cold worlds, which have dangerously low temperatures; Hot worlds, which have dangerously high temperatures; and Barren planets (among others). Some planetary systems have a chance to contain very strange "[REDACTED]" worlds, with odd planetary surfaces containing hexagonal tiles, bubbles, or floating geometric shapes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceBattle" title="/pmwiki/pmwiki.php/Main/SpaceBattle">Space Battle</a>: From pirate attacks to larger-scale skirmishes between two factions, players can find themselves in battles while flying through space.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirates" title="/pmwiki/pmwiki.php/Main/SpacePirates">Space Pirates</a>: Following in the tradition of such games as <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Elite" title="/pmwiki/pmwiki.php/VideoGame/Elite">Elite</a></em> and <em><a class="createlink" href="/pmwiki/pmwiki.php/VideoGame/Privateer" title="/pmwiki/pmwiki.php/VideoGame/Privateer">Privateer</a></em>, these show up every once in a while, shooting at defenseless transports and freighters or singling out the player for the large amount of valuable items in their inventory. The game gives you the option of shooting and destroying them (earning <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlobalCurrency" title="/pmwiki/pmwiki.php/Main/GlobalCurrency">Units</a> and positive reputation for doing so) or joining them (gaining potential allies and bigger payouts at the cost of angering the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePolice" title="/pmwiki/pmwiki.php/Main/SpacePolice">Sentinels</a>.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceStation" title="/pmwiki/pmwiki.php/Main/SpaceStation">Space Station</a>: All systems except the special Uncharted ones have one which serves as an interstellar shipyard, upgrading station and trading post for players and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NPC" title="/pmwiki/pmwiki.php/Main/NPC">NPCs</a> alike; along with being able to buy and sell resources players might find on nearby worlds, players can also buy fuel or upgrades for their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolStarship" title="/pmwiki/pmwiki.php/Main/CoolStarship">Cool Starship</a> and Environmental Suit here.<ul><li> They can also be shot at, which can decrease their rating and affect the quality of goods found there (though they can't be destroyed&mdash;every system must have a station), though doing so will result in the station siccing the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePolice" title="/pmwiki/pmwiki.php/Main/SpacePolice">Space Police</a> on you.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceWhale" title="/pmwiki/pmwiki.php/Main/SpaceWhale">Space Whale</a>: There is a running gag among the developers in which one of the development team members will add "SPACE WHALES" to Hello Games' schedule. That said, Sean Murray has hinted that Space Whales will likely not make their way into the game itself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpeakingSimlish" title="/pmwiki/pmwiki.php/Main/SpeakingSimlish">Speaking Simlish</a>: The only real dialogue that you ever hear in the game is electronic-sounding gibberish that's broadcast from your ship's onboard radio, with different intonations depending on where they happen to be.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritualSuccessor" title="/pmwiki/pmwiki.php/Main/SpiritualSuccessor">Spiritual Successor</a>: To <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Noctis" title="/pmwiki/pmwiki.php/VideoGame/Noctis">Noctis</a></em>, a space simulator with a similar premise and large universe consisting of billions of worlds made by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProceduralGeneration" title="/pmwiki/pmwiki.php/Main/ProceduralGeneration">Procedural Generation</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SprintMeter" title="/pmwiki/pmwiki.php/Main/SprintMeter">Sprint Meter</a>: The game uses this to measure how much longer you can run faster on the ground. Noteworthy in that you can actually upgrade it with epidural taps.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarfishAliens" title="/pmwiki/pmwiki.php/Main/StarfishAliens">Starfish Aliens</a>: Some planets have alien fauna that look quite bizarre, from animals that resemble bubbles inside of a larger bubble and bizarre creatures that resemble steel spheres to species that might resemble more traditional fauna if not for parts of their anatomy being elongated to eldritch proportions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarfishLanguage" title="/pmwiki/pmwiki.php/Main/StarfishLanguage">Starfish Language</a>: The Gek, Vy'keen, Korvax and the Atlas all have their own unique tongue, which you can learn by interacting with their people and discovering their relics. The Gek also have a secondary non-verbal language based on scent glands. A friendly Gek will emit a pleasant floral smell, whereas a hostile Gek will emit a pungent stench.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StoryBreadcrumbs" title="/pmwiki/pmwiki.php/Main/StoryBreadcrumbs">Story Breadcrumbs</a>: There <em>is</em> a story to the game, it uses relics from the past and ruins to help tell its backstory, but there's very little given to you at the start and players are encouraged to seek it out and determine what it means for themselves. Eventually averted with the Atlas Rises update, which added a new storyline was added that involved meeting characters wanting to learn about the nature of the universe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperPrototype" title="/pmwiki/pmwiki.php/Main/SuperPrototype">Super Prototype</a>: While several of the ship types feature crazy S-Class types, the Prototype ships are <em>always</em> S-Class and come in either fish-fin like designs or an odd tentacled design.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwissArmyGun" title="/pmwiki/pmwiki.php/Main/SwissArmyGun">Swiss Army Gun</a>: The Multitool. Once you graduate from the mining laser and terrain modifier, it can be loaded with anything to a machinegun-like Boltcaster, a shotgun-like Scatter Blaster and so much more, all within a device the size of a pistol.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Tagline" title="/pmwiki/pmwiki.php/Main/Tagline">Tagline</a>: "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/WideOpenSandbox" title="/pmwiki/pmwiki.php/Main/WideOpenSandbox">Every planet procedural. Every planet unique. Every planet unexplored.</a>"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooAwesomeToUse" title="/pmwiki/pmwiki.php/Main/TooAwesomeToUse">Too Awesome to Use</a>: There are several materials in the game that are exceedingly rare (and in many cases heavily defended), but are required components for the most advanced upgrades to suit tech or shipboard weapons. Players who are lucky enough to gather these probably won't want to use them due to the frequency with which ships and survival gear tend to be swapped out. What's even worse is the fact that dismantling the tech might not even return some of these materials. Luckily, the post-release addition of Base Vaults helps offset this somewhat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranslationConvention" title="/pmwiki/pmwiki.php/Main/TranslationConvention">Translation Convention</a>: Deliberately averted. With only a few exceptions, sentient aliens the player encounters will only speak in their own language. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DialogueTree" title="/pmwiki/pmwiki.php/Main/DialogueTree">Dialogue Trees</a> have options for trying to explain yourself or attempting to learn the language, and monoliths scattered around the planets will provide you with insight into the language by teaching you words.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranslatorMicrobes" title="/pmwiki/pmwiki.php/Main/TranslatorMicrobes">Translator Microbes</a>: Players can craft translators for their exosuit to make communicating with the aliens easier, although they can only translate a few words at a time, so it is still worthwhile to actually learn each race's languages.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnrealisticBlackHole" title="/pmwiki/pmwiki.php/Main/UnrealisticBlackHole">Unrealistic Black Hole</a>: The game features one at the center of the Galaxy, which is fine and dandy... except that it serves as game's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVeryDefinitelyFinalDungeon" title="/pmwiki/pmwiki.php/Main/TheVeryDefinitelyFinalDungeon">final destination</a> and end goal for the game, and as such means that players are expected to eventually get to it. There are also other black holes located across the galaxy, but they function more like wormholes than actual black holes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwinnableByMistake" title="/pmwiki/pmwiki.php/Main/UnwinnableByMistake">Unwinnable by Mistake</a>: In the beginning, you are normally given a basic ship that doesn't come equipped with a hyperdrive. As a result, you're forced to go through a tutorial section that gives you the blueprints for a hyperdrive and the fuel cells needed to power them so you can craft them when needed. The problem comes if you've purchased the special pre-order ship which comes with a hyperdrive already installed, so players who redeem the ship too early may unknowingly completely bypass the tutorial section and then end up in a situation where they're stranded on a remote planet unable to refuel their ship because they don't know how. Luckily, this was patched after launch to launch the tutorials that unlock the crafting recipe when getting any ship that lacks a hyperdrive.<ul><li> It's possible to claim a crashed ship only to discover that the planet it's on doesn't have the have the required resources to get it fixed and take off. Better not forget where you parked your old ship!</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPotential" title="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPotential">Video Game Cruelty Potential</a>: You can commit the genocide of an entire animal species or destroy entire convoys of starships if you so desire. (You can even score <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlobalCurrency" title="/pmwiki/pmwiki.php/Main/GlobalCurrency">Units</a> for doing the latter!) But doing so will get both <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">The Sentinels</a> and the local <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePolice" title="/pmwiki/pmwiki.php/Main/SpacePolice">Space Police</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPunishment" title="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPunishment">pissed off at you,</a> so you had <em>better</em> be prepared for the consequences of doing so.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPunishment" title="/pmwiki/pmwiki.php/Main/VideoGameCrueltyPunishment">Video Game Cruelty Punishment</a>: Did you kill that hapless animal <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">to fulfill your desires to be evil?</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SarcasmMode" title="/pmwiki/pmwiki.php/Main/SarcasmMode">Congratulations!</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">You've pissed off The Sentinels!</a><span class="notelabel" onclick="togglenote('note457b1');"><sup>note&nbsp;</sup></span><span id="note457b1" class="inlinefolder" isnote="true" onclick="togglenote('note457b1');" style="cursor:pointer;font-size:smaller;display:none;">They'll still come after you if you killed it in self defense, though.</span><ul><li> Did you wantonly destroy that convoy of harmless freighters and their escort that had done you no harm, or start shooting up the local <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceStation" title="/pmwiki/pmwiki.php/Main/SpaceStation">Space Station</a>? You now have to deal with the local <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePolice" title="/pmwiki/pmwiki.php/Main/SpacePolice">Space Police</a>! Some of whom are Sentinels! Good luck!</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGamePerversityPotential" title="/pmwiki/pmwiki.php/Main/VideoGamePerversityPotential">Video Game Perversity Potential</a>: The game lets players explore a vast galaxy full of planets and lifeforms they can name... Knowing how Spore turned out, <a class="urllink" href="https://www.youtube.com/watch?v=7K6t77a9Rw0">this was inevitable<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ViolationOfCommonSense" title="/pmwiki/pmwiki.php/Main/ViolationOfCommonSense">Violation of Common Sense</a>: This is what some of the correct choices during interaction with aliens boil down to without the optional cultural context. Let the Korvax scientist jam a long needle directly into your brain without any kind of preparation? You learn some new words and don't have brain damage! Aim your gun at an old Vy'keen that thinks you're puny? He thinks a little more highly of you, and gives you a new gun!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WantedMeter" title="/pmwiki/pmwiki.php/Main/WantedMeter">Wanted Meter</a>: The Sentinels have a system of how much you've pissed them off. Anger them sufficiently and they'll keep sending <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossInMookClothing" title="/pmwiki/pmwiki.php/Main/BossInMookClothing">Walkers</a> until they run you off the planet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeWillSpendCreditsInTheFuture" title="/pmwiki/pmwiki.php/Main/WeWillSpendCreditsInTheFuture">We Will Spend Credits in the Future</a>: In this case the "credits" are called Units but it's the same concept, even if it is in a largely unexplored Galaxy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WideOpenSandbox" title="/pmwiki/pmwiki.php/Main/WideOpenSandbox">Wide Open Sandbox</a>: The game has been described as basically "<em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Minecraft" title="/pmwiki/pmwiki.php/VideoGame/Minecraft">Minecraft</a></em> in space," and the major emphasis is on player discovery. With a vast number of procedurally-generated planets in the game (over 72 quadrillion), by the time the last one is found, over 1.1 billion years will have passed if two planets were discovered per second. <a class="urllink" href="http://www.mcvuk.com/index.php/news/read/no-man-s-sky-promises-gameplay-that-s-as-varied-as-its-galaxy/0137751">This article<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> provides more detail.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AWinnerIsYou" title="/pmwiki/pmwiki.php/Main/AWinnerIsYou">A Winner Is You</a>: The climax of your quest is to reach the center of the galaxy. <span class="spoiler" title="you can set spoilers visible by default on your profile">Once you get there, it begins a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewGamePlus" title="/pmwiki/pmwiki.php/Main/NewGamePlus">New Game+</a>, where the player is teleported to another galaxy without any kind of reward or plot revelation</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WizardNeedsFoodBadly" title="/pmwiki/pmwiki.php/Main/WizardNeedsFoodBadly">Wizard Needs Food Badly</a>: In a way. Players must make sure their life support is maintained, or else risk suffocating. This can be done with dishes prepared in the Nutrient Processor, or just raw meat and alien plants, but it's easier to live on pure oxygen stuffed into your life support unit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: The Waking Titan <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateRealityGame" title="/pmwiki/pmwiki.php/Main/AlternateRealityGame">Alternate Reality Game</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> The entirety of the <em>No Man's Sky</em> universe is just a simulation run by an alternate present-day Earth. Priest-Entity Nada is <em>absolutely right</em> and it's hinted the universe is trying to kill them for it</span>. Also occurs at the climax of the story, <span class="spoiler" title="you can set spoilers visible by default on your profile"> where the player character learns that the universe is a simulation and will allegedly be reset in 16 minutes by a fearful Atlas</span>.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> The second "season" of Waking Titan was no less whammy. The players are victims of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainUploading" title="/pmwiki/pmwiki.php/Main/BrainUploading">Brain Uploading</a> device gone wrong, the folks running the simulation had no clue just how big an issue it was, and ATLAS is forced to sacrifice her core personality to get out the last few people they could restore, leaving the simulation running on automatic. The player characters aren't so lucky, with their portion of the cloud network being either too damaged or disconnected to retrieve their consciousness safely, leaving them stuck in the <em>No Man's Sky</em> simulation.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk" title="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk">What a Piece of Junk</a>: Can be deliberately invoked by the player by upgrading a Shuttle, which have very rusty, geometric and hap-hazard designs but can be upgraded with serious firepower and long-distance Hyperdrives.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordSaladTitle" title="/pmwiki/pmwiki.php/Main/WordSaladTitle">Word Salad Title</a>: When <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HelloGames" title="/pmwiki/pmwiki.php/Creator/HelloGames">Hello Games</a> were trying to determine what they'd name their upcoming Science-Fiction game, one developer suggested a name that had a nice, sci-fi novel style to it: <em>No Man's Sky</em>. The developers have no intention of <em>No Man's Sky</em> meaning anything; the phrase's similarity with "no man's land," transplanting the concept of a stretch of unexplored and unclaimed wilderness into a sci-fi setting, was an added bonus.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWorldIsJustAwesome" title="/pmwiki/pmwiki.php/Main/TheWorldIsJustAwesome">The World Is Just Awesome</a>: Each of the worlds generated by the system is just wonderful to look at, particularly after the Foundation update that increased the frequency of colourful worlds.</li></ul><hr><dl><dd><div class="indent"> <em>Man cannot discover new oceans unless he has the courage to lose sight of the shore.</em></div><div class="indent">&mdash; Andre Gide</div></dd></dl>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Nether">Nether</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/SurvivalSandbox">Survival Sandbox</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Notrium">Notrium</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NintendoLand">Nintendo Land</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/PanEuropeanGameInformation">UsefulNotes/Pan European Game Information</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Opoona">Opoona</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NinjaGaiden">Ninja Gaiden</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TeenRating">Teen Rating</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoOneLivesForever">No One Lives Forever</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NierAutomata">NieR Automata</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Sandbox/WindowsGames">Sandbox/Windows Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/OneWayHeroics">One Way Heroics</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NightStriker">Night Striker</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionVideoGames">Science Fiction Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoMoreHeroes">No More Heroes</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/JoeDanger">Joe Danger</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/BritishMedia">British Media</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Hercules">Hercules</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Nioh2">Nioh 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/TheEighthGenerationOfConsoleVideoGames">UsefulNotes/The Eighth Generation of Console Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/OctopathTraveler">Octopath Traveler</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NitroplusBlasterzHeroinesInfiniteDuel">Nitroplus Blasterz Heroines Infinite Duel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/PlayStation4">UsefulNotes/PlayStation 4</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoStraightRoads">No Straight Roads</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/KerbalSpaceProgram2">Kerbal Space Program 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/SimulationGame">Simulation Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Orbiter">Orbiter</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoituLove">Noitu Love</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/WindowsGames">UsefulNotes/Windows Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoOneLivesForever">No One Lives Forever</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Nightmare">Nightmare</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VideoGamesOf20152019">Video Games of 2015-2019</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/North">North</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Noctis">Noctis</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WideOpenSandbox">Wide Open Sandbox</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoMoreHeroes">No More Heroes</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Videogame/NinjaPizzaGirl">Ninja Pizza Girl</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/XboxOne">UsefulNotes/XBox One</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/NoStraightRoads">No Straight Roads</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['videogame']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

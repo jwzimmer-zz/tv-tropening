@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Starfire (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Starfire is a hex-map-based wargame, focused on combat between fleets of space ships. Building ships and fighting between individual ships was originally &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Starfire" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Starfire (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Starfire is a hex-map-based wargame, focused on combat between fleets of space ships. Building ships and fighting between individual ships was originally &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/starfire_cover.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Starfire (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Starfire" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/starfire_cover.jpg" />
+<meta property="og:description" content="Starfire is a hex-map-based wargame, focused on combat between fleets of space ships. Building ships and fighting between individual ships was originally designed to be almost painfully simple, so that the players could focus on fleet tactics. As &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/SlaveMooks" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/ComicBook/TeenageMutantNinjaTurtlesMirage" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Starfire?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Starfire">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Starfire">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Starfire&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Starfire">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Starfire?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Starfire" />
+<input type="hidden" id="article_id" value="317764" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Starfire</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Starfire
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Starfire"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Starfire" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/Starfire" class="subpage-link " title="The ComicBook page">
+<span class="wrapper"><span class="spi comicbook"></span>ComicBook</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/Starfire" class="subpage-link " title="The Literature page">
+<span class="wrapper"><span class="spi literature"></span>Literature</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Starfire" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Starfire" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Starfire" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoExamples/Starfire" class="subpage-link video-examples-tab  " title="Video Examples">
+<img src="/images/play-button-logo.png" alt="play" class="">
+<span class="wrapper">VideoExamples</span>
+</a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Starfire?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Starfire?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Starfire?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Starfire?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Starfire?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Starfire?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Starfire?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Starfire?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Starfire?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Starfire?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Starfire?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Starfire?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Starfire?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Starfire?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Starfire?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/Starfire?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:250px;"><div class="lazy_load_img_box" style="padding-top:140.16%"><img src="https://static.tvtropes.org/pmwiki/pub/images/starfire_cover.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/starfire_cover.jpg" width="249" height="349"></div></div><p></p><div class="indent"><em>"For an instant, the decades rolled away and it was the time of the Second Interstellar War, when Commander Nikolai Borisovich Antonov, his Operations officer, had learned of the birth of a son on the eve of the Second Battle of Ophiuchi Junction. They'd all had a little more to drink that night than they should have, but Nikolai had survived both the vodka and the battle. And toward the end of the Third Interstellar War, President Anderson had met Vice Admiral Antonov's newly commissioned son . . . who now sat across from Minister of War Production Anderson, tossing back his vodka so much like Nikolasha that for an instant it seemed . . . Too many memories. We are not meant to live so long."</em><div class="indent">&mdash; Howard Anderson, <em>Crusade</em></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Starfire</em> is a hex-map-based wargame, focused on combat between fleets of space ships.</p><p>Building ships and fighting between individual ships was originally designed to be almost painfully simple, so that the players could focus on fleet tactics. As the game evolved, however, the rules grew more complex, until players needed to keep track of almost as much information per ship as in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles" title="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles">Star Fleet Battles</a></em>. (Which, coincidentally, was originally written by the same author).</p><p>The game is now in its fifth edition.Of particular interest is the fact that <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/DavidWeber" title="/pmwiki/pmwiki.php/Creator/DavidWeber">David Weber</a>, author of the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/HonorHarrington" title="/pmwiki/pmwiki.php/Literature/HonorHarrington">Honor Harrington</a></em> series of SF novels, became a contributor to the game starting with the <em>Starfire III: Empires</em> supplement of the 1st Edition. Some of Weber's online comments about the game, and his involvement with it, can be found <a class="urllink" href="http://infodump.thefifthimperium.com/series/Starfire/">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> (the black text on that page is an expandable link container). Weber later teamed up with Steve White to write <strong>novels</strong> set in the <em>Starfire</em> universe, of which 7 have been published so far:</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><ul><li> <em>Crusade</em> (part of <em>The Stars At War</em>)</li><li> <em>In Death Ground</em> (part of <em>The Stars At War</em>)</li><li> <em>The Shiva Option</em> (part of <em>The Stars At War II</em>)</li><li> <em>Insurrection</em> (part of <em>The Stars At War II</em>)</li><li> <em>Exodus</em> (by Steve White and Shirley Meier)</li><li> <em>Extremis</em> (by Steve White and Charles E. Gannon)</li><li> <em>Imperative</em> (by Steve White and Charles E. Gannon)</li></ul><p><br>Not to be confused with the <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/DCComics" title="/pmwiki/pmwiki.php/Creator/DCComics">DC Comics</a> character. (For that, see the <em><a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/TeenTitans" title="/pmwiki/pmwiki.php/ComicBook/TeenTitans">Teen Titans</a></em>.) Also bears no relation to the 1980 coin-op <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ArcadeGame" title="/pmwiki/pmwiki.php/UsefulNotes/ArcadeGame">Arcade Game</a> <em><a class="urllink" href="http://www.arcade-museum.com/game_detail.php?game_id=9758">Star Fire<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>, or to the rocket-armed <a class="urllink" href="http://en.wikipedia.org/wiki/F-94_Starfire">F-94C<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, or to the nuclear fusion process that powers actual stars.</p><p></p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><h2> This wargame provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AchillesHeel" title="/pmwiki/pmwiki.php/Main/AchillesHeel">Achilles' Heel</a>: All starships have a 60 degree "blind spot" directly aft. If an enemy can work its way into a ship's blind spot, it can shoot all of its weapons at the ship and its target will be powerless to fire back.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AFormYouAreComfortableWith" title="/pmwiki/pmwiki.php/Main/AFormYouAreComfortableWith">A Form You Are Comfortable With</a>: When dealing with humans, the Vestrii (from <em>Alkelda Dawn</em>) like to wear powered armor suits that make them look like humans &mdash; often <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DistractedByTheSexy" title="/pmwiki/pmwiki.php/Main/DistractedByTheSexy">hot chick</a> humans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Antimatter" title="/pmwiki/pmwiki.php/Main/Antimatter">Antimatter</a>: If nuclear missiles don't pack enough punch for your <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceNavy" title="/pmwiki/pmwiki.php/Main/SpaceNavy">Space Navy</a>, you can upgrade their warheads to the antimatter variety, which (depending on the tech level and which rule revision you're playing with) can do anywhere from 2-5 times as much damage. Of course, having all that antimatter sitting in your starship's missile holds can be a tad dangerous....</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercingAttack" title="/pmwiki/pmwiki.php/Main/ArmorPiercingAttack">Armor-Piercing Attack</a>: Lasers pierce (a limited, tech-determined number of) shields. Energy beams do the same with armour. Primary (force) beams skip armour <em>and</em> shields, but only do a single point of damage. <em>Capital</em> primary beams drop the "only do a single point of damage" bit, though they still do less damage than a standard capital-scale weapon would.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBattlestar" title="/pmwiki/pmwiki.php/Main/TheBattlestar">The Battlestar</a>: The first expansion published during the 1st Edition years, <em>Starfire II</em>, introduced fighter carriers. Fighters are tiny, fragile, single-seat weapon platforms capable of flying faster and turning more sharply than a normal-sized starship. Their carriers mount their own weapons with which to defend themselves even if all their fighters are deployed. The Terrans, Orions<span class="notelabel" onclick="togglenote('note07wat');"><sup>note&nbsp;</sup></span><span id="note07wat" class="inlinefolder" isnote="true" onclick="togglenote('note07wat');" style="cursor:pointer;font-size:smaller;display:none;"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatFolk" title="/pmwiki/pmwiki.php/Main/CatFolk">cat aliens</a></span>, and Ophiuchi<span class="notelabel" onclick="togglenote('note1nlzb');"><sup>note&nbsp;</sup></span><span id="note1nlzb" class="inlinefolder" isnote="true" onclick="togglenote('note1nlzb');" style="cursor:pointer;font-size:smaller;display:none;">bird aliens</span> first encountered them when they ran into the Rigellians<span class="notelabel" onclick="togglenote('note2ccsl');"><sup>note&nbsp;</sup></span><span id="note2ccsl" class="inlinefolder" isnote="true" onclick="togglenote('note2ccsl');" style="cursor:pointer;font-size:smaller;display:none;"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/BearsAreBadNews" title="/pmwiki/pmwiki.php/Main/BearsAreBadNews">bear aliens</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeamSpam" title="/pmwiki/pmwiki.php/Main/BeamSpam">Beam Spam</a>: Take your pick &mdash; laser beams, force beams, primary beams, energy beams, needle beams, <em>capital</em> force beams, capital primary beams, capital energy beams, <em>second-generation</em> capital force beams, nuclear-pumped X-ray lasers, heterodyne lasers, and don't even get me started on inertial sinks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BearsAreBadNews" title="/pmwiki/pmwiki.php/Main/BearsAreBadNews">Bears Are Bad News</a>: The Rigellians. Not only do they look like bears, they believe in the extermination of all other spacefaring species.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoxedCrook" title="/pmwiki/pmwiki.php/Main/BoxedCrook">Boxed Crook</a>: The pirate Thomas Calloway in the Nexus magazine #4 article "The Gauntlet".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BugWar" title="/pmwiki/pmwiki.php/Main/BugWar">Bug War</a>: The Fourth Interstellar War against the Arachnids.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatFolk" title="/pmwiki/pmwiki.php/Main/CatFolk">Cat Folk</a>: The Khanate of Orion. If you smile at one, don't let your teeth show; they'll consider it a combat challenge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CivilWar" title="/pmwiki/pmwiki.php/Main/CivilWar">Civil War</a>: Long after the Fourth Interstellar War was over, the Terran Federation grew so large that its core worlds and corporate worlds no longer respected the needs of its fringe worlds. Thus, the fringe worlds declared their independence, and the core worlds tried to pound them back into the fold.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeflectorShields" title="/pmwiki/pmwiki.php/Main/DeflectorShields">Deflector Shields</a>: A ship's shields behave like ablative armor, providing protection by collapsing. The more shields you install on a ship, however, the less room your ship will have for other systems. Higher tech levels have access to more expensive shields that provide more protection per hull-space.<ul><li> A starship's Ion Drive engines also produce a "Drive Field" around the ship, which no physical object can cross without being vaporized. Thus, nuclear missiles are programmed to detonate just <em>before</em> they reach their target's drive field &mdash; and that separation distance at the moment of detonation means the target ship takes far less damage than it would if the missile had come into direct contact with it. (The effect of a missile hit on a unit with no drive field varies from edition to edition. In <em>Starfire III</em>, one hit by a missile completely destroys a mothballed (and therefore driveless) unit. In 2nd Edition, missile damage on driveless units was multiplied by 10. In 3rd Edition, it was multiplied by 3, except for space stations which multiplied such damage by 2 and may or may not have had a weak drive field.)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyWeapon" title="/pmwiki/pmwiki.php/Main/EnergyWeapon">Energy Weapon</a>: Lasers are the first type of beam weapon available to a low-tech civilization. At higher tech levels, an empire may have access to X-ray lasers or high-powered heterodyne lasers. All types of lasers will pass right through a target's shields, but not through a target's physical armor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRankSystem" title="/pmwiki/pmwiki.php/Main/FantasticRankSystem">Fantastic Rank System</a>: Nexus magazine #8 and #12 had articles on the militaries of the Khanate of Orion and Protectorate of Rigel, including their rank structure. Khanate rank names tend to end in "claw" (for comissioned officers) or "fang" (for generals and admirals). And, yes, they have almost exactly the same number of officer and general ranks as modern terrestrial militaries do, despite being a species of cat people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FTLTravel" title="/pmwiki/pmwiki.php/Main/FTLTravel">FTL Travel</a>: Of the "portal network" variety. Strategists measure the "distance" between star systems not in light-years or parsecs, but in how many warp-point hops it takes to get from one system to another. Strategic maps look more like the state diagrams of the old text-based adventure games than actual maps.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FirstContact" title="/pmwiki/pmwiki.php/Main/FirstContact">First Contact</a>: Occurs between the Terrans and the Khanate of Orion in 2205 A.D., at the piddling little backwater star system of VX-134. Both starships in the encounter opened fire on one another.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantSpider" title="/pmwiki/pmwiki.php/Main/GiantSpider">Giant Spider</a>: The Arachnids of the Fourth Interstellar War.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Heavyworlder" title="/pmwiki/pmwiki.php/Main/Heavyworlder">Heavyworlder</a>: The Gorm home planet has much stronger gravity than any other spacefaring empire's homeworld. Originally, this was the reason given for their ships' ability to mount greater numbers of engines and thus have higher top speeds. When helpful readers pointed out that Ion Drive Engine technology didn't actually generate G forces on the ship or its crew, the reasoning was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetCon" title="/pmwiki/pmwiki.php/Main/RetCon">retconned</a> to be that the Gorm's higher radiation tolerance allowed them to operate more engines at once.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a>: The Arachnids, being closely patterned on the Arachnids from <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RobertAHeinlein" title="/pmwiki/pmwiki.php/Creator/RobertAHeinlein">Robert A. Heinlein</a>'s <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/StarshipTroopers" title="/pmwiki/pmwiki.php/Literature/StarshipTroopers">Starship Troopers</a></em>, exist as a mentally interconnected colony of many many worker bugs and only a few "brain bugs". They have no qualms about sending worker-manned starships on suicide missions, since the loss of a worker isn't seen as a "death" in the human sense.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImAHumanitarian" title="/pmwiki/pmwiki.php/Main/ImAHumanitarian">I'm a Humanitarian</a>: The Arachnids consider humans a delicacy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InertialDampening" title="/pmwiki/pmwiki.php/Main/InertialDampening">Inertial Dampening</a>: The standard Ion Drive Engines can instantly bring a starship from a standing stop to a sizable percentage of the speed of light, almost like an inertialess drive. Likewise, a starship can instantly drop from full speed to a dead stop, and then resume speed again, up to 6 times per turn. What it <em>can't</em> do easily is change direction.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntelligentGerbil" title="/pmwiki/pmwiki.php/Main/IntelligentGerbil">Intelligent Gerbil</a>: The Khanate of Orion are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatFolk" title="/pmwiki/pmwiki.php/Main/CatFolk">cat aliens</a>. The Ophiuchi Association are bird aliens. The Rigellians are bear aliens. The Crucians are bat aliens. The Arachnids are, as might be expected, spider aliens.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LensmanArmsRace" title="/pmwiki/pmwiki.php/Main/LensmanArmsRace">Lensman Arms Race</a>: The Tech Advancement system assures that these happen. At the beginning of the First Interstellar War, the Terrans and the Orions had shields, ion drive engines, low-powered lasers, and launchers that could fire long-range <em>or</em> short-range missiles (but not both). By the end of the First Interstellar War, both sides had tractor beams, anti-tractor shearing planes, hybrid long- and short-range missile launchers, anti-missile point defense, datalinks that could coordinate missiles fired from multiple ships to overwhelm the target's point defense, and multiplex tracking that could allow a single ship to fire on multiple targets simultaneously.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacrossMissileMassacre" title="/pmwiki/pmwiki.php/Main/MacrossMissileMassacre">Macross Missile Massacre</a>: Due to the presence of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PointDefenseless" title="/pmwiki/pmwiki.php/Main/PointDefenseless">Point Defense</a> systems on most units, damaging an enemy at long range requires you to inundate him with so many missiles he can't possibly stop them all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a>: In 1st Edition, the surprise attack launched by the Rigellian Protectorate against the Khanate of Orion took place at <em>Paurl Harbor</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MobileSuitHuman" title="/pmwiki/pmwiki.php/Main/MobileSuitHuman">Mobile-Suit Human</a>: The Vestriian encounter suit is <em>supposed</em> to be this, but they just can't seem to get the face right. Their suits sometimes make up for this with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DistractedByTheSexy" title="/pmwiki/pmwiki.php/Main/DistractedByTheSexy">curvy hips</a> and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MostCommonSuperpower" title="/pmwiki/pmwiki.php/Main/MostCommonSuperpower">Most Common Superpower</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoBulkDiscounts" title="/pmwiki/pmwiki.php/Main/NoBulkDiscounts">No Bulk Discounts</a>: In 1st Edition, if your empire manufactured 2 or more identical starships, you got a 10% cost discount on all identical ships after the first. This encouraged players to create "classes" of ships, like real navies do. However, this rule was removed in 2nd Edition.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NukeEm" title="/pmwiki/pmwiki.php/Main/NukeEm">Nuke 'em</a>: Standard anti-starship missiles are all fitted with nuclear warheads. The only reason a starship can withstand so many hits from these missiles is that their engines' Drive Field prevents physical objects from coming into contact with the ship's hull &mdash; so the missiles have to be programmed to detonate an instant <em>before</em> they reach the target's Drive Field.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OldSchoolDogfight" title="/pmwiki/pmwiki.php/Main/OldSchoolDogfight">Old-School Dogfight</a>: Fighters, like starships, take time (and distance) to change heading, and must always be pointed in the same direction they're moving. Since a fighter's weapons only fire in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FixedForwardFacingWeapon" title="/pmwiki/pmwiki.php/Main/FixedForwardFacingWeapon">60 degree arc to the front</a>, a fighter squadron will try to maneuver such that their enemy is in its firing arc but no enemy fighters have it in <em>their</em> firing arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHitPointWonder" title="/pmwiki/pmwiki.php/Main/OneHitPointWonder">One-Hit Point Wonder</a>: Any hit on a fighter destroys it. (<em>Getting</em> that hit is significantly harder than hitting a starship, however.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWormholesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWormholesAreDifferent">Our Wormholes Are Different</a>: Naturally-occurring warp points link the star systems to each other. They can only be traversed by a ship with a Drive Field, and have a chance of destroying ships if 2 or more of them try to make transit at the same time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetTerra" title="/pmwiki/pmwiki.php/Main/PlanetTerra">Planet Terra</a>: It ain't called the <em>Terran</em> Federation Navy for nothin'.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">Portal Network</a>: Warp points form a naturally-occuring one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudWarriorRace" title="/pmwiki/pmwiki.php/Main/ProudWarriorRace">Proud Warrior Race</a>: The Khanate of Orion, a thinly-veiled copy of the <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/KnownSpace" title="/pmwiki/pmwiki.php/Literature/KnownSpace">Kzinti</a>. The Rigellians, by contrast, are simply out to exterminate the competition.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReactionlessDrive" title="/pmwiki/pmwiki.php/Main/ReactionlessDrive">Reactionless Drive</a>: Little description is given as to how the standard Ion Drive engine works, let alone as to whether there's any exhaust coming out its tailpipe, but starships can cruise (and make any number of course changes) at 5-10% of the speed of light for weeks without refuelling. <em>The Shiva Option</em> explicitly refers to it as a reactionless drive.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: The Primary Beam is a shout-out to the weapon of the same name in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Lensman" title="/pmwiki/pmwiki.php/Literature/Lensman">Gray Lensman</a></em>.<ul><li> The Arachnids are closely modelled on the Bugs in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/StarshipTroopers" title="/pmwiki/pmwiki.php/Literature/StarshipTroopers">Starship Troopers</a></em> novel.</li><li> The introduction of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceFighter" title="/pmwiki/pmwiki.php/Main/SpaceFighter">Space Fighter</a> and fighter carrier in <em>Starfire II</em> was inspired by the original 1970s <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/BattlestarGalactica1978" title="/pmwiki/pmwiki.php/Series/BattlestarGalactica1978">Battlestar Galactica</a></em>. The 1st Edition rules example for a squadron control sheet even used the name "Blue Squadron."</li><li> The Khanate of Orion bear a striking resemblance, both in physical appearance and mannerism, to the Kzinti from <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/LarryNiven" title="/pmwiki/pmwiki.php/Creator/LarryNiven">Larry Niven</a>'s <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/KnownSpace" title="/pmwiki/pmwiki.php/Literature/KnownSpace">Known Space</a> universe.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SingleBiomePlanet" title="/pmwiki/pmwiki.php/Main/SingleBiomePlanet">Single-Biome Planet</a>: In the Nexus magazine #9 article "Heeaquii War Scenarios", Heeaq VII is an Ice Planet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceBase" title="/pmwiki/pmwiki.php/Main/SpaceBase">Space Base</a>: Space stations are sprawling space complexes which, due to the lack of a Drive Field, are especially vulnerable to missile fire. Base Stations (a.k.a. Orbital Weapon Platforms), on the other hand, have the full protection of a starship's Drive Field, even though they don't go anywhere.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceBattle" title="/pmwiki/pmwiki.php/Main/SpaceBattle">Space Battle</a>: The whole game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceFighter" title="/pmwiki/pmwiki.php/Main/SpaceFighter">Space Fighter</a>: See <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBattlestar" title="/pmwiki/pmwiki.php/Main/TheBattlestar">The Battlestar</a> above.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean" title="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean">Space Is an Ocean</a>: The Ion Drive Field of a starship can instantly bring a vessel from a dead stop to 1/10 of the speed of light. However, a ship must always follow its nose, it can't fly sideways or backwards. It takes time and distance to change heading once a ship has started moving.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceNavy" title="/pmwiki/pmwiki.php/Main/SpaceNavy">Space Navy</a>: The ship weight classes are named after their wet-navy equivalents &mdash; Escorts, Corvettes, Destroyers, Light Cruisers, Heavy Cruisers, Battlecruisers, Battleships, Superdreadnoughts, and Monitors, not to mention Cutters and Pinnaces. The Terrans' main military space force is even called the Terran Federation Navy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StandardSciFiFleet" title="/pmwiki/pmwiki.php/Main/StandardSciFiFleet">Standard Sci-Fi Fleet</a>: Big but slow capital ships, small but fast cruisers, fighters and fighter carriers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StandardStarshipScuffle" title="/pmwiki/pmwiki.php/Main/StandardStarshipScuffle">Standard Starship Scuffle</a>: Distances are realistic &mdash; a single hex represents a region of space 150 <em>thousand</em> kilometers across (reduced to 75 thousand in 3rd Edition Revised) &mdash; but the tactics and feel are still of old naval ships banging away at each other with broadsides.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubsystemDamage" title="/pmwiki/pmwiki.php/Main/SubsystemDamage">Subsystem Damage</a>: The entire combat system is practically <em>defined</em> as this. A starship's control sheet is basically a string of system codes, where each code represents a shield, a layer of armor, or an "internal system", like so: SSSSAAAZLIRIII. (Each S is a shield, each A is a layer of armor, and the other letters are various internal systems like lasers and ion engines.) With most weapons, one damage point destroys the first undamaged system on the control sheet &mdash; so, after taking 9 points of damage, the same ship's control sheet would look like this: xxxxxxxxxIRIII. In order to destroy a starship, <em>all</em> of its internal systems must be destroyed. Thus, while a ship is being pounded on, more and more of its systems will go down and the ship can do less and less.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnologyLevels" title="/pmwiki/pmwiki.php/Main/TechnologyLevels">Technology Levels</a>: Until 4th Edition, the technological progress of all races was gauged by a single ladder of Tech Levels. At Tech Level I, you got Ion Drive Engines, Shields, Missiles, and Lasers. At Tech Level III, you got Tractor Beams. At Tech Level VIII, you got fighters. Didn't matter if you were Terran, Orion, Ophiuchi, Rigellian, Gorm, or Arachnid; all races progressed exactly the same, even if they'd never encountered another starfaring race before.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechTree" title="/pmwiki/pmwiki.php/Main/TechTree">Tech Tree</a>: Introduced in 4th Edition to replace &mdash; or, rather, enhance &mdash; the old system of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnologyLevels" title="/pmwiki/pmwiki.php/Main/TechnologyLevels">Technology Levels</a>. Each empire still has an overall "Science Level", but the development of specific new pieces of technology is based on earlier development in that particular Tree; the Science Level is merely a limiting factor that prevents an empire from going <em>too</em> far down one Tree at the expense of all the others.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemeNaming" title="/pmwiki/pmwiki.php/Main/ThemeNaming">Theme Naming</a>: Like the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLife" title="/pmwiki/pmwiki.php/Main/RealLife">Real Life</a> Navy, nearly ubiquitous when naming the starships belonging to the same class.<ul><li> In 1st Edition, all Ophiuchi ships had Arabic names, and all Rigellian ships had German names. This despite neither race having ever heard of Earth before.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToServeMan" title="/pmwiki/pmwiki.php/Main/ToServeMan">To Serve Man</a>: The Arachnids of the Fourth Interstellar War find humans a delicacy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TractorBeam" title="/pmwiki/pmwiki.php/Main/TractorBeam">Tractor Beam</a>: A starship's tractor beams are a terrifying weapon, capable of yanking enemy units around like ragdolls and preventing them from dodging your weapons fire. As a consequence, the "shearing plane," which nullified <em>all</em> tractor beams used against a ship, was invented immediately after tractor beams first appeared on the battlefield.<ul><li> A variant called the "Presser Beam" also exists, which serves not to draw an enemy unit closer but to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">push it away</a>.</li><li> The Force Beam and Primary Beam were developed by using tractor technology to <em>punch</em> instead of push.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoDSpace" title="/pmwiki/pmwiki.php/Main/TwoDSpace">2-D Space</a>: The game <em>is</em> played on a flat hexmap, after all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeWillSpendCreditsInTheFuture" title="/pmwiki/pmwiki.php/Main/WeWillSpendCreditsInTheFuture">We Will Spend Credits in the Future</a>: Starship hulls, and individual ship systems, are priced in "megacredits."</li></ul><p></p><hr><h2> The novel series also provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeatThemAtTheirOwnGame" title="/pmwiki/pmwiki.php/Main/BeatThemAtTheirOwnGame">Beat Them at Their Own Game</a>: In <em>Insurrection</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptPolitician" title="/pmwiki/pmwiki.php/Main/CorruptPolitician">Francois Fouchet</a> orders the murder of his political rival Fionna MacTaggart, confident that his immunity from prosecution as a member of the Legislative Assembly will protect him. One of Fionna's political allies <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspicuouslyPublicAssassination" title="/pmwiki/pmwiki.php/Main/ConspicuouslyPublicAssassination">breaks Fouchet's neck in the middle of the next session</a>, taking advantage of his own immunity as a member of the Assembly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BringNewsBack" title="/pmwiki/pmwiki.php/Main/BringNewsBack">Bring News Back</a>: In both <em>In Death Ground</em> and <em>The Shiva Option</em>, deep scouts from the Terran Federation Navy discover closed warp points with <em>huge</em> strategic implications &mdash; while they're several systems deep in enemy territory and have no way of getting a message home.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoNotGoGentle" title="/pmwiki/pmwiki.php/Main/DoNotGoGentle">Do Not Go Gentle</a>: All sides tend to fight bitterly when facing inevitable defeat.</li></ul><div class="indent"> <em>Their role had suddenly narrowed to inflicting as many enemy casualties as possible before their own unavoidable cessation of existence.</em></div><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanityIsSuperior" title="/pmwiki/pmwiki.php/Main/HumanityIsSuperior">Humanity Is Superior</a>: Weber rarely misses an opportunity to point out how much better Terran industry, and to a lesser extent technology, is than the Orion Khanate's.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knight Templar</a>: The alien civilization in <em>Crusade</em> thinks of the Terrans as their godlike saviors, and the Khanate of Orion as the devil &mdash; to such an extent that any Terrans seen aiding the Orions are viewed as "fallen angels" who must be exterminated for the greater good.<ul><li> The aliens got their ideology from an isolated Terran expedition while the Terrans and Khanate were at war. When the aliens emerged into the galaxy, the Terrans and Khanate were on friendlier terms....</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InfoDump" title="/pmwiki/pmwiki.php/Main/InfoDump">Info Dump</a>: This <em>is</em> David Weber we're talking about here.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MatchCut" title="/pmwiki/pmwiki.php/Main/MatchCut">Match Cut</a>: In <em>Crusade.</em> ("... Redwing!")</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction" title="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction">Military Science Fiction</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Film/StreetFighter" title="/pmwiki/pmwiki.php/Film/StreetFighter">Of course!</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NightmareSequence" title="/pmwiki/pmwiki.php/Main/NightmareSequence">Nightmare Sequence</a>: <em>In Death Ground</em> has a scene where Admiral Villers is woken from his sleep by klaxon alarms signifying the arrival of the Bugs. Villers prepare for battle, reflecting how even this nightmarish situation is better than the actual nightmare he just woke up from: watching the people of the planet he's protecting be slaughtered, with all of them having the faces of his wife and daughter.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReallySevenHundredYearsOld" title="/pmwiki/pmwiki.php/Main/ReallySevenHundredYearsOld">Really 700 Years Old</a>: Certain select individuals have received "antigerone" treatments, which vastly extend their lifespans. Admiral Ivan Antonov, the main fleet commander during <em>Crusade</em>, is still healthy enough to be recalled to active duty in <em>In Death Ground</em> nearly a century later.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SayingTooMuch" title="/pmwiki/pmwiki.php/Main/SayingTooMuch">Saying Too Much</a>: In the novel <em>Crusade,</em> Fleet Chaplain Manuk assures Admiral Lantua that the absence of any reference to "the true faith" in their prisoners' history records can be explained by data manipulation deceiving their ancestors. The knowledge Manuk displays about <em>how</em> history can be falsified causes Lantua to realize that the Theban church has been falsifying history and lying to the people, which leads to Lantua's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritualSuccessor" title="/pmwiki/pmwiki.php/Main/SpiritualSuccessor">Spiritual Successor</a>: The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/HonorHarrington" title="/pmwiki/pmwiki.php/Literature/HonorHarrington">Honor Harrington</a></em> series, also by Weber, reuses concepts, technology, personality, even a few names.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrategyVersusTactics" title="/pmwiki/pmwiki.php/Main/StrategyVersusTactics">Strategy Versus Tactics</a>: There are two types of drives: military drives, which are very powerful and take up a small hull volume but must be periodically shut down for maintenance, and commercial drives, which are bulkier and slower but are actually faster over long distances due to their greater endurance. Most warships accept no substitutes for military drives; however, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BugWar" title="/pmwiki/pmwiki.php/Main/BugWar">Bugs</a> use commercial drives for their fleets, making their ships less capable and survivable but allowing them to more easily gather and deploy the crushingly huge attritional fleets they favor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwantedFalseFaith" title="/pmwiki/pmwiki.php/Main/UnwantedFalseFaith">Unwanted False Faith</a>: In the back story for <em>Crusade</em>, a Terran starship crash-landed on an inhabited alien planet during the First Interstellar War, and its captain told the inhabitants there how the Khanate of Orion was the enemy. The aliens take his words as Divine Revelation, painting the Terrans as angels and the Orions as devils. So when, long after hostilities between the Terrans and Orions have ended, an Orion starship happens to poke its nose into their star system, they blast the "devils" to smithereens. To prove to the Orions that we're still friendly and prevent another war, the <em>Terrans</em> have to attack this alien race &mdash; who, unwilling to give up their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CargoCult" title="/pmwiki/pmwiki.php/Main/CargoCult">Cargo Cult</a> beliefs, conclude that these new Terrans are "fallen" Terrans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAreInCommandNow" title="/pmwiki/pmwiki.php/Main/YouAreInCommandNow">You Are in Command Now</a>:<ul><li> After the first battle in <em>In Death Ground,</em> the highest-ranking survivor aboard one ship (which is scuttled soon afterward) is the assistant navigator, who was <em>ninth</em> in the chain of command.</li><li> Later in "In Death Ground," Admiral Teller is told that he is in command of the task force when Admiral Villers decides to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoldTheLine" title="/pmwiki/pmwiki.php/Main/HoldTheLine">Hold the Line</a>.</li><li> When the first major exclusion into bug territory goes wrong, Admiral Prescott takes command of the fleet after <span class="spoiler" title="you can set spoilers visible by default on your profile"> Admiral Antonov's ship is crippled, and he orders them to leave him.</span></li></ul></li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/EmpireFromTheAshes">Empire from the Ashes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/DavidWeber">Creator/David Weber</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/Safehold">Safehold</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Starfinder">Starfinder</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles">Star Fleet Battles</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/XWingMiniatures">X-Wing Miniatures</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WarGaming">War Gaming</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/VictoryInThePacific">Victory In The Pacific</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/Safehold">Safehold</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction">Military Science Fiction</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/VorkosiganSaga">Vorkosigan Saga</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Splittermond">Splittermond</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/StarFleetBattles">Star Fleet Battles</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

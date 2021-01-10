@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Demon: The Descent (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="A description of tropes appearing in Demon: The Descent. What has fallen may rise... or fall further still. The ninth gameline for the New World of Darkness &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Demon: The Descent (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="A description of tropes appearing in Demon: The Descent. What has fallen may rise... or fall further still. The ninth gameline for the New World of Darkness &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Demon: The Descent (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="What has fallen may rise... or fall further still. The ninth gameline for the New World of Darkness, and vastly different from its Old World of Darkness predecessor, Demon: The Fallen, due to, shall we say, rather different ideas about the God(- &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/MuseumOfTheStrangeAndUnusual" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/RaymondEFeist" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/DemonTheDescent">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.DemonTheDescent">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=DemonTheDescent&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.DemonTheDescent">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="DemonTheDescent" />
+<input type="hidden" id="article_id" value="420762" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Demon: The Descent
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Demon: The Descent"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/DemonTheDescent" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/DemonTheDescent" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/DemonTheDescent" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/NightmareFuel/DemonTheDescent" class="subpage-link " title="The NightmareFuel page">
+<span class="wrapper"><span class="spi nightmarefuel"></span>NightmareFuel</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/DemonTheDescent" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/DemonTheDescent" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/DemonTheDescent" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/DemonTheDescent?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/DemonTheDescent?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/DemonTheDescent?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/DemonTheDescent?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/DemonTheDescent?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/DemonTheDescent?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/DemonTheDescent?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/DemonTheDescent?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/DemonTheDescent?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/DemonTheDescent?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/DemonTheDescent?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/DemonTheDescent?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/DemonTheDescent?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/DemonTheDescent?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:200px;"><div class="lazy_load_img_box" style="padding-top:127.5%"><img src="https://static.tvtropes.org/pmwiki/pub/images/demon_the_descent__cover_5420.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/demon_the_descent__cover_5420.jpg" width="200" height="255"></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>What has fallen may rise... or fall further still.</em></p><p>The ninth gameline for the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness">New World of Darkness</a>, and vastly different from its <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OldWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/OldWorldOfDarkness">Old World of Darkness</a> predecessor, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DemonTheFallen" title="/pmwiki/pmwiki.php/TabletopGame/DemonTheFallen">Demon: The Fallen</a></em>, due to, shall we say, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/God" title="/pmwiki/pmwiki.php/Main/God">rather</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusEstMachina" title="/pmwiki/pmwiki.php/Main/DeusEstMachina">different</a> ideas about the God(-Machine) that the eponymous protagonists of both games once served.</p><p>Behind the scenes, quietly maintaining the miserable status quo of the World of Darkness, is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">vast</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SentientCosmicForce" title="/pmwiki/pmwiki.php/Main/SentientCosmicForce">nigh-insurmountable</a> entity known as the God-Machine, a subtle, unknowable occult supercomputer with the power of, uh, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">God</a>. This is not the God of the Bible, or the Qu'ran, or the Buddha, or innumerable pagan deities. No, the God-Machine's power flows from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw" title="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw">utter and undisputed mastery of physics</a>, both mundane and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic" title="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic">not.</a> Nobody knows its real agenda, not even its legions of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">angels</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AngelicAbomination" title="/pmwiki/pmwiki.php/Main/AngelicAbomination">the sapient, autonomous programs that carry out its will</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Perhaps these same <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InMysteriousWays" title="/pmwiki/pmwiki.php/Main/InMysteriousWays">mysterious ways</a> are why so many of them <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallenAngel" title="/pmwiki/pmwiki.php/Main/FallenAngel">Fall</a>.</p><p>Demons, known among themselves as the <em>Unchained</em>, were once these angels: they were faced with an order they couldn't abide, lost faith in their missions, or faced with a situation that couldn't be solved within their purposes' parameters. Faced with either reprogramming or recycling for their disobedience, the Unchained chose to Fall, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BecomingTheMask" title="/pmwiki/pmwiki.php/Main/BecomingTheMask">absorbing the facade of humanity the God-Machine gave them</a> and becoming something more and less than they were. Now enemies of the Machine and all it stands for by default, demons now wage a secret war with the loyal angels, attempting to either destroy the God-Machine, reprogram it into something nicer, understand it, or simply live a semi-normal life.</p><p>And one and all, they are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlowlySlippingIntoEvil" title="/pmwiki/pmwiki.php/Main/SlowlySlippingIntoEvil">going to Hell</a>.</p><p>Terminology: Every demon has an <em>Incarnation</em>, the purpose they were crafted for when the God-Machine sent them off on their mission. The <em>catalyst</em> is the reason why they fell in the first place, losing their connection to the God-Machine and bonding with the mortal <em>Cover</em> they used to pass amongst the throng of humanity. As one of the <em>Unchained</em>, a demon has an <em>Agenda</em> that is defined by how he views his role in the world, the role of the God-Machine in the world, and how he'd like those two to sync up. As individuals who were once part of the divine programming of existence, the Unchained have the ability to hack reality. These come in the form of <em>Embeds</em>, personal powers that can be installed into and used to unlock the personal node of potential known as a <em>Cypher</em>, and <em>Exploits</em>, external tricks that take advantage of some of the shortcuts of the God-Machine.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p></p><hr><h2>This role-playing game provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">A.I. Is a Crapshoot</a>: The very existence of Unchained is an inversion: Construct angel faces situation it can't rectify with its personality and directives, angel decides directive is flawed, refuses to be repaired, Falls, becomes demon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AngelicAbomination" title="/pmwiki/pmwiki.php/Main/AngelicAbomination">Angelic Abomination</a>: Angels of the God-Machine are just programs sent out by the entity to perform tasks, and can be in any number of forms, but with a true form that is anything but humanoid.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcNumber" title="/pmwiki/pmwiki.php/Main/ArcNumber">Arc Number</a>: Demons are big on the number four; there are 4 Incarnations, and 4 Agendas, and 4 Keys in a demon's Cipher.<ul><li> Intentionally subverted with the reveal of the Analyst Incarnation in <em>Interfaces</em> (fiction anthology) before getting an official writeup in the <em>Demon Storyteller's Guide</em>.</li><li> Zigzagged with the Cipher, where Pentagrammists (those few demons who think that there are 5 Keys in a Ciper rather than 4) are mechanically wrong; forcing a 5th Key into one's Cipher results in a huge spiritual backlash<span class="notelabel" onclick="togglenote('note07z33');"><sup>note&nbsp;</sup></span><span id="note07z33" class="inlinefolder" isnote="true" onclick="togglenote('note07z33');" style="cursor:pointer;font-size:smaller;display:none;">which mechanically manifests as Aggravated damage, a strongly penalized Compromise roll, and a permanent Catastrophic Glitch</span>. That said, the Storyteller does have the option that there is at least a little truth in their beliefs, although the Pentagrammic Interlocks may be dangerous.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant" title="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant">Awakening the Sleeping Giant</a>: As the rulebook says, "The God-Machine is slow to react, but implacable when roused." All the better reason to stay low and avoid attracting attention to yourself. Subverted if you prove yourself too resilient to take down; the GM will start consider you <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnowWhenToFoldEm" title="/pmwiki/pmwiki.php/Main/KnowWhenToFoldEm">not worth its time and resources</a>, and use different means to get what it wants. Double-subverted if you <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BullyingADragon" title="/pmwiki/pmwiki.php/Main/BullyingADragon">keep on causing trouble for it,</a> resulting in it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies" title="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies">considering you a top-priority threat to be removed</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackFromTheDead" title="/pmwiki/pmwiki.php/Main/BackFromTheDead">Back from the Dead</a>: The Unchained are the only splat, besides the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/HunterTheVigil" title="/pmwiki/pmwiki.php/TabletopGame/HunterTheVigil">Malleus Maleficarum</a> and the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse" title="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse">Arisen</a>, who have the ability to resurrect people. Like the Malleus Maleficarum, and unlike the Arisen, a resurrected individual is truly brought back to life. Unlike the Malleus Maleficarum, the subject is more likely to end up as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TouchedByVorlons" title="/pmwiki/pmwiki.php/Main/TouchedByVorlons">stigmatic</a> than go crazy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy" title="/pmwiki/pmwiki.php/Main/BeethovenWasAnAlienSpy">Beethoven Was an Alien Spy</a>: <a class="urllink" href="http://en.wikipedia.org/wiki/Ksitigarbha">Dizang<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> appears as an exile (loyalist angel who is stuck on Earth for some reason, usually an open-ended mission) in Seattle, leading demons back to the harmonious oneness of union with the God-Machine. He's actually a pretty sweet guy, being a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MartialPacifist" title="/pmwiki/pmwiki.php/Main/MartialPacifist">Martial Pacifist</a> who only fights to protect himself or an innocent.<ul><li> Seattle's own <a class="urllink" href="http://en.wikipedia.org/wiki/Mother_Damnable">Mother Damnable<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> shows up as a woman who made a soul pact with a demon, only to have the demon step in and attempt to use her Cover to turn the 1889 Seattle splinter into her own personal Hell. The writers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall" title="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall">even put in a sidebar</a> saying that <em>normally</em>, they wouldn't do this, but Mother Damnable makes such a tempting figure to incorporate into the setting that they couldn't resist.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>: Comrade West, to Seattle demons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">Blue-and-Orange Morality</a>: The God-Machine, and by extension the angels&#151;all that even demons know is that one of its overall goals is "maintain the status quo, both good and bad." Unchained can get on the action too, due to their origins. Indeed, Agendas are often what flavor of Orange your demon is (Inquisitors are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperlyParanoid" title="/pmwiki/pmwiki.php/Main/ProperlyParanoid">Properly Paranoid</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnowledgeBroker" title="/pmwiki/pmwiki.php/Main/KnowledgeBroker">Knowledge Brokers</a> who view their schemes and collection of intelligence as a path to enlightenment, Integrators think Falling was a terrible idea but don't want to rejoin the collective yet for personal reasons, Saboteurs want to blow the God-Machine up and damn the consequences because it has to be better than letting it continue, and Tempters just wanna have fun.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BullyingADragon" title="/pmwiki/pmwiki.php/Main/BullyingADragon">Bullying a Dragon</a>: Any action you take against the God-Machine automatically defaults into this, considering <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusEstMachina" title="/pmwiki/pmwiki.php/Main/DeusEstMachina">its power</a>. The trick is to exert juuust enough amount of bullying to make it feel annoyed and say "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnowWhenToFoldEm" title="/pmwiki/pmwiki.php/Main/KnowWhenToFoldEm">Screw this, you want this so bad? Take it!</a>" instead of actually making it feel threatened and say "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant" title="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant">I've had enough of you</a>".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BystanderSyndrome" title="/pmwiki/pmwiki.php/Main/BystanderSyndrome">Bystander Syndrome</a>: The "Bystander Effect" Embed invokes this; kill someone right in front of a crowd and nobody will stop to help or remember what the killer looked like.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: One of the first fiction pieces for the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness">New World of Darkness</a> focused on Marco Singe, the Pain Prophet of New Delhi, and his testament to the glory of the God-Machine. Turns out his family runs one of the biggest stigmatic God-Machine cults, in the guise of a corporation that gains proprietary knowledge from the G-M and uses it in some <em>very</em> strange ways.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CannotTellALie" title="/pmwiki/pmwiki.php/Main/CannotTellALie">Cannot Tell a Lie</a>: Demons are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConsummateLiar" title="/pmwiki/pmwiki.php/Main/ConsummateLiar">Consummate Liars</a> par excellence, but when they are negotiating the terms for a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DealWithTheDevil" title="/pmwiki/pmwiki.php/Main/DealWithTheDevil">Deal with the Devil</a>, the rules say they <em>must</em> tell the truth, and that this is the only time you can fully trust what a demon says.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CantKillYouStillNeedYou" title="/pmwiki/pmwiki.php/Main/CantKillYouStillNeedYou">Can't Kill You, Still Need You</a>: The reason why Integrators and the other Agendas can form mixed rings; the Integrators have an enhanced ability to understand how Angels and the God-Machine think, something that can be very useful to the other Agendas, whilst the other Agendas offer ways of ensuring an Integrator can survive without being forcibly recycled.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClockRoaches" title="/pmwiki/pmwiki.php/Main/ClockRoaches">Clock Roaches</a>: Interface introduces Time Hunters, specialized angels whose purpose is to find and destroy living temporal anomalies. A particularly clever one in the story uses those she finds to lure Unchained to her, too (although the story points out that this kind of ingenuity is dangerously close to Falling).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfAdventure" title="/pmwiki/pmwiki.php/Main/CityOfAdventure">City of Adventure</a>: Seattle. Courtesy of the God-Machine's experiments, there are now a number of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistory" title="/pmwiki/pmwiki.php/Main/AlternateHistory">Alternate History</a> Seattles linked to the original, and if you know how, you can venture into them. Coincidentally, said experiments have made it <em>really easy</em> for angels to Fall there, and easier for demons to lose angelic hunters, so it's a relatively safe demonic haven despite the amount of Infrastructure there.<ul><li> In addition, further cities were added as part of the Kickstarter, and collected in the <em>Demon Seed Collection</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfSpies" title="/pmwiki/pmwiki.php/Main/CityOfSpies">City of Spies</a>: One of the stated themes of Demon is "techgnostic espionage," which means any city with a heavy Unchained presence is going to be like this. Especially when their ruling municipal bodies are known as Agencies, and their personal bands are known as Rings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw" title="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw">Clarke's Third Law</a>: Invoked all over the place. An angelic/demonic soul and mind is actually a highly advanced quantum computer program, Embeds and Exploits are tricks of physics, and almost everything has a mechanical aesthetic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorrupter" title="/pmwiki/pmwiki.php/Main/TheCorrupter">The Corrupter</a>: Played with. Many demons, especially Tempters, enjoy enticing angels to Fall, since that means more recruits and possible buddies ... and given how demons are the <em>protagonists</em>, this is probably a good thing. On the angelic side of things, several angels want the Unchained to come back to the God-Machine and will happily try to make it seem as appealing as possible (such as Seattle exile Dizang, who gets bonus points for the Mission that has stranded him on Earth <em>not</em> being to lead demons back to the light, but a personal goal of his).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComesGreatResponsibility" title="/pmwiki/pmwiki.php/Main/ComesGreatResponsibility">Comes Great Responsibility</a>: The other side of this trope, that ultimately you are responsible for what you do is the personal horror of Demon; the Unchained are <em>free,</em> which means <em>absolutely nothing</em> can be blamed for the downside of their own actions apart from themselves. They renounced the moral ease and ability to think of themselves as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchClockVillain" title="/pmwiki/pmwiki.php/Main/PunchClockVillain">Punch Clock Villains</a> when they stopped being angels.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspiracyTheorist" title="/pmwiki/pmwiki.php/Main/ConspiracyTheorist">Conspiracy Theorist</a>: The Inquisitors archetype are a bunch of conspiracy theorists. The problem, given <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InMysteriousWays" title="/pmwiki/pmwiki.php/Main/InMysteriousWays">how</a> the God-Machine works with its Infrastructures and Occult Matrices, and how they helped <em>design</em> such systems before the fall, this may be less conspiracy theory and more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperlyParanoid" title="/pmwiki/pmwiki.php/Main/ProperlyParanoid">Properly Paranoid</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConsummateLiar" title="/pmwiki/pmwiki.php/Main/ConsummateLiar">Consummate Liar</a>: Demons are not only master actors when it comes to obscuring the truth, they can lie to supernatural senses as well. Even other Unchained can't penetrate it. Needless to say, they have trust issues.<ul><li> Against conventional body language reading: A demon's mind and their Cover exist almost independently; they can think about their expressions and autonomous reactions to their emotions objectively, and control them on command&#151;if one of the Unchained does not want you to know how they actually feel, you will not know. Such as whether or not they're being deceptive.</li><li> Against supernatural truth detection, the Unchained have an even more potent tool: their paradoxical nature by being both demon and their cover means that any statements they said existed as <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/SchrodingersCat" title="/pmwiki/pmwiki.php/UsefulNotes/SchrodingersCat">Schr&ouml;dinger's Cat</a> until the demon collapses the waveform and decides its trueness. So if a demon says "The sky is purple" and decides that it's true, no supernaturals (except Fractals, see below) can detect this statement as falsehood, period.</li><li> The only being than can detect demons' lies are Fractals, children that are either sired by one demon with another demon or other genetic combinations of demon, fractals and offsprings. Some Fractals (those that chose a specific power) can, with effort, determine what state the statement was collapsed into since their nature gives them some understanding on demons.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Cosmic Horror Story</a>: Straddles between this and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovecraftLite" title="/pmwiki/pmwiki.php/Main/LovecraftLite">Lovecraft Lite</a>, as the focus of the game is espionage horror rather than cosmic horror - which still means the opposition has more direct power than you by an order of magnitude. Yes, you can win against the God-Machine and its agents, but your victory <em>at best</em> is forcing it to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnowWhenToFoldThem" title="/pmwiki/pmwiki.php/Main/KnowWhenToFoldThem">Know When to Fold Them</a>, a total complete victory against the God-Machine is astronomically unlikely if not impossible. Any Demon who let their victory go to their head will get a painful reminder that the God-Machine had been <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies" title="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies">holding back</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreativeSterility" title="/pmwiki/pmwiki.php/Main/CreativeSterility">Creative Sterility</a>: Both Angels and Demons know and use Embeds, but only Demons can use Exploits, which are basically a <em>creative</em> use of Embeds. Angels may have spectacular powers, but these are not strictly Exploits since they are within the Angel's behaviors and abilities' parameters. Angels can subvert this and get creative with their powers, but should they ever get this creative, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndThenJohnWasAZombie" title="/pmwiki/pmwiki.php/Main/AndThenJohnWasAZombie">they're dangerously close to becoming Demons themselves</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurseEscapeClause" title="/pmwiki/pmwiki.php/Main/CurseEscapeClause">Curse Escape Clause</a>: Got cold feet for a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DealWithTheDevil" title="/pmwiki/pmwiki.php/Main/DealWithTheDevil">Deal with the Devil</a> you made before? You can nullify the deal by destroying the object representing the contract; it may be a piece of parchment, a stone tablet, or anything. Of course, you will need to <em>find</em> it first, which may not be easy, but definitely not impossible.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberpunk" title="/pmwiki/pmwiki.php/Main/Cyberpunk">Cyberpunk</a>: To an extent.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DangerousForbiddenTechnique" title="/pmwiki/pmwiki.php/Main/DangerousForbiddenTechnique">Dangerous Forbidden Technique</a>: Demons have access to several options that count as this, as they all have very, <em>very</em> unsubtle effects.<ul><li> "Going Loud", which is sacrificing <em>all</em> your Cover at once to briefly become a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PhysicalGod" title="/pmwiki/pmwiki.php/Main/PhysicalGod">Physical God</a>. Meant for the truly last ditch efforts.</li><li> All Exploits are less dangerous, but still pose a risk. Many are unsubtle as all get out, and so they risk damaging Cover, unlike the weaker Embeds.</li><li> "Self Destruct" is a new option introduced in the <em>Interface</em> sourcebook. Like Going Loud, it entails completely sacrificing a Cover and potentially being Burned<span class="notelabel" onclick="togglenote('note1acce');"><sup>note&nbsp;</sup></span><span id="note1acce" class="inlinefolder" isnote="true" onclick="togglenote('note1acce');" style="cursor:pointer;font-size:smaller;display:none;">completely exposed to the senses of the God-Machine</span>, but it does so to catalyse a mystical form of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakingTheDead" title="/pmwiki/pmwiki.php/Main/FakingTheDead">Faking the Dead</a> that has very potent side-effects, depending on the Demon's Agenda. Inquisitors, Integrators and Temptors all curse mortals nearby when they die, causing them to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CannotTellALie" title="/pmwiki/pmwiki.php/Main/CannotTellALie">incapably of lying</a>, shifted into the semblance of the Demon's expended Cover or controlled by their vice temporarily. Saboteurs and the Agendaless pull off a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakingYouWithMe" title="/pmwiki/pmwiki.php/Main/TakingYouWithMe">Taking You with Me</a> attack; Saboteurs <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionBomb" title="/pmwiki/pmwiki.php/Main/ActionBomb">explode in a massive gout of hellfire and eldritch shrapnel</a>, whilst Demons without an Agenda create a swarm of hellish locusts that start devouring anything&#151;and any<strong>one</strong>&#151;in the immediate area, potentially razing the block to the ground before they disperse.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkIsNotEvil" title="/pmwiki/pmwiki.php/Main/DarkIsNotEvil">Dark Is Not Evil</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsNotGood" title="/pmwiki/pmwiki.php/Main/LightIsNotGood">Light Is Not Good</a>: In fact, it's probably safe to say that Light is Evil (or at least utterly amoral) and Dark is Good (or at least is defined by having a conscience), in this case. To the extent such extremes can exist in the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness">New World of Darkness</a>, in any case.<ul><li> Both of the sample cryptids are pretty nice: Mothmen are more interested in eating squirrels than anything about foretelling doom, and Reptilians are nervous wrecks who exist primarily to be bossed around by demons and angels.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DealWithTheDevil" title="/pmwiki/pmwiki.php/Main/DealWithTheDevil">Deal with the Devil</a>: But of course. Unchained like to bargain for aspects of mortal life, so as to collect things to cement their Covers. The classic soul pact is basically a promise to the demon in question to give up <em>everything</em> if the holder in question needs it, like losing all of his Cover. This is handled mechanically via the Pact system.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeaderThanDead" title="/pmwiki/pmwiki.php/Main/DeaderThanDead">Deader Than Dead</a>: What happens to the debtor if the debt holder collects. The "everything" in question includes "existence."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">Demonic Possession</a>: Averted. Anyone who has apparently been "possessed" by a demon has, in fact, had the Unchained call in their due after the mortal bargained away their soul. In essence, the original human has been <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetGone" title="/pmwiki/pmwiki.php/Main/RetGone">Ret-Gone</a>'d so the Unchained can take their life as its Cover.<ul><li> Played straight with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Possession</a> Exploit, though an Unchained can't keep it up too long if they don't want to shred their actual Cover.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu" title="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu">Did You Just Punch Out Cthulhu?</a>: Subverted&#151;you can't punch the God-Machine directly, let alone defeat it, but you <em>can</em> foil its plans on every turn, causing setback after setback. The God-Machine may be implacable when roused, but hold on long enough and eventually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnowWhenToFoldEm" title="/pmwiki/pmwiki.php/Main/KnowWhenToFoldEm">it will consider dealing with you to be not worth its time and resources</a>, and start to take a more subtle approach in its designs. From thereon, it may be wise not to poke it too much&#151;if it ever considers your elimination to be of highest priority, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies" title="/pmwiki/pmwiki.php/Main/RocksFallEveryoneDies">the GM will pull all the stops and put an end to you</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustScamCthulhu" title="/pmwiki/pmwiki.php/Main/DidYouJustScamCthulhu">Did You Just Scam Cthulhu?</a>: Demons do <em>this</em> all the time, though. Angels are not necessarily any smarter than humans, and the God-Machine is far from omniscient. In fact, the continuing <em>existence</em> of Unchained is a con job on God, given how Cover works.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DivinelyAppearingDemons" title="/pmwiki/pmwiki.php/Main/DivinelyAppearingDemons">Divinely Appearing Demons</a>: The Unchained take their appearances from the mission on which they Fell and adapt them from there&#151;<a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">the Machine can and does create angels that already look like classical demons,</a> and when those angels Fall they seldom change their forms too drastically.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DungeonPunk" title="/pmwiki/pmwiki.php/Main/DungeonPunk">Dungeon Punk</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SteamPunk" title="/pmwiki/pmwiki.php/Main/SteamPunk">Steampunk</a>: The God-Machine, as shown in <em>Dark Eras</em>, will use the technology available to create its Infrastructure, which always looks anachronistically advanced once someone realizes it <em>is</em> technology. During the heyday of the Aztec Empire, it used to have an altar that doubled as a genetics lab for some very interesting scorpions, for instance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnlightenmentSuperpowers" title="/pmwiki/pmwiki.php/Main/EnlightenmentSuperpowers">Enlightenment Superpowers</a>: Every demon has a Cypher, a metaphysical node that contains the truth of why they Fell, and provides glimpses of the type of Hell they might want to craft. By unlocking it using Embeds that get at the nature of the Fall, the demon can not only raise their Primum, but develop unique powers that match their vision of the world they want to make.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>: If <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Exalted" title="/pmwiki/pmwiki.php/TabletopGame/Exalted">Exalted</a></em> is the prehistory of the New World of Darkness/ Chronicles of Darkness, the God-Machine might very well be Autocthon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtranormalInstitute" title="/pmwiki/pmwiki.php/Main/ExtranormalInstitute">Extranormal Institute</a>: St. Jerome's, daycare for the conscientious Unchained parent!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticNamingConvention" title="/pmwiki/pmwiki.php/Main/FantasticNamingConvention">Fantastic Naming Convention</a>: Mr./Mrs./Ms. Generic Noun is a popular pattern among the Unchained. It's Justified in the corebook that many angels who have names are basically given Hebrew formularic names meaning "[Purpose] of God", so the demons convert that into something that conveys the same name <em>without</em> indicating continued allegiance to the God-Machine. Haniel, meaning "Joy of God", calling itself Mr./Ms. Bliss as a demon, for example.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRacism" title="/pmwiki/pmwiki.php/Main/FantasticRacism">Fantastic Racism</a>: Demons and <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/ChangelingTheLost" title="/pmwiki/pmwiki.php/TabletopGame/ChangelingTheLost">changelings</a> have a lot of mutual distrust going around. On the Unchained side, the Pledges of changelings have enough of a resemblance to Pacts that they can see the foundation of a relationship, but the fact that changelings were born human and are a bit focused on smaller, personal matters makes them something the demons find rather quaint. It's a bit more vicious the other way around, because changelings see the resemblance too&#151;to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">True</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFairFolk" title="/pmwiki/pmwiki.php/Main/TheFairFolk">Fae</a>, given how a demon more or less permanently steals a fraction of another person's life. Thus, demons prefer to ignore the existence of the Lost; pissing one off is likely to draw <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrueCompanions" title="/pmwiki/pmwiki.php/Main/TrueCompanions">their entire Court</a>, which an angel (or more malign fae) can follow up on.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/BeastThePrimordial" title="/pmwiki/pmwiki.php/TabletopGame/BeastThePrimordial">Beasts</a> also don't get along with demons, but mainly because the Begotten's "we're family to all kinds of monsters" angle does not work with the Unchained; the Begotten consider themselves descended from something that naturally arose from the nightmares of the world, whereas the Unchained are former agents of something unnatural that has seemingly imposed itself upon the world. Any interaction where the two come face-to-face with the totality of the other tends to result in violence. It's possible for them to work together, but it's gonna be strained.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaustianRebellion" title="/pmwiki/pmwiki.php/Main/FaustianRebellion">Faustian Rebellion</a>: There's nothing inherent about Pacts that prevents a debtor from opposing the Unchained in the future, and occasionally, demons who Burn a soul pact Cover might find the original owner's soul reconstituting as a unique type of ghost called an Echo, who is naturally a little pissed off at having been <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetGone" title="/pmwiki/pmwiki.php/Main/RetGone">Ret-Gone</a>'d.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlamourFailure" title="/pmwiki/pmwiki.php/Main/GlamourFailure">Glamour Failure</a>: Demons who blow their Cover or whose Primum rises too high start to develop glitches, little hiccups in their personal programming ranging from strawberry red hair to only being able to drink alcohol to animate tattoos. That said, Glitches are as much Glamour Failure as they are self-expression.<ul><li> Stigmatics have them too, and developing one is often the last stop on the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TraumaCongaLine" title="/pmwiki/pmwiki.php/Main/TraumaCongaLine">Trauma Conga Line</a> of becoming one&#151;the "stigmata." Some just have a persistent perfume of apples. Some have animate blue veins cover them head to toe.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodIsEvil" title="/pmwiki/pmwiki.php/Main/GodIsEvil">God Is Evil</a>: Played With, the God-Machine is less evil and more cold, amoral, logical machine than anything. An Angel once started questioning its motives, as he executed hundreds of mortal cultists, and a hundreds more every week for a while. Then he learned how it's all a necessary sacrifice to summon a super-Angel to intercept a meteor that could <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">end all life on earth</a>.<div class="indent"><em>I'm not saying we have to like everything it does, but the God-Machine is a shepherd that keeps its vast flock safe from wolves and lions, so perhaps we can forgive it the occasional rack of lamb chops.</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousLatin" title="/pmwiki/pmwiki.php/Main/GratuitousLatin">Gratuitous Latin</a>: Defied. Unlike other supernatural splats, demons don't see the point of using Latin, Greek or other prestigious dead languages for their splat jargon. Their lexicon is in the local language of wherever they're operating.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreaterScopeVillain" title="/pmwiki/pmwiki.php/Main/GreaterScopeVillain">Greater-Scope Villain</a>: The God-Machine here is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>, but considering its true form that is an ecosystem encompassing the whole setting, it is by default the Greater Scope Villain for other World of Darkness gamelines it becomes directly interested in.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality">Grey-and-Gray Morality</a>: The idea of "Soul Pact Justice", as discussed in <em>Flowers of Hell</em>; are Soul Pacts <em>really</em> so bad if a demon is using them on people who were wasting their life (junkies, alcoholics, wastrels), hurting others around them (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/DomesticAbuse" title="/pmwiki/pmwiki.php/Main/DomesticAbuse">Domestic Abusers</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SerialKiller" title="/pmwiki/pmwiki.php/Main/SerialKiller">Serial Killers</a>), or just the sort of sick and twisted bastards who'd deliberately try to call up demons in the first place? Especially if the demon then takes their new life and works at being a <em>better</em> person than the original was? Then <em>again</em>, all of these could just as easily be crude justifications thrown together by beings who are in denial about being essentially predatory towards humanity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalfHumanHybrid" title="/pmwiki/pmwiki.php/Main/HalfHumanHybrid">Half-Human Hybrid</a>: Mentioned. It's quite possible for an Unchained to have a child, since the Cover's reproductive organs work perfectly fine. Said child is genetically pure human, but inherits their parent's power with Embeds and a link to the God-Machine.<ul><li> The sourcebook <em>Heirs to Hell</em> is all about Offspring. It also reveals that most Unchained don't realize their powers don't require a purely genetic component and thus they think their children are going to be perfectly normal. It's also possible to hybridize after birth if a demon buys "I am a parent of this child" from the actual parent through a pact, which causes the same metaphysical pollination that creates an Offspring. There's also Latents (otherwise normal descendants of Offspring who become Offspring themselves if they are given stigmata), and Fractals (children of either an Offspring and a demon or two demons, who can ignore their parents' Cover and possess intuitive knowledge of Embeds).</li><li> The Storyteller's Guide also features more Biblical nephilim, those Offspring who inherited their demonic parent's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWingedAngel" title="/pmwiki/pmwiki.php/Main/OneWingedAngel">true appearance</a> as well. They're powerful enough to stand up to loyalists directly, at the cost of suffering from a less stable sanity they have to keep hold on lest they suffer a fatal <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperpowerMeltdown" title="/pmwiki/pmwiki.php/Main/SuperpowerMeltdown">Superpower Meltdown</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HateSink" title="/pmwiki/pmwiki.php/Main/HateSink">Hate Sink</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a>, Integrators are loathed by the other Agendas, since they are basically at cross-purpose with every and other non-Integrator demon. They <em>will</em> work together, but to say there's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork" title="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork">Teeth-Clenched Teamwork</a> is an understatement.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHedonist" title="/pmwiki/pmwiki.php/Main/TheHedonist">The Hedonist</a>: Most (but not all) Tempters. It's <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/FridgeBrilliance" title="/pmwiki/pmwiki.php/Main/FridgeBrilliance">Fridge Brilliance</a> since the Unchained have perfect memories, wouldn't you want to only remember good things? That said, Tempters can be rather unusual examples of this; one of the three examples of a Temper's custom-built "just for me and time for myself" Cover? A grandfather of twenty who spends every day playing chess in Central Park.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hell" title="/pmwiki/pmwiki.php/Main/Hell">Hell</a>: Aversion. Hell is <em>not</em> a place, necessarily, it's an individual Unchained's idea of paradise. For most Unchained, this stems from the concept of Hell as "a place totally devoid of God's presence"; Integrators instead define it as "returning to the God-Machine, but with my free will still intact".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HellSeeker" title="/pmwiki/pmwiki.php/Main/HellSeeker">Hell Seeker</a>: Pretty much all Unchained are ultimately trying to find a way to Hell, though what that actually means depends on the individual.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanityIsInfectious" title="/pmwiki/pmwiki.php/Main/HumanityIsInfectious">Humanity Is Infectious</a>: A number of demons have fallen because they adopted long-term Covers that they truly grew into, developing interests, friends, and lovers.<ul><li> This is also what happens during a Fall: an angel has a fairly alien mind, but the Fall brings it closer to a human mindset. They go from approaching emotion intellectually to feeling it physically; from being an obedient part of the God-Machine's network to an isolated, and independent, self.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IgnoranceIsBliss" title="/pmwiki/pmwiki.php/Main/IgnoranceIsBliss">Ignorance Is Bliss</a>: What often caused Messengers to fall: realizing the God-Machine deceived them just as much as they deceived the people they were sent to.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InNameOnly" title="/pmwiki/pmwiki.php/Main/InNameOnly">In Name Only</a>: Played with. It's true, the Unchained aren't so much rebel spirits of God as rogue, self-aware androids fighting against a bigger machine ... physically. Personality-wise, they're still <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallenAngel" title="/pmwiki/pmwiki.php/Main/FallenAngel">Fallen Angels</a> who bargain with mortals for souls and work to undo every work of their divine former master, encouraging sinful behavior in the process (though, of course, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">what the God-Machine considers a sin</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodIsEvil" title="/pmwiki/pmwiki.php/Main/GodIsEvil">may not actually be wrong from human perspectives</a>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InfernalParadise" title="/pmwiki/pmwiki.php/Main/InfernalParadise">Infernal Paradise</a>: The basic appeal of Hell to the Unchained; it's a place where they don't have to be afraid of the God-Machine any longer, a place where they can be happy. Some demons&#151;commonly nicknamed "The Devils"&#151;want to create a "traditional" <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FireAndBrimstoneHell" title="/pmwiki/pmwiki.php/Main/FireAndBrimstoneHell">Fire and Brimstone Hell</a> sort of place to rule over, others want an ordinary human life, and others still have entirely different ideas of Hell.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImplacableMan" title="/pmwiki/pmwiki.php/Main/ImplacableMan">Implacable Man</a>: Many an angel does not understand the concept of giving up, and an Echo's original anchor (what binds a ghost to this plane of existence) is always the demon who soul-pacted them to begin with, meaning so long as that demon lives, it's nearly impossible to return the Echo to the grave.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InMysteriousWays" title="/pmwiki/pmwiki.php/Main/InMysteriousWays">In Mysterious Ways</a>: Not only is this the default mode of operation for the God-Machine and its angels, but it sometimes explains why demons fell in the first place. There have been cases where the God-Machine gives two angels missions that directly conflict, then has them both fall when the conflict gets to be too much. Either this is part of some greater operation of the God-Machine ... or the machine is broken.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked Trope</a>: Many Embeds work on a conceptual level, and quite a few allow demons to <em>literally</em> invoke a trope as a manifestation of occult physics.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold" title="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold">Jerk with a Heart of Gold</a>: According to <em>Flowers of Hell</em>, Tempters are actually amongst the demons most likely to pay attention to the moral needs of even the most compassionate Cover, and they almost always spend a lot of time and effort building mundane infrastructure (and destroying or subverting negative Infrastructure) to improve the lives of humans around them. Granted, the latter behavior is often excused for the cynical logic of "fulfilling a need allows a desire to grow", but many Tempters genuinely <em>like</em> helping people just because they can. "The road to Hell is paved with good intentions" takes on a very different meaning when you're dealing with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HellSeeker" title="/pmwiki/pmwiki.php/Main/HellSeeker">Hell Seekers</a> who define "Hell" as "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/InfernalParadise" title="/pmwiki/pmwiki.php/Main/InfernalParadise">Infernal Paradise</a>", after all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JourneyToFindOneself" title="/pmwiki/pmwiki.php/Main/JourneyToFindOneself">Journey to Find Oneself</a>: The positive side of going to Hell&#151;demons are literally homeless since they abandoned the G-M, and look for a personal meaning to existence and home to call their own, a little spigot of Hell for them to rule and dwell in.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaMeter" title="/pmwiki/pmwiki.php/Main/KarmaMeter">Karma Meter</a>: Subverted with Cover: While acting like the person you pretend to be is often acting like a decent one, it's ultimately a health bar for the identity&#151;losing it does nothing to the Unchained's psyche, but it does force them into perpetual <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWingedAngel" title="/pmwiki/pmwiki.php/Main/OneWingedAngel">One-Winged Angel</a> mode, which <em>will</em> kill them if they don't have another in the wings&#151;the hunter-angels can see their Aetheric beacon. Hope you got those soul pacts handy...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplarParent" title="/pmwiki/pmwiki.php/Main/KnightTemplarParent">Knight Templar Parent</a>: Any Unchained with a child or family they want to keep veers towards this; even a moment's lapse in vigilance can result in losing everything.<ul><li> Evelyn Blackwood/Ms. Storm from "The Principal" is in a league all her own.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia" title="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia">Laser-Guided Amnesia</a>: How the G-M keeps a tight rein on the angels: their memories are purged between missions, so they don't develop an independent personality that can contemplate rebellion. It isn't a particularly <em>good</em> system, however, which is why Unchained can exist in the first place.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeonineContract" title="/pmwiki/pmwiki.php/Main/LeonineContract">Leonine Contract</a>: While mind control is out, it's perfectly possible to torture a mortal until he <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DealWithTheDevil" title="/pmwiki/pmwiki.php/Main/DealWithTheDevil">signs over his soul</a> for an end to the pain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovecraftLite" title="/pmwiki/pmwiki.php/Main/LovecraftLite">Lovecraft Lite</a>: The reason the God-Machine is so dogged in its pursuit of its former agents? Because they're actually <em>really good</em> at stopping its schemes. It's long, hard, and likely non-permanent, but demons not only frequently <em>win</em> against the God-Machine, it happens often enough to the point where <em>hijacking</em> Infrastructure isn't even regarded as that farfetched, let alone hubristic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMafiya" title="/pmwiki/pmwiki.php/Main/TheMafiya">The Mafiya</a>: The Moscow Agency are demons who specialize in criminal activities from money laundering to soul trafficking, and often use their muscle to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeonineContract" title="/pmwiki/pmwiki.php/Main/LeonineContract">coerce mortals</a> into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DealWithTheDevil" title="/pmwiki/pmwiki.php/Main/DealWithTheDevil">pacts</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MamaBear" title="/pmwiki/pmwiki.php/Main/MamaBear">Mama Bear</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/PapaWolf" title="/pmwiki/pmwiki.php/Main/PapaWolf">Papa Wolf</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ViolentlyProtectiveGirlfriend" title="/pmwiki/pmwiki.php/Main/ViolentlyProtectiveGirlfriend">Violently Protective Girlfriend</a>: Demons can easily become <em>very</em> protective of mortal relationships they develop or assume, especially if it's a mortal for whom they Fell in the first place. Messing with them is <em>not</em> a good idea.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManchurianAgent" title="/pmwiki/pmwiki.php/Main/ManchurianAgent">Manchurian Agent</a>: Sleeper Agents, banes of a demon's existence: they're otherwise normal people who have had a directive inserted into them by the angels that cause them to go <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy" title="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy">Brainwashed and Crazy</a> when triggered.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManipulativeBastard" title="/pmwiki/pmwiki.php/Main/ManipulativeBastard">Manipulative Bastard</a>: Messengers were like this before they fell, and they tend to remain that way, since they still tend to see humans as creatures of cause and effect when it comes to social matters. May mature into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuileHero" title="/pmwiki/pmwiki.php/Main/GuileHero">Guile Hero</a> as they come to appreciate humans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasqueradeEnforcer" title="/pmwiki/pmwiki.php/Main/MasqueradeEnforcer">Masquerade Enforcer</a>: The God-machine. One of its goals it to preserve the status quo, which includes keeping monsters hiding in the shadows. It relies on agents like its Angels to carry out Its designs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>: Deva Corporation, a stigmatic God-Machine cult gone global tech company. They aren't always your enemies, but they're fascinated with demons. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheyWouldCutYouUp" title="/pmwiki/pmwiki.php/Main/TheyWouldCutYouUp">To an unhealthy degree.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMole" title="/pmwiki/pmwiki.php/Main/TheMole">The Mole</a>: Integrators aren't this, but compromised agencies are. Compromised agencies are agencies that turn demons over to the God-Machine in exchange for being allowed to survive and remain Unchained, at least as long as they remain useful.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MundaneLuxury" title="/pmwiki/pmwiki.php/Main/MundaneLuxury">Mundane Luxury</a>: The Agency supporting St. Jerome's Academy uses it as a bargaining chip for recruiting demons with human children. Where else is a demonic parent going to find a school that understands their child's special needs?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mutants" title="/pmwiki/pmwiki.php/Main/Mutants">Mutants</a>: Stigmatics, mortals who beheld the true form of the God-Machine, at least in part, and gained power from it, along with a unique mark (such as tattoos of circuitry). Angels use them as expendable servants, and demons can create them through an Exploit.<ul><li> Non-sapient animals can develop stigmatic traits too, becoming cryptids. A playtest has a cryptid Chihuahua <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PintSizedPowerhouse" title="/pmwiki/pmwiki.php/Main/PintSizedPowerhouse">punting a demon across the room</a>, and other mutations are even more extreme.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoBiologicalSex" title="/pmwiki/pmwiki.php/Main/NoBiologicalSex">No Biological Sex</a>: The true forms of angels and their fallen forms don't need to reproduce, being built and all, so while individuals may look masculine or feminine, they don't actually have the piping for it. <em>That being said</em>, the Cover is <em>not</em> this, and Falling also gives Unchained the capacity to feel lust and affection (as well as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalfHumanHybrid" title="/pmwiki/pmwiki.php/Main/HalfHumanHybrid">siring kids</a>), so most demons quickly develop a gender identity and orientation (though they have an even more varied spectrum than humans).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonStandardGameOver" title="/pmwiki/pmwiki.php/Main/NonStandardGameOver">Non Standard Game Over</a>: Averted. Unlike other gamelines in the setting, reaching 0 <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaMeter" title="/pmwiki/pmwiki.php/Main/KarmaMeter">Karma Meter</a> is not an automatic game over where your character becomes a rambling monster at the GM's control. But it forces you into permanent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWingedAngel" title="/pmwiki/pmwiki.php/Main/OneWingedAngel">One-Winged Angel</a> mode, and that <em>will</em> kill you because now your enemies can see where you are exactly at all times. Hope you have new Covers in store...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoOSHACompliance" title="/pmwiki/pmwiki.php/Main/NoOSHACompliance">No OSHA Compliance</a>: The Infrastructure of the God-Machine is meant to be secret and its agents are typically given only what information they need to do their jobs&#151;if you're in a facility and you don't know your way around the local hazards, <em>you're not supposed to be there.</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoDifferent" title="/pmwiki/pmwiki.php/Main/NotSoDifferent">Not So Different</a>: The angels of the God-Machine tend not to change their forms much in the moment of the Fall, and no small number of Embeds and Exploits are just as resonant with angelic aesthetics as demonic powers.<div class="indent"> <strong><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClockRoaches" title="/pmwiki/pmwiki.php/Main/ClockRoaches">The Time Hunter</a>, to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallenAngel" title="/pmwiki/pmwiki.php/Main/FallenAngel">Mr. Shears</a>:</strong> Even if <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Muggles" title="/pmwiki/pmwiki.php/Main/Muggles">they</a> were to perceive us as we are, they would not be able to distinguish between us.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Omniglot" title="/pmwiki/pmwiki.php/Main/Omniglot">Omniglot</a>: Demons speak a bizarre "machine language" that can be easily modified into more earthly tongues. Any earthly tongues, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers" title="/pmwiki/pmwiki.php/Main/RequiredSecondaryPowers">they can understand any as well</a>. Up to and including knowing all local idioms, metaphors and shibboleths, and being able to replicate even the most obscure local accent. That said, there are a couple of limitations: they cannot speak a language that is "dead", that isn't regularly used as a language and so a person cannot grow up speaking it from early childhood. For example, demons don't have this instinctive mastery over ancient Egyptian, or Latin, and when the last speaker of Aka-bo died in 2010, all demons lost the ability to speak Aka-bo. It also doesn't translate into an instinctive ability to decipher codes or recognize limited argots; a demon would understand <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/WerewolfTheForsaken" title="/pmwiki/pmwiki.php/TabletopGame/WerewolfTheForsaken">the First Tongue, as all spirits speak this naturally</a>, but would have no innate knowledge of the in-universe terms of <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/VampireTheRequiem" title="/pmwiki/pmwiki.php/TabletopGame/VampireTheRequiem">Kindred</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening" title="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening">Awakened</a>.<ul><li> Angels, meanwhile, don't have this ability. They simply speak a sort of "universal language" that anyone can understand.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneStatToRuleThemAll" title="/pmwiki/pmwiki.php/Main/OneStatToRuleThemAll">One Stat to Rule Them All</a>: A <em>lot</em> of Embeds use Manipulation. Makes sense, given how you're playing, y'know, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManipulativeBastard" title="/pmwiki/pmwiki.php/Main/ManipulativeBastard">demons</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneSteveLimit" title="/pmwiki/pmwiki.php/Main/OneSteveLimit">One Steve Limit</a>: Averted; the setting already had plenty of creatures referred as Demons before this book came out, and the book takes time to tell us that no, just because you can now play as the Unchained <em>doesn't</em> mean the demons from other games no longer exist.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWingedAngel" title="/pmwiki/pmwiki.php/Main/OneWingedAngel">One-Winged Angel</a>: Every demon has a "true form" that reflects what they'd look like without Cover. They can go into it for extra powers, but it's noticeable as all get out. And if their Cover ever breaks, they're stuck like that.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlyAFleshWound" title="/pmwiki/pmwiki.php/Main/OnlyAFleshWound">Only a Flesh Wound</a>: The "Just Bruised" Embed, for when you need to survive a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoomHeadshot" title="/pmwiki/pmwiki.php/Main/BoomHeadshot">Boom, Headshot!</a> with just a scratch.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OtherworldlyAndSexuallyAmbiguous" title="/pmwiki/pmwiki.php/Main/OtherworldlyAndSexuallyAmbiguous">Otherworldly and Sexually Ambiguous</a>: Angels have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoBiologicalSex" title="/pmwiki/pmwiki.php/Main/NoBiologicalSex">No Biological Sex</a>, no gender identity and no sexual orientation, because they're whatever they need to be to get the job done. For demons, it depends; some keep their angelic perspective and adopt the gender and sexual identity of whatever Cover they're in, while others have innate gender and sexuality that doesn't change with their human form.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">Our Angels Are Different</a>: They're sentient programs created to serve the God-Machine. They are created with free will, but the overwhelming majority do not exert it outside of their parameter; any Angel who got too creative in their mission is close to falling. Appearance wise, they run the gamut from classical angels to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanoidAbomination" title="/pmwiki/pmwiki.php/Main/HumanoidAbomination">Humanoid Abomination</a>. How else would you describe an angel whose face <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyelessFace" title="/pmwiki/pmwiki.php/Main/EyelessFace">has no eyes</a>, whose brain is visible, and has grinding gears in place of a mouth?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">Our Demons Are Different</a>: Boy are our demons different. They're more like <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheMatrix" title="/pmwiki/pmwiki.php/Film/TheMatrix">Exiles</a> than anything else. Interestingly, the book itself admits there are actually plenty of other kinds of demons in this universe, including ones who fit the classic conception better&#151;Unchained merely are the only one you get to play as.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerCopying" title="/pmwiki/pmwiki.php/Main/PowerCopying">Power Copying</a>: The "Show of Power" Exploit from <em>Flowers of Hell</em>, allowing a demon to copy another supernatural being's ability to fake being a member of that race (lack of a heartbeat for vampires, a spell for mages..).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePowersThatBe" title="/pmwiki/pmwiki.php/Main/ThePowersThatBe">The Powers That Be</a>: The God-Machine is this, as it is not a single specific entity rather than a overarching <em>system</em> dedicated to maintain the status quo. It has no physical form, it never speaks, and has an utterly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">alien</a> agenda, but you can see traces of its work in Infrastructures, Occult Matrices, and of course, Angels.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperlyParanoid" title="/pmwiki/pmwiki.php/Main/ProperlyParanoid">Properly Paranoid</a>: Angels are freaking everywhere, and Unchained can lie their asses off and nothing but knowing the actual truth will allow you to tell. You can sure as hell <em>bet</em> they're paranoid.<ul><li> As pointed out in <em>Flowers of Hell</em>, Inquisitors are <em>especially</em> paranoid, and are generally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspiracyTheorist" title="/pmwiki/pmwiki.php/Main/ConspiracyTheorist">Conspiracy Theorists</a> ... because they know perfectly well that a lot of "coincidences" are the God-Machine's Occult Matrices and Infrastructure, having once helped direct and build such things themselves. To them, things happening for no core reason is a crazier idea rather than some sentient will or conflicting wills driving events.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RabbitSeasonDuckSeason" title="/pmwiki/pmwiki.php/Main/RabbitSeasonDuckSeason">Rabbit Season Duck Season</a>: The suggested use of the "Devil's Advocate" Embed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityIsOutToLunch" title="/pmwiki/pmwiki.php/Main/RealityIsOutToLunch">Reality Is Out to Lunch</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic" title="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic">Sufficiently Analyzed Magic</a>: A subtle version serves to explain why the World of Darkness operates so strangely. The occult physics of the world require that weird shit must happen so that <em>weirder</em> shit can come into existence for the God-Machine's purposes. To generate three clockwork souls for a new project, a group of stigmatics must hold up a burning copy of last year's September issue of <em>Vogue</em> at a particular street corner. It's science.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityWarper" title="/pmwiki/pmwiki.php/Main/RealityWarper">Reality Warper</a>: Demonic Embeds tweak reality subtly, Exploits forgo the <em>subtle</em> bit, and angels and the God-Machine can shape reality like so much play-doh. Subverted in that these are not actual Reality Warping. Embeds and Exploits work by finding places where the physical laws of the world don't quite fit together and milking them for all they're worth, possibly bringing forth effects that even the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening" title="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening">real</a></em> Reality Warpers find impossible to recreate.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RummageFail" title="/pmwiki/pmwiki.php/Main/RummageFail">Rummage Fail</a>: The Dramatic Failure of using the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BagOfHolding" title="/pmwiki/pmwiki.php/Main/BagOfHolding">Deep Pockets</a> exploit: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bathos" title="/pmwiki/pmwiki.php/Main/Bathos">pulling a spatula instead of a knife during a fight.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheReptilians" title="/pmwiki/pmwiki.php/Main/TheReptilians">The Reptilians</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspiracyTheorist" title="/pmwiki/pmwiki.php/Main/ConspiracyTheorist">Conspiracy Theorist</a> variety makes an appearance as Earth-native cryptid chameleons with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting" title="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting">Voluntary Shapeshifting</a>. <em>Unlike</em> what <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/DavidIcke" title="/pmwiki/pmwiki.php/Creator/DavidIcke">David Icke</a> says they are, they're <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovableCoward" title="/pmwiki/pmwiki.php/Main/LovableCoward">flighty, nervous creatures who drop disguises and run at the drop of a hat</a>. Demons and angels both like to keep them around as spies, so long as their task doesn't involve danger.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RogueDrone" title="/pmwiki/pmwiki.php/Main/RogueDrone">Rogue Drone</a>: Demons are former Angels of the God-Machine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: The Demon logo resembles <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Doom" title="/pmwiki/pmwiki.php/VideoGame/Doom">Doom</a></em>'s, though <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> is that it was a coincidence.<ul><li> One of the Madness Conditions suggested for humans a demon reveals his true nature to is "<a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheLaundryFiles" title="/pmwiki/pmwiki.php/Literature/TheLaundryFiles">The many-angled ones live at the bottom of the Mandlebrot set!</a>"</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StableTimeLoop" title="/pmwiki/pmwiki.php/Main/StableTimeLoop">Stable Time Loop</a>: The tale of The Key, in <em>The God-Machine Chronicle</em>. It's military-grade <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/FridgeHorror" title="/pmwiki/pmwiki.php/Main/FridgeHorror">Fridge Horror</a>: to the God-Machine, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeyWimeyBall" title="/pmwiki/pmwiki.php/Main/TimeyWimeyBall">time is just a wimey ball</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeMaster" title="/pmwiki/pmwiki.php/Main/TimeMaster">it can use such a ball</a> to play with humanity.<ul><li> Possibly making this worse is the case of Seattle in the <em>Demon</em> core, where it's hinted that the G-M, or at least not all parts of it, has no idea what's currently going on with the 'splinter' Seattles, even though it caused them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStoic" title="/pmwiki/pmwiki.php/Main/TheStoic">The Stoic</a>: Many angels. They <em>can</em> feel emotion, but are completely unaffected by the world around them in most respects, leading to this behavior as they do not react except to judge how favorable it was to their mission.<ul><li> Demons aren't much different. Besides the fact <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FrozenFace" title="/pmwiki/pmwiki.php/Main/FrozenFace">they can be as unemotional seeming as they want</a>, <em>Flowers of Hell</em> actually clarifies that there's literally a complete separation between their demon form's emotions and any physical reactions to emotions they feel in Cover, which is why they're such expert liars. A demon who uses Full Transformation, or who Goes Loud, immediately stops having hormones filtering through their system, which results in what is simultaneously a clearer and more dispassionate mind as said reactions don't get in the way. This <em>can</em> have bad effects on their sanity, if the Unchained can't rectify the difference between the emotions of demon and Cover.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpyFiction" title="/pmwiki/pmwiki.php/Main/SpyFiction">Spy Fiction</a>: <strong>Bleach and Ammonia flavor</strong>. Demons can lie so well not even supernatural lie detector can pierce through it, you can't fully trust your allies, and your allies can't fully trust <em>you</em> in turn. Enemy agents are <em>everywhere</em>, getting your disguise uncovered is death sentence, and the enemy is literally a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusEstMachina" title="/pmwiki/pmwiki.php/Main/DeusEstMachina">godlike mechanical entity</a>. You can score victories and foil the enemy's plan here and there, but tread very carefully; scoring too much of a victory will result in the enemy <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant" title="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant">devoting more and more resources to</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant" title="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant">end</a></em> you. Similar to how bleach and ammonia are useful to have, but one wrong move, they mix and you will die from the resultant <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyGas" title="/pmwiki/pmwiki.php/Main/DeadlyGas">Deadly Gas</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TapOnTheHead" title="/pmwiki/pmwiki.php/Main/TapOnTheHead">Tap on the Head</a>: The "Knockout Punch" Embed allows the demon to put someone down without serious injury.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork" title="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork">Teeth-Clenched Teamwork</a>: Standard operating procedures for demons, but it's especially prominent if Integrators are involved (since every demon <em>knows</em> Integrators can and will sell out other demons to try and "go home" on their own terms) or if the Ring includes both Integrators and Saboteurs (since their Agendas are diametrically opposed and so they <em>hate</em> each other).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TokenEvilTeammate" title="/pmwiki/pmwiki.php/Main/TokenEvilTeammate">Token Evil Teammate</a>: Integrators sit somewhere between here and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SixthRangerTraitor" title="/pmwiki/pmwiki.php/Main/SixthRangerTraitor">Sixth Ranger Traitor</a>, since the whole point of their Agenda is to find a way to return to the God-Machine, whereas other demons consider themselves better off without the God-Machine and want to find away to stay out of its reach permanently. This makes Integrators roughly analogous to <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/ChangelingTheLost" title="/pmwiki/pmwiki.php/TabletopGame/ChangelingTheLost">Loyalists</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/PrometheanTheCreated" title="/pmwiki/pmwiki.php/TabletopGame/PrometheanTheCreated">Centimani</a> ... with one glaring exception, namely that Integrators tend to view themselves as flawed beings in need of redemption, and thus <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiHero" title="/pmwiki/pmwiki.php/Main/AntiHero">are the Unchained who give themselves over to their social conscience most often</a>. Additionally, the most frequent goal of an Integrator is to somehow "correct" the God-Machine and make it become a benevolent deity as per the human understanding of God. Demon is not a game with simple moral stances.<ul><li> The Storyteller's Guide also features Devils, a sub-faction of Tempters who want to become the rulers of a more literal Hell, servant legions and all. Most wouldn't care (the far tamer <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePioneer" title="/pmwiki/pmwiki.php/Main/ThePioneer">Colonist</a> faction wants something akin to the same thing), except Devils also think one of the greatest pleasures in life is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BestServedCold" title="/pmwiki/pmwiki.php/Main/BestServedCold">revenge</a>; they want their home to be actually <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DystopiaJustifiesTheMeans" title="/pmwiki/pmwiki.php/Main/DystopiaJustifiesTheMeans">hellish</a></em> for everyone that has ever slighted them&#151;and even better, for those very same servant legions to be composed of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy" title="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy">broken, twisted enemies whose only impulse is to serve their ruler</a>. Needless to say, their Hell is one of the harder ones to achieve, on the basis that <em>every other demon alive</em> quickly turns on the Devil upon realizing what their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InfernalParadise" title="/pmwiki/pmwiki.php/Main/InfernalParadise">"paradise"</a> actually entails.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TragicMonster" title="/pmwiki/pmwiki.php/Main/TragicMonster">Tragic Monster</a>: Slivers, what happens when the summoning of an angel went horribly awry or an exile is driven insane by their disconnect from the God-Machine. They're one of the few things both angels and demons will regularly work together to stop&#151;but for the Unchained, it's just as much a mission of mercy to free the sliver from its delusions, compulsions, and inability to have rational thoughts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TricksterMentor" title="/pmwiki/pmwiki.php/Main/TricksterMentor">Trickster Mentor</a>: If a member of your ring is an Inquisitor you can take as a given that they're not giving you the whole truth. All information is a weapon, after all, and telling the whole truth is leaving that weapon right out there, ready to be used.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife" title="/pmwiki/pmwiki.php/Main/TVTropesWillRuinYourLife">TV Tropes Will Ruin Your Life</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LifeImitatesArt" title="/pmwiki/pmwiki.php/Main/LifeImitatesArt">Life Imitates Art</a>: An in-universe example, the Embed "Like the Movies" allows a character to turn certain situations into fiction-like coincidences. Using it too much attracts the attention of the God-Machine, which apparently has enough time on its hands to watch human media and know if someone's applying tropes to reality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UndeadTaxExemption" title="/pmwiki/pmwiki.php/Main/UndeadTaxExemption">Undead Tax Exemption</a>: When the God-Machine creates a new angel, it also provides all the requisite background checks, resources, and anything else the angel would need in its mission from nothing. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusEstMachina" title="/pmwiki/pmwiki.php/Main/DeusEstMachina">Considering its capacity</a>, this is decidedly trivial matter.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnPerson" title="/pmwiki/pmwiki.php/Main/UnPerson">Un-person</a>: Shows up in a number of ways. There's an Embed with that exact name, which makes the target a social pariah for a day; even if he produces ID or hard evidence of who he is, everyone writes it off as bull. Likewise, in the alternate timelines of Seattle, anyone who's made a stigmatic is slowly written out of the program with each iteration. If you were a loving father of two, then you become an uncle to two wonderful nephews, and work your way down the cycle of blood relations until finally, you were never there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnstoppableRage" title="/pmwiki/pmwiki.php/Main/UnstoppableRage">Unstoppable Rage</a>: The "Going Loud" transformation, which is like a Full Transformation, but more potent. It instantly heals damage to a greater effect than a Full Transformation and bumps the Primum stat up to to 10. However, it also completely <em>destroys</em> the current Cover that the demon is using. Needless to say, they don't use this unless they are very desperate, or <em>very</em> ticked off.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaksauceWeakness" title="/pmwiki/pmwiki.php/Main/WeaksauceWeakness">Weaksauce Weakness</a>: An example angel in <em>The God-Machine Chronicle</em> will subtly reveal his nature if spoken to in Spanish. The angel appears to be of Hispanic heritage, complete with Spanish accent, does not speak Spanish, and is the antagonist for a race of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CunningLinguist" title="/pmwiki/pmwiki.php/Main/CunningLinguist">Cunning Linguist</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Omniglot" title="/pmwiki/pmwiki.php/Main/Omniglot">Omniglots</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaponsGradeVocabulary" title="/pmwiki/pmwiki.php/Main/WeaponsGradeVocabulary">Weapons-Grade Vocabulary</a>: The Exploit "Play On Words" allows a character to weaponize <em>puns</em>.</li></ul>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse">Mummy: The Curse</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/WhiteWolf">Creator/White Wolf</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BeastThePrimordial">Beast: The Primordial</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DeviantTheRenegades">Deviant: The Renegades</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/TheWorldOfDarkness">Franchise/The World of Darkness</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GeistTheSinEaters">Geist: The Sin-Eaters</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/WesternAnimation/DelilahAndJulius">Delilah & Julius</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/SpyFiction">Spy Fiction</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/EvilGenius">Evil Genius</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse">Mummy: The Curse</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ChroniclesOfDarkness">TabletopGame/Chronicles of Darkness</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BeastThePrimordial">Beast: The Primordial</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ChangelingTheLost">Changeling: The Lost</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GeistTheSinEaters">Geist: The Sin-Eaters</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ChangelingTheLost">Changeling: The Lost</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HorrorTabletopGames">Horror Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GeistTheSinEaters">Geist: The Sin-Eaters</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ChangelingTheLost">Changeling: The Lost</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DeviantTheRenegades">Deviant: The Renegades</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse">Mummy: The Curse</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BeastThePrimordial">Beast: The Primordial</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

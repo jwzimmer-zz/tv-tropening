@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Discworld Role-Playing Game (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="The Discworld Role-Playing Game is a GURPS sourcebook by Phil Masters based on the Discworld novels of Terry Pratchett. It was originally published as GURPS &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/DiscworldRolePlayingGame" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Discworld Role-Playing Game (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="The Discworld Role-Playing Game is a GURPS sourcebook by Phil Masters based on the Discworld novels of Terry Pratchett. It was originally published as GURPS &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/discworld14.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Discworld Role-Playing Game (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/DiscworldRolePlayingGame" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/discworld14.jpg" />
+<meta property="og:description" content="The Discworld Role-Playing Game is a GURPS sourcebook by Phil Masters based on the Discworld novels of Terry Pratchett. It was originally published as GURPS Discworld in 1998 and repackaged as Discworld Role-Playing Game in 2002 to make it &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/SamaritanSyndrome" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/WeAreTheNight" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/DiscworldRolePlayingGame?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/DiscworldRolePlayingGame">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.DiscworldRolePlayingGame">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=DiscworldRolePlayingGame&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.DiscworldRolePlayingGame">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/DiscworldRolePlayingGame?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="DiscworldRolePlayingGame" />
+<input type="hidden" id="article_id" value="524965" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/DiscworldRolePlayingGame</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Discworld Role-Playing Game
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Discworld Role-Playing Game"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DiscworldRolePlayingGame" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/DiscworldRolePlayingGame?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/DiscworldRolePlayingGame?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/DiscworldRolePlayingGame?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/DiscworldRolePlayingGame?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/DiscworldRolePlayingGame?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/DiscworldRolePlayingGame?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/DiscworldRolePlayingGame?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/DiscworldRolePlayingGame?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/DiscworldRolePlayingGame?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/DiscworldRolePlayingGame?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/DiscworldRolePlayingGame?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/DiscworldRolePlayingGame?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/DiscworldRolePlayingGame?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/DiscworldRolePlayingGame?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/DiscworldRolePlayingGame?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/DiscworldRolePlayingGame?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/DiscworldRolePlayingGame?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/DiscworldRolePlayingGame?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:245px;"><div class="lazy_load_img_box" style="padding-top:130.2%"><img src="https://static.tvtropes.org/pmwiki/pub/images/discworld14.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/discworld14.jpg" width="245" height="319"></div></div><div class="acaptionright" style="width:245px;">It's a game set in a world where <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/SoulMusic" title="/pmwiki/pmwiki.php/Literature/SoulMusic">this</a></em> happens. What more do you need to know?</div>The <em>Discworld Role-Playing Game</em> is a <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a></em> sourcebook by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/PhilMasters" title="/pmwiki/pmwiki.php/Creator/PhilMasters">Phil Masters</a> based on the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Discworld" title="/pmwiki/pmwiki.php/Literature/Discworld">Discworld</a></em> novels of <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/TerryPratchett" title="/pmwiki/pmwiki.php/Creator/TerryPratchett">Terry Pratchett</a>. It was originally published as <em>GURPS Discworld</em> in 1998 and repackaged as <em>Discworld Role-Playing Game</em> in 2002 to make it clearer you didn't <em>have</em> to have <em>GURPS Basic Set</em> in order to play, because the book included a copy of the minimal "GURPS Lite" rule set. A supplement, <em>GURPS Discworld Also</em>, was published in 2001; this updated the background information up to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheTruth" title="/pmwiki/pmwiki.php/Literature/TheTruth">The Truth</a></em>, included character templates, and gave four possible campaign settings not entirely taken from the novels &mdash; the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArabianNightsDays" title="/pmwiki/pmwiki.php/Main/ArabianNightsDays">Klatchian town of Al-Ybi</a>, the New Town of Smarlhanger on the Sto Plains, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Pirate" title="/pmwiki/pmwiki.php/Main/Pirate">pirate</a> haunts of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HulaAndLuaus" title="/pmwiki/pmwiki.php/Main/HulaAndLuaus">Brown Islands</a>, and the cart-warrior regions of EcksEcksEcksEcksian outback &mdash; along with some scenarios, the longest of which were "Lost and Found" (about an expedition to the Disc's counterpart of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkestAfrica" title="/pmwiki/pmwiki.php/Main/DarkestAfrica">Darkest Africa</a>) and "Sektoberfest in NoThingfjord" (which combines <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Oktoberfest" title="/pmwiki/pmwiki.php/Main/Oktoberfest">Oktoberfest</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HornyVikings" title="/pmwiki/pmwiki.php/Main/HornyVikings">Horny Vikings</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Australia" title="/pmwiki/pmwiki.php/UsefulNotes/Australia">Australian</a> backpackers).<div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>There were also a number of articles and scenarios for the game in <em>Pyramid</em> magazine, one of which &mdash; <a class="urllink" href="http://www.sjgames.com/pyramid/sample.html?id=2177">"A Fist Full of Tunes You can Whistle"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> &mdash; was originally published in the short-lived UK roleplaying magazine <em>Visions</em> as "A Fistful of Dwarfs". (This material was subsequently made freely available on Steve Jackson Games' Web site.) Then, at the end of 2016, <a class="urllink" href="http://www.sjgames.com/discworld/">a new edition of the sourcebook/game<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> appeared, updating the setting information up to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Snuff" title="/pmwiki/pmwiki.php/Literature/Snuff">Snuff</a></em> and integrating a set of customised rules based on <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a></em> 4th edition. This included revised and sometimes abbreviated versions of much of the setting and scenario material that first appeared in <em>Discworld Also</em>.</p><p>These books describe themselves as "officially unofficial", meaning that while they are a licensed product written in consultation with Sir Terry, he reserved the right to contradict them in the novels if he had a better idea. As such, they can be considered <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfStPaul" title="/pmwiki/pmwiki.php/Main/WordOfStPaul">Word of St. Paul</a>.<span class="notelabel" onclick="togglenote('note0lx6h');"><sup>note&nbsp;</sup></span><span id="note0lx6h" class="inlinefolder" isnote="true" onclick="togglenote('note0lx6h');" style="cursor:pointer;font-size:smaller;display:none;">A case in point; the first edition was written before Terry had established how waste disposal worked in Ankh-Morpork, and a scene in one of the adventures is set in a municipal rubbish tip, run by a journeyman in the Guild of Plumbers. In the second edition, this has been reworked to make him an employee of Harry King.</span></p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Elements of the first edition are mapped onto one standard set of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerArchetypes" title="/pmwiki/pmwiki.php/Main/PlayerArchetypes">Player Archetypes</a> <a class="urllink" href="http://www.firedrake.org/roger/rpg/munchkin.html#GURPSDiscworld">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></p><p></p><hr><h2>Besides the tropes in the novels and games-related tropes inherited from the full <em>GURPS</em> system, the setting contains examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalContextChange" title="/pmwiki/pmwiki.php/Main/AdaptationalContextChange">Adaptational Context Change</a>: The second edition reuses as much art from both volumes of the first edition as possible, but differences between the texts sometimes alter the context they appear in. For example, an illustration of a pointing figure enveloping a snail in magical energy originally appeared next to a sidebar about giving standard GURPS spells Discworldly wizard names, and appeared to illustrate the spell Mollusk Control (or The Laskallans' Complete and Authoritative Slug and Snail Manipulation Incantation). In the second edition, the same picture is used in the completely different magic system to represent the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalefulPolymorph" title="/pmwiki/pmwiki.php/Main/BalefulPolymorph">Baleful Polymorph</a> spell Stacklady's Morphic Resonator.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AFistfulOfRehashes" title="/pmwiki/pmwiki.php/Main/AFistfulOfRehashes">A Fistful of Rehashes</a>: "A Fist Full of Tunes You can Whistle" (in <em>Visions</em> magazine and <em>Discworld Also</em>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWelding" title="/pmwiki/pmwiki.php/Main/ArcWelding">Arc Welding</a>: In the first edition's version of the adventure seed "Plumbing the Depths", mapping the Ankh-Morpork sewers was the brainchild of a lone eccentric inventor with a plan for an ox-drawn railway. In the second edition, it's all tied into the Undertaking from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/MakingMoney" title="/pmwiki/pmwiki.php/Literature/MakingMoney">Making Money</a></em> and subsequent A-M books.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AutomaticCrossbows" title="/pmwiki/pmwiki.php/Main/AutomaticCrossbows">Automatic Crossbows</a>: Popular in the seaports of the Brown Islands. The favoured version makes a distinctive "kerr-chunk!" sound that some users regard as an essential feature.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CompellingVoice" title="/pmwiki/pmwiki.php/Main/CompellingVoice">Compelling Voice</a>, which appears in the books, turns up here as a character advantage &mdash; "Voice of Command".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness" title="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness">Contractual Genre Blindness</a>: A core stock feature of Discworld stories, but formalised here in game mechanics; an optional rules allows dark lords (and barbarian heroes) to get a few points off the cost of some of their character advantages if they take appropriate character disadvantages &mdash; but if they fail to play to the disadvantages, they lose the advantages.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolToy" title="/pmwiki/pmwiki.php/Main/CoolToy">Cool Toy</a>: The <em>Pyramid</em> scenario "<a class="urllink" href="http://www.sjgames.com/pyramid/sample.html?id=721">Watch Academy VI: Hogswatchnight<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>" features the must-have toy in Ankh-Morpork this Hogswatch, which is &mdash; of course &mdash; secretly part of a Sinister and Eldritch Plot. In the scenario as written they're quasi-intelligent furry things called <a class="twikilink" href="/pmwiki/pmwiki.php/Toys/Furby" title="/pmwiki/pmwiki.php/Toys/Furby">Burfies</a>, but the author recommends adapting them to whatever the Cool Toy is at the time the game is played.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilChancellor" title="/pmwiki/pmwiki.php/Main/EvilChancellor">Evil Chancellor</a>: Invoked and parodied. The Grand Vizier of Al-Ybi is a sensible and unambitious accountant, who has reluctantly grown a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeardOfEvil" title="/pmwiki/pmwiki.php/Main/BeardOfEvil">Beard of Evil</a> and practiced his sinister smile, because that's what's expected. He views the whole thing as an unnecessary distraction from balancing the budget.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GladYouThoughtOfIt" title="/pmwiki/pmwiki.php/Main/GladYouThoughtOfIt">Glad You Thought of It</a>: This is how the very intelligent wife of the Sultan of Al-Ybi makes suggestions to her husband. The ideas she proposes are stupid, but they contain a basic kernel that he can "adapt" into something he thought of himself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodsNeedPrayerBadly" title="/pmwiki/pmwiki.php/Main/GodsNeedPrayerBadly">Gods Need Prayer Badly</a>, one of the many tropes inherited from the novels, is represented by the "Faith Maintenance" character disadvantage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HulaAndLuaus" title="/pmwiki/pmwiki.php/Main/HulaAndLuaus">Hula and Luaus</a>: The Brown Islands, where the natives think of surfing as a religion, and have a habit of reassuring visitors they stopped sacrificing people to the volcano <em>ages</em> ago, in a vague manner that suggests they can't quite remember if they'd any reason to.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>: The adventure "<a class="urllink" href="http://www.sjgames.com/pyramid/sample.html?id=4303">A Little Job For The Patrician<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>" (in <em>Pyramid</em> magazine and in truncated form in the second edition of the book) features a Discworld mecha, based on a design by Leonard of Quirm, adapted by a brilliant Agatean nobleman whose narrative causality tends towards anime tropes, and powered by five trolls. The trolls even go through an Invocation as the thing assembles ("Other leg troll, put it together!"), although since they're trolls in a warm climate, it's possible they'd forget which one went where otherwise.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheIgor" title="/pmwiki/pmwiki.php/Main/TheIgor">The Igor</a>: After the setting acquired a whole <em>caste</em> of Igors, with unique abilities, <em>Discworld Also</em> added rules mechanics for them, with, for example, the "Patchwork Man" advantage encompassing their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MixAndMatchMan" title="/pmwiki/pmwiki.php/Main/MixAndMatchMan">Mix-and-Match Man</a> nature.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InscrutableOriental" title="/pmwiki/pmwiki.php/Main/InscrutableOriental">Inscrutable Auriental</a>: Lacquered Tablet, the Agatean representative in Port Duck, has heard that foreigners think Agateans are inscrutable, and has decided it's a good idea.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked Trope</a>: The setting actually has <em>rules</em> for invoking a trope, based on the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheoryOfNarrativeCausality" title="/pmwiki/pmwiki.php/Main/TheoryOfNarrativeCausality">Theory of Narrative Causality</a>. It also has rules for when it goes wrong; see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrongGenreSavvy" title="/pmwiki/pmwiki.php/Main/WrongGenreSavvy">Wrong Genre Savvy</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnuckleCracking" title="/pmwiki/pmwiki.php/Main/KnuckleCracking">Knuckle Cracking</a>: A typically <em>self-confident</em> example from Archchancellor Ridcully in a piece of flavor text:<div class="indent"><em>&#147;The theurgic shielding is failing, Archchancellor!&#148; said Ponder, clutching at his hat. &#147;We have a divine incursion!&#148;</em> <br><em>&#147;Gods?&#148; Ridcully roared, &#147;Gods, in here?&#148; Then he paused, and cracked his knuckles. &#147;Right,&#148; he said, &#147;we'll see about that . . .&#148;</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LadyOfBlackMagic" title="/pmwiki/pmwiki.php/Main/LadyOfBlackMagic">Lady of Black Magic</a>: Seen, while being gently parodied, in the person of the primary example character, Jemzarkiza of Krull. She's a powerful sorceress with effective offensive powers who even carries a wand to focus her magic. She's also a slightly nerdy scholar who's persistently irritated by her reputation as a lady of black magic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteralMinded" title="/pmwiki/pmwiki.php/Main/LiteralMinded">Literal-Minded</a> is available as a character disadvantage in this game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoOneSeesTheBoss" title="/pmwiki/pmwiki.php/Main/NoOneSeesTheBoss">No One Sees the Boss</a>: In "A Fist Full of Tunes You can Whistle", no-one sees Don Dominguino de Varozag. It's widely believed by the villagers that he's dead, and the barking mad Varozag family use "Don Dominguino orders it!" as a catchall excuse. It's suggested an adventure could climax with the PCs encountering him; live or stuffed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoSafeHarbor" title="/pmwiki/pmwiki.php/Main/NotSoSafeHarbor">Not-So-Safe Harbor</a>: Port Duck in the Brown Islands is a joint Sto Plains/Agatean settlement, full of sailors who definitely aren't pirates. Confusing things, the parts the Agatean tourists see are also full of people who really <em>aren't</em> pirates but insist they <em>are,</em> giving the tourists all the excitement of drinking in a pirate tavern without actually being in any danger. It&#146;s a parody of the historical Port Royal, in the Caribbean, with an added dose of modern-day Hong Kong (and maybe a dash of Disneyland).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Oktoberfest" title="/pmwiki/pmwiki.php/Main/Oktoberfest">Oktoberfest</a>: The game includes a scenario, "Sektoberfest in NoThingfjord", which combines the <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Discworld" title="/pmwiki/pmwiki.php/Literature/Discworld">Discworld</a>'s version of Oktoberfest with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HornyVikings" title="/pmwiki/pmwiki.php/Main/HornyVikings">Horny Vikings</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Australia" title="/pmwiki/pmwiki.php/UsefulNotes/Australia">Australian</a> backpackers, among other things.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Parody" title="/pmwiki/pmwiki.php/Main/Parody">Parody</a>: The original novels certainly include their share of parodies; the game may actually lean on this even harder, as it gives a clear and comprehensible basis for a lot of game ideas and jokes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerceptionFilter" title="/pmwiki/pmwiki.php/Main/PerceptionFilter">Perception Filter</a>: The game calls the fairly common Discworld version of this effect <em>Unnoticed</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerpetualTourist" title="/pmwiki/pmwiki.php/Main/PerpetualTourist">Perpetual Tourist</a>: The text of "Lost and Found" states that, in accordance with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheoryOfNarrativeCausality" title="/pmwiki/pmwiki.php/Main/TheoryOfNarrativeCausality">Theory of Narrative Causality</a>, the Howondaland trading post <em>must</em> contain at least one Ankh-Morporkian expat (possibly <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Casablanca" title="/pmwiki/pmwiki.php/Film/Casablanca">white-suited</a>, maybe just <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheAfricanQueen" title="/pmwiki/pmwiki.php/Film/TheAfricanQueen">booze-soaked</a>), who can never return for some unspecified reason.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PiratesVersusNinjas" title="/pmwiki/pmwiki.php/Main/PiratesVersusNinjas">Pirates vs. Ninjas</a>: The "Brown Islands" setting sets up the possibility of a pirate-ninja clash. Some flavor text in the second edition of the game features an angst-ridden ninja who has been assigned to infiltrate pirate society...<div class="indent"><em>The problem was, his lengthy immersion in the attitudes of his new shipmates had caused him to develop doubts about the practicality of his previous training &#150; despite the fact that his upbringing and grasp of subtlety made him fully aware of the ludicrousness of his shipmates&#146; behaviour. So now, although he could both scream while hurling a throwing star and go &#147;Yah!&#148; while wielding a cutlass, he couldn&#146;t quite keep a straight face while doing either. He didn&#146;t fit in anywhere.</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityEnsues" title="/pmwiki/pmwiki.php/Main/RealityEnsues">Reality Ensues</a>: In keeping with the books, GMs are advised that reality should ensue <em>sometimes</em>. Maybe swinging on a chandelier will be a dramatic swashbuckling success, maybe it'll leave the PC dangling helplessly in front of the villain in an ironic anticlimax.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyalHarem" title="/pmwiki/pmwiki.php/Main/RoyalHarem">Royal Harem</a>: The Al-Ybi material plays with this trope. It&#146;s an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArabianNightsDays" title="/pmwiki/pmwiki.php/Main/ArabianNightsDays">"Arabian Nights" Days</a> setting, so the place&#146;s palace naturally has a harem &#151; but <span class="spoiler" title="you can set spoilers visible by default on your profile">the hidden truth is that the harem women are a smart, practical, highly pragmatic bunch who are secretly running the city via their influence over the sultan and their contacts in the bazaar</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SacredHospitality" title="/pmwiki/pmwiki.php/Main/SacredHospitality">Sacred Hospitality</a>: As in the novels, the Klatchian and D&#146;reg&#146;s Codes of Honour are serious about hospitality: &#147;If you take in a guest or <em>are</em> a guest, treat the hospitality as sacred for exactly 72 hours.&#148; Conversely, the Dark Lord&#146;s Code puts a twisted spin on this idea: &#147;Provide visiting heroes who aren't yet scheduled for the death-trap with comfortable lodgings, submissive servants, and a change of clothes.&#148;</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchizoTech" title="/pmwiki/pmwiki.php/Main/SchizoTech">Schizo Tech</a>: Because the Disc features quite a lot of technological diversity, the cut-down version of the GURPS rules incorporated in the second edition of this game necessarily includes not only the parent system's mechanics for handling different <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnologyLevels" title="/pmwiki/pmwiki.php/Main/TechnologyLevels">Technology Levels</a>, but also mechanisms such as the Cutting-Edge Training perk required by characters who are more advanced in specific fields than most of the society around them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScoundrelCode" title="/pmwiki/pmwiki.php/Main/ScoundrelCode">Scoundrel Code</a>: Parodied in the Brown Islands material, where the pirates' formal democratic principles are complicated enough that they've been known to press-gang contract lawyers, and sometimes start arguing about a point of order in the middle of a fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SdrawkcabAlias" title="/pmwiki/pmwiki.php/Main/SdrawkcabAlias">Sdrawkcab Alias</a>: In fact, one of the novels mentions that this is a common foible among Discworld vampires (a joke about the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Alucard" title="/pmwiki/pmwiki.php/Main/Alucard">Alucard</a> trope), but the game formalises the idea in the form of the quirk-level Delusion (Spelling My Name Backwards Disguises It Perfectly).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SewerGator" title="/pmwiki/pmwiki.php/Main/SewerGator">Sewer Gator</a>: A scenario about mapping Ankh-Morpork's forgotten sewers includes "albino alligators, which have wandered into the sewers from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutsideGenreFoe" title="/pmwiki/pmwiki.php/Main/OutsideGenreFoe">another set of narrative assumptions</a>".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: As frequently as in the novels:<ul><li> In <em>Also</em> and the second edition, there's an extended riff on <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/CarWars" title="/pmwiki/pmwiki.php/TabletopGame/CarWars">Car Wars</a></em> based on the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/MadMax" title="/pmwiki/pmwiki.php/Film/MadMax">Mad Max</a></em> parody section of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheLastContinent" title="/pmwiki/pmwiki.php/Literature/TheLastContinent">The Last Continent</a></em>. The main Cart Wars arena is run by a woman called <a class="twikilink" href="/pmwiki/pmwiki.php/Film/MadMaxBeyondThunderdome" title="/pmwiki/pmwiki.php/Film/MadMaxBeyondThunderdome">Auntie Ante</a> (because she takes the bets).</li><li> The scenario "Lost and Found" features a mad wizard who has recreated prehistoric creatures, including an ancestor/genetic derivative of the swamp dragon called the <a class="twikilink" href="/pmwiki/pmwiki.php/Film/JurassicPark" title="/pmwiki/pmwiki.php/Film/JurassicPark">"High-Velocity Rapacious Monstrosity"</a>.</li><li> In the Brown Islands setting, Port Duck includes a tavern called <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Casablanca" title="/pmwiki/pmwiki.php/Film/Casablanca">Brick's Cafe Ankh-Morporkian</a>. Brick is the troll doorman; the actual owner is revealed in the <em>Pyramid</em> version of the adventure "<a class="urllink" href="http://www.sjgames.com/pyramid/sample.html?id=4303">A Little Job For The Patrician<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>" to be Dooli the Arranger (a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CompositeCharacter" title="/pmwiki/pmwiki.php/Main/CompositeCharacter">Composite Character</a> of Rick and Sam).</li><li> "A Fist Full of Tunes You can Whistle" introduces a Western-film area of the Disc, which includes <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/SergioLeone" title="/pmwiki/pmwiki.php/Creator/SergioLeone">The Dwarf with No Name</a> and a <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Zorro" title="/pmwiki/pmwiki.php/Franchise/Zorro">masked fop who thinks he's a dashing hero</a>.</li><li> The <em>Pyramid</em> article <a class="urllink" href="http://www.sjgames.com/pyramid/sample.html?id=2919">"Call No Man Happy Until He is Dread"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, describing the role of Discworld's Dark Lords, warns that underground lairs will bring in a certain kind of adventurer "<a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">in small mixed parties of thugs, kleptomaniacs, god-botherers and UU rejects</a>".</li><li> And the article <a class="urllink" href="http://www.sjgames.com/pyramid/sample.html?id=4660">"Librarian's Love-Child in World Domination Horror"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> discusses how to bring parodies of a whole range of <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ConspiracyTheories" title="/pmwiki/pmwiki.php/UsefulNotes/ConspiracyTheories">Conspiracy Theories</a> into games.</li><li> As mentioned below, in the opening vignette to the first chapter of the second edition, the bard's spiel to Verence is basically the opening sentence of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/ThePhoenixOnTheSword" title="/pmwiki/pmwiki.php/Literature/ThePhoenixOnTheSword">The Phoenix on the Sword</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfUndeadRegeneration" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfUndeadRegeneration">Sliding Scale of Undead Regeneration</a>: Rules and character features are provided to allow zombies and zombie-like beings to function as in the books &#151; in terms of the trope definition, somewhere between Type I and Type II.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpellCrafting" title="/pmwiki/pmwiki.php/Main/SpellCrafting">Spell Crafting</a>: Rather than trying to define a fixed spell for every whimsical or specialised bit of magic-working seen in the novels, the second edition of the game has a flexible magic system designed to allow characters to cobble together magical effects as required.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StopWorshippingMe" title="/pmwiki/pmwiki.php/Main/StopWorshippingMe">Stop Worshipping Me</a>: This is apparently how the Disc's nature gods feel. They get plenty of <em>belief</em> from superstitious farmers without having to demand worship, while druids and shamans seem to <em>want</em> something from them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TapOnTheHead" title="/pmwiki/pmwiki.php/Main/TapOnTheHead">Tap on the Head</a>: As this idea crops up occasionally in the novels, there are game rules for it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTimeOfMyths" title="/pmwiki/pmwiki.php/Main/TheTimeOfMyths">The Time of Myths</a>: The novels play with this trope, making the Discworld a fantasy world with its own Time of Myths in its distant past. The game not only picks that up, but also tends to treat the early, more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwordAndSorcery" title="/pmwiki/pmwiki.php/Main/SwordAndSorcery">Sword &amp; Sorcery</a>-style early novels as something of a Time of Myths from the point of view of the most recent novels (which fits with the implications of Discworld stories such as <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheLastHero" title="/pmwiki/pmwiki.php/Literature/TheLastHero">The Last Hero</a></em>, after all). It even features a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Parody" title="/pmwiki/pmwiki.php/Main/Parody">Parody</a> of/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> to the classic <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/ConanTheBarbarian" title="/pmwiki/pmwiki.php/Franchise/ConanTheBarbarian">Conan the Barbarian</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FramingDevice" title="/pmwiki/pmwiki.php/Main/FramingDevice">Framing Device</a>:<div class="indent"><em>&#147;Know You, O Prince,&#148; he began grandly in his Llamedese accent, &#147;that between the years when the oceans drank Leshp and its brass gongs for the fifth or possibly sixth time, and the years of the rise of the Middle Classes, there was an Age undreamed of ...&#148;</em></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitledAfterTheSong" title="/pmwiki/pmwiki.php/Main/TitledAfterTheSong">Titled After the Song</a>: For some reason, the subsections of the Pyramid article "Call No Man Happy Until He Is Dread: Dark Lords in <em>GURPS Discworld</em>" are <a class="twikilink" href="/pmwiki/pmwiki.php/Music/BruceSpringsteen" title="/pmwiki/pmwiki.php/Music/BruceSpringsteen">Bruce Springsteen</a> quotes: "And Remember Just Don't Smile" (from "Meeting Across the River"); "Born to Ruin" (play on "Born to Run"); "Darkness on the Edge of Town" ("Darkness on the Edge of Town"); "It's a Death Trap; It's a Suicide Rap" ("Born to Run" again).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranslationByVolume" title="/pmwiki/pmwiki.php/Main/TranslationByVolume">Translation by Volume</a>: This is an actual skill, called Shouting At Foreigners.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VehicularCombat" title="/pmwiki/pmwiki.php/Main/VehicularCombat">Vehicular Combat</a>: EcksEcksEcksEcksian Cart Wars, a parody of Steve Jackson Games' own <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/CarWars" title="/pmwiki/pmwiki.php/TabletopGame/CarWars">Car Wars</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WackyRacing" title="/pmwiki/pmwiki.php/Main/WackyRacing">Wacky Racing</a>: EcksEcksEcksEcksian Cart Wars again, when there are actual races.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrongGenreSavvy" title="/pmwiki/pmwiki.php/Main/WrongGenreSavvy">Wrong Genre Savvy</a>: Suggested as a way of preventing players abusing the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheoryOfNarrativeCausality" title="/pmwiki/pmwiki.php/Main/TheoryOfNarrativeCausality">Theory of Narrative Causality</a>, by ensuring the story isn't necessarily what they think it is.<div class="indent">"A character who tries to cast himself as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FarmBoy" title="/pmwiki/pmwiki.php/Main/FarmBoy">Brave Peasant Lad</a> Who <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuileHero" title="/pmwiki/pmwiki.php/Main/GuileHero">Outwits The Troll</a> may find that he's actually one of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SacrificialLamb" title="/pmwiki/pmwiki.php/Main/SacrificialLamb">Twenty Poor Peasants Eaten By The Troll</a> Before <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightErrant" title="/pmwiki/pmwiki.php/Main/KnightErrant">The Knight Comes Along</a>. He might even end up as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheTrickster" title="/pmwiki/pmwiki.php/Main/TheTrickster">Devious Little Human</a> Squashed By <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainsEvilBrawnGood" title="/pmwiki/pmwiki.php/Main/BrainsEvilBrawnGood">The Troll Hero</a>. (Troll <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FairyTale" title="/pmwiki/pmwiki.php/Main/FairyTale">fairy-stories</a> aren&#146;t especially subtle.)"</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAllMeetInAnInn" title="/pmwiki/pmwiki.php/Main/YouAllMeetInAnInn">You All Meet in an Inn</a>: In the second edition, one of the chapter-opening vignettes has the example characters meeting in Biers, where Angua is reluctantly assembling an adventuring party on behalf of the Patrician.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair" title="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair">You Gotta Have Blue Hair</a>: In "<a class="urllink" href="http://www.sjgames.com/pyramid/sample.html?id=4303">A Little Job For The Patrician<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>", the heavily anime-based villain insists his trolls all grow different coloured moss on their heads, so he can tell them apart, and his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheIgor" title="/pmwiki/pmwiki.php/Main/TheIgor">Igor</a> has implanted blue hair, just because.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZorroMark" title="/pmwiki/pmwiki.php/Main/ZorroMark">Zorro Mark</a>: The Zorro-like character in "A Fist Full of Tunes You can Whistle" has the name Don Gaveroz de Varozag de la Lala, "El Aguilo del Cubo". He keeps attempting to carve all his intitals on his opponents, but since his Code of Honor prevents him from continuing to attack someone who is clearly about to collapse from bloodloss, he seldom gets very far with it.</li></ul><hr>
+</div>
+<div class="alt-titles section section-fact">
+<h3>
+<strong>Alternative Title(s):</strong>
+<span>GURPS Discworld</span> </h3>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/ConanTheBarbarian">Conan the Barbarian</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSSettings">TabletopGame/GURPS Settings</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/Hellboy">Hellboy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DCHeroes">DC Heroes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheRolePlayingGame">The Role-Playing Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TimeLord">Time Lord</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/DiscworldNoir">Discworld Noir</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/Discworld">Literature/Discworld</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/TheScienceOfDiscworld">The Science of Discworld</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSSteampunkSettingTheBrokenClockworkWorld">GURPS Steampunk Setting: The Broken Clockwork World</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSIlluminatiUniversity">GURPS Illuminati University</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DescentJourneysInTheDark">Descent: Journeys in the Dark</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyTabletopGames">Fantasy Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DragonAge">Dragon Age</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+ <li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

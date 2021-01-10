@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Black Crusade (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Black Crusade is the fourth in a series of tabletop roleplaying games set in the Warhammer 40,000 universe. While its sister games Dark Heresy, Rogue Trader &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/BlackCrusade" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Black Crusade (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Black Crusade is the fourth in a series of tabletop roleplaying games set in the Warhammer 40,000 universe. While its sister games Dark Heresy, Rogue Trader &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Black Crusade (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/BlackCrusade" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Black Crusade is the fourth in a series of tabletop roleplaying games set in the Warhammer 40,000 universe. While its sister games Dark Heresy, Rogue Trader, Deathwatch, and Only War focus on characters that are (at least outwardly) loyal to the &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/HollywoodAtheist" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/AlienVsPredator" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/BlackCrusade">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.BlackCrusade">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=BlackCrusade&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.BlackCrusade">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="BlackCrusade" />
+<input type="hidden" id="article_id" value="317754" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/BlackCrusade</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Black Crusade
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Black Crusade"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/BlackCrusade" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/BlackCrusade" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/BlackCrusade" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/BlackCrusade?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/BlackCrusade?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/BlackCrusade?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/BlackCrusade?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/BlackCrusade?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/BlackCrusade?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/BlackCrusade?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/BlackCrusade?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/BlackCrusade?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/BlackCrusade?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/BlackCrusade?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/BlackCrusade?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/BlackCrusade?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/BlackCrusade?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/BlackCrusade?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><img src="https://static.tvtropes.org/pmwiki/pub/images/rsz_002yxmpsty6eyxgo4prf5&amp;690.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/rsz_002yxmpsty6eyxgo4prf5&amp;690.png"></div><p></p><div class="indent"><em>The intoxicating lure of Chaos leads untold millions down the path of corruption, and the noblest of intentions offers little protection against its dark influence. A soldier&#146;s bloodlust, a politician's ambition, a lover&#146;s desire, and even a mother&#146;s whispered prayer over her feverish child &#150; they are all the playthings of the Dark Gods. Why resist? Wealth, power, and happiness await those who serve the Ruinous Powers, and the only price is your humanity.</em></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em><a class="urllink" href="http://www.fantasyflightgames.com/edge_minisite.asp?eidm=154&amp;enmi=Black%20Crusade">Black Crusade<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> is the fourth in a series of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TabletopGames" title="/pmwiki/pmwiki.php/Main/TabletopGames">tabletop roleplaying games</a> set in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a></em> universe. While its sister games <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" title="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a></em>, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar" title="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a></em> focus on characters that are (at least outwardly) loyal to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpire" title="/pmwiki/pmwiki.php/Main/TheEmpire">the Imperium of Man</a>, <em>Black Crusade</em> focuses on characters who serve the dark powers of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">Chaos</a> &mdash; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHeretic" title="/pmwiki/pmwiki.php/Main/TheHeretic">the heretics</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMentallyDisturbed" title="/pmwiki/pmwiki.php/Main/TheMentallyDisturbed">the madmen</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DespairEventHorizon" title="/pmwiki/pmwiki.php/Main/DespairEventHorizon">the lost</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DealWithTheDevil" title="/pmwiki/pmwiki.php/Main/DealWithTheDevil">the damned</a>. The game contains rules for playing both <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Chaos Space Marines</a> and human <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cult" title="/pmwiki/pmwiki.php/Main/Cult">cultists</a>, with starting characters roughly equivalent in power to mid-level <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> characters or low-level <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em> characters.</p><p>See also <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" title="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a></em>, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar" title="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a></em>.</p><p></p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><h2>This game contains examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AceCustom" title="/pmwiki/pmwiki.php/Main/AceCustom">Ace Custom</a>: <em>Tome of Blood</em> provides rules for the player characters to create "Legacy Weapons," unique weapons that act as their character's signature <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IconicItem" title="/pmwiki/pmwiki.php/Main/IconicItem">Iconic Item</a> and grow in power as they gain Infamy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffablyEvil" title="/pmwiki/pmwiki.php/Main/AffablyEvil">Affably Evil</a>:<ul><li> Many characters, and the sorcerer-planet of Q'Sal in general (by the standards of Chaos, at any rate). Though expanded information on the planet has made Q'Sallian culture itself more of a subversion, since it's one of the biggest consumers within the Screaming Vortex's thriving slave trade, and that it's a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsaccharineWorld" title="/pmwiki/pmwiki.php/Main/CrapsaccharineWorld">pretty twisted place underneath the Golden Age facsimile</a>.</li><li> Nurgle, and a significant percentage of his worshipers, however, are entirely as they present themselves. Indeed, the Tome of Decay makes it clear Nurgle earnestly believes his victory would improve the universe for everyone (and everything), as the ultimate rot will allow new, pure life to be born from the destroyed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>.</li></ul></li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternativeCharacterInterpretation" title="/pmwiki/pmwiki.php/Main/AlternativeCharacterInterpretation">Alternative Character Interpretation</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">Within the context of the setting</a>, the Imperium can be viewed as a necessary force to safeguard and shepard humanity against the darkness which threatens to consume it, or it can be seen as a brutally oppressive regime which holds humanity back from realizing its true potential. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">A writer's sidebar early in the rulebook</a> makes clear that <em>Black Crusade</em> is written with the latter perspective in mind, which is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedTrope" title="/pmwiki/pmwiki.php/Main/JustifiedTrope">justified</a>, considering Chaos's views.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndShowItToYou" title="/pmwiki/pmwiki.php/Main/AndShowItToYou">And Show It to You</a>: The Tome of Excess describes a drug called Sweetmeats, which are made from a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceMarine" title="/pmwiki/pmwiki.php/Main/SpaceMarine">Space Marine</a>'s internal organs that are removed from his living body and roasted while he is forced to watch. Granted, the organs in question are the progenoid glands, which aren't necessary for continued survival in the way that hearts or lungs are. But to Loyalist Space Marines, they're vital to the continued survival <em>of their chapter</em>, and hold a more or less holy significance, so the psychological torment of the aforementioned act is probably more than sufficient for the purpose.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiHero" title="/pmwiki/pmwiki.php/Main/AntiHero">Anti-Hero</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiVillain" title="/pmwiki/pmwiki.php/Main/AntiVillain">Anti-Villain</a>: This game allows you to play this <em>as well as</em> the shallow-one-dimensional cackling <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CardCarryingVillain" title="/pmwiki/pmwiki.php/Main/CardCarryingVillain">Card-Carrying Villain</a>. As the opening quote shows, sometimes the first tragic step in becoming a monster can be as noble and pure as a parent's love for her child.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmCannon" title="/pmwiki/pmwiki.php/Main/ArmCannon">Arm Cannon</a>: There are several ways to be able to make your arm a weapon, but literal example is Slayer Limb, which fuses one of your weapons with your arm.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmsDealer" title="/pmwiki/pmwiki.php/Main/ArmsDealer">Arms Dealer</a>: While worlds like Q'sal and the Hollows are rife with weapons for sale, particular mention goes to independant Hereteks within the Ragged Helix who arm much of the Screaming Vortex with weapons they create and distribute independently.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendedMeme" title="/pmwiki/pmwiki.php/Main/AscendedMeme">Ascended Meme</a>: The last mortal words of a Tzeentchian Daemon Prince in <em>Tome of Fate</em> were reported to be a recognition that his schemes were blown wide open by the Imperium... and then giving it the qualifier <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllAccordingToPlan" title="/pmwiki/pmwiki.php/Main/AllAccordingToPlan">"Just as planned..."</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>: The Renegade archetype. The other archetypes are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Space Marines</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psykers</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Tech-Priests</a>, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilSorcerer" title="/pmwiki/pmwiki.php/Main/EvilSorcerer">Evil Sorcerers</a>, but a Renegade is just a human with some mad skills and a lust for something that Chaos can provide.<ul><li> The Apostate archetype is a downplayed example, they are (initially, at least) ordinary humans who happen to be incredibly charismatic.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBadGuysAreCops" title="/pmwiki/pmwiki.php/Main/TheBadGuysAreCops">The Bad Guys Are Cops</a>: Within adventures that take place within the Imperium, the most common enemy will be those that enforce order and orthodoxy within the (mostly dystopian) Imperium, particularly those that do so by brutal force (which is commonly a driving motive for individuals serving Chaos). In other cases, they may be corrupt or radical elements, which can actually work in the Heretics' favor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBaroness" title="/pmwiki/pmwiki.php/Main/TheBaroness">The Baroness</a>: The example Daemon Prince in the book was a corrupt Imperium aristocrat who was obsessed with self-mastery and mastery over others. Eventually, she grew so confident that she summoned a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" title="/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">Keeper of Secrets</a> into her own body in the belief <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuicidalOverconfidence" title="/pmwiki/pmwiki.php/Main/SuicidalOverconfidence">she could absorb it into her soul to extend her life</a>... <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">and she</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu" title="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu">was right</a>. And then when she got old and decrepit again, she did the whole thing over again. <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Twice</a></em>. She was about to do it a fourth time when Slaanesh himself showed up and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperEmpowering" title="/pmwiki/pmwiki.php/Main/SuperEmpowering">turned her into a daemon prince</a> out of genuine respect (and as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StealthInsult" title="/pmwiki/pmwiki.php/Main/StealthInsult">Stealth Insult</a> to his own Greater Daemons for their inability to stand up to her).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Body Horror</a>: As a heretic becomes more and more corrupt, his body will slowly start to mutate, and some mutations are rather... impressive.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienBlood" title="/pmwiki/pmwiki.php/Main/AlienBlood">Alien Blood</a>: The "Blood Substitution" Gift replaces your blood with a more deadly substance.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmCannon" title="/pmwiki/pmwiki.php/Main/ArmCannon">Arm Cannon</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BladeBelowTheShoulder" title="/pmwiki/pmwiki.php/Main/BladeBelowTheShoulder">Blade Below the Shoulder</a>: The "Slayer Limb" Gift fuses a weapon with your arm from the elbow down, and can be anything, from a knife to a <em>lascannon</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBlank" title="/pmwiki/pmwiki.php/Main/TheBlank">The Blank</a>: The "Featureless Face" Gift turns you into this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreathWeapon" title="/pmwiki/pmwiki.php/Main/BreathWeapon">Breath Weapon</a>: The "Projectile Attack" Gift allows you to do this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cephalothorax" title="/pmwiki/pmwiki.php/Main/Cephalothorax">Cephalothorax</a>: The "Headless" Gift causes your head to shrink away and your facial features migrate to your chest.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyclops" title="/pmwiki/pmwiki.php/Main/Cyclops">Cyclops</a>: The "Cyclops" Gift takes one of your eyes and gives you the ability to see the future. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlessedWithSuck" title="/pmwiki/pmwiki.php/Main/BlessedWithSuck">Unfortunately, the only future you can see is your own death</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyeOnAStalk" title="/pmwiki/pmwiki.php/Main/EyeOnAStalk">Eye on a Stalk</a>: The "Eye-Stalks" causes this, making it easier for you to see thinks but also easier to get your eyes destroyed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeelNoPain" title="/pmwiki/pmwiki.php/Main/FeelNoPain">Feel No Pain</a>: The "Nerveless Ennui" Gift makes you unable to really feel <em>anything</em>, including pain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlamingSkulls" title="/pmwiki/pmwiki.php/Main/FlamingSkulls">Flaming Skulls</a>: The "Flaming Skull" Gift does exactly that.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HornedHumanoid" title="/pmwiki/pmwiki.php/Main/HornedHumanoid">Horned Humanoid</a>: The "Magnificent Horns" Gift causes you to grow a pair of horns.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicalEye" title="/pmwiki/pmwiki.php/Main/MagicalEye">Magical Eye</a>: The "Eye Of Chaos" Gift causes your eyes to become infused with the power of the Warp, making other feel the Warp itself is staring at them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MultiArmedAndDangerous" title="/pmwiki/pmwiki.php/Main/MultiArmedAndDangerous">Multi-Armed and Dangerous</a>: The "Additional Limb" Gift causes you to sprout another arm and its effects are cumulative if you roll it again.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoodlePeople" title="/pmwiki/pmwiki.php/Main/NoodlePeople">Noodle People</a>: The "Boneless" Gift causes some of your bone matter to dissolve, making you far more flexible but necessarily weaker and more off-putting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NothingButSkinAndBones" title="/pmwiki/pmwiki.php/Main/NothingButSkinAndBones">Nothing but Skin and Bones</a>: The "Emaciated" Gift withers you but you are still incessantly hungry as the Warp consumes your food before you have a chance to ingest it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurCentaursAreDifferent" title="/pmwiki/pmwiki.php/Main/OurCentaursAreDifferent">Our Centaurs Are Different</a>: The "Centauroid Body" Gift turns your lower body into a quadruped.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SillyWalk" title="/pmwiki/pmwiki.php/Main/SillyWalk">Silly Walk</a>: The "Strange Walk" Gift mangles your locomotion in some way, reducing your movement rate by half.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WreathedInFlames" title="/pmwiki/pmwiki.php/Main/WreathedInFlames">Wreathed in Flames</a>: The "Burning Body" Gift sets you on fire. The fire won't directly harm you but you have to now deal with the fact that you're permanently <em>on fire</em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BottomlessMagazines" title="/pmwiki/pmwiki.php/Main/BottomlessMagazines">Bottomless Magazines</a>: One of the effects of creating a Daemon Weapon out of a gun is that it no longer expends ammunition and no longer needs to reload. The power of the daemon bound inside it produces all the directed fury it will ever need.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ByronicHero" title="/pmwiki/pmwiki.php/Main/ByronicHero">Byronic Hero</a>: A viable character option. When they turned to Chaos, many Heretics felt the Imperium is far too oppressive and limiting for the good of humanity, especially when they feel that embracing the powers of Chaos can help humanity preserve itself in a galaxy trying to kill them. Sometimes it's a more personal level than that, but for every Lord Byron that serves Chaos, there's a hundred more who are serving the Ruinous Powers for selfish goals or for a patron for their personal hatreds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChronicBackstabbingDisorder" title="/pmwiki/pmwiki.php/Main/ChronicBackstabbingDisorder">Chronic Backstabbing Disorder</a>: The "Betrayer" talent, which allows a heretic to slay one of their own <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mooks" title="/pmwiki/pmwiki.php/Main/Mooks">minions</a> for a brief, temporary boost to their Infamy score. They can continue to do this as long as they have minions, and just recruit new ones to replace the slain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClassAndLevelSystem" title="/pmwiki/pmwiki.php/Main/ClassAndLevelSystem">Class and Level System</a>: Notably averted. The followers of Chaos are a diverse and fluid lot, and so <em>Black Crusade</em> characters are not restricted by the same Career Path advancement system as their Loyalist counterparts from preceding game lines.<ul><li> In earlier 40K RPG systems, skills and talents were limited to advancement charts, with skills not on the charts having to be purchased with an expensive elite advancement, pending GM approval. <em>Black Crusade</em> instead uses an alignment system, so any talent and skill is available so long as you have the XP to spend on it, and you buy the advancement with a discount if it is aligned to the deity you character is aligned to, pay nominal XP if the advancement is Unaligned or aligned to the allied deity, or pay a "surcharge" if it aligned to one of the two opposed deities. Notably, both <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar" title="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a> 2nd edition took a similar route, using Aptitudes determined at character generation to designate which skills/talents/characteristics cost what. For this reason Black Crusade is generally seen as the beginning of the 2nd edition of the <em>40k</em> roleplaying line, with <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> (1st edition), <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DeathWatch" title="/pmwiki/pmwiki.php/TabletopGame/DeathWatch">Death Watch</a></em> being the 1st edition.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClingyMacGuffin" title="/pmwiki/pmwiki.php/Main/ClingyMacGuffin">Clingy MacGuffin</a>: Though not strictly a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Macguffin" title="/pmwiki/pmwiki.php/Main/Macguffin">Macguffin</a>, the "Cursed Heirloom" talent, which allows you to obtain a very rare item, for free beyond the cost in XP, with a random curse. It will always turn up if you lose it, even if it is destroyed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CompulsiveLiar" title="/pmwiki/pmwiki.php/Main/CompulsiveLiar">Compulsive Liar</a>: A common characteristic of the followers of Tzeentch. His Daemonic Princes can be punished for telling anyone an honest truth of the situation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConspiracyTheorist" title="/pmwiki/pmwiki.php/Main/ConspiracyTheorist">Conspiracy Theorist</a>: Followers of Tzeentch can develop a neurosis which compels them to obsess over "conspiracies". The scary thing is that, considering <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChessmaster" title="/pmwiki/pmwiki.php/Main/TheChessmaster">Tzeentch</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperlyParanoid" title="/pmwiki/pmwiki.php/Main/ProperlyParanoid">this might not be entirely inappropriate</a>.<ul><li> Anybody who "enjoys" the Cyclops mutation loses one of his eyes and gains the ability to see the future. However, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlessedWithSuck" title="/pmwiki/pmwiki.php/Main/BlessedWithSuck">they can only see their death</a>, so they tend to become paranoid, and develop the Conspiracy Theorist neurosis noted above.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a>: Given <em>Black Crusade</em>'s focus, this is explored in more detail here than in previous <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a></em> RPGs; in particular, the Corruption track is intended to be used as a sort of "progress meter" for the campaign as a whole, tracking how close the PCs are getting to becoming <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWingedAngel" title="/pmwiki/pmwiki.php/Main/OneWingedAngel">Daemon</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonOfHumanOrigin" title="/pmwiki/pmwiki.php/Main/DemonOfHumanOrigin">Princes</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndIMustScream" title="/pmwiki/pmwiki.php/Main/AndIMustScream">Chaos</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">Spawn</a>.<ul><li> More specifically, there's actually <em>two</em> tracks in the game: actual <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">Corruption</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GlorySeeker" title="/pmwiki/pmwiki.php/Main/GlorySeeker">Infamy</a>, which is the measure of both how much you've impressed the Ruinous Powers and your ability to control your mutations. Hit the threshold where you completely lose your humanity with a high enough Infamy score, and it's presumed your patron blunts the impact of the runaway mutations long enough <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicWillpower" title="/pmwiki/pmwiki.php/Main/HeroicWillpower">for you to control them</a>, and you become a Daemon Prince. Otherwise...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>: The Screaming Vortex. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">The</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">entire</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Screaming Vortex.</a> Virtually every planet in the Screaming Vortex is this in some form or another.<ul><li> Mammon, mentioned in the corebook and fully detailed in the "Tome of Excess" splatbook. It's a former Imperial world that has been stuck in the Screaming Vortex and where some long-ago, forgotten cataclysm has reduced the once-technologically advanced civilisation to primitive techno-barbarians (to put this in perspective, a crappy, near-broken down lasgun would be a near-mythical treasure to them) who struggle to survive in a barren wasteland with no oceans/seas and the only food source being "foul weeds, dry mosses, and the emaciated bodies of scavenging rodents". But wait, that's not all; the inhabitants are fanatically religious, worshiping a bastardized, crude mockery of the Imperial Cult, and is built on fighting not for glory in death, but for the return of the Emperor in some undefined future time where he would bring salvation to Mammon's then inhabitants. Yes, that's right: They're fighting for their yet-unborn descendants. However, their religion has schismed into two sects, which are both so dedicated to a genocidal campaign against the "heretics" that "there is no such thing as a non-combatant upon Mammon". In other words? Mammonites will mercilessly kill <em>anyone</em> of the opposite faith, down to a mewling newborn baby.<ul><li> The icing on the cake? Chaos warbands and warlords regularly scout out Mammon's warriors for worthy "recruits" and most of them enjoy breaking the Mammonites' spirits by revealing the truth about Mammon's state of affairs, its complete insignificance, and how the Emperor they've praying to for their unborn future generations' salvation is but a rotting corpse that knows nothing of them, nor his own Imperium knows or would even care for their plight. Half the time they just make them watch a battle on Mamnon then ask which side is which, since other than each opposing the other the two sides are <em>completely identical.</em></li></ul></li><li> Asphodel is a gloomy swamp and jungle-infested world inhabited only by Kroot, all of which are slowly devolving even by Kroot standards into non-sapience, and trapped in perpetual warfare with the Feral Orks of the neighboring <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">Death World</a> of Berin.</li><li> Kurse used to be a thriving civilized world, rich in machines and lore from the Dark Age of Technology. Now? It's a slag-heap consisting of seas of simmering fire and continents pockmarked with massive irradiated pits, some of which extend down to the planet's core, with the few remaining patches of inhabitable environment crawling with mutants and cannibals.</li><li> Aphexis is a bleak world so dull and drab that it seems to infest the very souls of its inhabitants, who are apathetic to anything and everything. Chaos warlords have repeatedly conquered the planet, only to abandon it when absolutely nothing worked to make them take any notice. As in, watching several thousand of their fellows being whipped to death doesn't elicit the slightest response.</li><li> Melancholia is a windswept planet beset by eternal hailstorms and driving rains, where some daemonic perversion of natural law means that no stone may be set upon another, forcing the inhabitants to never find any respite from the cold misery and drudgery. At the same time, each and every mortal soul has a heart to make a Slaanesh worshipper blush, burning with lust and the desire for blood, dampened by the eternal cold misery. Champions from Melancholia make the cruelest, most bloodthirsty and most imaginatively blasphemous champions of the Ruinous Powers in all existence.</li><li> Mire is a fetid, clammy planet of swamps and endless plains of sucking mud, where grim, ghoulish packs of starving cannibals grub through the stinking mudflats for sustenance, feverishly slaughtering each other over the smallest grub or root, greedily ripping open the bellies of their foes to devour their still-warm organs. It was virus-bombed in a failed attempted at Extermanatus millennia ago, but the attempt was interrupted before it could be finished. The remains of the Life-Eater virus mutated and remain embedded in the soil of the planet, which is why decomposition is much faster there, with life rarely able to thrive faster than it can decay.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CursedWithAwesome" title="/pmwiki/pmwiki.php/Main/CursedWithAwesome">Cursed With Awesome</a>: When you cross a Corruption threshold due to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouHaveFailedMe" title="/pmwiki/pmwiki.php/Main/YouHaveFailedMe">failing</a>, you get to roll for a mutation, but can't modify the roll with your Infamy. This has quite a chance of leaving you with "gifts" such as blindness or seizures, but occasionally just might give you wings or a poisonous tail instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">Death World</a>: Many of them, especially as you go deeper into the Screaming Vortex.<ul><li> Pyurultide has an ocean of living, flesh-eating insects. The planet's inhabitants avoid the coasts, since the insect-ocean can strip a living being down to bones in seconds.</li><li> Malignia is a seemingly paradisaical world of thick temperate forest and tropical forests &amp; jungles. It's better described as a lush green hell; there are so many predatory lifeforms here that they've never been fully catalogued, and almost as many dangerous plants.</li><li> Furia is a storm-lashed ocean-world inhabited by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeaMonster" title="/pmwiki/pmwiki.php/Main/SeaMonster">"leviathans"</a> that are commonly believed to be at least half-daemon, which are capable of wiping out entire ramshackle flotilla-cities. It's also notable for it's ocean being so deep that crashing starships have been tracked to depths that should not only be out the other side, but out of the solar system entirely.</li><li> The Burning Tomb is a world where "islands of scorched rock float in seas of magma", the populace depending on pyromancer-psykers to shield them and destroy their enemies. The air is filled with clouds of noxious gasses, which in some place gather so thickly that a single breath can kill, storms can whip up tsunamis of molten rock and metal that wash over the lands, and daemonic entities of living lava have been known to rise from the seas and stalk the land, slaughtering everything in their path.</li><li> Messia is a blasted, rocky world choked by a thick, poisonous atmosphere, which rotates so slowly that a single day lasts a year. On the day-side, the fierce white star Xoson burns through the pollutant streams to scorch the earth and unleash acid-storms and storm-force winds. The night-side is more survivable, but haunted by all manner of monsters. Not least of which are huge armies of roving mutants that vary from swollen, mindless near-zombies on the night-side to fast, ferocious and wickedly intelligent abominations on the day-side.</li><li> Mire became a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a> after Nurgle saved it from an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarthShatteringKaboom" title="/pmwiki/pmwiki.php/Main/EarthShatteringKaboom">Exterminatus</a>. It used to be a lot more lush.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DerelictGraveyard" title="/pmwiki/pmwiki.php/Main/DerelictGraveyard">Derelict Graveyard</a>: There are a few in the Screaming Vortex.<ul><li> The Scraplands, a junkyard on The Hollows the size of a continent. No one knows quite where all the junk there comes from, since it comes from a wide variety of far-flung sources and no one actively brings it there or sees it appear. Some believe that it serves as the far-end terminus for warp-rift weaponry, like Imperial vortex missiles or Eldar D-cannons, but this is speculation. Regardless of where it came from, almost any piece of technology can be found there, but good luck actually locating anything rare in any reasonable period of time, so random is the detritus. Further, the two forges on the planet heavily harvest the scrap to recycle the raw materials into new constructions, often fighting with each other over particularly rich locations, and they take exception to anyone removing pieces from their claims.</li><li> Alactia, a moon of Hindrance, is almost entirely a scrap yard, covered in rusting mechanical devices stacked into neat towers. The planet is the domain of the Magi Morbos, a Dark Mechanicus sect aligned with Nurgle. They accept donations in old devices, broken things, damaged vessels and vehicles, etc. In return, they apply Nurgle's philosophy of rot and rebirth to technology, refurbishing and repairing what they can, smelting down and recasting what they cannot, and patching the pieces back into other things which need to be repaired. They provide this service to any who are willing to visit and are some of the major shipbreakers and naval refitters in the Screaming Vortex. Unlike the more esoteric or experimental technology of Q'sal and The Hollows, the Magi Morbos see themselves as tradesmen, dutifully doing the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoringButPractical" title="/pmwiki/pmwiki.php/Main/BoringButPractical">Boring, but Practical</a> work more haughty groups might consider beneath them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiscardAndDraw" title="/pmwiki/pmwiki.php/Main/DiscardAndDraw">Discard and Draw</a>: One of the possible "gifts" of Tzeentch, which makes the heretic re-roll all of his previous mutations.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchLocation" title="/pmwiki/pmwiki.php/Main/EldritchLocation">Eldritch Location</a>: Within the context of the Screaming Vortex, where <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHeartless" title="/pmwiki/pmwiki.php/Main/TheHeartless">Daemons</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mutant" title="/pmwiki/pmwiki.php/Main/Mutant">mutants and mutates</a> are commonplace, the planets Korvaska and the Flaming Tomb are particularly strange. The largest planetoid in the Ragged Helix, known as the Halls of Dionea is also quite unusual.<ul><li> In the case of Korvaska (also called the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace" title="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace">Dread Planet</a>), it's curiously unaffected by the tides of the Vortex and supports a bare-bones ecosystem despite not having the geology which would allow it. It also has a planet-wide <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMaze" title="/pmwiki/pmwiki.php/Main/TheMaze">unnavigable tunnel complex</a>, mysteriously flourishing oases <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou" title="/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou">that turn hostile in minutes</a> of being "invaded", and an inexplicably sustained population of mutant tribes. <span class="notelabel" onclick="togglenote('note091ll');"><sup>note&nbsp;</sup></span><span id="note091ll" class="inlinefolder" isnote="true" onclick="togglenote('note091ll');" style="cursor:pointer;font-size:smaller;display:none;">Warfare and attrition (they can't enter the oases to get supplies) should have wiped them out fairly quickly, but they don't ever seem to thin out</span> Stranger still is an event called "the Winnowing", where localized pieces of the landscape change freely as though being molded by invisible hands.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmpoweredBadassNormal" title="/pmwiki/pmwiki.php/Main/EmpoweredBadassNormal">Empowered Badass Normal</a>: Any human <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a> will start out as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>, but will pretty quickly move into this trope instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyEconomy" title="/pmwiki/pmwiki.php/Main/EnergyEconomy">Energy Economy</a>: The only currency accepted in Q'sal is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurSoulsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurSoulsAreDifferent">souls</a>, whether <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanResources" title="/pmwiki/pmwiki.php/Main/HumanResources">living</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoulJar" title="/pmwiki/pmwiki.php/Main/SoulJar">trapped</a>, which are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredByAForsakenChild" title="/pmwiki/pmwiki.php/Main/PoweredByAForsakenChild">used for everything</a> from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PracticalCurrency" title="/pmwiki/pmwiki.php/Main/PracticalCurrency">a power source to a building material</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnforcedColdWar" title="/pmwiki/pmwiki.php/Main/EnforcedColdWar">Enforced Cold War</a>: On Q'sal, one of the most influential planets of the Vortex, the three city states are in a state of uneasy peace, held together by a treaty that no party is willing to break. If war did break out, the sorcerous powers each of the city states possess would likely destroy Q'sal (there were originally nine city states, with six destroyed, if legend and lost history is to be believed). And since the world <em>is</em> a massively influential center of arcane industry, the three city states could drag the entire Screaming Vortex into a three way war. As it is, sorcery and schemes, in the forms of politics, espionage, and industrial production are the means of choice that they try to subvert each other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EternalRecurrence" title="/pmwiki/pmwiki.php/Main/EternalRecurrence">Eternal Recurrence</a>: Tome of Decay reveals Nurgle sees the universe this way - Chaos inevitably devours everything and leaves fertile ground for new life and order, completely untouched by the flaws that birthed Chaos in the first place until it passes its old age and Chaos is birthed again. Naturally, it's way past time for the universe to be corrupted and euthanized, and it's Nurgle's job to make sure that transition is quick and as painless as he can make it (no matter how much Tzeentch, with all of his ideals of evolution and growth gets in his way).<ul><li> Of course, that doesn't change the fact that Nurgle is still the god of stagnation. Planets under his influence are static, rotting places, almost forever unchanging.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverybodyWantsTheHermaphrodite" title="/pmwiki/pmwiki.php/Main/EverybodyWantsTheHermaphrodite">Everybody Wants the Hermaphrodite</a>: The Hermaphrodite Gift of Slaanesh doubles the degrees of success for interaction tests.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCounterpart" title="/pmwiki/pmwiki.php/Main/EvilCounterpart">Evil Counterpart</a>: The game as a whole is this to <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" title="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilVersusEvil" title="/pmwiki/pmwiki.php/Main/EvilVersusEvil">Evil vs. Evil</a>: The typical state of things inside the Screaming Vortex, and the role the player characters will usually find themselves in as they compete with other followers of Chaos for the honor of leading a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitleDrop" title="/pmwiki/pmwiki.php/Main/TitleDrop">Black Crusade</a>. While they might choose to fight "<img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DesignatedHero" title="/pmwiki/pmwiki.php/Main/DesignatedHero">good</a>" enemies, it is still mostly in service of advancing themselves above their rivals in the eyes of the dark gods (whether that be a means to an end or an end itself.) It also allows players to indulge in plenty of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PayEvilUntoEvil" title="/pmwiki/pmwiki.php/Main/PayEvilUntoEvil">Pay Evil unto Evil</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AssholeVictim" title="/pmwiki/pmwiki.php/Main/AssholeVictim">minimal guilt</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilWeapon" title="/pmwiki/pmwiki.php/Main/EvilWeapon">Evil Weapon</a>: Most weapons that can fit this description <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">holds an imprisoned daemon</a>, which gives the weapon strange abilities, often for offense, but not always.<ul><li> Rune weapons, which were previously daemon weapons, but the daemon got out, and the weapon survived the process. They don't have the strange powers anymore, but daemonic influence leaves them still hideously powerful.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvolvingWeapon" title="/pmwiki/pmwiki.php/Main/EvolvingWeapon">Evolving Weapon</a>: Legacy weapons are tied to the user's personal legacy, apropos to how its used, and eventually shape themselves to how their wielder uses it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFace" title="/pmwiki/pmwiki.php/Main/TheFace">The Face</a>: Apostate class characters tend to have build options which tend to lend themselves to this role more than the other classes, given their focus on charisma and social manipulation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FatBastard" title="/pmwiki/pmwiki.php/Main/FatBastard">Fat Bastard</a>: Assuming a character isn't this already, a possible mutation is that characters will become quite large. Followers of Nurgle have a chance of this being taken even further.<ul><li> The current ruler of the daemon world Contrition is a Daemon Princess known as the Mistress of Spite. On top of being <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeAndInCharge" title="/pmwiki/pmwiki.php/Main/LargeAndInCharge">appropriately sized</a> for her status, she's an... <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">impressive</a></em> example of this trope.</li><li> Subverted with Nurgle himself, however. He's actually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffablyEvil" title="/pmwiki/pmwiki.php/Main/AffablyEvil">pretty idealistic and pleasant to talk to</a>, his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Plaguemaster" title="/pmwiki/pmwiki.php/Main/Plaguemaster">gifts</a> aside.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FisherKing" title="/pmwiki/pmwiki.php/Main/FisherKing">Fisher King</a>: While this occurs within the warp with the Chaos Gods and powerful daemons, there are places in the Vortex that play upon this trope.<ul><li> The Ragged Helix is a chain of asteroids and planetoids that shape themselves after their owners' own image. Whether this happens from Xenos technology or warp influence is not known.</li><li> The Cat's Cradle is roughly analogous, but the soft reality there has to be manipulated by the will of those who can (i.e. psykers and daemons).</li><li> The Daemon World known as Contrition is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownplayedTrope" title="/pmwiki/pmwiki.php/Main/DownplayedTrope">lesser example</a>, it takes the form of a large city where the denizens are obsessed with inflicting pain. The aesthetics and how that pain is influenced by which power is in ascendance at the time.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlamingSkulls" title="/pmwiki/pmwiki.php/Main/FlamingSkulls">Flaming Skulls</a>: One of the possible mutations involves the heretic's head becoming a burning skull. While it looks cool, such a character may want to wear a helmet if trying to infiltrate somewhere outside the Screaming Vortex.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FragileSpeedster" title="/pmwiki/pmwiki.php/Main/FragileSpeedster">Fragile Speedster</a>: Human Heretics lack the inhuman resilience and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armor</a> of Chaos Space Marines, but all possess an ability allowing them to act sooner in combat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Glamour" title="/pmwiki/pmwiki.php/Main/Glamour">Glamour</a>: The "Aura of Normalcy" mutation essentially projects a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeirdnessCensor" title="/pmwiki/pmwiki.php/Main/WeirdnessCensor">Weirdness Censor</a> over the heretic so blessed, such that any who look upon them never sees them as something particularly out of the ordinary unless they call attention to it. This allows, among other things, a character with obvious an unconcealed warp mutations to pass in Imperial society without attracting unwanted attention.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation" title="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation">Gameplay and Story Segregation</a>: In theory, <em>Black Crusade</em> lets you play a veteran legionnaire of the World Eaters, Death Guard, Thousand Sons or Emperor's Children, who has presumably been a loyal servant of your chosen Chaos god for the better part of ten thousand years. In practice, it's not actually possible to build a starting Chaos Space Marine who isn't Unaligned, and in fact the character must rack up a significant amount of in-game experience before he can formally align himself with one of the four Great Powers.<ul><li> This has been addressed in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Splat" title="/pmwiki/pmwiki.php/Main/Splat">supplemental books</a> involving the various Gods of Chaos. The first, Tome of Fate, has a archetype for a Sorcerer from the Tzeentchian Thousand Sons; the Tome of Blood provides an archetype for a Khorne Berserker; the Tome of Excess has a Slaaneshi Noise Marine archetype; and the Tome of Decay has rules for Nurglite Plague Marines.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreatEscape" title="/pmwiki/pmwiki.php/Main/GreatEscape">Great Escape</a>: The Free RPG Day introductory adventure, "Broken Chains," revolves around the PCs attempting to escape (or conquer!) the compromised Imperial prison barge <em>Chains of Judgement</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HauntedTechnology" title="/pmwiki/pmwiki.php/Main/HauntedTechnology">Haunted Technology</a>: Daemon Weapons, Daemon Engines, or just about <em>anything</em> built on Q'sal. These are understandably much more common within the Screaming Vortex than in the nearby Imperial sectors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeanAndMean" title="/pmwiki/pmwiki.php/Main/LeanAndMean">Lean and Mean</a>: The Deathpriests of Mire, a Nurglite sect on the planet of their name. Unlike most of Nurgle's blessed, instead of being bloated and slowed with corruption they are instead sickly thin and quick, save for their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalloonBelly" title="/pmwiki/pmwiki.php/Main/BalloonBelly">grossly distended bellies</a>. The parasites, infections, cancers, and diseases that ravage their bodies burn through their calories quickly, accelerating their metabolism and making them fast and aggressive. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HorrorHunger" title="/pmwiki/pmwiki.php/Main/HorrorHunger">They must eat frequently</a> to keep ahead of their self-consumption, and prefer <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IAmAHumanitarian" title="/pmwiki/pmwiki.php/Main/IAmAHumanitarian">fresh human</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">killed in sacrifice to Nurgle</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeeroyJenkins" title="/pmwiki/pmwiki.php/Main/LeeroyJenkins">Leeroy Jenkins</a>: The Tome of Excess lists this as a means of obtaining Khorne's favour. Reads like an explicit <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>, requiring your own allies to have formed a detailed plan that you wreck by attacking spontaneously while yelling your own name.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalLavaLand" title="/pmwiki/pmwiki.php/Main/LethalLavaLand">Lethal Lava Land</a>: The Burning Tomb, a planet where the landmass is ever shifting as ground is constantly subsumed into and solidified out of the lava flows that pour across the surface. Tribes of humans eek out a meager nomadic existence here, subsisting on what few grubs they can find in the volcanic soil. All of them wear tattered cloths from a variety of places, but none can remember who they were or how they got there. Tall, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagmaMan" title="/pmwiki/pmwiki.php/Main/MagmaMan">semi-humanoid shapes formed of molten rock</a> rise out of the lava to pour their flaming fury on anyone nearby, and they are the bane of the wretches trapped there. Sorcerers claim that the the lava flows seen from orbit resemble Chaos sigils, and are sure deciphering them would lead to great understanding of the Ruinous Powers, but a comprehensible pattern never <em>quite</em> seems to occur.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LighterAndSofter" title="/pmwiki/pmwiki.php/Main/LighterAndSofter">Lighter and Softer</a>: Compare Black Crusade to the "Tome of Corruption" for <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/WarhammerFantasyRoleplay" title="/pmwiki/pmwiki.php/TabletopGame/WarhammerFantasyRoleplay">Warhammer Fantasy Roleplay</a></em>, and it makes being a Chaos follower much more viable. There are fewer mutations overall, but the main ones cut were the pointless or "gotcha!" mutations, such as instantly becoming a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndIMustScream" title="/pmwiki/pmwiki.php/Main/AndIMustScream">Chaos Spawn</a>, or being reduced to a mindless drone, or having one's facial features rearrange themselves.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ALighterShadeOfBlack" title="/pmwiki/pmwiki.php/Main/ALighterShadeOfBlack">A Lighter Shade of Black</a>: While Chaos is generally <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil" title="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil">Always Chaotic Evil</a>, an often overlooked aspect FFG is trying to re-emphasize is that Chaos also embodies <em>positive</em> concepts. Khorne, for example, is not only the god of bloody madmen, but also martial champions constantly defying the odds and looking for an honorable challenge. Slaanesh patrons people wanting to hone their skills to the pinnacle as well as depraved perverts. Nurgle embodies the cycle of death, decay and rebirth. Tzeentch champions people to hope for a better future, and to try and bring their hope to reality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LinearWarriorsQuadraticWizards" title="/pmwiki/pmwiki.php/Main/LinearWarriorsQuadraticWizards">Linear Warriors, Chaotic Wizards</a>: High-level chaos psykers can output much more ranged damage than any combat-focused Chaos Space Marine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LuckManipulationMechanic" title="/pmwiki/pmwiki.php/Main/LuckManipulationMechanic">Luck Manipulation Mechanic</a>: There are Infamy Points that let you modify die rolls or invoke other boons depending on your experience and preferred deity (Nurgle doesn't let you reroll because he teaches acceptance, but instead allows you to recover more wounds and so on). Possibly just as importantly, after rolling for new mutations, you can modify the roll depending on the amount of Infamy you possess, so you can turn the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlessedWithSuck" title="/pmwiki/pmwiki.php/Main/BlessedWithSuck">"gift" of Blindness</a> into Wings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LuckilyMyShieldWillProtectMe" title="/pmwiki/pmwiki.php/Main/LuckilyMyShieldWillProtectMe">Luckily, My Shield Will Protect Me</a>: Shields are available melee weapons, and the flavor text makes it an abstraction that covers anything from primitive wooden shields to reinforced metal; mechanically, they are largely useful for parrying any melee weapons that isn't a power weapon (which are fairly ubiquitous to mid-end characters, and even to some starting characters). While shields may look like they have limited value, that's before making it into a legacy weapon (ore more likely as part of a pair) or a <em>daemon</em> weapon. However, rune shields explicitly have rules that increase armor to certain body parts as well as immunity to being destroyed by power weapons, making them considerably more useful. A fairly liberal GM might allow characters to have access to the armories of <em>Black Crusade's</em> sister games, which includes storm shields and Astartes combat shields, both of which incorporate force fields.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad Scientist</a>: Having traded the hidebound scriptures of the Adeptus Mechanicus for the freedom and insanity of Chaos, hereteks tend to be both better scientists and crazier madmen than their erstwhile tech-priest brethren.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a>: This is the bread and butter of Q'Sal, world of the sorcerer-technocrats. Their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas" title="/pmwiki/pmwiki.php/Main/CrystalSpiresAndTogas">Crystal Spires and Togas</a> society is kept aloft by daemonic machines and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic" title="/pmwiki/pmwiki.php/Main/SufficientlyAnalyzedMagic">sorcery</a>. It also states <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">something about the setting</a> that the people constantly exposed to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a> of said tech, and whose economy is based on bartering souls, reign over a planet with living conditions better than many Imperial worlds, <em>combined</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mooks" title="/pmwiki/pmwiki.php/Main/Mooks">Mooks</a>: <em>Black Crusade</em> characters can take Minions, followers of fanatical loyalty (but sometimes questionable competence) that can fill holes in their master's repertoire or simply provide a source of warm bodies to throw at opponents. Taking multiple iterations of the Minions Talent can eventually lead to a character acquiring his own <a class="twikilink" href="/pmwiki/pmwiki.php/Main/QuirkyMinibossSquad" title="/pmwiki/pmwiki.php/Main/QuirkyMinibossSquad">Quirky Miniboss Squad</a>.<ul><li> This goes into full effect when a character takes the "Horde Minions of Chaos" trait, where the player gets a small force they take direct control of.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mutant" title="/pmwiki/pmwiki.php/Main/Mutant">Mutants</a>: Unsurprisingly, there are worlds where the native population is heavily or entirely composed of mutants. The Q'Sallians (or possibly just the ruling class of Sorcerer-Technocrats), whose patron is the deity who loves mutations the most, are hinted to be so warped with cosmetic mutations that they're virtually unrecognizable as being human.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MythologyGag" title="/pmwiki/pmwiki.php/Main/MythologyGag">Mythology Gag</a>: The title of the game-line is also the common term used in reference to great invasions by the forces of Chaos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NGOSuperpower" title="/pmwiki/pmwiki.php/Main/NGOSuperpower">N.G.O. Superpower</a>: While anybody who gains enough influence can become this, the two triumphant examples are Forge Castir and Forge Polix from the Hollows. They are a pair of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IndustrializedEvil" title="/pmwiki/pmwiki.php/Main/IndustrializedEvil">Dark Mechanicus industrial hives</a> on a planet known as the Hollows, each Forge is equal parts city state, Dark Mechanicus holy city, and massive industrial complex. They are locked in a perpetual war with each other, but that doesn't stop them from supplying much of the Vortex with its weaponry.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NobleDemon" title="/pmwiki/pmwiki.php/Main/NobleDemon">Noble Demon</a>: What many followers of Chaos start out as or believe themselves to be; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MotiveDecay" title="/pmwiki/pmwiki.php/Main/MotiveDecay">how long they remain so</a>, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkSideWillMakeYouForget" title="/pmwiki/pmwiki.php/Main/TheDarkSideWillMakeYouForget">whether they actually become such</a> is another matter altogether.<ul><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Heretek</a> archetype seems to have this on full display-the description makes them seem like actual scientists who got fed up with the Adeptus Mechanicus' restrictive attitude, and you can almost hear the statement of "most of [their research] tends towards war" ending with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchClockVillain" title="/pmwiki/pmwiki.php/Main/PunchClockVillain">"because they work for Chaos, and that's what it pays them to do"</a>.</li><li> This kind of Heretic is embodied by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirate" title="/pmwiki/pmwiki.php/Main/SpacePirate">Captain Korgin</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy" title="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy">the World-Reaver</a>, one of the example rivals for the PCs. Despite what his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagnificent" title="/pmwiki/pmwiki.php/Main/TheMagnificent">many titles</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">would imply</a>, he actually worships Khorne as the embodiment of martial honor. Thus, he honors pleas for mercy (as he thinks only the skulls of people who fight back are worth sacrifice), and pointedly avoids some of Chaos' <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheDog" title="/pmwiki/pmwiki.php/Main/KickTheDog">Kick the Dog</a> tactics.</li><li> One of the example origins for the Apostate is basically this. A loyal priest of the Emperor who ministered to the Imperial Guard and got sick of watching millions go to their deaths and thus turned to Chaos in order to sabotage the Imperial war effort.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoPointsForNeutrality" title="/pmwiki/pmwiki.php/Main/NoPointsForNeutrality">No Points for Neutrality</a>: Somewhat. Staying Unaligned denies a character access to powerful Gifts, items and psychic powers and means they don't get discounts on certain skills, talents and attributes. However it also means they don't have to pay extra for purchases opposed to one deity or another and, for high level psykers, grants them access to powerful Exalted powers.<ul><li> Becomes an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvertedTrope" title="/pmwiki/pmwiki.php/Main/InvertedTrope">Inversion</a> when you realize that your total XP costs are actually lower as neutral than they are while you are aligned. Furthermore, the Exalted Powers are much more powerful than the aligned psychic powers. Played with when you realize that they have less control and are based more on power in the Psyker himself, making him potentially dangerous to the party.</li><li> Played straight with the reveal in <em>Tome of Decay</em> that you <strong>cannot</strong> become a Daemon Prince unless you wish to align yourself with one of the gods first. Apotheosis into a creature of the warp requires the attention and approval of one of the Chaos gods, and they are too jealous to share. However, once can remain unaligned past the point of apotheosis and delay daemonhood until they are finally ready to commit to one of the gods.</li><li> With regards to their mutations, unaligned character get a mixed bag: On the one hand side, they can't ever roll on the Rewards table of a god, where the results are always beneficial (for a certain value of "beneficial", like being granted a Daemon Weapon that will try to rebel sooner or later). On the other hand side, aligned characters can only roll on that table when they pass an Infamy check. And while aligned characters have some "better" mutations on the generic mutation table (like your tail getting a poison stinger if you're with Khorne), unaligned characters get to roll twice, which, combined with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LuckManipulationMechanic" title="/pmwiki/pmwiki.php/Main/LuckManipulationMechanic">Luck Manipulation Mechanic</a>, almost ensures that you will find something that more or less fits with your concept rather than having your sneaky infiltrator getting the choice between developing a flaming skull or becoming morbidly obese.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonActionGuy" title="/pmwiki/pmwiki.php/Main/NonActionGuy">Non-Action Guy</a>: The ready availability of combat-capable Minions makes this a more viable build option in <em>Black Crusade</em> than in the other 40k roleplaying games. A player can easily build his Heretic to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSmartGuy" title="/pmwiki/pmwiki.php/Main/TheSmartGuy">The Smart Guy</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChick" title="/pmwiki/pmwiki.php/Main/TheChick">The Chick</a> (or the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilGenius" title="/pmwiki/pmwiki.php/Main/EvilGenius">Evil Genius</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkChick" title="/pmwiki/pmwiki.php/Main/DarkChick">Dark Chick</a>, as the case may be), whose only viable option in combat is to hide under the nearest rock until the shooting stops, and so long as the Heretic has a Minion or two around to serve as a bodyguard, that player will still have something to do in combat and need not worry about being left out. The inverse of this is also true, and a Traitor Space Marine may have a non-action minion to represent him in situations where being an obviously super-human hulking mutant <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Supersoldier</a> in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerArmor" title="/pmwiki/pmwiki.php/Main/PowerArmor">Power Armor</a> would be more of a liability than a help, like during an infiltration scenario.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePigPen" title="/pmwiki/pmwiki.php/Main/ThePigPen">The Pig-Pen</a>: A follower of Nurgle can develop a disorder that makes him become this, becoming filthy and destructive, and also contemptuous of beauty and the fine things in life. Another manifestation is that things around him seem to break down while he (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/WalkingWasteland" title="/pmwiki/pmwiki.php/Main/WalkingWasteland">and he specifically</a>) has them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy" title="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy">Proud Warrior Race Guy</a>: Followers of Khorne may well be the most honourable of the Forces of Chaos when they care about it.<ul><li> On the worlds of Berin and Asphodel are a population of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent">Orks</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BirdPeople" title="/pmwiki/pmwiki.php/Main/BirdPeople">Kroot</a>, the populations of both are slowly aligning to Khorne. Note that while Kroot are more of a Proud <em>Hunter</em> Race, life on Asphodel is turning them overtly violent out of necessity, as well as slowly turning them to an evolutionary dead end.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicAssistedSuicide" title="/pmwiki/pmwiki.php/Main/PsychicAssistedSuicide">Psychic-Assisted Suicide</a>: The psychic power "Compel" in the telepathy discipline that gives a brief <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PeoplePuppets" title="/pmwiki/pmwiki.php/Main/PeoplePuppets">body control</a> power. While the target's survival instincts make any suicidal actions more difficult, this is the only power of this type that allows a PC to force a target to kill itself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>: <em>Many.</em> They range from families of stock psychic powers, like telepathy, telekinesis, and precognition, to more exotic powers as they get into specific gods or Exalted powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RougeAnglesOfSatin" title="/pmwiki/pmwiki.php/Main/RougeAnglesOfSatin">Rouge Angles of Satin</a>: the corebook is full of misspellings and autocorrection failures, among them "Runic Powers" (instead of "Ruinous Powers", the catch-all term for Chaos gods), "mango-adhesives" (instead of "magno-"), "yawing" chasms (instead of "yawning"), "viscous" assaults (instead of "vicious") and compact forcefield emitter that is disguised as a "broach" (instead of "brooch").</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanityMeter" title="/pmwiki/pmwiki.php/Main/SanityMeter">Sanity Meter</a>: Averted, unlike in the loyalist-centric 40k RPGs. This is because any Heretic worth his salt is assumed to already possess 100 Insanity Points by the time play begins, and has long since gone past crazy <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazySane" title="/pmwiki/pmwiki.php/Main/CrazySane">all the way around to differently sane</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">Sealed Evil in a Can</a>: It's not terribly uncommon to see Daemons that are held within a weapon or a war engine. A handful of worlds, like the Flaming Tomb or Korvaska, are also hinted at imprisoning something within.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SenseFreak" title="/pmwiki/pmwiki.php/Main/SenseFreak">Sense Freak</a>: This is a pretty heavy theme with Slaanesh. There's also a drug called "rose" which heightens sensory input so much that the user can, among other things, see in the dark; but the user runs the risk of sensory overload.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenDeadlySins" title="/pmwiki/pmwiki.php/Main/SevenDeadlySins">Seven Deadly Sins</a>: Slaanesh's personal demesne has has six concentric rings, each one themed on, in order: avarice, gluttony, lust, envy, pride, and sloth. Wrath, of course, being the exception since that belongs to Khorne.<ul><li> The pre-written adventure in the Tome of Excess revolves around the players proving themselves to a Slaanesh-worshiping pirate prince who has mastered all of the above sins without totally succumbing to any one. Each of his six most notable courtiers has proven him or herself as a master of one of the respective sins.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShellShockedVeteran" title="/pmwiki/pmwiki.php/Main/ShellShockedVeteran">Shell-Shocked Veteran</a>: The "Dead Inside" personality disorder makes somebody detached and shell shocked. Followers of Khorne are more prone to getting this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: A cutaway detailing the Exospectre dealing with one of his minions failing him is an homage to the best known line from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/IHaveNoMouthAndIMustScream" title="/pmwiki/pmwiki.php/Literature/IHaveNoMouthAndIMustScream">I Have No Mouth and I Must Scream</a></em>.<div class="indent"> <em>The Exospectre</em>: "Let me tell you how much you have failed, Garthin. There are 387.44 kilometers of runemarked circuits in wafer-thin layers filling this sub-complex. If the word "failure" was engraved upon every nanoangstrom of those thousands of metres, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouHaveFailedMe" title="/pmwiki/pmwiki.php/Main/YouHaveFailedMe">it would not equal one-billionth of the failure you have displayed at this singular moment</a>."</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmallNameBigEgo" title="/pmwiki/pmwiki.php/Main/SmallNameBigEgo">Small Name, Big Ego</a>: In-Universe, Tzeentch followers can get a disorder to become convinced they are incredibly powerful psykers. This makes them incredibly irritating to deal with, especially for <em>real</em> psykers.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsufferableGenius" title="/pmwiki/pmwiki.php/Main/InsufferableGenius">Insufferable Genius</a>: In the case the person with the disorder actually is an incredibly powerful psyker, the penalty to social rolls still applies, presumably because it's just as annoying to have it rubbed in your face.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StopBeingStereotypical" title="/pmwiki/pmwiki.php/Main/StopBeingStereotypical">Stop Being Stereotypical</a>: Nurglite cultists' attitude towards his true death cults, instead of far more patient, gentle, and <em>subtle</em> plague cults.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperOCD" title="/pmwiki/pmwiki.php/Main/SuperOCD">Super OCD</a>: Characters can develop this. Followers of Tzeentch manifest it as a paralyzing fear of contamination, while followers of Slaanesh can't focus unless something is "just right".<ul><li> Plaguebarers tend to get like this, hence the nickname "Tallymen". Enough of the person whose death <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WasOnceAMan" title="/pmwiki/pmwiki.php/Main/WasOnceAMan">created them</a> remains to desire some sense of order in the Warp, so they count, well, everything. It doesn't get anywhere fast, but Plaguebarers try anyway.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurplusDamageBonus" title="/pmwiki/pmwiki.php/Main/SurplusDamageBonus">Surplus Damage Bonus</a>: Depending on hit location and damage type, it typically takes 8-9 critical damage (i.e. reducing them to -8 or -9 <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HitPoints" title="/pmwiki/pmwiki.php/Main/HitPoints">wounds</a>) to kill someone outright. More than this will typically have the same effect but with extra problems for those nearby. For example, 10 critical impact damage to the leg will cause the same death as 9, but with penalties to hear anything over the target's dying screams.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwirlyEnergyThingy" title="/pmwiki/pmwiki.php/Main/SwirlyEnergyThingy">Swirly Energy Thingy</a>: The Screaming Vortex, the game's default campaign setting. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HubLevel" title="/pmwiki/pmwiki.php/Main/HubLevel">Through it, one can also reach</a> the Calixis Sector, the Koronus Expanse, and the Jericho Reach, default settings of <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em>, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" title="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a></em> respectively. Fly through Calixis, and you wind up Spinward, where <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar" title="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a></em> takes place.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RitualMagic" title="/pmwiki/pmwiki.php/Main/RitualMagic">Ritual Magic</a>: Rites and Rituals. Roughly analogous to Sorcery from <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, these are specialized procedures to channel the Warp in specific ways. Though many are dedicated to summoning, communicating with, and binding daemons, many have more specific uses. One example is to bind a minion to a Heretic psychically, and another is to summon the Bloodtide, which is something of a Khornate weapon of war.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SycophanticServant" title="/pmwiki/pmwiki.php/Main/SycophanticServant">Sycophantic Servant</a>: Minions can be given the Fanatical and the Sycophantic traits, and they actually have tangible benefits. A heretic, especially one who serves Slaanesh, can acquire an entire coterie of sycophantic hangers-on. They're good for parties and inflating one's ego, though don't appear to be useful for much without a little bit of imagination...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TalkingWeapon" title="/pmwiki/pmwiki.php/Main/TalkingWeapon">Talking Weapon</a>: If a weapon starts talking to you, you should either put it down or use it with extreme caution.<ul><li> More specifically, weapons don't talk, but daemons imprisoned within them can communicate with their wielders telepathically, often as threats and demands for release. Other times, a clever, more patient daemon will praise and advise their wielders, waiting patiently for a chance to escape or trying to manipulate a way out of the weapon.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork" title="/pmwiki/pmwiki.php/Main/TeethClenchedTeamwork">Teeth-Clenched Teamwork</a>: The only kind of teamwork that the group can expect.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TragicHero" title="/pmwiki/pmwiki.php/Main/TragicHero">Tragic Hero</a>: Many join Chaos with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UtopiaJustifiesTheMeans" title="/pmwiki/pmwiki.php/Main/UtopiaJustifiesTheMeans">the noblest of goals</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">the best of intentions</a>: to protect those they love, to make the world a better place, to stand against the tyranny and cruelty of the Imperium. Many <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallenHero" title="/pmwiki/pmwiki.php/Main/FallenHero">fall</a>. Many more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHeroDies" title="/pmwiki/pmwiki.php/Main/TheHeroDies">die trying</a>. Hardly any of them live to see their original dream fulfilled, in a form they would still recognize, and remain uncorrupted enough to care.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmpireWithADarkSecret" title="/pmwiki/pmwiki.php/Main/EmpireWithADarkSecret">Utopia With A Dark Secret</a>: Played with. <em>Everyone</em> knows that Q'Sal is powered by human souls that their technology requires torturing of, and that the three cities on the planet have a deep and abiding loathing for each other that is <em>this close</em> to erupting into a devastating war. That technology, however, and the genuinely high quality of life they have are exactly as they seem, to the point where the framing quote is a soul trader waiting for the other shoe to drop.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UtilityPartyMember" title="/pmwiki/pmwiki.php/Main/UtilityPartyMember">Utility Party Member</a>: While a heretek can be a "warrior" member in a fully human party, he's clearly the utility member of a party that includes Chaos Space Marines (especially as there is no Chaos Space Marine equivalent to his archetype in the core rulebook, so a full-CSM party would be lacking on this point).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainCred" title="/pmwiki/pmwiki.php/Main/VillainCred">Villain Cred</a>: The Infamy characteristic, which is central to some of the game mechanics, is an odd combination between reputation and favor of the Gods. While you can spend XP to get higher Infamy until you hit lower-midlevel (representing player characters leveraging their actions towards their reputation), Infamy is mostly rewarded by achieving something tangible, which increases your reputation and unholy favor.<ul><li> Optional rules state that if a character becomes too dependent on another with a higher Infamy score to get equipment or favors, he may risk lowering his own Infamy, with a lack of self-reliance being a sign of being an underling rather than a peer.</li><li> Similarly, particularly Infamous characters can "overawe" less Infamous characters, and keep them in their place (i.e. not trying to embarrass, coerce, or otherwise manipulate the more Infamous character).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainProtagonist" title="/pmwiki/pmwiki.php/Main/VillainProtagonist">Villain Protagonist</a>: The flip side of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiHero" title="/pmwiki/pmwiki.php/Main/AntiHero">Anti-Hero</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiVillain" title="/pmwiki/pmwiki.php/Main/AntiVillain">Anti-Villain</a> example. Yes, Chaos does count among its followers legions of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well Intentioned Extremists</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NobleDemon" title="/pmwiki/pmwiki.php/Main/NobleDemon">Noble Demons</a>, ill-informed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwittingPawn" title="/pmwiki/pmwiki.php/Main/UnwittingPawn">Unwitting Pawns</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TragicHero" title="/pmwiki/pmwiki.php/Main/TragicHero">Tragic Heroes</a>... but in the end, some people really are just in it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">For the Evulz</a>. And due to the corrupting influence of Chaos, all except the most principled and iron-willed of heroes eventually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkSideWillMakeYouForget" title="/pmwiki/pmwiki.php/Main/TheDarkSideWillMakeYouForget">forget the honorable cause for which they sold their souls</a>, and tragically end up doing it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">For the Evulz</a> as well.<ul><li> The version of Imperial history and organization presented here is stripped of the usual implication that it's all justified and things were fine until the Horus Heresy. It really plays up the idea that PCs in the other lines are tainted by evil just for defending it. A repeated theme is that many heretics embrace Chaos just because it opposes the Imperium and have no real loyalty to it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeakButSkilled" title="/pmwiki/pmwiki.php/Main/WeakButSkilled">Weak, but Skilled</a>: <em>Black Crusade</em> balances Chaos Space Marines against ordinary human heretics by granting the latter a greater variety of starting Skills and Talents and a greater amount of starting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExperiencePoints" title="/pmwiki/pmwiki.php/Main/ExperiencePoints">Experience Points</a>. Of course, when the Talents include such things as "is a psyker" and "can shoot lightning from my nipples," the terms "weak," "skilled," "ordinary," and even "<em>human</em>" begin to lose some of their meaning...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeirdnessCensor" title="/pmwiki/pmwiki.php/Main/WeirdnessCensor">Weirdness Censor</a>: The "Illusion of Normality" Gift of the Gods creates the image that you're a normal, unremarkable person even though you may have wings, bestial features, constantly wreathed in flame, and/or are a Chaos Space Marine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhoNeedsEnemies" title="/pmwiki/pmwiki.php/Main/WhoNeedsEnemies">Who Needs Enemies?</a>: Compacts<span class="notelabel" onclick="togglenote('note107eg');"><sup>note&nbsp;</sup></span><span id="note107eg" class="inlinefolder" isnote="true" onclick="togglenote('note107eg');" style="cursor:pointer;font-size:smaller;display:none;">(the <em>Black Crusade</em> equivalent of Endeavours in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" title="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a></em> and Missions in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" title="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a></em>)</span> have three levels of objectives: Primary, which must be completed for the Compact to be successful; Secondary, which must be completed in order to complete the Primary Objective; and Tertiary/Personal, which represent each Heretic's personal stake in the Compact. The book recommends that for each Compact, the GM should make some Heretics' Tertiary Objectives incompatible, mutually exclusive, or even counterproductive to the success of the Compact as a whole, so that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HilarityEnsues" title="/pmwiki/pmwiki.php/Main/HilarityEnsues">hilarity (and interesting roleplaying) will ensue</a>. (Thankfully, the book also offers tips on how to stop the game from collapsing under the weight of all the intraparty conflict.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfChaos" title="/pmwiki/pmwiki.php/Main/WorldOfChaos">World of Chaos</a>: No pun intended, but the Cat's Cradle &mdash; the "eyewall" of the Inner Vortex &mdash; is a sector of space where strange and fantastic planets regularly wink in and out of being, if they aren't illusions to begin with. Powerful minions of Tzeentch and sorcerers like it there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WombLevel" title="/pmwiki/pmwiki.php/Main/WombLevel">Womb Level</a>: The Writhing World is an entire planet made of living <em>meat</em>. The planet is surrounded by rings that, instead of ice and rocks, are twitching giblets. The surface is made up of major tendrils hundreds of miles long, and many minor tendrils that criss-cross over them. All of these tendrils move, though the larger ones move more slowly and rarely than the smaller ones, making permanent structures pointless. Seas of digestive fluids fill in some of the lower-lying areas. Other organisms live there but take the form of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProportionatelyPonderousParasites" title="/pmwiki/pmwiki.php/Main/ProportionatelyPonderousParasites">Proportionately Ponderous Parasites</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigCreepyCrawlies" title="/pmwiki/pmwiki.php/Main/BigCreepyCrawlies">Big Creepy-Crawlies</a>, like giant mites or bloat-flies, who survive off the meat of the surface.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WoobieDestroyerOfWorlds" title="/pmwiki/pmwiki.php/Main/WoobieDestroyerOfWorlds">Woobie, Destroyer of Worlds</a>: A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldHalfEmpty" title="/pmwiki/pmwiki.php/Main/WorldHalfEmpty">completely</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TraumaCongaLine" title="/pmwiki/pmwiki.php/Main/TraumaCongaLine">viable</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TragicHero" title="/pmwiki/pmwiki.php/Main/TragicHero">character</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MaddenIntoMisanthropy" title="/pmwiki/pmwiki.php/Main/MaddenIntoMisanthropy">option</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldShapes" title="/pmwiki/pmwiki.php/Main/WorldShapes">World Shapes</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityIsOutToLunch" title="/pmwiki/pmwiki.php/Main/RealityIsOutToLunch">Reality Is Out to Lunch</a> in much of the Screaming Vortex, and the closer one is to the center the longer its lunch break is. This allows a diversity of planet shapes that are flat out impossible under the normal rules of physics. For example, The Hollows is a planet that has had an entire hemisphere consumed save for a spindle of bedrock. This has had a negligible effect on gravity on the other hemisphere, and were it to exist in primarily realspace the entire stellar body would collapse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWormThatWalks" title="/pmwiki/pmwiki.php/Main/TheWormThatWalks">The Worm That Walks</a>: The "Writhing World Socerer-King" class from <em>Tome of Decay</em> lets players be one of a sort. They are powerful biomancers who travel to the Writhing World and influence tendrils of that world to lace themselves through their flesh, becoming new conductors for their psychic power. In fact they are one of the better ways of making a psychic character who is aligned to Nurgle via <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrongContextMagic" title="/pmwiki/pmwiki.php/Main/WrongContextMagic">Wrong Context Magic</a>.<span class="notelabel" onclick="togglenote('note2bzya');"><sup>note&nbsp;</sup></span><span id="note2bzya" class="inlinefolder" isnote="true" onclick="togglenote('note2bzya');" style="cursor:pointer;font-size:smaller;display:none;">(Nurlge is not anti-psyker like Khorne, but many of the advances required to be a good psyker push someone toward Tzeentch, making a Nurgle-aligned psyker difficult to build without special exceptions like this.)</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WreathedInFlames" title="/pmwiki/pmwiki.php/Main/WreathedInFlames">Wreathed in Flames</a>: The Burning Body gift wreathes a character in living flames. There's also the Flaming Skull gift (which, as the name implies, reduces the character's head to a flame-wreathed skull) and the Khornate version of Wreathed in Chaos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Wretched Hive</a>: The Screaming Vortex is a wild and lawless region of space. On the outer reaches, the laws being ignored are those of the Imperium and of common human decency; closer to the center, the laws being ignored <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfChaos" title="/pmwiki/pmwiki.php/Main/WorldOfChaos">are those of physics</a>.<ul><li> On the outer reaches... except for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Q'Sal</a>. There, they just ignore physics, as the planet <em>itself</em> is in much, much better condition then the vast majority of the Imperium. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiVillain" title="/pmwiki/pmwiki.php/Main/AntiVillain">And they're Heretics, too.</a> See why Chaos can be so appealing?<ul><li> Q'sal has its own section in <em>The Tome Of Fate</em>. They work very hard to give outsiders those impressions, but their culture is pretty messed up even by Chaos standards, due to the Pact that keeps law and order on their planet being rather unnatural. The general living conditions and high technology, on the other hand, is just as it seems, and the people are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffablyEvil" title="/pmwiki/pmwiki.php/Main/AffablyEvil">generally nice</a> despite the whole inter-city-state rivalry, soul abuse, and downright <em>insane</em> devotion to appearances.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouHaveFailedMe" title="/pmwiki/pmwiki.php/Main/YouHaveFailedMe">You Have Failed Me</a>: When characters do well, they are rewarded with Corruption points. When characters screw up, they are punished with Corruption points. The difference between the two is that when your Corruption reaches a threshold through a failing, you're stuck with whatever mutation the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RandomNumberGod" title="/pmwiki/pmwiki.php/Main/RandomNumberGod">Random Number God</a> decides to dish out rather than being able to modify it or exchange it for a more powerful Gift of the Gods.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouKeepUsingThatWord" title="/pmwiki/pmwiki.php/Main/YouKeepUsingThatWord">You Keep Using That Word</a>: Any Heretic who chooses the "Nihilism" Motivation is actually motivated by <a class="urllink" href="http://en.wikipedia.org/wiki/Metaphysical_solipsism">metaphysical solipsism<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, which is different from <a class="urllink" href="http://en.wikipedia.org/wiki/Nihilism">nihilism<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourMagicsNoGoodHere" title="/pmwiki/pmwiki.php/Main/YourMagicsNoGoodHere">Your Magic's No Good Here</a>: Many of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">sorcerery-tech</a> creations of Q'Sal are incredibly powerful and relatively easily produced... but they only function to their full potential within an area of warp/realspace overlap, like The Screaming Vortex. It is for reasons like this why Chaos can be so powerful yet still not simply <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurbStompBattle" title="/pmwiki/pmwiki.php/Main/CurbStompBattle">curb stomp</a> the rest of creation.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Talisman">Talisman</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/FantasyFlightGames">Creator/Fantasy Flight Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/WarhammerFantasyRoleplay">Warhammer Fantasy Roleplay</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Cubicle7">Creator/Cubicle 7</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BattlefleetGothic">Battlefleet Gothic</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BattlefleetGothic">Battlefleet Gothic</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/GamesWorkshop">Creator/Games Workshop</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheRolePlayingGame">The Role-Playing Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000KillTeam">Warhammer 40,000: Kill Team</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Sandbox/Warhammer40KFranchise">Sandbox/Warhammer 40 K Franchise</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000KillTeam">Warhammer 40,000: Kill Team</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">TabletopGame/Warhammer 40,000</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader">Rogue Trader</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/Warhammer40000ExpandedUniverse">Franchise/Warhammer 40,000 Expanded Universe</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/WarhammerFantasyRoleplay">Warhammer Fantasy Roleplay</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+ <a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BattlefleetGothic">Battlefleet Gothic</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

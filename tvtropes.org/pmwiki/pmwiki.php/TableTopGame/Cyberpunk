@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Cyberpunk (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Cyberpunk is a tabletop roleplaying game created by Mike Pondsmith and published by R. Talsorian Games, with the first edition releasing in 1988. The game, &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Cyberpunk" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Cyberpunk (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Cyberpunk is a tabletop roleplaying game created by Mike Pondsmith and published by R. Talsorian Games, with the first edition releasing in 1988. The game, &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/cp2020.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Cyberpunk (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Cyberpunk" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/cp2020.png" />
+<meta property="og:description" content="Cyberpunk is a tabletop roleplaying game created by Mike Pondsmith and published by R. Talsorian Games, with the first edition releasing in 1988. The game, as the title might indicate, is based heavily upon the work of William Gibson and Bruce &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ExpressiveMask" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Fanfic/Xenophilia" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Cyberpunk?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Cyberpunk">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Cyberpunk">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Cyberpunk&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Cyberpunk">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Cyberpunk?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Cyberpunk" />
+<input type="hidden" id="article_id" value="372268" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Cyberpunk</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Cyberpunk
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Cyberpunk"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Cyberpunk" class="subpage-link " title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/Cyberpunk" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/Cyberpunk" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Quotes/CyberPunk" class="subpage-link " title="The Quotes page">
+<span class="wrapper"><span class="spi quotes"></span>Quotes</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Cyberpunk" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Cyberpunk" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Cyberpunk" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Cyberpunk?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Cyberpunk?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Cyberpunk?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Cyberpunk?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Cyberpunk?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Cyberpunk?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Cyberpunk?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Cyberpunk?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Recap/Cyberpunk?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Cyberpunk?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Cyberpunk?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Cyberpunk?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/Cyberpunk?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:130.66%"><img src="https://static.tvtropes.org/pmwiki/pub/images/cp2020.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/cp2020.png" width="349" height="456"></div></div><em>Cyberpunk</em> is a tabletop roleplaying game created by Mike Pondsmith and published by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RTalsorianGames" title="/pmwiki/pmwiki.php/Creator/RTalsorianGames">R. Talsorian Games</a>, with the first edition releasing in 1988. The game, as the title might indicate, is based heavily upon the work of <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/WilliamGibson" title="/pmwiki/pmwiki.php/Creator/WilliamGibson">William Gibson</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/BruceSterling" title="/pmwiki/pmwiki.php/Creator/BruceSterling">Bruce Sterling</a>, to the point where Gibson is often referred to as "Saint Willie" in the various sourcebooks.<div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>Set in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwentyMinutesIntoTheFuture" title="/pmwiki/pmwiki.php/Main/TwentyMinutesIntoTheFuture">2013/2020/2045</a>, the players are mercenaries, criminals, and vagabonds in the cyberpunk street culture of the period. American society has broken down, the government is ineffectual, and anything resembling a good life must be obtained by doing dirty work for one of the numerous corporations that quietly control the world. It's become trendy to heavily modify one's body with any number of cybernetic augmentations, whether it's designer eyes, replacement limbs, or combat-ready military gear, but stacking up too much "cyberware" causes a person to enter "cyber-psychosis" and go full-tilt insane.</p><p>As the games are a very deliberate, self-aware attempt to capture the feel of the then-burgeoning cyberpunk genre, it can be comfortably assumed that any trope from that particular genre that isn't mentioned will fit neatly here. Supplements to the game allow you to play in specific author's 'verses, such as George Alec Effinger's <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/MaridAudran" title="/pmwiki/pmwiki.php/Literature/MaridAudran">Mar&icirc;d Audran</a></em>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>A video game adaptation was announced by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/CDProjektRed" title="/pmwiki/pmwiki.php/Creator/CDProjektRed">CD Projekt RED</a>, known as <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077" title="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077">Cyberpunk 2077</a></em> and appropriately released in 2020. Later on, a fourth edition for the tabletop with a new system, <em>Cyberpunk Red</em>, was announced. It released digitally on November 14th, 2020 . An anime by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/StudioTrigger" title="/pmwiki/pmwiki.php/Creator/StudioTrigger">Studio Trigger</a> called <em><a class="createlink" href="/pmwiki/pmwiki.php/Anime/CyberpunkEdgerunners" title="/pmwiki/pmwiki.php/Anime/CyberpunkEdgerunners">Cyberpunk Edgerunners</a></em> in collaboration with <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/CDProjektRed" title="/pmwiki/pmwiki.php/Creator/CDProjektRed">CD Projekt RED</a>, with <a class="twikilink" href="/pmwiki/pmwiki.php/Music/AkiraYamaoka" title="/pmwiki/pmwiki.php/Music/AkiraYamaoka">Akira Yamaoka</a> as composer was announced to premier on Netflix in 2022.</p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><h2> This game provides examples of:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwentyMinutesIntoTheFuture" title="/pmwiki/pmwiki.php/Main/TwentyMinutesIntoTheFuture">20 Minutes into the Future</a> &mdash; The original Tabletop game took place in 2013, the second and most well known version takes place in 2020, which both seemed to be quite far away back in 1988 &amp; 1990 when they were written. To avoid <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Zeerust" title="/pmwiki/pmwiki.php/Main/Zeerust">zeerust</a> with its video game adaptation which is slated for launch precisely that year, the adaptation fast-forwarded the setting's title and year to <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077" title="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077">Cyberpunk 2077</a></em>. Alongside the video game adaption, the new Tabletop version simply known as <em>Cyberpunk RED</em> was announced and released, taking place during the period of 2035 to 2049 known in universe as the <em>Time of the Red</em>. Red is meant to give context to 2077 as well as explain developments in the universe and update technology with inventions made in our world between the early 90s and now to not become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Zeerust" title="/pmwiki/pmwiki.php/Main/Zeerust">zeerust</a> on that front.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade" title="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade">Absurdly Sharp Blade</a>: Monoswords, which, as their name suggests, are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharpenedToASingleAtom" title="/pmwiki/pmwiki.php/Main/SharpenedToASingleAtom">Sharpened to a Single Atom</a>. In 2077 they're joined by the Mantis blades &amp; Thermal Katana, both of which can dismember with ease.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlcoholIsGasoline" title="/pmwiki/pmwiki.php/Main/AlcoholIsGasoline">Alcohol Is Gasoline</a>: Justified example: because of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostPeakOil" title="/pmwiki/pmwiki.php/Main/PostPeakOil">energy crisis issues</a>, many vehicles in the setting utilize a blend of high-powered alcohol named CHOOH-2 as fuel.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllHailTheGreatGodMickey" title="/pmwiki/pmwiki.php/Main/AllHailTheGreatGodMickey">All Hail the Great God Mickey!</a>: In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonDiscontinuity" title="/pmwiki/pmwiki.php/Main/CanonDiscontinuity">V3.0</a></em>, one of the Alternate Cultures, or "AltCults," is the Desnai, a tribe of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a> pilots who rule "Desnai World."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateHistory" title="/pmwiki/pmwiki.php/Main/AlternateHistory">Alternate History</a>: Courtesy of a late 80s/early 90s vision of the future.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitraryAugmentationLimit" title="/pmwiki/pmwiki.php/Main/ArbitraryAugmentationLimit">Arbitrary Augmentation Limit</a>: Cybernetic augmentations decrease a character's Humanity score, running the risk of "Cyber-Psychosis", though unlike other games, it <em>is</em> possible to restore lost humanity (usually through expensive and long-term therapy, which neatly averts <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists" title="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists">There Are No Therapists</a>. If you're too far gone, however, the therapy comes with the drawback of disabling your augmentations or outright removing them).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorIsUseless" title="/pmwiki/pmwiki.php/Main/ArmorIsUseless">Armor Is Useless</a>: Averted. Body armor is a necessity to survive even a weak holdout pistol without a lengthy trip to a hospital/medtech, even if AP bullets reduce its effectiveness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialLimbs" title="/pmwiki/pmwiki.php/Main/ArtificialLimbs">Artificial Limbs</a>: All over the place and often used to replace lost limbs, though cloned (or possibly stolen) limbs may also be used. The prosthetics are also presented somewhat more realistically than usual, with the guide correctly noting that a pair of cyber-arms would not give you <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperStrength" title="/pmwiki/pmwiki.php/Main/SuperStrength">Super Strength</a>, as just because your arms are strong, doesn't mean your spine is.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxCrazy" title="/pmwiki/pmwiki.php/Main/AxCrazy">Ax-Crazy</a>: Cyber Psychos are humans that have gone completely batshit crazy and now shoot up anything in sight with their ridiculous hardware. The Psycho Squads dedicated to capturing them are often made up of cops and reformed criminals who are very nearly cyberpsychotic themselves. The fluff explains that making yourself more than human makes it less possible to <em>understand</em> humans: if you have an augmentation that improves your reaction time, everyone <em>else</em> seems to be completely slow and painfully dull, and you have to adjust to it (the augmentation in question has one of the biggest possible hits to Humanity when installed): cyber-psychosis is the manifestation of the belief that these <em>meatbags</em> are just <em>in your way</em>, for whatever reason. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacters" title="/pmwiki/pmwiki.php/Main/PlayerCharacters">Player Characters</a> can become this as well when their Empathy (or EMP) stat drops too low.<span class="notelabel" onclick="togglenote('note081y2');"><sup> Such as&nbsp;</sup></span><span id="note081y2" class="inlinefolder" isnote="true" onclick="togglenote('note081y2');" style="cursor:pointer;font-size:smaller;display:none;">Purposefully raising your Empathy stat at the expense of Charisma and Agility so you can go from hideous freak with a big heart to a beautiful killing machine.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BioAugmentation" title="/pmwiki/pmwiki.php/Main/BioAugmentation">Bio-Augmentation</a>: Biotech, which are enhancements based around biology rather than technology, often using nanomachines, which has the handy benefit of minimizing humanity loss. These can range from antibodies and nanosurgeons that speed up your healing processes to custom organs that replace your original ones, often with bonus features (Want an appendix that lets you process dietary fiber for nutrients? Or how about lungs with improved oxygen capacity?). This is taken <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a> in the Eurosource sourcebooks, as Europeans disapprove of cybernetics, so cyberware is either well hidden or replaced with biotech and also genetic engineering, which isn't readily available outside Europe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BiotechIsBetter" title="/pmwiki/pmwiki.php/Main/BiotechIsBetter">Biotech Is Better</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Downplayed" title="/pmwiki/pmwiki.php/Main/Downplayed">Downplayed</a>. The only real upshot of bioware over cyberware is partially side-stepping <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">Cybernetics Eat Your Soul</a>, since having polymers and metal woven through your flesh and bones by nanosurgeons is less mentally taxing than having your <em>arms lopped off</em> and replaced with mechanical substitutes. Though, some of the biotech option <em>are</em> still rather practical. (Have a gland implanted that secretes non-toxic antifreeze making you immune to frostbite; get a bunch of nanoids injected that style your hair, brush your teeth, and clear up your acne for you; have the left and right sides of your brain routed together so you become naturally ambidextrous. The list goes on.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BladeBelowTheShoulder" title="/pmwiki/pmwiki.php/Main/BladeBelowTheShoulder">Blade Below the Shoulder</a>: In several different varieties, from <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Neuromancer" title="/pmwiki/pmwiki.php/Literature/Neuromancer">Molly Millions</a>-style finger razors, to <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DeusExHumanRevolution" title="/pmwiki/pmwiki.php/VideoGame/DeusExHumanRevolution">Adam Jensen</a>-esque arm swords, to a knuckle-deploying blade trio subtly named "<a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/Wolverine" title="/pmwiki/pmwiki.php/ComicBook/Wolverine">Wolvers</a>".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterClass" title="/pmwiki/pmwiki.php/Main/CharacterClass">Character Class</a>: Unlike <em>Shadowrun</em>, <em>Cyberpunk</em> characters have dedicated classes, the main difference between them being their unique skill and different stat priorities:<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePowerOfRock" title="/pmwiki/pmwiki.php/Main/ThePowerOfRock">Rockerboys</a> are both underground musicians and political agitators, using their music to challenge corporate authority and rile up people. They can commandeer crowds with their <em>Charismatic Leadership</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiredGuns" title="/pmwiki/pmwiki.php/Main/HiredGuns">Solos</a> are guns/swords for hire, selling their combat skills and cyberware-enhanced bodies to the highest bidder, no questions asked. They can strike first in battle with their <em>Combat Sense</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCracker" title="/pmwiki/pmwiki.php/Main/TheCracker">Netrunners</a> are hackers who enjoy cracking online countermeasures and facing other hackers, while making cash in the process. They can use the <em>Menu</em> while browsing the Net to perform their hacks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GadgeteerGenius" title="/pmwiki/pmwiki.php/Main/GadgeteerGenius">Techies</a> are tinkerers and builders who make a living by fixing items or, in the case of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMedic" title="/pmwiki/pmwiki.php/Main/TheMedic">Medtechies</a>, people. They can use their <em>Jury Rig</em> or <em>Medical Tech</em> to patch up things or people.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntrepidReporter" title="/pmwiki/pmwiki.php/Main/IntrepidReporter">Medias</a> are investigative journalists set out to reveal the corporations' dirty laundry and show it to the world, consequences be damned. Their <em>Credibility</em> makes their stories more popular towards the common folk and the powers that be.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CowboyCop" title="/pmwiki/pmwiki.php/Main/CowboyCop">Cops</a> are, well, beat cops and detectives who try their best to uphold the law and protect citizens from gang violence and cyberpsychos. Their <em>Authority</em> makes them extra intimidating for criminals of all kinds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive" title="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive">Corporates</a> are executives who juggle between climbing the company ladder and work on more or less legal "department projects". The corporation's assets can be requisitioned for their use with their <em>Resources</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFixer" title="/pmwiki/pmwiki.php/Main/TheFixer">Fixers</a> are the go-to people to get in touch with people in the underbelly of society, arrange for a bit of smuggling or both. With <em>Streetdeal</em>, they can learn what's the word on the streets or be the word.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DesertPunk" title="/pmwiki/pmwiki.php/Main/DesertPunk">Nomads</a> are wanderers who live on the roads in what's left outside of the cities, part scavengers, part traders and part bandits. Like Corporates above, they can use their <em>Family</em> resources to help them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCityNarrows" title="/pmwiki/pmwiki.php/Main/TheCityNarrows">The City Narrows</a>: "Combat Zones," run-down, crime-ridden districts that exist in every major urban sprawl, where gangs hold sway and the cops only enter in force (if at all). Overlaps with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GatelessGhetto" title="/pmwiki/pmwiki.php/Main/GatelessGhetto">Gateless Ghetto</a> in some cities, where the areas are walled off and the inhabitants are left to their own devices.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloudCuckooLander" title="/pmwiki/pmwiki.php/Main/CloudCuckooLander">Cloud Cuckoo Lander</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TalkativeLoon" title="/pmwiki/pmwiki.php/Main/TalkativeLoon">Rache Bartmoss</a>, one of the most brilliant <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCracker" title="/pmwiki/pmwiki.php/Main/TheCracker">Netrunners</a> of the setting. Also, he's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheSillyOnes" title="/pmwiki/pmwiki.php/Main/BewareTheSillyOnes">far less</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxCrazy" title="/pmwiki/pmwiki.php/Main/AxCrazy">harmless</a> than most examples of this trope, if he is to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnreliableNarrator" title="/pmwiki/pmwiki.php/Main/UnreliableNarrator">be</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThroughTheEyesOfMadness" title="/pmwiki/pmwiki.php/Main/ThroughTheEyesOfMadness">believed.</a> In <em>Cyberpunk Red</em> it's revealed he died in a corporate raid but in his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyPrepared" title="/pmwiki/pmwiki.php/Main/CrazyPrepared">wisdom</a>, he had set a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadMansSwitch" title="/pmwiki/pmwiki.php/Main/DeadMansSwitch">Dead Man's Switch</a> that triggered the DataKash virus to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakingYouWithMe" title="/pmwiki/pmwiki.php/Main/TakingYouWithMe">unleashed on the whole internet</a> two weeks after he died. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">It crippled 78.2% of the internet</a> as it stood in 2022 and the world in universe never fully recovered as of 2077's opening with the Blackwall representing a barrier from the wider web and local networks in Night City.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorporateWarfare" title="/pmwiki/pmwiki.php/Main/CorporateWarfare">Corporate Warfare</a>: A war between two of the biggest companies in the world is a major background event. Earlier on there were others, starting with the one between Petrochem and SovOil.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive" title="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive">Corrupt Corporate Executive</a>: All over the setting with special mentions going to Saburo Arasaka, CEO of the corporation of the same name, and Colin Powers who works for IEC.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsaccharineWorld" title="/pmwiki/pmwiki.php/Main/CrapsaccharineWorld">Crapsaccharine World</a>: The European Community according to the <em>EurosourcePlus</em> splatbook. If you're poor you can get free housing, food, healthcare, entertainment, and more but among other problems food is just good enough to support your body, healthcare is practiced by Medicine students will all that entails, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">you're fed with EU-sourced propaganda about how great is life there</a> (which is not very far away from the truth given the sorry state of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Eastern</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GaiasLament" title="/pmwiki/pmwiki.php/Main/GaiasLament">Europe</a>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>: A cyberpunk hallmark. Life is cheap, corporations run everything, and violence is a fact of everyday life.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreatorCameo" title="/pmwiki/pmwiki.php/Main/CreatorCameo">Creator Cameo</a>: The cover art of <em>Listen Up, You Primitive Screwheads!</em> <a class="urllink" href="https://copcorp.pl/produkt/sluchajcie-glaby/">Polish edition<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, itself a touched-up version of one of black-and-white illustrations, depicts a man very similar to the game's creator, <a class="urllink" href="https://commons.wikimedia.org/wiki/File:Mike_Pondsmith.jpg">Mike Pondsmith<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrossCulturalKerfuffle" title="/pmwiki/pmwiki.php/Main/CrossCulturalKerfuffle">Cross Cultural Kerfuffle</a>: Occasionally, young nomads will go off and live in "static" society, trying to get a new handle on a foreign culture and try to figure out what is so great about some places that millions of people are willing to spend their entire lives there. They are inevitably approached by young, rebellious statics who see being a nomad as the ultimate form of rebellion and (at least claim to) dream of running off and joining a nomad pack. These relationships almost always end in tears, as the statics realize that nomads in general are rule-abiding and collectivist, and the nomads they have met are the nomad equivalent of rich kids on a gap year in Europe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">Cybernetics Eat Your Soul</a>: The game was the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeCodifier" title="/pmwiki/pmwiki.php/Main/TropeCodifier">Trope Codifier</a> for this idea, but also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnbuiltTrope" title="/pmwiki/pmwiki.php/Main/UnbuiltTrope">explored the reasons and ramifications far more than alter imitators</a>.<ul><li> Each item you install comes with a cost to your humanity. It's not hard to skirt that restriction, and some degree of augmentation is absolutely necessary to compete, but too much of it and you go <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxCrazy" title="/pmwiki/pmwiki.php/Main/AxCrazy">Ax-Crazy</a> and turn you into a "Cyber Psycho". This is typically guaranteed to end in a showdown with heavily armed, very paranoid cops (several of whom may be on the edge of aug-induced craziness themselves, if they weren't Cyber Psychos themselves before they became cops [Which is also very likely]). The good news, however, is that humanity lost can be regained by shelling out cash for therapy (which is mandatory for Full Conversion Borgs).</li><li> This is downplayed if you have your Cyberware installed in a Scandinavian cyber clinic. Due to specialist therapies, you roll humanity loss twice, and take the value of the second away from the first, with the possible result of no humanity loss at all. Although this is costly, as to get access to these clinics, as well as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaptainObvious" title="/pmwiki/pmwiki.php/Main/CaptainObvious">having to be in Scandinavia</a>, it takes one day per maximum humanity loss, at a cost of 1000 eurobucks per day plus operation costs, and to even get into the clinic requires a six month wait (which can be reduced by 1D6 months by paying an extra 10%). And illegal cyberware isn't available.</li><li> Similar to the above are therapy programs which can potentially be associated with any cyberware, and available much more widely. The downsides are (aside from cost) that they can only mitigate humanity loss up to 50%, and they are realistically intensive and long-term. At worst (and best) you will be spending several months at a facility you are not allowed to leave.</li><li> One of the major selling points or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BioAugmentation" title="/pmwiki/pmwiki.php/Main/BioAugmentation">bioware</a> is actively side-stepping this as much as possible. That muscle and bone lace may not make you as strong as cyberlimbs will, nor will that nanooptical reconstruction surgery give you as good of sight as a cybereye, but they are still <em>your</em> limbs and <em>your</em> eyes, which means you'll be less likely to disassociate from humanity and thus less likely to go on a killing spree.</li><li> Some of the ramifications are related to how those toys often require maintenance. It is quite helpful to have under the skin some sort of Kevlar until you awake one morning, find you're sweating black -such thing decomposing- and have to eat a nanoid supplement in order to stop that.</li><li> <em>Cyberpunk RED</em> Built on the concept as its original version could come off as somewhat ablist due to modern understandings of prosthetics and the like. The humanity loss is not just from getting the chrome but when that chrome is meant to go beyond the flesh it's replacing. In a practical sense, this means that you can replace that arm that got shot off last job with a medical-grade cyberarm without any humanity loss, just that it'll function exactly like the flesh-and-blood one some poor sap's probably had to clean up. But if you go installing a concealed weapon into that cyberarm, <em>that's</em> when the humanity loss kicks in as you're going beyond what a "baseline" human body is capable of. Likewise you could start with medical-grade 'ware to replace limbs your character was born lacking entirely with no cost in humanity or starting cash (all but one of the edgerunners in the Black Dog short story at the end of the RED corebook were born with absent body parts that were replaced with cyberware).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberPunk" title="/pmwiki/pmwiki.php/Main/CyberPunk">Cyberpunk</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">It's even in the title!</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberspace" title="/pmwiki/pmwiki.php/Main/Cyberspace">Cyberspace</a>: Being heavily influenced by William Gibson's writings, this is how computer hacking works in-game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyborg" title="/pmwiki/pmwiki.php/Main/Cyborg">Cyborg</a>: Very easy for people to become one to some extent, and many people are already this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica" title="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica">Divided States of America</a>: Alaska, Texas, Utah, Nevada and California (which further divided itself into North and South) have seceded and become free states. Additionally, Wyoming is a Socialist republic that pays token service to the Federal government, and Idaho was briefly taken over by neo-Nazis, who have since been deposed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrugsAreBad" title="/pmwiki/pmwiki.php/Main/DrugsAreBad">Drugs Are Bad</a>: Though the option for characters to use drugs is there (wouldn't be cyberpunk if it wasn't), doing so is <em>strongly</em> discouraged (as in the writers directly tell players that it's a very good way to kill their characters, side effects being also particularly nasty). To be fair, the game was released during the height of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralGuardians" title="/pmwiki/pmwiki.php/Main/MoralGuardians">Moral Guardians</a> crusade against roleplaying games, when the idea that <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em> led to witchcraft and Satanism was actually taken seriously.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryoneIsArmed" title="/pmwiki/pmwiki.php/Main/EveryoneIsArmed">Everyone Is Armed</a>: It's basically required for anyone who wants to survive in the Cyberpunk world. From fixers to solos, gangs to police, adults to teenagers, to even the children and the elderly; everyone has something to protect themselves from someone else. The only ones who don't carry around guns are the wealthy elites and celebrities, who hire muscle and gunmen to protect them instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilTowerOfOminousness" title="/pmwiki/pmwiki.php/Main/EvilTowerOfOminousness">Evil Tower of Ominousness</a>: The skyscrapers of the different <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">MegaCorps</a> and especially those of Arasaka, that are designed to look as intimidating as possible being black and usually the tallest buildings of the cities they're located on.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>:<ul><li> The game's main setting, Night City, is fairly obviously based on <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/SanFrancisco" title="/pmwiki/pmwiki.php/UsefulNotes/SanFrancisco">San Francisco</a>. The Night City sourcebook even spotlights Expies of other Bay Area cities, such as South San Francisco, Pacifica and Oakland.</li><li> Likewise Saburo Arasaka's backstory mimics in part the one of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLife" title="/pmwiki/pmwiki.php/Main/RealLife">Real Life</a> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII" title="/pmwiki/pmwiki.php/UsefulNotes/WorldWarII">World War II</a> Japanese ace <a class="urllink" href="https://en.wikipedia.org/wiki/Saburo_Sakai">Saburo Sakai<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, the former having also fought in said conflict piloting a Zero and having also to fly several hundreds miles over the ocean badly wounded before arriving to his base.</li><li> The splatbook series <em>Solo Of Fortune</em> is presented as an in-universe publication that has a similar premise and format to the infamous <em><a class="urllink" href="https://en.wikipedia.org/wiki/Soldier_of_Fortune_(magazine)">Soldier of Fortune<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> military magazine, complete with a classifieds section for readers looking for security and mercenary work.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FutureFoodIsArtificial" title="/pmwiki/pmwiki.php/Main/FutureFoodIsArtificial">Future Food Is Artificial</a>: Downplayed. Food comes in three varieties, "kibble", "prepack" and "fresh". Kibble is described as having the appearance smell, and flavor of the dog food from which it takes its name, and only the truly destitute and desperate reduce themselves to actually eating it. "Prepack" is generally based around soy- and insect-based meat substitutes and artificially textured "vegetables", and varies in quality from "edible" to "actually quite good". "Fresh" is real food, fresh fruit and veg, naturally grown grains and real (though quite likely vat- or aquarium-grown) meat and fish. "Fresh" is a near-unattainable luxury to most of the world's population, and cooking "fresh" is an artform few people bother to master.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GaiasLament" title="/pmwiki/pmwiki.php/Main/GaiasLament">Gaia's Lament</a>: The world's in pretty rough shape in the near future. A good chunk of the American Midwest is undergoing desertification and the rain is more acidic than not. Meanwhile loss of the ozone layer is so serious that cities in Scandinavian countries had to be placed under plastic domes to protect people from the Sun's UV rays and trees in Europe have to be sprayed to protect them from acid rain. The world's fauna also took a major hit, thanks to the aforementioned environmental devastation and several wildlife-borne diseases that not only further reduced the population but also resulted in several human pandemics which were met with sanctioned exterminations in an attempt to stem the tide. As a result, by 2077, several previously common species of wildlife in the former United States are all but extinct.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GangOfHats" title="/pmwiki/pmwiki.php/Main/GangOfHats">Gang of Hats</a>: Most of the gangs in Night City have a theme, from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DreadfulMusician" title="/pmwiki/pmwiki.php/Main/DreadfulMusician">the DJs</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMime" title="/pmwiki/pmwiki.php/Main/EnemyMime">the Juillard</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MonsterClown" title="/pmwiki/pmwiki.php/Main/MonsterClown">the Bozos</a>. The Bozos are a gang that's had themselves biosculpted into clowns. Those big red noses? Real. Those big floppy shoes? Their <em>feet.</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HistoryRepeats" title="/pmwiki/pmwiki.php/Main/HistoryRepeats">History Repeats</a>: For anyone who is knowledgeable in regards to Japanese history, then they will see very stark parallels between the Empire of Japan and the Arasaka Corporation. Both were created as a counter to Western aggression; both saw massive industrial and technological growth in a short hundred years; both became a dominate super power in the same regions of the world; and both of them started a war with America who they had little hope of winning against.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Japan was also completely dependent on The Arasaka Corporation for their economic stability. In the third rule set, after The Arasaka Corporation was destroyed, Japan fell into a total recession. Which has basically turned Japan from a relatively prosperous First World country, to a Third World one in less than a year. What makes this worse however, is that Japan has no reliable outside assistance to help rebuild their economy this time. Meaning that Japan was effectively kicked right back into the Dark Ages without any safety net.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGreatPoliticsMessUp" title="/pmwiki/pmwiki.php/Main/TheGreatPoliticsMessUp">The Great Politics Mess-Up</a>: Instead of dissolving like it did in reality, the Soviet Union actually manages to successfully reform itself (though the second edition <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetCon" title="/pmwiki/pmwiki.php/Main/RetCon">rewrote the timeline</a> to account for Germany's reunification), including SovOil being privatized and becoming a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>, but its global influence is greatly diminished. The US suffers economic collapse, several major terrorist attacks, and the secession of a number of states, and ends up becoming a Third World country in all but name. The European Union and Japan are the world's new major superpowers, while China's economic growth was stalled by a nasty civil war between Maoist hardliners and the pseudo-capitalist reformers currently clinging to power by their fingertips.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenBackupPrince" title="/pmwiki/pmwiki.php/Main/HiddenBackupPrince">Hidden Backup Prince</a>: Queen Victoria II of the UK, known in real life as <a class="urllink" href="https://en.wikipedia.org/wiki/Princess_Beatrice">Princess Beatrice<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, was the <em>ninth</em> successor to the throne before the country went under martial rule following an armed rebellion by Scotland, an opportunity used by the military rulers to assasinate the royal family. Victoria and her sister survived by being sent to the USA before things went sour.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Irony" title="/pmwiki/pmwiki.php/Main/Irony">Irony</a>: The genetically engineered grain that is the foundation of CHOOH-2 production is actually not only more nutritious than nearly all other grains, but is also very tasty and makes excellent bread. However, the demand for CHOOH-2 means that no-one, not even corporate heads, can actually afford to eat it<span class="notelabel" onclick="togglenote('note0jo96');"><sup>note&nbsp;</sup></span><span id="note0jo96" class="inlinefolder" isnote="true" onclick="togglenote('note0jo96');" style="cursor:pointer;font-size:smaller;display:none;">That said, the splatbook (Corpbook 3) that details <a class="createlink" href="/pmwiki/pmwiki.php/Main/PetroChem" title="/pmwiki/pmwiki.php/Main/PetroChem">Petro Chem</a>, the megacorporation that produces most of it at worldwide scale, mentions that harvest surplusses are donated to poor, starving, countries for PR purposes.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ILoveNuclearPower" title="/pmwiki/pmwiki.php/Main/ILoveNuclearPower">I Love Nuclear Power</a>: The supplement <em>Home of the Brave</em> mentions how the US Navy counts beside nuclear-powered carriers with four nuclear-powered battleships<span class="notelabel" onclick="togglenote('note1vajh');"><sup>note&nbsp;</sup></span><span id="note1vajh" class="inlinefolder" isnote="true" onclick="togglenote('note1vajh');" style="cursor:pointer;font-size:smaller;display:none;">Very likely the four <a class="urllink" href="https://en.wikipedia.org/wiki/Iowa-class_battleship">Iowa-class<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> battleships, decommissioned in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLife" title="/pmwiki/pmwiki.php/Main/RealLife">Real Life</a> in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNineties" title="/pmwiki/pmwiki.php/Main/TheNineties">The '90s</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IMeantToDoThat" title="/pmwiki/pmwiki.php/Main/IMeantToDoThat">I Meant to Do That</a>: Explicitly mentioned as part of the attitude edgerunners need to have: anyone can walk into a bar with a gun, but a true Cyberpunk needs to walk in with a gun and an attitude that explicitly says "don't fuck with me" to survive. Cool is a stat in this game, and represents how you handle yourself in good <em>and</em> bad situations.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JapanTakesOverTheWorld" title="/pmwiki/pmwiki.php/Main/JapanTakesOverTheWorld">Japan Takes Over the World</a>: Played with, surprisingly enough. Many of the megacorporations are wholly or partially owned by the Japanese, but the European Union has become the dominant superpower, with euros in use as the new global currency.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustAFleshWound" title="/pmwiki/pmwiki.php/Main/JustAFleshWound">Just a Flesh Wound</a>: Averted. Combat is deadly, and every time a character takes damage, they have to determine if they succumb to shock and black out or find the willpower to keep going. The best armor in the world will only protect you so long: eventually, a shot is getting through, and if you're not ready for it with the appropriate stats and some lucky rolls, you're down and out. Even the most basic pistol can trigger shock with a single bullet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillEmAll" title="/pmwiki/pmwiki.php/Main/KillEmAll">Kill 'Em All</a>: The original <em>Cyberpunk</em> guidebook treats the fact that life in the setting is cheap as a feature. If a character becomes too powerful or angers too many major factions, then the GM is encouraged to simply kill them and let the player start over.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LongRunners" title="/pmwiki/pmwiki.php/Main/LongRunners">Long-Runners</a>: <em>Cyberpunk</em> was first published in 1988. The second edition, which updated the setting from 2013 to 2020 and added some new details and history, was published in 1990. The only change to the core rulebook since then is the updates that corrected some typos: the game hasn't changed significantly in <em>29 years</em>, and only with the announcement of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077" title="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077">Cyberpunk 2077</a></em> was the setting updated with the <em>Cyberpunk Red</em> edition. As a side-effect, however, there are splatbooks covering absolutely everything you can think of, since R. Talsorian Games has been adding to the game for almost <em>three decades</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagneticWeapons" title="/pmwiki/pmwiki.php/Main/MagneticWeapons">Magnetic Weapons</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ESA" title="/pmwiki/pmwiki.php/UsefulNotes/ESA">ESA</a> has a mass driver on the moon which they use to keep the peace.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MechanicalMuscles" title="/pmwiki/pmwiki.php/Main/MechanicalMuscles">Mechanical Muscles</a>: "Fleshweave" cyberlimbs are disturbing prosthetics designed to look like the obviously mechanical parts are growing out of the user's natural limbs. The "full conversion" cyborg the Gemini had the entire body replaced except for the brain. The artwork was a cut-away with the metal parts made to resemble a normal human's muscles.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>: Plenty; This IS Cyberpunk after all. One of (if not the) largest has to be Arasaka, who unfortunately is also quite evil. Others <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>'s include Militech, the International Electric Corporation, the Lazarus Group, Petrochem and SovOil.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MinMaxing" title="/pmwiki/pmwiki.php/Main/MinMaxing">Min-Maxing</a>: A common fan criticism is that the game's "Character Role" class system (which gives certain starting skill sets and unique abilities to characters of a certain class) leads to balance issues, the most frequent being that Solos (aka: mercenaries) are the only viable character types for combat situations (thanks to their special ability which gives bonuses to their spot checks and initiative rolls), and that consequently most Solo builds end up looking very similar (high Reflex attributes &amp; combat skills + low social skills + reflex boosting augmentations). As a result, a number of fan-made rule modifications exist that remove the Character Roles entirely and allow players to build characters from scratch, similar to <em>Cyberpunk's</em> chief rival, <em>Shadowrun</em>. However, the sourcebook explicitly states that an adventure should be less about combat and more about story, and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameMaster" title="/pmwiki/pmwiki.php/Main/GameMaster">Referee</a> should make everyone in an adventure feel like they are contributing. That being said, Solos <em>are</em> intended to be combat masters, likely cyber'd up to the gills with low humanity and a literal hair-trigger temper, so it can be argued that they're actually shoehorned into the role, rather than dominating the gameplay. It's worth noting that Solos are experts at combat and everything to do with fighting- so while they're dangerous in combat, they suck at everything else. This means that while Solos can start and finish fights, they are poor at avoiding them, pushing situations away from combat, and dealing with the (often messy) aftermath.<ul><li> In the fluff, Morgan Blackhand argues against this trope, pointing out that while most solos believe that all they need to be able to do is push violence, and that they can just bully the nerds into dealing with the technical stuff, not knowing how your cybernetics, i.e. <em>your body</em> works and exactly what you've put into it is a Bad Thing, and no solo is going to intimidate anyone when that super-reflex-boosting cybernetic spine of theirs decides to seize up.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MobileCity" title="/pmwiki/pmwiki.php/Main/MobileCity">Mobile City</a>: Road Cities came around after biker gangs became extremely popular, with campers and caravans eventually being traded for this trope. The faction in-game is known as the Rolling State.</li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneStatToRuleThemAll" title="/pmwiki/pmwiki.php/Main/OneStatToRuleThemAll">One Stat to Rule Them All</a>: Reflex and Empathy. Reflex so that you can shoot first, faster, and more accurately than anyone else, and Empathy because that increases the amount of cyberware you can implant into yourself before going cyberpsycho. Solos have a profession skill which is added on top of reflexes for combat initiative. Combat rounds usually go "solos first, then everyone else".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrganTheft" title="/pmwiki/pmwiki.php/Main/OrganTheft">Organ Theft</a>: There are rules for selling organs to organ banks and there is mention of an organ lottery. Officially, you need a deceased donor card to donate organs and get a reward, but this can be faked rather easily.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostPeakOil" title="/pmwiki/pmwiki.php/Main/PostPeakOil">Post-Peak Oil</a>: Subverted. Demand for petroleum sank as CHOO-2 replaced gasoline and diesel as the fuels of choice. However, petroleum is still a valuable raw material for producing all manner of chemicals and pharmaceuticals, and SovOil is considered a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a> pretty much on the size and value of its untapped oil deposits alone.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armor</a>: Two types in the form of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">ACPA</a> and Hardsuits (Heavy armor with an exoskeleton for support.) Linear Frames are essentially unarmored powered exoskeletons that are clunky to operate without a man-machine interface port.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors" title="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors">Private Military Contractors</a>: Militech and Arasaka, with the Lazarus Group being a fully fledged private army.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledInSPACE" title="/pmwiki/pmwiki.php/Main/RecycledInSPACE">Recycled In SPACE</a>: The supplement <em>Deep Space</em> allows adventures to be run on the final frontier. It's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness" title="/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness">hard as the diamond</a> with almost all the technologies featured there either existing in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLife" title="/pmwiki/pmwiki.php/Main/RealLife">Real Life</a> (chemical and ionic drives) or having been researched but cancelled (nuclear propulsion) and touching issues as the effects of microgravity on the human body and the finiteness of the speed of light (read: radio communications) among others.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retcon" title="/pmwiki/pmwiki.php/Main/Retcon">Retcon</a>: <em>Cyberpunk Red</em> removes <em>Cyberpunk v3</em> and its apocalypse setting in favor creating a prequel setting for <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077" title="/pmwiki/pmwiki.php/VideoGame/Cyberpunk2077">Cyberpunk 2077</a></em>. However, it will reintroduce some of the technology that was previously established in <em>Cyberpunk v3</em>'s rulebook as well as new technology from the real world that's been developed since then such as 3D printed pistols.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReversibleRoboticizing" title="/pmwiki/pmwiki.php/Main/ReversibleRoboticizing">Reversible Roboticizing</a>: "Fleshing out" is a possible operation, whether by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainUploading" title="/pmwiki/pmwiki.php/Main/BrainUploading">Brain Uploading</a> in a clone or grafting the brain (who was usualy conserved during the Full Body Conversion) in a human body, though it might be dangerous if the brain is rejected.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoguishRomani" title="/pmwiki/pmwiki.php/Main/RoguishRomani">Roguish Romani</a>: The Nomads are those who took to the open road after the Collapse (of U.S. society). Over time they took on a number of stereotypical Romani traits because of their situation. They are hated, feared, distrusted and misunderstood by "statics" (those who don't travel around), they're divided up into clans, and two ways they make money are criminal acts (including con games and theft) and entertaining the "statics" with carnivals. The Romani themselves are one of the major components of Nomad culture, and the other Nomads have adopted many of their ways.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: There is a book of GM advice titled "Listen Up, You Primitive Screwheads!", referencing a famous line from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ArmyOfDarkness" title="/pmwiki/pmwiki.php/Film/ArmyOfDarkness">Army of Darkness</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePlague" title="/pmwiki/pmwiki.php/Main/ThePlague">The Plague</a>: The backstory mentions several examples of it, most notably perhaps a variant of AIDS transmitted through air.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSociopath" title="/pmwiki/pmwiki.php/Main/TheSociopath">The Sociopath</a>: Low Empathy characters are assumed to be this or something similar. Low Humanity characters <em>are</em> this, either temporarily or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AxCrazy" title="/pmwiki/pmwiki.php/Main/AxCrazy">permanently</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SquadNickname" title="/pmwiki/pmwiki.php/Main/SquadNickname">Squad Nickname</a>: The C-SWAT,<span class="notelabel" onclick="togglenote('note2tny7');"><sup>note&nbsp;</sup></span><span id="note2tny7" class="inlinefolder" isnote="true" onclick="togglenote('note2tny7');" style="cursor:pointer;font-size:smaller;display:none;">Cybernetic Special Weapons &amp; Tactical Squad</span> PSYCHE-DIV, CYBEnforcement, and MAX-TAC <span class="notelabel" onclick="togglenote('note3jaql');"><sup>note&nbsp;</sup></span><span id="note3jaql" class="inlinefolder" isnote="true" onclick="togglenote('note3jaql');" style="cursor:pointer;font-size:smaller;display:none;">Maximum Force Tactical Division</span> are all colloquially known as "(Cyber) Psycho Squads" as they are special police squads who capture rogue cyberpsychos and who are just barely cyberpsychotic themselves, some of whom <em>are</em> rehabilitated cyberpsychos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperReflexes" title="/pmwiki/pmwiki.php/Main/SuperReflexes">Super Reflexes</a>: Combat in the setting is set up to be won by whoever gets to go first in a turn, due to its overwhelming lethality. As such, a number of augmentations exist to improve a character's initiative roll and you would have to be crazy not to take them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TalkingIsAFreeAction" title="/pmwiki/pmwiki.php/Main/TalkingIsAFreeAction">Talking Is a Free Action</a>: Starting combat by delivering your character&#146;s <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchPhrase" title="/pmwiki/pmwiki.php/Main/CatchPhrase">Catchphrase</a> or a (potential) <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PreMortemOneLiner" title="/pmwiki/pmwiki.php/Main/PreMortemOneLiner">Pre-Mortem One-Liner</a> under the Friday Night Firefight rules doesn&#146;t end your round.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TransferableMemory" title="/pmwiki/pmwiki.php/Main/TransferableMemory">Transferable Memory</a>: Through the use of an Alternative Reality Process (colloquially referred to as "braindancing") people can record, edit and distribute tactile experiences to others - including the sensation of death. Those who experience a braindance resulting in death can have their own heart stop from just the visceral reaction.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpgradeArtifact" title="/pmwiki/pmwiki.php/Main/UpgradeArtifact">Upgrade Artifact</a>: Skillsofts, chips with software that conveys skill in certain areas as long as they're plugged in. There's two variants: skill chips and knowledge chips. Skill chips give you a bonus as long as they're slotted, but they override any actual skill you have and have a hard cap: the best (and most expensive) chips give a +3 bonus to a skill, but if you have a +4 or higher bonus naturally, the chip forces you back down to +3 at best. Knowledge chips give you a bonus to any non-physical skill (such as special lore or important history) and <em>do</em> stack with your natural skill, acting more like having an encyclopedia in your head that you can access at will.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Zeerust" title="/pmwiki/pmwiki.php/Main/Zeerust">Zeerust</a>: As of 2020, many of the elements depicted in <em>Cyberpunk 2020</em> or even <em>Cyberpunk 2013</em> still have yet to become reality while others have aged like milk. For this reason, the videogame adaptation had its date pushed towards 2077 and the new tabletop edition set in the period between 2035 &amp; 2049.</li></ul><hr>
+</div>
+<div class="alt-titles section section-fact">
+<h3>
+<strong>Alternative Title(s):</strong>
+<span>Cyberpunk 2020</span> </h3>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/CastleFalkenstein">Castle Falkenstein</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/RTalsorianGames">Creator/R. Talsorian Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Mekton">Mekton</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/CthulhuTech">CthulhuTech</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GodsOfTheFall">Gods of the Fall</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Cyberpulp">Cyberpulp</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/D20System">d20 System</a>
+</li>
+ </ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

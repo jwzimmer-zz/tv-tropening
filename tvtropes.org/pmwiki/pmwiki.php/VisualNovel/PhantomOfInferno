@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Phantom of Inferno (Visual Novel) - TV Tropes</title>
+<meta name="description" content="Phantom of Inferno is the first release by the visual novel developer nitro+, whose games are almost invariably dark, scary, and full of murder. Nitroplus &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/PhantomOfInferno" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Phantom of Inferno (Visual Novel) - TV Tropes" />
+<meta name="twitter:description" content="Phantom of Inferno is the first release by the visual novel developer nitro+, whose games are almost invariably dark, scary, and full of murder. Nitroplus &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_43990_front.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Phantom of Inferno (Visual Novel) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/PhantomOfInferno" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_43990_front.jpg" />
+<meta property="og:description" content="Phantom of Inferno is the first release by the visual novel developer nitro+, whose games are almost invariably dark, scary, and full of murder. Nitroplus can be considered a blender of ideas, but Phantom in fact has a simple story in comparison &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/StarShapedCoupon" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/RobertEnglund" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VisualNovel/PhantomOfInferno?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VisualNovel/PhantomOfInferno">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VisualNovel.PhantomOfInferno">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=PhantomOfInferno&g=VisualNovel">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VisualNovel.PhantomOfInferno">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VisualNovel/PhantomOfInferno?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VisualNovel" />
+<input type="hidden" id="title-hidden" value="PhantomOfInferno" />
+<input type="hidden" id="article_id" value="308551" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/PhantomOfInferno</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Visual Novel / </strong>
+Phantom of Inferno
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VisualNovel",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Phantom of Inferno"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/PhantomOfInferno" class="subpage-link " title="The Anime page">
+<span class="wrapper"><span class="spi anime"></span>Anime</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/PhantomOfInferno" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Headscratchers/PhantomOfInferno" class="subpage-link " title="The Headscratchers page">
+<span class="wrapper"><span class="spi headscratchers"></span>Headscratchers</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/PhantomOfInferno" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/PhantomOfInferno" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/PhantomOfInferno" class="subpage-link curr-subpage" title="The VisualNovel page">
+<span class="wrapper">VisualNovel</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/PhantomOfInferno?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/PhantomOfInferno?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/PhantomOfInferno?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/PhantomOfInferno?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/PhantomOfInferno?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/PhantomOfInferno?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/PhantomOfInferno?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/PhantomOfInferno?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/PhantomOfInferno?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/PhantomOfInferno?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/PhantomOfInferno?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/PhantomOfInferno?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/PhantomOfInferno?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/PhantomOfInferno?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:300px;"><div class="lazy_load_img_box" style="padding-top:142.33%"><img src="https://static.tvtropes.org/pmwiki/pub/images/rsz_43990_front.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/rsz_43990_front.jpg" width="300" height="427"></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Phantom of Inferno</em> is the first release by the visual novel developer <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Nitroplus" title="/pmwiki/pmwiki.php/Creator/Nitroplus">nitro+</a>, whose games are almost invariably dark, scary, and full of murder. Nitroplus can be considered a blender of ideas, but <em>Phantom</em> in fact has a simple story in comparison to their other games.</p><p>The story follows the life of a young man who <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeKnowsTooMuch" title="/pmwiki/pmwiki.php/Main/HeKnowsTooMuch">sees something he shouldn't have seen</a>, is captured and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Brainwashed" title="/pmwiki/pmwiki.php/Main/Brainwashed">brainwashed</a> by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSyndicate" title="/pmwiki/pmwiki.php/Main/TheSyndicate">shadowy organization</a> called Inferno and then is given the choice "join or die". He is trained as an assassin by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SugarAndIcePersonality" title="/pmwiki/pmwiki.php/Main/SugarAndIcePersonality">soft-spoken</a> girl called Ein. Ein is Inferno's top assassin, code-named "Phantom" and controlled by the sinister Scythe Master, who also brainwashed the man. The man is given the name Zwei and begins his work at Inferno.</p><p>The game was first given an adaptation which tried to sum up the game in 3 OVA episodes. In 2009, a new anime entitled <em>Phantom ~Requiem for the Phantom~</em> was produced by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/BeeTrain" title="/pmwiki/pmwiki.php/Creator/BeeTrain">Bee Train</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/MobileSuitGundamUnicorn" title="/pmwiki/pmwiki.php/Anime/MobileSuitGundamUnicorn">Yosuke</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Manga/HoneyAndClover" title="/pmwiki/pmwiki.php/Manga/HoneyAndClover">Kuroda</a> writing and supervising the scripts (including a few from the original scenarist <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/GenUrobuchi" title="/pmwiki/pmwiki.php/Creator/GenUrobuchi">Gen Urobuchi</a> himself) and directed by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/KoichiMashimo" title="/pmwiki/pmwiki.php/Creator/KoichiMashimo">Koichi Mashimo</a>. The game has since been remade for the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Xbox360" title="/pmwiki/pmwiki.php/UsefulNotes/Xbox360">Xbox 360</a> featuring the anime design created by Bee Train, for October 25, 2012 release. This release was later ported on PC.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Notably, previews for the original game's second release aired at around the same time as <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Noir" title="/pmwiki/pmwiki.php/Anime/Noir">Noir</a></em>, which led to viewers connecting the two (as they have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolGuns" title="/pmwiki/pmwiki.php/Main/CoolGuns">similar</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GirlsWithGuns" title="/pmwiki/pmwiki.php/Main/GirlsWithGuns">themes</a>).</p><p></p><hr><h2>This work provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalAthlete" title="/pmwiki/pmwiki.php/Main/AccidentalAthlete">Accidental Athlete</a>: Drei</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazonBrigade" title="/pmwiki/pmwiki.php/Main/AmazonBrigade">Amazon Brigade</a>: The Zahlen Schwestern.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnyoneCanDie" title="/pmwiki/pmwiki.php/Main/AnyoneCanDie">Anyone Can Die</a>: Lots of people die. <span class="spoiler" title="you can set spoilers visible by default on your profile">Drei, Scythe Master, Ein, Zwei, Claudia, Lizzie, a LOT of people. Just take your pick.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AtTheOperaTonight" title="/pmwiki/pmwiki.php/Main/AtTheOperaTonight">At the Opera Tonight</a>: One of Zwei's coolest moments comes at the start of chapter 2 where he assassinates a rival gang boss who's visiting the opera (or to be precise a performance of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Theatre/ThePhantomOfTheOpera" title="/pmwiki/pmwiki.php/Theatre/ThePhantomOfTheOpera">The Phantom of the Opera</a></em>) by infiltrating the performance in disguise as The Phantom and shooting his target from the stage in the middle of the show.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeMomentOfCrowning" title="/pmwiki/pmwiki.php/Main/AwesomeMomentOfCrowning">Awesome Moment of Crowning</a>: While there's no crowning ceremony as such, the "Reiji Ending" from the game sees <span class="spoiler" title="you can set spoilers visible by default on your profile">Reiji lead the Zahlen Schwestern to massacre the assembled leaders of Inferno and make Reiji the head of all organised crime in America</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Reiji</span> had implausible fighting capabilities <em>before</em> joining Inferno.<ul><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> Later turned into just plain badass after the <span class="spoiler" title="you can set spoilers visible by default on your profile"> first time skip</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaitAndSwitchCredits" title="/pmwiki/pmwiki.php/Main/BaitAndSwitchCredits">Bait-and-Switch Credits</a>: The second opening plays with this. The actual footage makes things look like a slice of life series, but the intentional <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoundtrackDissonance" title="/pmwiki/pmwiki.php/Main/SoundtrackDissonance">Soundtrack Dissonance</a> from the song by <a class="twikilink" href="/pmwiki/pmwiki.php/Music/AliProject" title="/pmwiki/pmwiki.php/Music/AliProject">Ali Project</a> suggests that things aren't nearly as peaceful as they seem.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodierAndGorier" title="/pmwiki/pmwiki.php/Main/BloodierAndGorier">Bloodier and Gorier</a>: The OVA features several messy deaths of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoomHeadshot" title="/pmwiki/pmwiki.php/Main/BoomHeadshot">Boom, Headshot!</a> variety.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyguardCrush" title="/pmwiki/pmwiki.php/Main/BodyguardCrush">Bodyguard Crush</a>: Zwei and Cal, Mio and Shiga.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy" title="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy">Brainwashed and Crazy</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakTheCutie" title="/pmwiki/pmwiki.php/Main/BreakTheCutie">Break the Cutie</a>: Arguably the entire premise of the series. In fact, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhyWeAreBummedCommunismFell" title="/pmwiki/pmwiki.php/Main/WhyWeAreBummedCommunismFell">this is the BigBad Scythe's Job when he's in Stasi, the East German secret police</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGunman" title="/pmwiki/pmwiki.php/Main/ChekhovsGunman">Chekhov's Gunman</a> - Back in chapter 2 of the original Visual Novel, there is a small scene where Godoh Daisuke calls and speaks to his niece back in Japan. Considering all of the action that goes on in the chapter, the player will most probably have forgotten about this call by the end of it. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Guess who turns out to be a main heroine in chapter 3?</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolGuns" title="/pmwiki/pmwiki.php/Main/CoolGuns">Cool Guns</a>: And how!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkActionGirl" title="/pmwiki/pmwiki.php/Main/DarkActionGirl">Dark Action Girl</a>: Drei.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathByAdaptation" title="/pmwiki/pmwiki.php/Main/DeathByAdaptation">Death by Adaptation</a>: The anime follows the "Ein" path from the visual novel and features the "Road of the Cerulean Sky" ending from it as its conclusion, with the exception that <span class="spoiler" title="you can set spoilers visible by default on your profile"> in <em>this</em> version, Reiji and Ein both die at the very end.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemotedToExtra" title="/pmwiki/pmwiki.php/Main/DemotedToExtra">Demoted to Extra</a>: In the OAV, Claudia's role was almost completely slashed so that she only appears briefly in the third episode. Additionally, since the OAV only loosely followed in Visual Novel's first act, Cal's only makes a very brief background cameo during the second episode, and notably she's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationDyeJob" title="/pmwiki/pmwiki.php/Main/AdaptationDyeJob">a brunette</a> rather than a blonde.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepravedBisexual" title="/pmwiki/pmwiki.php/Main/DepravedBisexual">Depraved Bisexual</a>: In Phantom: Integration, <span class="spoiler" title="you can set spoilers visible by default on your profile">Drei</span> is one temporarily.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolusExMachina" title="/pmwiki/pmwiki.php/Main/DiabolusExMachina">Diabolus ex Machina</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The last 15 seconds of the anime turned it from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BittersweetEnding" title="/pmwiki/pmwiki.php/Main/BittersweetEnding">Bittersweet Ending</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerEnding" title="/pmwiki/pmwiki.php/Main/DownerEnding">Downer Ending</a>. Since everyone capable of killing Reiji and Ein had already been introduced and defeated, whoever shot Reiji after the credits wouldn't be recognized in a lineup by Chekhov or viewers.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerEnding" title="/pmwiki/pmwiki.php/Main/DownerEnding">Downer Ending</a> (Anime): <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolusExMachina" title="/pmwiki/pmwiki.php/Main/DiabolusExMachina">In literally the last minute of the show</a>, Reiji is shot &amp; killed by a disguised assassin in a passing hay wagon, and Ein commits suicide by consuming a poisonous Oxytropis leaf.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarnYourHappyEnding" title="/pmwiki/pmwiki.php/Main/EarnYourHappyEnding">Earn Your Happy Ending</a>: The anime's ending <em>was</em> going this way...but see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerEnding" title="/pmwiki/pmwiki.php/Main/DownerEnding">Downer Ending</a> above! <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolusExMachina" title="/pmwiki/pmwiki.php/Main/DiabolusExMachina">Augh!</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>: Drei looks exactly like Elise from the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/TriangleHeart3SweetSongsForever" title="/pmwiki/pmwiki.php/VisualNovel/TriangleHeart3SweetSongsForever">Triangle Heart 3: Sweet Songs Forever</a></em> OVA, and though Elise is much more professional and Drei much more wild, their similarities don't end at using guns, speaking <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousEnglish" title="/pmwiki/pmwiki.php/Main/GratuitousEnglish">Gratuitous English</a> and wearing purple. <span class="spoiler" title="you can set spoilers visible by default on your profile">Both are introduced after the bulk of the story and are put at odds with the male lead, whom they hate after a traumatic childhood incident involving a bomb planted by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>, and the female lead, who's just along for the ride.</span><ul><li> Cal has some similarities with <a class="urllink" href="http://en.wikipedia.org/wiki/Leon_%28film%29">Mathilda<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>: a teenaged girl trying to hire an assassin to avenge her murdered sibling, beginning to fall in love with said assassin, and learning the art of killing herself.</li><li> Ein has one in the form of Kirika from <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Noir" title="/pmwiki/pmwiki.php/Anime/Noir">Noir</a>, who is essentially the same character in an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateUniverse" title="/pmwiki/pmwiki.php/Main/AlternateUniverse">Alternate Universe</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FallingChandelierOfDoom" title="/pmwiki/pmwiki.php/Main/FallingChandelierOfDoom">Falling Chandelier of Doom</a>: One of the Zahlen Schwestern gets this treatment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fanservice" title="/pmwiki/pmwiki.php/Main/Fanservice">Fanservice</a>: Ein, Claudia, Drei, Mio, and the Zahlen Schwestern.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanDisservice" title="/pmwiki/pmwiki.php/Main/FanDisservice">Fan Disservice</a>: Scythe Master licking Ein suggestively in the first couple hours of play. Also Drei violently tearing off Mio's clothes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GainaxEnding" title="/pmwiki/pmwiki.php/Main/GainaxEnding">Gainax Ending</a>: In the anime, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Reiji is shot dead and Ein lies in the grass smiling. Questions remain, is Ein dead, did Inferno kill Reiji or did Ein? Is Ein dead, did she eat a poison flower? The ending is still hotly debated.</span><ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's not clear if Reiji was actually killed either. We never actually see him get hit, and he <em>has</em> survived bullet wounds in the past.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GettingCrapPastTheRadar" title="/pmwiki/pmwiki.php/Main/GettingCrapPastTheRadar">Getting Crap Past the Radar</a>: See <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanDisservice" title="/pmwiki/pmwiki.php/Main/FanDisservice">Fan Disservice</a> for the example. It fits two tropes (Hirameki released the game as 13+).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreShift" title="/pmwiki/pmwiki.php/Main/GenreShift">Genre Shift</a>: Joked around with. The anime's second opening will leave you surprised.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeographicFlexibility" title="/pmwiki/pmwiki.php/Main/GeographicFlexibility">Geographic Flexibility</a>: the anime dub states that everything is occurring around Los Angeles, with the desert scenes likely occurring in the Mojave desert to the east. However, if you look at "LA" (or know anything about it), it doesn't have the following: Honolulu's skyline, New York's Chrysler Building, Miami's shoreline, etc.<ul><li> This is made even worse when Ein drives what appears to be a Fiat Cinquecento, which was never available in North America.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGift" title="/pmwiki/pmwiki.php/Main/TheGift">The Gift</a>: Reiji catches Scythe's eye and is trained into Zwei instead of being killed out of hand when he displays a natural affinity for fighting.<ul><li> Cal also displays a genius-level intellect and knack for handling weapons which intrigues Reiji, <span class="spoiler" title="you can set spoilers visible by default on your profile">and eventually leads to her being turned into Drei by Scythe</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GirlsWithGuns" title="/pmwiki/pmwiki.php/Main/GirlsWithGuns">Girls with Guns</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGunslinger" title="/pmwiki/pmwiki.php/Main/TheGunslinger">The Gunslinger</a>: Ein and Drei.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoistByHisOwnPetard" title="/pmwiki/pmwiki.php/Main/HoistByHisOwnPetard">Hoist by His Own Petard</a>: In the "Reiji Ending", <span class="spoiler" title="you can set spoilers visible by default on your profile">Reiji uses his experience with Ein to take control of the Zahlen Schwesten and subvert them until they serve <em>him</em> rather than Scythe. He then turns them against Inferno and wipes out their leadership, taking control himself.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Homage" title="/pmwiki/pmwiki.php/Main/Homage">Homage</a>: Cal recites lines from films such as <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/DirtyHarry" title="/pmwiki/pmwiki.php/Film/DirtyHarry">Dirty Harry</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TaxiDriver" title="/pmwiki/pmwiki.php/Film/TaxiDriver">Taxi Driver</a></em> as she is learning to fire a gun.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowWhatWeCanDoCut" title="/pmwiki/pmwiki.php/Main/IKnowWhatWeCanDoCut">"I Know What We Can Do" Cut</a>: Scythe's plan in episode 6.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsAllMyFault" title="/pmwiki/pmwiki.php/Main/ItsAllMyFault">It's All My Fault</a>: Zwei after realizing that, not only did <span class="spoiler" title="you can set spoilers visible by default on your profile"> Cal</span> become the new Phantom, but it's his fault, since he's the one who taught her to use a gun, and the one who left her abandoned after <span class="spoiler" title="you can set spoilers visible by default on your profile"> somebody blew up his living space</span>.<ul><li> To be fair, he did think she was dead.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaHoudini" title="/pmwiki/pmwiki.php/Main/KarmaHoudini">Karma Houdini</a>: In the anime <span class="spoiler" title="you can set spoilers visible by default on your profile"> Raymond McGuire, leader of Inferno, has Reiji assassinated and Ein commits suicide, and even though he's lost Scythe Master and his assassins, still controls Inferno and most of the US criminal underworld.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillEmAll" title="/pmwiki/pmwiki.php/Main/KillEmAll">Kill 'Em All</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Of all the named main characters, only Mio and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaHoudini" title="/pmwiki/pmwiki.php/Main/KarmaHoudini">Karma Houdini</a> Raymond McGuire are still standing at the end.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LighterAndSofter" title="/pmwiki/pmwiki.php/Main/LighterAndSofter">Lighter and Softer</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DenserAndWackier" title="/pmwiki/pmwiki.php/Main/DenserAndWackier">Denser and Wackier</a>: The Picture Dramas, which frequently portray Reiji as both the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OnlySaneMan" title="/pmwiki/pmwiki.php/Main/OnlySaneMan">Only Sane Man</a> and a major <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>, Ein as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheComicallySerious" title="/pmwiki/pmwiki.php/Main/TheComicallySerious">The Comically Serious</a>, and Scythe as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">Large Ham</a> with the entire cast discussing rather mundane things most of the time rather than anything crime or assassin related but still treating everything as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeriousBusiness" title="/pmwiki/pmwiki.php/Main/SeriousBusiness">Serious Business</a>. Several of the shorts even portray Reiji and Ein as <em>live action puppets</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MafiaPrincess" title="/pmwiki/pmwiki.php/Main/MafiaPrincess">Mafia Princess</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Mio. Even <em>she</em> doesn't know about it.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a>: The first half of Episode 20 in the anime. After such a solemn ending to the last episode, you may question if the anime is playing a joke on you by suddenly switching gears to a high school comedy. However, for the second half of the episode it's just buissness as usual.<ul><li> Ein and Zwei suffer from this, though often it is part of their cover. It almost seems as if Ein and Zwei are completely seperate people from Eren and Reiji.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MutuallyExclusivePartyMembers" title="/pmwiki/pmwiki.php/Main/MutuallyExclusivePartyMembers">Mutually Exclusive Party Members</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> If you come down to the choice between Ein and Cal at the end of chapter 3, the one Reiji doesn't search for will die by the end.</span><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeAThirdOption" title="/pmwiki/pmwiki.php/Main/TakeAThirdOption">Take a Third Option</a>: There's only one way to <span class="spoiler" title="you can set spoilers visible by default on your profile">get through chapter 3 with both Ein and Cal alive- take the Mio route. Ein will remain Reiji's platonic ally in protecting Mio, and while Cal won't forgive Reiji for betraying her, she'll at least stop trying to kill him.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotBrainwashed" title="/pmwiki/pmwiki.php/Main/NotBrainwashed">Not Brainwashed</a>: Drei is the result of Scythe's "thought experiment" to see if keeping her memories and playing on her old grudges will keep her as loyal and efficient as removing her memories altogether would.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotQuiteDead" title="/pmwiki/pmwiki.php/Main/NotQuiteDead">Not Quite Dead</a>: Over and over and over...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOjou" title="/pmwiki/pmwiki.php/Main/TheOjou">The Ojou</a>: Mio.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OminousMusicBoxTune" title="/pmwiki/pmwiki.php/Main/OminousMusicBoxTune">Ominous Music Box Tune</a>: Drei's music box.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RapeAsDrama" title="/pmwiki/pmwiki.php/Main/RapeAsDrama">Rape as Drama</a>: It's implied that <span class="spoiler" title="you can set spoilers visible by default on your profile">Drei</span> does this to <span class="spoiler" title="you can set spoilers visible by default on your profile">Mio. With a gun barrel.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecapEpisode" title="/pmwiki/pmwiki.php/Main/RecapEpisode">Recap Episode</a>: Episode 11. Parts of episode 19 as well, but not as bad as episode 11.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoaringRampageOfRevenge" title="/pmwiki/pmwiki.php/Main/RoaringRampageOfRevenge">Roaring Rampage of Revenge</a>: A real <em>rampage</em> in one of the game's potential bad endings; after <span class="spoiler" title="you can set spoilers visible by default on your profile">Reiji's apartment is bombed, apparently killing Cal</span> then instead of letting Reiji succumb to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a> you can instead choose <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillEmAll" title="/pmwiki/pmwiki.php/Main/KillEmAll">"Kill Everyone"</a>. Reiji promptly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">kills EVERYONE</a>, slaughtering his way through pretty much everyone in Inferno, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDestructiveCharge" title="/pmwiki/pmwiki.php/Main/SelfDestructiveCharge">ignoring all the wounds his takes</a> until he reaches McGuire and, despite letting McGuire shoot him, kills him before succumbing to his wounds. Unfortunately, just to drive home that this <em>is</em> a bad ending and keep you from <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatharsisFactor" title="/pmwiki/pmwiki.php/Main/CatharsisFactor">enjoying yourself a bit too much</a>, you still get the scene of <span class="spoiler" title="you can set spoilers visible by default on your profile">Cal sobbing in lonely despair in the ruins of your apartment</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScarsAreForever" title="/pmwiki/pmwiki.php/Main/ScarsAreForever">Scars Are Forever</a>: In the anime after Reiji is shot by Scythe at one point, the bullet wounds leave permanent scars over his body. This is most evident in one brief scene where he's sun-tanning on his apartment roof and they're clearly visible over his chest. Eren also has a scar where she was shot by Lizzie.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> The first episode has a few homages to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Scarface1983" title="/pmwiki/pmwiki.php/Film/Scarface1983">Scarface (1983)</a></em> including the Giant Globe bearing the words <em>The World is Mine.</em></li><li> Reiji and Cal's initial relationship is a notable homage to one between the two protagonists of the film <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheProfessional" title="/pmwiki/pmwiki.php/Film/TheProfessional">Leon</a></em>.</li><li> In the Picture Dramas, Scythe takes on the identity of <a class="twikilink" href="/pmwiki/pmwiki.php/Series/TwentyFour" title="/pmwiki/pmwiki.php/Series/TwentyFour">Agent Back Jauer</a>. Ein also pretends to be <a class="twikilink" href="/pmwiki/pmwiki.php/Manga/UruseiYatsura" title="/pmwiki/pmwiki.php/Manga/UruseiYatsura">Lum</a> in one of them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShownTheirWork" title="/pmwiki/pmwiki.php/Main/ShownTheirWork">Shown Their Work</a>: The original game went into <em>ridiculous</em> levels of detail when it came to the guns. You got <em>lectures.</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlasherSmile" title="/pmwiki/pmwiki.php/Main/SlasherSmile">Slasher Smile</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Reiji near the end of episode 10.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SleepCute" title="/pmwiki/pmwiki.php/Main/SleepCute">Sleep Cute</a>: Cal and Reiji in the second anime, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BleachedUnderpants" title="/pmwiki/pmwiki.php/Main/BleachedUnderpants">oddly replacing a sex scene.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS" title="/pmwiki/pmwiki.php/Main/SpellMyNameWithAnS">Spell My Name with an "S"</a>: Is it Elen or Eren?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperPrototype" title="/pmwiki/pmwiki.php/Main/SuperPrototype">Super Prototype</a>: Played with. Ein is Scythe's prototype assassin, an apparently ordinary girl he used his brainwashing, mental conditioning and induced amnesia on to turn into an emotionless killer. His second attempt with Zwei, attempting similar techniques on a boy with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGift" title="/pmwiki/pmwiki.php/Main/TheGift">a natural instinct for killing</a> and allowing Ein to train him, arguably produced a more deadly killer, but Zwei proved ultimately impossible to control, as well as less clinically professional. Drei, his third project based around training another girl with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGift" title="/pmwiki/pmwiki.php/Main/TheGift">a knack for combat</a> by exploiting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePowerOfHate" title="/pmwiki/pmwiki.php/Main/ThePowerOfHate">The Power of Hate</a> generated another deadly human killing machine, but the ultimate result was still only roughly equivalent to Ein. Finally he created the Zahlen Schwestern, a mass-produced group of female assassins utilizing the same techniques he used to create Ein, but when Ein and the Zahlen Schwestern actually fight each other, she wipes them out almost single-handedly, even registering disappointment that development had advanced so little since her own creation. In the end, it's debatable who the deadliest is, but Ein seems to have the greatest edge because of her cold precision.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSyndicate" title="/pmwiki/pmwiki.php/Main/TheSyndicate">The Syndicate</a>: Inferno.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpdatedRerelease" title="/pmwiki/pmwiki.php/Main/UpdatedRerelease">Updated Re-release</a>: Releases on DVD and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/PS2" title="/pmwiki/pmwiki.php/UsefulNotes/PS2">PS2</a> add voice acting, but remove sexual content. <em>Phantom: Integration</em> adds more sexual content and an extra ending, but removes voice acting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VagueAge" title="/pmwiki/pmwiki.php/Main/VagueAge">Vague Age</a>: The only apparent reason to why Drei grew up and Ein/Zwei didn't.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameRemake" title="/pmwiki/pmwiki.php/Main/VideoGameRemake">Video Game Remake</a>: Remade for <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Xbox360" title="/pmwiki/pmwiki.php/UsefulNotes/Xbox360">Xbox 360</a> featuring the new character designs created in the anime series ~Requiem for the Phantom~ as well as the voice cast of the anime.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VivaLasVegas" title="/pmwiki/pmwiki.php/Main/VivaLasVegas">Viva Las Vegas!</a>: One episode has Ein carry out a hit at the Paris hotel.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMaskOfDoom" title="/pmwiki/pmwiki.php/Main/WhiteMaskOfDoom">White Mask of Doom</a>: Worn by assassins.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouAreNumberSix" title="/pmwiki/pmwiki.php/Main/YouAreNumberSix">You Are Number 6</a>: Ein, Zwei, Drei as well as the individual members of the Zahlen Schwestern in the anime.</li></ul><p></p><hr>
+</div>
+<div class="alt-titles section section-fact">
+<h3>
+<strong>Alternative Title(s):</strong>
+<span>Phantom Of Inferno</span>, <span>Phantom Requiem For The Phantom</span> </h3>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/GenUrobuchi">Creator/Gen Urobuchi</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/KikokugaiTheCyberSlayer">Kikokugai: The Cyber Slayer</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/WesternAnimation/BatmanGothamKnight">Batman: Gotham Knight</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/BeeTrain">Creator/Bee Train</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/HaloLegends">Halo Legends</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Phantasmagoria">Phantasmagoria</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/AppleMacintosh">UsefulNotes/Apple Macintosh</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/PinballConstructionSet">Pinball Construction Set</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/PhantasyStarOnline2TheAnimation">Phantasy Star Online 2: The Animation</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheAnimeOfTheGame">The Anime of the Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/Pokemon">Pokémon</a>
+</li>
+</ul>
+<ul>
+<li>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Nitroplus">Creator/nitro+</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/Xbox360">Xbox 360</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/PeriodCube">Period Cube</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/PhantomThiefSilverCat">Phantom Thief Silver Cat</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/PingPong">Ping Pong</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Funimation">Creator/Funimation</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/Planetarian">Planetarian</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/PetShopOfHorrors">Pet Shop of Horrors</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Anime">Anime</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/PhantomThiefJeanne">Phantom Thief Jeanne</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Anime/ParanoiaAgent">Paranoia Agent</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AnimeOfThe2000s">Anime of the 2000s</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Manga/Phoenix">Phoenix</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Infinity (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Infinity is a tabletop wargame created by Spanish company Corvus Belli in 2006. It is influenced by Ghost in the Shell and other Post-Cyberpunk anime/manga &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Infinity" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Infinity (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Infinity is a tabletop wargame created by Spanish company Corvus Belli in 2006. It is influenced by Ghost in the Shell and other Post-Cyberpunk anime/manga &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Infinity (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Infinity" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Infinity is a tabletop wargame created by Spanish company Corvus Belli in 2006. It is influenced by Ghost in the Shell and other Post-Cyberpunk anime/manga and is known for its dynamic rule system (you can still take actions during your opponent' &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/SuperheroesWearCapes" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/LeePace" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Infinity?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Infinity">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Infinity">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Infinity&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Infinity">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Infinity?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Infinity" />
+<input type="hidden" id="article_id" value="280220" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Infinity</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Infinity
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Infinity"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Infinity" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/Infinity" class="subpage-link " title="The ComicBook page">
+<span class="wrapper"><span class="spi comicbook"></span>ComicBook</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Fanfic/Infinity" class="subpage-link " title="The Fanfic page">
+<span class="wrapper"><span class="spi fanfic"></span>Fanfic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Infinity" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/Infinity" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Infinity" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Infinity" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Infinity" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/Infinity" class="subpage-link " title="The VisualNovel page">
+<span class="wrapper">VisualNovel</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Infinity?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Infinity?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Infinity?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Infinity?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Infinity?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Infinity?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Infinity?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Infinity?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Infinity?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Infinity?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Infinity?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Infinity?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Infinity?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Infinity?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Infinity?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/Infinity?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p>Infinity is a tabletop wargame created by Spanish company Corvus Belli in 2006. It is influenced by <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/GhostInTheShell" title="/pmwiki/pmwiki.php/Franchise/GhostInTheShell">Ghost in the Shell</a></em> and other <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostCyberpunk" title="/pmwiki/pmwiki.php/Main/PostCyberpunk">Post-Cyberpunk</a> anime/manga and is known for its dynamic rule system (you can still take actions during your opponent's turn, meaning you never have "nothing" to do) and the "interesting" poses on many of its models.</p><p>It is 175 years into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFuture" title="/pmwiki/pmwiki.php/Main/TheFuture">The Future</a> and humanity has been able to colonise the stars thanks to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWormholesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWormholesAreDifferent">wormholes</a> and a grand unifying <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIs" title="/pmwiki/pmwiki.php/Main/AIs">AI</a> named ALEPH. ALEPH is overseen by an organisation called O-12 that also controls giant cargo ships called Circulars that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">travel around the 11 human-controlled systems in a circular route</a>, effectively making them this universe's equivalent of <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Dune" title="/pmwiki/pmwiki.php/Franchise/Dune">CHOAM</a>. Unfortunately, even with mankind so spread out, they still can't keep their hands off of each other and have split into 5 separate factions which make up the Human Sphere:</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p></p><ul><li> <em>Pan Oceania</em>, the largest (by a small margin) and most technologically advanced of the factions, a veritable melting pot of cultures that is heavily influenced by Western thought and has lots of kickass gadgets. Pan Oceanian troops draw inspiration from a wide range of sources, ranging from South American uniforms to Southeast Asia and African tribal designs to Catholic knights, but much of their armor draws from <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Appleseed" title="/pmwiki/pmwiki.php/Anime/Appleseed">Appleseed</a>.</li><li> <em>Yu Jing</em>, the second-largest and constantly at odds with PanO. Consists mainly of the East Asian countries unified by China. Yu Jing draws heavily from East Asian designs - Chinese, Korean, and Tibetan, primarily. Japan used to be [part of it, until it successfully seceded.</li><li> <em>Haqqislam</em>, a sect of Islam that emphasises humanism and the search for knowledge. Their ability to manufacture the immortality drug Silk makes them very, very rich. Haqqislam naturally draws heavily from Middle eastern art styles and uniform designs, both contemporary and historical.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> <em>Nomads</em>, people who didn't agree with allowing themselves to be governed by ALEPH and left their respective societies aboard three giant colony ships. Nomads draw vaguely from Eastern European designs, particularly nomadic cultures, but for the most part are uniquely <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberpunk" title="/pmwiki/pmwiki.php/Main/Cyberpunk">cyberpunkish</a> in their aesthetics.</li><li> <em>Ariadna</em>, the survivors of the first colony ship sent through a wormhole, which mysteriously disappeared, only to be rediscovered several decades later. They don't particularly want to be controlled by anybody. Ariadna designs are a chaotic mixture of modern-day military from Europe, Russia, and the United States.</li><li> <em>ALEPH</em> itself maintains the Special Situations Section, essentially its own small, secret army of robots and cyborgs that serve as troubleshooters that eliminate threats to human stability, be they human or otherwise. ALEPH troops draw a lot of inspiration from high-tech cyberpunkish designs, particularly <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/GhostInTheShell" title="/pmwiki/pmwiki.php/Franchise/GhostInTheShell">Ghost in the Shell</a></em> (though GitS inspired a lot of <em>Infinity</em>, it is most noticeable in the aesthetics for ALEPH).</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <em>Non-Aligned Armies</em> are mainly various mercenary companies, which are mostly made up of mixed units from various "big" factions mixed in with some specifically merc ones (like the Druze or Brawlers). It's also where the Japanese Secessionist Army is categorized ever since their successful uprising from Yu Jing rule.</li></ul><p>While they were all gearing up for another NeoColonial War over the planet Paradiso, they've found their comfortable, violent way of life turned upside-down by the arrival of the <em>Combined Army</em>, a vast alien force composed of various <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanoidAliens" title="/pmwiki/pmwiki.php/Main/HumanoidAliens">Humanoid Aliens</a> and lead by an AI even more advanced than ALEPH, called the Evolved Intelligence (EI).</p><p>Also having appeared is the shadowy <em>Tohaa</em>, an alien species that has been worn down by their own long war with the Combined Army and seeks to either ally with humanity or use it to distract their enemies while they recover. Masters of biotech and symbiotic weaponry, they use their skills on themselves and to 'elevate' inferior races into good servants.</p><p>As the world of Infinity currently stands, the Combined Army has invaded the Human Sphere in the planet Paradiso and the combined efforts of all factions of mankind has barely managed to slow down their offensives. And this is, by all accounts, just the Combined <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThoseWereOnlyTheirScouts" title="/pmwiki/pmwiki.php/Main/ThoseWereOnlyTheirScouts">scouting force</a></em>, which leaves the leaders of the Human Sphere wondering just what the hell their "military" is going to consist of...</p><p><a class="twikilink" href="/pmwiki/pmwiki.php/Creator/ModiphiusEntertainment" title="/pmwiki/pmwiki.php/Creator/ModiphiusEntertainment">Modiphius Entertainment</a> funded <em><a class="createlink" href="/pmwiki/pmwiki.php/TabletopGame/InfinityTheRoleplayingGame" title="/pmwiki/pmwiki.php/TabletopGame/InfinityTheRoleplayingGame">Infinity The Roleplaying Game</a></em> <a class="urllink" href="https://www.kickstarter.com/projects/modiphius/corvus-bellis-infinity-roleplaying-game/?ref=kicktraq">through<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="twikilink" href="/pmwiki/pmwiki.php/Website/Kickstarter" title="/pmwiki/pmwiki.php/Website/Kickstarter">Kickstarter</a> and reached its initial funding goal within an hour of the campaign going up.</p><p>Corvus Belli launched a <a class="twikilink" href="/pmwiki/pmwiki.php/Website/Kickstarter" title="/pmwiki/pmwiki.php/Website/Kickstarter">Kickstarter</a> campaign <a class="urllink" href="https://www.kickstarter.com/projects/corvusbelli/infinity-defiance">for<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <em><a class="createlink" href="/pmwiki/pmwiki.php/TabletopGame/InfinityDefiance" title="/pmwiki/pmwiki.php/TabletopGame/InfinityDefiance">Infinity Defiance</a></em>, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DungeonCrawling" title="/pmwiki/pmwiki.php/Main/DungeonCrawling">Dungeon Crawling</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoardGame" title="/pmwiki/pmwiki.php/Main/BoardGame">Board Game</a>. Players take on the role of a group of heroes aboard the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VehicleTitle" title="/pmwiki/pmwiki.php/Main/VehicleTitle">Defiance</a> sent on a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuicideMission" title="/pmwiki/pmwiki.php/Main/SuicideMission">Suicide Mission</a> into alien space to destroy a new wormhole gate being built before it can be used to invade human space.</p><hr><h2>Contains examples of:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbnormalAmmo" title="/pmwiki/pmwiki.php/Main/AbnormalAmmo">Abnormal Ammo</a>: Weapons have ammunition types, ranging from fairly standard (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">fire</a>, explosive, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercing" title="/pmwiki/pmwiki.php/Main/ArmorPiercing">Armor Piercing</a>) to less conventional, such as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharpenedtoaSingleAtom" title="/pmwiki/pmwiki.php/Main/SharpenedtoaSingleAtom">monofilament</a>, "double action" (which is basically two hits for the price of one), <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepletedPhlebotinumShells" title="/pmwiki/pmwiki.php/Main/DepletedPhlebotinumShells">T2 (made of Tesium) and K1 (based on alien tech)</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlasmaCannon" title="/pmwiki/pmwiki.php/Main/PlasmaCannon">plasma</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElectroMagneticPulse" title="/pmwiki/pmwiki.php/Main/ElectroMagneticPulse">electromagnetic</a>, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/BiologicalWeaponsSolveEverything" title="/pmwiki/pmwiki.php/Main/BiologicalWeaponsSolveEverything">viral</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">A.I. Is a Crapshoot</a>: Played with: ALEPH, the all-seeing AI governing nearly all of humanity, is perfectly loyal to humanity... but if that means having to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShootTheDog" title="/pmwiki/pmwiki.php/Main/ShootTheDog">put down a few folks trying to cut deals with aliens or having to kill in self-defense</a>, so be it. This train of thought terrifies the Nomads, who, on top of being techno-libertarians of all stripes, do not trust what an ultra-powerful AI with access to every imaginable electronic can do - going so far as to build a ginormous fleet to escape ALEPH's clutches.<ul><li> The first attempt at AI by the Ur-Rationalists <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoneHorriblyRight" title="/pmwiki/pmwiki.php/Main/GoneHorriblyRight">worked out TOO well</a>: it achieved transcendence... and promptly shut out its masters, beliving them to be a race that will never ascend its nature. The second AI - the one that leads the Combined Army we all know and love to this day - is a violent killing machine subjugating and smashing its way through all of the universe to find enough slave races to force its own transcendence.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllBikersAreHellsAngels" title="/pmwiki/pmwiki.php/Main/AllBikersAreHellsAngels">All Bikers Are Hells Angels</a>:<ul><li> The Kum Motorised Units are violent outlaws and raiders persuaded to fight for Haqqislam but who, in practice, do whatever they want.</li><li> The main incentives used by the Yu Jing army to recruit the Aragoto Senkenbutai are speed, high risks, and all the shooting you want... and you get paid for it. (and the fact resurrection is a fact of life in the Infinity universe, especially if you're part of a military)</li><li> Ariadna's own Desperadoes are Wild West-style outlaws and Native Americans who've brought back scalping their enemies. They're viewed as horrifically brutish, even by Ariadnan's rough-and-tumble standards... but the tribes and bandits they fight are so much worse.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazonBrigade" title="/pmwiki/pmwiki.php/Main/AmazonBrigade">Amazon Brigade</a>: The Nomads alone have the Reverend Moiras (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChurchMilitant" title="/pmwiki/pmwiki.php/Main/ChurchMilitant">Church Militant</a> nuns), Riot Grrrls (radical feminist punks), and Tunguska Cheerkillers (cybernetically-enhanced cheerleaders turned spec ops). More broadly, there are enough female models that you can make an all-female list for just about any faction if you so desire.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimeHair" title="/pmwiki/pmwiki.php/Main/AnimeHair">Anime Hair</a>: A few models, especially among the Nomads, have that crazy matchstick style - which perfectly matches the anarchic and 80s/90s Japanese cyberpunk feel of the Nomads.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmourIsUseless" title="/pmwiki/pmwiki.php/Main/ArmourIsUseless">Armour Is Useless</a>: Partially inverted. Everything can be brought down with the humble combi rifle on a basic mook, but the toughest Heavy Infantry and Tactical Armoured Gears can take a hell of a lot more punishment than line infantrymen. A <a class="urllink" href="http://store.infinitythegame.com/articulo.php?f=1&amp;s=4&amp;o=3&amp;id=137">Jotum<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> super-heavy TAG against a <a class="urllink" href="http://store.infinitythegame.com/articulo.php?f=1&amp;s=5&amp;o=3&amp;id=180">Kempeitai<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> line infantryman is effectively a foregone conclusion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercingAttack" title="/pmwiki/pmwiki.php/Main/ArmorPiercingAttack">Armor-Piercing Attack</a>: Played straight with AP ammo, but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingWithATrope" title="/pmwiki/pmwiki.php/Main/PlayingWithATrope">played...weirdly</a> with Breaker ammo, whose main purpose is to reduce resistance to hacking attacks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AssKickingPose" title="/pmwiki/pmwiki.php/Main/AssKickingPose">Ass Kicking Pose</a>: Taken to sometimes absurd levels by the models. It seems rather impractical to run while <a class="urllink" href="http://www.arcaneminiatures.co.uk/images/infinity-miniatures/280220-0112.jpg">hunched over<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> and hacking at the same time. <a class="urllink" href="http://www.arcaneminiatures.co.uk/images/infinity-miniatures/280122-0128.jpg">You have to wonder what they were thinking on some of these.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><small>&loz;</small> Fortunately it's not nearly as bad on newer models, which have slipped safely back into the realm of kickass.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence" title="/pmwiki/pmwiki.php/Main/AscendToAHigherPlaneOfExistence">Ascend to a Higher Plane of Existence</a>: The EI wants to recreate an AI that can do this, for the good of its creators. The previous one didn't think they were ready for it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadAssBoast" title="/pmwiki/pmwiki.php/Main/BadAssBoast">Bad Ass Boast</a>:<ul><li> Achilles. "The situation, in short, is this: I have just destroyed your escape module. You are trapped inside here with me. I am Achilles. <em>And you are dead already</em>."</li><li> Druze Shock Teams. Their motto? "We are bad people, but we can be worse."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassLongcoat" title="/pmwiki/pmwiki.php/Main/BadassLongcoat">Badass Longcoat</a>: Almost every faction has one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BandOfBrothels" title="/pmwiki/pmwiki.php/Main/BandOfBrothels">Band of Brothels</a>: The Haqqislam Odalisques, who are an elite bodyguard unit as well as courtesans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BareYourMidRiff" title="/pmwiki/pmwiki.php/Main/BareYourMidRiff">Bare Your Mid Riff</a>: <em>Quite</em> a few of the female soldiers, especially those from the Ariadna faction, who invariably wear crop-tops and military-style short shorts to go with it.<ul><li> Recent Ariadna releases have toned those down. You do see it on some characters still though.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">BFS</a>: The 45th Highlander Rifles and the 3rd Highlander Grey Rifles charge into battle with assault rifles and <em>claymores</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBlank" title="/pmwiki/pmwiki.php/Main/TheBlank">The Blank</a>: Nomad helmets practically run on this trope. Seriously. The only features you'll find are eye-holes and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TronLines" title="/pmwiki/pmwiki.php/Main/TronLines">Tron Lines</a>. <a class="urllink" href="http://www.infinitythegame.com/infinity/en/category/nomads/">There are too many examples to link individually, just look at their entire page.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlindIdiotTranslation" title="/pmwiki/pmwiki.php/Main/BlindIdiotTranslation">"Blind Idiot" Translation</a>: The first edition of the book was riddled with awkward translations, rules made unclear by their translation from Spanish, and words that hadn't been translated at all. Much of this was cleaned and fixed in the 2nd Edition rules.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyBackupDrive" title="/pmwiki/pmwiki.php/Main/BodyBackupDrive">Body Backup Drive</a>: It's done through "Cubes", which save a person's personality and all other important data onto ALEPH. With the aid of Silk this can be transferred into a clone body. Of course it's still limited by the price of Silk and the few organisations (religious or otherwise) allowed to issue Resurrection licenses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoringButPractical" title="/pmwiki/pmwiki.php/Main/BoringButPractical">Boring, but Practical</a>:<ul><li> Camouflaged troopers got you down? You can either use units with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeeTheInvisible" title="/pmwiki/pmwiki.php/Main/SeeTheInvisible">high-tech, multispectral visors</a> to discover them, use sensor pings to flush them out...<a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">or just roast the area with flamerthrowers</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManOnFire" title="/pmwiki/pmwiki.php/Main/ManOnFire">neatly burning away all their fancy camouflage gear</a> while you do it.</li><li> Ariadna troopers - who, with their late 20th-century-to-early-21st century tech (with the exception of things like angry werewolves and their Traktor drone - their USA grunts are no different from today's US military, and the most high-tech their SAS commandos get are balaclavas) - compete with immortal AI, angry gorilla aliens, powered armor, thermoptic camouflage, and monofilament blades with 20th century rifles loaded with armor-piercing bullets.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoxedCrook" title="/pmwiki/pmwiki.php/Main/BoxedCrook">Boxed Crook</a>: Many of the factions have units that are effectively &#147;co-opted&#148; prisoners. The Yu Jing, for example, make great use of their Wu Ming corps, violent criminals outfitted with heavy armour and weaponry and told to cut loose. The Special Deterrence Group for Haqqislam consist of soldiers one step away from dishonorable discharges, given one last shot at redemption. Yu Jing, Haqqislam, and Ariadna field biker outlaws who are promised whatever they can get, as long as they fight for the government.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy" title="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy">Brainwashed and Crazy</a>: The Kuang Shi are Yu Jing political prisoners who have been drowned in State propaganda, fitted with an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExplosiveLeash" title="/pmwiki/pmwiki.php/Main/ExplosiveLeash">Explosive Leash</a> and then pointed at the enemy. On a more immediate level, on the tabletop the Combine Sepsitor can overwrite the personality of any unit with a Cube and make it Combine-controlled for the rest of the game. And let's not forget <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousGerman" title="/pmwiki/pmwiki.php/Main/GratuitousGerman">Die Morlock Gruppe</a>, people who have taken body modification a bit too far, to the point where even anything-goes Bakunin doesn't think they're fit to mix with polite society. They're kept tranquilized until they're needed, then fed rage drugs and pointed at the enemy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BraveScot" title="/pmwiki/pmwiki.php/Main/BraveScot">Brave Scot</a>: The entire point of Caledonian Highlander Army.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonImmigrant" title="/pmwiki/pmwiki.php/Main/CanonImmigrant">Canon Immigrant</a>: Several characters from the Outrage manga have been made into game units.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatGirl" title="/pmwiki/pmwiki.php/Main/CatGirl">Cat Girl</a>:<ul><li> Daktaris, the Nomads' primary healer unit, are all catgirls that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext" title="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext">constantly cuss in Swahili while working on their patients.</a></li><li> Winter Vixens, often (and on the tabletop, the only) leaders of the specialized Uberfallkommando infiltration and riot police units, are genemodders who take traits from animals - foxes, wolves, and, well... cats.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChinaTakesOverTheWorld" title="/pmwiki/pmwiki.php/Main/ChinaTakesOverTheWorld">China Takes Over the World</a>: <span class="font-s">IN SPACE!</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatStilettos" title="/pmwiki/pmwiki.php/Main/CombatStilettos">Combat Stilettos</a>: Virtually every female model sports heels on their boots.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColdSniper" title="/pmwiki/pmwiki.php/Main/ColdSniper">Cold Sniper</a>: aside from generic sniper units there are several named characters that are this:<ul><li> Knauf, the main character from the manga, is pretty cold and calculated, though not entirely emotionless.</li><li> Major Lunah is often compared to a cobra, both in Infinity and <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Aristeia" title="/pmwiki/pmwiki.php/TabletopGame/Aristeia">Aristeia</a>.</li><li> Atalanta, the best Steel Phalanx sniper, is literally called "Queen of Snow" by other Homerids.</li><li> Armand "Le Muet" is an assassin that will work for anyone and is particularly cold towards other Tohaa since he cannot communicate via pheromones anymore (hence his nick name "the Mute").</li><li> Inverted with Teucer; he's the Steel Phalanx's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FriendlySniper" title="/pmwiki/pmwiki.php/Main/FriendlySniper">funny guy</a>. However his default gun is not a sniper rifle, but a mini-rocket launcher, while the others are limited to the sniper rifle.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalHit" title="/pmwiki/pmwiki.php/Main/CriticalHit">Critical Hit</a>: Generally speaking, every model has a 1-in-20 chance of making a critical hit, which in game terms causes an automatic wound with no save. This means even a basic line trooper has a chance of winning a shootout with, say, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MightyGlacier" title="/pmwiki/pmwiki.php/Main/MightyGlacier">Jotum Heavy TAG</a>...not one you'd put money on, admittedly, but the chance is there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChurchMilitant" title="/pmwiki/pmwiki.php/Main/ChurchMilitant">Church Militant</a>: Most of Pan Oceania's religious troops are members of this. The most common examples are the Knights Hospitaller, the Knights of Santiago and the Swiss Guard. The Nomads also have an example in the form of Reverend Moiras, followers of St. Mary of the Knife.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurbStompBattle" title="/pmwiki/pmwiki.php/Main/CurbStompBattle">Curb-Stomp Battle</a>: The first contact between the various factions of Humanity and the Combined Army did not go well for the humans. Out-sniped, Out-fought, Out-hacked and Out-teched, the Combined Army basically blew past the various defenses as if they weren't there and even sacked a few of humanity's cities. The short skirmish basically stopped only because the Combined Army mysteriously paused their advance. Speculation in the storied sections basically put the above Combined Army forces as a scouting group, and the forces already in humanity's sphere <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">were only waiting for the rest to come</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberNinja" title="/pmwiki/pmwiki.php/Main/CyberNinja">Cyber Ninja</a>: The Nomad Spektrs. The Ninja from the Yu Jing would be an example <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">if they existed, which they don't.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberspace" title="/pmwiki/pmwiki.php/Main/Cyberspace">Cyberspace</a>:<ul><li> Maya, which is used for virtually everything from business to communication to entertainment. Administrated by ALEPH, natch.</li><li> Due to their distrust of ALEPH, it is pretty inevitable the Nomads have their own Maya-copycat network called Arachne.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathFromAbove" title="/pmwiki/pmwiki.php/Main/DeathFromAbove">Death from Above</a>: "Combat Jump" troopers, as the name implies, have the ability to enter the board from above mid-mission. The apex of these types was the (now unfortunately discontinued) Combine Caskudas, a giant cockroach with a HMG that hit the ground so hard <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShockwaveStomp" title="/pmwiki/pmwiki.php/Main/ShockwaveStomp">nearby enemies were usually wiped out</a>.<ul><li> While Caskuda is still dead, Yu Jing drop troop Liu Xing continues its legacy, albeit with a less powerful explosion. It can still wipe out bunched up Light Infantry units if it lands among them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DecapitatedArmy" title="/pmwiki/pmwiki.php/Main/DecapitatedArmy">Decapitated Army</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownplayedTrope" title="/pmwiki/pmwiki.php/Main/DownplayedTrope">Downplayed</a>; losing your Lieutenant unit only prevents your units from sharing orders before you choose a new Lieutenant at the end of your turn.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Eagleland" title="/pmwiki/pmwiki.php/Main/Eagleland">Eagleland</a>: USAriadna, to the point where they're home to the only remaining Coca-Cola plant in human space.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>: Not necessarily anything in-story, but very clearly present with some of the early models, which look almost <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OffModel" title="/pmwiki/pmwiki.php/Main/OffModel">Off-Model</a> when comparing to the style that Corvus Belli is currently adhering to.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EjectionSeat" title="/pmwiki/pmwiki.php/Main/EjectionSeat">Ejection Seat</a>: Some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">TAGs</a> are equipped with ejection systems, and some of those systems let the pilot take some armor and the primary weapon with them, allowing them to stay in the fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElitesAreMoreGlamorous" title="/pmwiki/pmwiki.php/Main/ElitesAreMoreGlamorous">Elites Are More Glamorous</a>: The armies the player controls are generally intended to be special forces units who are conducting irregular or covert operations, which is why the game places vastly more emphasis on infantry instead of vehicles. Even the conventional low-cost light infantrymen are elite troops when compared with the rank-and-file riflemen of each faction's actual armies. This has dropped off a bit as the game has progressed, mostly you will be fielding a handful of elites with support (read supplying order resources) from rank-and-file troopers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnforcedColdWar" title="/pmwiki/pmwiki.php/Main/EnforcedColdWar">Enforced Cold War</a>: All the human factions are technically at peace and the game depicts secret ops. In universe "Code: Infinity" is how <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnitedNationsIsASuperpower" title="/pmwiki/pmwiki.php/Main/UnitedNationsIsASuperpower">O-12</a> describes a political situation in which anything could lead to an all-out war.<ul><li> The RPG is specifically about trying to maintain that peace as O-12 special agents.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingIsOnline" title="/pmwiki/pmwiki.php/Main/EverythingIsOnline">Everything Is Online</a>: Any piece of hardware can be disrupted or controlled by hackers. Even missiles in flight. Even people. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AvertedTrope" title="/pmwiki/pmwiki.php/Main/AvertedTrope">Averted</a> with Ariadna, who make use of more simple technology, essentially making them immune from Hackers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExplosiveLeash" title="/pmwiki/pmwiki.php/Main/ExplosiveLeash">Explosive Leash</a>: The Kuang Shi of the Yu Jing army are comprised of political prisoners who have found themselves brainwashed, strapped with an exploding collar, and told to run screaming towards the enemy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture" title="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture">Fantasy Counterpart Culture</a>: Slightly averted. No faction is entirely a counterpart culture of any one place, just of one place more so than another. Pan Oceania, Haqqislam and the Nomads all contain traces of African influence, for example.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FightingAShadow" title="/pmwiki/pmwiki.php/Main/FightingAShadow">Fighting a Shadow</a>: Many of the Combined Army's commanders are merely "aspects" of the EI. Killing one rids yourself of a powerful enemy, but the command structure continues unabated as the EI, well, finds another model and <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/MassEffect" title="/pmwiki/pmwiki.php/Franchise/MassEffect">assumes direct control</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GangstaStyle" title="/pmwiki/pmwiki.php/Main/GangstaStyle">Gangsta Style</a>: It's understandably cool, but was it really necessary for that many models to hold <em>their rifles</em> this way?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GladiatorGames" title="/pmwiki/pmwiki.php/Main/GladiatorGames">Gladiator Games</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Aristeia" title="/pmwiki/pmwiki.php/TabletopGame/Aristeia">"Aristeia!"</a>, a game much like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProfessionalWrestling" title="/pmwiki/pmwiki.php/Main/ProfessionalWrestling">Professional Wrestling</a>, complete with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Kayfabe" title="/pmwiki/pmwiki.php/Main/Kayfabe">Kayfabe</a> in some cases. It's much more lethal but this is largely offset by advances in medical technology.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoneHorriblyRight" title="/pmwiki/pmwiki.php/Main/GoneHorriblyRight">Gone Horribly Right</a>: William Wallace was recreated by ALEPH to cause chaos on Ariadna by fomenting war between the Scottish settlers and other cultures on the planet, weakening them all and allowing the other ALEPH-controlled human governments to increase their influence. He did exactly what he was supposed to - except that when he was dropped onto the planet, something went wrong on landing, and his loyalty to ALEPH was disrupted. As a result, Wallace didn't just rally the Scottish to his side, he rallied <em>everyone</em> to him, and now Ariadna is even stronger and more stubborn due to his inspiring leadership.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousNinja" title="/pmwiki/pmwiki.php/Main/GratuitousNinja">Gratuitous Ninja</a>: Being the pan-Asian faction, Yu-Jing have, of course, ninjas, in a wargame filled with 20th-century American riflemen, mechs, genemodded criminals, and space knights. Officially, Yu-Jing vehemently denies they exist, and are definitely not one of the most feared assassins in the setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsAkimbo" title="/pmwiki/pmwiki.php/Main/GunsAkimbo">Guns Akimbo</a>: The Twin Weapons rule lets you fire <em>any</em> two weapons at once, as long as they're identical. This is mostly used with pistols, but there are some notable exceptions.<ul><li> USAriadna Minutemen like their dual flamethrowers.</li><li> The Nomad <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Geckoes</a> and Tohaa Kotail Mobile Unit both have the ability to dual wield Combi Rifles, the standard infantry weapon.</li><li> The Yan Huo Invinvibles of Yu Jing take this to its logical extreme, with a loadout that features a pair of shoulder mounted missile launchers.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalfHumanHybrid" title="/pmwiki/pmwiki.php/Main/HalfHumanHybrid">Half-Human Hybrid</a>:<ul><li> Ariadna uses Dog-Faces, humans who were <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent">infected in the womb by Antipodes biting pregnant women</a>, as mercenaries.</li><li> The Nomads bring us the chimeras and the pupniks, who comprise the Uberfallkommando (Riot Police). The chimera is an undercover agent investigating underground fighting rings and the illegal body and gene mods involved has, to maintain cover, taken on several of these mods herself. The pupniks are hybrids whose very existence is illegal, as they are ridiculously violent, barely human in mind, yet still extremely clever. They are designed for combat, sex, or both. In fact, in many exclusive betting rings that pit these creatures against each other, a spectator can pay a large sum of money to have sex with the winning pupnik to allow the creature to let off some steam.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HistoricalDomainCharacter" title="/pmwiki/pmwiki.php/Main/HistoricalDomainCharacter">Historical Domain Character</a>: Joan of Arc, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/MiyamotoMusashi" title="/pmwiki/pmwiki.php/UsefulNotes/MiyamotoMusashi">Miyamoto Musashi</a>, Sun Tzu, William Wallace, Saladin, and Achilles, all recreations.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hologram" title="/pmwiki/pmwiki.php/Main/Hologram">Hologram</a>: The "Holoprojector" skill lets a model either diguise itself as another type of model or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShellGame" title="/pmwiki/pmwiki.php/Main/ShellGame">surround itself with false copies</a> for the enemy to shoot at.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HolographicDisguise" title="/pmwiki/pmwiki.php/Main/HolographicDisguise">Holographic Disguise</a>: Hassassin Fidays use highly advanced versions of these to impersonate friendly soldiers to make it easier to get within stabbing distance of their target. In game terms, this means a player has to dedicate resources actually discovering the enemy in their midsts, before the aforementioned stabbing takes place.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreWhite" title="/pmwiki/pmwiki.php/Main/HumansAreWhite">Humans Are White</a>: Averted in that all of the factions are made up of several ethnicities, though the Nomad nation takes the cake where dying your skin is normal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ICallItVera" title="/pmwiki/pmwiki.php/Main/ICallItVera">I Call It "Vera"</a>: The Merovignan Chasseurs are known for giving each of their weapons girly french names.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InASingleBound" title="/pmwiki/pmwiki.php/Main/InASingleBound">In a Single Bound</a>: Troops with the Super Jump ability can forget wasting time climbing up buildings or over obstacles and jump clear them with a leap.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvisibilityCloak" title="/pmwiki/pmwiki.php/Main/InvisibilityCloak">Invisibility Cloak</a>: Many factions have access to "Thermo-Optical mimetizing devices", a higher level of basic camoflague. In game terms this makes the model both difficult to find and then difficult to shoot at.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsRainingMen" title="/pmwiki/pmwiki.php/Main/ItsRainingMen">It's Raining Men</a>: Every faction has some sort of troopers that can be inserted from the air during a battle to flank the enemy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheJuggernaut" title="/pmwiki/pmwiki.php/Main/TheJuggernaut">The Juggernaut</a>: The Combined Army is a Juggernaut <em>army</em>. The Human Sphere is only barely surviving against a <em>scouting party</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">Kill It with Fire</a>:<ul><li> Fire weapons are some of the more dangerous in the game, as they can permanently disable Optical Disruptor Devices, camouflage, and other things that make a target harder to hit; plus, targets that suffer damage from fire weaponry must make a second damage resistance check to avoid burning to death.</li><li> The Tohaa. This tactic is highly effective against their highly flammable symbiont armor; when a unit wearing symbiont armor takes fire damage, it instantly dies. Funnily enough, this doesn't stop them from equipping themselves with fire weapons.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KilledOffForReal" title="/pmwiki/pmwiki.php/Main/KilledOffForReal">Killed Off for Real</a>: ALEPH soldiers fighting the Combined Army have their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyBackupDrive" title="/pmwiki/pmwiki.php/Main/BodyBackupDrive">cubes</a> disconnected as a matter of course, as the AI is rightfully petrified of one of their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy" title="/pmwiki/pmwiki.php/Main/BrainwashedAndCrazy">sepsitorised troopers</a> being killed, having their tainted consciousness uploaded back to ALEPH-Central and doing god-knows what.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeeroyJenkins" title="/pmwiki/pmwiki.php/Main/LeeroyJenkins">Leeroy Jenkins</a>: Certain units are marked by their desire to get to grips with the enemy as quickly as possible. On the upside, each of these "Impetuous" troops get a bonus free move at the beginning of their turn. Downside is that this move be directly towards the enemy lines, cover or good sense be damned.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ManchurianAgent" title="/pmwiki/pmwiki.php/Main/ManchurianAgent">Manchurian Agent</a>: The Combined Army's Sepsitor transmits a computer virus to the target's Cube, which can have numerous nasty effects up to and including <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindControl" title="/pmwiki/pmwiki.php/Main/MindControl">taking over the target</a> and it often can't be detected until it's too late. Their infiltrators, the Speculo Killers, can mimic their targets down to a genetic level and take their Cubes to gain access to their memories.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AMechByAnyOtherName" title="/pmwiki/pmwiki.php/Main/AMechByAnyOtherName">A Mech by Any Other Name</a>: Tactical Armoured Gear/TAGs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Mini-Mecha</a>:<ul><li> TAGs, with the possible exception of the Maghariba Guard, which is more along the lines of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiderTank" title="/pmwiki/pmwiki.php/Main/SpiderTank">Spider Tank</a>.</li><li> S5 <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Heavy Infantry</a> and the Nomad Gecko and Combined Army Xeodron are Mini-Mini-Mecha; they're bigger and heavier than power armored troops but small enough to form fireteams.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoRangeLikePointBlankRange" title="/pmwiki/pmwiki.php/Main/NoRangeLikePointBlankRange">No Range Like Point-Blank Range</a>: Pistols are exclusively Close Combat weapons, which can only be used when models are in base-to-base contact.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent">Our Werewolves Are Different</a>: Ariadna's Dog-faces. Their mothers were bitten by the natives of Ariadna, which introduced a retrovirus into their system that mutated them into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">TAG</a>-sized anthropomorphic wolf-people.<ul><li> Dog-face offspring is called "Wulver". They are sterile and don't morph, being stuck somewhere between the human and dog form.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutgrownSuchSillySuperstitions" title="/pmwiki/pmwiki.php/Main/OutgrownSuchSillySuperstitions">Outgrown Such Silly Superstitions</a>:<ul><li> Inverted; Christianity has actually experienced a significant resurgence, and the curious politics of PanOceania, which has done away with political parties in favor of private lobbies, has allowed the Catholic Church to become a significant player in PanO politics - and their knightly orders are a significant part of the PanO military.</li><li> Haqqislam is another inversion, a unique sect of Islam that was actually built from the ground up so that anyone could defend it in public debate and actually embraces and celebrates scientific advancement. They have many of the best biologists and geneticists, giving them a strong edge in human enhancement and a monopoly on resurrection technology.</li><li> Officially, Yu Jing is religonless, but still adheres to Neo-Confucianism - much like most of East Asia today - as a means of social control, along with allowing Buddhism and Taoism to keep the masses happy.</li><li> Among the Nomads are religious sects who rejected PanO.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonOfMassDestruction" title="/pmwiki/pmwiki.php/Main/PersonOfMassDestruction">Person of Mass Destruction</a>: ALEPH's own Achilles recreation is labeled as an "Individual of Mass Destruction" in-universe, and for good reason. His body is made up of the single most advanced technology in the Human Sphere, and his personality is modeled precisely on that of the mythological Achilles - violent, aggressive, brutal, savage, intelligent, and inspiring.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmour" title="/pmwiki/pmwiki.php/Main/PoweredArmour">Powered Armour</a>: Most heavy infantry wear it. On the other hand, hackers can hack it thanks to the amount of cybernetic systems involved that make it work, which can leave you high and dry in the middle of a fire fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy" title="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy">Proud Warrior Race Guy</a>:<ul><li> Subverted with the Morat, who, despite being brutish-looking gorilla-like <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Halo" title="/pmwiki/pmwiki.php/VideoGame/Halo">Brute-style</a> savages with big guns and bigger attitudes, don't have any particular leanings toward honour or glory. They are professional soldiers; war is what they do and all they know. Oh sure, they have diplomats, but considering that their first contact with every race they've encountered has been "shoot" it's not terribly reassuring.</li><li> Ariadna in general has this, because quite a few of the original colonists were military detachments from the elite of 21st century Earth. As a result, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/YanksWithTanks" title="/pmwiki/pmwiki.php/UsefulNotes/YanksWithTanks">US Army Rangers</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/BritsWithBattleships" title="/pmwiki/pmwiki.php/UsefulNotes/BritsWithBattleships">SAS commandos</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/RedsWithRockets" title="/pmwiki/pmwiki.php/UsefulNotes/RedsWithRockets">Cossacks and Spetznaz</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/GaulsWithGrenades" title="/pmwiki/pmwiki.php/UsefulNotes/GaulsWithGrenades">French commandos</a> and even <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Scotland" title="/pmwiki/pmwiki.php/UsefulNotes/Scotland">Scottish Highlanders</a>, complete with kilts and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">giant claymores</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RapunzelHair" title="/pmwiki/pmwiki.php/Main/RapunzelHair">Rapunzel Hair</a>: All the factions have at least one example, even the Combined Army.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledINSPACE" title="/pmwiki/pmwiki.php/Main/RecycledINSPACE">Recycled IN SPACE!</a>: Many of the units are modern day or classical military units <span class="font-s">IN POWER ARMOUR!</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RockBeatsLaser" title="/pmwiki/pmwiki.php/Main/RockBeatsLaser">Rock Beats Laser</a>: Ariadna in general, due to their separation from the rest of the Human Sphere, has a much lower tech level, with very little powered armor, cybernetic implants, biochemical modifications, or high-end weapons. They make up for it with having <em>lots</em> of primitive but powerful armor-piercing weaponry, guerilla-style combat, sheer cussed stubbornness, and combat experience. As an added bonus, a lot of the advanced weapons used by the other factions just won't work on Ariadna, as they're designed to disrupt other high-tech weaponry; combat hackers, for example, are useless against an Ariadna force. They're so low-tech that for ITS tournament play, Ariadna is allowed to hire mercenary hackers, seeing as they don't have any hackers in-faction. This is the few exceptions to the 'no mercs' rules in ITS.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SensorSuspense" title="/pmwiki/pmwiki.php/Main/SensorSuspense">Sensor Suspense</a>: Demonstrated in-game by Camouflage markers. That single camo marker sitting around the corner from your rifleman? It could be <strong>anything</strong> - a single line trooper, <em>multiple</em> line troopers, a heavy trooper, a mine, <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParanoiaFuel" title="/pmwiki/pmwiki.php/Main/ParanoiaFuel">a TAG</a>...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShortRangeLongRangeWeapon" title="/pmwiki/pmwiki.php/Main/ShortRangeLongRangeWeapon">Short-Range Long-Range Weapon</a>: It's a wargame so there's bound to be a lot. In particular, small arms fire is less effective over long distances where penalties are imposed and enemies can dive for cover. Having said that, this trope is still significantly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownplayedTrope" title="/pmwiki/pmwiki.php/Main/DownplayedTrope">downplayed</a> compared to most other games in a similar scale, like <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/IronKingdoms" title="/pmwiki/pmwiki.php/TabletopGame/IronKingdoms">WARMACHINE/HORDES</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: Like a <a class="twikilink" href="/pmwiki/pmwiki.php/TableTopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TableTopGame/Warhammer40000">fellow wargame</a>, there are tons and tons.<ul><li> Joan of Arc bears a significant resemblance to <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/FateStayNight" title="/pmwiki/pmwiki.php/VisualNovel/FateStayNight">Saber</a>, which is even more obvious in her concept art.</li><li> The Asuka biker gang leader for the Yu Jing combines the <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion" title="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion">a red-haired hothead named Asuka</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Tekken" title="/pmwiki/pmwiki.php/VideoGame/Tekken">a short-haired, spunky fighter also named Asuka</a>.</li><li> The Yu Jing JAS support pack includes a <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/MetalGearSolid2SonsOfLiberty" title="/pmwiki/pmwiki.php/VideoGame/MetalGearSolid2SonsOfLiberty">Arsenal Tengu.</a></li><li> The Uberfallkommando leader for the Nomad is <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/BlazBlue" title="/pmwiki/pmwiki.php/VideoGame/BlazBlue">Makoto, if she were also a fox girl</a>.</li><li> The blurb for the PanOceanian Fusiliers is <a class="twikilink" href="/pmwiki/pmwiki.php/Film/StarshipTroopers" title="/pmwiki/pmwiki.php/Film/StarshipTroopers">"Would you like to know more?"</a></li><li> The quote from a Nomad Riot Grrl leader - <em>very</em> 80s/90s radfem and girl-power/queer punk rock bands - is <a class="twikilink" href="/pmwiki/pmwiki.php/Film/BarbWire" title="/pmwiki/pmwiki.php/Film/BarbWire">"Don't call me babe".</a></li><li> The Haqqislam Odalisque wielding a spitfire is essentially <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/StreetFighter" title="/pmwiki/pmwiki.php/VideoGame/StreetFighter">Chun-Li</a>.</li><li> Veteran Kazaks of Ariadna take visual cues from <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/STALKER" title="/pmwiki/pmwiki.php/VideoGame/STALKER">Berill-5m and Skat armors</a>.</li><li> Nearly all armored [PanOceanian] units are variations of <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Appleseed" title="/pmwiki/pmwiki.php/Anime/Appleseed">E-SWAT armor</a>, right down to the fins on the side of the helmet - this is the most obvious in their TAG units, which <em>are</em> ESWAT suits.</li><li> One of the original Pupnik designs for the Uberfallkommandos was essentially a <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Predator" title="/pmwiki/pmwiki.php/Franchise/Predator">Yautja</a>.</li><li> The Scottish werewolf unit of the Ariadnans take cues from <a class="twikilink" href="/pmwiki/pmwiki.php/Film/DogSoldiers" title="/pmwiki/pmwiki.php/Film/DogSoldiers">Dog Soldiers</a>.</li><li> There's a mercenary who <em>literally</em> is <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Yojimbo" title="/pmwiki/pmwiki.php/Film/Yojimbo">Yojimbo</a>.</li><li> Le Muet, the rogue(?) half-Tohaa gene-engineered mercenary assassin, has a backstory that throws <a class="createlink" href="/pmwiki/pmwiki.php/Film/DayOfTheJackal" title="/pmwiki/pmwiki.php/Film/DayOfTheJackal">Day Of The Jackal</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Hitman" title="/pmwiki/pmwiki.php/VideoGame/Hitman">Hitman</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheBourneIdentity" title="/pmwiki/pmwiki.php/Film/TheBourneIdentity">The Bourne Identity</a> into a martini and shakes it up.</li><li> Some Yu Jing units have <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/GhostInTheShell" title="/pmwiki/pmwiki.php/Franchise/GhostInTheShell">Motoko's visor</a>.</li><li> Cubes, backups of a person's brain, memory, personality and all, are the same thing as <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TakeshiKovacs" title="/pmwiki/pmwiki.php/Literature/TakeshiKovacs">cortical</a> <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/EclipsePhase" title="/pmwiki/pmwiki.php/TabletopGame/EclipsePhase">stacks.</a></li><li> Se&ntilde;or Massacre, one of the mercenary units, basically <em>is</em> <a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/Deadpool" title="/pmwiki/pmwiki.php/ComicBook/Deadpool">Deadpool</a>. His backstory on the page is also a near-exact copy of Armitage's activities before meeting the protagonist in <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Neuromancer" title="/pmwiki/pmwiki.php/Literature/Neuromancer">Neuromancer</a>.</li><li> The RPG at one point reminds players that <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Paranoia" title="/pmwiki/pmwiki.php/TabletopGame/Paranoia">"ALEPH is your friend."</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a>: Referenced in fluff: <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Aristeia" title="/pmwiki/pmwiki.php/TabletopGame/Aristeia">Aristeia</a>, the combat sport show (which became a board game on its own) and Myrmidon Wars: The Animated Series, depicting a fictionalized account of the Paradiso front, with Steel Phalanx as the main characters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiderTank" title="/pmwiki/pmwiki.php/Main/SpiderTank">Spider Tank</a>: the Haqqislamite Maghariba Guard TAGs and most remotes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSquad" title="/pmwiki/pmwiki.php/Main/TheSquad">The Squad</a>: The whole idea behind the lists you build, as they are meant to represent a small team of special forces, rather than an actual "army". Certain factions can also in turn take Fireteams, groups of 3 - 5 models in cohesion who give each other offensive and defensive bonuses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StateSec" title="/pmwiki/pmwiki.php/Main/StateSec">State Sec</a>: Most factions have one. In game, these include ALEPH's cyborg troops &amp; the Yu Jing's Imperial Service. Yu Jing's IS is notable for being at constant internal war with the other state-sec factions - fighting against radical factions, ultranationalist runaways (especially due to the sore point that China overtook Japan and Korea, and the Japanese are, in-fluff, treated as second-class citizens), insurgents, false flags, etc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StickySituation" title="/pmwiki/pmwiki.php/Main/StickySituation">Sticky Situation</a>: There is a gun which fires fast-acting glue. Despite the strangeness of the concept, it is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedTrope" title="/pmwiki/pmwiki.php/Main/JustifiedTrope">Justified</a> by the fact it is easier to disable <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">TAGs</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmour" title="/pmwiki/pmwiki.php/Main/PoweredArmour">Heavy Infantry</a> by gluing them down rather than to get past their superior armor with small arms.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldiers" title="/pmwiki/pmwiki.php/Main/SuperSoldiers">Super Soldiers</a>: Haqqislam has several different ones - the Khawarij, who get enhanced reflexes and strength, the Djanbazan, who get enhanced stamina and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HealingFactor" title="/pmwiki/pmwiki.php/Main/HealingFactor">Healing Factor</a>, and the Janissaries, who are all orphans raised in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSpartanWay" title="/pmwiki/pmwiki.php/Main/TheSpartanWay">The Spartan Way</a> from birth and actually have their personalities broken down to the point where they can't be recorded on Cubes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">Suspiciously Specific Denial</a>: Present in the description of all of Yu Jing's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Ninja" title="/pmwiki/pmwiki.php/Main/Ninja">Ninja</a> troops. You see, Yu Jing's army does not include ninja. Ninja disappeared at the beginning of the 20th century. They no longer exist. They <em>certainly</em> don't exist as an elite assassination and black-ops unit who hunt down enemies of the State and execute them with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharpenedToASingleAtom" title="/pmwiki/pmwiki.php/Main/SharpenedToASingleAtom">monomolecular</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KatanasAreJustBetter" title="/pmwiki/pmwiki.php/Main/KatanasAreJustBetter">katana</a>. That would be absurd.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwissArmyGun" title="/pmwiki/pmwiki.php/Main/SwissArmyGun">Swiss Army Gun</a>: MULTI weapons, as a whole. Designed to load and cycle between various types of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbnormalAmmo" title="/pmwiki/pmwiki.php/Main/AbnormalAmmo">Abnormal Ammo</a>. The MULTI Rifle has the option to use armor-piercing or hyper-lethal shock ammo, or sacrifice burst-fire to shoot anti-materiel or stun rounds. The MULTI sniper is much the same, and the MULTI HMG upgrades the anti-materiel rounds to EXPLOSIVE ones. The Hyper-Rapid Magnetic Cannon (HMC) is also technically a MULTI weapon, despite not having MULTI in the name.<ul><li> While not MULTI weapons, the submachine gun, feueurbach, and shotguns also fill this role to a lesser degree. The submachine gun can switch between AP and shock ammo. The feuerbach effectively shoots minirockets of either an explosive or anti-materiel armor-piercing variety. And most shotguns can switch between AP slugs and more traditional scatter projectiles meant to hit targets in an area.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheKidWithTheRemoteControl" title="/pmwiki/pmwiki.php/Main/TheKidWithTheRemoteControl">The Kid with the Remote Control</a>: How some of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">TAGs</a> are controlled, sometimes in control booths from the other side of the planet. This is even represented in-game by not "flinching" from shots received, because the pilot is not physically there.<ul><li> The Hollow Men. Infantry-sized androids of the Jurisdictional Command of Tunguska, controlled remotely by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrainInAJar" title="/pmwiki/pmwiki.php/Main/BrainInAJar">disembodied brains</a> back on the mothership that spend most of their lives in an idyllic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LotusEaterMachine" title="/pmwiki/pmwiki.php/Main/LotusEaterMachine">Lotus-Eater Machine</a>. As far as the pilots are concerned, their missions are just elaborate shooter games. Whether they even know that their actions in the "game" have real world consequences, and whether they would care if they did, is left ambiguous.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnusualUserInterface" title="/pmwiki/pmwiki.php/Main/UnusualUserInterface">Unusual User Interface</a>: Hackers are easily identified by the holographic displays floating near their hands.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UrbanWarfare" title="/pmwiki/pmwiki.php/Main/UrbanWarfare">Urban Warfare</a>: Infinity battles invariably take place in areas with lots of cover, thanks to the Automatic Reaction Order rules leaving units in the open vulnerable to getting shot from all sides.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorMonk" title="/pmwiki/pmwiki.php/Main/WarriorMonk">Warrior Monk</a>: Yu Jing's Shaolin Monks, Haqqislam's Hassassin, and the Daturazi Witch-Soldiers, who turn their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">comlogs</a> into a martial art.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether" title="/pmwiki/pmwiki.php/Main/WeAREStrugglingTogether">We ARE Struggling Together</a>: The Human Sphere is in peril, as the <em>scouting force</em> of the Combined Army continues to juggernaut through every defensive line the factions have prepared... which naturally each power sees as the perfect opportunity to engage in further covert ops against their neighbours. The Tohaa themselves range from 'open allies of humanity' to 'seeing them as useful little monkeys for bait and engineering against the Combined Army' to 'savages no better than the Combined Army'. Every faction tries to free itself from the grip of ALEPH, as well, <em>especially</em> the Nomads and Ariadnans, the former of whom left human space because of the AI, and the latter of whom don't want <em>any</em> government. <em>Bureau Noir</em>, which is supposed to be the one agency that combines all human factions against extraterrestrial threats, is also encouraged by the RPG book to be a viper's nest of conflicting loyalties and faction representatives trying to sabotage the other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMaskOfDoom" title="/pmwiki/pmwiki.php/Main/WhiteMaskOfDoom">White Mask of Doom</a>: the troops from the Nomad ship Bakunin seem to love this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair" title="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair">You Gotta Have Blue Hair</a>: While you can paint models any colour you want, hair colours in the concept art range from reasonable and ordinary to pink and green. Official coloring for the models range from 'nothing out of the ordinary' to things like shock blue, neon green, albino pale, et cetera.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/HoL">Ho L</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/IsaacAsimovsRobots">Isaac Asimov's Robots</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheHyborianCampaign">The Hyborian Campaign</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WarGaming">War Gaming</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/IronKingdoms">Iron Kingdoms</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Infernum">Infernum</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Aristeia">Aristeia</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

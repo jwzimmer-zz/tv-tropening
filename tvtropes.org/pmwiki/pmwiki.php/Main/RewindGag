@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Rewind Gag - TV Tropes</title>
+<meta name="description" content="The Rewind Gag trope as used in popular culture. This is where a television show or film will have something go back the way it came by literally playing &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/RewindGag" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Rewind Gag - TV Tropes" />
+<meta name="twitter:description" content="The Rewind Gag trope as used in popular culture. This is where a television show or film will have something go back the way it came by literally playing &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Rewind Gag - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Main/RewindGag" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="This is where a television show or film will have something go back the way it came by literally playing part of the video in reverse. The comedy comes from the actions becoming outright absurd and/or Squicky because people are walking backwards &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/UnderTheMistletoe" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Fanfic/GuideMeHome" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Main/RewindGag?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Main/RewindGag">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Main.RewindGag">
+<i class="fa fa-history"></i> History</a></li><li class="link-discussion"><a href="/pmwiki/remarks.php?trope=Main.RewindGag">
+<i class="fa fa-comment"></i> Discussion</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Main/RewindGag?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Main" />
+<input type="hidden" id="title-hidden" value="RewindGag" />
+<input type="hidden" id="article_id" value="557184" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Main/RewindGag</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+Rewind Gag
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tropes",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Rewind Gag"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/RewindGag" class="subpage-link curr-subpage" title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/RewindGag" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoExamples/RewindGag" class="subpage-link video-examples-tab  " title="Video Examples">
+<img src="/images/play-button-logo.png" alt="play" class="">
+<span class="wrapper">VideoExamples</span>
+</a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/RewindGag?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/RewindGag?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/RewindGag?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/RewindGag?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/RewindGag?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/RewindGag?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/RewindGag?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/RewindGag?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/RewindGag?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/RewindGag?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/RewindGag?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/RewindGag?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/RewindGag?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/RewindGag?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/RewindGag?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/RewindGag?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/RewindGag?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="indent"><em>"Is it just me, or did someone hit 'rewind'?!"</em>
+<div class="indent">&mdash; <strong>Ralphie</strong>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheMagicSchoolBus" title="/pmwiki/pmwiki.php/Literature/TheMagicSchoolBus">The Magic School Bus</a></em> (<a class="twikilink" href="/pmwiki/pmwiki.php/Recap/TheMagicSchoolBusS2E3TheBusasaurus" title="/pmwiki/pmwiki.php/Recap/TheMagicSchoolBusS2E3TheBusasaurus">"The Busasaurus"</a>)
+</div></div><p>This is where a television show or film will have something go back the way it came by literally playing part of the video in reverse. The comedy comes from the actions becoming outright absurd and/or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Squick" title="/pmwiki/pmwiki.php/Main/Squick">Squicky</a> because people are walking backwards, falling <em>up</em>wards, <em>un</em>dying, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreadEggsMilkSquick" title="/pmwiki/pmwiki.php/Main/BreadEggsMilkSquick">vomiting up their food and/or eating their vomit,</a> etc. Audio is unintelligible due to it being played in reverse, but can add to the comedy due to its unusual sound.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>The Inverse of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FastForwardGag" title="/pmwiki/pmwiki.php/Main/FastForwardGag">Fast-Forward Gag</a>. Compare <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NowDoItAgainBackwards" title="/pmwiki/pmwiki.php/Main/NowDoItAgainBackwards">Now Do It Again Backwards</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RewindReplayRepeat" title="/pmwiki/pmwiki.php/Main/RewindReplayRepeat">Rewind, Replay, Repeat</a>. Frequently contains <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SdrawkcabSpeech" title="/pmwiki/pmwiki.php/Main/SdrawkcabSpeech">Sdrawkcab Speech</a>.
+</p><hr><h2>Examples:</h2>
+<p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Advertising" title="/pmwiki/pmwiki.php/Main/Advertising">Advertising</a></span>
+</p><ul><li> Commercials like to do this right before a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SetRightWhatOnceWentWrong" title="/pmwiki/pmwiki.php/Main/SetRightWhatOnceWentWrong">Set Right What Once Went Wrong</a> moment, right before revealing the product that they're selling/promoting.
+</li></ul><p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimeAndManga" title="/pmwiki/pmwiki.php/Main/AnimeAndManga">Anime &amp; Manga</a></span>
+</p><ul><li> At the end of Episode 13 of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PantyAndStockingWithGarterbelt" title="/pmwiki/pmwiki.php/Anime/PantyAndStockingWithGarterbelt">Panty &amp; Stocking with Garterbelt</a></em>, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Garterbelt <em>un</em>explodes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext" title="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext">thanks to God.</a></span>
+<div class="indent"><span class="spoiler" title="you can set spoilers visible by default on your profile"> <strong>Garterbelt</strong></span>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigOMG" title="/pmwiki/pmwiki.php/Main/BigOMG">GODDDD MYYYYY OOOHHHHH!!</a>
+</div></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Pokemon" title="/pmwiki/pmwiki.php/Anime/Pokemon">Pok&eacute;mon</a></em>: In the first episode of the <em>Sun and Moon</em> season, the flashback montage of the "Ketchum family"<span class="notelabel" onclick="togglenote('note07eon');"><sup>note&nbsp;</sup></span><span id="note07eon" class="inlinefolder" isnote="true" onclick="togglenote('note07eon');" style="cursor:pointer;font-size:smaller;display:none;">Who would just be "Satoshi's family" in the Japanese version, where he is just "Satoshi of Madara Town".</span> winning their vacation and taking flight to Alola is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FastForwardGag" title="/pmwiki/pmwiki.php/Main/FastForwardGag">Fast-Forward Gag</a>. Which is then, mere seconds later, replayed in reverse to remind Ash of the egg they're supposed to deliver.
+<ul><li> Earlier in the series during the Orange Islands arc, Satoshi / Ash and Pikachu see a fruit basket on the road and run to it. Kasumi / Misty stops them saying that the basket a likely a bait trap and then the action of Satoshi / Ash and Pikachu running towards it is rewound.
+</li></ul></li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Film" title="/pmwiki/pmwiki.php/Main/Film">Film</a></span>
+</p><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/The6thDay" title="/pmwiki/pmwiki.php/Film/The6thDay">The 6th Day</a></em> rewinds the film to just at the point where Adam Gibson's syncording takes place right before the end credits.
+</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> When doing the summation in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/AceVenturaWhenNatureCalls" title="/pmwiki/pmwiki.php/Film/AceVenturaWhenNatureCalls">Ace Ventura: When Nature Calls</a></em>, Ace rattles off his conclusion towards the accused. He then says "Let me run that back for you", reverses his actions, and speaks like he's rewinding.
+</li><li> Fred Levine's videos, such as <em><a class="urllink" href="https://youtu.be/0QRPFFRzvt0?t=717">Road Construction Ahead<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> and <em><a class="urllink" href="https://youtu.be/dc2xcMRud74?t=789">House Construction Ahead<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> feature <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StuffBlowingUp" title="/pmwiki/pmwiki.php/Main/StuffBlowingUp">explosions made to clear rocks</a> from where construction will happen, which then repeats in reverse. This is followed by clearing the exploded rocks from the area.
+</li><li> In both the original and remake of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/FunnyGames" title="/pmwiki/pmwiki.php/Film/FunnyGames">Funny Games</a></em>, the villains use a remote control at one point to rewind the scene like a video tape when things didn't turn out the way they planned.
+</li><li> In the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/MarvelCinematicUniverse" title="/pmwiki/pmwiki.php/Franchise/MarvelCinematicUniverse">Marvel Cinematic Universe</a>, the Time Stone allows you to selectively do this to <em>reality</em>.
+<ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/DoctorStrange2016" title="/pmwiki/pmwiki.php/Film/DoctorStrange2016">Doctor Strange (2016)</a></em>, Strange uses it to rewind the destruction of the Hong Kong sanctum and surrounding area while Mordo and Wong fight Kaecilis' zealots. The sorcerers use this to their advantage, trapping the zealots in structures as they're being un-destroyed.
+</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/AvengersInfinityWar" title="/pmwiki/pmwiki.php/Film/AvengersInfinityWar">Avengers: Infinity War</a></em>, <span class="spoiler" title="you can set spoilers visible by default on your profile">Thanos uses it to rewind Scarlet Witch's destruction of the Mind Stone</span>.
+</li></ul></li><li> Used several times in the film <em><a class="createlink" href="/pmwiki/pmwiki.php/Film/SupersonicSaucer" title="/pmwiki/pmwiki.php/Film/SupersonicSaucer">Supersonic Saucer</a></em> to save on animating Meba's flights around <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AliensInCardiff" title="/pmwiki/pmwiki.php/Main/AliensInCardiff">Surrey</a> and London when he changes into his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlyingSaucer" title="/pmwiki/pmwiki.php/Main/FlyingSaucer">flying saucer form</a>.
+<ul><li> It's also one of the powers used by Meba the <a class="urllink" href="https://aliens.fandom.com/wiki/Venusian_(Supersonic_Saucer)">Venusian<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> himself - with his eyes spinning when he uses it throughout the film. His most notable use of this power is in the film's climax, where he uses it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RewindReplayRepeat" title="/pmwiki/pmwiki.php/Main/RewindReplayRepeat">multiple times</a>.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TopSecret" title="/pmwiki/pmwiki.php/Film/TopSecret">Top Secret!</a></em> has a scene in which the characters speak Swedish, except it's actually English recorded backwards. The entire scene was filmed in reverse, which becomes more obvious as it goes along.
+</li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Literature" title="/pmwiki/pmwiki.php/Main/Literature">Literature</a></span>
+</p><ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/CheaperByTheDozen" title="/pmwiki/pmwiki.php/Literature/CheaperByTheDozen">Cheaper by the Dozen</a></em>, after one of the family's mealtimes is shown in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FastForwardGag" title="/pmwiki/pmwiki.php/Main/FastForwardGag">fast-forward</a>, Dad comments that it could have been worse; at least it didn't rewind it so it looked as though they vomited their food onto their plates.
+</li><li> At the end of the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/RedDwarf" title="/pmwiki/pmwiki.php/Literature/RedDwarf">Red Dwarf</a></em> novel <em>Better Than Life</em>, Lister finds himself in an alternate universe where time runs backward. Initially it's played more for drama than gags, both because Lister has no idea what's going on at first and because <span class="spoiler" title="you can set spoilers visible by default on your profile">Lister had just <em>died</em>, and his comrades stuck him in the backwards universe so he would undie and recover from the other traumas the novel had inflicted</span>, but the sequel, <em>Backwards</em> develops the comedic possibilities more.
+</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/SlaughterhouseFive" title="/pmwiki/pmwiki.php/Literature/SlaughterhouseFive">Slaughterhouse-Five</a></em>, Billy briefly becomes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnstuckInTime" title="/pmwiki/pmwiki.php/Main/UnstuckInTime">Unstuck in Time</a> while watching a war film and sees it in reverse. This results in a really bizarre interpretation of the films events, for example, a benevolent fighter squadron sucking bullets and shrapnel out of enemy bombers, and lifting some wrecked bombers on the ground back into the air.
+</li></ul><p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiveActionTV" title="/pmwiki/pmwiki.php/Main/LiveActionTV">Live-Action TV</a></span>
+</p><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/AmericasFunniestHomeVideos" title="/pmwiki/pmwiki.php/Series/AmericasFunniestHomeVideos">America's Funniest Home Videos</a></em> likes to do backward video montages sometimes.
+</li><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/RedDwarf" title="/pmwiki/pmwiki.php/Series/RedDwarf">Red Dwarf</a></em> episode "Backwards" has the Dwarf crew landing in Backwards Earth and exploring all the possibilities inherent in time running backwards. These include the Cat's horror when he realizes what logically happens when eating and digestion run in reverse &mdash; indeed, what must happen a day or so before regurgitating a very good meal onto the plate.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/Blackadder" title="/pmwiki/pmwiki.php/Series/Blackadder">Blackadder</a> the Third</em>: In "Amy and Amiability", the Prince, reading a newspaper article about his fianc&eacute;e Amy being an infamous bandit, remarks that "They say she had an accomplice." Blackadder, who had plotted with Amy to rob the Prince blind, drops the serving tray he's carrying. Then the Prince adds "But they don't know who it is," and the tray zips back up into Blackadder's hands.
+</li><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/StargateSG1" title="/pmwiki/pmwiki.php/Series/StargateSG1">Stargate SG-1</a></em> series finale, <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/StargateSG1S10E20Unending" title="/pmwiki/pmwiki.php/Recap/StargateSG1S10E20Unending">"Unending"</a>, plays this trope more seriously. SG-1, aboard the Tau'ri vessel Odyssey, activates an Asgard <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimeDilation" title="/pmwiki/pmwiki.php/Main/TimeDilation">Time Dilation</a> device to avoid being destroyed by an Ori warship's energy weapon, and spend decades coming up with a plan to save the ship and its repository of advanced knowledge given to them by the Asgard from destruction. <span class="spoiler" title="you can set spoilers visible by default on your profile"> They finally come up with a way to channel energy from the beam weapon to quite literally rewind time to a point before their destruction, so that Teal'c can prevent the ship from getting hit in the first place.</span>
+</li><li> A hilarious and rare, if not unique, <em>live</em> version occurs in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/MorkAndMindy" title="/pmwiki/pmwiki.php/Series/MorkAndMindy">Mork &amp; Mindy</a></em>, where someone tells Mork to "Back up to where you said..."&mdash;and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RobinWilliams" title="/pmwiki/pmwiki.php/Creator/RobinWilliams">Robin Williams</a> (as only he could do) physically reverses every action he's done for the past few minutes, at high speed, while making the "reverse dialogue" noises himself. Everyone else just stands there looking bemused until he finishes.
+</li><li> One of Dr. Pierce's hallucinatory conversations on <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/Perception" title="/pmwiki/pmwiki.php/Series/Perception">Perception</a></em> had him riding a bicycle backwards.
+</li></ul><p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Music" title="/pmwiki/pmwiki.php/Main/Music">Music</a></span>
+</p><ul><li> Near the end of the video for "Amish Paradise", <a class="twikilink" href="/pmwiki/pmwiki.php/Music/WeirdAlYankovic" title="/pmwiki/pmwiki.php/Music/WeirdAlYankovic">"Weird Al" Yankovic</a> sings through one scene which obviously plays backwards. Most notably, a buggy rolls past in the background backwards. He is apparently singing the song while doing so, so to make this scene he must have learned how to lip sync backwards.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Music/KeithUrban" title="/pmwiki/pmwiki.php/Music/KeithUrban">Keith Urban</a>'s "Days Go By" has a scene where he walks toward the camera while everything around him appears to be happening in reverse.
+</li><li> The video for "Drop" by <a class="twikilink" href="/pmwiki/pmwiki.php/Music/ThePharcyde" title="/pmwiki/pmwiki.php/Music/ThePharcyde">The Pharcyde</a> runs entirely in reverse. Thus, we see the band members spring to their feet from a lying position, rolling up stairs, repelling a bucket full of water upwards, and near the end, instantly piecing together a mural painted on glass with a hammer before wiping the paint off with paintbrushes.
+</li><li> The video for <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Coldplay" title="/pmwiki/pmwiki.php/Music/Coldplay">Coldplay</a>'s "The Scientist" plays backwards from the singer lying on a mattress on a random British street, him walking through the countryside, him getting up and walking after a massive car crash (that killed the girl he was driving with and sent said car down a hill) leaves him uninjured, the crash itself, and the events up to it, leaving him back in the car on the road with the girl buckled up properly (she had unbuckled before the crash, and was through through the windshield during it).
+</li><li> God Lives Underwater's music video for "From Your Mouth" plays backwards, where it looks like a Japanese competitive eater is pulling food out of his mouth.
+</li><li> Josh Turner's 2008 single "Another Try" has a scene of a man discovering that his lover has left, and throwing a suitcase full of belongings off a high bridge. This footage was filmed backwards, to represent the song's theme of wanting to reverse time and have "another try".
+</li><li> Internet musician Rob Scallon has several videos where he sings a song entirely backwards, and then reverses the recording so that it comes out sounding forwards, but strange-sounding. He has done this with renditions of "We Wish You a Merry Christmas" and "<a class="twikilink" href="/pmwiki/pmwiki.php/Music/Metallica" title="/pmwiki/pmwiki.php/Music/Metallica">Enter Sandman</a>", plus the original composition "The Backwards Song".
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Music/RascalFlatts" title="/pmwiki/pmwiki.php/Music/RascalFlatts">Rascal Flatts</a>' "Rewind" is about wanting to "rewind" a special moment with a loved one just for the sake of doing it a second time. Naturally, this also occurs in the music video.
+</li><li> The video for <a class="twikilink" href="/pmwiki/pmwiki.php/Music/FleetwoodMac" title="/pmwiki/pmwiki.php/Music/FleetwoodMac">Fleetwood Mac</a>'s "Big Love" starts with the video playing forwards, and then at the end rewinding its way back to the near beginning, stopping only at the close-up of Lindsey Buckingham's face.
+</li><li> The last minute of <a class="twikilink" href="/pmwiki/pmwiki.php/Music/AlanJackson" title="/pmwiki/pmwiki.php/Music/AlanJackson">Alan Jackson</a>'s "Like Red on a Rose" music video is just the rest of the video rewinding itself back to Alan Jackson walking backwards.
+</li><li> Moonbaby's <a class="urllink" href="https://www.youtube.com/watch?v=e60G9pxOE-Y">"Here We Go"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> (the original song before the <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TotallySpies" title="/pmwiki/pmwiki.php/WesternAnimation/TotallySpies">Totally Spies!</a></em> cover) features everything in reverse while the singer continues walking forward; and each time before the main chorus, <em>that</em> is reversed and it turns into a quick <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FastForwardGag" title="/pmwiki/pmwiki.php/Main/FastForwardGag">Fast-Forward Gag</a>.
+</li><li> The last track of Master Sword's <em>Shadow And Steel</em> album, a collection of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda" title="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda">The Legend of Zelda</a></em> remixes, has a stinger where the Song of Time is played, and the album is rewound to the beginning before it restarts with the drum intro to the first track. The effect is spoiled a little with the special version Kickstarter backers received, which includes a bonus track after the original final track.
+</li><li> The video for Rather Unique's "Good Dayz" is just the rest of the video rewinding itself back to the near beginning before the music came back.
+</li><li> Parodied and averted in the video for <a class="twikilink" href="/pmwiki/pmwiki.php/Music/MitchBenn" title="/pmwiki/pmwiki.php/Music/MitchBenn">Mitch Benn</a>'s "Everything Sounds Like Coldplay Now", which <em>doesn't</em> reverse the film during the scenes parodying "The Scientist", and just has Mitch walking down a street backwards, bumping into people.
+</li><li> Played horribly straight in the music video for Burning Benches, by the band Morning Runner. It starts off with the members of the band underwater and it is quickly revealed that the video is being played backwards, as they reach ever-decreasing levels of panic as the water recedes. Also counts as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NightmareFuel" title="/pmwiki/pmwiki.php/Main/NightmareFuel">Nightmare Fuel</a> as the video ends with them entering an elevator, with no idea what is to come.
+</li><li> In the video for <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Genesis" title="/pmwiki/pmwiki.php/Music/Genesis">Genesis</a>' "Anything She Does", this was used for the security guard played by Benny Hill to clean up the mess left behind by the uninvited guests to the after-concert party for the band.
+</li></ul><p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Theatre" title="/pmwiki/pmwiki.php/Main/Theatre">Theatre</a></span>
+</p><ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Theatre/TheCompleteWorksOfWilliamShakespeareAbridged" title="/pmwiki/pmwiki.php/Theatre/TheCompleteWorksOfWilliamShakespeareAbridged">The Complete Works of William Shakespeare (abridged)</a></em>, during the backwards version of Hamlet there are several gags along these lines. In one scene, Adam (as Ophelia) "un-drowns" by spraying water out of his mouth while holding a glass. See it <a class="urllink" href="https://www.youtube.com/watch?v=H2Jzkop04P4&amp;t=3m44s">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>
+</li></ul><p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGames" title="/pmwiki/pmwiki.php/Main/VideoGames">Video Games</a></span>
+</p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedForDrama" title="/pmwiki/pmwiki.php/Main/PlayedForDrama">Played for Drama</a> in the game <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Braid" title="/pmwiki/pmwiki.php/VideoGame/Braid">Braid</a></em>. <span class="spoiler" title="you can set spoilers visible by default on your profile">The final level, World 1, has time flowing in reverse for everyone except for Tim, accentuated by the music also playing backwards (which then plays normally when you use the time rewind mechanic). In order to progress through the levels, you need to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoombaStomp" title="/pmwiki/pmwiki.php/Main/GoombaStomp">Goomba Stomp</a> the enemies, which results in them "undying" and walking along the path as if they had been spawned from a different cannon.</span>
+</li></ul><p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VisualNovels" title="/pmwiki/pmwiki.php/Main/VisualNovels">Visual Novels</a></span>
+</p><ul><li> A sudden, non-comedic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retcon" title="/pmwiki/pmwiki.php/Main/Retcon">Retcon</a> in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/DokiDokiLiteratureClub" title="/pmwiki/pmwiki.php/VisualNovel/DokiDokiLiteratureClub">Doki Doki Literature Club!</a></em> plays out like this. In Act 2, <span class="spoiler" title="you can set spoilers visible by default on your profile">the player character leaves the clubroom to look for Yuri when she's taking too long coming back, only to walk in on her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfHarm" title="/pmwiki/pmwiki.php/Main/SelfHarm">cutting herself</a>. The game suddenly rewinds back to before he left the classroom with the player character instead deciding to wait for her. This can happen twice depending on player choices, with the second time ending in Yuri remarking that she has a feeling of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DejaVu" title="/pmwiki/pmwiki.php/Main/DejaVu">D&eacute;j&agrave; Vu</a>.</span>
+</li></ul><p><span class="asscaps"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WebOriginal" title="/pmwiki/pmwiki.php/Main/WebOriginal">Web Original</a></span>
+</p><ul><li> A frequent gag on <a class="twikilink" href="/pmwiki/pmwiki.php/WebAnimation/YouTubePoop" title="/pmwiki/pmwiki.php/WebAnimation/YouTubePoop">YouTube Poop</a> videos.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RyanNorth" title="/pmwiki/pmwiki.php/Creator/RyanNorth">Ryan North</a>'s published the video <a class="urllink" href="https://www.youtube.com/watch?v=Irbf1OjY6Ko">"hott entropy action"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, which is just reversed footage of someone scrambling an egg... with a porn soundtrack playing over it. The joke is that this is porn for people who have an "entropy reversing in a closed system" <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fetish" title="/pmwiki/pmwiki.php/Main/Fetish">fetish</a>, inspired by <a class="urllink" href="http://www.qwantz.com/index.php?comic=1050">this page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/DinosaurComics" title="/pmwiki/pmwiki.php/Webcomic/DinosaurComics">Dinosaur Comics</a></em>.
+</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/DragonballZAbridged" title="/pmwiki/pmwiki.php/WebVideo/DragonballZAbridged">Dragonball Z Abridged</a></em>, a running gag throughout the first three seasons is the "Krillin owned count", which appears onscreen with a "ding" and ticks up every time Krillen gets defeated, whether literally or metaphorically. In the season 3 finale, it counts all the way back down to zero over the course of his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GladToBeAliveSex" title="/pmwiki/pmwiki.php/Main/GladToBeAliveSex">Glad-to-Be-Alive Sex</a> with Android 18. Complete with "gniD" in the subtitles.
+</li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WesternAnimation" title="/pmwiki/pmwiki.php/Main/WesternAnimation">Western Animation</a></span>
+</p><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheMagicSchoolBus" title="/pmwiki/pmwiki.php/Literature/TheMagicSchoolBus">The Magic School Bus</a></em>: <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/TheMagicSchoolBusS2E3TheBusasaurus" title="/pmwiki/pmwiki.php/Recap/TheMagicSchoolBusS2E3TheBusasaurus">"The Busasaurus"</a>, when the bus and class go back in time, everything important in geographical history happens backwards. Ralphie even provides the page quote.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfJimmyNeutronBoyGenius" title="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfJimmyNeutronBoyGenius">The Adventures of Jimmy Neutron: Boy Genius</a></em>: This (as well as a bit of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FastForwardGag" title="/pmwiki/pmwiki.php/Main/FastForwardGag">Fast-Forward Gag</a>) happens over and over again in "Sorry, Wrong Era", with Jimmy's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RewindReplayRepeat" title="/pmwiki/pmwiki.php/Main/RewindReplayRepeat">Rewind, Replay, Repeat</a> invention. Let's just say that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">Hugh</a> abuses this power for his own amusement...
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/FamilyGuy" title="/pmwiki/pmwiki.php/WesternAnimation/FamilyGuy">Family Guy</a></em>: The entire point of <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/FamilyGuyS11E4YugYlimaf" title="/pmwiki/pmwiki.php/Recap/FamilyGuyS11E4YugYlimaf">"Yug Yimlaf"</a>. "WE ATE SO MUCH VOMIT!!", sex in reverse, the chicken fight goes backwards, Stewie having his diaper <em>un</em>changed...
+<div class="indent"><strong>Stewie</strong>: Oh God, that all just went back into me!
+</div></li><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/DextersLaboratory" title="/pmwiki/pmwiki.php/WesternAnimation/DextersLaboratory">Dexter's Laboratory</a></em> episode "sdrawkcaB" has Dexter inventing a belt that makes its wearer go forward and backwards by pulling a lever that controls the time. Dee Dee ends up using it on Dexter, but he gets back at her at the end by having her wear the belt while she fell up and down from a high place.
+<div class="indent"><strong>Dexter's Dad</strong>: Dexter, what have I told you about running up and down the stairs?! SLOW DOWN, YOU'RE GONNA HURT SOME-<em>(Dexter trips him and he falls down the stairs.)</em>
+</div></li><li> Often done on the <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Goofy" title="/pmwiki/pmwiki.php/WesternAnimation/Goofy">Goofy</a></em> "How-to" shorts, when the narrator asks for the scene to play again. A notable example is "How to Ride a Horse", where the run before a failed jump is run backwards (complete with backwards music) and the horse ends up running up a tree.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/SaludosAmigos" title="/pmwiki/pmwiki.php/WesternAnimation/SaludosAmigos">Saludos Amigos</a></em> has two examples: In "Lake Titicaca" when the boy with the llama plays his flute in reverse and the llama's animation runs in reverse; and in "Gaucho Goofy" when Goofy catching an ostrich is run back so it could be shown in slow-motion.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedWith" title="/pmwiki/pmwiki.php/Main/PlayedWith">Played With</a> in the Disney short film <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/GetAHorse" title="/pmwiki/pmwiki.php/WesternAnimation/GetAHorse">Get a Horse!</a></em>. When <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/MickeyMouse" title="/pmwiki/pmwiki.php/WesternAnimation/MickeyMouse">Mickey Mouse</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall" title="/pmwiki/pmwiki.php/Main/BreakingTheFourthWall">literally breaks the fourth wall</a>, he discovers he can use this trope to help him defeat <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Pete" title="/pmwiki/pmwiki.php/WesternAnimation/Pete">Peg Leg Pete</a> by rotating the screen. He rewinds and fast forwards the on-screen events in order to wear Pete down.
+</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreditsGag" title="/pmwiki/pmwiki.php/Main/CreditsGag">Credits Gag</a> for the <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TinyToonAdventures" title="/pmwiki/pmwiki.php/WesternAnimation/TinyToonAdventures">Tiny Toon Adventures</a></em> episode, "<a class="twikilink" href="/pmwiki/pmwiki.php/Recap/TinyToonAdventuresS2E6ToonPhysics" title="/pmwiki/pmwiki.php/Recap/TinyToonAdventuresS2E6ToonPhysics">Toon Physics</a>" lists the top 5 "Facts" for that episode. Fact number five states that the short, "A Cub For Grub" becomes funny when it is watched backwards.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheAmazingWorldOfGumball" title="/pmwiki/pmwiki.php/WesternAnimation/TheAmazingWorldOfGumball">The Amazing World of Gumball</a></em>: In <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/TheAmazingWorldofGumballS1E29TheWand" title="/pmwiki/pmwiki.php/Recap/TheAmazingWorldofGumballS1E29TheWand">"The Wand"</a>, when Richard casts a rewind spell, Gumball pretends it works by saying the words of his previous sentence in reverse order, and Darwin corrects him by actually speaking backwards.
+</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheSmurfs" title="/pmwiki/pmwiki.php/WesternAnimation/TheSmurfs">The Smurfs</a></em> episode "No Time For Smurfs", when Handy turns the hourglass filled with Father Time's Sands Of Time, he causes time to go backwards, as in fishes swim backwards, deer leap backwards, and the Smurfs do their everyday things and even speak backwards.
+</li><li> In the wraparound preceding the <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/SpongeBobSquarePants" title="/pmwiki/pmwiki.php/WesternAnimation/SpongeBobSquarePants">SpongeBob SquarePants</a></em> episode, "The Sponge Who Could Fly", Patchy goes into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a> when he sees that the lost episode of <em>SpongeBob</em> consists of a bunch of cheap walk cycles, wherein he gets rid of all of his <em>SpongeBob</em> merchandise and runs away. When Potty finds out about the real lost episode on the tape, he tells Patchy to come back, and the footage of Patchy getting rid of his <em>SpongeBob</em> merchandise is played in reverse.
+</li></ul><hr>
+</div>
+<div class="lazy-video-script">
+<a id="VideoExamples"></a>
+<div>&nbsp;</div>
+<div class="video-examples has-thumbnails">
+<div class="video-examples-header">
+<a href="#feedback" class="font-s float-right text-blue" data-modal-target="login">Feedback</a>
+<h3 class="bold">Video Example(s):</h3>
+</div>
+<div class="video-examples-featured">
+<a href="#video-link" data-video-id="xm94nn" data-video-descrip="Stuff blowing up... in reverse!&lt;br&gt;Taken from https://youtu.be/0QRPFFRzvt0?t=717" data-video-title="Road Construction Ahead" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/xm94nn_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/xm94nn.jpg" data-video-trope="Main/RewindGag" data-video-tropename="Rewind Gag" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="" class="video-launch-link video-overlay-link featured-widget-vid">
+<div class="featured-widget-vid-iframe">
+<video id='featured-video-player' class='video-js vjs-default-skin vjs-16-9' controls data-setup='{"ga": {"eventsToTrack": ["error"]}}'>
+</video>
+</div>
+</a>
+<h2 class="bold font-l">Road Construction Ahead</h2>
+<p class="_pmvv-vidbox-descTxt">
+Stuff blowing up... in reverse!<br>Taken from https://youtu.be/0QRPFFRzvt0?t=717 </p>
+</div>
+</div>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ReversePsychology">Reverse Psychology</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HadTheSillyIndexInReverse">Had the Silly Index in Reverse</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/RussianReversal">Russian Reversal</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ReverseTelescopicVision">Reverse Telescopic Vision</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ComedyTropes">Comedy Tropes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/RhymingList">Rhyming List</a>
+</li>
+</ul>
+</div>
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="xm94nn" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title">Road Construction Ahead</h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+Stuff blowing up... in reverse!<br>Taken from https://youtu.be/0QRPFFRzvt0?t=717	</p>
+<div class="rating-row" data-video-id="xm94nn">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+5 (2 votes)
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope">Main / RewindGag</div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media">Main / RewindGag</div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

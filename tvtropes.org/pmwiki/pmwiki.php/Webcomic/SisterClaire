@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Sister Claire (Webcomic) - TV Tropes</title>
+<meta name="description" content="Sister Claire is a webcomic created by Elena Barbarich (a.k.a Yamino) and her wife, Ash. The comic starts off comedic and full of Shout Outs and homages, &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/SisterClaire" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Sister Claire (Webcomic) - TV Tropes" />
+<meta name="twitter:description" content="Sister Claire is a webcomic created by Elena Barbarich (a.k.a Yamino) and her wife, Ash. The comic starts off comedic and full of Shout Outs and homages, &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/SISTER_CLAIRE_small.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Sister Claire (Webcomic) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/SisterClaire" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/SISTER_CLAIRE_small.jpg" />
+<meta property="og:description" content="Sister Claire is a webcomic created by Elena Barbarich (a.k.a Yamino) and her wife, Ash. The comic starts off comedic and full of Shout Outs and homages, but becomes much more dramatic and serious in the transition to Book 2. Sister Claire is a &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/FightingAShadow" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/JessicaWalter" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Webcomic/SisterClaire?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Webcomic/SisterClaire">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Webcomic.SisterClaire">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=Webcomic&target_title=SisterClaire">
+<i class="fa fa-star-half-o"></i> 1 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=Webcomic.SisterClaire">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Webcomic/SisterClaire?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Webcomic" />
+<input type="hidden" id="title-hidden" value="SisterClaire" />
+<input type="hidden" id="article_id" value="343687" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Webcomic/SisterClaire</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Webcomic / </strong>
+Sister Claire
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Webcomic",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Webcomic"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Sister Claire"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/SisterClaire" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/SisterClaire" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/SisterClaire" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Headscratchers/SisterClaire" class="subpage-link " title="The Headscratchers page">
+<span class="wrapper"><span class="spi headscratchers"></span>Headscratchers</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/SisterClaire" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/NightmareFuel/SisterClaire" class="subpage-link " title="The NightmareFuel page">
+<span class="wrapper"><span class="spi nightmarefuel"></span>NightmareFuel</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TearJerker/SisterClaire" class="subpage-link " title="The TearJerker page">
+<span class="wrapper"><span class="spi tearjerker"></span>TearJerker</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/SisterClaire" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SisterClaire" class="subpage-link curr-subpage" title="The Webcomic page">
+<span class="wrapper"><span class="spi webcomic"></span>Webcomic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/SisterClaire" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/SisterClaire" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/SisterClaire?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/SisterClaire?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/SisterClaire?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/SisterClaire?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/SisterClaire?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/SisterClaire?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/SisterClaire?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/SisterClaire?action=edit">PlayingWith</option>
+ <option value="/pmwiki/pmwiki.php/Quotes/SisterClaire?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/SisterClaire?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/SisterClaire?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/SisterClaire?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/SisterClaire?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:300px;"><div class="lazy_load_img_box" style="padding-top:154.67%"><img src="https://static.tvtropes.org/pmwiki/pub/images/SISTER_CLAIRE_small.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/SISTER_CLAIRE_small.jpg" width="300" height="464"></div></div><div class="acaptionright" style="width:300px;">Claire shows off her Holy Watergun</div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em><a class="urllink" href="http://www.sisterclaire.com/">Sister Claire<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> is a webcomic created by Elena Barbarich (a.k.a <a class="urllink" href="http://yamino.tumblr.com">Yamino<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>) and her wife, <a class="urllink" href="http://summerlightning.tumblr.com">Ash.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> The comic starts off comedic and full of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout Outs</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomageShot" title="/pmwiki/pmwiki.php/Main/HomageShot">homages</a>, but <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">becomes much more dramatic and serious</a> in the transition to Book 2.</p><p>Sister Claire is a novice nun, and all she ever wanted <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IJustWantToBeSpecial" title="/pmwiki/pmwiki.php/Main/IJustWantToBeSpecial">was a purpose in life</a>, and a kitten would be nice, too. But when a beautiful blue <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SexySecretary" title="/pmwiki/pmwiki.php/Main/SexySecretary">businesswoman</a> named Gabrielle explodes out her toilet and tells <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChosenOne" title="/pmwiki/pmwiki.php/Main/TheChosenOne">her she's pregnant with the new Messiah,</a> this <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelibateHero" title="/pmwiki/pmwiki.php/Main/CelibateHero">Celibate Heroine</a> realizes she may be in for more than she bargained for: a fantastic adventure to protect her miraculous baby (and possibly the universe) from total rapture.</p><p>Sister Claire's best friend and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigSisterMentor" title="/pmwiki/pmwiki.php/Main/BigSisterMentor">mentor</a>, Sister Catharine, is unfortunately extremely allergic to cats, which is why Claire is forbidden to play with them. Unfortunately for Catharine, Claire can't seem to stay away from her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonHumanSidekick" title="/pmwiki/pmwiki.php/Main/NonHumanSidekick">best cat-friend Snowy</a> for long, and this brings down harsh punishment from the terrifying Sister Marguerite, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SinkOrSwimMentor" title="/pmwiki/pmwiki.php/Main/SinkOrSwimMentor">who finds every excuse to torment Claire with cruel and unusual punishments.</a></p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Claire initially <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RefusalOfTheCall" title="/pmwiki/pmwiki.php/Main/RefusalOfTheCall">crumbles under the guilt</a> of accidentally aggravating Catharine's cat allergies and from the pressure of becoming the mother of the new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MessianicArchetype" title="/pmwiki/pmwiki.php/Main/MessianicArchetype">Messiah</a>. (Her pregnancy is confirmed by a flurry of strange blue babies, who turn out to be rather disposable.) The plot thickens as Sister Catharine appears to be stalked by an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChaoticEvil" title="/pmwiki/pmwiki.php/Main/ChaoticEvil">evil Cheshire-like cat,</a> who eventually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">possesses her</a>, turning her into the evil <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClassyCatBurglar" title="/pmwiki/pmwiki.php/Main/ClassyCatBurglar">Sister Cat.</a></p><p>After <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HolyBurnsEvil" title="/pmwiki/pmwiki.php/Main/HolyBurnsEvil">temporarily defeating Sister Cat</a> with her holy Watergun, Claire begins her training in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllMonksKnowKungFu" title="/pmwiki/pmwiki.php/Main/AllMonksKnowKungFu">Nun Fu</a>. And as the story continues, it's revealed that there's more going on than Gabrielle let on and much bigger threats on the horizon coming Claire's way. Will her newfound training see her through before the birth of her child?</p><p>The story is presented in two formats, comic updates (every Monday and Friday) and <em>Missing Moment</em> stories, illustrated prose that usually focuses on the characters' pasts, updated Tues-Thurs. Some suggested reading orders can be seen <a class="urllink" href="http://sisterclaire.tumblr.com/post/166476105671/sister-claire-recommended-reading-order">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>Now has a <a class="twikilink" href="/pmwiki/pmwiki.php/Characters/SisterClaire" title="/pmwiki/pmwiki.php/Characters/SisterClaire">character sheet</a>. Please contribute.</p><hr><h2>This webcomic provides examples of:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbortedArc" title="/pmwiki/pmwiki.php/Main/AbortedArc">Aborted Arc</a>:<ul><li> Grimm's possession of Catherine ends in the middle of Book 2 with little to no payoff.</li><li> Claire's ambitions to become skilled as a fighter disappeared after Book 1.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The scene of a futuristic city, in ruins and overgrown, heavily implies this, as does Yamino's teasing asides in the comment section of the comic</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">Arc Words</a>: NO ESCAPE.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllMonksKnowKungFu" title="/pmwiki/pmwiki.php/Main/AllMonksKnowKungFu">All Monks Know Kung-Fu</a>: Claire herself, and many of the other protagonists.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">All There in the Manual</a>:<ul><li> The strip that reveals Sister Oscar <span class="spoiler" title="you can set spoilers visible by default on your profile"> as transgender</span> is a bit vague, since her speech balloon saying <span class="spoiler" title="you can set spoilers visible by default on your profile">"I'm no man."</span> can throw readers off a bit. Your only confirmation for sure is the <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> below the strip, which can escape your notice if you don't scroll down to see it.</li><li> The "Missing Moments" stories greatly expands on the characters and the world much more than the comic does. It's gotten to the point where <em>Missing Moments</em> has overtaken the main series in terms of storytelling and major plot details are revealed and explained there instead of in the comic itself.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguousGender" title="/pmwiki/pmwiki.php/Main/AmbiguousGender">Ambiguous Gender</a>:<ul><li> Grimm, the Cheshire-ish cat. Yamino has stated that Grimm doesn't have a specific gender and is mostly referred to as "they".</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Magpie</span> is genderfluid. Their gender changes throughout the story (sometimes in the middle of a scene), which can be confusing if you haven't seen the missing moment page that explains it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyBi" title="/pmwiki/pmwiki.php/Main/AmbiguouslyBi">Ambiguously Bi</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyGay" title="/pmwiki/pmwiki.php/Main/AmbiguouslyGay">Ambiguously Gay</a>: Yamino has stated that there are no cisgender heterosexuals in the cast, leaving anyone who hasn't had their orientation outright confirmed an example of these tropes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman" title="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman">Ambiguously Human</a>: Animal witches, selkies <span class="spoiler" title="you can set spoilers visible by default on your profile">such as Gabby</span>, shards, and other magical beings definitely count toward this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguousTimePeriod" title="/pmwiki/pmwiki.php/Main/AmbiguousTimePeriod">Ambiguous Time Period</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The author teases this after revealing the ruined advanced city</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AttackOfTheFiftyFootWhatever" title="/pmwiki/pmwiki.php/Main/AttackOfTheFiftyFootWhatever">Attack of the 50-Foot Whatever</a>: Say hello to the <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="urllink" href="http://www.sisterclaire.com/comic/book-2-chapter-6-pg-124">Mondo Shard.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorAvatar" title="/pmwiki/pmwiki.php/Main/AuthorAvatar">Author Avatar</a>: If Yamino needs a random-ass background character to throw up or otherwise humiliate themselves melodramatically, it'll likely be an incarnation of herself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorAppeal" title="/pmwiki/pmwiki.php/Main/AuthorAppeal">Author Appeal</a>: Yamino is homosexual and comic has always had gay themes to it and they became much more prominent after Yamino's then girlfriend, now wife Ash began helping her write the story. Similarly, after Yamino and Ash started polyamorous relationship with another person, more characters in the comic began having polyamorous relationships also.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaitAndSwitch" title="/pmwiki/pmwiki.php/Main/BaitAndSwitch">Bait-and-Switch</a>: The Queen's pregnancy. <span class="spoiler" title="you can set spoilers visible by default on your profile">While hinted to be Rosalie and Marie, they turn out to be two sons who sadly only live about a week.</span> Switched again <span class="spoiler" title="you can set spoilers visible by default on your profile"> when Rosalie and Marie are indeed revealed to be the King and Queen's daughters.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BasedOnAGreatBigLie" title="/pmwiki/pmwiki.php/Main/BasedOnAGreatBigLie">Based on a Great Big Lie</a>: Gabrielle told Claire that she was pregnant with the new Messiah. <span class="spoiler" title="you can set spoilers visible by default on your profile">As it turns out, not so much.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BecauseDestinySaysSo" title="/pmwiki/pmwiki.php/Main/BecauseDestinySaysSo">Because Destiny Says So</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBigDamnKiss" title="/pmwiki/pmwiki.php/Main/TheBigDamnKiss">The Big Damn Kiss</a>: Catharine and Oscar when they reunite in book 2. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SplashPanel" title="/pmwiki/pmwiki.php/Main/SplashPanel">It takes up a whole page.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackComedy" title="/pmwiki/pmwiki.php/Main/BlackComedy">Black Comedy</a>: Sister Claire accidentally squishes a Bubble Boy with her bare hands, but they turn out to be "rather replaceable," in Gabrielle's words.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFullOfGay" title="/pmwiki/pmwiki.php/Main/CastFullOfGay">Cast Full of Gay</a>: Heterosexuals don't even exist in the comic per <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatGirl" title="/pmwiki/pmwiki.php/Main/CatGirl">Cat Girl</a>: Sister Cat <span class="spoiler" title="you can set spoilers visible by default on your profile"> A.K.A Grimm</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelibateHero" title="/pmwiki/pmwiki.php/Main/CelibateHero">Celibate Hero</a>: Played with, in that <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> has said that while the nuns do take celibacy vows they're not strictly enforced, and most Mother Superiors not only know that many nuns have relationships but don't care unless it interferes with their duties, in the case of the main cast mostly revolving around protecting Mercy and the attached village. Even <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Sister Abraham</a></em> is said to not really care if the Helsings have relationships as long as it doesn't compromise them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">Cerebus Syndrome</a>: It begins to be hinted at around <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=35">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> things are not as bright or silly as they appear. <span class="spoiler" title="you can set spoilers visible by default on your profile">And then the witch trial begins...</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChewToy" title="/pmwiki/pmwiki.php/Main/TheChewToy">The Chew Toy</a>: Poor Claire just can't catch a break.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChosenOne" title="/pmwiki/pmwiki.php/Main/TheChosenOne">The Chosen One</a>: Claire is chosen as the mother of the Messiah by Gabrielle. <span class="spoiler" title="you can set spoilers visible by default on your profile"> However, this gets completely subverted in Book Two by the facts that there was no Messiah, Claire is more or less Clementine 2.0, and the "baby" was Claire's powers manifesting.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConvenientlyAnOrphan" title="/pmwiki/pmwiki.php/Main/ConvenientlyAnOrphan">Conveniently an Orphan</a>: Since Claire (and the readers) don't find out her true origins until Book Two, Claire appears as an example at her introduction. However, <span class="spoiler" title="you can set spoilers visible by default on your profile">Claire is the reincarnation of Clementine, Catharine's little sister.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CultOfPersonality" title="/pmwiki/pmwiki.php/Main/CultOfPersonality">Cult of Personality</a>: Clementine has one among witches. Her creation of Eden, a witch sanctuary city, and her power to heal Shards resulted in witches viewing her as a Christ-like savior. The sentiment is still strong almost two decades after her death, as Cog's family still maintains a shrine devoted her and young witches like Lupo were raised idolizing her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeliberatelyMonochrome" title="/pmwiki/pmwiki.php/Main/DeliberatelyMonochrome">Deliberately Monochrome</a>: The comic starts out in black-and-white until Gabrielle first appears. It's meant to represent how Claire's world is simple and secluded until Gabrielle's arrival.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">Demonic Possession</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Grimm (the Cheshire-ish cat) for Catharine, though it's a willing one. Grimm claims the possession is permanent; they're either lying or mistaken as Claire and Esperanza expel Grimm from Catharine. Grimm is now a unique part of the fleeing party and Sister Cat hasn't appeared since.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoorstopBaby" title="/pmwiki/pmwiki.php/Main/DoorstopBaby">Doorstop Baby</a>: Sister Claire. We find out in Book Two that this isn't the true story, <span class="spoiler" title="you can set spoilers visible by default on your profile"> and that Catharine knows quite well where she came from.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>:<ul><li> The series was a lot more quirky in the beginning and had a bit of a modern vibe to it. Shortly after the witch trial and Ash joining in on fleshing out the world, however, it now has more of a somber and serious tone while downplaying more of the modern aspects for a medieval feel. <span class="spoiler" title="you can set spoilers visible by default on your profile"> The modern aspects are plot-important, though.</span></li><li> Olga was originally much more prejudiced and hostile towards witches and magick users, teaching Claire that witches are vain and evil beings whose magick attracts shards and they should all be warded or killed. Later on, we learn that not only is she knowingly dating an unwarded witch and living alongside many other witches, but that she also disagrees with the extreme tactics used by the Helsings that she originally supported in Book One.</li><li> The nuns of the Mercy Abbey were originally hinted to be former fighters of a war against witches, a concept that was quickly dropped.</li><li> Originally the religion followed by the nuns was plainly stated to be Christianity. However, as the comic goes on, its become more and more vague what faith they're following. There's dialogue that suggests that their religion is polytheistic in nature and Ash and Yamino removed references to Christianity from the dialogue when they re-edited the earlier chapters.</li><li> Rosalie and Marie swooning over Oscar in her first appearance becomes disturbing when it's later revealed that not only did she raise them like they were her daughters, but also that <span class="spoiler" title="you can set spoilers visible by default on your profile">she's their older half-sister, but it's been confirmed the two of them don't actually know this.</span></li><li> Jackson notifying the Helsings about the wolf witches in the capital makes little sense since Missing Moments revealed that she personally knows how extreme and violent they are, with them having attempted to burn down Mercy, nearly killing Marguerite and Catherine.</li><li> The concept of energia has all been pretty much overshadowed by magick in the story, with it not having been significantly mentioned in years.</li><li> Grimm's personality was much more violent and threatening in Chapter One, particularly toward Catherine.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasterEgg" title="/pmwiki/pmwiki.php/Main/EasterEgg">Easter Egg</a>: Yamino loves throwing in homages and references for readers to find. Some are more subtle, others are direct homages, such as the Powerpuff Girls 10th anniversary page, featuring Claire and the PPG sharing a cake. The first few chapters were chock-a-block for visual shout-outs, and most chapters still have at least a few.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmpathicHealer" title="/pmwiki/pmwiki.php/Main/EmpathicHealer">Empathic Healer</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Both Catharine and Clementine/Claire can heal: Catharine can heal the living, to the point of <em>reversing death</em> and <em>temporarily killing herself</em>, while Claire can heal the dead, but takes on all of the pain and anger of those lost souls.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryoneCanSeeIt" title="/pmwiki/pmwiki.php/Main/EveryoneCanSeeIt">Everyone Can See It</a>: Jackson and Olga's relationship is about as well kept a secret as the <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItWasHisSled" title="/pmwiki/pmwiki.php/Main/ItWasHisSled">ending to Citizen Kane</a>. Everyone from the Mother Superior to <span class="spoiler" title="you can set spoilers visible by default on your profile"><em>Azi</em></span>, who literally just met them, can tell.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>:<ul><li> A lot of characters are directly based off of characters from other series. Just to name a few: Oscar is based off of <a class="twikilink" href="/pmwiki/pmwiki.php/Manga/TheRoseOfVersailles" title="/pmwiki/pmwiki.php/Manga/TheRoseOfVersailles">Oscar</a>, Yolanda is based off of <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Yoda</a> and Lupo and the Wolfwitches are based off of <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheJungleBook" title="/pmwiki/pmwiki.php/Literature/TheJungleBook">Mowgli and the wolf pack</a>.</li><li> The series also takes a lot of inspiration from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/FinalFantasy" title="/pmwiki/pmwiki.php/Franchise/FinalFantasy">Final Fantasy</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/KingdomHearts" title="/pmwiki/pmwiki.php/Franchise/KingdomHearts">Kingdom Hearts</a></em>. Shards use a lot of same rules and logic as the Heartless, Wolfwitch robes look like pajamas designed by Tetsuya Nomura, and <span class="spoiler" title="you can set spoilers visible by default on your profile">Claire has a secret past life that she doesn't remember, which can describe about half of the protagonists in Square Enix's games.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverybodyWasKungFuFighting" title="/pmwiki/pmwiki.php/Main/EverybodyWasKungFuFighting">Everybody Was Nun-fu Fighting</a>: How Claire described the battle against Sister Cat as part of a recap.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanDisservice" title="/pmwiki/pmwiki.php/Main/FanDisservice">Fan Disservice</a>: <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=282">Naked Sister Marguerite<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, complete with disgusted reactions from the other nuns. Of course, <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooMuchInformation" title="/pmwiki/pmwiki.php/Main/TooMuchInformation">her dialogue</a> probably didn't help matters. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> says looking up references for that page was quite a harrowing experience.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanService" title="/pmwiki/pmwiki.php/Main/FanService">Fanservice</a>: <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=256">Here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=257">you<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=258">go.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FemmeFatalons" title="/pmwiki/pmwiki.php/Main/FemmeFatalons">Femme Fatalons</a>: Sister Cat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FingerLickinEvil" title="/pmwiki/pmwiki.php/Main/FingerLickinEvil">Finger-Lickin' Evil</a>:<ul><li> Sister Cat <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=33">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=48">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> Evil Cat on <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=36">this page.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Filler" title="/pmwiki/pmwiki.php/Main/Filler">Filler</a>: Gabrielle taking Claire to an undersea nightspot in order to relax. It's a good kind of filler, though, building character and the relationship between the two characters</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foreshadowing" title="/pmwiki/pmwiki.php/Main/Foreshadowing">Foreshadowing</a>: The Missing Moments are basically Foreshadowing: the Series as each installment tends to line up with the main storyline, and thus introduce characters and ideas about to emerge in the comic proper.<ul><li> Check the third panel <a class="urllink" href="http://www.sisterclaire.com/comic/book-2-chapter-4-pg-79">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and notice the placement of the antlers on the wall. Given the hints about <span class="spoiler" title="you can set spoilers visible by default on your profile">Claire's connection to Clementine/The Horned One/The Witch Queen</span> and the creators' attention to detail this is most likely <em>not</em> an accident.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FrequentlyBrokenUnbreakableVow" title="/pmwiki/pmwiki.php/Main/FrequentlyBrokenUnbreakableVow">Frequently-Broken Unbreakable Vow</a>: It's clear that the nuns do not hold their vows all that close, particularly the vows of celibacy and haughtiness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FriendToAllLivingThings" title="/pmwiki/pmwiki.php/Main/FriendToAllLivingThings">Friend to All Living Things</a>: Sister Claire loves all animals, but especially cats. She's a vegetarian for this reason. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Turns out the cat thing might not be coincidence.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGrayMorality">Grey-and-Gray Morality</a>: This is pretty much the comic's overreaching theme. We're lead to believe that witches are evil but the ones seen so far only wish to live in peace and are only hunted down out of fear of their powers. Likewise the nuns, coming off a war, are paranoid that witches are still doing evil deeds and a few seek to destroy them outright. All actions on both sides are well-intentioned but only keeps prolonging the conflict leading to more hatred and pain. Ultimately, even the characters who seem like the most cut-and-dry villains, (such as <span class="spoiler" title="you can set spoilers visible by default on your profile"> Abraham and Shards</span> for example), turn out to be complex characters with deep reasons for their actions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HaveYouTriedNotBeingAMonster" title="/pmwiki/pmwiki.php/Main/HaveYouTriedNotBeingAMonster">Have You Tried Not Being a Monster?</a>:<ul><li> The twins, even going so far as to have deliberate <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yuri" title="/pmwiki/pmwiki.php/Main/Yuri">yuri</a> symbolism all over them. But in their case, it's not forbidden love (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/Twincest" title="/pmwiki/pmwiki.php/Main/Twincest">...maybe</a>) <span class="spoiler" title="you can set spoilers visible by default on your profile"> but forbidden psychic powers</span>.</li><li> Back during Clementine's time, Oscar innocently but insensitively suggests <a class="urllink" href="http://www.sisterclaire.com/missing-moments/missing-moment-la-marea-ritorna-3">magic users should stop using their abilities to avoid persecution<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Clem and Magpie are quick to remind <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transgender" title="/pmwiki/pmwiki.php/Main/Transgender">Oscar</a> how painful it is to deny what you truly are to fit in.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Magpie</span> has one after visiting Mercy Abbey after finding out too late about <span class="spoiler" title="you can set spoilers visible by default on your profile">the incident where Claire healed Rosalie and Marie and almost everyone involved in the incident lost their memories</span>. What hits hardest is <span class="spoiler" title="you can set spoilers visible by default on your profile">Marguerite</span> not remembering them or their relationship on top of existing guilt over <span class="spoiler" title="you can set spoilers visible by default on your profile">failing to save some of their friends during Eden's fall</span>, and so <span class="spoiler" title="you can set spoilers visible by default on your profile">Magpie shifts into bird form and gradually forgets they were once human</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotSpringsEpisode" title="/pmwiki/pmwiki.php/Main/HotSpringsEpisode">Hot Springs Episode</a>: starting <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=256">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. One of many homages to anime and manga.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HostileShowTakeover" title="/pmwiki/pmwiki.php/Main/HostileShowTakeover">Hostile Show Takeover</a>: Happened in a guest strip that has since been lost to restructuring of the site.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HulkingOut" title="/pmwiki/pmwiki.php/Main/HulkingOut">Hulking Out</a>: <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=190">Behold<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. The resulting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">Oh, Crap!</a> face is entirely justified.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity" title="/pmwiki/pmwiki.php/Main/WithGreatPowerComesGreatInsanity">With Great Power Comes Great Insanity</a>: However using this affects her judgement and she can't tell friend from foe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DangerousForbiddenTechnique" title="/pmwiki/pmwiki.php/Main/DangerousForbiddenTechnique">Dangerous Forbidden Technique</a>: And it puts a <em>very</em> hefty strain on her heart.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>: The Annulus. <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> states that making a pact with one was meant to represent marriage, specifically the nun&#146;s marriage to G.O.D.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IHaveManyNames" title="/pmwiki/pmwiki.php/Main/IHaveManyNames">I Have Many Names</a>: Gabrielle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImpossiblyCoolClothes" title="/pmwiki/pmwiki.php/Main/ImpossiblyCoolClothes">Impossibly Cool Clothes</a>: The new habits the nuns are wearing in the <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=221">newer chapters<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> may qualify.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncrediblyLamePun" title="/pmwiki/pmwiki.php/Main/IncrediblyLamePun">Incredibly Lame Pun</a>: The reason Claire is in the bathroom when she first meets Gabrielle is because Sister Marguerite gave her a severe dose of "Holy Shit Laxative".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a>: Sister Marguerite, <em><strong>AND FUCKING HOW.</strong></em> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Until Catharine heals her, at least.</span> The artist admitted that Marguerite was based on a nun teacher she once had. She does say she knows that not all nuns are so scary.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KindheartedCatLover" title="/pmwiki/pmwiki.php/Main/KindheartedCatLover">Kindhearted Cat Lover</a>: going nearly to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyCatLady" title="/pmwiki/pmwiki.php/Main/CrazyCatLady">Crazy Cat Lady</a> extremes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightTemplar" title="/pmwiki/pmwiki.php/Main/KnightTemplar">Knight Templar</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> A few of the nuns toward witchcraft. Even if said person isn't truly evil.</span> Justified as <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShellShockedVeteran" title="/pmwiki/pmwiki.php/Main/ShellShockedVeteran">the older nuns are still reeling from a war with witches</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperlyParanoid" title="/pmwiki/pmwiki.php/Main/ProperlyParanoid">know that there are some still out there.</a></span> Considering Claire's case, this is tragically ironic.<ul><li> Likewise works the other way with witches as the introduction with Hanabi shows.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia" title="/pmwiki/pmwiki.php/Main/LaserGuidedAmnesia">Laser-Guided Amnesia</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Some of the abbey just couldn't handle the horrors of the Twins brief Shard regression and Claire sprouting horns. In comes Yolanda with a memory purging tea.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LittleHeroBigWar" title="/pmwiki/pmwiki.php/Main/LittleHeroBigWar">Little Hero, Big War</a>: Apparently, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Clementine played some major role in the "Witch War"</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MsFanservice" title="/pmwiki/pmwiki.php/Main/MsFanservice">Ms. Fanservice</a>: Almost every character can qualify for this after their respective trip to the hot springs, though it's more <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InnocentFanserviceGirl" title="/pmwiki/pmwiki.php/Main/InnocentFanserviceGirl">Innocent Fanservice Girl</a> instances, if anything. Straighter examples would be Gabrielle, and Sister Cat.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonIndicativeName" title="/pmwiki/pmwiki.php/Main/NonIndicativeName">Non-Indicative Name</a>: The order Claire belongs to is called the "Sisters of Mercy", so, naturally, they're actually battle nuns who train to fight evil with violence rather than, say, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness" title="/pmwiki/pmwiki.php/Main/IncorruptiblePurePureness">Incorruptible Pure Pureness</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoodleIncident" title="/pmwiki/pmwiki.php/Main/NoodleIncident">Noodle Incident</a>:<ul><li> Claire has reputedly almost killed Catharine by accident several times, including the unexplained <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=12">"watermelon incident."<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> Rosie and Marie caused some kind of glitter incident when they were younger.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoAntagonist" title="/pmwiki/pmwiki.php/Main/NoAntagonist">No Antagonist</a>: The comic has yet to introduce any overarching villains or central conflict. That isn't to say that the main cast doesn't have enemies or deal with internal strife, it's just not the thing that drives the plot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NunsNRosaries" title="/pmwiki/pmwiki.php/Main/NunsNRosaries">Nuns 'n' Rosaries</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NunsAreMikos" title="/pmwiki/pmwiki.php/Main/NunsAreMikos">Nuns Are Mikos</a>: Though it's likely that this trope is just in effect for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfCool" title="/pmwiki/pmwiki.php/Main/RuleOfCool">Rule of Cool</a>, since the artist actually does know quite a bit about real nuns and has even been taught by them in real life (see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a> and <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WriteWhoYouKnow" title="/pmwiki/pmwiki.php/Main/WriteWhoYouKnow">Write Who You Know</a>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NunsAreSpooky" title="/pmwiki/pmwiki.php/Main/NunsAreSpooky">Nuns Are Spooky</a>: Well somewhat <span class="spoiler" title="you can set spoilers visible by default on your profile"> justified in a few cases as they're either or partly witches themselves.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NunTooHoly" title="/pmwiki/pmwiki.php/Main/NunTooHoly">Nun Too Holy</a>: Some of the more extremest nuns, most notably the Helsing branch.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ObviouslyEvil" title="/pmwiki/pmwiki.php/Main/ObviouslyEvil">Obviously Evil</a>: <a class="urllink" href="http://www.sisterclaire.com/cast.php">Evil Cat<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">Oh, Crap!</a>: This was the fans' initial reaction when Mother Abraham sensed <span class="spoiler" title="you can set spoilers visible by default on your profile"> Catharine saving Maman from dying</span> and headed that way. Justified given what she did in <a class="urllink" href="http://www.sisterclaire.com/missing-moments/missing-moment-disastro-4">an earlier Missing Moment<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrwellianRetcon" title="/pmwiki/pmwiki.php/Main/OrwellianRetcon">Orwellian Retcon</a>:<ul><li> The artwork was redrawn in many places for the first print volume, and the online pages were replaced with the new versions. Changes include a more salamander-like design for Sal and more elaborate backgrounds for the Atlantis chapter.</li><li> <a class="urllink" href="http://yamino.tumblr.com/post/103766887569/ash-and-i-are-going-back-together-and-revising">Another update<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> was done for the Book One reprint. Some of the early gross-out humor is removed, such as <a class="urllink" href="http://www.sisterclaire.com/comic/book-1-chapter-1-pg-10">Catharine's allergic reaction<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> being changed from a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrossUpCloseUp" title="/pmwiki/pmwiki.php/Main/GrossUpCloseUp">face full of sores</a> to a respiratory attack, and the scene where Marguerite gives Claire diarrhea is also removed from that chapter. Some lines are changed to keep consistent with later characterization, such as the bottom left panel <a class="urllink" href="http://www.sisterclaire.com/comic/book-1-chapter-2-pg-21">here,<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><span class="notelabel" onclick="togglenote('note09ge9');"><sup>note&nbsp;</sup></span><span id="note09ge9" class="inlinefolder" isnote="true" onclick="togglenote('note09ge9');" style="cursor:pointer;font-size:smaller;display:none;"><a class="urllink" href="https://web.archive.org/web/20121002064340/http://www.sisterclaire.com:80/index.php?id=21">The original line<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> was "Nonsense, Claire. Are you opposing a decision of GOD?" and Gabrielle was giving Claire a severe look. The first set of retcons changed Gabrielle's expression to a more neutral one, and the second set changed the line entirely and gave her a kind expression.</span> and new scenes are added in.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PantyShot" title="/pmwiki/pmwiki.php/Main/PantyShot">Panty Shot</a>: A minor one on page 100, and two in a row on pages 160 and 161.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoorCommunicationKills" title="/pmwiki/pmwiki.php/Main/PoorCommunicationKills">Poor Communication Kills</a>: Sister Catharine has refused to explain herself on a number of topics, even when it would be rather helpful to her companions, especially Claire.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PreAssKickingOneLiner" title="/pmwiki/pmwiki.php/Main/PreAssKickingOneLiner">Pre Ass Kicking One Liner</a>: "I'm sorry to tell you that our name, Sisters of Mercy, is a bit misleading. God shows mercy. <em><strong>We don't.</strong></em>"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RageAgainstTheMentor" title="/pmwiki/pmwiki.php/Main/RageAgainstTheMentor">Rage Against the Mentor</a>: After Rosalie learned that Thorum Mare has been sealed off by Helsings, meaning that Catherine had spent the entire journey lying to them about where they were going, she finally snaps and calls Catherine out for her secretive and untrustworthy behavior.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Reincarnation" title="/pmwiki/pmwiki.php/Main/Reincarnation">Reincarnation</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Claire is the reincarnation of Clementine, right down to the horns.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuinsOfTheModernAge" title="/pmwiki/pmwiki.php/Main/RuinsOfTheModernAge">Ruins of the Modern Age</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Turns out that there were actually advanced civilizations before the main story. However since a lot of it was built with magitek, this ended up attracting Shards in the process. The cities tried to fight them off but the Shards soon grew too much for their weapons and the cities were destroyed and abandoned. Thorum Mare managed to last the longest because they didn't use such technology and it was cut off from the mainland, but the Shards eventually got to it too.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfThree" title="/pmwiki/pmwiki.php/Main/RuleOfThree">Rule of Three</a>: The Trinity plays a large role in most aspects of the story.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SceneryPorn" title="/pmwiki/pmwiki.php/Main/SceneryPorn">Scenery Porn</a>: <a class="urllink" href="https://www.sisterclaire.com/comic/book-2-chapter-3-pg-70">This valley<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and <a class="urllink" href="http://www.sisterclaire.com/comic/book-2-chapter-8-pg-213">the path to the ruins.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchizoTech" title="/pmwiki/pmwiki.php/Main/SchizoTech">Schizo Tech</a>:<ul><li> The series originally featured things like social media and like, but that has been mostly downplayed in favor of a more medieval setting.</li><li> It's later revealed that <span class="spoiler" title="you can set spoilers visible by default on your profile">the world used to have entire cities filled with futuristic technology but it attracted Shards who overran and destroyed them. Because of this, no one attempts to revive the old technologies or invent new ones out of fear of Shard attacks. Small devices such as radios and ceiling fans are confirmed to exist, but it's unclear exactly how advanced or primitive the world of Sister Claire actually is.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretRelationship" title="/pmwiki/pmwiki.php/Main/SecretRelationship">Secret Relationship</a>: Between <span class="spoiler" title="you can set spoilers visible by default on your profile"> Olga and Jackson</span> with Oscar's accidental discovery of it taking place in one of the Missing Moments, and by the time this gets revealed in the main comic it turns out to be a case of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverybodyKnewAlready" title="/pmwiki/pmwiki.php/Main/EverybodyKnewAlready">Everybody Knew Already</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDeprecation" title="/pmwiki/pmwiki.php/Main/SelfDeprecation">Self-Deprecation</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDeprecation" title="/pmwiki/pmwiki.php/Main/SelfDeprecation">The girl Olga punishes in Chapter 3?</a> Yep, that's the author. Counts as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CreatorCameo" title="/pmwiki/pmwiki.php/Main/CreatorCameo">Creator Cameo</a> too.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SexyMentor" title="/pmwiki/pmwiki.php/Main/SexyMentor">Sexy Mentor</a>: Sister Catharine. AND Gabrielle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShooOutTheClowns" title="/pmwiki/pmwiki.php/Main/ShooOutTheClowns">Shoo Out the Clowns</a>: Sisters Agnes and Henrietta more or less disappear from the comic and <em>Missing Moments</em> after Chapter One. Yoda expy Sister Yolanda remains relatively prominent though she has been mostly removed from the ongoing events of the main story.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> To <em><a class="twikilink" href="/pmwiki/pmwiki.php/Manga/TheRoseOfVersailles" title="/pmwiki/pmwiki.php/Manga/TheRoseOfVersailles">The Rose of Versailles</a></em> with Sisters Rosalie, Antoinette and Oscar.</li><li> One is done for <em>The Last Supper</em>, in <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=131">this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> comic. Yamino lampshades it in her notes, commenting that the nuns all ran to Claire's side of the table, because they always wanted to pose like that.</li><li> A good many are made to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarWars" title="/pmwiki/pmwiki.php/Main/StarWars">Star Wars</a></em>, like <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=109">this one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=130">One of Claire's books<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/HarryPotter" title="/pmwiki/pmwiki.php/Franchise/HarryPotter">Defense Against the Dark Arts</a>.<ul><li> To a scene from <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/HarryPotterAndThePhilosophersStone" title="/pmwiki/pmwiki.php/Literature/HarryPotterAndThePhilosophersStone">the first book</a> <a class="urllink" href="https://www.sisterclaire.com/comic/book-1-chapter-4-pg-59-2">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>:</li></ul><div class="indent"> <strong>Claire</strong>: (after bursting into the sanctuary during prayers) SHARD! IN THE CATACOMBS! Thought you ought to know!</div></li><li> The title page of Chapter 2 calls back to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheGraduate" title="/pmwiki/pmwiki.php/Film/TheGraduate">The Graduate</a></em>.</li><li> Anytime the nuns' students are shown, pay attention; one of them might be Yamino, and the rest are invariably cameo appearances by characters from shows Yamino is particularly into, like <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PantyAndStockingWithGarterbelt" title="/pmwiki/pmwiki.php/Anime/PantyAndStockingWithGarterbelt">Panty and Stocking</a>, or <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/MyLittlePonyFriendshipIsMagic" title="/pmwiki/pmwiki.php/WesternAnimation/MyLittlePonyFriendshipIsMagic">human versions of ponies</a>.</li><li> Also, <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/AvatarTheLastAirbender" title="/pmwiki/pmwiki.php/WesternAnimation/AvatarTheLastAirbender">Azula, Mai, and Ty Lee</a> have made an <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=162">appearance<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> as students. On the same page, you can also see <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/AceAttorney" title="/pmwiki/pmwiki.php/Franchise/AceAttorney">Ema Skye and Maya Fey</a>.</li><li> Apparently <a class="twikilink" href="/pmwiki/pmwiki.php/Series/SesameStreet" title="/pmwiki/pmwiki.php/Series/SesameStreet">The Count</a> sleeps in <a class="urllink" href="http://www.sisterclaire.com/sisterclaire/44">the catacombs<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Film/BluesBrothers" title="/pmwiki/pmwiki.php/Film/BluesBrothers">Also</a>, <a class="urllink" href="http://www.sisterclaire.com/sisterclaire/55">Claire<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is on a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MissionFromGod" title="/pmwiki/pmwiki.php/Main/MissionFromGod">Mission from God</a>!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/AvatarTheLastAirbender" title="/pmwiki/pmwiki.php/WesternAnimation/AvatarTheLastAirbender">Sokka's club</a>, as well as one of <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Batman" title="/pmwiki/pmwiki.php/Franchise/Batman">Batman's bat-shurikens</a> can be seen <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=75">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.<ul><li> As well as <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=177">statues<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/AvatarTheLastAirbender" title="/pmwiki/pmwiki.php/WesternAnimation/AvatarTheLastAirbender">Avatar Aang</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheLegendOfKorra" title="/pmwiki/pmwiki.php/WesternAnimation/TheLegendOfKorra">Korra</a>!</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Manga/AzumangaDaioh" title="/pmwiki/pmwiki.php/Manga/AzumangaDaioh">Osaka and Chiyo-chan</a> are seen in the front row on <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=162">this page.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> The sequence in the above link gives off a feel like <a class="twikilink" href="/pmwiki/pmwiki.php/Theatre/TheCrucible" title="/pmwiki/pmwiki.php/Theatre/TheCrucible">The Crucible</a>.</li><li> One of the new banner ads features a kitten dressed up like <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/MSPaintAdventures" title="/pmwiki/pmwiki.php/Webcomic/MSPaintAdventures">Nepeta</a>, with the phrase "Got Kitten!" (a reference to the "Got Tiger" <a class="twikilink" href="/pmwiki/pmwiki.php/Memes/Homestuck" title="/pmwiki/pmwiki.php/Memes/Homestuck">meme</a>).<ul><li> Yet another banner ad is drawn in the style of <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/SweetBroAndHellaJeff" title="/pmwiki/pmwiki.php/Webcomic/SweetBroAndHellaJeff">Sweet Bro and Hella Jeff</a>, with reference to <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Homestuck" title="/pmwiki/pmwiki.php/Webcomic/Homestuck">blue ladies</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Pokemon" title="/pmwiki/pmwiki.php/Franchise/Pokemon">Pok&eacute;Balls</a> can be seen in <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=76">this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> strip.</li><li> <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=146">Chuck<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> from <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/PantyAndStockingWithGarterbelt" title="/pmwiki/pmwiki.php/Anime/PantyAndStockingWithGarterbelt">Panty &amp; Stocking with Garterbelt</a> can be found here. It's not all that surprising a shout out to that would appear here, really.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Pokemon" title="/pmwiki/pmwiki.php/Franchise/Pokemon">Several</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/SailorMoon" title="/pmwiki/pmwiki.php/Franchise/SailorMoon">popular</a> <a class="twikilink" href="/pmwiki/pmwiki.php/ComicStrip/Garfield" title="/pmwiki/pmwiki.php/ComicStrip/Garfield">cats</a> can be seen on the roof <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=77">here.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> Claire's trip to Atlantis in <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=73">Chapter 5<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> is filled with <em>dozens</em> of familiar faces, if you look carefully enough.</li><li> In the Missing Moments story <a class="urllink" href="http://www.sisterclaire.com/missingmoments/421">"La Visita"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, Claire and the twins read from a book titled <em><a class="twikilink" href="/pmwiki/pmwiki.php/Fanfic/RiseOfTheBraveTangledDragons" title="/pmwiki/pmwiki.php/Fanfic/RiseOfTheBraveTangledDragons">Rise of the Brave Tangled</a> <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Frozen2013" title="/pmwiki/pmwiki.php/WesternAnimation/Frozen2013">Frozen</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Fanfic/RiseOfTheBraveTangledDragons" title="/pmwiki/pmwiki.php/Fanfic/RiseOfTheBraveTangledDragons">Dragons</a></em>.</li><li> <a class="urllink" href="http://www.sisterclaire.com/comic/book-1-chapter-4-pg-65-2">A redrawn page for Chapter 4<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> now features certain <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/StevenUniverse" title="/pmwiki/pmwiki.php/WesternAnimation/StevenUniverse">Crystal Gems.</a></li><li> In the Missing Moments story "Festa della Regina", Gabby tells her human friends all about life underwater. When asked if there are undersea castles, she replies that while there are palaces in the kelp and down in the "darker deeps" but she'd never been there because she was too little. And "Who'd want to go anyway? Nothing there but lots of <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheLittleMermaid1989" title="/pmwiki/pmwiki.php/WesternAnimation/TheLittleMermaid1989">silly crab concerts and creepy seawitches.</a>"</li><li> Jackson's first name, Janelle, is a reference to <a class="twikilink" href="/pmwiki/pmwiki.php/Music/JanelleMonae" title="/pmwiki/pmwiki.php/Music/JanelleMonae">Janelle Mon&aacute;e</a>, who was an inspiration for the character.</li><li> Witches with an affinity for technology are called <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/GirlGenius" title="/pmwiki/pmwiki.php/Webcomic/GirlGenius">Sparkwitches</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TeenTitans" title="/pmwiki/pmwiki.php/WesternAnimation/TeenTitans">Raven</a> is lurking behind the nuns gearing up for a fight in <a class="urllink" href="https://www.sisterclaire.com/comic/book-1-chapter-4-pg-66-2">this page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> The blueprint for the Sleeper's body that Clementine comes up with on <a class="urllink" href="http://www.sisterclaire.com/missing-moments/missing-moment-recupero-2)">this page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> takes obvious cues from the cyborg mechs from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion" title="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion">Neon Genesis Evangelion</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SinkOrSwimMentor" title="/pmwiki/pmwiki.php/Main/SinkOrSwimMentor">Sink-or-Swim Mentor</a>: Catharine claims Sister Marguerite is one, but it's becoming increasingly apparent that she just really misses her job as a witch hunter, and Claire's mistakes are just convenient excuses to vent her pent-up sadism.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad" title="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad">Spotlight-Stealing Squad</a>:<ul><li> Despite the title of the comic, a lot of the focus winds up on other characters other then Claire. Even the Missing Moments, which flesh out the character's backstories, <span class="spoiler" title="you can set spoilers visible by default on your profile"> focus more on her past when she was living as her former incarnation, Clementine, despite the fact the comic makes it clear these are two separate characters.</span></li><li> The B-team consisting of Olga, Jackson, Oscar and Marguerite progresses the comic's plot much more than Claire's group does.</li><li> More or less half of Missing Moments focus on Oscar and her supporting cast.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SssssnakeTalk" title="/pmwiki/pmwiki.php/Main/SssssnakeTalk">Sssssnake Talk</a>: Subverted by the eel bouncer at Atlantis. He has a lisp.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrangeSyntaxSpeaker" title="/pmwiki/pmwiki.php/Main/StrangeSyntaxSpeaker">Strange-Syntax Speaker</a>: Talk like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarWars" title="/pmwiki/pmwiki.php/Main/StarWars">Yoda</a>, Mother Superior does.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawCharacter" title="/pmwiki/pmwiki.php/Main/StrawCharacter">Straw Character</a>: The uppity noble Oscar fights in Missing Moments is nothing more than an elitist <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HateSink" title="/pmwiki/pmwiki.php/Main/HateSink">Hate Sink</a> that Oscar can beat up and humiliate without consequence. So much so that he doesn't get a design or even a name.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrictlyFormula" title="/pmwiki/pmwiki.php/Main/StrictlyFormula">Strictly Formula</a>: Jerky character seems evil. Jerky character has sympathetic/tragic backstory. Jerky character is now good. Repeat ad-naseum.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SupernaturalGoldEyes" title="/pmwiki/pmwiki.php/Main/SupernaturalGoldEyes">Supernatural Gold Eyes</a>: Grimm, and Catharine while possessed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">Suspiciously Specific Denial</a>: <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=30">"There's nothing suspicious or weird happening!"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SweetSeal" title="/pmwiki/pmwiki.php/Main/SweetSeal">Sweet Seal</a>: Gabby the Selkie is an adorable seal pup or a cute, chubby human girl when she's on land.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Tagline" title="/pmwiki/pmwiki.php/Main/Tagline">Tagline</a>: Formerly: <em>Pregnant nun, Holy Crap!</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TearsOfBlood" title="/pmwiki/pmwiki.php/Main/TearsOfBlood">Tears of Blood</a>: Claire passes a statue weeping red tears <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=43">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, signaling that events are about to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">take a turn for the worse...</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThatCameOutWrong" title="/pmwiki/pmwiki.php/Main/ThatCameOutWrong">That Came Out Wrong</a>: Olga <a class="urllink" href="https://www.sisterclaire.com/comic/book-2-chapter-3-pg-77">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. After the nuns disrobe for bathing, Oscar and Olga are both self-conscious of their bodies &mdash; Oscar because she is transgender, and Olga because of her stretch marks. Oscar compliments Olga's stretch marks. Olga attempts to return the compliment by telling her she looks nice without clothes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThatWasNotADream" title="/pmwiki/pmwiki.php/Main/ThatWasNotADream">That Was Not a Dream</a>: When Claire wakes up after her trip to Atlantis, she initially thinks that the previous chapters' events were all a dream, but quickly comes to her senses.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TookALevelInBadass" title="/pmwiki/pmwiki.php/Main/TookALevelInBadass">Took a Level in Badass</a>: Claire. Just look at <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=48">her first encounter with Grimm<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, versus <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=152">her second<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TortureTechnician" title="/pmwiki/pmwiki.php/Main/TortureTechnician">Torture Technician</a>: Sister Marguerite, <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=159">apparently<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.<div class="indent">When it comes to pain, I'm a professional. And I <strong>love</strong> my job.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TraumaticHaircut" title="/pmwiki/pmwiki.php/Main/TraumaticHaircut">Traumatic Haircut</a>: Implied for Hanabi <a class="urllink" href="https://www.sisterclaire.com/comic/book-3-chapter-1-pg-27">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpdatedRerelease" title="/pmwiki/pmwiki.php/Main/UpdatedRerelease">Updated Re-release</a>: Non-videogame example. When the site was updated in 2016, earlier comic pages were re-drawn to downplay the initially sillier moments of the comic, add in more scenes to bring some more context to the character's relationships and bring it more in line with the current tone of the story.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ValleyGirl" title="/pmwiki/pmwiki.php/Main/ValleyGirl">Valley Girl</a>: Sister Marie talks like one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VomitIndiscretionShot" title="/pmwiki/pmwiki.php/Main/VomitIndiscretionShot">Vomit Indiscretion Shot</a>: <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=21">After immaculately conceiving the Messiah, Claire is sick.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><ul><li> As is Yamino, when she sees an opportunity to use theatrics to save the world from Sister Marguerite.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VirginPower" title="/pmwiki/pmwiki.php/Main/VirginPower">Virgin Power</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WackyCravings" title="/pmwiki/pmwiki.php/Main/WackyCravings">Wacky Cravings</a>: Om nom wooden mugs nom nom.<ul><li> <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=134">Wooden crosses<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and <a class="urllink" href="http://www.sisterclaire.com/comic.php?id=140">wooden rulers<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> are good eating, as well.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WasItAllALie" title="/pmwiki/pmwiki.php/Main/WasItAllALie">Was It All a Lie?</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Claire asks Gabrielle this, tearfully wondering if she ever cared about her at all, or even <em>saw</em> her as Claire instead of Clementine.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>: Most of the nuns such as Olga and Marguerite <span class="spoiler" title="you can set spoilers visible by default on your profile"> and, according to Catharine, Grimm.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamShot" title="/pmwiki/pmwiki.php/Main/WhamShot">Wham Shot</a>: The end of Chapter Six of Book 2. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Claire suddenly starts growing horns on her head, just like the Witch Queen. She likewise loses the baby as well. Then we find out it was never a baby to begin with.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamLine" title="/pmwiki/pmwiki.php/Main/WhamLine">Wham Line</a>:<div class="indent"> <strong>Wolf Witches Queen</strong>: <span class="spoiler" title="you can set spoilers visible by default on your profile">We can't ignore the signs that a war is brewing again. We could use powerful allies. Lupo, track these witches. <strong>Protect them.</strong></span></div><ul><li> And later:<div class="indent"><strong>Marguerite</strong>: I do hope to see her again one day, that child with her antlers. Little <span class="spoiler" title="you can set spoilers visible by default on your profile">Clementine</span>.</div></li><li> From Chapter 7 in Book 2<div class="indent"> <strong>Gabrielle</strong>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's not a baby, Claire. I'm so sorry. It was never a baby.</span></div></li><li> From Missing Moment: Lamento della Regina<div class="indent"><strong>Michel:</strong> Years and years they've slept, and you... you hear them? <span class="spoiler" title="you can set spoilers visible by default on your profile">Our Rose... our Marigold...</span> you truly hear them?</div></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse" title="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse">What Happened to the Mouse?</a>: Sal and the mer-people of Atlantis haven't been seen since Book 1. On a similar note, G.O.D., the mysterious organization that Gabrielle works for, hasn't been mentioned in years either.<ul><li> Sal is mentioned in Book 2 as being part of Gabrielle's "pod" that <span class="spoiler" title="you can set spoilers visible by default on your profile">keeps her from changing into a siren</span>.</li><li> As for G.O.D., in Book 3, Chapter 4, it's revealed that <span class="spoiler" title="you can set spoilers visible by default on your profile">"G.O.D." stands for "Garden of Delights", named for Sabine/Maman's home and workplace, and is in fact what remains of Clementine's old council.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WideEyedIdealist" title="/pmwiki/pmwiki.php/Main/WideEyedIdealist">Wide-Eyed Idealist</a>: Sister Claire.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Shortpacked">Shortpacked!</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/Hiveworks">Website/Hiveworks</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SixGunMage">6 Gun Mage</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Shortpacked">Shortpacked!</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WebcomicsOfThe2000s">Webcomics of the 2000s</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SkinDeep">Skin Deep</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/WebComic/SirensLament">Siren's Lament</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyWebcomics">Fantasy Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SkelaAndTheOddstrange">Skela And The Oddstrange</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SimplySarah">Simply Sarah</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/QueerMedia">Queer Media</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/SleeplessDomain">Sleepless Domain</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Dark Match (Wrestling) - TV Tropes</title>
+<meta name="description" content="A description of tropes appearing in Dark Match. A weekly internet wrestling podcast started by about a dozen or so members of the Spoony Experiment forums &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Wrestling/DarkMatch" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Dark Match (Wrestling) - TV Tropes" />
+<meta name="twitter:description" content="A description of tropes appearing in Dark Match. A weekly internet wrestling podcast started by about a dozen or so members of the Spoony Experiment forums &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Dark Match (Wrestling) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Wrestling/DarkMatch" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="A weekly internet wrestling podcast started by about a dozen or so members of the Spoony Experiment forums to fill in the gap for a faltering schedule and a need for their opinions to be known, but not affiliated with Spoony in any way other than &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/TranquillizerDart" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Series/HeresHumphrey" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Wrestling/DarkMatch?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Wrestling/DarkMatch">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Wrestling.DarkMatch">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=DarkMatch&g=Wrestling">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=Wrestling.DarkMatch">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Wrestling/DarkMatch?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Wrestling" />
+<input type="hidden" id="title-hidden" value="DarkMatch" />
+<input type="hidden" id="article_id" value="269715" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Wrestling/DarkMatch</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Wrestling / </strong>
+Dark Match
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Wrestling",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Wrestling"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Dark Match"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/DarkMatch" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/DarkMatch" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Wrestling/DarkMatch" class="subpage-link curr-subpage" title="The Wrestling page">
+<span class="wrapper"><span class="spi wrestling"></span>Wrestling</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/DarkMatch" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/DarkMatch?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/DarkMatch?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/DarkMatch?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/DarkMatch?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/DarkMatch?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/DarkMatch?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/DarkMatch?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/DarkMatch?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/DarkMatch?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/DarkMatch?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/DarkMatch?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/DarkMatch?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/DarkMatch?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/DarkMatch?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/DarkMatch?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="indent"><em>We Start When The Lights Go Out</em></div><p>A weekly internet wrestling podcast started by about a dozen or so members of the <a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/TheSpoonyExperiment" title="/pmwiki/pmwiki.php/WebVideo/TheSpoonyExperiment">Spoony Experiment</a> forums to fill in the gap for a faltering schedule and a need for their opinions to be known, but not affiliated with <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/NoahAntwiler" title="/pmwiki/pmwiki.php/Creator/NoahAntwiler">Spoony</a> in any way other than being fans of his work.</p><p><a class="urllink" href="http://darkmatch.blip.tv">Darkmatch<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> features a revolving door of hosts each week that are rotated in groups of 4 people each, who spend a good hour or so recapping the weekly wrestling shows. Namely, Raw, Smackdown, TNA and sometimes lesser shows such as NXT and Tough Enough, and even untelevised/unaired shows. WWE and TNA Pay Per Views are also covered in separate episodes.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>The first episode covered the 2011 Royal Rumble and featured <a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/TheSpoonyExperiment" title="/pmwiki/pmwiki.php/WebVideo/TheSpoonyExperiment">The Spoony Experiment</a> forum members Teefus, Ironbite, Revolverman and Matt the Paranoid Katt.</p><p>As of their one-year anniversary reviewing the 2012 Royal Rumble (the year being measured in PPV events as opposed to days) their shows can also be seen hosted at <a class="urllink" href="http://treproductions.wordpress.com/">TRE Productions<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</p><p>A number of side projects and segments have been started by the hosts. These include:</p><p></p><ul><li> 'Headlocked' by Teefus, a Q&amp;A session where Teefus answers questions as <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActingForTwo" title="/pmwiki/pmwiki.php/Main/ActingForTwo">different personas </a>, such as a Smark, a TNA fan and a Lucha fan</li><li> 'Lars The TNA Mark', the much maligned alter ego of Backlash who is acting like a TNA fan who would defend it with his life, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a> on the forum is to act in Kayfabe and hate on any video he makes.</li><li> 'Faker Than Pro Wrestling' by No Leaf Clover, who reviews things that seem completely bullshit like Rebeca Black or Chris Brown and their bad music.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> 'Doctor Magpie and the Women' by Magpie, who asks random women he finds and sees their opinions on various professional wrestlers.</li><li> 'Wrestle Retro' by Digi-Fox. Who converses about retro wrestling shows, making some jokes about it and wearing a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceHat" title="/pmwiki/pmwiki.php/Main/NiceHat">Nice Hat</a></li><li> 'My Dog Sam Is Smarter Than...' also hosted by Digi-Fox, in which he makes convincing arguments his dog Sam is smarter than wrestling personalities'</li><li> Jobbers Need Love Too: The Arrow has taken it upon himself to do a weekly review of the WWE's C, D &amp; F shows. <em><a class="twikilink" href="/pmwiki/pmwiki.php/Wrestling/WWEToughEnough" title="/pmwiki/pmwiki.php/Wrestling/WWEToughEnough">WWE Tough Enough</a></em>, Superstars and NXT respectively.</li><li> 'Independent Thinking' has Magpie, and various other cast members reviewing different indie wrestling shows they can get access to in a timely manner.</li></ul><p>Darkmatch has gained some notoriety on twitter from the likes of Shane Helms in a <a class="twikilink" href="/pmwiki/pmwiki.php/SugarWiki/FunnyMoments" title="/pmwiki/pmwiki.php/SugarWiki/FunnyMoments">Funny Moment</a> that involved hamburger jokes and also holds the distinct honor of being blocked by none other than <a class="twikilink" href="/pmwiki/pmwiki.php/Wrestling/HulkHogan" title="/pmwiki/pmwiki.php/Wrestling/HulkHogan">Hulk Hogan</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>Several feuds between cast members and various alternate personalities exist.</p><p>The series has entered an indefinite hiatus, with the last episode being a review of TNA's Lockdown PPV released on March 13, 2013.</p><p></p><hr><h2>Tropes associated with this show include:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccentuateTheNegative" title="/pmwiki/pmwiki.php/Main/AccentuateTheNegative">Accentuate the Negative</a>: Pretty much the entire basis of the show, though they do try to give credit where credit is due.<ul><li> No Leaf's lone defense of TNA is that if it were to go out of business, they wouldn't have anything to talk about anymore and the show would die.</li></ul></li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActingForTwo" title="/pmwiki/pmwiki.php/Main/ActingForTwo">Acting for Two</a>: Lars The TNA Mark played by Backlash. Also Teefus and Digi-Fox have played alteregos in their side projects as well.<ul><li> Digi-Fox has played the role of Matt Hardy in his latest My Dog Sam video.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffectionateParody" title="/pmwiki/pmwiki.php/Main/AffectionateParody">Affectionate Parody</a>: Digi-Fox doing a Razor Ramon impression in his first episode of Wrestle Retro.<ul><li> The reading of The Iron Sheik's latest tweet every week qualifies. It could be seen as mocking him, but really, they do it out of love for him.</li><li> Averted with Digi-Fox' Matt Hardy parody which is meant to overexaggerate how crazy Matt Hardy is.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAlcoholic" title="/pmwiki/pmwiki.php/Main/TheAlcoholic">The Alcoholic</a>: Jingus pretty much every episode he's on, others have been known to delve in this trope as well.<ul><li> Teefus as well, when he played the TNA drinking game, taking a shot for every awkward promo in one episode, resulting in 17 (or 18, the number is disputed) shots of American Honey in 93 minutes. Drinking is now banned during the show.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllGirlsWantBadBoys" title="/pmwiki/pmwiki.php/Main/AllGirlsWantBadBoys">All Girls Want Bad Boys</a>: At least in Magpie's show, "Doctor Magpie and the Women". Everyone woman interviewed admits Dolph Ziggler looks like a douchebag, but they all give him high ratings (based on looks) anyway.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllMenArePerverts" title="/pmwiki/pmwiki.php/Main/AllMenArePerverts">All Men Are Perverts</a>: Not all of the time, but everyone in the cast has at least one moment.<ul><li> See <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShesGotLegs" title="/pmwiki/pmwiki.php/Main/ShesGotLegs">She's Got Legs</a> below.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Angrish" title="/pmwiki/pmwiki.php/Main/Angrish">Angrish</a>: Happens with alarming frequency</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AprilFoolsPlot" title="/pmwiki/pmwiki.php/Main/AprilFoolsPlot">April Fools' Plot</a>: An entire April Fool's Episode, wherein the hosts talk about how much they love TNA Impact.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwfulTruth" title="/pmwiki/pmwiki.php/Main/AwfulTruth">Awful Truth</a>: The S.K.Y.P.E? <span class="spoiler" title="you can set spoilers visible by default on your profile">It's powered by the trapped soul of a TARDIS, "borrowed" from a dying Time Lord that No Leaf either couldn't save or didn't bother saving.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BashBrothers" title="/pmwiki/pmwiki.php/Main/BashBrothers">Bash Brothers</a>: Magpie and Mr. War Machine. Well, at least until their tag team broke up when <a class="createlink" href="/pmwiki/pmwiki.php/Main/DuosAngel" title="/pmwiki/pmwiki.php/Main/DuosAngel">Duos Angel</a> shows up and Magpie is nice to her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BorrowedCatchphrase" title="/pmwiki/pmwiki.php/Main/BorrowedCatchphrase">Borrowed Catchphrase</a>: <strong>"WRESTLE! WRESTLE!"</strong><ul><li> <strong>"I'M IN THE DANJAH ZONE!"</strong><ul><li> This ends up being an extended <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>. Not only is "the Danger Zone" borrowed from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TopGun" title="/pmwiki/pmwiki.php/Film/TopGun">Top Gun</a></em>, it is then used by Archer, while also being a shout out to "Macho Man" Randy Savage. Teefus was the first to say it, which leads to No Leaf stealing it.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BShow" title="/pmwiki/pmwiki.php/Main/BShow">B Show</a>: The WWE Tough Enough, NXT and Superstars Review, done by The Arrow.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>: This role can rotate throughout the cast.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatchPhrase" title="/pmwiki/pmwiki.php/Main/CatchPhrase">Catchphrase</a>:<ul><li> Lately, the hosts have begun ending the show with the phrase "Good night and good luck."</li><li> "Oh we'll get to (insert something enraging here)!"</li><li> "HI-YO!"</li><li> "Logic does not dwell here."</li><li> "We are PROFESSIONALS!"</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CausticCritic" title="/pmwiki/pmwiki.php/Main/CausticCritic">Caustic Critic</a>: A whole bunch of them</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChainmailBikini" title="/pmwiki/pmwiki.php/Main/ChainmailBikini">Chainmail Bikini</a>: Madison Rayne's outfits both entice and annoy the guys on a weekly basis.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CliffHanger" title="/pmwiki/pmwiki.php/Main/CliffHanger">CliffHanger</a>: The April Fool's episode sees TFS smoking himself to death, Backlash being killed by someone who wields a microphone, and No Leaf ends up being locked out of his house while someone takes over his computer.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClusterFBomb" title="/pmwiki/pmwiki.php/Main/ClusterFBomb">Cluster F-Bomb</a>: Occurs regularly</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComplainingAboutShowsYouDontWatch" title="/pmwiki/pmwiki.php/Main/ComplainingAboutShowsYouDontWatch">Complaining About Shows You Don't Watch</a>:<ul><li> Despite being in one of the Victory Road Clusterfuck episodes, Ironbite actually didn't <em>see</em> Victory Road.</li><li> Mr. War Machine reviews an episode of Impact he never watched, largely by reading the spoilers during the review, until he's called out by his co-host. In his defense, he reads comprehensive spoilers.</li><li> Lars can't recognize a single person in the WWE, and is only forced to watch the show by everyone else in the group. Despite that, he continues to believe TNA is better than WWE in every way imaginable.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolMask" title="/pmwiki/pmwiki.php/Main/CoolMask">Cool Mask</a>: Subverted with Sagrieto; no one likes his mask.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepartmentOfRedundancyDepartment" title="/pmwiki/pmwiki.php/Main/DepartmentOfRedundancyDepartment">Department of Redundancy Department</a>: First invoked by No Leaf. Happens often.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DespairEventHorizon" title="/pmwiki/pmwiki.php/Main/DespairEventHorizon">Despair Event Horizon</a>: A collective one everytime a TNA episode airs</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToMadness" title="/pmwiki/pmwiki.php/Main/DrivenToMadness">Driven to Madness</a>: Once again, whenever the cast has to review TNA.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrugsAreBad" title="/pmwiki/pmwiki.php/Main/DrugsAreBad">Drugs Are Bad</a>: The whole cast bashes TNA endlessly for their lax drug policies, in seemingly every show.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>: Though the first few episodes did feature a theme song, many of the gags (such as the Tangent Counter) hadn't been invented. The conversations also tend to be more stilted, as people still were learning one another, and in general are less natural sounding than the later reviews.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanDisservice" title="/pmwiki/pmwiki.php/Main/FanDisservice">Fan Disservice</a>: The shirtless scenes with Matt Hardy V8</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GirlOnGirlIsHot" title="/pmwiki/pmwiki.php/Main/GirlOnGirlIsHot">Girl-on-Girl Is Hot</a>: Averted. Through TNA's many, many <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoLesbian" title="/pmwiki/pmwiki.php/Main/PsychoLesbian">Psycho Lesbian</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LipstickLesbian" title="/pmwiki/pmwiki.php/Main/LipstickLesbian">Lipstick Lesbian</a> angles, the casts never seems to be turned on by them. In fact, they all are annoyed by those kind of angles in general.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodSmokingEvilSmoking" title="/pmwiki/pmwiki.php/Main/GoodSmokingEvilSmoking">Good Smoking, Evil Smoking</a>: Teefus during the first Headlocked, who played a Smark</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuiltyPleasure" title="/pmwiki/pmwiki.php/Main/GuiltyPleasure">Guilty Pleasure</a>: Played with. Though the cast generally dislikes TNA, they <em>do</em> want to see it succeed, and sometimes enjoy their shows, if for no reason than it gives them a reason to hang out and talk about wrestling.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a>: Backlash suffers one nearly every time he has to review TNA.<ul><li> No Leaf in Episode 4 of Faker than Pro Wrestling. Justin Bieber dating Selena Gomez breaks the hell out of him<ul><li> Also in the newest episode of "Faker Than Pro Wrestling", which even caused him to kick over his camera</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Kayfabe" title="/pmwiki/pmwiki.php/Main/Kayfabe">Kayfabe</a>: The show maintains it's own in universe kayfabe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoadsAndLoadsOfCharacters" title="/pmwiki/pmwiki.php/Main/LoadsAndLoadsOfCharacters">Loads and Loads of Characters</a>:</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MirrorUniverse" title="/pmwiki/pmwiki.php/Main/MirrorUniverse">Mirror Universe</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Digi-Fox gets trapped in one by Matt Hardy V8.</span></li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoBudget" title="/pmwiki/pmwiki.php/Main/NoBudget">No Budget</a>: The show's pictures are done in Paint, it's edited using the free audio program Audacity, and compiled in Windows Live Movie Maker.<ul><li> In comparison, the Lars the TNA Mark videos look <em>far</em> superior in quality to everyone else's videos.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheReasonYouSuckSpeech" title="/pmwiki/pmwiki.php/Main/TheReasonYouSuckSpeech">"The Reason You Suck" Speech</a>: Noleaf's response to Hulk Hogan calling Edge out on his retirement.<ul><li> Also, Noleaf's rant on everything that's wrong with TNA in his <em>Victory Road 2011</em> video.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>: Early episodes had a gag counter.<ul><li> The counters make a return in later episodes, though they aren't inserted into the show quite like they were before they changed showrunners.</li><li> "What is Iron Sheik Tweeting Now?"</li><li> "What Gets More Screentime Than X? (X being a wrestler who barely appears on TV or was fired, recently or otherwise)<ul><li> On TNA shows: Jay Lethal</li><li> On WWE shows: Interchangable between the various jobbers and midcarders WWE employs</li></ul></li><li> The numerous run-ins used to be a once in a while thing, but recently, No Leaf has done a run-in on just about every show, whether he's actually hosting or not.</li><li> When a cast member either enters into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnstoppableRage" title="/pmwiki/pmwiki.php/Main/UnstoppableRage">Unstoppable Rage</a> or is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToMadness" title="/pmwiki/pmwiki.php/Main/DrivenToMadness">Driven to Madness</a>, the "glass" over their specific picture will crack, signifying that that cast member has been "broken".</li><li> No-Leaf not being able to say his name at the end of shows.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OverusedRunningGag" title="/pmwiki/pmwiki.php/Main/OverusedRunningGag">Overused Running Gag</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Wrestling/BruiserBrody" title="/pmwiki/pmwiki.php/Wrestling/BruiserBrody">Bruiser Brody</a> jokes were starting to get a little bit old at one point...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShesGotLegs" title="/pmwiki/pmwiki.php/Main/ShesGotLegs">She's Got Legs</a>: Christopher Says makes reference to Winter silky smooth white legs on a couple occasions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: Being on <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/NoahAntwiler" title="/pmwiki/pmwiki.php/Creator/NoahAntwiler">Spoony's forums</a> and everything, there are more than a few references to him on the show.<ul><li> Averted with the original showrunner, who went through painstaking detail to remove every last mention of Spoony from the show.<ul><li> Getting into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a> territory, as they primarily do it now to annoy those who say they steal Spoony's material.</li></ul></li><li> Sin Cara's <a class="createlink" href="/pmwiki/pmwiki.php/Main/DarkMatch" title="/pmwiki/pmwiki.php/Main/DarkMatch">Dark Match</a> theme song. "SIN CARA! HE IS A MAN, PLAUNCHA, WEARS A PRETTY MASK..."</li><li> Noleafclover's name is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> to the Metallica song of the same name.</li><li> Magpie usually starts the show by quoting a line from The Beatles.<ul><li> During the <em>TNA Lockdown 2011</em> Review, Magpie begins to sing the lyrics to the song "Let It Be" to soothe himself.</li><li> He sings "She Loves You" at the end of the 5-15-2011 review.</li></ul></li><li> "And on that bombshell, we must end..." is No Leaf's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> to the show <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TopGearUK" title="/pmwiki/pmwiki.php/Series/TopGearUK">Top Gear (UK)</a></em>.</li><li> Mr. War Machine's name, is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> to the superhero of the same name.<ul><li> He also happens to share the same first and last name of the hero in real life.</li></ul></li><li> <a class="createlink" href="/pmwiki/pmwiki.php/Main/Megafighter3" title="/pmwiki/pmwiki.php/Main/Megafighter3">Megafighter 3</a> tends to make references to Wrestlecrap inductions.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmartMark" title="/pmwiki/pmwiki.php/Main/SmartMark">Smart Mark</a>: Teefus adopted this gimmick during his first Headlock episode.<ul><li> Really, the whole casts is made up of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmartMark" title="/pmwiki/pmwiki.php/Main/SmartMark">smarks</a>, though they try (and sometimes fail) to keep there more smarkish tendencies under control.<ul><li> Magpie usually can't get through an episode without comparing whatever they're reviewing to <a class="twikilink" href="/pmwiki/pmwiki.php/Wrestling/RingOfHonor" title="/pmwiki/pmwiki.php/Wrestling/RingOfHonor">Ring of Honor</a>.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemeTune" title="/pmwiki/pmwiki.php/Main/ThemeTune">Theme Tune</a>: The show has a theme song; just no one has any idea what the theme song is <em>called</em>...<ul><li> The switch from one showrunner to another meant no one ever found out what the name of theme song was.</li><li> It has been recently discovered to be "King of the Mountain" from the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/FightingVipers" title="/pmwiki/pmwiki.php/VideoGame/FightingVipers">Fighting Vipers</a></em> soundtrack.</li><li> Real Song Theme Tune: 'Faker than Pro Wrestling' has one; it's "Totla Mad" by Periphery<ul><li> 'Independent Thinking' has "High and Dry" by Def Leoppard and "Get Back" by the Beatles</li><li> Magpie's other show, 'Doctor Magpie and the Women', has the theme "Whatta Man" by Salt-N-Pepa</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TomatoInTheMirror" title="/pmwiki/pmwiki.php/Main/TomatoInTheMirror">Tomato in the Mirror</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> it's implied that Digi-Fox and Matt Hardy are the same person, or at least clones of some kind, or Matt Hardy has possessed Digi-Fox,</span> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">or any or all of the above.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnstoppableRage" title="/pmwiki/pmwiki.php/Main/UnstoppableRage">Unstoppable Rage</a>: Backlash and Mr. War Machine are guilty of this, but it's not their fault; TNA makes them do it.<ul><li> No Leaf recently developed this on a new episode of "Faker Than Pro Wrestling" based around Twilight.</li><li> During one WWE episode, Subrick lost it when Alicia Fox defeated Natalya by roll up, and spent most of the rest of the episode pissed off and in rant mode.</li><li> Every member has their moments, usually triggered by Teefus going out of his way to trigger it in them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a>: Much of the rage towards TNA can be seen as this. No one could stand watching something they hate as much as they claim they do.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse" title="/pmwiki/pmwiki.php/Main/WhatHappenedToTheMouse">What Happened to the Mouse?</a>: The Wrestlemania review was cancelled. There was also a handful of 'missing episodes' that were recorded but mysteriously vanished when the original editor jumped ship, or various Skype/recording issues here and there.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordofGod" title="/pmwiki/pmwiki.php/Main/WordofGod">Wordof God</a> says this happened because the original showrunner had set the Wrestlemania review for April 20th; more than two weeks <em>after Wrestlemania originally aired</em>. The original show was pretty much going to be a giant scale clusterfuck with every member of the cast in on the recording. Unable to make any sense of the madness, No Leaf (the show's current showrunner) just said eff it, as by the time anything had been worked out, they had already made their opinions on the show known on <a class="twikilink" href="/pmwiki/pmwiki.php/WebVideo/TheSpoonyExperiment" title="/pmwiki/pmwiki.php/WebVideo/TheSpoonyExperiment">the TSE</a> forums, and the Wrestlemania show would've been a week late anyway.</li><li> The TNA Sacrifice review also went this way for much simpler reasons. Hey something had to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncrediblyLamePun" title="/pmwiki/pmwiki.php/Main/IncrediblyLamePun">sacrificed.</a></li></ul></li></ul>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/Cultaholic">Cultaholic</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Podcast">Podcast</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/WrestleCrap">WrestleCrap</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Pinball/WWFRoyalRumble">WWF Royal Rumble</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ProfessionalWrestling">Professional Wrestling</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Podcast/Sequinox">Sequinox</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

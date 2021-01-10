@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Super Mario Bros. 3 (Video Game) - TV Tropes</title>
+<meta name="description" content="Super Mario Bros. 3 is the fourth installment in the Super Mario Bros. series by Nintendo. Having saved the Mushroom Kingdom, the Mario Bros. must now &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/SuperMarioBros3" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Super Mario Bros. 3 (Video Game) - TV Tropes" />
+<meta name="twitter:description" content="Super Mario Bros. 3 is the fourth installment in the Super Mario Bros. series by Nintendo. Having saved the Mushroom Kingdom, the Mario Bros. must now &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/smb3_scene.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Super Mario Bros. 3 (Video Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/SuperMarioBros3" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/smb3_scene.png" />
+<meta property="og:description" content="Super Mario Bros. 3 is the fourth installment in the Super Mario Bros. series by Nintendo. Having saved the Mushroom Kingdom, the Mario Bros. must now liberate the surrounding kingdoms from Bowser, who, in the vein of Napol&eacute;on Bonaparte, &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/TheTropeFormerlyKnownAsX" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/TheFourthKind" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros3?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VideoGame/SuperMarioBros3">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VideoGame.SuperMarioBros3">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=VideoGame&target_title=SuperMarioBros3">
+<i class="fa fa-star-half-o"></i> 1 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VideoGame.SuperMarioBros3">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros3?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VideoGame" />
+<input type="hidden" id="title-hidden" value="SuperMarioBros3" />
+<input type="hidden" id="article_id" value="284898" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VideoGame/SuperMarioBros3</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Video Game / </strong>
+Super Mario Bros. 3
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VideoGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Super Mario Bros. 3"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/SuperMarioBros3" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Fridge/SuperMarioBros3" class="subpage-link " title="The Fridge page">
+<span class="wrapper"><span class="spi fridge"></span>Fridge</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Headscratchers/SuperMarioBros3" class="subpage-link " title="The Headscratchers page">
+<span class="wrapper"><span class="spi headscratchers"></span>Headscratchers</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/SuperMarioBros3" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/SuperMarioBros3" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros3" class="subpage-link curr-subpage" title="The VideoGame page">
+<span class="wrapper"><span class="spi videogame"></span>VideoGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/SuperMarioBros3" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/SuperMarioBros3" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/SuperMarioBros3?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/SuperMarioBros3?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/SuperMarioBros3?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/SuperMarioBros3?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Haiku/SuperMarioBros3?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/SuperMarioBros3?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/SuperMarioBros3?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/SuperMarioBros3?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/SuperMarioBros3?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/SuperMarioBros3?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/SuperMarioBros3?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/SuperMarioBros3?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:72%"><img src="https://static.tvtropes.org/pmwiki/pub/images/smb3_scene.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/smb3_scene.png" width="350" height="252"></div></div><div class="acaptionright" style="width:350px;">Oh, <em>there's</em> Bowser! <a class="twikilink" href="/pmwiki/pmwiki.php/Main/QuirkyMinibossSquad" title="/pmwiki/pmwiki.php/Main/QuirkyMinibossSquad">And he brought the whole family this time!</a><span class="notelabel" onclick="togglenote('note01l3h');"><sup>whisper&nbsp;</sup></span><span id="note01l3h" class="inlinefolder" isnote="true" onclick="togglenote('note01l3h');" style="cursor:pointer;font-size:smaller;display:none;"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Retcon" title="/pmwiki/pmwiki.php/Main/Retcon">Wait, what do you mean those aren't his actual kids?</a></span></div><div class="indent"><em>"So I give you... SUPER! MARIO BROTHERS! <strong>THREE!!!</strong>"</em><div class="indent">&mdash; <strong>The Video Armageddon announcer</strong>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheWizard" title="/pmwiki/pmwiki.php/Film/TheWizard">The Wizard</a></em></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Super Mario Bros. 3</em> is the fourth installment in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/SuperMarioBros" title="/pmwiki/pmwiki.php/Franchise/SuperMarioBros">Super Mario Bros.</a></em> series by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Nintendo" title="/pmwiki/pmwiki.php/Creator/Nintendo">Nintendo</a>. Having saved the Mushroom Kingdom, the Mario Bros. must now liberate the surrounding kingdoms from Bowser, who, in the vein of <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/NapoleonBonaparte" title="/pmwiki/pmwiki.php/UsefulNotes/NapoleonBonaparte">Napol&eacute;on Bonaparte</a>, has divvied those kingdoms up between his seven kids, the Koopalings. Mario and Luigi must first trounce the Koopalings, retrieve the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicWand" title="/pmwiki/pmwiki.php/Main/MagicWand">Magic Wands</a> stolen from the rightful rulers, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalefulPolymorph" title="/pmwiki/pmwiki.php/Main/BalefulPolymorph">restore the kings to human form</a> before they're allowed to tackle Bowser. A promotional video in 2015 had Miyamoto state that the game is <a class="urllink" href="https://www.youtube.com/watch?t=78&amp;v=uu2DnTd3dEo">a stage play<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</p><p>The game was released on October 23, 1988 for the Famicom in Japan and on February 12, 1990 for the Nintendo Entertainment System in North America.</p><p>The final installment in the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/The8bitEraOfConsoleVideoGames" title="/pmwiki/pmwiki.php/UsefulNotes/The8bitEraOfConsoleVideoGames">8-bit</a> series of <em>Super Mario</em> games, it introduced several new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerUp" title="/pmwiki/pmwiki.php/Main/PowerUp">power-ups</a> and features, in addition to a much larger selection of levels, enemies, and so forth. <em>Super Mario Bros. 3</em> was also the first <em>Mario</em> game to have a specific cartoon <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpinOff" title="/pmwiki/pmwiki.php/Main/SpinOff">Spin-Off</a>, in the form of <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfSuperMarioBros3" title="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfSuperMarioBros3">The Adventures of Super Mario Bros. 3</a></em>. It also received <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyBirdCameo" title="/pmwiki/pmwiki.php/Main/EarlyBirdCameo">advance publicity</a> in the U.S. from the movie <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheWizard" title="/pmwiki/pmwiki.php/Film/TheWizard">The Wizard</a></em>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameRemake" title="/pmwiki/pmwiki.php/Main/VideoGameRemake">remake</a> of <em>Super Mario Bros. 3</em> was later included in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioAllStars" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioAllStars">Super Mario All-Stars</a></em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CompilationRerelease" title="/pmwiki/pmwiki.php/Main/CompilationRerelease">Compilation Re-release</a>, and that remake was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpdatedRerelease" title="/pmwiki/pmwiki.php/Main/UpdatedRerelease">updated again</a> as a standalone game with e-Reader support as <em>Super Mario Advance 4: Super Mario Bros. 3</em>. <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioMaker" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioMaker">Super Mario Maker</a></em> features <em>Super Mario Bros. 3</em> as one of the styles that players can use to create the courses of their dreams.</p><p></p><hr><h2>Tropes present:</h2><div class="folderlabel" onclick="toggleAllFolders();">&nbsp;&nbsp;&nbsp;&nbsp;open/close all folders&nbsp; </div><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;#-D&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneUp" title="/pmwiki/pmwiki.php/Main/OneUp">1-Up</a>:<ul><li> Just like in the first <em>Super Mario Bros.</em> game, special green mushrooms give 1-Ups, and one is awarded <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawOfOneHundred" title="/pmwiki/pmwiki.php/Main/LawOfOneHundred">for every 100 coins you collect</a>. There are also goal cards at the end. Any combination of three grants a 1-up, and gathering all mushrooms, all flowers, or all stars grants 2-, 3-, and 5-ups, respectively. In addition, the spade game offers 2-, 3-, or 5-ups for matching up a picture, and you can earn a 1-up in the card matching minigame.</li><li> <em>Advance 4</em> kicks those spade games up a notch by giving you a heart game once you clear the spade, in which the Super Star is replaced with a Super Leaf that'll give you seven lives. Clear that, and you get to play a club game where the Super Leaf is replaced with a big "3" that'll give you 10 lives. Clear THAT for a diamond game, where the slots are all rigged with one symbol. After playing the diamond game, it reverts back to a spade.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationExpansion" title="/pmwiki/pmwiki.php/Main/AdaptationExpansion">Adaptation Expansion</a>: <em>Advance 4</em> has an intro cutscene explaining how the Koopalings transformed the kings and took over the other lands.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AirborneMook" title="/pmwiki/pmwiki.php/Main/AirborneMook">Airborne Mook</a>: In addition to Koopa Paratroopas, there are now Paragoombas, Para-Beetles, and Boos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimatedActors" title="/pmwiki/pmwiki.php/Main/AnimatedActors">Animated Actors</a>: Miyamoto has often equated the relationship between <em>Mario</em> characters in general to this trope, and while elements of it have appeared in other games <span class="notelabel" onclick="togglenote('note0urpo');"><sup>note&nbsp;</sup></span><span id="note0urpo" class="inlinefolder" isnote="true" onclick="togglenote('note0urpo');" style="cursor:pointer;font-size:smaller;display:none;"><em>Super Mario Bros 2's</em> character select and intermissions, <em>Mario Party 2's</em> intro, the battle screens of the first two <em>Paper Mario</em> games</span> <em>Super Mario Bros. 3</em> uses it most extensively; many of the background elements and props have obvious bolts/wires and have shadows on what's supposedly <em>thin air</em>. <em>All-Stars</em> and <em>Advance 4</em> later removed the "fake" stage-like elements.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimatedAdaptation" title="/pmwiki/pmwiki.php/Main/AnimatedAdaptation">Animated Adaptation</a>: <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfSuperMarioBros3" title="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfSuperMarioBros3">The Adventures of Super Mario Bros. 3</a></em>, which was also a follow-up to <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheSuperMarioBrosSuperShow" title="/pmwiki/pmwiki.php/WesternAnimation/TheSuperMarioBrosSuperShow">The Super Mario Bros Super Show!</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiFrustrationFeatures" title="/pmwiki/pmwiki.php/Main/AntiFrustrationFeatures">Anti-Frustration Features</a>: To lessen the "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContinuingIsPainful" title="/pmwiki/pmwiki.php/Main/ContinuingIsPainful">Continuing is Painful</a>" aspect of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameOver" title="/pmwiki/pmwiki.php/Main/GameOver">Game Over</a> state of the game, any Fortress courses you've cleared would stay cleared, thus leaving their associated map shortcuts unlocked as well (unless you got the Warp Whistle in Grass Land's Fortress, in which case the lock remains).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AutoScrollingLevel" title="/pmwiki/pmwiki.php/Main/AutoScrollingLevel">Auto-Scrolling Level</a>: Several. Many of them are notoriously difficult due to the many obstacles that must be traversed while keeping up with the screen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">Awesome, but Impractical</a>: The Hammer Suit. You can 1-hit kill almost anything, including a number of enemies that otherwise cannot be killed (including the Koopalings), but the slow arc of the hammers can make actually hitting your target difficult, especially with the fast-moving Koopalings, and you lose the ability to slide on slopes. The Fire Flower, though weaker, is a lot more direct and easy to use, and a <em>lot</em> more common.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButTemporary" title="/pmwiki/pmwiki.php/Main/AwesomeButTemporary">Awesome, but Temporary</a>: Goomba's Shoe. It instantly kills any enemy that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoombaStomp" title="/pmwiki/pmwiki.php/Main/GoombaStomp">meets the sole of it</a> even if would be otherwise harmful to do so, also destroys fireballs in the same way, and while it can't kill Munchers (which are classified as blocks in the game's programming), it's immune to them and can safely hop across them. Unfortunately it's only available in one level in the entire game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Backtracking" title="/pmwiki/pmwiki.php/Main/Backtracking">Backtracking</a>: Possible to do with a warp whistle to go from World 6 to World 5, or from the end of World 5 to the beginning of World 5.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassCape" title="/pmwiki/pmwiki.php/Main/BadassCape">Badass Cape</a>: Bowser himself wears one in some of the game's main artwork, but it's sadly missing in-game and all subsequent appearances.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalefulPolymorph" title="/pmwiki/pmwiki.php/Main/BalefulPolymorph">Baleful Polymorph</a>: The seven kings who get changed into animals (or, in <em>All-Stars</em> and <em>Advance 4</em>, characters from other <em>Mario</em> games).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: Bowser, of course. He orders the Koopalings to invade the kingdoms of the Mushroom World and usurp them by transforming the respective kings into defenseless creatures and stealing their wands. He then takes advantage of Mario and Luigi being busy liberating the kingdoms to invade the Mushroom Kingdom and kidnap Princess Peach unopposed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BilingualBonus" title="/pmwiki/pmwiki.php/Main/BilingualBonus">Bilingual Bonus</a>: The Treasure Ships have "treasure" written on their masts in kanji.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlindIdiotTranslation" title="/pmwiki/pmwiki.php/Main/BlindIdiotTranslation">"Blind Idiot" Translation</a>: There are items that had enemies' names in their names that the game and instruction manual forgot to localize accordingly, but this was fixed in some subsequent versions. One is Kuribo's (Goomba's) Shoe, the other is Jugem's (Lakitu's) Cloud. The <a class="twikilink" href="/pmwiki/pmwiki.php/Magazine/NintendoPower" title="/pmwiki/pmwiki.php/Magazine/NintendoPower">Nintendo Power</a> Strategy Guide even called the Goombas wearing the Kuribo's Shoe <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepartmentOfRedundancyDepartment" title="/pmwiki/pmwiki.php/Main/DepartmentOfRedundancyDepartment">"Kuribo's Goomba."</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BonusFeatureFailure" title="/pmwiki/pmwiki.php/Main/BonusFeatureFailure">Bonus Feature Failure</a>: Much of the bonus content in <em>Super Mario Advance 4</em> is reliant on the Nintendo e-Reader. Players would buy packs of cards that could be scanned into the game to watch pre-scripted demos that would reveal secrets or tricks, add items to your inventory on demand, or unlock bonus levels that can be played in World e. Unfortunately, the failure of the e-Reader in Western territories ensured that <span style="display:none">invoked</span> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoExportForYou" title="/pmwiki/pmwiki.php/Main/NoExportForYou">only two out of four packs would see a release in the United States</a>, while the feature was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DummiedOut" title="/pmwiki/pmwiki.php/Main/DummiedOut">Dummied Out</a> entirely in PAL-region versions of the game, which meant that American players missed out on half the game's bonus content, while Europe missed out entirely. Not only that, but the cards themselves are exceedingly rare and expensive and require an e-Reader, a separate Game Boy Advance, and a Link Cable to use, so for that much hassle, it's not worth it. The <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/WiiU" title="/pmwiki/pmwiki.php/UsefulNotes/WiiU">Wii U</a> Virtual Console version rectified this by including all of the bonus levels pre-installed into the game, which became the first time half of the World e levels have seen a release outside of Japan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BootstrappedTheme" title="/pmwiki/pmwiki.php/Main/BootstrappedTheme">Bootstrapped Theme</a>:<ul><li> Underground levels use a remix of the underground theme from the first <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros1" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros1">Super Mario Bros.</a></em> game.</li><li> Also, the melody to make the wandering Hammer Bros. fall asleep is the overworld theme from the same game (albeit played at a lower speed).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossArenaIdiocy" title="/pmwiki/pmwiki.php/Main/BossArenaIdiocy">Boss Arena Idiocy</a>: The final fight with Bowser is won by dodging him as he butt-smashes his way through the floor (which is made entirely of breakable blocks), until he inevitably falls to his doom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossOnlyLevel" title="/pmwiki/pmwiki.php/Main/BossOnlyLevel">Boss-Only Level</a>: The first mini-fortress in World 7 notably is a full-sized level, but with no <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mook" title="/pmwiki/pmwiki.php/Main/Mook">Mooks</a> whatsoever, and you can even see non-functional accessories that otherwise would have enemies attached to them. The only enemy waiting is the usual <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniBoss" title="/pmwiki/pmwiki.php/Main/MiniBoss">Mini-Boss</a>, Boom-Boom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakablePowerUp" title="/pmwiki/pmwiki.php/Main/BreakablePowerUp">Breakable Power-Up</a>: As in the first game, getting hit as Super Mario reverts him to regular Mario, unable to break bricks from below. Starting with the international version of <em>3</em>, getting hit when empowered by any <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerUp" title="/pmwiki/pmwiki.php/Main/PowerUp">Power-Up</a> <em>other</em> than the Super Mushroom (Fire Flower, Super Leaf, Tanooki Suit, Hammer Suit, Frog Suit, etc.) reverts Mario to Super Mario rather than all the way back down to regular Mario.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BubblyClouds" title="/pmwiki/pmwiki.php/Main/BubblyClouds">Bubbly Clouds</a>: The second half of World 5, Sky Land/The Sky, consists entirely of levels taking place high up in the clouds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallBack" title="/pmwiki/pmwiki.php/Main/CallBack">Call-Back</a>: If you beat Bowser and save the Princess, you get the message from the end of each of the first seven worlds in <em>Super Mario Bros.</em>: "Thank you. But our Princess is in another castle!" The game then adds, "Just kidding! Ha ha ha! Bye bye."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCameo" title="/pmwiki/pmwiki.php/Main/TheCameo">The Cameo</a>: In <em>All-Stars</em> and <em>Advance 4</em>, instead of generic animals, the kings of the different worlds are changed by the Koopalings into different characters from other games:<ul><li> World 1: Grass Land: Dog -&gt; Cobrat, from <em>Super Mario Bros. 2</em></li><li> World 2: Desert Land/Desert Hill: Spider -&gt; Hoopster, from <em>Super Mario Bros. 2</em></li><li> World 3: Water Land/Ocean Side/Sea Side: Kappa -&gt; Dino Rhino, from <em>Super Mario World</em></li><li> World 4: Giant Land/Big Island: Dinosaur -&gt; Donkey Kong Jr. from his eponymous game</li><li> World 5: Sky Land/The Sky: Vulture -&gt; Albatoss, from <em>Super Mario Bros. 2</em></li><li> World 6: Ice(d) Land: Sea lion -&gt; Monty Mole, from <em>Super Mario World</em></li><li> World 7: Pipe Land/Pipe Maze: Piranha Plant -&gt; An <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyBirdCameo" title="/pmwiki/pmwiki.php/Main/EarlyBirdCameo">Early-Bird Cameo</a> of Yoshi's sprite from <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld2YoshisIsland" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld2YoshisIsland">Super Mario World 2: Yoshi's Island</a></em></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cap" title="/pmwiki/pmwiki.php/Main/Cap">Cap</a>:<ul><li> Mario and Luigi can only have 99 lives. <em>Advance 4</em> bumps this up to 999.</li><li> The inventory has a max capacity of 28 items. Upon gaining a new item, the last one gets replaced with it, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReadTheFreakingManual" title="/pmwiki/pmwiki.php/Main/ReadTheFreakingManual">which is explained in the manual, but not in-game</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CentralTheme" title="/pmwiki/pmwiki.php/Main/CentralTheme">Central Theme</a>: Children and offspring; the Koopalings are introduced as Bowser's children, the Paragoombas are shown spawning mini-goombas, Bloopers now have their offspring following them, and even Big Bertha is introduced as the mother of Baby Cheeps.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CheckPointStarvation" title="/pmwiki/pmwiki.php/Main/CheckPointStarvation">Check-Point Starvation</a>: None of the levels in this game have checkpoints, a rarity for a <em>Mario</em> game. This may be because the stages are relatively short.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a>: The final stage, Bowser's Castle, is constructed out of distinctive red bricks not seen in the game's other castles and fortresses. During the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinalBoss" title="/pmwiki/pmwiki.php/Main/FinalBoss">Final Boss</a> fight, the main way to defeat Bowser is to trick him into smashing his way through these same bricks and down into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BottomlessPit" title="/pmwiki/pmwiki.php/Main/BottomlessPit">Bottomless Pit</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChildrenInTow" title="/pmwiki/pmwiki.php/Main/ChildrenInTow">Children in Tow</a>: The Blooper Nanny can send its children to attack you.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColorCodedMultiplayer" title="/pmwiki/pmwiki.php/Main/ColorCodedMultiplayer">Color-Coded Multiplayer</a>: Luigi is just a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaletteSwap" title="/pmwiki/pmwiki.php/Main/PaletteSwap">Palette Swap</a> in the original.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContinuingIsPainful" title="/pmwiki/pmwiki.php/Main/ContinuingIsPainful">Continuing is Painful</a>: Getting a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameOver" title="/pmwiki/pmwiki.php/Main/GameOver">Game Over</a> results in being thrown back to the start of the world's map plus all levels that you cleared get reset and have to be completed again. However, fortresses and battleship levels in World 8 that were cleared previously remain as such, which also means any shortcuts you opened beforehand also remain open so you can bypass a few levels. On the plus side, all mini-games and item houses you used will regenerate upon restarting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConvectionSchmonvection" title="/pmwiki/pmwiki.php/Main/ConvectionSchmonvection">Convection Schmonvection</a>: In addition to the typical application of this trope (being able to stand JUST above lava without getting fried), there's also the fact that in the leftmost Hand Trap level in World 8, Cheep Cheeps fly out of lava to attack you! Also, in <em>All-Stars</em> and <em>Advance 4</em>, all Hand Trap levels have the bottom half of the background glowing red.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoOpMultiplayer" title="/pmwiki/pmwiki.php/Main/CoOpMultiplayer">Co-Op Multiplayer</a>: The "Progress in Turns" version. In <em>Advance 4</em>, you can exchange <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameLives" title="/pmwiki/pmwiki.php/Main/VideoGameLives">extra lives</a> between Mario and Luigi when they occupy the same space, while in the other versions, they enter a minigame <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NostalgiaLevel" title="/pmwiki/pmwiki.php/Main/NostalgiaLevel">styled after</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/MarioBros" title="/pmwiki/pmwiki.php/VideoGame/MarioBros">Mario Bros.</a></em> where they compete for the next turn in the main game and steal each other's goal cards while they're at it. The <em>All-Stars</em> version even included a Battle Mode completely dedicated to this minigame.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoversAlwaysLie" title="/pmwiki/pmwiki.php/Main/CoversAlwaysLie">Covers Always Lie</a>: The back of the NES game box shows a removed level which isn't even <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DummiedOut" title="/pmwiki/pmwiki.php/Main/DummiedOut">Dummied Out</a> on the ROM.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CraniumRide" title="/pmwiki/pmwiki.php/Main/CraniumRide">Cranium Ride</a>: Mario can hop on the shells of Para-Beetles to reach greater heights.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CripplingOverspecialization" title="/pmwiki/pmwiki.php/Main/CripplingOverspecialization">Crippling Overspecialization</a>: The Frog Suit greatly improves your mobility underwater, namely by making you move faster and stabilizing Mario's movement so that, barring currents, he'll only move according to your D-pad movements. However, it has lousy speed on land and Mario can't even <em>crouch</em> while wearing it. You can subvert this though by carrying a Koopa shell.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyDodging" title="/pmwiki/pmwiki.php/Main/DeadlyDodging">Deadly Dodging</a>: One way to defeat Bowser is to dodge his fireballs and pounces (which destroy certain sections of the floor) until he exposes the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BottomlessPit" title="/pmwiki/pmwiki.php/Main/BottomlessPit">Bottomless Pit</a> under the floor and falls into it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist" title="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist">Death Is a Slap on the Wrist</a>: If you lose all your lives and choose to continue in the GBA version, any progress you've made on the current world won't be reset to any degree, unlike the NES and SNES versions. However, your score <em>will be</em> reset back to zero.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemBones" title="/pmwiki/pmwiki.php/Main/DemBones">Dem Bones</a>: Dry Bones, which are actually Koopa skeletons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu" title="/pmwiki/pmwiki.php/Main/DidYouJustPunchOutCthulhu">Did You Just Punch Out Cthulhu?</a>: You can kill <em>the sun</em>. And it's just as awesome as it sounds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DifficultyByRegion" title="/pmwiki/pmwiki.php/Main/DifficultyByRegion">Difficulty by Region</a>: In the original Family Computer/Japanese version, Mario reverts all the way back to small Mario when hit even if he's fully powered-up (Fire, Raccoon, etc). In the localized NES/International versions, he reverts back to Super Mario, meaning he's able to take an extra hit. This revision would also apply to <em>All-Stars</em> and <em>Advance 4</em>, both in Japan and internationally. (<em>Advance 4</em> was planned to include an e-Reader <em>Red Switch</em> card that would bring back the original damage behavior, but it was released exclusively in Japan.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DifficultySpike" title="/pmwiki/pmwiki.php/Main/DifficultySpike">Difficulty Spike</a>: World 3 is significantly harder than the previous two worlds, partially because water levels tend to be harder to begin with, and also due to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicSpiders" title="/pmwiki/pmwiki.php/Main/DemonicSpiders">Boss Bass</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WakeUpCallBoss" title="/pmwiki/pmwiki.php/Main/WakeUpCallBoss">Wendy O. Koopa</a>. The difficulty evens out somewhat in World 4, but starts rising again in World 5 and never lets up from then on.<span style="display:none">invoked</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiscOneFinalDungeon" title="/pmwiki/pmwiki.php/Main/DiscOneFinalDungeon">Disc-One Final Dungeon</a>: Since there are seven Koopalings, you'd expect World 7 to be the final world in the game, but <em>nope</em>, the end-of-world letter reveals that Bowser's kidnapped the Princess again, forcing you to traverse one more world to save her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisneyVillainDeath" title="/pmwiki/pmwiki.php/Main/DisneyVillainDeath">Disney Villain Death</a>: Happens to Bowser if he is defeated the normal way by tricking him into smashing through the floor. If he is defeated by the Fire Flower or Hammer Suit, he falls off the screen in the standard <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathThrows" title="/pmwiki/pmwiki.php/Main/DeathThrows">Death Throw</a> manner instead.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDragon" title="/pmwiki/pmwiki.php/Main/TheDragon">The Dragon</a>: Ludwig is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">described in the strategy guide</a> as being Bowser's second-in-command. Contrast with <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a></em> &#151; Larry apparently assumes this role in that game, despite being the <em>first</em> boss in this one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DroughtLevelOfDoom" title="/pmwiki/pmwiki.php/Main/DroughtLevelOfDoom">Drought Level of Doom</a>: In Worlds 6 and 7, Toad Houses are slim in comparison to earlier areas. If you use all your items in these worlds without restocking (via <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameOver" title="/pmwiki/pmwiki.php/Main/GameOver">Game Over</a> and farming), then you'll be in for a rude awakening for World 8, which has some of the hardest stages in the game and <em>no</em> Toad Houses at all.<ul><li> The N-Mark Spade Panel for the card matching minigame won't appear even if your score goes over a multiple of 80,000.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DubNameChange" title="/pmwiki/pmwiki.php/Main/DubNameChange">Dub Name Change</a>: In addition to inheriting all name changes from the prior <em>Mario</em> games, almost all new characters and items were renamed, the only exceptions being Boomerang Bros., Fire Bros., Firesnake, Super Leaf, Hammer Suit, and Tanooki Suit.<ul><li> Taiyou (Sun) &gt; Angry Sun</li><li> Teresa &gt; "Boo" Diddly</li><li> Kyodai Pukupuku (Big Cheep-Cheep) &gt; Boss Bass</li><li> Rifutometto &gt; Buster Beetle</li><li> Taihou &gt; Cannon</li><li> Wanwan &gt; Chain Chomp</li><li> Kyodai Patapata (Giant Paratroppa) &gt; Colossal Paratroopa</li><li> Crab-san (Mr. Crab) &gt; Crab (<a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/MarioBros" title="/pmwiki/pmwiki.php/VideoGame/MarioBros">previously localized</a> as Sidestepper)</li><li> Karon &gt; Dry Bones</li><li> Puchi Pakkun (Petit Piranha) &gt; Walking Pirana [sic]</li><li> Keronpa &gt; Fire Chomp</li><li> Kyodai Nokonoko &gt; Giant Koopa</li><li> Kyodai Kuribou (Giant Goomba) &gt; Grand Goomba</li><li> Walk &gt; Hot Foot</li><li> Shibire Kurage (Paralyzing Jellyfish) &gt; Jelectro</li><li> Kutsu Kuribou (Shoe Goomba) &gt; Kuribo's Goomba (which, strangely, means "Goomba's Goomba")</li><li> Suichuuka &gt; Lava Lotus</li><li> Mame-Kuribou (Bean Goomba) &gt; Micro-Goomba</li><li> Killer (red flashing variety, same name as Bullet Bill) &gt; Missile Bill (not differentiated from Bullet Bill in Japanese)</li><li> Black Pakkun (Black Piranha) &gt; Muncher</li><li> Pata-Metto (Flapping Buzzy Beetle) &gt; Para-Beetle</li><li> Pata-Kuribou (Flapping Goomba) &gt; Para-Goomba</li><li> Block Mame-Kuribou (Block Bean Goomba) &gt; Pile Driver Micro-Goomba</li><li> Kyodai Pakkun Flower (Giant Piranha Plant) &gt; Piranhacus Giganticus</li><li> Fuufuu Pakkun (Blowing Piranha) &gt; Ptooie</li><li> Burner &gt; Rocket Engine</li><li> Puu &gt; Rocky Wrench</li><li> Cookie &gt; Rotodisc</li><li> Himan Bros. (Fat Bros.) &gt; Sledge Bros.</li><li> Gabon &gt; Spike</li><li> Togepuku (Spiny Cheep) &gt; Spiny Cheep-Cheep</li><li> Netchii &gt; Stretch</li><li> Dossuri &gt; Thwomp</li><li> Fire Pakkun (Fire Piranha) &gt; Venus Fire Trap</li><li> Bunbun &gt; Boom Boom</li><li> Patapata no Hane (Paratroopa's Wing) &gt; P-Wing</li><li> Kokuppa 7-Kyoudai (7 Little Bowser Siblings) &gt; Bowser's kids</li><li> Surprisingly <em>not</em> the case with the names of the kids themselves, which were invented for the English manual and then imported back to Japan beginning with <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a></em>. In the original Japanese release of <em>Mario 3</em>, the kids are nameless.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DummiedOut" title="/pmwiki/pmwiki.php/Main/DummiedOut">Dummied Out</a>:<ul><li> There are <em>fifteen</em> (mostly) incomplete levels hiding in the coding.</li><li> Worlds 4-5 and 5-1 have dummied-out exits. The latter is the result of localization. A glitch in the Famicom version, involving the original exit, led to other versions having an alternate exit for this level, although the first one was never taken out.</li><li> There are even two dummied-out enemies: gold Cheep Cheeps and green Para-Beetles, both of which move faster than their red brethren.</li><li> Two whole sets of e-Reader cards didn't make it to North America, and perhaps as a result, the e-Reader content was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DummiedOut" title="/pmwiki/pmwiki.php/Main/DummiedOut">Dummied Out</a> in the European and Australian releases for <em>Advance 4</em>. This was rectified with the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/WiiU" title="/pmwiki/pmwiki.php/UsefulNotes/WiiU">Wii U</a> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/VirtualConsole" title="/pmwiki/pmwiki.php/UsefulNotes/VirtualConsole">Virtual Console</a> release, which also has all the e-reader levels unlocked in all regions.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DungeonBypass" title="/pmwiki/pmwiki.php/Main/DungeonBypass">Dungeon Bypass</a>: There are two items of this sort: the P-Wing and the Lakitu's Cloud. The P-Wing grants the player a Raccoon Suit that has unlimited flight, allowing them to fly over most levels with open ceilings. The Lakitu's Cloud, on the other hand, bypasses a level entirely; however, the course won't be marked as complete. This means the player will have to replay the level if they lose a life, and it won't count towards the <em>Advance 4</em> level count if skipped. Also, if you lose a life on an airship, it will try to move to a new spot past an uncleared level, forcing you to either play it or use another cloud to bypass it again.</li></ul></div><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;E-H&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness" title="/pmwiki/pmwiki.php/Main/EarlyInstallmentWeirdness">Early Installment Weirdness</a>:<ul><li> This (and its rereleases) is the only game in the entire series to give Luigi the raccoon tail and Tanooki Suit forms instead of his unique fox tail and Kitsune Suit forms found in later appearances.</li><li> This is the first game to have the "athletic" levels have a separate theme than the game's normal level theme. It's also the only game with an athletic theme that's not a remix of the game's main theme.</li><li> In the Japanese version, the Koopa Kids (Koopalings) are nameless; their musician-themed monikers were introduced for the English manual, and later imported back into the Japanese games.</li><li> This is the only <em>Mario</em> game to refer to Bowser as "Koopa" in the English version, both in his letter at the end of World 7 and in the end credits<span class="notelabel" onclick="togglenote('note147j8');"><sup>note&nbsp;</sup></span><span id="note147j8" class="inlinefolder" isnote="true" onclick="togglenote('note147j8');" style="cursor:pointer;font-size:smaller;display:none;">The <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheSuperMarioBrosSuperShow" title="/pmwiki/pmwiki.php/WesternAnimation/TheSuperMarioBrosSuperShow">cartoons</a> <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfSuperMarioBros3" title="/pmwiki/pmwiki.php/WesternAnimation/TheAdventuresOfSuperMarioBros3">of this</a> <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/SuperMarioWorld" title="/pmwiki/pmwiki.php/WesternAnimation/SuperMarioWorld">era</a> called him "King Koopa", but the game manual of <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros1" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros1">Super Mario Bros.</a></em> called him Bowser before that</span>. While the manual still uses "Bowser", that name wouldn't appear in-game until <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a></em>.</li><li> Thwomps, which made their debut here, can move up and down, side to side, and even diagonally in some cases. In most later games, they can only move up and down. They wouldn't be able to move in other directions again until <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioMaker2" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioMaker2">Super Mario Maker 2</a></em>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasterEgg" title="/pmwiki/pmwiki.php/Main/EasterEgg">Easter Egg</a>:<ul><li> Complete the airships as Tanooki, Hammer, or Frog Mario/Luigi and the king will give a different message.</li><li> If a Chain Chomp tugs on its chain 49 times, or if the clock hits 160 seconds, the Chain Chomp and all others in the level will break their chains and run off the level.</li><li> Selecting a previously finished level in 2-player will allow both to play a competitive minigame based on <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/MarioBros" title="/pmwiki/pmwiki.php/VideoGame/MarioBros">Mario Bros.</a></em>, which determines the next player's turn and allows them to steal one another's cards.</li><li> Press Select on the map screen to choose <em>any</em> item for use (including a warp whistle). This only works in <em>some</em> versions of the game.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyLevelTrick" title="/pmwiki/pmwiki.php/Main/EasyLevelTrick">Easy Level Trick</a>: You can skip the entire naval stage in World 8 by simply swimming under the ships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElectricJellyfish" title="/pmwiki/pmwiki.php/Main/ElectricJellyfish">Electric Jellyfish</a>: Jelectros are underwater obstacles that spell pain for Mario and Luigi. They're also an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvincibleMinorMook" title="/pmwiki/pmwiki.php/Main/InvincibleMinorMook">Invincible Minor Mook</a>, and even Super Stars and Hammer Suits can't defeat them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyWeapon" title="/pmwiki/pmwiki.php/Main/EnergyWeapon">Energy Weapon</a>: Emerging from the statues of Bowser that litter his castle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilLivingFlames" title="/pmwiki/pmwiki.php/Main/EvilLivingFlames">Evil Living Flames</a>:<ul><li> Fire Snakes are linked fireballs (with the biggest one having eyes and acting as the "head") that hop slowly but constantly towards Mario or Luigi. They appear in the desert levels, and can only be defeated with a Starman or a large projectile (Koopa Shell or Hammer).</li><li> Hot Foots are enemies resembling living flames, and are found in later fortresses. They normally wait in candles, but when one of the brothers comes close the flame will hop off the candle, sprout legs and try to run into the brother in question to damage him, standing still if the player turns to look at it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilOverlord" title="/pmwiki/pmwiki.php/Main/EvilOverlord">Evil Overlord</a>: Bowser, King of the Koopa. He has it all here; a vast army of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mooks" title="/pmwiki/pmwiki.php/Main/Mooks">mooks</a>, airships, and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hell" title="/pmwiki/pmwiki.php/Main/Hell">hellish</a> kingdom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExpansionPack" title="/pmwiki/pmwiki.php/Main/ExpansionPack">Expansion Pack</a>: Literally "pack" &mdash; <em>Super Mario Advance 4</em> was compatible with Nintendo's e-Reader, and several packs of cards were sold to add new levels and give you items at any time.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeUltimateMook" title="/pmwiki/pmwiki.php/Main/FakeUltimateMook">Fake Ultimate Mook</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantMook" title="/pmwiki/pmwiki.php/Main/GiantMook">Giant Mooks</a> in World 4 are no harder to kill than their normal-sized counterparts, despite towering over Mario.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FloatingPlatforms" title="/pmwiki/pmwiki.php/Main/FloatingPlatforms">Floating Platforms</a>: Many levels. Notably, some of them are hanging from wires.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlyingSeafoodSpecial" title="/pmwiki/pmwiki.php/Main/FlyingSeafoodSpecial">Flying Seafood Special</a>: Much like the first game, this one has flying Cheep Cheeps that jump out of the water. Some levels also have a Boss Bass do the same thing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameBreakingBug" title="/pmwiki/pmwiki.php/Main/GameBreakingBug">Game-Breaking Bug</a>:<ul><li> In World 3-9, it's possible to go behind the water in the underwater bottom half of the level, which makes it impossible to go up the pipe leading to the exit.</li><li> World 5 consists of two separate halves: the ground and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BubblyClouds" title="/pmwiki/pmwiki.php/Main/BubblyClouds">Bubbly Clouds</a> upper half. The cloud map has a bit of inaccessible "land" in one corner, depicting your view of the ground far below; the airship is erroneously able to land there as though it were real terrain. Preventing this is probably the only real use for the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerupLetdown" title="/pmwiki/pmwiki.php/Main/PowerupLetdown">Anchor</a>.</li><li> If two sets of Hammer Brothers, or a Hammer Brother and a card matching game get on top of each other on the world map, it's possible for them to get stuck together and perpetually wander around the map, with control never being given back to the player. World 4 tends to be particularly vulnerable to this glitch, as it has three sets of Hammer Brothers all in the same area.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantMook" title="/pmwiki/pmwiki.php/Main/GiantMook">Giant Mook</a>: Almost every enemy in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacroZone" title="/pmwiki/pmwiki.php/Main/MacroZone">World 4</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GracefulInTheirElement" title="/pmwiki/pmwiki.php/Main/GracefulInTheirElement">Graceful in Their Element</a>: The Frog Suit is a godsend in underwater levels, giving enhanced control and the ability to stream through currents. However, as to be expected, it's painfully slow and awkward on land.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreenHillZone" title="/pmwiki/pmwiki.php/Main/GreenHillZone">Green Hill Zone</a>: World 1, Grass Land, and the first half of World 5.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuideDangIt" title="/pmwiki/pmwiki.php/Main/GuideDangIt">Guide Dang It!</a>:<ul><li> The Treasure Ship and White Mushroom House. The former requires the player to complete a level in Grass Land, Sea Side, The Sky, or Iced Land with a Hammer Bros. present on the map, the coin count on a multiple of 11, and the tens digit of the player's score matching that repeated digit. The latter requires you to collect an unspecified number of coins in an unspecified level. Of course, being an NES game, the only way to learn how to find these secrets (at the time it was originally released) was by word of mouth.<span class="notelabel" onclick="togglenote('note2tu3e');"><sup>note&nbsp;</sup></span><span id="note2tu3e" class="inlinefolder" isnote="true" onclick="togglenote('note2tu3e');" style="cursor:pointer;font-size:smaller;display:none;">Or <a class="twikilink" href="/pmwiki/pmwiki.php/Magazine/NintendoPower" title="/pmwiki/pmwiki.php/Magazine/NintendoPower">Nintendo Power</a>. Or in the NES Game Atlas, one of the original four Nintendo Player's Guides.</span> In the case of the White Mushroom Houses, the coin collection requirements basically boil down to "all the coins in the auto-scrolling levels" which made getting them considerably easier once you figured it out.</li><li> Also, several stages have numerous Super Star power-ups hidden in blocks, and can allow the player to be invincible through the entire stage. However, you have to find the actual Super Star at the beginning of the level, or use one from your inventory before entering the stage, because the subsequent blocks only contain Super Stars if you're invincible while hitting them. Qualifies as a bit of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnstableEquilibrium" title="/pmwiki/pmwiki.php/Main/UnstableEquilibrium">Unstable Equilibrium</a>. This gimmick is re-used several times in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/NewSuperMarioBrosWii" title="/pmwiki/pmwiki.php/VideoGame/NewSuperMarioBrosWii">New Super Mario Bros. Wii</a></em>.</li><li> The Warp Whistles. One requires you to duck down on a white block near the end of World 1-3, then run to the end of the stage without being hit to get to a secret Toad's House. Another requires you to fly over the ceiling in the World 1 Fortress and enter a secret room. The last one is found by breaking the rock in the upper right corner of the World 2 map that just looks like part of the background and defeating the Hammer Bros. waiting beyond it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeyYou" title="/pmwiki/pmwiki.php/Main/HeyYou">Hey, You!</a>: Due to the possibility to finish the game as Mario or Luigi without any gameplay or story changes, like many other classic games for that matter, any character referring and talking to Mario or Luigi will not address them by name.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoistByHisOwnPetard" title="/pmwiki/pmwiki.php/Main/HoistByHisOwnPetard">Hoist by His Own Petard</a>:<ul><li> Bowser will try to flatten Mario by jumping down on him from above. But each time, he bores a hole into the floor, going deeper and deeper, until he falls right through.</li><li> Hitting Hammer Bros while wearing the Hammer Bro Suit basically uses their own weapons against them.</li></ul></li></ul></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><div class="folderlabel" onclick="togglefolder('folder2');">&nbsp;&nbsp;&nbsp;&nbsp;I-M&nbsp;</div><div id="folder2" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IFellForHours" title="/pmwiki/pmwiki.php/Main/IFellForHours">I Fell for Hours</a>: World 5-2 starts the player at the top of a very long abyss. Mario or Luigi can be steered while falling downward, gathering coins in the process. It's possible to avoid most of the fall and find a faster way to the goal by hitting a few strategically placed Note Blocks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InfiniteOneUps" title="/pmwiki/pmwiki.php/Main/InfiniteOneUps">Infinite 1-Ups</a>:<ul><li> Any level with a long chain of respawning enemies (such as the pipe in 1-2 which spits out Goombas), several Bill Blasters near each other (e.g., World 4-5), three Dry Bones in the same vicinity, or a Koopa close to a Bill Blaster (see the image at the article), to say nothing of the goal cards. Even a not-so-great player can easily hit the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cap" title="/pmwiki/pmwiki.php/Main/Cap">cap</a> of 99 (or 999 in <em>Advance 4</em>) lives.</li><li> While not necessarily infinite, the fortress in World 7 involves a room with a Switch Block, hundreds of bricks, and no enemies. Once you hit the Switch Block, you have plenty of time to get enough coins for at least one 1-Up, and you can reset the room as often as you like by leaving and re-entering.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InconsistentDub" title="/pmwiki/pmwiki.php/Main/InconsistentDub">Inconsistent Dub</a>: This is the only <em>Mario</em> game that calls Bowser "Koopa" in the English version.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InfinityPlusOneSword" title="/pmwiki/pmwiki.php/Main/InfinityPlusOneSword">Infinity +1 Sword</a>: The Hammer Suit. Its hammers can kill any enemy vulnerable to fireballs, and can also take out Boos, Stretches, and Thwomps &mdash; enemies that normally can only be killed by a Super Star. Ducking in the Hammer Suit makes Mario curl up and grants him immunity to fireballs as well. Naturally, the Hammer Suit is extremely rare and for many players, it's just <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooAwesomeToUse" title="/pmwiki/pmwiki.php/Main/TooAwesomeToUse">Too Awesome to Use</a>. About the only things Mario can't do while wearing it are slide downhill and fly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JourneyToTheSky" title="/pmwiki/pmwiki.php/Main/JourneyToTheSky">Journey to the Sky</a>: One of the invaded kingdoms in the game is located in The Sky. World 5 starts as Mario and Luigi venture through a few land-based levels and then reach a spiral tower whose top has a blue beanstalk leading to the sky portion of the world's map. The spiral tower is played as if it was a Fortress, but Boom Boom (the usual <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniBoss" title="/pmwiki/pmwiki.php/Main/MiniBoss">Mini-Boss</a> who would guard it) is absent.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KaizoTrap" title="/pmwiki/pmwiki.php/Main/KaizoTrap">Kaizo Trap</a>:<ul><li> After Bowser is defeated, you still remain in control of your character. If you must do a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VictoryDance" title="/pmwiki/pmwiki.php/Main/VictoryDance">Victory Dance</a>, care not to fall into the same pit Bowser fell into... though if you defeated him with the Fire Flower or Hammer Suit, there's no hole to fall into.</li><li> Some levels have enemies at the very end where the level goal is, serving to trip up players who bum rush blindly when they see the background change.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KidAppealCharacter" title="/pmwiki/pmwiki.php/Main/KidAppealCharacter">Kid-Appeal Character</a>: Toad isn't the only one. The Koopalings, introduced in the game, bring some kid-of-heel technicality to the <em>Mario</em> franchise. Of course, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KidsAreCruel" title="/pmwiki/pmwiki.php/Main/KidsAreCruel">Koopa Kids are cruel</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">Kill It with Fire</a>: Unlike in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a></em>, the Fire Flower is still a primo power-up, and works against many otherwise intimidating baddies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightOfCerebus" title="/pmwiki/pmwiki.php/Main/KnightOfCerebus">Knight of Cerebus</a>: Bowser. While not as extreme as <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMario64" title="/pmwiki/pmwiki.php/VideoGame/SuperMario64">Super Mario 64</a></em> and the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioGalaxy" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioGalaxy">Super Mario Galaxy</a></em> games, his letter with him gloating about kidnapping the Princess again causes a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a> and after reading it it instantly cuts to Mario arriving in Bowser's kingdom, full of doom and gloom. You don't see Bowser himself until the very end of his castle, in which he just jumps right into the final battle.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawOfOneHundred" title="/pmwiki/pmwiki.php/Main/LawOfOneHundred">Law of 100</a>: Gathering 100 coins still nets you a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneUp" title="/pmwiki/pmwiki.php/Main/OneUp">1-Up</a>, just like in the first <em>Super Mario Bros.</em></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LethalLavaLand" title="/pmwiki/pmwiki.php/Main/LethalLavaLand">Lethal Lava Land</a>: The second fortress in World 5 (it has lava on the floor <em>and</em> the ceiling) and <em>some</em> levels in World 8 (despite the map hinting otherwise, the most common type of level in it is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RemilitarizedZone" title="/pmwiki/pmwiki.php/Main/RemilitarizedZone">Remilitarized Zone</a>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LevelsTakeFlight" title="/pmwiki/pmwiki.php/Main/LevelsTakeFlight">Levels Take Flight</a>: All of the airship stages are presented as auto-scrolling, obstacle course style levels above the clouds. Oftentimes, players have to cross bottomless pits using bolt lifts, which require you to jump repeatedly to move them forward.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LighterAndSofter" title="/pmwiki/pmwiki.php/Main/LighterAndSofter">Lighter and Softer</a>: A relatively mild example, but the <em>All-Stars</em> and <em>Advance 4</em> versions of World 8 had a considerably lighter color palette. The original NES version by comparison had a much darker palette and a bleaker overall feel.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacroZone" title="/pmwiki/pmwiki.php/Main/MacroZone">Macro Zone</a>: World 4, Giant Land/Big Island. One of the levels even has doors that change the level's size, foreshadowing <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMario64" title="/pmwiki/pmwiki.php/VideoGame/SuperMario64">Super Mario 64</a></em>'s Tiny-Huge Island.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarathonLevel" title="/pmwiki/pmwiki.php/Main/MarathonLevel">Marathon Level</a>: World 6 has <em>ten</em> levels, along with three fortress levels. Luckily, you don't have to complete all the normal levels to beat the world, but if you want <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHundredPercentCompletion" title="/pmwiki/pmwiki.php/Main/OneHundredPercentCompletion">100% Completion</a> in <em>Advance 4</em>, you'll have to do it all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaninglessLives" title="/pmwiki/pmwiki.php/Main/MeaninglessLives">Meaningless Lives</a>: <em>Advance 4</em> plays with this trope; it allows you to donate some of your lives to the other player and vice versa, similar to <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a></em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniDungeon" title="/pmwiki/pmwiki.php/Main/MiniDungeon">Mini-Dungeon</a>: This is the first <em>Mario</em> game to introduce the fortresses, which serve this purpose. The status they used to have as end-of-world levels in the previous games was downgraded to a middle-point stage whose completion merely opens locked gates to create shortcuts that help the player skip levels if all lives are lost.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MissionControl" title="/pmwiki/pmwiki.php/Main/MissionControl">Mission Control</a>: The Princess sends you telegrams at the end of each World, along with an item. The final letter is from Bowser, gloating about kidnapping her again.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mordor" title="/pmwiki/pmwiki.php/Main/Mordor">Mordor</a>: World 8, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkWorld" title="/pmwiki/pmwiki.php/Main/DarkWorld">Dark Land</a>/Castle of Koopa/Bowser's Castle, takes place in a lava-filled ruin.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MusicalThemeNaming" title="/pmwiki/pmwiki.php/Main/MusicalThemeNaming">Musical Theme Naming</a>:<ul><li> Most of the Koopalings are named after famous musicians: <a class="twikilink" href="/pmwiki/pmwiki.php/Music/LudwigVanBeethoven" title="/pmwiki/pmwiki.php/Music/LudwigVanBeethoven">Ludwig</a> von Koopa, <a class="twikilink" href="/pmwiki/pmwiki.php/Music/Motorhead" title="/pmwiki/pmwiki.php/Music/Motorhead">Lemmy</a> Koopa, <a class="twikilink" href="/pmwiki/pmwiki.php/Music/RoyOrbison" title="/pmwiki/pmwiki.php/Music/RoyOrbison">Roy</a> Koopa, <a class="twikilink" href="/pmwiki/pmwiki.php/Music/IggyPop" title="/pmwiki/pmwiki.php/Music/IggyPop">Iggy</a> Koopa, and <a class="twikilink" href="/pmwiki/pmwiki.php/Music/ThePlasmatics" title="/pmwiki/pmwiki.php/Music/ThePlasmatics">Wendy</a> O. Koopa. The only possible exceptions are <a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheMortonDowneyJrShow" title="/pmwiki/pmwiki.php/Series/TheMortonDowneyJrShow">Morton</a> Koopa Jr. (obscure as a musician, very famous at the time of the game's release as a talk show host) and Larry Koopa who, due to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlipFlopOfGod" title="/pmwiki/pmwiki.php/Main/FlipFlopOfGod">Flip-Flop of God</a>, may not have been particularly named after anybody.<span style="display:none">invoked</span></li><li> The Boo enemy, which debuted in this game, is called <a class="twikilink" href="/pmwiki/pmwiki.php/Music/BoDiddley" title="/pmwiki/pmwiki.php/Music/BoDiddley">&#147;Boo&#148; Diddly</a> in the NES version.</li></ul></li></ul></div><div class="folderlabel" onclick="togglefolder('folder3');">&nbsp;&nbsp;&nbsp;&nbsp;N-S&nbsp;</div><div id="folder3" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewGamePlus" title="/pmwiki/pmwiki.php/Main/NewGamePlus">New Game+</a>: In the NES/International version, clearing the game and starting over without resetting the console loads your inventory with P-Wings. This is actually not present in the Family Computer/Japanese version, and was not re-added to <em>All-Stars</em> and <em>Advance 4</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NintendoHard" title="/pmwiki/pmwiki.php/Main/NintendoHard">Nintendo Hard</a>: Not as unforgivably difficult as <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBrosTheLostLevels" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioBrosTheLostLevels">Super Mario Bros.: The Lost Levels</a></em>, but still rather hard. The difficulty really peaks in World 7. (World 8, by contrast, tends to look harder than it is.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoFairCheating" title="/pmwiki/pmwiki.php/Main/NoFairCheating">No Fair Cheating</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Infinite1Ups" title="/pmwiki/pmwiki.php/Main/Infinite1Ups">Infinite 1-Ups</a> trick will not work if you're using a P-wing, as points are stacked when you kill an enemy by jumping on them, and landing on an enemy while flying doesn't count as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoombaStomp" title="/pmwiki/pmwiki.php/Main/GoombaStomp">Goomba Stomp</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoNameGiven" title="/pmwiki/pmwiki.php/Main/NoNameGiven">No Name Given</a>: The Koopalings in the Family Computer/Japanese version. Their names were established during the NES/International localization of the game, and were named after musicians.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NostalgiaLevel" title="/pmwiki/pmwiki.php/Main/NostalgiaLevel">Nostalgia Level</a>: The e-Reader levels in the GBA version include ports of the entirety of World 1 of <em>Super Mario Bros.</em>, as well as World 2-2 to add in a classic water level.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NothingButSkulls" title="/pmwiki/pmwiki.php/Main/NothingButSkulls">Nothing but Skulls</a>: Some of the areas on the World 8 map are adorned with skulls.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NothingIsScarier" title="/pmwiki/pmwiki.php/Main/NothingIsScarier">Nothing Is Scarier</a>: The first fortress in World 7 has <em>no</em> enemies except for the Boom Boom; in their place are the empty holders for Roto-Discs and Hot Foots, and the blocks for "Stretch" Boos. It also has <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuideDangIt" title="/pmwiki/pmwiki.php/Main/GuideDangIt">no obvious way out</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHitKill" title="/pmwiki/pmwiki.php/Main/OneHitKill">One-Hit Kill</a>:<ul><li> Boss Bass. Appearing in two levels in World 3, it jumps out of the water trying to engulf you, and if it does, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EatenAlive" title="/pmwiki/pmwiki.php/Main/EatenAlive">you instantly lose a life</a>, even if you were powered-up.</li><li> On the player-benefitting side of things, the Hammer Suit can kill Boom Boom and each of the seven Koopalings with a single hammer.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaletteSwap" title="/pmwiki/pmwiki.php/Main/PaletteSwap">Palette Swap</a>: Mario and Luigi in the original 8-bit version, as well as most of the enemies in all versions.<ul><li> Larry and Iggy are head swaps of each other in this game, as are Morton and Roy.</li><li> The Water Land King is a head swap of both Mario Bros..</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PalmtreePanic" title="/pmwiki/pmwiki.php/Main/PalmtreePanic">Palmtree Panic</a>: World 3, Water Land/Ocean Side/Sea Side; overlaps with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnderTheSea" title="/pmwiki/pmwiki.php/Main/UnderTheSea">Under the Sea</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PipeMaze" title="/pmwiki/pmwiki.php/Main/PipeMaze">Pipe Maze</a>: World 7, Pipe Land/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeNamer" title="/pmwiki/pmwiki.php/Main/TropeNamer">Pipe Maze</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerTic" title="/pmwiki/pmwiki.php/Main/PlayerTic">Player Tic</a>: One of the most well known ones. Players tend to jump to grab the wand in mid-air after defeating a Koopaling.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerUp" title="/pmwiki/pmwiki.php/Main/PowerUp">Power-Up</a>:<ul><li> Along with the Super Mushroom, Fire Flower, and Super Star from the original game, this game introduced the Super Leaf, which allows Mario to take flight and whack enemies with a raccoon/tanuki tail.</li><li> In addition, this game has several powerups unique to itself: the Tanooki Suit, a souped-up Super Leaf with the ability to transform into a statue; the Hammer Suit, which destroyed almost anything with hammers that travel in an arc; the Frog Suit, which allows for easier control underwater but lessened control on land; and Goomba's Shoe, which allowed safe crossing over spikes and Munchers, but was only available in World 5-3.</li><li> <em>Advance 4</em> added the Cape Feather from <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a></em>, as well as a brand new item, a blue boomerang that you can toss around not unlike the Boomerang Bros. These were only available via e-Reader cards, however.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerupLetdown" title="/pmwiki/pmwiki.php/Main/PowerupLetdown">Power-Up Letdown</a>:<ul><li> Anchors are tucked away in White Mushroom Houses of even-numbered worlds. Odd-numbered worlds have P-Wings, so they <em>have</em> to be equally useful, right? Nope, all they do is lock the airship in place after you have already cleared a path through most of the world getting to the castle in the first place. If you beat the airship on your first try, then it's wasted. Its only real use is in World 5, so you don't have to go back and forth from the sky and the ground. There's also a glitch in the NES version that can make the airship fly out of bounds and become inaccessible.</li><li> Some consider the Frog Suit to be this. Although it is useful in water levels, it impedes movement on land as mentioned earlier. It's even more of a letdown if you get one in either of the Toad Houses located after World 7-4 as there are no more true water levels in the game. <span class="notelabel" onclick="togglenote('note36tr4');"><sup>note&nbsp;</sup></span><span id="note36tr4" class="inlinefolder" isnote="true" onclick="togglenote('note36tr4');" style="cursor:pointer;font-size:smaller;display:none;">You can at least put one to use on during World 8 Navy, making it less tiring to swim under the ships than usual.</span></li><li> The Music Box puts the wandering Hammer Brothers on the map to sleep for two "turns". The wandering Hammer Brothers are fairly easy to defeat (especially if you have a Starman) and you always get a power-up for doing so, which makes it pretty pointless. Really, its only use is in World 7 to skip the second Piranha Plant level, which only gives you a mushroom at the end.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/QuirkyMinibossSquad" title="/pmwiki/pmwiki.php/Main/QuirkyMinibossSquad">Quirky Miniboss Squad</a>: The Koopalings debut here, as the boss of the airship level for each world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RemilitarisedZone" title="/pmwiki/pmwiki.php/Main/RemilitarisedZone">Remilitarised Zone</a>: The airship levels that serve as the end-of-world challenges. World 8 also features tank and battleship levels along with the airships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetCon" title="/pmwiki/pmwiki.php/Main/RetCon">Retcon</a>: Bowsers castle varries in apperance considerably between the original game and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpdatedRerelease" title="/pmwiki/pmwiki.php/Main/UpdatedRerelease">updated remakes</a>. In the original, color pallet limitations gave the castle a pink color that could be mistaken for flesh tone. <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioAllStars" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioAllStars">Super Mario All-Stars</a></em> "corrected" this thanks to the improved color pallet and resolution, making the castle appear to have ochre-tones and a recreation of the top half Bowser's skull adorning top-center. <em>Super Mario Advance 4</em>, however portrays the castle as made of a silver metal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RougeAnglesOfSatin" title="/pmwiki/pmwiki.php/Main/RougeAnglesOfSatin">Rouge Angles of Satin</a>: In one of the bonus games, the Mushroom Person says "Miss twice and <em>your</em> out." It was later changed to "You can only miss twice," because there wasn't any room in the text box for an apostrophe. The <em>All-Stars</em> version brought back the original message, and <em>Advance 4</em> corrected it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SaveGameLimits" title="/pmwiki/pmwiki.php/Main/SaveGameLimits">Save-Game Limits</a>: Even though this game is exceptionally long by prior games' standards, <em>there is no save feature</em>. <em>All-Stars</em> allows saving at any time, with the consequence of having to restart at the beginning of the current World. <em>Advance 4</em> also features a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspendSave" title="/pmwiki/pmwiki.php/Main/SuspendSave">Suspend Save</a> feature, along with a more permanent saving feature upon clearing any fortress or airship.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SaveThePrincess" title="/pmwiki/pmwiki.php/Main/SaveThePrincess">Save the Princess</a>: The main plot of the game is to rescue the Mushroom World kings. For most of the game, the Princess is safe at home in the Mushroom Kingdom, sending you letters with advice and gifts. It isn't until you beat World 7 where your usual letter is instead from Bowser proudly claiming that he has kidnapped the Princess while you were away (which was his plan all along). Only the <em>Advance 4</em> version decides to fill you in on this plot development if you skipped to World 8 by warping.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchrodingersGun" title="/pmwiki/pmwiki.php/Main/SchrodingersGun">Schr&ouml;dinger's Gun</a>: There are two slightly different <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BossRoom" title="/pmwiki/pmwiki.php/Main/BossRoom">Boss Rooms</a> in Bowser's Castle, with both having a holding cell behind them. No matter which one you go to, you'll always face Bowser there and find the Princess in the room behind.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDamagingAttackBackfire" title="/pmwiki/pmwiki.php/Main/SelfDamagingAttackBackfire">Self-Damaging Attack Backfire</a>: Bowser tries to use his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GroundPound" title="/pmwiki/pmwiki.php/Main/GroundPound">Ground Pound</a> to defeat Mario. This backfires if Mario can trick him into destroying the floor, which sends him into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BottomlessPit" title="/pmwiki/pmwiki.php/Main/BottomlessPit">Bottomless Pit</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SetBonus" title="/pmwiki/pmwiki.php/Main/SetBonus">Set Bonus</a>: Using two warp whistles at once (that is, using a warp whistle while already in the Warp Zone) is the quickest ticket to World 8.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShiftingSandLand" title="/pmwiki/pmwiki.php/Main/ShiftingSandLand">Shifting Sand Land</a>: World 2, Desert Land/Desert Hill. A few levels in World 7 are also desert-themed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShipLevel" title="/pmwiki/pmwiki.php/Main/ShipLevel">Ship Level</a>: The airship stages at the end of every world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShooOutTheClowns" title="/pmwiki/pmwiki.php/Main/ShooOutTheClowns">Shoo Out the Clowns</a>: World 8 is the only world in the game in which Toad doesn't appear at all . No bonus games, no items, no nothing. Even in the two outdoor field levels, the color scheme is dark and the cave music is used.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> Use the game's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarpWhistle" title="/pmwiki/pmwiki.php/Main/WarpWhistle">Warp Whistle</a>, and you'll hear the warp tune from <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaI" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaI">The Legend of Zelda</a></em>. Mario will also be swept away in a whirlwind, much like Link in the same game. In the Japanese versions, they even share the same name.</li><li> As listed above under <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MusicalThemeNaming" title="/pmwiki/pmwiki.php/Main/MusicalThemeNaming">Musical Theme Naming</a>, the Koopalings are named after musicians.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a>: In an unusual example, the game itself, which is presented as a stage play.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SinisterSentientSun" title="/pmwiki/pmwiki.php/Main/SinisterSentientSun">Sinister Sentient Sun</a>: This game introduces the Angry Sun, a small sun with a furious, menacing face that regularly swoops down on Mario in order to harm the poor plumber.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlideLevel" title="/pmwiki/pmwiki.php/Main/SlideLevel">Slide Level</a>: The player can slide down slopes to knock out enemies or launch themselves.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlippySlideyIceWorld" title="/pmwiki/pmwiki.php/Main/SlippySlideyIceWorld">Slippy-Slidey Ice World</a>: World 6, Ice(d) Land.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpeedRun" title="/pmwiki/pmwiki.php/Main/SpeedRun">Speed Run</a>: <a class="urllink" href="https://www.youtube.com/watch?v=wz3BuYYhnn0">This legendary 11-minute speedrun<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of the game, probably the most famous tool-assisted speedrun on the Internet, though it has since been surpassed... while controlling <em>three</em> other <em>Super Mario Bros.</em> <a class="urllink" href="https://www.youtube.com/watch?v=0x9Pwy8C_6s">games with the same "controller" simultaneously<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSpiny" title="/pmwiki/pmwiki.php/Main/TheSpiny">The Spiny</a>: Not just the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeNamer" title="/pmwiki/pmwiki.php/Main/TropeNamer">Trope Namer</a> type, but also a second, bouncing type. Neither can be stomped on, but both can be killed with fireballs or tail-whips.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritualSuccessor" title="/pmwiki/pmwiki.php/Main/SpiritualSuccessor">Spiritual Successor</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMario3DLand" title="/pmwiki/pmwiki.php/VideoGame/SuperMario3DLand">There's two</a> <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/NewSuperMarioBros2" title="/pmwiki/pmwiki.php/VideoGame/NewSuperMarioBros2">of them.</a></li></ul><p></p></div><div class="folderlabel" onclick="togglefolder('folder4');">&nbsp;&nbsp;&nbsp;&nbsp;T-Y&nbsp;</div><div id="folder4" class="folder" isfolder="true" style="display:block;"><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Tanuki" title="/pmwiki/pmwiki.php/Main/Tanuki">Tanuki</a>: The Tanooki Suit allows Mario or Luigi to temporarily turn into a statue.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TimedMission" title="/pmwiki/pmwiki.php/Main/TimedMission">Timed Mission</a>: As per <em>Super Mario Bros.</em> standards, every action stage is on a time limit, including underground pipe tunnels and fights against the wandering Hammer Brothers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TotallyRadical" title="/pmwiki/pmwiki.php/Main/TotallyRadical">Totally Radical</a>: Bowser opens his letter to Mario with "Yo!"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooAwesomeToUse" title="/pmwiki/pmwiki.php/Main/TooAwesomeToUse">Too Awesome to Use</a>:<ul><li> The Tanooki Suit and the Hammer Suit. You can waste other powerups willy-nilly even if you die, because Mushrooms, Fire Flowers, and Super Leaves are a dime a dozen. But Tanooki Suits and Hammer Suits can be counted on one hand each... (The Frog Suit is similar in terms of rarity, but only useful in underwater areas, so you might as well use them if you have them.)</li><li> The Hammer. Do you use it in World 2 to grab an early Frog Suit and the third warp whistle? Or do you perhaps save it for later, such as World 3's lengthy series of Toad Houses and Spade Panels to accumulate items and extra lives?</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TowerOfBabel" title="/pmwiki/pmwiki.php/Main/TowerOfBabel">Tower of Babel</a>: Mario and Luigi must ascend a spiral-shaped tower to reach the sky of World 5. There is speculative debate as to whether the familiar looking Tower was inspired by the Tower of Babel or Mount Purgatorio.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TremorTrampoline" title="/pmwiki/pmwiki.php/Main/TremorTrampoline">Tremor Trampoline</a>: If Mario or Luigi is stunned by a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GroundPound" title="/pmwiki/pmwiki.php/Main/GroundPound">Ground Pound</a> from a Sledge Bro or from some of the Koopalings, they'll bounce up and down in place for a few moments. After defeating Bowser, the resulting impact from down below will also bounce Mario or Luigi high into the air if they're standing on the ground.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TrialAndErrorGameplay" title="/pmwiki/pmwiki.php/Main/TrialAndErrorGameplay">Trial-and-Error Gameplay</a>: In the pyramid level in World 2, there is a hill you can slide down and take out a few Buzzy Beetles along the way, only to fall directly into a pit that happens to be at the bottom. There is absolutely no way to know this is there the first time you play the game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Troll" title="/pmwiki/pmwiki.php/Main/Troll">Troll</a>: Princess Peach of all characters. She shows off her playful side in the ending.<div class="indent"><strong>Peach:</strong> Thank You, but our Princess is in another castle... Just Kidding! Ha ha ha!</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TurtlePower" title="/pmwiki/pmwiki.php/Main/TurtlePower">Turtle Power</a>: Koopas and Bowser yet again, along with the introduction of the Koopalings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnderTheSea" title="/pmwiki/pmwiki.php/Main/UnderTheSea">Under the Sea</a>: These levels begin to appear in World 3, but they occasionally appear in worlds after that. Their overall design is more complex than that of the water levels in the first <em>Super Mario Bros.</em>, which is why this game introduced a swimming power-up (the Frog Suit) so Mario and Luigi can move more freely.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UndesirablePrize" title="/pmwiki/pmwiki.php/Main/UndesirablePrize">Undesirable Prize</a>:<ul><li> There are a couple of Toad Houses late in the game that have a chance of giving you either a Tanooki suit, a Hammer Suit, or a Frog Suit. Particularly as these houses appear well after World 3 (the only place players generally want to have the Frog Suit's improved underwater maneuverability), getting the Frog Suit is seen as a huge letdown. However, it does remain somewhat useful even outside of World 3, with a few underwater passages and secret rooms that are difficult or impossible to navigate without it.</li><li> The Anchor and the Music Box as mentioned earlier.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UniqueEnemy" title="/pmwiki/pmwiki.php/Main/UniqueEnemy">Unique Enemy</a>: Shoe Goombas, Para-Beetles, Spiny Cheep Cheeps, and homing Missile/Bull's-Eye Bills all turn up in exactly one level apiece. Also, a single fire-breathing Nipper Plant appears in World 7-8.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnlockableContent" title="/pmwiki/pmwiki.php/Main/UnlockableContent">Unlockable Content</a>: <em>Super Mario Advance 4</em> enters full-on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewGamePlus" title="/pmwiki/pmwiki.php/Main/NewGamePlus">New Game+</a> mode once a perfect clear is achieved in each world. Additionally, there are certain game features that only come to effect if certain e-Reader cards were swiped. These range from gameplay features from other <em>Mario</em> games, to different kinds of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MercyMode" title="/pmwiki/pmwiki.php/Main/MercyMode">Mercy Modes</a>, to making the game harder.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameRemake" title="/pmwiki/pmwiki.php/Main/VideoGameRemake">Video Game Remake</a>: Two of them; <em>Super Mario All-Stars</em> for the SNES included the game with a 16-bit graphical overhaul, along with remixed music and a revamped Battle Mode. This was later updated and released as <em>Super Mario Advance 4: Super Mario Bros. 3</em> for the Game Boy Advance, which added e-Reader support and voice acting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGameSliding" title="/pmwiki/pmwiki.php/Main/VideoGameSliding">Video Game Sliding</a>: Starting with <em>Super Mario Bros. 3</em>, Mario can slide down almost any hill or inclined surface, taking out whatever enemy happens to be in the way. In some areas, he can even use his slide momentum to rocket through the air with a Slide Jump. This move has persisted through all future 2D Mario platformers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainBall" title="/pmwiki/pmwiki.php/Main/VillainBall">Villain Ball</a>: Bowser takes it and runs with it at the end of World 7. His master plan to distract the Mario brothers while he kidnapped the Princess worked great. Too bad he had to send Mario a letter taunting him and telling him exactly where to find her.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WakeUpCallBoss" title="/pmwiki/pmwiki.php/Main/WakeUpCallBoss">Wake-Up Call Boss</a>: While Larry and Morton aren't really any more difficult than any Boom Boom (save for adding some easily avoidable projectile attacks), Wendy ramps up the difficulty by throwing rings which bounce around the room. Combined with her very high jump height, it becomes much harder to safely hit her if you do not have a Fire Flower. All of the subsequent bosses do something to make the battle that little bit trickier.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarpWhistle" title="/pmwiki/pmwiki.php/Main/WarpWhistle">Warp Whistle</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeNamer" title="/pmwiki/pmwiki.php/Main/TropeNamer">Trope Namer</a>; there are three of them which take you to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarpZone" title="/pmwiki/pmwiki.php/Main/WarpZone">Warp Zone</a>. In the NES version, this is the only way to quickly jump to whatever world you left off at, due to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SaveGameLimits" title="/pmwiki/pmwiki.php/Main/SaveGameLimits">the lack of a save feature.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaponizedOffspring" title="/pmwiki/pmwiki.php/Main/WeaponizedOffspring">Weaponized Offspring</a>: Yellow Para-Goombas attack by releasing Micro-Goombas from the air. If one of these grabs hold of Mario, it'll keep him from jumping very high until he shakes it off. In underwater stages, Blooper Nannies send their Blooper Babies to swarm Mario, and Big Bertha spits her kid ahead of herself to attack.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: The Princess is actually just fine up until around the end of World 7, at which point Bowser announces he has come back to kidnap her!</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhenAllElseFailsGoRight" title="/pmwiki/pmwiki.php/Main/WhenAllElseFailsGoRight">When All Else Fails, Go Right</a>: A universal rule, with the exception of World 5-3.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrapAround" title="/pmwiki/pmwiki.php/Main/WrapAround">Wrap Around</a>: There are certain vertically oriented levels (mostly in World 7) that have left / right wraparound and are only one screen wide.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourPrincessIsInAnotherCastle" title="/pmwiki/pmwiki.php/Main/YourPrincessIsInAnotherCastle">Your Princess Is in Another Castle!</a>: Jokingly referenced by the Princess in the NES and <em>All-Stars</em> versions of the game:<div class="indent">"Thank you. But our princess is in another castle!...Just kidding! Ha ha ha! Bye bye."</div><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoProudOfYou" title="/pmwiki/pmwiki.php/Main/SoProudOfYou">So Proud of You</a>: When you finally save Princess Peach in the Japanese versions, she instead says:</li></ul><div class="indent">"Thank you! Peace has finally returned to the Mushroom World. THE END!"</div></li></ul></div><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros2">Super Mario Bros. 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/PanEuropeanGameInformation">UsefulNotes/Pan European Game Information</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBrosTheLostLevels">Super Mario Bros.: The Lost Levels</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros2">Super Mario Bros. 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/SuperMarioBros">Franchise/Super Mario Bros.</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros2">Super Mario Bros. 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/NintendoEntertainmentSystem">UsefulNotes/Nintendo Entertainment System</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/WariosWoods">Wario's Woods</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros2">Super Mario Bros. 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyVideoGames">Fantasy Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioLand">Super Mario Land</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld2YoshisIsland">Super Mario World 2: Yoshi's Island</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/GameBoyAdvance">UsefulNotes/Game Boy Advance</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMonkeyBall">Super Monkey Ball</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros2">Super Mario Bros. 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/The8bitEraOfConsoleVideoGames">UsefulNotes/The 8-bit Era of Console Video Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/TecmoBowl">Tecmo Bowl</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros2">Super Mario Bros. 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/EveryoneRating">Everyone Rating</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBrosTheLostLevels">Super Mario Bros.: The Lost Levels</a>
+</li>
+</ul>
+<ul>
+ <li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioBros2">Super Mario Bros. 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/PlatformGame">Platform Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMario64">Super Mario 64</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeKilowicked">JustForFun/Trope Kilowicked</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SuperMarioGalaxy">Super Mario Galaxy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/SuicideSquad">Suicide Squad</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/JustForFun/TropeKilowickedFranchises">JustForFun/Trope Kilowicked Franchises</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WesternAnimation/SuperMarioBros">Super Mario Bros.</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/Splatterhouse">Splatterhouse</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VideoGamesOfThe1980s">Video Games of the 1980s</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/SwordOfSodan">Sword of Sodan</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UnwinnableByInsanity">Unwinnable by Insanity</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/VideoGamesMToZ">ImageSource/Video Games (M to Z)</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AirborneMook">Airborne Mook</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['videogame']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

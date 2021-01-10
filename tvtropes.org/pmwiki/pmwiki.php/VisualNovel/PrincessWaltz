@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Princess Waltz (Visual Novel) - TV Tropes</title>
+<meta name="description" content="Princess Waltz is a Visual Novel by Pulltop, notable for being easily the most graphically intensive and text heavy example of the genre to be published in &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/PrincessWaltz" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Princess Waltz (Visual Novel) - TV Tropes" />
+<meta name="twitter:description" content="Princess Waltz is a Visual Novel by Pulltop, notable for being easily the most graphically intensive and text heavy example of the genre to be published in &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_homecharabg9_7521.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Princess Waltz (Visual Novel) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/PrincessWaltz" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_homecharabg9_7521.jpg" />
+<meta property="og:description" content="Princess Waltz is a Visual Novel by Pulltop, notable for being easily the most graphically intensive and text heavy example of the genre to be published in the West. Localized by publisher Peach Princess. It is a tale of a land called Eldhiland, &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/SheCleansUpNicely" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/Freejack" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/VisualNovel/PrincessWaltz?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=VisualNovel/PrincessWaltz">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=VisualNovel.PrincessWaltz">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/reviews.php?target_group=VisualNovel&target_title=PrincessWaltz">
+<i class="fa fa-star-half-o"></i> 1 Reviews</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=VisualNovel.PrincessWaltz">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/VisualNovel/PrincessWaltz?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="VisualNovel" />
+<input type="hidden" id="title-hidden" value="PrincessWaltz" />
+<input type="hidden" id="article_id" value="298275" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/PrincessWaltz</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Visual Novel / </strong>
+Princess Waltz
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "VisualNovel",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VisualNovel"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Princess Waltz"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/PrincessWaltz" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/AwesomeMusic/PrincessWaltz" class="subpage-link " title="The AwesomeMusic page">
+<span class="wrapper"><span class="spi awesomemusic"></span>AwesomeMusic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/PrincessWaltz" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/PrincessWaltz" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Headscratchers/PrincessWaltz" class="subpage-link " title="The Headscratchers page">
+<span class="wrapper"><span class="spi headscratchers"></span>Headscratchers</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Heartwarming/PrincessWaltz" class="subpage-link " title="The Heartwarming page">
+<span class="wrapper"><span class="spi heartwarming"></span>Heartwarming</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TearJerker/PrincessWaltz" class="subpage-link " title="The TearJerker page">
+<span class="wrapper"><span class="spi tearjerker"></span>TearJerker</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/PrincessWaltz" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/PrincessWaltz" class="subpage-link curr-subpage" title="The VisualNovel page">
+<span class="wrapper">VisualNovel</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/PrincessWaltz?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/PrincessWaltz?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/PrincessWaltz?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/PrincessWaltz?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/PrincessWaltz?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/PrincessWaltz?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/PrincessWaltz?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/PrincessWaltz?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/PrincessWaltz?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/PrincessWaltz?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/PrincessWaltz?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/PrincessWaltz?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/PrincessWaltz?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/PrincessWaltz?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/PrincessWaltz?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:92.57%"><img src="https://static.tvtropes.org/pmwiki/pub/images/rsz_homecharabg9_7521.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/rsz_homecharabg9_7521.jpg" width="350" height="324"></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Princess Waltz</em> is a Visual Novel by Pulltop, notable for being easily the most graphically intensive and text heavy example of the genre to be published in the West. Localized by publisher Peach Princess.</p><p>It is a tale of a land called Eldhiland, where for years the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousPrincess" title="/pmwiki/pmwiki.php/Main/GratuitousPrincess">six princesses of the land</a> have competed in the titular tournament in order to win the hand of the Prince of the Imperial Family. Now it is time for the ladies to compete for the hand of Prince Chris, these six beautiful girls showing off their graceful dancing skills as they discover the values of friendship, love and embroidery...</p><p>Oh, it's not that kind of story? Ok, strike that, it seems the Princess Waltz is less about dancing, and more about said six princesses <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RatedMForManly" title="/pmwiki/pmwiki.php/Main/RatedMForManly">beating the unholy crap out of each other with a selection of improbably huge and unconventional weapons</a>. With Eldhiland choosing to hold the tournament on present day Earth, main character and good natured jock <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent" title="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent">Arata</a> is drawn into events when he accidentally befriends the local <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NewTransferStudent" title="/pmwiki/pmwiki.php/Main/NewTransferStudent">Enigmatic Transfer Student</a> and discovers that said transfer student is the much coveted Prince Chris himself. For unknown reasons Chris has joined the Waltz in disguise as the mysterious <strong>Princess Iris</strong>, and after much <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoYay" title="/pmwiki/pmwiki.php/Main/HoYay">Ho Yay</a>, Arata decides to aid him in his battle to beat the other five and win the tournament himself.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Not getting by simply on the strength of its high production values <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastOfSnowflakes" title="/pmwiki/pmwiki.php/Main/CastOfSnowflakes">(Even the minor characters get unique paperdolls.)</a> Princess Waltz combines its characters with a tone that shifts seamlessly between comedy and drama with equal attention and skill paid to both. The plot isn't anything new but it's well told, and even if it occasionally veers towards thin excuses for everyone to punch each other the fights are so damn good it doesn't matter. So good indeed that at times you ache for them to be animated, excellent sound effects and clever use of paper dolls combining with strong writing to produce some truly badass stuff.</p><p>Not to be confused with <em><a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/PrincessEvangile" title="/pmwiki/pmwiki.php/VisualNovel/PrincessEvangile">Princess Evangile</a></em>.</p><p></p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><h2>Provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalKiss" title="/pmwiki/pmwiki.php/Main/AccidentalKiss">Accidental Kiss</a>: Between Arata and <span class="spoiler" title="you can set spoilers visible by default on your profile"> Liliana. Made funny by her lampshading it beforehand.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptiveAbility" title="/pmwiki/pmwiki.php/Main/AdaptiveAbility">Adaptive Ability</a>: The Guardeners. They start in a few basic forms&mdash;wolf, giant bug, etc&mdash;but regenerate into a new, more powerful form after defeat. The only way to prevent this is to destroy them completely.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbidextrousSprite" title="/pmwiki/pmwiki.php/Main/AmbidextrousSprite">Ambidextrous Sprite</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AvertedTrope" title="/pmwiki/pmwiki.php/Main/AvertedTrope">Averted</a> to a somewhat overlooked degree. Iris has <em>one</em> sprite of her injured, with several facial expressions for it. All of which involve her holding a wounded arm. This becomes noteworthy during a scene in which it's mentioned that said injured arm is her good one and that the opposite good one was broken and useless.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum">Applied Phlebotinum</a>: Alma, the substance that provides all the characters their powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">Awesome, but Impractical</a>:<ul><li> The skills in the game during the card battles. Sure they can deal way more damage than the usual damage but there's a catch. To give you an example: 1st phase throw a Feint: you get initiative. Fair enough. 2nd phase throw an Overdrive. Oh look, the enemy has a card and is using it to block using Parry. Too bad try again <strong>the next day.</strong> Skills are one shot only and they can only be refilled the day after.</li><li> Fortunately, the enemies have very specific criteria for them to use their skills, one of which includes you throwing out four cards in the right phase. They also visibly bring out the skill card whenever you fulfill the requirement, allowing you a chance to decide whether to bring out more guns, let it use the skill, or put the card which triggered it back (which also causes the enemy to withdraw their skill).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassCrew" title="/pmwiki/pmwiki.php/Main/BadassCrew">Badass Crew</a> <span class="spoiler" title="you can set spoilers visible by default on your profile"> By the end of the game, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a> Arata <em>leads</em> one, consisting of the Princesses.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>:<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent" title="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent">Ordinary High-School Student</a> Arata manages to do some pretty badass things, though he often has to suffer afterwards. He never tires of going after monsters who could kill him with a look, armed with some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImprovisedWeapon" title="/pmwiki/pmwiki.php/Main/ImprovisedWeapon">Improvised Weapon</a>.</li><li> Liesel isn't actually isn't a real princess, as her homeland is a meritocracy without a nobility. For that matter, <span class="spoiler" title="you can set spoilers visible by default on your profile"> she's not the official competitor either. The girl chosen for Waltz was disqualified for... taking the celebration about the fact she was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleEntendre" title="/pmwiki/pmwiki.php/Main/DoubleEntendre">chosen too far</a>. Liesel, who made her dress, was the only one who could have mastered it in the remaining time... And she did, wiping the floor with two arguably strongest princessess in the Waltz, only losing to a Love Power-up.</span> Gah.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BatmanGambit" title="/pmwiki/pmwiki.php/Main/BatmanGambit">Batman Gambit</a>: At the end of the game, it's <em>still</em> not clear what the hell April was up to, so there's really no way to know which of these apply. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Maybe she was just following orders, or maybe she was just doing it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">For the Evulz</a>. Except she might be the Goddess of Wings and the whole thing was a plot to get rid of Shichiou forever.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BattleBallgown" title="/pmwiki/pmwiki.php/Main/BattleBallgown">Battle Ballgown</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">Berserk Button</a>:<ul><li> Suzushiro has quite a few, including touching her or pointing out that her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProperLady" title="/pmwiki/pmwiki.php/Main/ProperLady">Proper Lady</a> facade is looking a bit shaky.</li><li> Chris, <span class="spoiler" title="you can set spoilers visible by default on your profile"> if anyone so much as hints at her "feminine qualities".</span></li><li> Shizuka, <span class="spoiler" title="you can set spoilers visible by default on your profile"> if anyone tries to harm Arata. That's why even her "beast princess" form is protective of him.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BetterThanABareBulb" title="/pmwiki/pmwiki.php/Main/BetterThanABareBulb">Better Than a Bare Bulb</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes" title="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes">Beware the Nice Ones</a>:<ul><li> The contrast between Suzushiro's normal personality and her personality in battle is... dramatic, to say the least.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Also Liesel's battle persona vs. her secret identity</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">BFS</a>: Iris's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">Finishing Move</a>. Angela and Liesel's weapons are also ludicrously huge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bifauxnen" title="/pmwiki/pmwiki.php/Main/Bifauxnen">Bifauxnen</a>: Chris, who makes all the girls <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Squee" title="/pmwiki/pmwiki.php/Main/Squee">Squee!</a>. Even Arata feels like a moron after the reveal. It's THAT obvious. On the official English site, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Chris</span> is referred to as "she". This is strange, because it also mentions that Iris always appears when Chris is in danger, but is never around him. The reason is Heavily implied in the first chapter. Just turn off Male voices, and Chris still talks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Shichiou, the demon version of the hero and first Emperor of the land.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigOlEyebrows" title="/pmwiki/pmwiki.php/Main/BigOlEyebrows">Big Ol' Eyebrows</a>: Liliana actually refers to Suzushiro as 'eyebrows girl'.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodlessCarnage" title="/pmwiki/pmwiki.php/Main/BloodlessCarnage">Bloodless Carnage</a>:<ul><li> Despite the characters clearly being described as being covered in blood this is rarely evident in any of the CG's, where they sometimes don't even seem <em>bruised</em>.</li><li> Most <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSafeForWork" title="/pmwiki/pmwiki.php/Main/NotSafeForWork">after-fight CG</a> subverts it, oh-so-blatant <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClothingDamage" title="/pmwiki/pmwiki.php/Main/ClothingDamage">Clothing Damage</a>, numerous visible bruise, and LITTLE blood for that much damage... of course!</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrotherSisterIncest" title="/pmwiki/pmwiki.php/Main/BrotherSisterIncest">Brother&#150;Sister Incest</a>: Arata and ...<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> his adopted sister Shizuka</span>. Erm, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Discussed" title="/pmwiki/pmwiki.php/Main/Discussed">discussed</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Lampshaded" title="/pmwiki/pmwiki.php/Main/Lampshaded">lampshaded</a> in a sense in their Hentai scene.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Chris, his half-sister, cousin, and second-cousin</span>. Not mentioned or noticed in (or after) their Hentai scene.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>:<ul><li> Poor Chris proves to be a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrincelyYoungMan" title="/pmwiki/pmwiki.php/Main/PrincelyYoungMan">Princely Young Man</a> for about ten seconds before the whole world gathers together to make his life hell.</li><li> Princess Angela's advisor Glen: back in their country, he was a powerful dragon lord. His appearance in this world is as a miniature flying dragon, whom nobody takes seriously. Children call him a chicken, and chase him to get him as a toy or pet. His attempts at badassery go embarrassingly wrong.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CallingYourAttacks" title="/pmwiki/pmwiki.php/Main/CallingYourAttacks">Calling Your Attacks</a>: This is a given, considering the genre.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaptainErsatz" title="/pmwiki/pmwiki.php/Main/CaptainErsatz">Captain Ersatz</a>: Fans have noted a large number of similarities between Iris <span class="spoiler" title="you can set spoilers visible by default on your profile">and, thusly, Chris</span> and <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/FateStayNight" title="/pmwiki/pmwiki.php/VisualNovel/FateStayNight">Saber</a>, and Shichiou with <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/FateStayNight" title="/pmwiki/pmwiki.php/VisualNovel/FateStayNight">Gilgamesh</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CardGames" title="/pmwiki/pmwiki.php/Main/CardGames">Card Games</a>: Hybridized with a traditional RPG battle engine for fights against enemies, and done amazingly well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromHitPoints" title="/pmwiki/pmwiki.php/Main/CastFromHitPoints">Cast From Hit Points</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Final Blitz, Liliana's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">Finishing Move</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastOfSnowflakes" title="/pmwiki/pmwiki.php/Main/CastOfSnowflakes">Cast of Snowflakes</a>: Even minor background characters who barely do anything each have individual sprites, unusual in visual novels where background classmates are usually referred to as "Classmate A" or some such. <span class="spoiler" title="you can set spoilers visible by default on your profile"> This helps set up the reveal that Riko Tanada, a minor background character, is Princess Liesel in disguise.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelibateHero" title="/pmwiki/pmwiki.php/Main/CelibateHero">Celibate Hero</a>:<ul><li> All the Princesses, mostly because 'Love Is A Distraction'. (Seems to be a requirement for participation is being a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PluckyGirl" title="/pmwiki/pmwiki.php/Main/PluckyGirl">Plucky Girl</a>). Liliana has three married sisters and falls into 'Love is Beneath Me'. She frowns on their lack of ambition and won't settle for anything less than a Prince.</li><li> It's a requirement to participate; this <strong>is</strong> a tournament to decide the Emperor's wife after all... Reference: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Nanae.</span></li><li> Subverted. But then, it's an H-game, so how could it not be?</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGunman" title="/pmwiki/pmwiki.php/Main/ChekhovsGunman">Chekhov's Gunman</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Remember Kanada Riko? No? She's the tall girl in Arata's class. The one with glasses that swoons a lot and has a tendency to be a bit of a covert pervert? Yeah, that's the real Liesel.</span></li><li> April</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Shizuka, aka the Beast Princess.</span><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext" title="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext">Winged Maid...</a></li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Chessmaster" title="/pmwiki/pmwiki.php/Main/Chessmaster">Chessmaster</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Kije <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwittingPawn" title="/pmwiki/pmwiki.php/Main/UnwittingPawn">tries and fails</a> as one of these. April and Shichiou are both genuine examples.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChristmasCake" title="/pmwiki/pmwiki.php/Main/ChristmasCake">Christmas Cake</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Liliana spends most of the game pretending to be a middleschooler, yet rather pointedly asks Arata if he likes 'older women'. His mother on the other hand outright accuses her of being a cradle-snatcher.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClothingDamage" title="/pmwiki/pmwiki.php/Main/ClothingDamage">Clothing Damage</a>: Pretty much everyone by the end of a fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatPragmatist" title="/pmwiki/pmwiki.php/Main/CombatPragmatist">Combat Pragmatist</a>: Liesel. This pisses off the other Princesses, who lecture her about using dirty tricks instead of fighting with her heart.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatReferee" title="/pmwiki/pmwiki.php/Main/CombatReferee">Combat Referee</a>: Princess Waltz has two, Pigeon and Crow, Pigeon being a blue-haired boy wearing white and Crow being a pink-haired girl wearing black, Pigeon being the older of the two. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Crow is completely on the level, but Pigeon betrays everyone because unlike Crow, Pigeon is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReallySevenhundredYearsOld" title="/pmwiki/pmwiki.php/Main/ReallySevenhundredYearsOld">old enough to be commanded by Shichiou's magical contract</a>. However, it turns out Pigeon was looking for a way to sneakily get around Shichiou, and gives Crow vital information that helps our heroes win a crucial battle. But even that tiny betrayal of Shichiou almost kills him</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConservationOfNinjutsu" title="/pmwiki/pmwiki.php/Main/ConservationOfNinjutsu">Conservation of Ninjutsu</a>: Toyed with in the battle engine. Any card that you don't play one turn gets held onto for the next turn <em>and</em> increases its value by 2.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolVsAwesome" title="/pmwiki/pmwiki.php/Main/CoolVsAwesome">Cool vs. Awesome</a>: Both the company that translated it to the USA, and the gamers who have <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleEntendre" title="/pmwiki/pmwiki.php/Main/DoubleEntendre">tried</a> this game have ALWAYS compared it with <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/FateStayNight" title="/pmwiki/pmwiki.php/VisualNovel/FateStayNight">Fate/stay night</a>. It has even IMPRESSED some fans of the actual <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/FateStayNight" title="/pmwiki/pmwiki.php/VisualNovel/FateStayNight">Fate/stay night</a>. So, it should be no surprise that this game has a HIGH <a class="twikilink" href="/pmwiki/pmwiki.php/JustForFun/HolyShitQuotient" title="/pmwiki/pmwiki.php/JustForFun/HolyShitQuotient">"Holy Shit!" Quotient</a>.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CouldSayItBut" title="/pmwiki/pmwiki.php/Main/CouldSayItBut">Could Say It, But...</a>: This is how Pigeon explains to Crow that Crow needs to free all the princesses so they can't be used to power the devices that are causing the Super Elder Guardener's health to infinitely regenerate. To paraphrase, "Oh, do I hear a little mouse? I guess it's fine if I talk about this, since a cute little mouse couldn't do anything about it. It would be such a shame if I told anybody since I have to serve Shichiou or I'll die, but it's fine if it's just a mouse." Obviously he knows it's Crow who's listening and not a mouse, but this doesn't completely work as even this tiny betrayal <em>almost</em> kills Pigeon anyway</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CovertPervert" title="/pmwiki/pmwiki.php/Main/CovertPervert">Covert Pervert</a>: Suzushiro and Shizuka are the standout examples. Suzushiro tries to be proper but her sex scene is the kinkiest in the game. Shizuka styles herself Arata's bodyguard/maid, but she...<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADateWithRosiePalms" title="/pmwiki/pmwiki.php/Main/ADateWithRosiePalms">comforts</a> herself daily <span class="spoiler" title="you can set spoilers visible by default on your profile">while thinking of Arata</span>.<div class="indent"><strong>Arata:</strong> What? DAILY?</div><div class="indent"><strong>Shizuka:</strong> Ah...ah, no. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlatantLies" title="/pmwiki/pmwiki.php/Main/BlatantLies">That was a slip of the tongue. I meant to say weekly</a>.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrashIntoHello" title="/pmwiki/pmwiki.php/Main/CrashIntoHello">Crash-Into Hello</a>: How Arata and Chris first meet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyPrepared" title="/pmwiki/pmwiki.php/Main/CrazyPrepared">Crazy-Prepared</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Liesel has everything in her dress from a jetpack, to missles, to a frickin shield!</span></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Liliana has her water gun, which can shoot water bullets...and can change ammo so it can fire lightning or ice instead...<em>and</em> if it runs out of ammo it can shoot water whips or set up webs to trap the opponent...and if <em>that</em> doesn't work it can use Liliana's Blood Meridian to set up the Absolute Zero technique. Liliana almost beat Angela by sheer diversity of tactics, always one more just up her sleeve, losing only because Angela managed to beat Liliana's Absolute Zero technique, the strongest one she had. To be specific, Angela only beat Liliana because she had seen and therefore copied Iris' <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LimitBreak" title="/pmwiki/pmwiki.php/Main/LimitBreak">Limit Break</a> attack from a previous battle. If Liliana had fought Angela before Iris, Liliana would have won hands down, by Angela's own admission.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefeatMeansFriendship" title="/pmwiki/pmwiki.php/Main/DefeatMeansFriendship">Defeat Means Friendship</a>: Angela's quote from below, <span class="spoiler" title="you can set spoilers visible by default on your profile"> plus the whole second half of the game</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Determinator" title="/pmwiki/pmwiki.php/Main/Determinator">Determinator</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PluckyGirl" title="/pmwiki/pmwiki.php/Main/PluckyGirl">Plucky Girl</a>: Everyone. Arata actually notes that more than anything else the Waltz seems to be a test of just how stupid and stubborn you are.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeliberateInjuryGambit" title="/pmwiki/pmwiki.php/Main/DeliberateInjuryGambit">Deliberate Injury Gambit</a>: Arata beats <span class="spoiler" title="you can set spoilers visible by default on your profile">Suzushiro</span> this way, <span class="spoiler" title="you can set spoilers visible by default on your profile">along with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CantHaveSexEver" title="/pmwiki/pmwiki.php/Main/CantHaveSexEver">hefty dose</a> of mostly justified <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralDissonance" title="/pmwiki/pmwiki.php/Main/MoralDissonance">Moral Dissonance</a>. He allows her to punch him (breaking two of his ribs) before tacklehugging her, binding her with power neutralizing bandages and at the same time breaking her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CelibateHero" title="/pmwiki/pmwiki.php/Main/CelibateHero">Can't Touch Men</a> promise. Still, he feels bad about doing it, and she was the one who picked a fight with him.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusSexMachina" title="/pmwiki/pmwiki.php/Main/DeusSexMachina">Deus Sex Machina</a>: Expected of an H-game. <span class="spoiler" title="you can set spoilers visible by default on your profile"> The key to beating the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> is for Arata to have sex with Chris, and then the "chosen" princess that teams up with him in the second half of the game.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolusExMachina" title="/pmwiki/pmwiki.php/Main/DiabolusExMachina">Diabolus ex Machina</a>: How <span class="spoiler" title="you can set spoilers visible by default on your profile"> Shichiou beats Angela in his first appearance. We suddenly learn that Angela's clan's deity, the King of Dragons, contracted with Shichiou so all dragons must obey him. Instead of fighting Angela fair and square, Shichiou uses the magical contract to command Angela not to move, and then he just keeps stomping on her and grinding his heel into her while she lays down helplessly on the ground, screaming in frustration</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerEnding" title="/pmwiki/pmwiki.php/Main/DownerEnding">Downer Ending</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Halfway through the game, it tells you that you got the bad ending. It's just <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaitAndSwitchCredits" title="/pmwiki/pmwiki.php/Main/BaitAndSwitchCredits">Bait-and-Switch Credits</a>, but a very mean one that almost makes the player cry.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElephantInTheLivingRoom" title="/pmwiki/pmwiki.php/Main/ElephantInTheLivingRoom">Elephant in the Living Room</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Chris and Arata are 3/4 siblings, having the same father and mothers who were sisters. This is never brought up, even though Arata does seem to have some issues about having sex with his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotBloodSiblings" title="/pmwiki/pmwiki.php/Main/NotBloodSiblings">adoptive sister</a>. Granted, incestual marriages between royals aren't unheard of, but one of the two involved here was raised as a modern-day Japanese teenager.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFaceless" title="/pmwiki/pmwiki.php/Main/TheFaceless">The Faceless</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OracularUrchin" title="/pmwiki/pmwiki.php/Main/OracularUrchin">very creepy</a> Kije.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeDefector" title="/pmwiki/pmwiki.php/Main/FakeDefector">Fake Defector</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Pigeon. It technically starts off as real, since Shichiou is able to command him and not Crow since Pigeon is old enough to be bound by the Emperor's contract, but Pigeon gives Crow an opportunity to escape upon Pigeon's initial betrayal, and then Pigeon talks about how to beat the Super Elder Guardener while Crow is within earshot so that Crow can free the Princesses and take away the Super Elder Guardener's source of infinitely-regenerating health.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FightLikeACardPlayer" title="/pmwiki/pmwiki.php/Main/FightLikeACardPlayer">Fight Like a Card Player</a>: As well implemented as the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CardGame" title="/pmwiki/pmwiki.php/Main/CardGame">Card Game</a> system is, the story never actually explains how it ties in. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FailureIsTheOnlyOption" title="/pmwiki/pmwiki.php/Main/FailureIsTheOnlyOption">In some cases, winning the card game doesn't even mean you'll win the battle, just that you get to see the rest of your defeat</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">Finishing Move</a>: Everyone gets one, given an appropriately awesome CG.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FissionMailed" title="/pmwiki/pmwiki.php/Main/FissionMailed">Fission Mailed</a>: There's a fake "bad end" halfway through the game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiveManBand" title="/pmwiki/pmwiki.php/Main/FiveManBand">Five-Man Band</a>: In the second half we have;<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLeader" title="/pmwiki/pmwiki.php/Main/TheLeader">The Leader</a>: Arata</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLancer" title="/pmwiki/pmwiki.php/Main/TheLancer">The Lancer</a>: Angela, literally in this case.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSmartGuy" title="/pmwiki/pmwiki.php/Main/TheSmartGuy">The Smart Guy</a>: Liesel/<span class="spoiler" title="you can set spoilers visible by default on your profile">Riko</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBigGuy" title="/pmwiki/pmwiki.php/Main/TheBigGuy">The Little Guy</a>: Suzushiro</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStrategist" title="/pmwiki/pmwiki.php/Main/TheStrategist">The Strategist</a>: Lun Lun</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSixthRanger" title="/pmwiki/pmwiki.php/Main/TheSixthRanger">The Sixth Ranger</a>: The Beast Princess <span class="spoiler" title="you can set spoilers visible by default on your profile">Shizuka</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AFormYouAreComfortableWith" title="/pmwiki/pmwiki.php/Main/AFormYouAreComfortableWith">A Form You Are Comfortable With</a>: The non-human members of the cast do this. In Glen's case it's involuntary (he's forced to take on a tiny cartoon dragon form), Pidgeon and Crow do it deliberately, with Pidgeon apparently matching Crow's appearance for aesthetic appeal. <span class="spoiler" title="you can set spoilers visible by default on your profile"> April may very well be doing this as well, given her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman" title="/pmwiki/pmwiki.php/Main/AmbiguouslyHuman">Ambiguously Human</a> status.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FusionDance" title="/pmwiki/pmwiki.php/Main/FusionDance">Fusion Dance</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenderBender" title="/pmwiki/pmwiki.php/Main/GenderBender">Gender Bender</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharingABody" title="/pmwiki/pmwiki.php/Main/SharingABody">Sharing a Body</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The Iris form is a combination of Arata and Chris. Later on, when Chris is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PutOnABus" title="/pmwiki/pmwiki.php/Main/PutOnABus">Put on a Bus</a>, Arata can combine with the other Princesses to fight.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameBreakingBug" title="/pmwiki/pmwiki.php/Main/GameBreakingBug">Game-Breaking Bug</a>: There's an issue with fonts that can cause the game to crash when displaying a specific dialogue box.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreSavvy" title="/pmwiki/pmwiki.php/Main/GenreSavvy">Genre Savvy</a>:<ul><li> If you look at some of the dialogue of the characters, especially Lun Lun and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>, they seem to be VERY aware of the H-Game and RPG tropes the game runs on. Angela also has a few moments where she does a very snarky <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">Lampshade Hanging</a> on how poorly the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGunman" title="/pmwiki/pmwiki.php/Main/ChekhovsGunman">Chekhov's Gunman</a> trope was hidden. In fact, Nodoka even notices the clichedness of the stock excuse that is given for Arata knowing all the girls, but Nanae convinces her to follow the <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/MST3KMantra" title="/pmwiki/pmwiki.php/Main/MST3KMantra">MST3K Mantra</a>. Hell, it approaches <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall" title="/pmwiki/pmwiki.php/Main/LeaningOnTheFourthWall">Leaning on the Fourth Wall</a> levels when <span class="spoiler" title="you can set spoilers visible by default on your profile"> April speaks with Pigeon about how the Elder Guardener has infinite HP!</span></li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> is an interesting mix of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreSavvy" title="/pmwiki/pmwiki.php/Main/GenreSavvy">Genre Savvy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness" title="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness">Contractual Genre Blindness</a>. He's aware he's a villain and is often one step ahead of the good guys, but he fulfills pretty much every stock villain cliche simultaneously. He even hangs lampshades on some of it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGlassesComeOff" title="/pmwiki/pmwiki.php/Main/TheGlassesComeOff">The Glasses Come Off</a>: To <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OminousLatinChanting" title="/pmwiki/pmwiki.php/Main/OminousLatinChanting">Ominous Latin Chanting</a> no less. <span class="spoiler" title="you can set spoilers visible by default on your profile">Go Liesel!</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodsHandsAreTied" title="/pmwiki/pmwiki.php/Main/GodsHandsAreTied">God's Hands Are Tied</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> The three gods of Eldhiland and their servants are bound by magical oaths of loyalty to Shichiou. As such they have to obey him, regardless of their feelings on the matter, leaving his defeat in the hands of Arata and the Princesses.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodMorningCrono" title="/pmwiki/pmwiki.php/Main/GoodMorningCrono">Good Morning, Crono</a>: In the grand <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DatingSim" title="/pmwiki/pmwiki.php/Main/DatingSim">Dating Sim</a> and RPG tradition, the game begins with Arata waking up in the morning and discovering that he's overslept and is late for school.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GracefulLoser" title="/pmwiki/pmwiki.php/Main/GracefulLoser">Graceful Loser</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> After Shichiou gets one-shot by the Arata/Chris/6 Princess-powered Eldhi Arc sword he acknowledges that the heroes are stronger than him and Iris has won their millenium-long game, the two then make-up with Iris admitting she always loved him and the two gently fade away to the afterlife to watch over their descendants.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrandTheftMe" title="/pmwiki/pmwiki.php/Main/GrandTheftMe">Grand Theft Me</a>: Shichiou <span class="spoiler" title="you can set spoilers visible by default on your profile">takes over Chris' body, so that he can seal the blessing that kept him bound.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousPrincess" title="/pmwiki/pmwiki.php/Main/GratuitousPrincess">Gratuitous Princess</a>: Since the country Palmied is run by a merchant oligarchy rather than a monarchy, "princess" is simply the designation for whichever girl is selected to participate in the Waltz, rather than an actual noble title...though it's hinted that the princess is usually upper-class, since <span class="spoiler" title="you can set spoilers visible by default on your profile">Riko was only a lowly engineer, but the only one qualified to use the Dress after the original girl <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurprisePregnancy" title="/pmwiki/pmwiki.php/Main/SurprisePregnancy">was disqualified</a></span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalfwayPlotSwitch" title="/pmwiki/pmwiki.php/Main/HalfwayPlotSwitch">Halfway Plot Switch</a>: A pretty epic one, too. The game looks like a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TournamentArc" title="/pmwiki/pmwiki.php/Main/TournamentArc">Tournament Arc</a> with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Chessmaster" title="/pmwiki/pmwiki.php/Main/Chessmaster">Chessmaster</a> working behind the scenes, but then halfway through <span class="spoiler" title="you can set spoilers visible by default on your profile"> The apparent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> is killed through a tertiary character stabbing her in the back, Chris crosses the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DespairEventHorizon" title="/pmwiki/pmwiki.php/Main/DespairEventHorizon">Despair Event Horizon</a> and commits <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuicideByCop" title="/pmwiki/pmwiki.php/Main/SuicideByCop">Suicide by Cop</a> via Arata, and following <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaitAndSwitchCredits" title="/pmwiki/pmwiki.php/Main/BaitAndSwitchCredits">Bait-and-Switch Credits</a>, a new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> shows up requiring everyone to work together to save the world.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HealingFactor" title="/pmwiki/pmwiki.php/Main/HealingFactor">Healing Factor</a>: The Prince's Blessing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHeartless" title="/pmwiki/pmwiki.php/Main/TheHeartless">The Heartless</a>: The Guardeners. Also a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a> as they <em>guard</em> the <em>garden</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HonorBeforeReason" title="/pmwiki/pmwiki.php/Main/HonorBeforeReason">Honor Before Reason</a>: Angela, Arata, Chris, and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> shamelessly adhere to this trope a LOT.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroBall" title="/pmwiki/pmwiki.php/Main/HeroBall">Hero Ball</a>:<ul><li> Arata repeatedly charges into battle against monsters that totally outclass him. It tends to work out for the best, but, as the other characters point out, it's extremely foolish.</li><li> Given how any and all of the Princesses tend to be a lot more heroic around him (<span class="spoiler" title="you can set spoilers visible by default on your profile"> his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackToBackBadasses" title="/pmwiki/pmwiki.php/Main/BackToBackBadasses">Back-to-Back Badasses</a> moment with Angela, Lun-Lun's resolve to fight returning simply from remembering something he said to her days before, Liesel's badass return to action in order to protect him, and the fact that they can join with him to become Iris</span>), let's face it: Arata <em><strong>is</strong></em> the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroBall" title="/pmwiki/pmwiki.php/Main/HeroBall">Hero Ball</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenHeartOfGold" title="/pmwiki/pmwiki.php/Main/HiddenHeartOfGold">Hidden Heart of Gold</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Princess Liesel, the ice-cold <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatPragmatist" title="/pmwiki/pmwiki.php/Main/CombatPragmatist">Combat Pragmatist</a> of the group. It turns out that the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Meganekko" title="/pmwiki/pmwiki.php/Main/Meganekko">Meganekko</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HugeSchoolgirl" title="/pmwiki/pmwiki.php/Main/HugeSchoolgirl">Huge Schoolgirl</a> Kanada who's willing to run into a damaged building to save a classmate is her true personality.</span></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Pigeon, too. He comes across as a humongous jerkass during the moment where he betrays Crow in favor of Shichiou, and he almost kills Crow twice! <em>But</em>, turns out he did want to foil Shichiou's schemes after all, and was just looking for an opportunity to try to do so without being killed by disobeying the Emperor.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoYay" title="/pmwiki/pmwiki.php/Main/HoYay">Ho Yay</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a> example; Chris and Arata, something commented on repeatedly by the other characters. <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Subverted" title="/pmwiki/pmwiki.php/Main/Subverted">Subverted</a>: Chris is a girl. The American <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpoilerCover" title="/pmwiki/pmwiki.php/Main/SpoilerCover">DVD cover spoils this</a> by referring to Chris as a girl, and (let's face it) Chris looks like a girl.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IAmNotLeftHanded" title="/pmwiki/pmwiki.php/Main/IAmNotLeftHanded">I Am Not Left-Handed</a>: Liesel seems weak at first, very powerful but slow and clumsy. <span class="spoiler" title="you can set spoilers visible by default on your profile">Then she reveals she can fly. And has missiles. And a backup weapon. And revolving spheres of death. And a giant fucking shield...</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IdiotHair" title="/pmwiki/pmwiki.php/Main/IdiotHair">Idiot Hair</a>: One of Arata's unnamed classmates, a girl with an ahoge who displays the amount of intellect you'd expect.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntimateHealing" title="/pmwiki/pmwiki.php/Main/IntimateHealing">Intimate Healing</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Chris has to do this to save Arata from his wounds.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Irony" title="/pmwiki/pmwiki.php/Main/Irony">Irony</a>: Wait a minute... <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's considered <em>foolish</em> for the Emperor to assist in the tournament that decides his wife? <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking" title="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking">Where does this balance of power come from?</a> Are you sure the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HenpeckedHusband" title="/pmwiki/pmwiki.php/Main/HenpeckedHusband">Emperor's the one running the country?</a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IWantMyBelovedToBeHappy" title="/pmwiki/pmwiki.php/Main/IWantMyBelovedToBeHappy">I Want My Beloved to Be Happy</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> whichever girl you choose in the second half lets Arata get back together with Chris after you rescue her.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold" title="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold">Jerk with a Heart of Gold</a>: Angela is only a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodKnight" title="/pmwiki/pmwiki.php/Main/BloodKnight">Blood Knight</a> when she's got an opponent in front of her. She's still haughty and supremely confident at other times, but often does so while <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PetTheDog" title="/pmwiki/pmwiki.php/Main/PetTheDog">Petting The Dog</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaHoudini" title="/pmwiki/pmwiki.php/Main/KarmaHoudini">Karma Houdini</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">April, remaining as mysterious as when she begun.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">Kill It with Fire</a>: Both of Angela's finishing moves are perfect incarnations of this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Kiai" title="/pmwiki/pmwiki.php/Main/Kiai">Kiai</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Used with Shizuka &amp; Arata's finisher, an overhead swing, the most basic move in kendo.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithWater" title="/pmwiki/pmwiki.php/Main/KillItWithWater">Kill It with Water</a>: Liliana's water pistol allows her to do all sorts of tricks with water.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LevelUpAtIntimacy5" title="/pmwiki/pmwiki.php/Main/LevelUpAtIntimacy5">Level-Up at Intimacy 5</a>: However, the mechanic is a bit different than other visual novels. Instead making a girl stronger and making her affection rise with "correct choices", it's mostly determined by <span class="spoiler" title="you can set spoilers visible by default on your profile"> picking a princess for Arata to fuse with. If he fuses with the same girl three times during the mansion segment, he'll get that girl's ending. If he fuses with a different girl every time, he gets Shizuka's ending</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightningGlare" title="/pmwiki/pmwiki.php/Main/LightningGlare">Lightning Glare</a>: Suzushiro and Lun-Lun have enough of these to power the entire East Coast for a few days.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiteralCliffhanger" title="/pmwiki/pmwiki.php/Main/LiteralCliffhanger">Literal Cliffhanger</a>: When Arata visits Chris's mansion, a Guardener appears leaving a gigantic hole in the ground. Chris is left hanging from Arata's hand.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveDodecahedron" title="/pmwiki/pmwiki.php/Main/LoveDodecahedron">Love Dodecahedron</a>: By the end of the game, all the available girls like Arata to an extent from low with Suzushiro to outright love like most of the rest. Though Chris and Arata are the main pairing, each of their endings apart from the last implies a three way solution to deal with the situation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacrossMissileMassacre" title="/pmwiki/pmwiki.php/Main/MacrossMissileMassacre">Macross Missile Massacre</a>: One of Liesel's attacks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarryThemAll" title="/pmwiki/pmwiki.php/Main/MarryThemAll">Marry Them All</a>: There are endings for each princess, though they vary so little in detail that you might as well consider them the same thing. However, each ending carries a level of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThreesomeSubtext" title="/pmwiki/pmwiki.php/Main/ThreesomeSubtext">Threesome Subtext</a> apart from the final one, which implies more of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarryThemall" title="/pmwiki/pmwiki.php/Main/MarryThemall">Marry Them</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/MarryThemAll" title="/pmwiki/pmwiki.php/Main/MarryThemAll">All</a></em> ending. Dialogue, plot implications, and practical reasons imply this, to wit:</li></ul><dl><dd><ul><li> Dialogue: ALL of the girls (especially in the true ending), wind up liking Arata to some greater or lesser degree, ranging anywhere from profound respect to outright love.</li><li> Plot Implications: We are given very broad reason to believe that not only is the world the Princesses have come from very relaxed standards wise (they aren't as hung up over illegitimate kids), but the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrotherSisterIncest" title="/pmwiki/pmwiki.php/Main/BrotherSisterIncest">Brother&#150;Sister Incest</a> implications in the plot are not regarded as <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Squick" title="/pmwiki/pmwiki.php/Main/Squick">Squick</a> by the other girls. In fact, they SUPPORT Arata/Chris (with the broad implication on both sides that they wouldn't mind being haremettes or in a polygamous relationship, which is actually not uncommon for royalty)</li><li> Practical Reasons: Due to the events of the game plot having caused major political uncertainty, polygamy would be a great idea for political expendiency (with the added bonus the prince and princesses would actually be pretty okay with it), and considering the whole plot was an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UltimateShowdownOfUltimateDestiny" title="/pmwiki/pmwiki.php/Main/UltimateShowdownOfUltimateDestiny">Ultimate Showdown of Ultimate Destiny</a> to determine the continuance of the political balance, polygamy benefits all sides.</li><li> The above said, the plot begs for an extended epilogue <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FanFic" title="/pmwiki/pmwiki.php/Main/FanFic">Fan Fic</a>.</li><li> And at the very least, the game pretty much says flat out that although Chris is the more important, Arata also gets together with at least the princess he merged with at the end.</li></ul></dd></dl><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaManning" title="/pmwiki/pmwiki.php/Main/MegaManning">Mega Manning</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Angela manages to defeat Liliana by using Iris's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">Finishing Move</a> on her, having observed it in a previous fight.</span></li><li> Angela also notes <span class="spoiler" title="you can set spoilers visible by default on your profile">that if Liliana had the chance to observe this <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">Finishing Move</a> beforehand she would end up with a powerup of her own: and she seems to do just that during the final battle, if chosen.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NinjaMaid" title="/pmwiki/pmwiki.php/Main/NinjaMaid">Ninja Maid</a>: April is this for Chris, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrouchingMoronHiddenBadass" title="/pmwiki/pmwiki.php/Main/CrouchingMoronHiddenBadass">much more powerful than she looks.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNoseless" title="/pmwiki/pmwiki.php/Main/TheNoseless">The Noseless</a>: A classmate who resembles a hulking brute (but seems friendlier).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotBloodSiblings" title="/pmwiki/pmwiki.php/Main/NotBloodSiblings">Not Blood Siblings</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Arata and Shizuka</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoDifferent" title="/pmwiki/pmwiki.php/Main/NotSoDifferent">Not So Different</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> claims that Arata will eventually come to the same conclusions he did, which will lead to the exact same thing happening again. Iris retorts that if it does, then the current generation will have to deal with it.<div class="indent"><strong>Iris:</strong> Our time is done. It is time for us to go.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ObfuscatingStupidity" title="/pmwiki/pmwiki.php/Main/ObfuscatingStupidity">Obfuscating Stupidity</a>: If you think that "Lun-Lun" is nothing more than an anime-obsessed <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenkiGirl" title="/pmwiki/pmwiki.php/Main/GenkiGirl">Genki Girl</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDitz" title="/pmwiki/pmwiki.php/Main/TheDitz">Ditz</a>, then you haven't gotten to the scene where she points out that her family is in charge of the most powerful naval force in their world, and are responsible for constantly battling pirates. As a result, she has at least as much combat experience as <em>ANGELA</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">Oh, Crap!</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Liesel instantaneously goes from being about to deliver the finishing blow to completely screwed in a <em>single move</em> from Suzushiro. The look on her face is a picture.</span> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PreAssKickingOneLiner" title="/pmwiki/pmwiki.php/Main/PreAssKickingOneLiner">"I have brought down the bird in the sky."</a></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Liliana's reaction is the same when Angela manages to burn her way out of Absolute Zero, her most powerful technique she had to use the Blood Meridian to charge, just because one of Angela's fingers wasn't frozen. Liliana then uses a much-less powerful version of it to try to just break Angela's tiara for a technical victory, and has another Oh Crap when <em>that</em> doesn't work <em>either</em></span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOjou" title="/pmwiki/pmwiki.php/Main/TheOjou">The Ojou</a>: All the Princesses really, though it's Suzushiro who really embodies the trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OmniscientMoralityLicense" title="/pmwiki/pmwiki.php/Main/OmniscientMoralityLicense">Omniscient Morality License</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">APRIL</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Our Dragons Are Different</a>: Poor Glen, having become a chicken dragon instead of a stern leader.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OutOfTheInferno" title="/pmwiki/pmwiki.php/Main/OutOfTheInferno">Out of the Inferno</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> If you go with Angela for the 2nd chapter, the battle with the Super Elder Guardener not only involves their Iris form doing this, but turning on their rival and <em><strong><a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlamingSword" title="/pmwiki/pmwiki.php/Main/FlamingSword">REDUCING</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">IT</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">TO</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereIsNoKillLikeOverkill" title="/pmwiki/pmwiki.php/Main/ThereIsNoKillLikeOverkill">ASHES.</a></strong></em></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PaperThinDisguise" title="/pmwiki/pmwiki.php/Main/PaperThinDisguise">Paper-Thin Disguise</a>:<ul><li> No one connects Iris and Chris, despite the fact they even have the same hairdo, and look alike. <span class="spoiler" title="you can set spoilers visible by default on your profile">This may have something to do with Identical Grandparents. The real Iris and Cecilia (Chris' mother) look a lot like Chris as well. It might not be too surprising to people that every female that comes out of Soldia looks like Iris. Shichiou actually comments upon Iris's appearance and reveals that Arata resembles her more than Chris does.</span></li><li> Even if you don't wind up teaming with the sixth princess, the game does a very terrible job of disguising who she really is.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PhantomZone" title="/pmwiki/pmwiki.php/Main/PhantomZone">Phantom Zone</a>: The Garden, a dimension reflecting the real world but empty of inhabitants other than mindless monsters, allowing the Princesses to fight without collateral damage.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingWithFire" title="/pmwiki/pmwiki.php/Main/PlayingWithFire">Playing with Fire</a>: Angela's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">Finishing Move</a> has her cloaked in huge dragon made of fire. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Also, as Liliana learned the hard way, if you leave something as small as her fingertip sticking out of the ice block you've imprisoned her in, she can burn herself out.</span><ul><li> Made especially impressive in that said <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinishingMove" title="/pmwiki/pmwiki.php/Main/FinishingMove">Finishing Move</a> was <span class="spoiler" title="you can set spoilers visible by default on your profile"> thought of right on the spot, based solely on observing Iris' Eldhi Arc technique <em>once</em>, and figuring out exactly how it was powered perfectly just from that.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PornWithPlot" title="/pmwiki/pmwiki.php/Main/PornWithPlot">Porn with Plot</a>: Very, very plot heavy, more like Plot with Porn. While unskippable, the porn is brief and rather tasteful. It comprises at most about 3-5% of the game content.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoticSmirk" title="/pmwiki/pmwiki.php/Main/PsychoticSmirk">Psychotic Smirk</a>: Angela rarely wears anything else. Suzushiro also pulls one occasionally when she's in a bitchy mood.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedEyesTakeWarning" title="/pmwiki/pmwiki.php/Main/RedEyesTakeWarning">Red Eyes, Take Warning</a>: Liesel. Not evil as such, but certainly not a very nice person. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Becomes outright inverted after you figure out that Riko and Liesel are the same person. She was putting up a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">Jerkass</a> front.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RedOniBlueOni" title="/pmwiki/pmwiki.php/Main/RedOniBlueOni">Red Oni, Blue Oni</a>: Angela vs Liliana. It had to happen sometime. Also: first battle of Iris and Angela.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReverseShrapnel" title="/pmwiki/pmwiki.php/Main/ReverseShrapnel">Reverse Shrapnel</a>: Liesel uses this trick with high-tech <em>cannonballs</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RidiculouslyCuteCritter" title="/pmwiki/pmwiki.php/Main/RidiculouslyCuteCritter">Ridiculously Cute Critter</a>: Glen, Sacchi and above all the poruns.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyalsWhoActuallyDoSomething" title="/pmwiki/pmwiki.php/Main/RoyalsWhoActuallyDoSomething">Royals Who Actually Do Something</a>: The Princesses who beat the living daylights out of each other.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RunningGag" title="/pmwiki/pmwiki.php/Main/RunningGag">Running Gag</a>: Chris and Arata being forced to hold hands, and the reactions of <em>everyone</em> around them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">Sealed Evil in a Can</a>: Eldin/Shichiou. <span class="spoiler" title="you can set spoilers visible by default on your profile"> It turns out the whole Princess Waltz was just to keep him trapped.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretIdentity" title="/pmwiki/pmwiki.php/Main/SecretIdentity">Secret Identity</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The other princesses do not know that Chris is Iris and that Liesel is gathering data in the form of Riko, Arata's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HugeSchoolGirl" title="/pmwiki/pmwiki.php/Main/HugeSchoolGirl">Huge School Girl</a> classmate.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SexyMentor" title="/pmwiki/pmwiki.php/Main/SexyMentor">Sexy Mentor</a>: April of course! <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EccentricMentor" title="/pmwiki/pmwiki.php/Main/EccentricMentor">At least as far as she's concerned.</a> <span class="spoiler" title="you can set spoilers visible by default on your profile">Oh and as that previous trope hints, she's not <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TreacherousAdvisor" title="/pmwiki/pmwiki.php/Main/TreacherousAdvisor">quite as harmless as she seems.</a></span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> Maybe it's just a coincidence, but Suzushiro's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigOlEyebrows" title="/pmwiki/pmwiki.php/Main/BigOlEyebrows">Big Ol' Eyebrows</a> combined with her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhenAllYouHaveIsAHammer" title="/pmwiki/pmwiki.php/Main/WhenAllYouHaveIsAHammer">When All You Have Is a Hammer...</a> power set puts one in mind of a certain <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Naruto" title="/pmwiki/pmwiki.php/Franchise/Naruto">Ninja.</a></li><li> Liesel's blue hair, red eyes and cold personality is a <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion" title="/pmwiki/pmwiki.php/Anime/NeonGenesisEvangelion">more obvious</a> shout out.</li><li> Let's see: <a class="twikilink" href="/pmwiki/pmwiki.php/VisualNovel/FateStayNight" title="/pmwiki/pmwiki.php/VisualNovel/FateStayNight">royalty in a blue &amp; white battle dress</a>, wielding a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">BFS</a> who is stuck with a not so <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent" title="/pmwiki/pmwiki.php/Main/OrdinaryHighSchoolStudent">Ordinary High-School Student</a>: sounds familiar, doesn't it?</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Squee" title="/pmwiki/pmwiki.php/Main/Squee">Squee!</a>: Everyone's reaction when Chris first arrives at school. The girls routinely shriek, "Kyaaaaaaa!"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurpriseIncest" title="/pmwiki/pmwiki.php/Main/SurpriseIncest">Surprise Incest</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Arata and Chris don't learn they're cousins and half-siblings, until long after April all but forces them to have sex with each other, and by then they're magically addicted to having sex with each other.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurprisePregnancy" title="/pmwiki/pmwiki.php/Main/SurprisePregnancy">Surprise Pregnancy</a>: Twice in the backstory, disqualifying the princesses in question from participating in the Waltz. In the current Waltz, it resulted in <span class="spoiler" title="you can set spoilers visible by default on your profile">Riko becoming Palmied's "Princess Liesel"</span>. In the last one, <span class="spoiler" title="you can set spoilers visible by default on your profile">Nanae dropped out after becoming pregnant with Shizuka</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TemptingFate" title="/pmwiki/pmwiki.php/Main/TemptingFate">Tempting Fate</a>: As Chris and Arata are about to leave the Guarden for the first time through a big door:<div class="indent"><strong>Arata:</strong> If this were a horror movie, this moment of relief would be when the monster would come crashing throw a window or something&mdash;</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemeMusicPowerUp" title="/pmwiki/pmwiki.php/Main/ThemeMusicPowerUp">Theme Music Power-Up</a>: When the Techno <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OminousLatinChanting" title="/pmwiki/pmwiki.php/Main/OminousLatinChanting">Ominous Latin Chanting</a> starts up, someone is about to do something awesome.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereIsNoKillLikeOverkill" title="/pmwiki/pmwiki.php/Main/ThereIsNoKillLikeOverkill">There Is No Kill Like Overkill</a>: <em>Highly</em> encouraged in this game, in fact, as damage past an opponent's last Hit Point translates into an Experience Point boost. Managing to drop an opponent to 1 HP and then unleashing everything you've got on them is an excellent means to level up faster.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThisLooksLikeAJobForAquaman" title="/pmwiki/pmwiki.php/Main/ThisLooksLikeAJobForAquaman">This Looks Like a Job for Aquaman</a>: It's rather convenient that the only real "special technique" that <span class="spoiler" title="you can set spoilers visible by default on your profile"> Suzushiro</span> has, besides her extreme fighting skills and strength of course, is a <span class="spoiler" title="you can set spoilers visible by default on your profile"> <em>gravity-manipulation</em> technique. Convenient that Suzushiro's single technique is somehow <em>perfectly matched</em> against an opponent, Liesel, that has been beating her so far by flying</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TotallyRadical" title="/pmwiki/pmwiki.php/Main/TotallyRadical">Totally Radical</a>: Courtesy of Nodoka, early in the game: "What the hoppin' heezy are you doing!"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Tsundere" title="/pmwiki/pmwiki.php/Main/Tsundere">Tsundere</a>: Chris and Angela, neither of whom fit the standard mold:<ul><li> Chris keeps a princely mask up at all times, but underneath is a Type A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Tsundere" title="/pmwiki/pmwiki.php/Main/Tsundere">Tsundere</a>.</li><li> Angela is mostly Type A, but switches to Type B for her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PetTheDog" title="/pmwiki/pmwiki.php/Main/PetTheDog">Pet the Dog</a> moments. Even those are pretty harsh, though, and are more like "Don't screw up too bad" rather than true <em>deredere</em> moments. The only exception is her sex scene.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnluckyChildhoodFriend" title="/pmwiki/pmwiki.php/Main/UnluckyChildhoodFriend">Unlucky Childhood Friend</a>: Poor Nodoka doesn't even get a second glance. And given the nature of the game, her lack of a nude scene and H-scene is very telling. <span class="spoiler" title="you can set spoilers visible by default on your profile">The "true ending" you get after completing all the others implies that she follows Arata to Eldhiland and is determined to become a princess herself.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorPrincess" title="/pmwiki/pmwiki.php/Main/WarriorPrincess">Warrior Princess</a>: The Princesses who beat the living daylights out of each other, using humongous bizarre weapons.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeaponOfChoice" title="/pmwiki/pmwiki.php/Main/WeaponOfChoice">Weapon of Choice</a>:<ul><li> Iris (and Chris) use a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">sword</a>, as expected of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a>.</li><li> Liesel uses a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DropTheHammer" title="/pmwiki/pmwiki.php/Main/DropTheHammer">freaking huge hammer</a>, obviously in reference to her being a blacksmith. Arata actually notes that it looks rather odd wielded by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmotionlessGirl" title="/pmwiki/pmwiki.php/Main/EmotionlessGirl">emotionless</a> and small framed girl.</li><li> Suzushiro <span class="spoiler" title="you can set spoilers visible by default on your profile">is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BareFistedMonk" title="/pmwiki/pmwiki.php/Main/BareFistedMonk">Bare-Fisted Monk</a>, her personality a equal mix of cocky and disciplined.</span></li><li> Angela uses a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BladeOnAStick" title="/pmwiki/pmwiki.php/Main/BladeOnAStick">lance</a>, counter to her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodKnight" title="/pmwiki/pmwiki.php/Main/BloodKnight">Blood Knight</a> personality. <span class="spoiler" title="you can set spoilers visible by default on your profile">Though, she later becomes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLancer" title="/pmwiki/pmwiki.php/Main/TheLancer">The Lancer</a> to Arata.</span></li><li> Liliana uses guns <span class="spoiler" title="you can set spoilers visible by default on your profile">and whips</span>, and seems to think she's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGunslinger" title="/pmwiki/pmwiki.php/Main/TheGunslinger">The Gunslinger</a>.</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SixthRanger" title="/pmwiki/pmwiki.php/Main/SixthRanger">Sixth Princess</a>, <span class="spoiler" title="you can set spoilers visible by default on your profile"> Shizuka</span>, uses a Halberd, a different kind of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BladeOnAStick" title="/pmwiki/pmwiki.php/Main/BladeOnAStick">Blade on a Stick</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Appropriately enough, there is some antagonism between her and Angela, due to their personalities being stark opposites.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: Chapters 12-13 : Those that Fall.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWorfEffect" title="/pmwiki/pmwiki.php/Main/TheWorfEffect">The Worf Effect</a>: Shichiou proves his credentials <span class="spoiler" title="you can set spoilers visible by default on your profile">by effortlessly beating Angela in his first appearance. Also a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheDog" title="/pmwiki/pmwiki.php/Main/KickTheDog">Kick the Dog</a>, as he makes an effort to humiliate and degrade her at the same time. Although the <em>only</em> reason he effortlessly beats Angela is that Angela's ancestors' deity, the King of Dragons, signed a contract before she was born that all dragons must obey Shichiou. That allows Shichiou to magically command Angela and Glen not to move and then beat the tar out of the magically-paralyzed Angela</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorthyOpponent" title="/pmwiki/pmwiki.php/Main/WorthyOpponent">Worthy Opponent</a>: Angela does this for everyone, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SayMyName" title="/pmwiki/pmwiki.php/Main/SayMyName">screaming out their names,</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritedCompetitor" title="/pmwiki/pmwiki.php/Main/SpiritedCompetitor">encouraging them to fight harder</a>, showing mercy when they lose... she even mentions after the fight against <span class="spoiler" title="you can set spoilers visible by default on your profile">Liliana</span> that she would have called the woman a friend. <span class="spoiler" title="you can set spoilers visible by default on your profile">The reasoning behind her later alliance with Arata is that she feels the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Chessmaster" title="/pmwiki/pmwiki.php/Main/Chessmaster">Chessmasters</a> are dishonouring the pride of the fallen Princesses and the honour of the Waltz by using both as pawns.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YaoiFangirl" title="/pmwiki/pmwiki.php/Main/YaoiFangirl">Yaoi Fangirl</a>: All the schoolgirls except Nodoka, and at least one Princess.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair" title="/pmwiki/pmwiki.php/Main/YouGottaHaveBlueHair">You Gotta Have Blue Hair</a>: Suzushiro and Liesel.</li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/AnOctaveHigher">An Octave Higher</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyVisualNovels">Fantasy Visual Novels</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/ReflectionsOnTheRiver">Reflections on the River</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/PrincessLover">Princess Lover!</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VisualNovel">Visual Novel</a>
+</li>
+ <li>
+<a href="/pmwiki/pmwiki.php/VideoGame/PrismArk">Prism Ark</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VisualNovel/PrincessLover">Princess Lover!</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HGame">H-Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/PrismArk">Prism Ark</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

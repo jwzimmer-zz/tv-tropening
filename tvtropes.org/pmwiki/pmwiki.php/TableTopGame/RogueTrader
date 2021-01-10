@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Rogue Trader (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="For the original Rogue Trader, see Warhammer 40,000; this article is for the 2009 Tabletop RPG. Rogue Trader is the second of a series of Warhammer 40,000 &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/RogueTrader" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Rogue Trader (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="For the original Rogue Trader, see Warhammer 40,000; this article is for the 2009 Tabletop RPG. Rogue Trader is the second of a series of Warhammer 40,000 &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_rt-cover_2200.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Rogue Trader (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/RogueTrader" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_rt-cover_2200.jpg" />
+<meta property="og:description" content="For the original Rogue Trader, see Warhammer 40,000; this article is for the 2009 Tabletop RPG. Rogue Trader is the second of a series of Warhammer 40,000 tabletop roleplaying games. While its sister game Dark Heresy casts the players in the role &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/MistakenForDog" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Anime/WolfChildrenAmeAndYuki" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/RogueTrader">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.RogueTrader">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=RogueTrader&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.RogueTrader">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="RogueTrader" />
+<input type="hidden" id="article_id" value="317426" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/RogueTrader</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Rogue Trader
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Rogue Trader"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/RogueTrader" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/RogueTrader" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/RogueTrader" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Quotes/RogueTrader" class="subpage-link " title="The Quotes page">
+<span class="wrapper"><span class="spi quotes"></span>Quotes</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/RogueTrader" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/RogueTrader" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/RogueTrader?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/RogueTrader?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/RogueTrader?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/RogueTrader?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/RogueTrader?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/RogueTrader?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/RogueTrader?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/RogueTrader?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/RogueTrader?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Recap/RogueTrader?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/RogueTrader?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/RogueTrader?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/RogueTrader?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/RogueTrader?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/RogueTrader?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:130%"><img src="https://static.tvtropes.org/pmwiki/pub/images/rsz_rt-cover_2200.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/rsz_rt-cover_2200.jpg" width="350" height="455"></div></div><div class="acaptionright" style="width:350px;">Ambition knows no bounds.</div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><span class="font-s"><em>For the original </em>Rogue Trader<em>, see </em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a><em>; this article is for the 2009 <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TabletopRPG" title="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>.</em></span></p><p><em>Rogue Trader</em> is the second of a series of <em>Warhammer 40,000</em> tabletop roleplaying games. While its sister game <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> casts the players in the role of Inquisitorial Acolytes and focuses on themes of corruption and conspiracy, <em>Rogue Trader</em> is a game of exploration, adventure, and the horrors of the unknown, following one of the eponymous Rogue Traders and his crew as they explore the uncharted depths of space for gold, glory and the God-Emperor. Something like a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em> &mdash; or, as some put it, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MirrorUniverse" title="/pmwiki/pmwiki.php/Main/MirrorUniverse">Mirror Universe</a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em>.</p><p>See also <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" title="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade" title="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade">Black Crusade</a></em>, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar" title="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>,</em> <em>Rogue Trader</em>'s sister games.</p><p></p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><h2>This game contains examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcePilot" title="/pmwiki/pmwiki.php/Main/AcePilot">Ace Pilot</a>: One of the possible archetypes for Void Master characters (the others being Ace Helmsman, Ace Gunner, and Ace Sensor Officer). The Flight Marshal elite advance that Void Masters can take is unambiguously this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienArtsAreAppreciated" title="/pmwiki/pmwiki.php/Main/AlienArtsAreAppreciated">Alien Arts Are Appreciated</a>: Though technically heretical, the so-called "Cold Trade" is a thriving grey market for alien artifacts that are discreetly sold as curios to wealthy collectors among the aristocracy in the nearby Calaxis sector. The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForbiddenFruit" title="/pmwiki/pmwiki.php/Main/ForbiddenFruit">Forbidden Fruit</a> allure of owning objects that are technically forbidden but hard to enforce (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney">especially on the extremely wealthy</a>) is something those with the means pay well for, and this can be a great source of profit for Rogue Traders who refuse to let pious prohibitions get in the way of their success.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil" title="/pmwiki/pmwiki.php/Main/AlwaysChaoticEvil">Always Chaotic Evil</a>: While several of established antagonists options are present, groups such as Chaos Reavers, Eldar, and even Orks, while usually hostile to humanity's interests, can at least occasionally be reasoned with and dissuaded by means other than violence. The Rak'gol, on the other hand, never show any interest in dealing with anyone of any other species by means other than aggressively attacking them, and their culture (in as much as can be determined) seems only centered around killing things. <em>Lure of the Expanse</em> details that they can never be negotiated with because they show absolutely zero interest in such, and their almost-bestial hostility and "alienness" are great for game masters who want to put a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SurvivalHorror" title="/pmwiki/pmwiki.php/Main/SurvivalHorror">Survival Horror</a> element into their campaigns.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbitionIsEvil" title="/pmwiki/pmwiki.php/Main/AmbitionIsEvil">Ambition Is Evil</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvertedTrope" title="/pmwiki/pmwiki.php/Main/InvertedTrope">Inverted</a> very strongly. Rogue Traders are already extremely powerful individuals with as much freedom as can be had in this setting, yet the rulebook encourages them to always shoot for more profit that will build a lasting dynasty and legendary reputations that will echo down history.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncestralWeapon" title="/pmwiki/pmwiki.php/Main/AncestralWeapon">Ancestral Weapon</a>: An option for your character at creation, actually.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArbitraryMinimumRange" title="/pmwiki/pmwiki.php/Main/ArbitraryMinimumRange">Arbitrary Minimum Range</a>: The game has minimum range for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WaveMotionGun" title="/pmwiki/pmwiki.php/Main/WaveMotionGun">Nova Cannons</a>, as they cannot safely be used too close to the ship, having splash damage and a chance to explode closer to the firer than intended (technically they can still hit the firer if you fire at the absolute minimum range and roll very badly). This is a holdover from their rules in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/BattlefleetGothic" title="/pmwiki/pmwiki.php/TabletopGame/BattlefleetGothic">Battlefleet Gothic</a></em>, as RT space combat rules are heavily based on that game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorIsUseless" title="/pmwiki/pmwiki.php/Main/ArmorIsUseless">Armor Is Useless</a>: Averted like the plague. Try walking around without armour - unless you're a particularly feared psyker, you'll find something sticking out of your flesh soon.<ul><li> There are actually some results on the Critical Damage tables that only occur if the character is not wearing armour, or that have a worse effect if the character is not wearing armour.</li><li> Armour is a mixed blessing for Kroot characters. They have trouble finding armour that fits them in any case, but if they wear anything more than the slightest of physical protections then they cannot benefit from several of their racial advantages, like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSenses" title="/pmwiki/pmwiki.php/Main/SuperSenses">Super Senses</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperReflexes" title="/pmwiki/pmwiki.php/Main/SuperReflexes">Super Reflexes</a>. Normally they count on those to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DodgeTheBullet" title="/pmwiki/pmwiki.php/Main/DodgeTheBullet">Dodge the Bullet</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefendCommand" title="/pmwiki/pmwiki.php/Main/DefendCommand">Parry The Sword</a> more than they do armour to shield them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking" title="/pmwiki/pmwiki.php/Main/AuthorityEqualsAsskicking">Authority Equals Asskicking</a>: Not only are the player characters the ones that run the ship, they're all but inevitably the most powerful, well-trained warriors on the ship as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwesomeButImpractical" title="/pmwiki/pmwiki.php/Main/AwesomeButImpractical">Awesome, but Impractical</a>:<ul><li> Averted by plasma weapons, which now work a lot better than they did in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>.</li><li> Played completely straight with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Power Armour</a>. It provides the best protection available, but makes you easier to hit and the power cells only last 1d5 hours, so its use is situational at best.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalanceOfPower" title="/pmwiki/pmwiki.php/Main/BalanceOfPower">Balance of Power</a>: Aspyce Chorda and Calligos Winterscale, the two strongest Rogue Traders in the Expanse are on a brink of war. They are so evenly matched that neither is guaranteed victory.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BaseOnWheels" title="/pmwiki/pmwiki.php/Main/BaseOnWheels">Base on Wheels</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetOfHats" title="/pmwiki/pmwiki.php/Main/PlanetOfHats">hat of the planet</a> Zayth, a pre-Imperial human colony founded during the height of the Dark Age of Technology. Exactly what happened to start it has been long forgotten, but the various factions of the colony ended up locked in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForeverWar" title="/pmwiki/pmwiki.php/Main/ForeverWar">Forever War</a>, where the populations had to live in mobile crawling fortresses <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MilelongShip" title="/pmwiki/pmwiki.php/Main/MilelongShip">the size of space-born battleships</a> to survive each other's artillery fire. The remaining population endures to this day, roaming across the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a> battlescape their planet has become in mobile fortress-cities, trading macro-cannon fire with each other whenever they come into range and scavenging what little resources they can from cities felled in eons past.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BattleButler" title="/pmwiki/pmwiki.php/Main/BattleButler">Battle Butler</a>: The Seneschal career path is essentially this, mixed with a bit of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSpymaster" title="/pmwiki/pmwiki.php/Main/TheSpymaster">The Spymaster</a> and a whole lotta merchant.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">BFG</a>: Your ship has guns that take a good seventy men to operate, fired in salvoes of hundreds. The big guns need over a thousand hands.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: Karrad Vall the Faceless Lord, and Morgash Kulgraz, Kaptin of <em>Da Wurldbreaka</em> are both strong contenders for being the ultimate Big Bads of the Koronus Expanse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BiggerIsBetter" title="/pmwiki/pmwiki.php/Main/BiggerIsBetter">Bigger Is Better</a>: A literal case with Ork equipment. As the quality of the craftsmanship goes up, so does the size and mass of the piece of equipment. With human manufactured items, the opposite tends to be true.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlindSeer" title="/pmwiki/pmwiki.php/Main/BlindSeer">Blind Seer</a>: Astropaths, as per usual, went under necessary <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindRape" title="/pmwiki/pmwiki.php/Main/MindRape">Mind Rape</a> on Terra to protect their already strong minds from the Warp, the physical damage of which always includes their eyes, causing them to either <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EyeScream" title="/pmwiki/pmwiki.php/Main/EyeScream">turn to vapour</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProphetEyes" title="/pmwiki/pmwiki.php/Main/ProphetEyes">develop severe cataracts</a>. It also hones their psychic senses so they can "see" perfectly well. Astropaths Transcendent, the ones you play as, are even better at it than most-not only can they leave the Light of the Astronomicon for long periods, they can keep it together so well they <em>lead</em> others who can leave.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoardingParty" title="/pmwiki/pmwiki.php/Main/BoardingParty">Boarding Party</a>: Something that can happen during spaceship combat: if two ships end up passing close enough to each other, several parties from either ship may arm up, strap on void suits, and launch in shuttles to bypass <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeflectorShields" title="/pmwiki/pmwiki.php/Main/DeflectorShields">Void Shields</a> to raid the enemy ship and do as much damage as possible before falling back to their shuttles and rendezvousing with their mother ship before it passes out of range. While total number of crew can have an effect here, the command skills of the ones coordinating those who board and those who repel has a much bigger influence. Ships equipped with torpedo tubes may opt to use <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoardingPod" title="/pmwiki/pmwiki.php/Main/BoardingPod">Boarding Pods</a> instead to get a similar effect at greater range.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CarFu" title="/pmwiki/pmwiki.php/Main/CarFu">Car Fu</a>: The <em>Into The Storm</em> supplement finally introduces official rules for vehicles and vehicular combat into the 40k roleplaying system.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChainOfDeals" title="/pmwiki/pmwiki.php/Main/ChainOfDeals">Chain of Deals</a>: One way to make money in the Expanse. Find out what party A is willing to part with for some materials from party B, who in turn want something from party C, and so on.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CitadelCity" title="/pmwiki/pmwiki.php/Main/CitadelCity">Citadel City</a>: Citadel <em>Station</em>, in the form of Port Wander. Carved from a large asteroid and built out, it serves as the primary naval base in the region though it also has a sizable civil population. Well defended by void shields and macro-cannons, the patrol hub for numerous Imperial Navy squadrons, and possessing several military-grade drydocks, it is the last bastion of Imperial might at the frontier-edge of the Calixis Sector and the last port of call before passing through the Koronus Maw.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClingyCostume" title="/pmwiki/pmwiki.php/Main/ClingyCostume">Clingy Costume</a>: In the treasure generator located in the Stars of Inequity expansion one of the results for Xeno armor is a set of armor that counters critical damage by growing into the wounds and holding the wearer's body together. Not only does this erode the wearer's sanity, if it goes too far it may become very difficult to remove.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cloudcuckoolander" title="/pmwiki/pmwiki.php/Main/Cloudcuckoolander">Cloudcuckoolander</a>: Sample character Sarvus Trask is described in <em>Edge of the Abyss</em> as being considered a bit of a madman. The Trask dynasty was a falling house with many creditors, but Sarvus made a grand entrance on the stage of the Koronus Expanse as soon as the family warrant fell to him, and quickly made a reputation of winning fame and fortune through almost <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyEnoughToWork" title="/pmwiki/pmwiki.php/Main/CrazyEnoughToWork">foolishly bold risk-taking</a>. As much as this has gained him though, the risks take their toll and his profitability is hampered by the costs he incurs getting that profit to begin with. He was once even rumored to try and buy a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Titan</a> from the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MachineWorship" title="/pmwiki/pmwiki.php/Main/MachineWorship">Adeptus Mechanicus</a>, not to use for war, but to <em>mount as a prow ornament on his ship</em>.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DevelopmentGag" title="/pmwiki/pmwiki.php/Main/DevelopmentGag">Development Gag</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Invoked" title="/pmwiki/pmwiki.php/Main/Invoked"></a>Per <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a>, Trask was the Rogue Trader that the production team used for their primary in-house playtest. He had horrible luck with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SanityMeter" title="/pmwiki/pmwiki.php/Main/SanityMeter">sanity checks</a> and every time he <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RandomNumberGod" title="/pmwiki/pmwiki.php/Main/RandomNumberGod">rolled to gain sanity points</a>, he would <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FinaglesLaw" title="/pmwiki/pmwiki.php/Main/FinaglesLaw">roll the maximum amount possible</a>. The player controlling him decided to eventually just roll with it and shoot for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyAwesome" title="/pmwiki/pmwiki.php/Main/CrazyAwesome">Crazy Awesome</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CollectorOfTheStrange" title="/pmwiki/pmwiki.php/Main/CollectorOfTheStrange">Collector of the Strange</a>: The Stryxis, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudMerchantRace" title="/pmwiki/pmwiki.php/Main/ProudMerchantRace">Proud Merchant Race</a> of xenos who ply the Kronous Expanse in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk" title="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk">seemingly ramshackle spaceships</a> made up of a "tug" ship hauling several other modules scavenged and refurbished from other sources. They are eager for trade with other races, but their sense of value is quite different from what is typical for humans. In fact, they go about collecting interesting artifacts and lifeforms, and are happy to swap to round out their collections. Figuring out what a particular Stryxis would find valuable is a major part of any trade negotiation with them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolStarship" title="/pmwiki/pmwiki.php/Main/CoolStarship">Cool Starship</a>: Naturally. If their ventures are profitable, the player characters may eventually find themselves in command of a Cool <em>Fleet</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorporateSamurai" title="/pmwiki/pmwiki.php/Main/CorporateSamurai">Corporate Samurai</a>: One of the ways of describing the job of an Arch-Militant class character, with the corporation in this case being a Rogue Trader dynasty.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorporateWarfare" title="/pmwiki/pmwiki.php/Main/CorporateWarfare">Corporate Warfare</a>: When major Rogue Trader houses clash, it takes this form. Each house is effectively a multiple star-spanning <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a> unto itself, and when massive profits are at stake and they are well outside of Imperial jurisdiction, the violence can get as ugly as any of the wars in the setting, if not typically at the same scale. The brewing conflict between the houses of Winterscale and Chorda are probably the biggest example of this in the Koronus Expanse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CostumePorn" title="/pmwiki/pmwiki.php/Main/CostumePorn">Costume Porn</a>: Rogue Traders are expected to wear clothing that would make <a class="twikilink" href="/pmwiki/pmwiki.php/Series/IronChef" title="/pmwiki/pmwiki.php/Series/IronChef">Chairman Kaga</a> raise an eyebrow.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DerelictGraveyard" title="/pmwiki/pmwiki.php/Main/DerelictGraveyard">Derelict Graveyard</a>: The Koronus Expanse hosts quite a few:<ul><li> The Battleground, one of the Stations of Passage through the Koronus Maw. According to legend, it is the site of a great battle between the Rogue Trader brothers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CainAndAbel" title="/pmwiki/pmwiki.php/Main/CainAndAbel">Trame and Ettimus Lathimon</a>, fought each other's fleet to mutual destruction, while others assert that the field of derelict spaceships was present before that battle took place and the battle only added to it. Some Rogue Traders attempt to salvage from this site, but given its proximity to Imperial space most of the very profitable salvage has already been claimed, and the riches beyond the Maw make what little is left seem too paltry to be worth all but the most desperate Rogue Trader's time.</li><li> The Breaking Yards at SR-651. Though the business of breaking down ships at this location predates his investment, Rogue Trader Iridas Holden is credited with expanding them into the large operation present today, though the failure of the business bankrupted the Holden dynasty and put the yards in independent hands today. With a spindle-shaped space station and thousands of kilometers of loosely-connected asteroids and derelict hulls, work is difficult, poorly paid, and conditions are that of an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IndustrialGhetto" title="/pmwiki/pmwiki.php/Main/IndustrialGhetto">Industrial Ghetto</a> for those who live there, and few can afford to leave. Those visiting the Yards can find almost any starship component they care to find, for the right price, though the condition they find them in varies widely.</li><li> Dross, a planet among the Heathen Stars. Remarkable in that the world has strange lightning storms that defy conventional logic and meteorology, occasionally sending bolts into low orbit to strike ships that get too close. Any landing is almost certainly doomed to failure and an ignoble crash. The surface is inhabited by survivors of those wrecks who regard the many derelicts on the surface as holy sites, and give praise to the "Sky Father" for delivering them new ones. They will defend such sites violently, and often war with each other over ownership of any of these various wrecks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace" title="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace">The Processional of the Damned, in the Accursed Demesne</a>. A dark star sits at the center of the system and has an unknown pull into the warp as well as on the material plane, drawing ancient ships, space hulks, and even planets to it from the warp, each joining a long ring of matter slowly orbiting around it. The flow of time is somehow distorted here, with ships closer in to the dark star more ancient those those further out, even if they are of newer manufacture. Those who have visited it report the echos of voices on vox transmission given out long ago, that seem to reach out and cut off unexpectedly, and those who see it for themselves report a sense of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeniusLoci" title="/pmwiki/pmwiki.php/Main/GeniusLoci">a dreadful intelligence watching them</a>. Deeper in the Processional are what are called the Hollow Men, voidsuit wearers who emerge to break down ships that get near. No one knows where they come from or why they do what they do, and all the voidsuits they wear seem to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimatedArmor" title="/pmwiki/pmwiki.php/Main/AnimatedArmor">empty</a>...</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyLogistics" title="/pmwiki/pmwiki.php/Main/EasyLogistics">Easy Logistics</a>: A necessity in terms of rules, given the additional need of book keeping by players and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameMaster" title="/pmwiki/pmwiki.php/Main/GameMaster">Game Master</a> already regarding their ship (and it's crew population and morale). Otherwise the game would devolve into one massive pile of accounting. Also explained via the Profit Factor system which doubles as Currency and Influence in game. Essentially, a Rogue Trader houses are so rich, that the question is not "How many Thrones does this costs?" but rather, turning to their book keepers and going "Do I have enough to buy this without bankrupting us, and know the right people, yes or no?"<ul><li> Ships in general are presumed to have 6 months (Terran-Standard) worth of supplies to maintain proper operations without docking at a Space Port or orbiting a world which can provide such supplies, though it is extendable with upgrades. This counts for keeping the crew fed and healthy, as well as keeping machinery and systems working with proper functionality. Every month beyond that time limit, begins imposing Morale loss, and misfortune of the GM's choosing to represent the limited remaining supplies.</li><li> All of the Explorers (Players) personal guns are presumed to have enough of their default ammo type on the ship, allowing to resupply them at any time they're on board. Additionally, any successful acquisition test to obtain any particular consumables, like special ammo types, grenades and other things (Med-kits, Combat-Stimms, etc), are also presumed to have it sufficiently stocked on the ship as above. This means the only thing limiting how much of each a player has at any one time before visiting their ship's armory, is weight, common sense, and the GM's discretion. One optional rule recommended by the rule book, is that unless a player specifies otherwise, to follow the "Rule of Three"<span class="notelabel" onclick="togglenote('note0psxm');"><sup>note&nbsp;</sup></span><span id="note0psxm" class="inlinefolder" isnote="true" onclick="togglenote('note0psxm');" style="cursor:pointer;font-size:smaller;display:none;">three reloads for each of their weapons, three of each type of grenade they carry, and three doses/servings of other consumables</span>. Compare that to the other Warhammer 40,000 RPGs, where players routinely have to roll Requisition tests for any item, including ammo for their guns based on individual amounts (I.E. 2 magazines worth of ammo)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fiction500" title="/pmwiki/pmwiki.php/Main/Fiction500">Fiction 500</a>: With the power of an interplanetary trade dynasty at their back, Rogue Traders can <em>routinely</em> purchase things like centuries-old <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Powered Armor</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors" title="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors">private mercenary armies</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolStarship" title="/pmwiki/pmwiki.php/Main/CoolStarship">starships that cost more than a small planet</a>. At <em>first level</em>. Some of the expanded rules given in <em>Into The Storm</em>, which introduce consequences for making Acquisition rolls, are specifically designed to stop the Explorers from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney">solving every problem by throwing money at it</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FingerFirearms" title="/pmwiki/pmwiki.php/Main/FingerFirearms">Finger Firearms</a>: The Jokaero Digital Weapons (one-shot lasguns, plasma guns or needle weapons that are the size of (and can be disguised as) rings).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GadgeteerGenius" title="/pmwiki/pmwiki.php/Main/GadgeteerGenius">Gadgeteer Genius</a>: The Mekboy elite advance available to Ork Freebootaz allows them to tap into their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeneticMemory" title="/pmwiki/pmwiki.php/Main/GeneticMemory">Genetic Memory</a> and gain an intuitive understanding of Ork "manufacturing", letting them cobble together <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk" title="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk">amazing if clunky devices</a>. To quote the rule book:<div class="indent"> "The Ork has <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MachineEmpathy" title="/pmwiki/pmwiki.php/Main/MachineEmpathy">an innate and instinctive skill with machinery</a>, allowing him to perform feats of engineering that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve" title="/pmwiki/pmwiki.php/Main/ClapYourHandsIfYouBelieve">defy logic</a>, cobbling together <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacGyvering" title="/pmwiki/pmwiki.php/Main/MacGyvering">random lumps of wrecked technology and scrap metal into something bizarre and startlingly effective</a>."</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation" title="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation">Gameplay and Story Segregation</a>: The chapter specifically addressing Rogue Traders in the corebook paints a picture of the Imperium gifting each newly-appointed Trader with a flagship, which will "often" be a cruiser, as well as frigates, cargo ships, and tenders. The actual character creation rules provide for the Rogue Trader and his/her crew to start with exactly one ship and no more. And while it is <em>possible</em> to start the game with a full-scale cruiser for a flagship, it requires the players to cut out a significant amount of their starting Profit Factor to do so.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGhost" title="/pmwiki/pmwiki.php/Main/TheGhost">The Ghost</a>: Why the Chaos-aligned pirate Korrad Vall is called the Faceless Lord: all that most Traders encounter of him are his employees. <span class="spoiler" title="you can set spoilers visible by default on your profile"> It is because he is blessed by the Ruinous Powers to be subjective to those who witness him. Every person will see him differently, and even when multiple people engage with him at the same time each will remember the encounter completely differently such that he only ever seems to directly interact with one of them at a time.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GhostShip" title="/pmwiki/pmwiki.php/Main/GhostShip">Ghost Ship</a>: The <em>Whisper of Anaris</em>, an Eldar vessel of ancient make with chips in its wraithbone hull and tears in its solar sails, which appears with a psychic scream in realspace at mysterious times to suddenly fire on some ships but not others and then disappears just as quickly, following some inscrutable plan of its long dead but still dreaming crew. <span class="spoiler" title="you can set spoilers visible by default on your profile"> It is actually the last ship of the ancient craftworld Lu'Nasad, which was long ago corrupted by the warp into a terrible scourge of psychic destruction. The <em>Whisper</em> acts on the final command of its last commander, the Farseer Anaris, to prevent the accursed craftworld from doing any more damage and drive off those who might one day seek it.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoMadFromTheRevelation" title="/pmwiki/pmwiki.php/Main/GoMadFromTheRevelation">Go Mad from the Revelation</a>: There's only one Navigator power that all of them share. It's called the Lidless Stare, and it basically lets them open their third eye (and that's a literal one, not some wishy-washy metaphor). If anyone looks into it, they see the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace" title="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace">Warp</a>. This can be... detrimental to your health. At Master level, it's a possible <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHitKill" title="/pmwiki/pmwiki.php/Main/OneHitKill">One-Hit Kill</a>.<ul><li> This also applies to the narration for a lot of the more remote planets in the books, which contain many examples of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Lovecraftian horror</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HollywoodSilencer" title="/pmwiki/pmwiki.php/Main/HollywoodSilencer">Hollywood Silencer</a>: Averted. While the silencer weapon upgrade makes it harder, it is still possible for gunshots from a silenced gun to be heard.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts" title="/pmwiki/pmwiki.php/Main/HordeOfAlienLocusts">Horde of Alien Locusts</a>: Surprisingly, not the Tyranids but the Rak'Gol, a new canon addition.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsufficientlyAdvancedAlien" title="/pmwiki/pmwiki.php/Main/InsufficientlyAdvancedAlien">Insufficiently Advanced Alien</a>: The Rak'Gol have human-level technology and widespread cybernetics use, but seem to be almost entirely mindless when encountered.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntrepidMerchant" title="/pmwiki/pmwiki.php/Main/IntrepidMerchant">Intrepid Merchant</a>: The player characters, in most of their business as a Rogue Trader crew. Profit is often a unifying (though almost never the sole) reason to go hurling themselves into the unknown of the Koronus Expanse, looking for new opportunities for trade and bounty to bring home the wealth.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickedUpstairs" title="/pmwiki/pmwiki.php/Main/KickedUpstairs">Kicked Upstairs</a>: A possible (and apparently quite frequent) explanation for how a particular Rogue Trader got his Warrant of Trade: some very powerful people wanted him out of the way, but he himself was too powerful to just kill, so they gave him the Warrant to get him to take his interests elsewhere.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeAndInCharge" title="/pmwiki/pmwiki.php/Main/LargeAndInCharge">Large and in Charge</a>: Ork Warbosses, particularly the aforementioned Morgash Kulgraz. Also Calligos Winterscale, probably the most powerful Rogue Trader in Koronus Expanse at moment.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LighterAndSofter" title="/pmwiki/pmwiki.php/Main/LighterAndSofter">Lighter and Softer</a>: Than the other <em>Warhammer 40000</em> games, at least. There is sense of adventure, discovery and making lasting changes in a wide-open sandbox area of the galaxy that is free from large-scale wars or plots and conspiracies threatening to bring everything crashing down.<ul><li> Note that <em>Rogue Trader</em> is the only one of the RPGs in this series which allows multiple kinds of xenos as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Characters</a>. Let that sink in a moment: xenos partying up with humans from an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsoluteXenophobe" title="/pmwiki/pmwiki.php/Main/AbsoluteXenophobe">Absolute Xenophobe</a> culture. The freedom granted to a rogue trader gives a lot of leeway for shrugging off some of the darker aspects of the setting.<ul><li> Do note that while said Xenos career options include Orks and Kroot which by far aren't the darkest of the xenos in the setting, you also have the option of creating Dark Eldar characters, who by their very presence make campaigns significantly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a>.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightningBruiser" title="/pmwiki/pmwiki.php/Main/LightningBruiser">Lightning Bruiser</a>: The Rak'Gol, again. They are surprisingly fast, hit very hard, and can take more punishment than an Ork.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LostTechnology" title="/pmwiki/pmwiki.php/Main/LostTechnology">Lost Technology</a>: Archaeotech, items designed long before the current Imperial Age. They're better in pretty much every way beside availability.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MachineWorship" title="/pmwiki/pmwiki.php/Main/MachineWorship">Machine Worship</a>: The Machine Cult of Mars, represented here by the Explorator career path.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasochistsMeal" title="/pmwiki/pmwiki.php/Main/MasochistsMeal">Masochist's Meal</a>: The influential few who pass for nobles on <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Footfall</a> will gather for banquets with exotic and rather... difficult, dishes. Part of this is out of trying to project an air of sophistication, but mostly as a means to judge each other's character. Given that some of the business that goes on there can be distasteful, someone who can hold the food down and still look composed in front of their peers is someone who is considered worthy of respect.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMedic" title="/pmwiki/pmwiki.php/Main/TheMedic">The Medic</a>: The Missionary is the only career that starts off with the Medicae skill by default. The Explorator can also learn the skill, and it will be useful when performing surgery to apply bionic augmentations. Everyone else though will have to either purchase it as an Elite Advance, or carry an Advanced Medikit to provide first aid.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MerchantPrince" title="/pmwiki/pmwiki.php/Main/MerchantPrince">Merchant Prince</a>: Any Rogue Trader is basically this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MildlyMilitary" title="/pmwiki/pmwiki.php/Main/MildlyMilitary">Mildly Military</a>: Controlling the crew of a Rogue Trader's ship requires a great deal of group discipline (especially as many dynasties' vessels are decommissioned military ships) but Rogue Traders are not part of the Imperial military. As a result, how tightly a Rogue Trader holds the reigns can very quite a bit.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction" title="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction">Military Science Fiction</a>: Averted, unsurprisingly if you're familiar with concept of a Rogue Trader, not unsurprisingly if you're only familiar with the parent franchise.<ul><li> The <em>Battlefleet Koronus</em> supplement includes expanded rules for starship combat and rules for large-scale ground warfare, allowing the game as a whole to take on more of this flavour.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoraleMechanic" title="/pmwiki/pmwiki.php/Main/MoraleMechanic">Morale Mechanic</a>: Present on ships. Generally speaking, a fresh crew will start out at 100% morale, and any number of things can chip away at it from there. Things like spending time on shore leave, giving <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RousingSpeech" title="/pmwiki/pmwiki.php/Main/RousingSpeech">Rousing Speeches</a>, or just offering to payout greater shares to the ratings can help bring it back up. Various conditions and ship upgrades can have these effects as well, either increasing or decreasing the maximum morale value depending on the crew's perception of how well they are being taken care of. If the morale ever drops to the minimum, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouLoseAtZeroTrust" title="/pmwiki/pmwiki.php/Main/YouLoseAtZeroTrust">the crew go on a mutiny from which there is no hope of recovery</a>, though the GM is encouraged to come up with lots of shipboard roleplaying hooks before this happens to give the players interesting ways to recover (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromBadToWorse" title="/pmwiki/pmwiki.php/Main/FromBadToWorse">or potentially make the situation worse</a>.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mordor" title="/pmwiki/pmwiki.php/Main/Mordor">Mordor</a>: The planet Inequity, home to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Chaos Lord Karrad Vall the Faceless Lord</a>. It is located in a star system where a red giant dances with a black hole, and the whips of plasma siphoned off it lash the planets around it creating detritus and dangerously unpredictable gravity shoals. Navigation to the planet is only safely possible by a damned warp beacon <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredByAForsakenChild" title="/pmwiki/pmwiki.php/Main/PoweredByAForsakenChild">powered by hundreds of sorceress sacrifices</a><span class="notelabel" onclick="togglenote('note1rolt');"><sup>note&nbsp;</sup></span><span id="note1rolt" class="inlinefolder" isnote="true" onclick="togglenote('note1rolt');" style="cursor:pointer;font-size:smaller;display:none;">(<a class="twikilink" href="/pmwiki/pmwiki.php/Main/NotSoDifferent" title="/pmwiki/pmwiki.php/Main/NotSoDifferent">not unlike the Astronomicon the entire Imperium uses for navigation</a>, but shorter range, with a greater relative consumption of souls, and guided by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodIsEvil" title="/pmwiki/pmwiki.php/Main/GodIsEvil">Ruinous Powers</a> rather than <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">the Emperor</a>)</span>. Its surface is covered in caustic atmosphere and acidic rain drawn from boiling seas. Quakes are frequent and eruptions are a constant danger. Slaves toil to their deaths in the mines and manufactora. Daemons stalk the surface drawn from warp rifts deep in the planet's crust exposed when the original settlers <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DugTooDeep" title="/pmwiki/pmwiki.php/Main/DugTooDeep">Dug Too Deep</a>. It is a haven for Chaos reaver <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirates" title="/pmwiki/pmwiki.php/Main/SpacePirates">Space Pirates</a>, and all of its cities are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Wretched Hives</a> that makes life in an Imperial underhive <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">look pleasant by comparison</a>. Above it all Vall rules this domain from his infamous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace" title="/pmwiki/pmwiki.php/Main/IDontLikeTheSoundOfThatPlace">Citadel Of Skulls</a>, a combination fortress, armoury, manufacturing centre, treasure vault, palace, and debased temple to Chaos.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrionDrive" title="/pmwiki/pmwiki.php/Main/OrionDrive">Orion Drive</a>: Implied to be the method of propulsion for Rak'gol ships, which use crude "fission pulse" drives that propel the ship with nuclear detonations. Compared to the plasma drives of Imperial ships, these are considered hopelessly outdated. While they can get a ship going to a good prograde velocity, they are poor at imparting lateral acceleration, making them much less maneuverable. Add to that the radiation produced by these explosions exceeds the shielding such ships have and would quickly drive any human crew to a radiation-sickness induced death, and one must assume that the Rak'gol are either radiation-resistant, insane, or both.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurOrcsAreDifferent">Our Orks Are Different</a>: While the Orks in the Koronus Expanse are largely similar to their counterparts elsewhere in the galaxy, the isolated stellar geography of the place has given them a bit of "kulture" distinct from the rest of the species. In particular, they tend to rely less on space hulks and converted asteroids than other Orks, and have much more enthusiasm for building actual ships, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk" title="/pmwiki/pmwiki.php/Main/WhatAPieceOfJunk">as ramshackle as they are</a>. Even the Ork enthusiasm for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">gargants</a> is more restrained here, with the maddest of the Ork mekboyz preferring to focus their effort into giant Orky dreadnoughts as idols of Gork and Mork rather than the more land-locked preference of Orks elsewhere. There are more traditional Orks around, though, and some of them would very much like to turn Port Wander into their playground. Stopping them (especially where the Navy can see you) is a great way to make friends in high places, and perhaps lower prices on ship upgrades.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingWithFire" title="/pmwiki/pmwiki.php/Main/PlayingWithFire">Playing with Fire</a>: The "Immolate the Soul" Navigator Power, which effectively gives access to a psychic flamethrower at all times. At Adept and Master rank, it even <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HolyBurnsEvil" title="/pmwiki/pmwiki.php/Main/HolyBurnsEvil">does additional damage to beings</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">Corruption points.</a><ul><li> It's worth noting that Chaos entities like daemons <em>do not</em> have a Corruption trait, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PureIsNotGood" title="/pmwiki/pmwiki.php/Main/PureIsNotGood">since they are already</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadeOfEvil" title="/pmwiki/pmwiki.php/Main/MadeOfEvil">made entirely from warp energies.</a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlanetSpaceship" title="/pmwiki/pmwiki.php/Main/PlanetSpaceship">Planet Spaceship</a>: The Gaelan Sphere, an asteroid hollowed out and built entirely over by Dark Age of Technology era humanity, with any crew it once had long since abandoning it, though its arcane automated systems still maintain it. At some point, and by unknown means, it drifted into the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">Eldar Webway</a>, where it was found by outcasts from <a class="twikilink" href="/pmwiki/pmwiki.php/Characters/Warhammer40000DarkEldar" title="/pmwiki/pmwiki.php/Characters/Warhammer40000DarkEldar">Commorragh</a> who were driven out by vicious Kabal politics. They set up a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ViceCity" title="/pmwiki/pmwiki.php/Main/ViceCity">Vice City</a> there called the Nexus of Shadows, establishing it as a port for the slave trade between many different species, allowing them to profit off the sale of beings sentient and otherwise and indulge in their sadistic sport at the same time. While its presence in the Webway means it does not have a defined location in real-space, most of its shortest real-space termni are in the Koronus Expanse.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerCreepPowerSeep" title="/pmwiki/pmwiki.php/Main/PowerCreepPowerSeep">Power Creep, Power Seep</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterLevel" title="/pmwiki/pmwiki.php/Main/CharacterLevel">Rank 1</a> <em>Rogue Trader</em> characters are significantly more powerful than Rank 1 <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em> characters; in fact, they're explicitly noted as the equivalent of Rank 5 <em>Dark Heresy</em> characters (which has a maximum of 8 Ranks).<ul><li> Theoretically, at least. However, in practice, using Dark Heresy characters in Rogue Trader is a bit unbalanced. Well-built DH characters <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagikarpPower" title="/pmwiki/pmwiki.php/Main/MagikarpPower">quickly out-scale RT characters</a> because of cheaper advances (usually 100 to 300 xp vs. 200 to 500 for skills, and 100 to 300 vs. 500 or 1000 for talents), a larger variety of options, and the fact that while RT characters start with 5 more points in all their characteristics, they only have 4 characteristic advances, whereas DH characters have 6 total (with Ascension).<ul><li> Which does make a kind of sense. High level ascension characters are the most loyal, singularly powerful servants of the Imperium short of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuperSoldier" title="/pmwiki/pmwiki.php/Main/SuperSoldier">Astartes</a>, and have been through constant high intensity missions whereas a strong rogue trader is a civilian that does not generally need to adapt to anywhere near that level of stress. Generally.</li></ul></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PressGanged" title="/pmwiki/pmwiki.php/Main/PressGanged">Press-Ganged</a>: One option for replenishing crew at an inhabited planet. It will not cut into a Rogue Trader's bottom line, but it requires some underworld contacts to make happen, and runs the risk of angering the local authorities if not done discretely.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProductionForeshadowing" title="/pmwiki/pmwiki.php/Main/ProductionForeshadowing">Production Foreshadowing</a>: While Kroot are present in the Expanse, their homeworld of Pech is on a far side of the galaxy from it. The rulebook says that many people speculate that they may have come to the Expanse a few generations ago through some kind of warp-gate that led to the far side of the galaxy, but does not go into any more detail and leaves it as just in-universe speculation. Come <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch" title="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a></em>, and it is revealed that such a gate does in fact exist and goes between the Koronus Expanse and the Jericho Reach, a location that includes worlds claimed by the Tau Empire of which the Kroot are a part. And as of <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade" title="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade">Black Crusade</a></em>, the nearby Screaming Vortex has a similar gate, and a planet with a population of Kroot.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoForHire" title="/pmwiki/pmwiki.php/Main/PsychoForHire">Psycho for Hire</a>: A perfectly valid career option, as the game's supplements allow the game to pick some alternate career options that turn the characters into this, but <em>The Soul Reaver</em> introduces a full career path that makes all of these look heroic by comparison, namely the Dark Eldar Kabalite Warrior.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchClockHero" title="/pmwiki/pmwiki.php/Main/PunchClockHero">Punch-Clock Hero</a>: The <em>Into The Storm</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Splat" title="/pmwiki/pmwiki.php/Main/Splat">splat</a> gives us the Kroot mercenary as a career option. Rogue Traders are one of the few Imperial servants who have sanction to deal with xenos, and that includes hiring of services. The Kroot are excellent trackers, spies, and close-quarters combatants, but their help is strictly mercenary. They can be trusted to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IGaveMyWord" title="/pmwiki/pmwiki.php/Main/IGaveMyWord">uphold their word</a>, but how determined they are to see their task through is heavily dependent on the remunerations they expect to receive, to the point that they can resist fear and pinning better if their current venture is potentially profitable enough.<ul><li> Rogue Traders and their staff, can also fit. Since they can accept contracts from Imperial or colonial entities, or just provide protection.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchPackingPistol" title="/pmwiki/pmwiki.php/Main/PunchPackingPistol">Punch-Packing Pistol</a>: Rogue Traders and their officers tend to have quite the variety of options....<ul><li> In terms of Las weaponry, there's the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SniperPistol" title="/pmwiki/pmwiki.php/Main/SniperPistol">Archeotech Laspistol</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmCannon" title="/pmwiki/pmwiki.php/Main/ArmCannon">Las Gauntlets</a>, Belasco Dueling Pistols<span class="notelabel" onclick="togglenote('note2fdh1');"><sup>note&nbsp;</sup></span><span id="note2fdh1" class="inlinefolder" isnote="true" onclick="togglenote('note2fdh1');" style="cursor:pointer;font-size:smaller;display:none;">One shot per reload, overcharged and ornate las pistols, which should one aim properly, can make any rival Rogue Trader insulting your ship/family name/hat have regrets for doing so</span>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercingAttack" title="/pmwiki/pmwiki.php/Main/ArmorPiercingAttack">Hellpistols</a>, and if the needs call for it, loading any standard las pistol with a Hot-Shot Charge pack for a single powerful shot.</li><li> Solid Projectiles category, we have the aptly named <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandCannon" title="/pmwiki/pmwiki.php/Main/HandCannon">Hand Cannon</a><span class="notelabel" onclick="togglenote('note3vfsy');"><sup>note&nbsp;</sup></span><span id="note3vfsy" class="inlinefolder" isnote="true" onclick="togglenote('note3vfsy');" style="cursor:pointer;font-size:smaller;display:none;">ammo capacity and reload speed is a bit annoying, and the recoil kicks like a mule, but it does significant damage and accepts a wide variety of special damage enhancing rounds</span>, the Naval Pistol (its default ammo is basically fragmenting hollow point rounds, conferring the "Tearing" quality to the gun for increased chance of having a higher damage average), and the Shotgun Pistol, which holds and fires a single regular size shotgun shell. The other sidearms, Autopistols, Snub Automatics and Snub Revolvers can also move into this territory with the right ammo types.</li><li> There is of course, the ever useful Bolt Pistol, which as stated many times before on other Warhammer 40,000 pages, is less a pistol and more of a semi-auto mini-rocket launcher.</li><li> Then there's the Inferno Pistol, a pistol sized <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RayGun" title="/pmwiki/pmwiki.php/Main/RayGun">Melta Gun</a>. Aside from the fairly minor loss in range and fuel cell capacity, it has all of the same same tank-buster potential as the full sized variety.</li><li> If you don't mind the risk of burning your hands with one, Plasma Pistols are probably the best means of dealing with any thing short of a tank. And they can probably deal with them too if aimed at sufficiently weak points on the armor.</li><li> Hand Flamers, just in case your Missionary should ever suffer the inconvenience of having used up his or her entire backpack supply of fuel for their other flamer weaponry.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReassignedToAntarctica" title="/pmwiki/pmwiki.php/Main/ReassignedToAntarctica">Reassigned to Antarctica</a>: Inquisitors, particularly those from the Ordo Xenos, have been known to be offered a Warrant of Trade from their superiors in exchange for their Inquisitorial trappings and authority, either due to political reasons or as a means of punishment for failure. As the choice is typically "Accept this warrant and then go to whatever edge of the galaxy we point you to, <em>or else</em>...", few reject the offer. They still often end up gaining glory, since their dealings tend to gather useful intelligence and examples of technology in far-flung sectors away from where the Inquisition regularly operate.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledINSPACE" title="/pmwiki/pmwiki.php/Main/RecycledINSPACE">Recycled IN SPACE</a>: Nearly all the game mechanics are recycled from Dark Heresy. If you doubt this, compare the charts for critical hits or the names and descriptions of most of the talents. Of course, since the games were designed to be compatible with and supplementary to each other from the get-go, this is hardly surprising.<ul><li> On a more general note, the theme of <em>Rogue Trader</em> as a whole is basically <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WoodenShipsAndIronMen" title="/pmwiki/pmwiki.php/Main/WoodenShipsAndIronMen">Wooden Ships and Iron Men</a> <span class="font-s"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledInSpace" title="/pmwiki/pmwiki.php/Main/RecycledInSpace">IN THE GRIM DARKNESS OF THE FAR FUTURE!</a></span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeanConneryIsAboutToShootYou" title="/pmwiki/pmwiki.php/Main/SeanConneryIsAboutToShootYou">Sarvus Trask Is About To Shoot You</a>: The cover for the <em>Hostile Acquisitions</em> supplement.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScarilyCompetentTracker" title="/pmwiki/pmwiki.php/Main/ScarilyCompetentTracker">Scarily Competent Tracker</a>: Kroot characters can be built for this, their hunter's instincts combined with the ability to have a keenness of perception beyond the limits of humans means that they can sniff out prey (bestial or otherwise) from the merest hint of their presence.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScoringPoints" title="/pmwiki/pmwiki.php/Main/ScoringPoints">Scoring Points</a>: The Endeavor system in the rules is structured this way. Essentially for any given business venture to be considered successful for a Rogue Trader, they need to score beyond a certain threshold of Achievement Points. Achievement Points can be earned for actions that help make the venture successful, such as setting up future trading agreements, acquiring new treasure, or simply building up their reputation for future leverage. Conversely, Achievement Points can be deducted for things which will hurt the venture, like making enemies out of potential long-term trading partners, spending excessive amounts of their own resources, or suffering a humiliating defeat. If, by the end of the Endeavour, the Explorers have enough Achievement Points, they gain the Profit Factor from the Endeavour with bonuses for exceeding the threshold by various amounts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections">Screw The Rules, I Have A Warrant of Trade!</a>: Rogue Traders are expected to operate outside the Imperium's borders where the Lex Imperialis does not apply and are thus exempt from prosecution for anything they do out there. However, they do come under Imperial authority while back in the Imperium (where they often must go to sell exotic goods or negotiate trades on that end) and can be prosecuted for anything they do there. Even then, their warrant of trade will excuse them a lot, as someone who has such a warrant must have strong connections with authorities in the Administratum or Imperial Navy and local authorities will find it difficult to prosecute them or make such a prosecution stick.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveMoney">Screw the Rules, I Have Money!</a>: Rogue Traders are allowed to get around a great deal of the regulations of the Imperium, essentially because they're some of the most wealthy and powerful individuals in the galaxy (emphasis on individuals).<ul><li> In the lore, this is the entire <em>point</em> of licensing Rogue Traders. On the frontier they are much more effective than more official operatives.</li><li> In the crunch, your starting character is either going to start with lots of money or a frakking big ship. So either this or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AppealToForce" title="/pmwiki/pmwiki.php/Main/AppealToForce">Appeal to a Kilometres-Long Starfaring Battle Cathedral</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SettlingTheFrontier" title="/pmwiki/pmwiki.php/Main/SettlingTheFrontier">Settling the Frontier</a>: As the Kronous Expanse is on the frontier of the Imperium, it is unsurprising that this comes into play. Rogue Traders can do things such as carry colonists and materials to settle uninhabited worlds, or prepare already human-inhabited worlds for future Imperial integration. While doing so may not be immediately profitable, such ventures can pay out to the Rogue Trader's dynasty down the line when the Imperium's frontier expands and the dynasty's efforts given them stronger claim to future remunerations.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: The description of the Endurance Motivation ("You seek to endure, and, in enduring, grow stronger") refers to a line spoken by Dak'kon from <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment" title="/pmwiki/pmwiki.php/VideoGame/PlanescapeTorment">Planescape: Torment</a></em>.<ul><li> There is also the characteristic given to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathWorld" title="/pmwiki/pmwiki.php/Main/DeathWorld">Death World</a> characters, which lets them take training with primitive melee weapons, to represent their experience fighting terrifying monsters with improvised or underpowered weaponry. Its name? <a class="twikilink" href="/pmwiki/pmwiki.php/Film/Predator" title="/pmwiki/pmwiki.php/Film/Predator">If it bleeds, I can kill it</a>.</li><li> The <em>Hostile Acquisitions</em> sourcebook brings us the "Reaver" career option, raiders who have lived too long on the edge of space and now live only for pillage and slaughter. The accompanying illustration includes a rather familiar <a class="twikilink" href="/pmwiki/pmwiki.php/Series/Firefly" title="/pmwiki/pmwiki.php/Series/Firefly">brown duster</a>. This may be the only thing ever to become <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LighterAndSofter" title="/pmwiki/pmwiki.php/Main/LighterAndSofter">Lighter and Softer</a> when translated into the Warhammer 40,000 universe.</li><li> Also, In the entry on Void Kraken, there is an account of a sailor who told his captain that that there was no <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">moon</a>...</li><li> There is an ability that Dark Eldar can use when applying poisons and toxins onto their foes that delay the effect of the toxin until some time after it has been applied, with some particularly gruesome effects like the victim's body exploding violently due to the victim's blood actively revolting against the body. What is said ability called? "<a class="twikilink" href="/pmwiki/pmwiki.php/Manga/FistOfTheNorthStar" title="/pmwiki/pmwiki.php/Manga/FistOfTheNorthStar">You are already dead</a>."</li><li> The power board from <em>Into the Storm</em> is a <a class="twikilink" href="/pmwiki/pmwiki.php/Film/BackToTheFuturePartII" title="/pmwiki/pmwiki.php/Film/BackToTheFuturePartII">hoverboard</a>. Its description inverts the "hoverboards are real tech" hoax by stating "Many still refuse to believe these featureless flat planks exist."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SignatureTeamTransport" title="/pmwiki/pmwiki.php/Main/SignatureTeamTransport">Signature Team Transport</a>: The Rogue Trader's starship, which will often <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncestralWeapon" title="/pmwiki/pmwiki.php/Main/AncestralWeapon">belong to their family since antiquity</a> and will carry them into their adventures, or sometimes be the setting of them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SimpleYetAwesome" title="/pmwiki/pmwiki.php/Main/SimpleYetAwesome">Simple, yet Awesome</a>: Bolter weapons, which are the standard armament at most levels, are also <em>rocket propelled missiles at semi- and fully-automatic rates</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsCold" title="/pmwiki/pmwiki.php/Main/SpaceIsCold">Space Is Cold</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiterallyShatteredLives" title="/pmwiki/pmwiki.php/Main/LiterallyShatteredLives">Literally Shattered Lives</a>: A major danger of void exposure is your corpse freezing solid and becoming fragile within a minute of death. Inherited from <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy" title="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a></em>, though given the activities of <em>Rogue Trader</em> characters, it's a more common danger for them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacePirates" title="/pmwiki/pmwiki.php/Main/SpacePirates">Space Pirates</a>: A common threat to Rogue Traders and Imperial shipping in general, in human, Eldar, and Ork flavours.<ul><li> There are two types of human flavour: Regular Joes who are in it for the money, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">Chaos</a> pirates who are in it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">For the Evulz</a> at best. And some Rogue Traders do this, too.<ul><li> The <em>Into the Storm</em> expansion turns the Ork Freebooter into a playable character class (they're in it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BloodKnight" title="/pmwiki/pmwiki.php/Main/BloodKnight">cus Orks are made for fightin' and winnin'!</a>).</li></ul></li><li> The <em>Hostile Acquisitions</em> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Splat" title="/pmwiki/pmwiki.php/Main/Splat">sourcebook</a> is a handy resource for players who prefer to play on the wrong side of the law.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarshipLuxurious" title="/pmwiki/pmwiki.php/Main/StarshipLuxurious">Starship Luxurious</a>: Things that can potentially be found aboard a Rogue Trader's starship include vaulted ceilings, barracks for entire regiments of ground troops, room-sized techno-pipe organs, gladiatorial arenas, factories, and full-size churches to the God-Emperor (some of which can detach from the ship proper and be air-dropped as prefab cathedrals on worlds in need of converting).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SternChase" title="/pmwiki/pmwiki.php/Main/SternChase">Stern Chase</a>: Has rules to reflect it, with one ship trying to shake the other which is trying to keep up, usually exchanging fire as they go.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooDumbToFool" title="/pmwiki/pmwiki.php/Main/TooDumbToFool">Too Dumb to Fool</a>: A particularly messy variant. If a Navigator takes The Lidless Stare up to Master level, anyone who looks into their Warp Eye has to pass a Toughness test or die immediately&mdash;unless their Intelligence is less than 20. As a comparison, the minimum starting Intelligence is 27...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Unobtainium" title="/pmwiki/pmwiki.php/Main/Unobtainium">Unobtainium</a>: Nephium, the only source of which is the bubbling sinkhole pits in the middle of ancient, abandoned xenos cities made of ice on the frozen planet of Lucin's Breath. When a small amount is added to crude promethium, it drastically improves the refinement process and leaves a much more efficiently burning fuel than otherwise. The environment it is extracted from is extremely hostile to human life and the ruins that surround each sinkhole are said to be haunted, yet it is so valuable that the houses of Chorda and Winterscale and a dozen smaller operations come to literal war over stakes claimed on prime extraction sites.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarForFunAndProfit" title="/pmwiki/pmwiki.php/Main/WarForFunAndProfit">War for Fun and Profit</a>: Literally in the case of war-related Endeavours. A Rogue Trader can act as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors" title="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors">mercenary force broker</a>, lending services to one side or another, whether that be naval protection, private army deployment, supply transport, scouting, or just plain <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Privateer" title="/pmwiki/pmwiki.php/Main/Privateer">privateering</a>. Heck, just arranging arms deals is often quite profitable in itself. The <em>Battlefleet Koronus</em> sourcebook expands a great deal on this aspect of the game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WoodenShipsAndIronMen" title="/pmwiki/pmwiki.php/Main/WoodenShipsAndIronMen">Wooden Ships and Iron Men</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledINSPACE" title="/pmwiki/pmwiki.php/Main/RecycledINSPACE">IN SPACE</a>! In most cases, you're playing the chief crew members of a Rogue Trader ship, probably have a Warrant of Trade (a letter of marque from the High Lords of Terra, meaning you're crew is probably part <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Privateer" title="/pmwiki/pmwiki.php/Main/Privateer">Privateer</a> and part <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntrepidMerchant" title="/pmwiki/pmwiki.php/Main/IntrepidMerchant">Intrepid Merchant</a>). And your job is to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean" title="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean">sail the void in kilometers long ships armed with broadside arrays of macro cannons and lances</a>. <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">To explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before</a>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Metaphorgotten" title="/pmwiki/pmwiki.php/Main/Metaphorgotten">And conqueror it all in the Emperor's and your dynasty's name,</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarForFunAndProfit" title="/pmwiki/pmwiki.php/Main/WarForFunAndProfit">crushing anyone or anything who stand in your way for prestige and profit</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorthyOpponent" title="/pmwiki/pmwiki.php/Main/WorthyOpponent">Worthy Opponent</a>: This can quite easily happen in-game between PCs and other Rogue Traders, since while most of them are rivals, very few are outright enemies as Koronus is filled with forces that are openly hostile to all humans. The supplement <em>Edge of Abyss</em> actively encourages GMs to have their groups develop rivalries with, and seek to surpass the existing canonical NPCs.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Wretched Hive</a>: Footfall is a collection of hollowed-out asteroids, repurposed derelict ships, and other such liveable space detritus loosely held together with tethers and docking bridges, located on the far side of the Koronus Passage. It is here that various factions vie for control of various territories, any number of goods both conventional and illicit can be bought and sold, and a variety of powers keep agents stationed there to guard their interests and monitor those of others. A place where assassins, diplomats, priests, criminals, and even xenos can rub elbows with each other. The fact that not all of them shoot each other on sight says much about how little Imperial law means on Footfall.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WritersCannotDoMath" title="/pmwiki/pmwiki.php/Main/WritersCannotDoMath">Writers Cannot Do Math</a>: Working from the numbers given for the dimensions and tonnage of ships, small raiders are about half the average density of balsa wood (Ork Brute Ram: 60 kg/m^3) while the largest bulk transports would blow away in a slight breeze (Imperial Universe class: 2.9 kg/m^3). Crew requirements have the same scaling problem (as well as being far too low for how the fluff describes living conditions, even on the smallest ships) while passenger capacities seem to be random numbers that don't increase with size <em>at all</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouLoseAtZeroTrust" title="/pmwiki/pmwiki.php/Main/YouLoseAtZeroTrust">You Lose at Zero Trust</a>: If your crew ever hits zero morale they will turn against you entirely and attack any authority figure they can find. Considering that even a "small" Imperial craft has a crew numbering in the thousands this means that the players will at least lose their ship, if not their lives. The only other solution is to execute the entire crew... and you can't run anything without them.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Cubicle7">Creator/Cubicle 7</a>
+</li>
+<li>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SpaceHulk">Space Hulk</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/GamesWorkshop">Creator/Games Workshop</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/MiltonBradley">Milton Bradley</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/AdeptusEvangelion">Adeptus Evangelion</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheRolePlayingGame">The Role-Playing Game</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Sandbox/Warhammer40KFranchise">Sandbox/Warhammer 40 K Franchise</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">Warhammer 40,000</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MilitaryScienceFiction">Military Science Fiction</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deathwatch">Deathwatch</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">TabletopGame/Warhammer 40,000</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DarkHeresy">Dark Heresy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/Warhammer40000ExpandedUniverse">Franchise/Warhammer 40,000 Expanded Universe</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BlackCrusade">Black Crusade</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/WarriorsAdventureGame">Warriors Adventure Game</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/OnlyWar">Only War</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SpaceHulk">Space Hulk</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

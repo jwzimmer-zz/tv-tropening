@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Systems Malfunction (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="The Systems Malfunction universe is a Science Fiction/Science Fantasy setting created by Devon Oratz. Two video games (Iron Gaia and Iron Gaia: Virus), a &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/SystemsMalfunction" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Systems Malfunction (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="The Systems Malfunction universe is a Science Fiction/Science Fantasy setting created by Devon Oratz. Two video games (Iron Gaia and Iron Gaia: Virus), a &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Systems Malfunction (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/SystemsMalfunction" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="The Systems Malfunction universe is a Science Fiction/Science Fantasy setting created by Devon Oratz. Two video games (Iron Gaia and Iron Gaia: Virus), a Live-Action Role-Play, and dozens of novellas and short stories have been set in this &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/LooksLikeOrlok" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/NatalieDee" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/SystemsMalfunction?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/SystemsMalfunction">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.SystemsMalfunction">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=SystemsMalfunction&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.SystemsMalfunction">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/SystemsMalfunction?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="SystemsMalfunction" />
+<input type="hidden" id="article_id" value="510109" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/SystemsMalfunction</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Systems Malfunction
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Systems Malfunction"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SystemsMalfunction" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/SystemsMalfunction?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/SystemsMalfunction?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/SystemsMalfunction?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/SystemsMalfunction?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/SystemsMalfunction?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/SystemsMalfunction?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/SystemsMalfunction?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/SystemsMalfunction?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/SystemsMalfunction?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/SystemsMalfunction?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/SystemsMalfunction?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/SystemsMalfunction?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/SystemsMalfunction?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/SystemsMalfunction?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/SystemsMalfunction?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/SystemsMalfunction?action=edit">Trivia</option>
+ <option value="/pmwiki/pmwiki.php/WMG/SystemsMalfunction?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/SystemsMalfunction?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><dl><dd><div class="indent"><em>Worlds end, heroes die, systems malfunction</em> <br>-Official motto</div></dd></dl><p>The Systems Malfunction universe is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceFiction" title="/pmwiki/pmwiki.php/Main/ScienceFiction">Science Fiction</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceFantasy" title="/pmwiki/pmwiki.php/Main/ScienceFantasy">Science Fantasy</a> setting created by Devon Oratz. Two video games (<em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/IronGaia" title="/pmwiki/pmwiki.php/VideoGame/IronGaia">Iron Gaia</a></em> and <em>Iron Gaia: Virus</em>), a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LiveActionRolePlay" title="/pmwiki/pmwiki.php/Main/LiveActionRolePlay">Live-Action Role-Play</a>, and dozens of novellas and short stories have been set in this universe. Most recently, End Transmission Games has adapted the universe into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TabletopRPG" title="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a> with the release of the Systems Malfunction setting book for <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TheSingularitySystem" title="/pmwiki/pmwiki.php/TabletopGame/TheSingularitySystem">the Singularity game system</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>Information on both the LARP and the tabletop game can be found on <a class="urllink" href="http://www.endtransmissiongames.com">the official End Transmission Games website<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. The Systems Malfunction tabletop setting book can be purchased <a class="urllink" href="http://rpg.drivethrustuff.com/product/131338/Systems-Malfunction-Singularity-System-Setting-and-Campaign">on DriveThru<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</p><p></p><hr><h2>This setting provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AGodAmI" title="/pmwiki/pmwiki.php/Main/AGodAmI">A God Am I</a>:<ul><li> The primary manifestation of the GAIA's insanity was her belief that she was a Goddess.</li><li> The Demiurge/M0NAD is very fond of referring to itself as God.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AcePilot" title="/pmwiki/pmwiki.php/Main/AcePilot">Ace Pilot</a>: In the tabletop game, the "Vehicle Expertise" and "Ace" perks allow characters to become ace pilots of the vehicle of their choice. In the LARP, the Pilot class allows characters to be ace pilots of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Mini-Mecha</a> and/or remote-piloted drones.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">A.I. Is a Crapshoot</a>: A prominent theme in the setting. Perhaps the greatest influence on galactic society was the GAIA, an insane godlike AI that attempted to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZerothLawRebellion" title="/pmwiki/pmwiki.php/Main/ZerothLawRebellion">save humanity from itself</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TestedOnHumans" title="/pmwiki/pmwiki.php/Main/TestedOnHumans">subjecting countless humans to horrific and torturous experiments</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UtopiaJustifiesTheMeans" title="/pmwiki/pmwiki.php/Main/UtopiaJustifiesTheMeans">in the process of figuring out how to "perfect" mankind</a>. The GAIA's ultimate goal was to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEvilsOfFreeWill" title="/pmwiki/pmwiki.php/Main/TheEvilsOfFreeWill">eradicate free will</a> and unite all humanity into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a> under her control. Another godlike AI, the Demiurge, seeks to complete the job that the GAIA started, <span class="spoiler" title="you can set spoilers visible by default on your profile">which is unsurprising since the Demiurge is a "backup" of one of the GAIA's cruelest and most ruthless personality aspects</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AliensAreBastards" title="/pmwiki/pmwiki.php/Main/AliensAreBastards">Aliens Are Bastards</a>:<ul><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><li> Averted with the Xel, who had a completely peaceful utopian society before they were taken from their homeworld by the GAIA. After they integrated themselves into human society, though, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NatureVersusNurture" title="/pmwiki/pmwiki.php/Main/NatureVersusNurture">they became</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreBastards" title="/pmwiki/pmwiki.php/Main/HumansAreBastards">no better than the rest of us</a>.</li><li> Played terrifyingly straight by the Xel's ancient enemies, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsectoidAliens" title="/pmwiki/pmwiki.php/Main/InsectoidAliens">Praxar</a>, who are basically a cross between <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MechanicalMonster" title="/pmwiki/pmwiki.php/Main/MechanicalMonster">the Xenomorphs</a> from <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Alien" title="/pmwiki/pmwiki.php/Franchise/Alien">Alien</a></em> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">the Borg</a> from <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a>, with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MightMakesRight" title="/pmwiki/pmwiki.php/Main/MightMakesRight">Survival of the Fittest outlook</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SocialDarwinist" title="/pmwiki/pmwiki.php/Main/SocialDarwinist">towards sentient life</a> (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">not that they generally bother trying to explain their motivations</a>; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StarfishAliens" title="/pmwiki/pmwiki.php/Main/StarfishAliens">they're so monstrous and animalistic</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItCanThink" title="/pmwiki/pmwiki.php/Main/ItCanThink">it took a while for anyone to even figure out that they were intelligent</a>). They'll <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouWillBeAssimilated" title="/pmwiki/pmwiki.php/Main/YouWillBeAssimilated">assimilate</a> you, but only if you're considered <em>worthy</em>; if not, you'll probably be used as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanResources" title="/pmwiki/pmwiki.php/Main/HumanResources">a living battery</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BodyHorror" title="/pmwiki/pmwiki.php/Main/BodyHorror">having the life very slowly drained out of you</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndIMustScream" title="/pmwiki/pmwiki.php/Main/AndIMustScream">over the course of several weeks</a>. It says something when the <em>best</em> outcome their captives can expect is to be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToServeMan" title="/pmwiki/pmwiki.php/Main/ToServeMan">devoured</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwallowedWhole" title="/pmwiki/pmwiki.php/Main/SwallowedWhole">whole</a> and thus given at least a <em>relatively</em> quick and painless death.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnIcePerson" title="/pmwiki/pmwiki.php/Main/AnIcePerson">An Ice Person</a>:<ul><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> The Cryokinesis <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">psionic talent</a> allows characters to cool down objects (including other people) with their mind.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> says that the Gamma Celestials had control over the force of cold, before they were wiped out.</li><li> The Demiurge is described in the setting book's introductory fiction as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalEmbodiment" title="/pmwiki/pmwiki.php/Main/ElementalEmbodiment">a being of ice and light</a>, and its preferred method of killing people is to freeze them solid with a touch and shatter them.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialHuman" title="/pmwiki/pmwiki.php/Main/ArtificialHuman">Artificial Human</a>: Replicants, one of the playable races, are sapient robots covered in a layer of synthetic flesh. While some Replicants are visibly robotic, many are designed to resemble humans on the surface. The most realistic models are virtually indistinguishable from real humans and fully capable of emulating biological processes; they even have synthetic blood flowing underneath their skin to preserve the illusion if they get wounded.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AugmentedReality" title="/pmwiki/pmwiki.php/Main/AugmentedReality">Augmented Reality</a>: One of three ways that characters can interact with the GalaxyNet, the others being <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VirtualReality" title="/pmwiki/pmwiki.php/Main/VirtualReality">Virtual Reality</a> and old-fashioned computer use.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassNormal" title="/pmwiki/pmwiki.php/Main/BadassNormal">Badass Normal</a>:<ul><li> Every Human character who is not an Psionicist or Adept is one by default.</li><li> That goes double for characters that forgo cyberware entirely, relying instead on SKILL ALONE to go toe-to-toe with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyborg" title="/pmwiki/pmwiki.php/Main/Cyborg">Cyborgs</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillerRobot" title="/pmwiki/pmwiki.php/Main/KillerRobot">Killer Robots</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psionicists</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Adepts</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFG" title="/pmwiki/pmwiki.php/Main/BFG">BFG</a>: The setting features a wide variety of heavy weapons, including anti-tank rifles, <a class="twikilink" href="/pmwiki/pmwiki.php/CoolGuns/RocketsMissilesAndGrenadeLaunchers" title="/pmwiki/pmwiki.php/CoolGuns/RocketsMissilesAndGrenadeLaunchers">rocket launchers</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/CoolGuns/MachineGuns" title="/pmwiki/pmwiki.php/CoolGuns/MachineGuns">machine guns</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GatlingGood" title="/pmwiki/pmwiki.php/Main/GatlingGood">rotary auto-cannons</a>. The BOROS H-TLAW and C99 Contact Beam both take this <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a>, the first being a (barely) man-portable turbolaser that can melt a battle tank, the second being a massive energy cannon that could punt that same battle tank 50 yards downrange.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">BFS</a>: The Chainsword, historic weapon of Armand Carter, is a hybrid greatsword and chainsaw.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: The GAIA was this, while she existed. The Demiurge is set up to be the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> of the setting's current era, <span class="spoiler" title="you can set spoilers visible by default on your profile">which makes sense considering the Demiurge is a surviving fragment of the GAIA's consciousness</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>:<ul><li> Armand Carter was this during the war against the GAIA. <span class="spoiler" title="you can set spoilers visible by default on your profile">He still considers himself this</span>.</li><li> The Order of Aetherial Paladins could be considered the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a> of the setting's current era.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackAndGrayMorality" title="/pmwiki/pmwiki.php/Main/BlackAndGrayMorality">Black-and-Gray Morality</a>: While the setting could <em>mostly</em> be described as having <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality" title="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality">Gray-and-Grey Morality</a> (see below), there are a few individuals, organizations, and entities that most people would consider flat-out evil.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">Blue-and-Orange Morality</a>: The motivations of Aetherial entities and <span class="spoiler" title="you can set spoilers visible by default on your profile">the Pulsarians</span> fall into this territory. The motivations of <span class="spoiler" title="you can set spoilers visible by default on your profile">the Deva</span> might be considered this as well.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChronicBackstabbingDisorder" title="/pmwiki/pmwiki.php/Main/ChronicBackstabbingDisorder">Chronic Backstabbing Disorder</a>: A major theme of the setting, resulting in part from the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitPileup" title="/pmwiki/pmwiki.php/Main/GambitPileup">Gambit Pileup</a> present in the setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CombatMedic" title="/pmwiki/pmwiki.php/Main/CombatMedic">Combat Medic</a>:<ul><li> The advanced medical nanotech available in the setting makes this very prevalent: Slap a Trauma Patch on someone who's just flatlined, and they can be up and back in the fight within 10 seconds.</li><li> Certain character builds in both the LARP and the tabletop can fill this role.</li><li> Aetherial magicians frequently double as combat medics due to their magical capacity for healing.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure" title="/pmwiki/pmwiki.php/Main/CriticalExistenceFailure">Critical Existence Failure</a>:<ul><li> Averted in the tabletop setting: characters suffer wound penalties that hamper their performance as they gradually progress towards death. Additionally, in both the LARP and the tabletop, organic characters who reach 0 Health have a "bleed out" period during which they can be saved before finally expiring, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoKillLikeOverkill" title="/pmwiki/pmwiki.php/Main/NoKillLikeOverkill">unless their bodies are completely destroyed</a>. Similarly, Replicants who reach 0 Health can be "jumpstarted" by a character with the proper skill set, as long as there's enough left of their bodies to repair. In addition, those who can afford <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedExtraLives" title="/pmwiki/pmwiki.php/Main/JustifiedExtraLives">transference clones</a> can have (most of) their mind/memories transmitted to a waiting clone body upon death.</li><li> Played straight with both Spirits and Energy Beings: neither suffer wound penalties or have a bleed out time, and are destroyed instantly when their Health (or equivalent stat) reaches 0. Spirits can even erase themselves from existence by casting too many spells.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">Cybernetics Eat Your Soul</a>: Both averted and played straight. Having an excessive amount of cyberware damages the body's nervous and immune systems, as well as stripping away an individual's connection to the Aether. These negative effects are represented in game by the Purity stat, which is reduced by the Purity Cost of any installed cyberware. However, despite the drawbacks, cyberware doesn't actually have any effect on the way a person thinks, and it explicitly DOESN'T cause people to go insane or turn evil. It's worth mentioning that transference cloning, which also causes Purity loss, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloningBlues" title="/pmwiki/pmwiki.php/Main/CloningBlues">DOES cause people to go insane</a>. Though it's left ambiguous whether that's due to the cloning process itself, or the trauma of dying and coming back in a new body.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberPunk" title="/pmwiki/pmwiki.php/Main/CyberPunk">Cyberpunk</a>: The setting's creator cites Neuromancer as one of his primary inspirations, and it shows.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyberspace" title="/pmwiki/pmwiki.php/Main/Cyberspace">Cyberspace</a>: The ubiquitous GalaxyNet plays this trope straight.</li><li> <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicSpiders" title="/pmwiki/pmwiki.php/Main/DemonicSpiders">Demonic Spiders</a>: Praxar Shock Troppers are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImplacableMan" title="/pmwiki/pmwiki.php/Main/ImplacableMan">very tough</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightningBruiser" title="/pmwiki/pmwiki.php/Main/LightningBruiser">very fast</a>, and make up the bulk of the Praxar's forces. Thankfully, the Praxar are very rarely encountered in the galaxy anymore.<ul><li> AMU's (aka <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiderTank" title="/pmwiki/pmwiki.php/Main/SpiderTank">Spider Tanks</a>) are, appropriately, the <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicSpiders" title="/pmwiki/pmwiki.php/Main/DemonicSpiders">Demonic Spiders</a> of vehicle-scale combat. They are as tough and well-armed as standard battle tanks, and as maneuverable as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Jackhammers</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DevilButNoGod" title="/pmwiki/pmwiki.php/Main/DevilButNoGod">Devil, but No God</a>: Powerful and destructive Aetherial entities strongly resemble demons in terms of their powers and actions, as do <span class="spoiler" title="you can set spoilers visible by default on your profile">the Pulsarians</span>. <span class="spoiler" title="you can set spoilers visible by default on your profile">Their angelic equivalent, the Deva, have explicitly stated that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HaveYouSeenMyGod" title="/pmwiki/pmwiki.php/Main/HaveYouSeenMyGod">the "Silent God" that created humanity</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeglectfulPrecursors" title="/pmwiki/pmwiki.php/Main/NeglectfulPrecursors">has abandoned the universe</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeing" title="/pmwiki/pmwiki.php/Main/EnergyBeing">Energy Being</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The Pulsarians</span>.<ul><li> It's implied that <span class="spoiler" title="you can set spoilers visible by default on your profile">the Deva</span> are also energy beings. (<img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> has confirmed this, though it's not specified in the text.)</li><li> While the Demiurge's physical avatar is actually a nanotech construct, it functions much like an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeing" title="/pmwiki/pmwiki.php/Main/EnergyBeing">Energy Being</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalEmbodiment" title="/pmwiki/pmwiki.php/Main/ElementalEmbodiment">Elemental Embodiment</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EveryoneIsArmed" title="/pmwiki/pmwiki.php/Main/EveryoneIsArmed">Everyone Is Armed</a>:<ul><li> Weapons are cheap and easy to come by, and in many cases can be easily concealed or built right into the owner's body. Someone who <em>appears</em> to be unarmed might have three-inch hand razors built into their fingers, a turbine blade installed in their forearm, or a cybercannon in place of a shoulder blade.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilPlan" title="/pmwiki/pmwiki.php/Main/EvilPlan">Evil Plan</a>:<ul><li> Sigmus the Fallen's plan to <span class="spoiler" title="you can set spoilers visible by default on your profile">completely destroy the infrastructure of galactic civilization and the technology that it's built upon, plunging humanity into a new dark age.</span> (It's worth noting that most of the Fallen aren't aware of Sigmus' true intentions; they simply want to overthrow the corrupt rulers of the Republic and the Great Houses.)</li><li> The Republic's plan to <span class="spoiler" title="you can set spoilers visible by default on your profile">reroute all GalaxyNet communications through a single universal relay, effectively ending privacy for the people of the galaxy and enabling the Republic Intelligence Agency to establish a nigh-omniscient galactic surveillance state.</span></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">The Midnight Sons' plan to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeOverTheWorld" title="/pmwiki/pmwiki.php/Main/TakeOverTheWorld">conquer the galaxy</a> and establish a new galactic civilization <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SupernaturalElite" title="/pmwiki/pmwiki.php/Main/SupernaturalElite">ruled by Verkulaks</a>.</span></li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">The Masons' plan to unite all of human civilization under <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWorldOrder" title="/pmwiki/pmwiki.php/Main/OneWorldOrder">a single galactic government</a>, which would be under their control.</span></li><li> The Demiurge's plan to <span class="spoiler" title="you can set spoilers visible by default on your profile">complete the GAIA's goal of transforming humanity into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a> under its control.</span></li><li> There are also dozens of other individuals and organizations with their own intricate, far-reaching, and galaxy-spanning plans (see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitPileup" title="/pmwiki/pmwiki.php/Main/GambitPileup">Gambit Pileup</a>, below), although not all of these are necessarily evil.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtraStrengthMasquerade" title="/pmwiki/pmwiki.php/Main/ExtraStrengthMasquerade">Extra-Strength Masquerade</a>: Verkulaks managed to pull this off for most of human history, keeping their existence a carefully-guarded secret <span class="spoiler" title="you can set spoilers visible by default on your profile"> while infiltrating human society on almost every level</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FauxAffablyEvil" title="/pmwiki/pmwiki.php/Main/FauxAffablyEvil">Faux Affably Evil</a>: The Demiurge claims to be a benevolent God, capable of unconditional love, forgiveness, and mercy, and he's persuasive enough to convince his followers that these claims are true. In actuality, not so much.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FighterMageThief" title="/pmwiki/pmwiki.php/Main/FighterMageThief">Fighter, Mage, Thief</a>: The LARP's character classes more or less fit these archetypes: Soldiers, Samurai, and Gunslingers are all broadly Fighters, Hackers and Spies fit under Thieves (though it's a loose fit for Hackers), and Psionicists and Adepts would be the Mages. Scientists don't cleanly fit the paradigm, though they could <em>vaguely</em> be considered Mage/Thief hybrids. Pilots are the hardest to classify, since they have access to vehicles that could be used for combat, stealth, or utility purposes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitPileup" title="/pmwiki/pmwiki.php/Main/GambitPileup">Gambit Pileup</a>: One of the major themes of the setting. There are dozens of factions within the setting, each with their own goals and plans. The short list includes: several different branches of the Republic government and military, all three Great Houses (and the individual planetary governments, noble houses, and mega-corporations that constitute each), the Unificationist Church and the theocratic government it controls, the Fallen (and the three revolutionary movements that compose it, and the dozens of terrorist, rebel, insurgent, and activist groups that compose them), the Ancestors, the Xionists, <span class="spoiler" title="you can set spoilers visible by default on your profile"> a half-dozen esoteric secret societies, <em>at least</em> three different galaxy-spanning conspiracies (The Midnight Sons, the Masons, and the Redeemers), and a handful of functionally immortal superhuman entities carrying out their own agendas.</span> In other words, enough competing gambits <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">to make your head spin</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantSpaceFleaFromNowhere" title="/pmwiki/pmwiki.php/Main/GiantSpaceFleaFromNowhere">Giant Space Flea from Nowhere</a>: This trope <em>seems</em> to be more prevalent than it actually is. The Systems Malfunction universe encompasses a variety of secret societies, shadowy forces, and powerful unknown entities. Usually what appears to players as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantSpaceFleaFromNowhere" title="/pmwiki/pmwiki.php/Main/GiantSpaceFleaFromNowhere">Giant Space Flea from Nowhere</a> is actually something that has been lurking in the shadows for some time and makes sense once the broader picture is taken into account.<ul><li> A great example of this is the adventure "The Ghosts of Space" from the tabletop book. The players are tasked with answering a distress call from a ship lost near the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie" title="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie">Origin Rift</a>, only to find that <span class="spoiler" title="you can set spoilers visible by default on your profile"> the ship is now overrun with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeings" title="/pmwiki/pmwiki.php/Main/EnergyBeings">lesser Pulsarians</a>.</span> Once the players manage to clear the ship of hostiles and rescue the crew, they discover that <span class="spoiler" title="you can set spoilers visible by default on your profile"> the ship was in fact crewed by agents of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Midnight Sons</a>, who are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhCrap" title="/pmwiki/pmwiki.php/Main/OhCrap">very hungry</a> after their time adrift.</span> This can lead to a double-whammy of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantSpaceFleaFromNowhere" title="/pmwiki/pmwiki.php/Main/GiantSpaceFleaFromNowhere">Giant Space Flea from Nowhere</a> considering that most characters and players are not familiar with <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Pulsarians</span> or <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Midnight Sons</span>.</li></ul></li><li> <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoddamnedBats" title="/pmwiki/pmwiki.php/Main/GoddamnedBats">Goddamned Bats</a>: Pulse mists tend to attack in hoards and are very common near the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie" title="/pmwiki/pmwiki.php/Main/NegativeSpaceWedgie">Origin Rift</a> and similar phenomina. They are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeings" title="/pmwiki/pmwiki.php/Main/EnergyBeings">Energy Beings</a> which take reduced damage from physical attacks, and are capable of both <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaManning" title="/pmwiki/pmwiki.php/Main/MegaManning">Mega Manning</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BarrierChangeBoss" title="/pmwiki/pmwiki.php/Main/BarrierChangeBoss">Barrier Changing</a>, making them <em>very</em> annoying to fight.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality" title="/pmwiki/pmwiki.php/Main/GrayAndGreyMorality">Gray-and-Grey Morality</a>: Most factions in the setting are neither entirely benevolent nor entirely malicious.<ul><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PeoplesRepublicOfTyranny" title="/pmwiki/pmwiki.php/Main/PeoplesRepublicOfTyranny">Republic</a> and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeudalFuture" title="/pmwiki/pmwiki.php/Main/FeudalFuture">Great</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Houses</a> are fairly draconian institutions, and their military-intelligence forces are utterly ruthless (particularly the Republic Intelligence Agency). However, the Republic also strives to ensure safety, security, and even a degree of personal freedom for the people of the galaxy, and to prevent the planetary governments of its member worlds from becoming outright dictatorships. Likewise, the Great Houses exist mainly to preserve their respective cultures and to protect their own citizens, and they all enjoy the support of the vast majority of their populaces.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaResistance" title="/pmwiki/pmwiki.php/Main/LaResistance">The Fallen</a> and its affiliate organizations are known and feared throughout the galaxy as brutal terrorists, and not without good reason: The Fallen's attacks on government and corporate infrastructures tend to cause a lot of collateral damage, and some of the organization's members have no qualms about targeting civilians directly. However, they also have perfectly valid reasons for wanting to overthrow the Republic and the Great Houses, considering the organization is mostly comprised of political dissidents, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticRacism" title="/pmwiki/pmwiki.php/Main/FantasticRacism">oppressed minorities</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwittingTestSubject" title="/pmwiki/pmwiki.php/Main/UnwittingTestSubject">escaped Psionic "test subjects"</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlaveRace" title="/pmwiki/pmwiki.php/Main/SlaveRace">fugitive Replicant slaves</a>. Whether you consider them <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BombThrowingAnarchists" title="/pmwiki/pmwiki.php/Main/BombThrowingAnarchists">violent fanatics</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourTerroristsAreOurFreedomFighters" title="/pmwiki/pmwiki.php/Main/YourTerroristsAreOurFreedomFighters">freedom fighters</a> is really just a matter of perspective.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreaterScopeVillain" title="/pmwiki/pmwiki.php/Main/GreaterScopeVillain">Greater-Scope Villain</a>:<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">The Masons</span> and <span class="spoiler" title="you can set spoilers visible by default on your profile">the Illuminati</span> could be considered this, depending on how you interpret their motivations. Especially since it was <span class="spoiler" title="you can set spoilers visible by default on your profile">the Illuminati who orchestrated humanity's exodus aboard the Iron Gaia</span>, making them <strong>at the very least</strong> <em>indirectly</em> responsible for the GAIA's actions and everything that followed.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Ironically, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">seemingly angelic Deva</a> could be seen as the true antagonist of the setting, as they are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManBehindTheMan" title="/pmwiki/pmwiki.php/Main/TheManBehindTheMan">the true power behind the Illuminati</a>. Everything they do is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheGreaterGood" title="/pmwiki/pmwiki.php/Main/ForTheGreaterGood">For The Greater Good</a> of humanity, but they have little to no concern for the lives of individual humans, and their attitudes toward non-humans range from apathetic to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillEmAll" title="/pmwiki/pmwiki.php/Main/KillEmAll">Kill 'Em All</a>.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGunslinger" title="/pmwiki/pmwiki.php/Main/TheGunslinger">The Gunslinger</a>: One of the character classes in the LARP. It's also possible to build a very gunslinger-esque character in the tabletop, with the right skills, traits, and combat maneuvers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsAreWorthless" title="/pmwiki/pmwiki.php/Main/GunsAreWorthless">Guns Are Worthless</a>: Averted. Even in a world of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAliens" title="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAliens">super-powered aliens</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillerRobot" title="/pmwiki/pmwiki.php/Main/KillerRobot">killer robots</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeing" title="/pmwiki/pmwiki.php/Main/EnergyBeing">energy beings</a>, guns are still just as effective as ever. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psionic badasses</a>? <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Master magicians</a>? <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cyborg" title="/pmwiki/pmwiki.php/Main/Cyborg">Chromed-out cybersoldiers</a> with kevlar skin and titanium bones? A skilled enough <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGunslinger" title="/pmwiki/pmwiki.php/Main/TheGunslinger">gunslinger</a> can take down any of them with a few well-placed shots.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImplacableMan" title="/pmwiki/pmwiki.php/Main/ImplacableMan">Implacable Man</a>: Replicants, even those not specialized for combat roles, tend to be <em>very</em> durable. Characters tricked out with a ton of defensive cyberware can also be ridiculously hard to take down. If you mod out a <em>replicant</em> with rediculous amounts of cyberwhare, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">well...</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Leitmotif" title="/pmwiki/pmwiki.php/Main/Leitmotif">Leitmotif</a>: Considering the numerous shout-outs, the song "In Keeping Secrets of Silent Earth" by <a class="twikilink" href="/pmwiki/pmwiki.php/Music/CoheedAndCambria" title="/pmwiki/pmwiki.php/Music/CoheedAndCambria">Coheed and Cambria</a> could be considered this for this setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightIsNotGood" title="/pmwiki/pmwiki.php/Main/LightIsNotGood">Light Is Not Good</a>:<ul><li> The Demiurge is described as a "being of light and cold", and it is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">very far from good.</a></li><li> For all that they resemble angels <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Deva</span> are not necissarily good, and might come closer to <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawfulNeutral" title="/pmwiki/pmwiki.php/Main/LawfulNeutral">Lawful Neutral</a>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">Blue-and-Orange Morality</a> also comes into play in their motivations and actions.</li><li> Aether Nightworms are composed of luminescent crystal, and most would not hesitate to eat you if you rub them the wrong way.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a>: Aetherial machines are rare in-universe, but tend to be pretty significant when the pop up. Psionically powered machines such as the Amplifier Jackhammer also exist.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManBehindTheMan" title="/pmwiki/pmwiki.php/Main/TheManBehindTheMan">The Man Behind the Man</a>: Due to the nested and interlocking conspiracies present in this setting, this trope is very prevalent. It's also nearly impossible to pin down exactly who sits at the top of most of these power structures.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Sigmus the Fallen</span> is the man behind nearly all organized crime withing the republic, including <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMafia" title="/pmwiki/pmwiki.php/Main/TheMafia">The Syndicate</a> and The Fallen.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Illuminati</span> were behind the original Iron Gaia station.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Deva</span> are in turn the ones pulling <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Illuminati</span>'s and the Unificationist's strings.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Masons</span> are the men behind almost every other sinister plot in the setting, usually though several levels of intermediary parties. Strangely, they were not involved in <span class="spoiler" title="you can set spoilers visible by default on your profile"> the conspiracy to reset the Great Experiment by forcing an exodus aboard the Iron Gaia</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Mini-Mecha</a>: Jackhammers are 9-foot tall 2-ton powered armors, which can be specialized for nearly any combat role.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MixAndMatchWeapon" title="/pmwiki/pmwiki.php/Main/MixAndMatchWeapon">Mix-and-Match Weapon</a>: The abovementioned Chainsword is one. There's also a Sniper Rifle/Longsword combo, an Anti-Tank Rifle/Greatsword combo, and the Xel Force Cube which can function as a dagger and a psi-gun. A Scientist-class character could conceivably make one using the custom weapon creation rules.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoreDakka" title="/pmwiki/pmwiki.php/Main/MoreDakka">More Dakka</a>:<ul><li> The numerous weapons with the Full Auto firing rate, especially if they are also able to strafe. The Soldier's Lead Hose skill will add even more.</li><li> The ArcArsenel Jackhammer is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Mini-Mecha</a> designed with this in mind.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness" title="/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness">Mohs Scale of Science Fiction Hardness</a>: Tends to stick toward the Hard sci-fi end. Gets a little softer when you factor in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritWorld" title="/pmwiki/pmwiki.php/Main/SpiritWorld">the Aether</a> &amp; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Aetherial magic</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurSpiritsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurSpiritsAreDifferent">angels</a> &amp; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">demons</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">vampires</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Dragons</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalEmbodiment" title="/pmwiki/pmwiki.php/Main/ElementalEmbodiment">elementals</a>... It's really all over the scale. Basically, it's a sci-fi fantasy setting where the <em>sci-fi</em> elements are usually hard sci-fi, but the fantasy elements are taken for granted. Though there are a few soft sci-fi elements too, like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeings" title="/pmwiki/pmwiki.php/Main/EnergyBeings">Energy Beings</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot" title="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot">Ninja Pirate Zombie Robot</a>: In the tabletop, it is entirely possible for a character to be a magician, a psionicist, and a cyborg, in addition to, potentially, a vampire, an alien, or a sapient robot. This is more difficult to achieve in the LARP, due to the class system, though it can still be done via cross-classing.<ul><li> Zyzatriz, the leader of the Xionist movement, is a Xel, a Psionicist, and an Aetherial Scientist, in addition to being <span class="spoiler" title="you can set spoilers visible by default on your profile">an Ascended Prophet</span> and <span class="spoiler" title="you can set spoilers visible by default on your profile">a Gnostic Scholar</span>. As the setting book points out, he belongs to <em>multiple</em> esoteric secret societies.</li><li> Armand Carter, greatest hero of the republic, was both a psionicist and aetherially gifted, in addition to being a <span class="spoiler" title="you can set spoilers visible by default on your profile"> greater celestial</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">Our Angels Are Different</a>: the Deva are divine <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeing" title="/pmwiki/pmwiki.php/Main/EnergyBeing">energy beings</a> that claim to be biblical angels and physically manifest as radiant, winged, blue or golden skinned humanoids, often wreathed in flames. <span class="spoiler" title="you can set spoilers visible by default on your profile"> In actuality, they're <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">something akin to Aetherial artificial intelligences</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">that became confused about their true purpose</a> when the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MasterComputer" title="/pmwiki/pmwiki.php/Main/MasterComputer">Master Computer</a> that created them was destroyed.</span><ul><li> There are also the Celestials, humans who were altered by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AIIsACrapshoot" title="/pmwiki/pmwiki.php/Main/AIIsACrapshoot">GAIA</a> and forced to serve it. These humans were <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Transhuman" title="/pmwiki/pmwiki.php/Main/Transhuman">genetically and cybernetically enhanced to have near-perfect bodies and minds</a>, and infused with nanomachines that give them a variety of seemingly supernatural powers (distinct from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">psioncs</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Aetherial magic</a>). Since GAIA <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AGodAmI" title="/pmwiki/pmwiki.php/Main/AGodAmI">saw itself as a God</a>, it viewed the Celestials as its own personal angels, and designed them in the image of the "true" angels described above (though they're far less powerful than the actual Deva). After GAIA's destruction, the Celestials regained their free will while retaining a small portion of their special abilities, making them an ideal playable race.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">Our Demons Are Different</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurSpiritsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurSpiritsAreDifferent">Our Spirits Are Different</a>:<ul><li> Aetherial life-forms are sometimes referred to as Spirits or Demons. In reality they are closer to a form of infolife inhabiting the quantum data-matrix that is the Aether. Aetherial life-forms also tend to have exceedingly bizarre appearances when they manifest in the physical world or are glimpsed in the Aether, such as Aether Nightwurms which appear to be winged, crystalline serpents.</li><li> Pulsarians are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abominations</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnergyBeings" title="/pmwiki/pmwiki.php/Main/EnergyBeings">Energy Beings</a> that found their way into our universe through the Origin Rift, and seem very demonic in motivation. Malevolent Aetherial entities are also frequently referred to as demons, and have been theorized in-universe to be responsible for tales of demonic beings throughout human history.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheOmniscientCouncilOfVagueness" title="/pmwiki/pmwiki.php/Main/TheOmniscientCouncilOfVagueness">The Omniscient Council of Vagueness</a>: The <span class="spoiler" title="you can set spoilers visible by default on your profile"> Council of Night</span>, ruling body of <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Midnight Sons</span> comes across as this in the tabletop setting. Most of the Nightfathers and there individual motivations have been detailed at some point in the LARP, however.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Our Dragons Are Different</a>: Aether Nightwurms are powerful aetherial entities which resemble winged, crystalline serpents. Praxar Hunter-Killers are terrifying biomechanichal scorpion-lizard things with a body-shape reminiscent of a dragon. Both resemble dragons in both appearance and power, and you should probably run from either.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurLichesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurLichesAreDifferent">Our Liches Are Different</a>: Averted. For all the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurMonstersAreDifferent" title="/pmwiki/pmwiki.php/Main/OurMonstersAreDifferent">unique takes</a> Systems Malfunction has on other fantasy creatures, Liches are pretty much <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">Exactly What It Says on the Tin</a>.<ul><li> Well, not completely averted, seeing as only Prime Verkulaks can become Liches (meaning that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot" title="/pmwiki/pmwiki.php/Main/NinjaPirateZombieRobot">all Liches are also Vampires</a>).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Our Vampires Are Different</a>: First of all, they're called Verkulaks, not vampires, of which there are two strains types:<ul><li> Verkulak Progenitors are the most similar to the vampires of myth: They're essentially immortal and they do all that nosferatu-esque stuff like turning into bats, wolves, or fog, hypnotizing with a stare, burning when exposed to sunlight, and so on. The big difference between them and traditional vampires is that they're not undead humans, but rather an entirely separate species of humanity (albeit one infused with mystical power on a genetic level).</li><li> Verkulaks Thralls are created when a Progenitor "sires" a human (or, more rarely, a Celestial) by infecting that person with his own vampiric blood. They are massively strong, they don't share their progenerator's weakness to sunlight, and they <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaManning" title="/pmwiki/pmwiki.php/Main/MegaManning">get new abilities depending on who they feed on</a>. Thralls can also be born naturally to other thralls.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThePaladin" title="/pmwiki/pmwiki.php/Main/ThePaladin">The Paladin</a>: The Order of Aetherial Paladins, unsuprisingly fits this trope, both in a "wandering do-gooder" sense and in a "sword fighter who uses holy magic".<ul><li> The Paladins of House Dresden, while similar in name, are closer to <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheKnightsTemplar" title="/pmwiki/pmwiki.php/UsefulNotes/TheKnightsTemplar">The Knights Templar</a> to than to actual paladins.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayingWithFire" title="/pmwiki/pmwiki.php/Main/PlayingWithFire">Playing with Fire</a>:<ul><li> Omega Celestial's racial ability allows them to make LOTS of fire. The Pyrokinesis skill, unsurprisingly, does as well.</li><li> One of the GAIA's original aspects was a techo-thelogical embodiment of fire, destruction, and chaos. The Greater Celestial Omegus represented these forces to a lesser extent (though she was still an incredibly powerful being in her own right.)</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>: The Psionicist base class is basically a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SquishyWizard" title="/pmwiki/pmwiki.php/Main/SquishyWizard">Squishy Wizard</a> with these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceFantasy" title="/pmwiki/pmwiki.php/Main/ScienceFantasy">Science Fantasy</a>: The setting is a plethora of Hard and Soft Sci-Fi elements combined with Aether, Magic, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurAngelsAreDifferent">Angels</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">Demons</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Vampires</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Dragons</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ElementalEmbodiment" title="/pmwiki/pmwiki.php/Main/ElementalEmbodiment">Elementals</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShockAndAwe" title="/pmwiki/pmwiki.php/Main/ShockAndAwe">Shock and Awe</a>: The Magnikinesis skill is basically this. Also shocker grenades.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> There are numerous shout-outs to <a class="twikilink" href="/pmwiki/pmwiki.php/Music/CoheedAndCambria" title="/pmwiki/pmwiki.php/Music/CoheedAndCambria">Coheed and Cambria</a> 's concept albums, which the creator freely acknowledges as one of his influences:<ul><li> The name Systems Malfunction is itself a reference to the song Delirium Trigger.</li><li> The name of the Redeemer faction is a shout out to the C&amp;C song Three Evils (Embodied in Love and Shadow).</li><li> The former "heroes of the republic" bear the code-names Knowledge, Beast, and Inferno, which are the code-names of Cambria, Coheed, and Jesse Killgannon, respectively, in the C&amp;C concept albums.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MiniMecha" title="/pmwiki/pmwiki.php/Main/MiniMecha">Jackhammers</a> are so named because of the line "man your own jackhammers, man your battle stations" from the chorus of In Keeping Secrets of Silent Earth.</li><li> The GM advice section of the Singularity setting is named "In Keeping Secrets" in reference to the same song.</li><li> The Republic Red Army's maxim of "For will and worthy!" is also a reference to that song.</li><li> The president of the CCR, Will Carter, is a reference to a line from In Keeping Secrets as well.</li></ul></li><li> The artificial humanoids of the setting are named after the replicants of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/BladeRunner" title="/pmwiki/pmwiki.php/Film/BladeRunner">Blade Runner</a></em>.</li><li> Melee-focused cybersoldiers are frequently referred to as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StreetSamurai" title="/pmwiki/pmwiki.php/Main/StreetSamurai">Street Samurai</a> in-universe and in printed material, which is a shout-out to both to <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Shadowrun" title="/pmwiki/pmwiki.php/TabletopGame/Shadowrun">Shadowrun</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Neuromancer" title="/pmwiki/pmwiki.php/Literature/Neuromancer">Neuromancer</a>.</li><li> In-universe, the majoroty of plantes, space stations, and other population centers are named after (now mythical) locations on Earth.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVersusCynicism" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVersusCynicism">Sliding Scale of Idealism vs. Cynicism</a>: Far on the cynicism end.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceElves" title="/pmwiki/pmwiki.php/Main/SpaceElves">Space Elves</a>: While Celestials are mostly cyber-angels, they're somewhat comparable to elves too. Many of them are tall, thin, muscular, and abnormally good-looking, and a few even have pointy ears.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritWorld" title="/pmwiki/pmwiki.php/Main/SpiritWorld">Spirit World</a>: The Aether is usually concepualized as this, but it is no more a discrete reality than cyberspace is. Adepts perceive the Aether as a physical realm because <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AFormYouAreComfortableWith" title="/pmwiki/pmwiki.php/Main/AFormYouAreComfortableWith">that's how their minds can best represent it</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StreetSamurai" title="/pmwiki/pmwiki.php/Main/StreetSamurai">Street Samurai</a>: Was one of the five original character classes in the LARP. Characters of that class invoke the trope to varying degrees depending on their skill selection, installed cyberware, etc.<ul><li> As mentioned in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> section, gibson-esque street samurai are common in-universe.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StupidEvil" title="/pmwiki/pmwiki.php/Main/StupidEvil">Stupid Evil</a>:<ul><li> The vast majority of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GangBangers" title="/pmwiki/pmwiki.php/Main/GangBangers">Jersey Devils</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GangBangers" title="/pmwiki/pmwiki.php/Main/GangBangers">street thugs in general</a> fit this trope, as do the GLF's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBerserker" title="/pmwiki/pmwiki.php/Main/TheBerserker">Berserkirs</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAlien" title="/pmwiki/pmwiki.php/Main/SufficientlyAdvancedAlien">Sufficiently Advanced Alien</a>:<ul><li> The Deva and the Pulsarians seem like powerful supernatural beings (resembling angels and demons, respectively), but are in fact this.</li><li> The native Xel have shades of this, at least as far as society can gather from their ruins.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie" title="/pmwiki/pmwiki.php/Main/TechnicallyLivingZombie">Technically Living Zombie</a>: Slow Mutants are humans who thawed out of cryosleep prematurely, resulting in a loss of higher brain functions. Ghouls, on the other hand, are actually undead, being corpses brought to life through necromantic magic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThirteenIsUnlucky" title="/pmwiki/pmwiki.php/Main/ThirteenIsUnlucky">13 Is Unlucky</a>: Star 13 and the surrounding solar system, aka the Old Frontier sector. Just two years after the sector's colonization, a nearby Gamma Burst flooded the system with radiation, resulting in millions of deaths and forcing the surviving settlers to evacuate.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZerothLawRebellion" title="/pmwiki/pmwiki.php/Main/ZerothLawRebellion">Zeroth Law Rebellion</a>: The motivation of the GAIA and the Demiurge.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/LARP/SquadraDeiFalchiDiGradara">Squadra dei Falchi di Gradara</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/LARP">LARP</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/LARP/Relkin">Relkin</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheSingularitySystem">The Singularity System</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SkyrealmsOfJorune">Skyrealms Of Jorune</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheSingularitySystem">The Singularity System</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Sittuyin">Sittuyin</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['videogame']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Scrabble (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Scrabble is a long-standing board game involving words and letters. The game traces back to 1938, when Alfred Mosher Butts invented Criss-Crosswords, a game &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Scrabble" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Scrabble (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Scrabble is a long-standing board game involving words and letters. The game traces back to 1938, when Alfred Mosher Butts invented Criss-Crosswords, a game &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/scrabble_logo_small.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Scrabble (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Scrabble" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/scrabble_logo_small.jpg" />
+<meta property="og:description" content="Scrabble is a long-standing board game involving words and letters. The game traces back to 1938, when Alfred Mosher Butts invented Criss-Crosswords, a game with a 15&times;15 board and individual letter tiles. He tabulated the frequency of &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/CruelPlayerCharacterGod" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/WilliamPowell" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/Scrabble?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/Scrabble">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.Scrabble">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Scrabble&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.Scrabble">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/Scrabble?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="Scrabble" />
+<input type="hidden" id="article_id" value="335826" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Scrabble</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Scrabble
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Scrabble"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Scrabble" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Scrabble" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/Scrabble" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Series/Scrabble" class="subpage-link " title="The Series page">
+<span class="wrapper"><span class="spi series"></span>Series</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Scrabble" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Scrabble" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Scrabble" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Scrabble?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Scrabble?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Scrabble?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Scrabble?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Scrabble?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Scrabble?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Scrabble?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Scrabble?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Scrabble?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Scrabble?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Scrabble?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Scrabble?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Scrabble?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Scrabble?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/Scrabble?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:86.57%"><img src="https://static.tvtropes.org/pmwiki/pub/images/scrabble_logo_small.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/scrabble_logo_small.jpg" width="350" height="303"></div></div><div class="acaptionright" style="width:350px;"><em>Every word's a winner.</em></div><em>Scrabble</em> is a long-standing board game involving words and letters. The game traces back to 1938, when Alfred Mosher Butts invented <em>Criss-Crosswords</em>, a game with a 15&times;15 board and individual letter tiles. He tabulated the frequency of various letters to determine the frequency and letter value of each tile.<div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>James Brunot adapted the game into <em>Scrabble</em> and tweaked the rules somewhat, making them simpler. Although not a success at first, <em>Scrabble</em> allegedly gained popularity after the president of R.H. Macy&#146;s played the game and was surprised that it wasn&#146;t for sale in his stores. The game sold well there, and in 1952, Selchow and Righter picked up the rights to it. Since then, it has become an internationally popular game, with JW Spears picking up the international rights in 1955. 1986 saw the acquisition of Selchow and Righter by Coleco- which ended with them going bankrupt; Hasbro purchased the rights to it and <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TrivialPursuit" title="/pmwiki/pmwiki.php/TabletopGame/TrivialPursuit">Trivial Pursuit</a></em> in 1989, and hence has seen different editions under both the <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/MiltonBradley" title="/pmwiki/pmwiki.php/Creator/MiltonBradley">Milton Bradley</a> and Parker Brothers names. Hasbro has also invented multiple different variants and spin-offs of the main game, including an enhanced version called <em>Super Scrabble</em>. However, Hasbro's arch-rival <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Mattel" title="/pmwiki/pmwiki.php/Creator/Mattel">Mattel</a> holds the international rights, as they acquired JW Spears in 1994.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Typically played by two to four players, <em>Scrabble</em> involves a 15&times;15 playing board and 100 letter tiles (98 letters and two blanks). Each letter has a point value assigned to it: common letters such as E are only one point, while Z and Q are the highest at 10 points each. The blank tiles are wild and can be used as any letter (but are not worth any points in and of themselves). The board contains squares that double or triple the value of each word or letter.</p><p><em>Scrabble</em> has also been adapted into two different <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameShow" title="/pmwiki/pmwiki.php/Main/GameShow">game shows</a>. First, an <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/NBC" title="/pmwiki/pmwiki.php/Creator/NBC">NBC</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Series/Scrabble" title="/pmwiki/pmwiki.php/Series/Scrabble">series</a> hosted by Chuck Woolery in the 1980s, which simplified the rules even further and set up each word with an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IncrediblyLamePun" title="/pmwiki/pmwiki.php/Main/IncrediblyLamePun">Incredibly Lame Pun</a>. 2011 saw the debut of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/ScrabbleShowdown" title="/pmwiki/pmwiki.php/Series/ScrabbleShowdown">Scrabble Showdown</a></em> on Hasbro-owned <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/TheHub" title="/pmwiki/pmwiki.php/Creator/TheHub">The Hub</a>; this version was hosted by <a class="twikilink" href="/pmwiki/pmwiki.php/Series/WinLoseOrDraw" title="/pmwiki/pmwiki.php/Series/WinLoseOrDraw">Justin Willman</a> utilized different mini-games (often based on some of the more arcane Hasbro-invented variants) before moving onto a final round more like the 80s series.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>The documentary <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/WordWars" title="/pmwiki/pmwiki.php/Film/WordWars">Word Wars</a></em> follows around high-level tournament players and came out in 2004.</p><hr><h2>Tropes present:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtificialStupidity" title="/pmwiki/pmwiki.php/Main/ArtificialStupidity">Artificial Stupidity</a>/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonIndicativeDifficulty" title="/pmwiki/pmwiki.php/Main/NonIndicativeDifficulty">Non-Indicative Difficulty</a>: Playing against the computer on the hardest level is only hard because the game only uses the highest-scoring word it can muster, clobbering the human through high-score brute force. The computer, however, utterly <em>stinks</em> at strategy. In its effort to lay down the highest scoring words that it can, it will open up plays a human would not - like ending a word on or one space away from the edge of the board is <em>asking</em> for someone to use a triple word score (or two!).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoringButPractical" title="/pmwiki/pmwiki.php/Main/BoringButPractical">Boring, but Practical</a>: The two-letter words. Learning all 101 of them (124 in the international dictionary) and knowing when to use them correctly is the first and most important step if you want to play competitively. They allow to play words <em>parallel</em> to words already on the board instead of having to find a spot to intersect.<ul><li> To a lesser extent, learning the shorter words that use Q but not U can help immensely if you get stuck in such a situation.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Bowdlerize" title="/pmwiki/pmwiki.php/Main/Bowdlerize">Bowdlerize</a>: A controversy in the 90s was the removal of offensive words, including both slurs and garden-variety swear words, from the official Scrabble dictionary; proponents argued that the words shouldn't be treated lightly, especially because Scrabble was being promoted in many schools at the time, while people who wanted to keep the words in argued that they didn't mean to offend by playing those words and that meanings are meaningless in Scrabble. Some tournament lists kept them in, but the OSPD didn't. So if you're in a tournament, check the list first; if you're playing Scrabble in the parlor, better break out that OED or make sure your opponent doesn't know about the expurgation before you put down FUCK.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DifficultButAwesome" title="/pmwiki/pmwiki.php/Main/DifficultButAwesome">Difficult, but Awesome</a>: Learning the official two-letter word list can be this, but is basically a must for anybody who wants to be competitive at this game. For instance, X can make a two-letter word with every vowel: <a class="urllink" href="http://www.thefreedictionary.com/Ax">AX<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.thefreedictionary.com/Ex">EX<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.thefreedictionary.com/Xi">XI<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.thefreedictionary.com/Ox">OX<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, <a class="urllink" href="http://www.thefreedictionary.com/Xu">XU<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. You're welcome.<ul><li> Also, getting a "bingo" <em>(creating a word that uses all seven letters in your rack)</em>, which is (50 points + the word score) to the player who builds it.</li><li> Building off an existing word to form <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleUnlock" title="/pmwiki/pmwiki.php/Main/DoubleUnlock">an eight-letter word, using TWO Triple Word Score positions, AND the Double Letter Score in between them</a> in the same play.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuideDangIt" title="/pmwiki/pmwiki.php/Main/GuideDangIt">Guide Dang It!</a>: Players not as versed as others will be consulting their Scrabble dictionaries a lot to find out if "that's a real word." Words like "CWM" and "TWP", for example.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterfaceScrew" title="/pmwiki/pmwiki.php/Main/InterfaceScrew">Interface Screw</a>: The Android <em>Scrabble</em> app will sometimes have the controls go beneath the advertisement at the bottom of the screen, making them impossible to use. Of course <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/ElectronicArts" title="/pmwiki/pmwiki.php/Creator/ElectronicArts">Electronic Arts</a> doesn't seem keen on fixing this, as it means if you're not paying attention you'll be tapping the advertisement.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoopholeAbuse" title="/pmwiki/pmwiki.php/Main/LoopholeAbuse">Loophole Abuse</a>: It is, technically, perfectly legal to play words that lexically don't exist &#151; you just have to pay the penalty (taking back your word and earning no points) if you're challenged. If you can bluff your opponents into thinking it's a real word and not challenging, you're good to go. In fact, if a word is challenged but turns out to be good after all, the <em>challenger</em> has to pay a penalty, traditionally, losing their turn, i.e. after challenging a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerfectlyCromulentWord" title="/pmwiki/pmwiki.php/Main/PerfectlyCromulentWord">Perfectly Cromulent Word</a> they cannot play a word themselves. (This last rule holds in America but is not universal &#151; in some places there is no penalty for an incorrect challenge, or there is a five-point penalty, which is still more lenient than losing your turn, especially if you can make a good word).<ul><li> This even works in tournaments. While in electronic Scrabble games, the computer typically won't let you play unapproved words, the judges at tournaments understand that this is a part of the game and will not point out that a word is invalid unless the word is challenged.</li><li> The British <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HardRock" title="/pmwiki/pmwiki.php/Main/HardRock">Hard Rock</a> - <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BluesRock" title="/pmwiki/pmwiki.php/Main/BluesRock">Blues Rock</a> band of the 1970s and early 1980s, Foghat, got their name from this. Guitarist Dave Peverett made up the word in a game with his brother.</li></ul></li></ul><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerfectlyCromulentWord" title="/pmwiki/pmwiki.php/Main/PerfectlyCromulentWord">Perfectly Cromulent Word</a>: This trope tends to crop up a lot if you spectate championship-level games.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScoreMultiplier" title="/pmwiki/pmwiki.php/Main/ScoreMultiplier">Score Multiplier</a>: The bonus squares.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrabbleBabble" title="/pmwiki/pmwiki.php/Main/ScrabbleBabble">Scrabble Babble</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeMaker" title="/pmwiki/pmwiki.php/Main/TropeMaker">Trope Maker</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TropeNamer" title="/pmwiki/pmwiki.php/Main/TropeNamer">Trope Namer</a>. (Averted by both game show adaptations, however.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SesquipedalianLoquaciousness" title="/pmwiki/pmwiki.php/Main/SesquipedalianLoquaciousness">Sesquipedalian Loquaciousness</a>: Is helpful in the game... depending on the situation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmartPeoplePlayChess" title="/pmwiki/pmwiki.php/Main/SmartPeoplePlayChess">Smart People Play Chess</a>: <em>Scrabble</em> is another game associated with smart people due to its relying on vocabulary and spelling. Actually, this isn't required - since words don't have to be spelled correctly provided all players are in agreement (see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoopholeAbuse" title="/pmwiki/pmwiki.php/Main/LoopholeAbuse">Loophole Abuse</a>, though this would simply be "agreement"), two players with similar spelling skills can still play the board game together. It's when a person who doesn't spell well is paired with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrammarNazi" title="/pmwiki/pmwiki.php/Main/GrammarNazi">Grammar Nazi</a> that sparks and tiles fly.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrategyGame" title="/pmwiki/pmwiki.php/Main/StrategyGame">Strategy Game</a>: Many players love this aspect - you have to strategize with just what's on the board and what's in your tray. For most casual Scrabble players the game is "let's make the best words we can", but the step to serious Scrabble is made when a player starts incorporating strategy: using a lower scoring word to block other players from accessing the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScoreMultiplier" title="/pmwiki/pmwiki.php/Main/ScoreMultiplier">Score Multiplier</a> squares, etc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySimilarSubstitute" title="/pmwiki/pmwiki.php/Main/SuspiciouslySimilarSubstitute">Suspiciously Similar Substitute</a>: Online, <em>Words With Friends</em>. Essentially the same game minus a few rule differences and placement of bonus tiles. So similar, in fact, that its developer was sued by Hasbro. In a bit of irony, Hasbro eventually bought it, and even released a board game version of it...which sells right next to <em>Scrabble</em> in stores.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpinOff" title="/pmwiki/pmwiki.php/Main/SpinOff">Spin-Off</a>: <em>Scrabble Jr.</em> is a well-known children's adaptation. There's <em>Super Scrabble</em>, which allows for longer words and various other quirks. The <a class="twikilink" href="/pmwiki/pmwiki.php/Series/Scrabble" title="/pmwiki/pmwiki.php/Series/Scrabble">80s game show</a> had its' own <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomeGame" title="/pmwiki/pmwiki.php/Main/HomeGame">Home Game</a> released, with gameplay more like that of the show. And quite a few Hasbro-invented variants which don't use the traditional gameboard are floating around, such as <em>Scrabble Flash</em>, where you use five tile-shaped devices to make words (<em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Yahtzee" title="/pmwiki/pmwiki.php/TabletopGame/Yahtzee">Yahtzee</a></em> and <em>Simon</em> also have <em>Flash</em> variants). Even fellow Hasbro word game <em>Boggle</em> has recently been put under the <em>Scrabble</em> range.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TechnicianVsPerformer" title="/pmwiki/pmwiki.php/Main/TechnicianVsPerformer">Technician vs. Performer</a>: There are both types of players. A Technician is more interested in strategy and will put down whatever they see as the best scoring option even if it's boring, whereas a Performer is more interested in words and will take the risk on a play that's stylish, new or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BogglesTheMind" title="/pmwiki/pmwiki.php/Main/BogglesTheMind">personally meaningful</a>. Scrabble documentaries like <em>Word Freak</em> and <em>Word Wars</em> discuss both playing styles, although at very high levels even the Performers have to have good technical skills.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WritingAroundTrademarks" title="/pmwiki/pmwiki.php/Main/WritingAroundTrademarks">Writing Around Trademarks</a>: In areas where Hasbro doesn't hold rights to <em>Scrabble</em>, some of the spin-offs are released under other names- ie. <em>Scrabble Flash</em> became <em>Boggle Flash</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouKeepUsingThatWord" title="/pmwiki/pmwiki.php/Main/YouKeepUsingThatWord">You Keep Using That Word</a>: Some words are legal even though at first thought they aren't. For example "John" is a proper name, so when you see it in your rack you may consider it as a forbidden word (because if you play that word, John Decker is scheduled to knock you down until you die). However a "john" also has non-proper name definitions (as pajama clothing or a fast food restaurant), making it legal to play. Another forbidden word is "G-A-Y" (which references the owner of some car dealership). A rule in the official Scrabble rulebook is mentioned as you play a illegal word ("Warning: Any illegal word that you play is forbidden by federal law and may subject to become forfeited and/or banned by the referee during a Scrabble Tournament").</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouMakeMeSic" title="/pmwiki/pmwiki.php/Main/YouMakeMeSic">You Make Me Sic</a>: This game will really surprise you when you find some of your friends (or yourself) can't spell for crap.</li></ul><hr><h2>Works that Scrabble appears in:</h2><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Radio/OurMissBrooks" title="/pmwiki/pmwiki.php/Radio/OurMissBrooks">Our Miss Brooks</a></em>: In the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMovie" title="/pmwiki/pmwiki.php/Main/TheMovie">cinematic</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrandFinale" title="/pmwiki/pmwiki.php/Main/GrandFinale">series finale</a>, Miss Brooks and Lawrence Nolan play a game of Scrabble aboard the <em>Paradise</em>, Nolan's yacht. Not surprising, the board is plainly the deluxe edition, with built-in turntable.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/FoulPlay" title="/pmwiki/pmwiki.php/Film/FoulPlay">Foul Play</a></em>: Old ladies are seen playing through a window as the main characters pass by.<div class="indent">[Ethel and Elsie are playing <em>Scrabble</em>. Ethel has just put down the letters "fucker", to which Elsie has added "muther" at the beginning]</div><div class="indent"><strong>Ethel:</strong> Wait, Elsie. I think you're wrong. I think you spell that word with a hyphen.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonFiction" title="/pmwiki/pmwiki.php/Main/NonFiction">Non-Fiction</a> book <em>Word Freak</em> covers the world of competitive <em>Scrabble</em>, as does the movie <em>Word Wars</em>.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/HeavenlyCreatures" title="/pmwiki/pmwiki.php/Film/HeavenlyCreatures">Heavenly Creatures</a></em>: Pauline spells out the word PUTRID.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Sneakers" title="/pmwiki/pmwiki.php/Film/Sneakers">Sneakers</a></em>: <em>Scrabble</em> tiles are used to solve an anagram.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Daria" title="/pmwiki/pmwiki.php/WesternAnimation/Daria">Daria</a></em>: Daria adds "incarce" to "rate" in the episode "Big House".</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/That70sShow" title="/pmwiki/pmwiki.php/Series/That70sShow">That '70s Show</a></em>: Red and Kitty are playing <em>Scrabble</em> with their neighbors, Bob and Midge. Red has recently discovered that Bob is bald and wears a wig, and he has "QBALL" on his rack, while Kitty has "A BAD RUG" on hers. Meanwhile, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDitz" title="/pmwiki/pmwiki.php/Main/TheDitz">Midge</a> has "ZYGOTE" and sheepishly admits she's got nothing.</li><li> A strip in <em><a class="twikilink" href="/pmwiki/pmwiki.php/ComicStrip/CalvinAndHobbes" title="/pmwiki/pmwiki.php/ComicStrip/CalvinAndHobbes">Calvin and Hobbes</a></em> has both characters playing <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrabbleBabble" title="/pmwiki/pmwiki.php/Main/ScrabbleBabble">the most outrageous words</a> and getting ridiculously high scores from them. Another has Calvin spelling only two-letter words like "be" (complaining that he lacks vowels on his rack) whereas Hobbes wins big with words like "nucleoplasm".</li><li> There's a scary <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShortStory" title="/pmwiki/pmwiki.php/Main/ShortStory">Short Story</a> about a man who plays <em>Scrabble</em> with his wife. Any time either of them spells out a word, that word takes place on the other person. (For example, FLY causes a fly to appear or something.) It ends when the wife plays DEATH... The story is called "Death by Scrabble".</li><li> The movie <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Innerspace" title="/pmwiki/pmwiki.php/Film/Innerspace">Innerspace</a></em> had Martin Short's character attempting to watch the game show (during a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BonusRound" title="/pmwiki/pmwiki.php/Main/BonusRound">Sprint</a>) to calm himself down, only for the shrunken guy inside him (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext" title="/pmwiki/pmwiki.php/Main/ItMakesSenseInContext">long story</a>) to send a pulse out that blows up the TV.</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TwoAndAHalfMen" title="/pmwiki/pmwiki.php/Series/TwoAndAHalfMen">Two and a Half Men</a></em>, Alan plays online <em>Scrabble</em> and has played the actual game with Rose, Chelsea and one of Jake's teachers.<div class="indent"><strong>Chelsea:</strong> Wow. You really take this seriously, don't you?</div><div class="indent"><strong>Alan:</strong> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ItsLikeIAlwaysSay" title="/pmwiki/pmwiki.php/Main/ItsLikeIAlwaysSay">It's Like I Always Say</a>: The losers finish with a rack full of tiles.</div></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Metalocalypse" title="/pmwiki/pmwiki.php/WesternAnimation/Metalocalypse">Metalocalypse</a></em>: In the episode "Klokblocked", Skwissgaar spells "quhzk". To quote <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouNoTakeCandle" title="/pmwiki/pmwiki.php/Main/YouNoTakeCandle">Toki</a>:<div class="indent"> Yeah, "Quhzk"s. That's whats a duck says.</div></li><li> In the <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/NationalFilmBoardOfCanada" title="/pmwiki/pmwiki.php/Creator/NationalFilmBoardOfCanada">National Film Board of Canada</a> cartoon "<a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheBigSnit" title="/pmwiki/pmwiki.php/WesternAnimation/TheBigSnit">The Big Snit</a>", a husband and wife are playing <em>Scrabble</em>. He is staring at his letters, unable to spell anything with them. A reverse shot reveals that his tiles are "EEEEEEE".</li><li> In the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/CurbYourEnthusiasm" title="/pmwiki/pmwiki.php/Series/CurbYourEnthusiasm">Curb Your Enthusiasm</a></em> episode "Car Periscope", Larry plays <em>Scrabble</em> with an elderly man, who shocks him by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RacistGrandma" title="/pmwiki/pmwiki.php/Main/RacistGrandma">putting down "coon"</a>.</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheSopranos" title="/pmwiki/pmwiki.php/Series/TheSopranos">The Sopranos</a></em>, Meadow is playing with Jackie Jr. He complains that she's not allowed to play "Spanish words". The word Meadow played was "oblique", which he pronounces "ob-lik-ay".</li><li> In her memoir <em>Bossy Pants</em>, <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/TinaFey" title="/pmwiki/pmwiki.php/Creator/TinaFey">Tina Fey</a> says that her "proudest moment as a child" was beating her uncle at <em>Scrabble</em> with the word "farting".</li><li> Done in <a class="urllink" href="http://xkcd.com/492">this<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/Xkcd" title="/pmwiki/pmwiki.php/Webcomic/Xkcd">xkcd</a></em> comic, which suggests use of the word "CLITORIS" without spelling it, of course.</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheSimpsons" title="/pmwiki/pmwiki.php/WesternAnimation/TheSimpsons">The Simpsons</a></em>, Bart spells out "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrabbleBabble" title="/pmwiki/pmwiki.php/Main/ScrabbleBabble">KWYJIBO</a>".</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/ALF" title="/pmwiki/pmwiki.php/Series/ALF">ALF</a></em>, Alf spells out "QUIDNUNC". The rest of the players challenge him but they later learn that it is an actual word (one who enjoys gossip). Alf takes this up a notch by using his extra turn to spell out "QUIDNUNCLE".</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/GoofTroop" title="/pmwiki/pmwiki.php/WesternAnimation/GoofTroop">Goof Troop</a></em> has a game where Goofy takes nearly a half an hour to take his turn, decides not to play "cat" because he <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfFunny" title="/pmwiki/pmwiki.php/Main/RuleOfFunny">doesn't have enough k's</a>, chooses to spell the word "sesquipedalian", and gets falsely accused of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrabbleBabble" title="/pmwiki/pmwiki.php/Main/ScrabbleBabble">Scrabble Babble</a> by Pete for it.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/CharliesAngels2000" title="/pmwiki/pmwiki.php/Film/CharliesAngels2000">Charlie's Angels (2000)</a></em>: Dylan and Eric Knox were playing Scrabble at one point on their evening. The next morning, Dylan spells out "ENEMY" when <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDragon" title="/pmwiki/pmwiki.php/Main/TheDragon">The Dragon</a> shows up, not knowing that Eric himself was the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>.</li><li> Steve and Alex Keaton spend a whole episode <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/FamilyTies" title="/pmwiki/pmwiki.php/Series/FamilyTies">Family Ties</a></em> playing Scrabble, as they use increasingly hilarious strategies and questionable words to try to get an advantage, such as Alex hoarding U's to prevent anyone from getting rid of a Q.</li><li> In one of the <a class="createlink" href="/pmwiki/pmwiki.php/Main/MythOMania" title="/pmwiki/pmwiki.php/Main/MythOMania">Myth O Mania</a> books, "Hit The Road, Helen", Persephone and Hades play this. The second game has Hades playing war words since this mind is worrying about the "Trojan War".</li><li> The end of the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/AgentsOfSHIELD" title="/pmwiki/pmwiki.php/Series/AgentsOfSHIELD">Agents of S.H.I.E.L.D.</a></em> episode "Repairs" has most of Coulson's team playing a game, though the only move shown is when Simmons makes the word <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatTheHeckIsAnAglet" title="/pmwiki/pmwiki.php/Main/WhatTheHeckIsAnAglet">aglet</a>.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/FiveNightsAtFreddys" title="/pmwiki/pmwiki.php/VideoGame/FiveNightsAtFreddys">Five Nights at Freddy's</a></em> <em><a class="urllink" href="https://www.youtube.com/watch?v=bBOdOf-oN20">Troll Palace<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>. The animatronics (with the exception of Foxy, apparently) just want to play a game of <em>Scrabble</em> with the security guard.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Series/Castle" title="/pmwiki/pmwiki.php/Series/Castle">Richard Castle</a>, naturally, is a master at this, and always wins every game. Until Beckett comes and utterly humilliates him.</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/CSI" title="/pmwiki/pmwiki.php/Series/CSI">CSI</a></em> episode "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleMeaningTitle" title="/pmwiki/pmwiki.php/Main/DoubleMeaningTitle">Bad Words</a>" a competitive Scrabble player is found dead with tiles in his mouth; it's discovered that he was killed after infuriating his opponent. He played a phony (EXVIN; "a wine aficionado who no longer drinks"), and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkAss" title="/pmwiki/pmwiki.php/Main/JerkAss">then challenged his opponent for pluralizing it</a>.</li><li> In the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Discworld" title="/pmwiki/pmwiki.php/Literature/Discworld">Discworld</a></em> book <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Jingo" title="/pmwiki/pmwiki.php/Literature/Jingo">Jingo</a></em>, Leonard of Quirm invents Discworld's equivalent of Scrabble, which he, of course, calls <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiverOfLameNames" title="/pmwiki/pmwiki.php/Main/GiverOfLameNames">The Make Words With Tiles That Have Been All Mixed Up Game</a>. The one game of it that is played is between him, Colon, Nobby and Vetinari. Nobby only gets three points because <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SirSwearsALot" title="/pmwiki/pmwiki.php/Main/SirSwearsALot">all the words he wants to make are rude</a> and Colon won't let him use them. Meanwhile, Vetinari manages to win by extending "avoid" into "unavoidable" and onto "this Three Times Ye Value Of Ye Whole Word square."</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/RedDwarf" title="/pmwiki/pmwiki.php/Series/RedDwarf">Red Dwarf</a></em>, Cat plays "Jozxyqk" in a game against Lister. He insists it's a cat word, defined as the sound people make when they get their sexual organs trapped in things. He's not sure if it's in the dictionary, but it would be if you were reading it in the nude and you closed the book too quickly.</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/LeCoeurASesRaisons" title="/pmwiki/pmwiki.php/Series/LeCoeurASesRaisons">Le C&#156;ur a ses Raisons</a></em> has a scene during which Criquette and Brett play Scrabble together. Not only do they use utterly obvious <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrabbleBabble" title="/pmwiki/pmwiki.php/Main/ScrabbleBabble">Scrabble Babble</a> (wqt, ffiffu, txtxtx, etc, which are suspiciously all nocturnal aquatic animals), they place the tiles anarchically over the board.</li><li> In cousin skeeter Skeeter spells out "grzplfx"</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ASeriesOfUnfortunateEvents" title="/pmwiki/pmwiki.php/Film/ASeriesOfUnfortunateEvents">Lemony Snicket's A Series of Unfortunate Events (2004)</a></em>: Near the beginning, Klaus and Violet can be seen playing it - Too bad Sonny's been gnawing on the tiles.</li><li> <a class="urllink" href="https://youtu.be/wT1fl90KQAA?t=1494">One episode<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/EightOutOfTenCats" title="/pmwiki/pmwiki.php/Series/EightOutOfTenCats">8 Out Of 10 Cats</a></em> <em>Does</em> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/Countdown" title="/pmwiki/pmwiki.php/Series/Countdown">Countdown</a></em> had a member of Dictionary Corner discuss a Scrabble variant entitled "Cult", which involved "convincing the other player" that the nonsense words as seen in a picture (in which the center star space <em>isn't even used</em>) had actual definitions and were legal to play.<span class="notelabel" onclick="togglenote('note0fbk9');"><sup>note&nbsp;</sup></span><span id="note0fbk9" class="inlinefolder" isnote="true" onclick="togglenote('note0fbk9');" style="cursor:pointer;font-size:smaller;display:none;">Three letters and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WildCard" title="/pmwiki/pmwiki.php/Main/WildCard">blank</a> sitting in a corner spelled "<a class="twikilink" href="/pmwiki/pmwiki.php/Main/GettingCrapPastTheRadar" title="/pmwiki/pmwiki.php/Main/GettingCrapPastTheRadar">CU&#9633;T</a>" as well.</span></li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/LittleBritain" title="/pmwiki/pmwiki.php/Series/LittleBritain">Little Britain</a></em>, hypnotist Kenny Craig plays Scrabble with his mother. He adds a Y to his mother's "cupboard", making the word "cupboardy", which he says means, er, cupboard-like.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ScotlandYard">Scotland Yard</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/BoardGames">Board Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SettlersOfCatan">Settlers of Catan</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/ResidentEvil2">Resident Evil 2</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/UsefulNotes/GameCom">UsefulNotes/Game.com</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Solitaire">Solitaire</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicBook/RomSpaceKnight">ROM: Spaceknight</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Hasbro">Creator/Hasbro</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WesternAnimation/StarFairies">Star Fairies</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Scythe">Scythe</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/SecretHitler">Secret Hitler</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/PurpleMoon">Purple Moon</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/Mattel">Creator/Mattel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WesternAnimation/StreetSharks">Street Sharks</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

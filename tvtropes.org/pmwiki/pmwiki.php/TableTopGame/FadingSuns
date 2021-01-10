@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Fading Suns (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Fading Suns is a role-playing game by Holistic Design, Inc., designed by Bill Bridges and Andrew Greenberg, also known for their work on The World of &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/FadingSuns" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Fading Suns (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Fading Suns is a role-playing game by Holistic Design, Inc., designed by Bill Bridges and Andrew Greenberg, also known for their work on The World of &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/fading_suns.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Fading Suns (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/FadingSuns" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/fading_suns.png" />
+<meta property="og:description" content="Fading Suns is a role-playing game by Holistic Design, Inc., designed by Bill Bridges and Andrew Greenberg, also known for their work on The World of Darkness games. It's a soft, space operatic science-fiction game notable for its unusual, well- &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/RealPersonFic" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Creator/PendletonWard" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/FadingSuns?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/FadingSuns">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.FadingSuns">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=FadingSuns&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.FadingSuns">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/FadingSuns?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="FadingSuns" />
+<input type="hidden" id="article_id" value="317584" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/FadingSuns</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Fading Suns
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Fading Suns"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/FadingSuns" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Fridge/FadingSuns" class="subpage-link " title="The Fridge page">
+<span class="wrapper"><span class="spi fridge"></span>Fridge</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/FadingSuns" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/FadingSuns?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/FadingSuns?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/FadingSuns?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Haiku/FadingSuns?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/FadingSuns?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/FadingSuns?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/FadingSuns?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/FadingSuns?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/FadingSuns?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/FadingSuns?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/FadingSuns?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/FadingSuns?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/FadingSuns?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/FadingSuns?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/FadingSuns?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/FadingSuns?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:130%"><img src="https://static.tvtropes.org/pmwiki/pub/images/fading_suns.png" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/fading_suns.png" width="350" height="455"></div></div><div class="indent"> <em>It is the dawn of the sixth millennium and the skies are darkening, for the suns themselves are fading. Humans reached the stars long ago, building a Republic of high technology and universal emancipation &#151; and then squandered it, fought over it, and finally lost it. A new Dark Age has descended on humanity, for the greatest of civilizations has fallen and even the stars die. Now, feudal lords rule the Known Worlds, vying for power with fanatic priests and scheming guilds.</em></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Fading Suns</em> is a role-playing game by Holistic Design, Inc., designed by Bill Bridges and Andrew Greenberg, also known for their work on <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness">The World of Darkness</a></em> games. It's a soft, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceOpera" title="/pmwiki/pmwiki.php/Main/SpaceOpera">space operatic</a> science-fiction game notable for its unusual, well-developed setting that is as teeming with action as it is with politics and courtly antics.</p><p>A great strength of the game is its versatility - do you like court intrigues? It's here. War stories? At least three fronts at the moment. Hard SF or space opera? We've got the ships, we've got the weapons. Guilds and fleets await. Soft SF, fantasy elements? Psionic powers, Ur ruins, Church demonology in the countryside. Lovecraftian horror? Daemons and Void Krakens. Cyberpunk? Guild affairs at the lowest levels of megacities. Dungeon crawl? Ur ruins and forgotten Republican complexes still here. Even D&amp;D-style heroic fantasy, if you try.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>The creators' idea for a game is <em>Passion Play</em>, that is, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CentralTheme" title="/pmwiki/pmwiki.php/Main/CentralTheme">to view the adventures of the Player Characters as a saga of Mankind's redemption.</a></p><p>As of 2020, a new edition is in the works, moving the plotline by some fifteen years (about the amount of time in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLife" title="/pmwiki/pmwiki.php/Main/RealLife">Real Life</a> since the last edition) and significantly overhauling the game mechanics.</p><p></p><h2> The backstory</h2>In <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtyYearsFromNow" title="/pmwiki/pmwiki.php/Main/ExtyYearsFromNow">the near future</a>, Earth unified politically under the aegis of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">international megacorporations</a>. Corporate rule quickly turned oppressive, yet the First Republic also saw exploration and economic development in the Solar System. Then, in the 24th Century, humans discovered the Stargate, the first proof (excluding several dubious findings on Mars) of extraterrestrial civilization. What's more important, the huge artifact opened the door to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">Jumpweb</a> left by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Precursors" title="/pmwiki/pmwiki.php/Main/Precursors">the ancient race</a>, dubbed Ur or Anunnaki.<p>The corporations seized the opportunity; quickly, though, they discovered their inability to exert control over the colonists, who, one community after another, declared themselves independent from Earth. Thus the Diaspora was born. Many of these communities were led by charismatic people, often forming ruling clans. These clans, for added splendor, often traced their lineages to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyalBlood" title="/pmwiki/pmwiki.php/Main/RoyalBlood">royalty and aristocracy</a> of pre-Space Earth, becoming <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueBlood" title="/pmwiki/pmwiki.php/Main/BlueBlood">noble houses</a>.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>The discovery of alien civilisations was a blow to already weak organised religions, and various sects, Anunnaki cults and others sprang up. Among them, the most notorious (and most hunted, due to its dangerousness to corporate and social order) was the Sathra cult, popular among starship pilots. In the 28th Century, Zebulon, a Christian - either Catholic or Orthodox - priest took to the stars, hoping for some kind of sign. The illumination he found was beyond his dreams. He became the Prophet of a new, ultimate faith, preaching to humans and aliens of the Diaspora, performing miracles and gathering Apostles and followers, who after his death wrote the Omega Gospels and started the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalDragonJesus" title="/pmwiki/pmwiki.php/Main/CrystalDragonJesus">Church of Celestial Sun</a>.</p><p>In the early to mid-fourth millennium, inspired by the Church and ideas of free trade and philosophies of human rights, the people of the Diaspora united again, forming the mighty Second Republic. It was a period of unparallelled progress; people settled countless worlds, scientists were on track to prove anything was possible, illnesses and hunger belonged to legends, and medical care made even the most suicidal of extreme sports safe. But all things come to an end.</p><p>Closing to the turn of millenium, cheap robotic and alien labour left many jobless, scientific experiments began to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForScience" title="/pmwiki/pmwiki.php/Main/ForScience">turn Frankensteinian</a>, and the man-on-the-street linked the Republic with heavy taxes and political squabbles. And above all, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromBadToWorse" title="/pmwiki/pmwiki.php/Main/FromBadToWorse">stars began to fade</a>. While one by one, border worlds were leaving the republic, at its heart people turned to noble houses preaching the ideals of <em>noblesse oblige</em>. The ten most powerful of these took up arms to fight the separatists, but to save the Republic was not their intention. Finally, the Ten conquered the capital world and the Second Republic came to an end.</p><p>The first half of the fifth millenium became known as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeudalFuture" title="/pmwiki/pmwiki.php/Main/FeudalFuture">the New Dark Ages</a>. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MedievalMorons" title="/pmwiki/pmwiki.php/Main/MedievalMorons">Most people became simple peasants</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptChurch" title="/pmwiki/pmwiki.php/Main/CorruptChurch">the Church prohibited advanced technology</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AristocratsAreEvil" title="/pmwiki/pmwiki.php/Main/AristocratsAreEvil">nobles ruled from their castles</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive" title="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive">remnants of Republican know-how formed Guilds</a>. When barbarians of former separatist worlds invaded, one man - Vladimir of House Alecto - stood to fight them. He managed to unite the forces of the Known Worlds (as the core worlds of human space were now called) behind him and drove off the invaders, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HopeSpot" title="/pmwiki/pmwiki.php/Main/HopeSpot">but was assassinated</a> during his crowning by an unknown assailant (though gossip says he was killed by daemons).</p><p>Vladimir, however, did leave an apparatus of administration - and a precedent. In the 50th Century, one Imperial claim unleashed an avalanche, plunging the Known Worlds into a five-way (as five of the original Ten perished or lost their influence in the meantime) war, with the Church and Merchant League eyeing the situation in case of a possibility to establish a theocracy or another republic. Ultimately it was Alexius of House Hawkwood who managed to gather the support of the Church and League, forged an alliance with Houses al-Malik and Li Halan, defeated his opponents, and crowned himself as Emperor Alexius the First.</p><p>The new Emperor took swiftly to rebuilding the Known Worlds after the war. Instead of imposing his rule by force of his army, Alexius opted for a more charismatic and peaceful lead, by inspiring others to join him and stirring the old power structures to release the eager young. Thus he started a period of opportunity and hope - a perfect time for those who want to forge their own destiny.</p><p>... And this is when the Player Characters appear.</p><p></p><h2>Spin-offs</h2>The original RPG also spawned a few spin-off games and other media:<ul><li> <em>Noble Armada</em>, a tactical starship combat miniatures game.</li><li> <em>Emperor of the Fading Suns</em>, a turn-based computer strategy game that takes place during the Emperor wars that ended with Alexius's coronation. Perhaps less well-known that it deserved due to rushed production, it gathered a small if friendly fan community that patched up the bugs and issues, and can be found on an occasional <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Abandonware" title="/pmwiki/pmwiki.php/Main/Abandonware">Abandonware</a> site.</li><li> <em>The Sinful Stars: Tales of the Fading Suns</em>, a collection of short stories by Bill Bridges set in the <em>Fading Suns</em> universe.</li><li> There was an attempted video game that involved outfitting and flying a starship. It reached the demo stage, but apparently didn't go much further.</li></ul><p></p><hr><p>A character sheet, listing the major factions of the Known Worlds, can be found <a class="twikilink" href="/pmwiki/pmwiki.php/Characters/FadingSuns" title="/pmwiki/pmwiki.php/Characters/FadingSuns">here</a>.</p><p></p><hr><h2>This RPG provides examples of:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmazonBrigade" title="/pmwiki/pmwiki.php/Main/AmazonBrigade">Amazon Brigade</a>: The Minor House Xanthippe, a matriarchal house known for their mercenaries, and wine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ApocalypseHow" title="/pmwiki/pmwiki.php/Main/ApocalypseHow">Apocalypse How</a>: The stars themselves are getting dim (hence the title) for reasons unknown. Also, a taste of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a> since the fall of Second Republic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AristocratTeam" title="/pmwiki/pmwiki.php/Main/AristocratTeam">Aristocrat Team</a>: The tabletop game is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeudalFuture" title="/pmwiki/pmwiki.php/Main/FeudalFuture">Feudal Future</a> setting where player characters are generally assumed to be nobility, clergy (who know space magic), or part of the mercantile guilds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BettyAndVeronica" title="/pmwiki/pmwiki.php/Main/BettyAndVeronica">Betty and Veronica</a>: In older editions, the Emperor Alexius is torn between Sister Theafana al-Malik, an idealistic true believer and war hero, and Duchess Salandra Decados, who is not only a typical member of her house but actually a suggested <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackAndGrayMorality" title="/pmwiki/pmwiki.php/Main/BlackAndGrayMorality">Black-and-Gray Morality</a>: With emphasis on the gray; black morality is pretty much limited to the Antinomists, and others who are completely inimical to humanity. The Church, nobility and guilds are all gray, being both the pillars of society and full of corruption and wickedness. That said, the overall mood of the game offers a hope for improvement.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueBlood" title="/pmwiki/pmwiki.php/Main/BlueBlood">Blue Blood</a>: Both <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyalsWhoActuallyDoSomething" title="/pmwiki/pmwiki.php/Main/RoyalsWhoActuallyDoSomething">nice</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AristocratsAreEvil" title="/pmwiki/pmwiki.php/Main/AristocratsAreEvil">nasty</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BugWar" title="/pmwiki/pmwiki.php/Main/BugWar">Bug War</a>: The Symbionts. Though they're as much plants and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MixAndMatchCritters" title="/pmwiki/pmwiki.php/Main/MixAndMatchCritters">Mix-and-Match Critters</a> as they are bugs. The actual bug race, while alien and hostile, isn't really interested in waging an all-out war (not to mention they're a tribal society confined to a single planet).<ul><li> Subverted come Lifeweb, where it's revealed that <span class="spoiler" title="you can set spoilers visible by default on your profile">Symbionts are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranshumanAliens" title="/pmwiki/pmwiki.php/Main/TranshumanAliens">Transhuman Aliens</a> who actually have a complex and full society of their own, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality" title="/pmwiki/pmwiki.php/Main/BlueAndOrangeMorality">don't get why humans reject being reshaped</a>.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BurnTheWitch" title="/pmwiki/pmwiki.php/Main/BurnTheWitch">Burn the Witch!</a>: We've got the Church, we've got feudalism, so don't say you didn't see the Inquisition coming... But this time they come with their own flamethrowers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CasualInterstellarTravel" title="/pmwiki/pmwiki.php/Main/CasualInterstellarTravel">Casual Interstellar Travel</a>: In the form of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">the Stargates</a>. Though still too expensive for the planet-bound serfs who make up 80% of the population.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChurch" title="/pmwiki/pmwiki.php/Main/TheChurch">The Church</a>: Fading Suns is the kind of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeudalFuture" title="/pmwiki/pmwiki.php/Main/FeudalFuture">Feudal Future</a> which comes with Medieval-style religiosity, so a multitude of Church tropes is quite welcome. The Church divides into several sects:<ul><li> Urth Orthodoxy is your typical <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChristianityIsCatholic" title="/pmwiki/pmwiki.php/Main/ChristianityIsCatholic">Christianity Is Catholic</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InSPACE" title="/pmwiki/pmwiki.php/Main/InSPACE">IN SPACE!</a>, forming most of the Church hierarchy in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SaintlyChurch" title="/pmwiki/pmwiki.php/Main/SaintlyChurch">both</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptChurch" title="/pmwiki/pmwiki.php/Main/CorruptChurch">forms</a> and supplying <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SinisterMinister" title="/pmwiki/pmwiki.php/Main/SinisterMinister">Sinister Ministers</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodShepherd" title="/pmwiki/pmwiki.php/Main/GoodShepherd">Good Shepherds</a> to the masses internally and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMissionary" title="/pmwiki/pmwiki.php/Main/TheMissionary">abroad</a>;</li><li> The Brothers Battle are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorMonk" title="/pmwiki/pmwiki.php/Main/WarriorMonk">Warrior Monk</a> future incarnate of <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheKnightsTemplar" title="/pmwiki/pmwiki.php/UsefulNotes/TheKnightsTemplar">The Knights Templar</a>, down to the banking and rumours of heresy;</li><li> Eskatonics are an eccentric bunch of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionIsMagic" title="/pmwiki/pmwiki.php/Main/ReligionIsMagic">mystics and wizards</a>, known among the common folk as weird <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Doomsayer" title="/pmwiki/pmwiki.php/Main/Doomsayer">doomsayers</a>, and in Church circles, as having an irritating tendency to delve into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHeretic" title="/pmwiki/pmwiki.php/Main/TheHeretic">heterodox views</a>;</li><li> The Avestites are a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFundamentalist" title="/pmwiki/pmwiki.php/Main/TheFundamentalist">rather fanatical sect</a> which treats the concept of "burning away sins" quite <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">literally</a></em>. And <em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhenAllYouHaveIsAHammer" title="/pmwiki/pmwiki.php/Main/WhenAllYouHaveIsAHammer">liberally</a></em>, too;</li><li> The Amaltheans are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MartialPacifist" title="/pmwiki/pmwiki.php/Main/MartialPacifist">Martial Pacifists</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodShepherd" title="/pmwiki/pmwiki.php/Main/GoodShepherd">Good Shepherds</a> to the last one, bringing <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMedic" title="/pmwiki/pmwiki.php/Main/TheMedic">free healthcare</a> to the masses. Well, as long as you don't mind the preaching and occasional penances.</li><li> When something still doesn't fit, you may be looking at one of the minor monastic communities, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHeretic" title="/pmwiki/pmwiki.php/Main/TheHeretic">heretics</a>, or various pagan faiths.</li><li> In keeping with the late-Medieval setting, there is also a schismatic sect of Space Protestants, the Incarnates, who encourage "heretical" views such as the idea that everyone shares a spark of the Pancreator's Holy Flame (rather than merely reflecting its light) and that laity should engage in personal study of the Omega Gospels, rather than merely being taught by the priests.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChurchMilitant" title="/pmwiki/pmwiki.php/Main/ChurchMilitant">Church Militant</a>: The Church has its own army, plus the Inquisition, plus the ability to quickly whip up a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TorchesAndPitchforks" title="/pmwiki/pmwiki.php/Main/TorchesAndPitchforks">Torches and Pitchforks</a>-wielding angry mob.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw" title="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw">Clarke's Third Law</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">Invoked</a> in a description of Really High Tech. The difference between science and supernaturalism goes completely out the window when dealing with jumpgates, Philosopher's Stones and other Ur-tech.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive" title="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive">Corrupt Corporate Executive</a>: A bad image is more common with the freemen than with the two other classes; the Guildsmen are perceived as motivated by greed, while the others have their fig leaves of piety or honor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a>: Subverted with the Sathra effect, the epiphany-like experience that unshielded minds exposed to hyperspace feel &mdash; it's addictive, it provokes the development of psionics, and it tends to turn people into peaceable folks who just want the best for the universe, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes" title="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes">though you really shouldn't push them</a>. Really, a Sathraist that's a danger is just a bad person, not corrupted by exposure to infinity. They will try and trick people they like into being exposed as a form of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EasyEvangelism" title="/pmwiki/pmwiki.php/Main/EasyEvangelism">Easy Evangelism</a> however.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrystalDragonJesus" title="/pmwiki/pmwiki.php/Main/CrystalDragonJesus">Crystal Dragon Jesus</a>: The Church of the Celestial Sun, though it is better described as an evolved and amalgamated form of organised religions of today... It even has Jesus as a saint.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CultureChopSuey" title="/pmwiki/pmwiki.php/Main/CultureChopSuey">Culture Chop Suey</a>: The original intention was to create noble families that might have <em>once</em> been Russian (Decados) or Hispanic (Hazat) etc, but four of the five Royal Houses are <em>at least</em> 2,500 years old. The youngest are The Hazat (never House Hazat), who have a mere 1,000 years under their belt. This results in the Li Halan being about as 'Chinese &amp; Japanese' as British people are Roman. Since around the 26th Century the number of noble Houses declined from over 70 to around 15, usually due to their absorption by larger Houses (or their conquest, then absorption). The Royal Houses in the 51st Century are a patchwork of ethnicities, usually only linked by the House name. Even the name 'Li Halan' suggests a fusion of separate ethnicities (Oriental with Caucasian) over two and a half millennia prior. Much of the same principle works for non-nobles, too.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">Cybernetics Eat Your Soul</a>: This is the official stance of the Church. It isn't generally accurate, but cyberpsychosis does indeed occasionally occur.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCycleOfEmpires" title="/pmwiki/pmwiki.php/Main/TheCycleOfEmpires">The Cycle of Empires</a>: Two corporatocratic Republics have fallen, a feudal empire is rising from the long night.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkSide" title="/pmwiki/pmwiki.php/Main/TheDarkSide">The Dark Side</a>: Psis and theurges who don't adhere to proper codes of conduct suffer from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCorruption" title="/pmwiki/pmwiki.php/Main/TheCorruption">The Corruption</a>; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyWithin" title="/pmwiki/pmwiki.php/Main/EnemyWithin">Urge</a> for psis and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Pride" title="/pmwiki/pmwiki.php/Main/Pride">Hubris</a> for theurges. This is played with, however, as both Urge and Hubris are judged by relativistic standards rather than absolute morality. Urge is caused by violating the norms of your society, and Hubris is caused by violating the beliefs of your religious sect, irrespective of whether a factual sin (which do exist, and can be measured) was committed.<ul><li> Also Antinomy, the dark magic of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLegionsOfHell" title="/pmwiki/pmwiki.php/Main/TheLegionsOfHell">demonic</a> magic and pacting. There's a lot of really, really powerful crap they're capable of, but it also comes with Fealty, a measure of how much you owe to your demonic patrons. Taking it down requires acting against the Universal Church, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheDog" title="/pmwiki/pmwiki.php/Main/KickTheDog">Kick the Dog</a> acts or exposure to Ur-tech, and the more you have, you become more obvious and slowly lose your ability to control your own actions as you become an avatar of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Hell" title="/pmwiki/pmwiki.php/Main/Hell">the Qlippoth</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyDecadentCourt" title="/pmwiki/pmwiki.php/Main/DeadlyDecadentCourt">Deadly Decadent Court</a>: In particular, House Decados has scheming as favorite pastime, also obviously the Imperial Court.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeflectorShields" title="/pmwiki/pmwiki.php/Main/DeflectorShields">Deflector Shields</a>: Somewhat Dune-like. You can slip your blade "under" the activating force threshold (as in Dune), or try to overwhelm it with raw strength. One notable difference from Dune is that energy weapons won't cause any <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MutualKill" title="/pmwiki/pmwiki.php/Main/MutualKill">mutually destructive</a> reactions with shields, though plasma and fire damage has a small chance of leaking through a shield.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a>: The Void Krakens, natch. They dwell in the darkness between stars, making <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace" title="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace">hyperspace the less scary (and lethal) alternative to interstellar travel</a> in the setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpire" title="/pmwiki/pmwiki.php/Main/TheEmpire">The Empire</a>: Of the rather benevolent kind. Resembles something not unlike the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/HolyRomanEmpire" title="/pmwiki/pmwiki.php/UsefulNotes/HolyRomanEmpire">Holy Roman Empire</a>, if the latter ever achieved a well-bearing for the future degree of unification.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmperor" title="/pmwiki/pmwiki.php/Main/TheEmperor">The Emperor</a> is (or, at worst, is very convincing as) a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGoodKing" title="/pmwiki/pmwiki.php/Main/TheGoodKing">noble, square-jawed guy who does a lot pretty much to restore hope, ensure peace and stability et cetera</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture" title="/pmwiki/pmwiki.php/Main/FantasyCounterpartCulture">Fantasy Counterpart Culture</a>: Although it's more nuanced than it might seem at first glance (see under <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CultureChopSuey" title="/pmwiki/pmwiki.php/Main/CultureChopSuey">Culture Chop Suey</a> for a more verbose explanation), each of the noble houses is generally patterned after a recognizable pre-Diasporan culture, and has a certain feel:<ul><li> House Hawkwood are Anglo-Germanic/Scandinavian/Celtic, with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Eagleland" title="/pmwiki/pmwiki.php/Main/Eagleland">an upbeat</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAce" title="/pmwiki/pmwiki.php/Main/TheAce">anything-you-do-a-Hawkwood-can-do-better</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ComesGreatResponsibility" title="/pmwiki/pmwiki.php/Main/ComesGreatResponsibility">noblesse oblige</a> attitude (in short, <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Dune" title="/pmwiki/pmwiki.php/Franchise/Dune">Atreides</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>);</li><li> Hazat are Hispanic with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TorosYFlamenco" title="/pmwiki/pmwiki.php/Main/TorosYFlamenco">roots in our Latin America</a> with appropriate <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HotBlooded" title="/pmwiki/pmwiki.php/Main/HotBlooded">machoistic</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HonorBeforeReason" title="/pmwiki/pmwiki.php/Main/HonorBeforeReason">honour-obsessed</a> culture;</li><li> Decados are <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TsaristRussia" title="/pmwiki/pmwiki.php/UsefulNotes/TsaristRussia">Russians</a> with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CardCarryingVillain" title="/pmwiki/pmwiki.php/Main/CardCarryingVillain">a backstabby mentality</a> quite out of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChronicBackstabbingDisorder" title="/pmwiki/pmwiki.php/Main/ChronicBackstabbingDisorder">Renaissance Italy</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilFeelsGood" title="/pmwiki/pmwiki.php/Main/EvilFeelsGood">and they like it</a> (the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Dune" title="/pmwiki/pmwiki.php/Franchise/Dune">House Harkonnen</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>);</li><li> Li Halan is a mix of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FarEast" title="/pmwiki/pmwiki.php/Main/FarEast">Chinese and Japanese</a> with an added twist of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HolierThanThou" title="/pmwiki/pmwiki.php/Main/HolierThanThou">being fervently religious</a> after a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefectorFromDecadence" title="/pmwiki/pmwiki.php/Main/DefectorFromDecadence">great reformer</a> turned them from their <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionOfEvil" title="/pmwiki/pmwiki.php/Main/ReligionOfEvil">sorcerous and pagan</a> ways;</li><li> Al-Malik are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArabianNightsDays" title="/pmwiki/pmwiki.php/Main/ArabianNightsDays">sophisticated Arabic/Semitic types</a> with occasional dashes of Hindu, who are fond of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WarriorPoet" title="/pmwiki/pmwiki.php/Main/WarriorPoet">philosophy</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BazaarOfTheBizarre" title="/pmwiki/pmwiki.php/Main/BazaarOfTheBizarre">trade</a> and speaking in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IceCreamKoan" title="/pmwiki/pmwiki.php/Main/IceCreamKoan">Ice Cream Koans</a> (also <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BourgeoisBohemian" title="/pmwiki/pmwiki.php/Main/BourgeoisBohemian">limousine liberal</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceJews" title="/pmwiki/pmwiki.php/Main/SpaceJews">Space Jews</a>);</li><li> Apart from the minor houses (of whom some have a distinct cultural feel, while others are too insignificant) there are also Vuldroks (the Space Vikings), Kurgans (the Space Caliphate, another kind of Space Arabs mixed with Mongol elements), and Zuranists (a kind of Space Gypsies and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceJews" title="/pmwiki/pmwiki.php/Main/SpaceJews">Space Jews</a> mix). Alien races are usually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceElves" title="/pmwiki/pmwiki.php/Main/SpaceElves">Space Elves</a> and/or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NobleSavage" title="/pmwiki/pmwiki.php/Main/NobleSavage">Noble Savages</a>, with the stagnant and bureaucratic but highly advanced Vau resembling Imperial China to an extent.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFederation" title="/pmwiki/pmwiki.php/Main/TheFederation">The Federation</a>: The old (Second, the First barely existed except as an instrument of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a> influence) Republic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FeudalFuture" title="/pmwiki/pmwiki.php/Main/FeudalFuture">Feudal Future</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FoxFolk" title="/pmwiki/pmwiki.php/Main/FoxFolk">Fox Folk</a>: Vulpanthropes, a species created as shock troops by a noble with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad Scientist</a> leanings from human and fox DNA. They proved more prolific than expected and have come to plague isolated human settlements on many planets.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation" title="/pmwiki/pmwiki.php/Main/GameplayAndStorySegregation">Gameplay and Story Segregation</a>: In <em>Emperor of the Fading Suns</em> the Vau don't get a turn because they are non-expansionist, which makes their worlds easy to conquer. First contact was the annihilation of a human colony that had just started to encroach on one of the Vau's client races.<ul><li> Interestingly, it's implied in <em>War in the Heavens: Hegemony</em> that the worlds in question did "change hands" a few times, but Humanity remained in its designated areas out of fear for provoking a war with the Vau. The Vau, for their part, see no reason to raise a fuss if it doesn't bother the Hegemony's citizens and patron races.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GrimUpNorth" title="/pmwiki/pmwiki.php/Main/GrimUpNorth">Grim Up North</a>: Well, is there any other reason for the Vuldrok planets to be placed "above" the Empire on the star chart? Funnily enough, Vuldrok culture was engineered during the fall of the Second Republic, so it might have even been <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">invoked</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a>: Symbionts have one. <span class="spoiler" title="you can set spoilers visible by default on your profile">As well as their own individual minds, unless the Symbiont in question is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mook" title="/pmwiki/pmwiki.php/Main/Mook">drone</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveQueen" title="/pmwiki/pmwiki.php/Main/HiveQueen">Hive Queen</a>: Shapers, Symbionts who have mastered their race's ability to resculpt other lifeforms, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVirus" title="/pmwiki/pmwiki.php/Main/TheVirus">often into new Symbionts</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile">They are also needed for reproduction, as the child of a Symbiont is a normal human who isn't a part of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiveMind" title="/pmwiki/pmwiki.php/Main/HiveMind">Hive Mind</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumansAreTheRealMonsters" title="/pmwiki/pmwiki.php/Main/HumansAreTheRealMonsters">Humans Are the Real Monsters</a>: There are many alien races, but usually restricted to reserves. Guess why. On the other hand, at least one alien race, the Ukar, could have been <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AliensAreBastards" title="/pmwiki/pmwiki.php/Main/AliensAreBastards">just as nice</a> if they won.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace" title="/pmwiki/pmwiki.php/Main/HyperspaceIsAScaryPlace">Hyperspace Is a Scary Place</a>: An inversion: hyperspace (what is between the Stargates) actually is the <em>safe</em> way. It's the interstellar space (beyond Kuiper's Belt) which is filled with shapeless Cthulhoid monstrosities going by the lovely name of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Void</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean" title="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean">Kraken</a>. Still, spaceships jumping through hyperspace need to be protected by special shields, because otherwise people experience a strongly addictive quasi-religious epiphany, known as the Sathra effect.<ul><li> Unfortunately played very literally by most, including characters within the setting - going all the way down to: 'This is the lovely, Pancreator-blessed space all the way up to the Jumpgate, and that is the nasty, demon filled space starting just behind it.' Some systems have Pluto-style planets with orbits that oscillate beyond that of the Jumpgate, which is apparently enough to make them demon-haunted places that people seldom return from.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImportedAlienPhlebotinum" title="/pmwiki/pmwiki.php/Main/ImportedAlienPhlebotinum">Imported Alien Phlebotinum</a>: The Jumpgates, not to mention how a lot of crucial technologies (anti-gravity, for example) are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackBox" title="/pmwiki/pmwiki.php/Main/BlackBox">reverse-engineered</a> versions of Vau tech.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InsaneTrollLogic" title="/pmwiki/pmwiki.php/Main/InsaneTrollLogic">Insane Troll Logic</a>: At one trial for an accused murderer, the prosecutor managed to take <em>every piece of evidence</em> that the accused was in fact innocent and explain it as proof of the defendant's infernal powers. The murder victim was shot with a six-shot revolver that the accused had never seen before, the <em>seven</em> shots that had been fired into the victim were of different types shot from different directions, and the accused's family had sworn that he was eating dinner with them when the murder happened. Clearly, therefore, demons had given him the power to be in two places at once, multiply and teleport bullets, and use a firearm, only to withdraw all that power once the deed had been done.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterfaithSmoothie" title="/pmwiki/pmwiki.php/Main/InterfaithSmoothie">Interfaith Smoothie</a>: The Church has a general <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChristianityIsCatholic" title="/pmwiki/pmwiki.php/Main/ChristianityIsCatholic">Christianity Is Catholic</a> feel on the surface, but was <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Islam" title="/pmwiki/pmwiki.php/UsefulNotes/Islam">set up by a prophet</a>, the biggest sect is called <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/OrthodoxChristianity" title="/pmwiki/pmwiki.php/UsefulNotes/OrthodoxChristianity">the Orthodoxy</a>, the main philosophical factions are called <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Buddhism" title="/pmwiki/pmwiki.php/UsefulNotes/Buddhism">the Hinayana and the Mahayana</a>, and there are plenty of minor sects and factions that are all over the place.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingLieDetector" title="/pmwiki/pmwiki.php/Main/LivingLieDetector">Living Lie Detector</a>: Verigrims, a variety of mastiff that was probably genetically engineered to sniff out biochemical indicators of lying, though the Church has an alternate story to justify their use by Inquisitors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LostTechnology" title="/pmwiki/pmwiki.php/Main/LostTechnology">Lost Technology</a>: Plenty of this, due to the fall of the Republic. There is a major guild making quite a profit by digging it up. The Ur artifacts may also count (particularly to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FishPeople" title="/pmwiki/pmwiki.php/Main/FishPeople">Oro'ym</a> who appear to have been once a star-faring species), but given <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw" title="/pmwiki/pmwiki.php/Main/ClarkesThirdLaw">how they work</a>, it's probably closer to Lost Magical Artifacts than to Lost Technology.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicOrPsychic" title="/pmwiki/pmwiki.php/Main/MagicOrPsychic">Magic or Psychic?</a>: <em>Fading Suns</em> has both Psychics and Theurgists. Theurgists are priests of the Urth Orthodox Church who believe that they're channeling the divine power of the Pancreator, while Psychics are considered witches by the Church and forced to serve "penance" if not burned at the stake. Though it's not clear where either gets their power.<ul><li> It's also notable that Gjarti, an animistic religion common to "barbarians", also has priests with theurgic abilities.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>: The Guilds (at least the biggest ones) are descendants of such and may share some traits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MedievalStasis" title="/pmwiki/pmwiki.php/Main/MedievalStasis">Neo-Medieval Stasis</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedTrope" title="/pmwiki/pmwiki.php/Main/JustifiedTrope">Justified</a> by the Church declaring <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceIsBad" title="/pmwiki/pmwiki.php/Main/ScienceIsBad">tech evil</a> for everyone except the rich, the noble and the ordained, and everyone else being in a state of shock after the fall of the Republic. The game is set in a period when the stasis is ending.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MohsScaleOfSciFiHardness" title="/pmwiki/pmwiki.php/Main/MohsScaleOfSciFiHardness">Mohs Scale of Sci-Fi Hardness</a>: The system tries to act tough once in a while, but is a big softie.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NiceToTheWaiter" title="/pmwiki/pmwiki.php/Main/NiceToTheWaiter">Nice to the Waiter</a>: Most of the Noble Houses hold some form of this as an ideal, but what that means varies between Houses and individuals within the House.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed" title="/pmwiki/pmwiki.php/Main/NoTranshumanismAllowed">No Transhumanism Allowed</a>: Played in many ways. In general, played straight. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">Subverted</a> by the not so uncommon use of cybernetics. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnforcedTrope" title="/pmwiki/pmwiki.php/Main/EnforcedTrope">Enforced</a> by the Church. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DefiedTrope" title="/pmwiki/pmwiki.php/Main/DefiedTrope">Defied</a> by the cyberevolutionary movement.<ul><li> The Second Republic performed several experiments with genetic engineering, and their descendants are generally considered abominations by the Church (except the Amaltheans).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OrderReborn" title="/pmwiki/pmwiki.php/Main/OrderReborn">Order Reborn</a>: The Favyana are a tradition descended from the Phavian Institute of the Second Republic and dedicated to much the same ideals, but the original Institute had disintegrated centuries before the modern group was established. Most people in the know think that the link between the modern group and the Institute is tenuous at best, and the Favyana are just claiming a model and a legacy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">Our Demons Are Different</a>: They're inspired by the Kabbalah Qlippoth, for one, and they need to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">possess</a> people in order to remain in this universe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent">Our Elves Are Different</a>: Ur-Obun and ur-Ukar are pretty much space elves and space dark elves.<ul><li> It's actually far closer to the Vulcan/Romulan relationship than simply something in space.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Pacifist" title="/pmwiki/pmwiki.php/Main/Pacifist">Pacifist</a>: The vast majority of Amaltheans follow the old rule of pacifism, despite one Dark Ages Archbishop who abolished it as a rule. What form this pacifism takes depends on the Amalthean; some are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActualPacifist" title="/pmwiki/pmwiki.php/Main/ActualPacifist">Actual Pacifists</a> who would never raise a weapon in their own defense, while others are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MartialPacifist" title="/pmwiki/pmwiki.php/Main/MartialPacifist">as willing to defend the weak as to heal them</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PointBuildSystem" title="/pmwiki/pmwiki.php/Main/PointBuildSystem">Point Build System</a>: Yay for making your character miss a leg to get that lovely monofilament sword. A d20 version also exists, but the players tend to be... more enthusiastic for the original VPS system.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoopingFood" title="/pmwiki/pmwiki.php/Main/PoopingFood">Pooping Food</a>: An alien creature called the "Scrup monkey" produces feces that are edible to humans. House Decados often bakes it into "fudge" as one of their least harmful practical jokes.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalNetwork" title="/pmwiki/pmwiki.php/Main/PortalNetwork">Portal Network</a>: Stargates again.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Precursors" title="/pmwiki/pmwiki.php/Main/Precursors">Precursors</a>: And occasional <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncientAstronauts" title="/pmwiki/pmwiki.php/Main/AncientAstronauts">Ancient Astronauts</a>, responsible for the Jumpgate network.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>: There are two kinds of it: one is <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionIsMagic" title="/pmwiki/pmwiki.php/Main/ReligionIsMagic">ritualistic religious magic</a>, the other is your common choking people <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarWars" title="/pmwiki/pmwiki.php/Franchise/StarWars">Vader-style</a> or reading minds.<ul><li> It is heavily hinted that Theurgy (religious 'magic') and Psychic powers are simply two different applications of the same thing. Both are invoked using the same 'inner battery' and have incremental level-based powers. Even the Vuldrok and Kurgan versions are simply applications of awoken human abilities applied in different ways.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoactivePowers" title="/pmwiki/pmwiki.php/Main/PsychoactivePowers">Psychoactive Powers</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration" title="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration">In terms of game mechanics</a>, activating psychic powers needs a test of an appropriate Spirit characteristic plus appropriate skill. In-game, it means an introvert, calm person won't go <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShockAndAwe" title="/pmwiki/pmwiki.php/Main/ShockAndAwe">Shock and Awe</a> unless he can make up for the lack of spirit with proper training, while <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychoElectro" title="/pmwiki/pmwiki.php/Main/PsychoElectro">a passionate extrovert</a> will have it come naturally.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SaintlyChurch" title="/pmwiki/pmwiki.php/Main/SaintlyChurch">Saintly Church</a>: While most sects of the Church are much less black-and-white, Sanctuary Aeon is consistently portrayed as a beacon of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MartialPacifist" title="/pmwiki/pmwiki.php/Main/MartialPacifist">pacifism</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMedic" title="/pmwiki/pmwiki.php/Main/TheMedic">healing</a>, and innovation founded by an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllLovingHeroine" title="/pmwiki/pmwiki.php/Main/AllLovingHeroine">All-Loving Heroine</a>, and generally represents the best of the Church.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens" title="/pmwiki/pmwiki.php/Main/ScaryDogmaticAliens">Scary Dogmatic Aliens</a>: The Vau. Guys who could smash humanity with marginally more effort than is needed to swat a fly, but don't feel like it, because their dogmatism is all about strict isolationism and rigid social order. So, pretty much <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InscrutableOriental" title="/pmwiki/pmwiki.php/Main/InscrutableOriental">Inscrutable Oriental</a> In Space. Their ruling caste is even nicknamed the Mandarins.<ul><li> Lifeweb reveals that <span class="spoiler" title="you can set spoilers visible by default on your profile">Symbionts were once Scary Dogmatic <em>Humans</em>, though they've transformed a lot of the flora and fauna of their worlds into sapient Symbionts too.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceFantasy" title="/pmwiki/pmwiki.php/Main/ScienceFantasy">Science Fantasy</a>: In general, the vast majority of the game is theoretically sci-fi, but it's portrayed with fantasy trappings. Psis aren't just trained minds, they're sorcerers; the family's ancestral sword is a wireblade; cyborgs have replaced part of their body with occult magic, and the sacred jumpgates represent the light of the Pancreator. Then you get into theurgy, Antinomy and other occult factors that are straight-up magic... but even then, there's some hints that they're just another expression of humanity's potential. In short, Fading Suns is as fantasy as you want it to be.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceIsBad" title="/pmwiki/pmwiki.php/Main/ScienceIsBad">Science Is Bad</a>: A part of the Church's teachings. Of course, important people exercise "extreme penance" and can thus operate high technology so that the lesser folk "don't have" to "endanger" their souls. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">It's also largely an understandable mistake on the Church's part</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections" title="/pmwiki/pmwiki.php/Main/ScrewTheRulesIHaveConnections">Screw the Rules, I Have Connections!</a>:<ul><li> The most blatant example is the concept of "extreme penance." Clergy, nobles, and guildsmen are exempt from the Church's rules forbidding technology; it's just the serfs who need to live in the Middle Ages, because the elite take on the damnation caused by technology so they don't have to.</li><li> The Church tries to ban psychic powers from everyone except Penitents, but the nobility's response to that rule has been a giant middle finger. Each House has a sect of Dervishes, or psychic warriors, in their services; the Hazat Dervishes are the most famous and numerous, and the ones who give the name to the entire concept. The Church wisely doesn't press the issue.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVersusCynicism" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVersusCynicism">Sliding Scale of Idealism vs. Cynicism</a>: The book's section on Passion Play Roleplaying provides rules for setting the tone wherever the GM likes, including games where the Triumph of Good or the Triumph of Evil is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouCantFightFate" title="/pmwiki/pmwiki.php/Main/YouCantFightFate">foreordained theme</a> of the game. In general, the work itself leans toward <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AWorldHalfFull" title="/pmwiki/pmwiki.php/Main/AWorldHalfFull">A World Half Full</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SoulsavingCrusader" title="/pmwiki/pmwiki.php/Main/SoulsavingCrusader">Soulsaving Crusader</a>: Played straight sometimes, subverted at other times. The "extreme penance" required of psychics <em>does</em> work and <em>is</em> helpful to reduce <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDarkSide" title="/pmwiki/pmwiki.php/Main/TheDarkSide">Urge</a>, and some psychics and theurges can literally see people's sins and know the means to correct them. On the other hand, the Church doesn't always get it right; for example, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/God" title="/pmwiki/pmwiki.php/Main/God">Pancreator</a> does <em>not</em> agree that Invention is a sin, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">Cybernetics Eat Your Soul</a> is more or less incorrect.<ul><li> That is of course assuming the Pancreator is as humans believe 'him' to be. The religious angle is a very subtle dig at how mythologies erupt around people.</li><li> The Church's reasoning is beginning to fall apart because they preached that the Fading Suns (which began a thousand years earlier, but had happened in earlier times) were being caused by humanity's technological hubris (that science and technology were the source of the sin that was letting the demons fade the suns). Unfortunately a <em>thousand</em> years of penance has resulted in exactly nothing changing.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean" title="/pmwiki/pmwiki.php/Main/SpaceIsAnOcean">Space Is an Ocean</a>: The starships are very expensive to produce and repair so it's in nobody's interest to blow them to smithereens during battle: this means that after a few shots to disable the enemy's main weapons, the ship is boarded by marines who, using bladed weapons, make their way to the bridge (get the Charioteer) and the drive section (get the Engineer) and generally try to take over the ship with as minimal damage to the ship as possible. Also, the weapons are very short range (for distances in space) and thus any exchange of fire happens at distances of kilometers or less. According to <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a>, Fading Suns spacefaring is supposed to emulate the age of sail.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpaceOpera" title="/pmwiki/pmwiki.php/Main/SpaceOpera">Space Opera</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpiritualSuccessor" title="/pmwiki/pmwiki.php/Main/SpiritualSuccessor">Spiritual Successor</a>: The developers named <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Dune" title="/pmwiki/pmwiki.php/Literature/Dune">Dune</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheBookOfTheNewSun" title="/pmwiki/pmwiki.php/Literature/TheBookOfTheNewSun">The Book of the New Sun</a></em> as inspirations for the setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStarsAreGoingOut" title="/pmwiki/pmwiki.php/Main/TheStarsAreGoingOut">The Stars Are Going Out</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">As in the title</a>, for reasons unknown. <span class="spoiler" title="you can set spoilers visible by default on your profile">According to one legend that may or may not be true, inverted. A star supposedly blazed to new life at the moment Alexius Hawkwood took the throne.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwordFight" title="/pmwiki/pmwiki.php/Main/SwordFight">Sword Fight</a>: The nobility likes to solve their issues by duelling, thus sword fights abound.<ul><li> Most of the nobility does that with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RoyalRapier" title="/pmwiki/pmwiki.php/Main/RoyalRapier">rapiers</a>. House Hazat prefers larger, heavier swords, which could be read as anything from a longsword to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BFS" title="/pmwiki/pmwiki.php/Main/BFS">a two-handed claymore</a>. The more rustic among Hawkwood can sometimes be seen with swords and shields.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VibroWeapon" title="/pmwiki/pmwiki.php/Main/VibroWeapon">Vibro Weapons</a> penetrate energy shields more easily than normal blades.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RazorFloss" title="/pmwiki/pmwiki.php/Main/RazorFloss">Razor Floss</a>: swords <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharpenedToASingleAtom" title="/pmwiki/pmwiki.php/Main/SharpenedToASingleAtom">of monofilament</a> (wireblades) are often prized <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncestralWeapon" title="/pmwiki/pmwiki.php/Main/AncestralWeapon">Ancestral Weapons</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LaserBlade" title="/pmwiki/pmwiki.php/Main/LaserBlade">Laser Blade</a>: Flux Swords and Mist Swords.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UsedFuture" title="/pmwiki/pmwiki.php/Main/UsedFuture">Used Future</a>: The areas with higher tech levels tend to be full of slums, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackAlleyDoctor" title="/pmwiki/pmwiki.php/Main/BackAlleyDoctor">Back Alley Doctors</a> offering used cybernetics, rust and dirt, while the high-tech stuff itself (like starships) tends to be centuries old and dilapidated.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VowOfCelibacy" title="/pmwiki/pmwiki.php/Main/VowOfCelibacy">Vow of Celibacy</a>: The Church's rules on celibacy depend on sect and discipline. The Urth Orthodoxy, for example, has one discipline (red priests) who are celibate and ascetic, and another (white priests) who aren't; most parish priests, for example, are married. Avestites are strictly celibate and expected to flagellate themselves over the slightest sexual feeling. The Eskatonic Order, by contrast, mandates celibacy but says nothing about <em>chastity</em>, and many Eskatonics <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReallyGetsAround" title="/pmwiki/pmwiki.php/Main/ReallyGetsAround">really get around</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a>: All over the place, but the prize goes to <span class="spoiler" title="you can set spoilers visible by default on your profile">the entire Symbiont species, who were originally a group of radical environmentalists reshaped by a bizarre species of bug that lives in Annunaki ruins. Their ideology has not changed much at all, and in fact they consider themselves the best hope for humanity surviving in any form.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeirdTradeUnion" title="/pmwiki/pmwiki.php/Main/WeirdTradeUnion">Weird Trade Union</a>: The Guilds, formed by skilled labor and remnants of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega Corps</a> during and after the fall of the Republic for protection both personal and of their interests. The great five are:<ul><li> The Charioteers are a coalition of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DangerDeadpan" title="/pmwiki/pmwiki.php/Main/DangerDeadpan">space pilots</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IntrepidMerchant" title="/pmwiki/pmwiki.php/Main/IntrepidMerchant">interstellar traders</a>, holding a monopoly on jumpkey production, a device necessary to open a jumpgate;</li><li> The Engineers are (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">obviously</a>) <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEngineer" title="/pmwiki/pmwiki.php/Main/TheEngineer">The Engineers</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Science Inc.</a>, but rather than your typical Scotty, they're an eccentric and secretive bunch probably closer to a Masonic lodge than anything;</li><li> The Muster are officially a job intermediary agency (arguably closest to an actual trade union), offering skilled and unskilled workforce in general but known foremostly as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors" title="/pmwiki/pmwiki.php/Main/PrivateMilitaryContractors">Private Military Contractors</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanResources" title="/pmwiki/pmwiki.php/Main/HumanResources">slavers</a>;</li><li> The Reeves are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmoralAttorney" title="/pmwiki/pmwiki.php/Main/AmoralAttorney">attorneys</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MorallyBankruptBanker" title="/pmwiki/pmwiki.php/Main/MorallyBankruptBanker">bankers</a>, as respected for their skills and coffers as they are derided for duplicity and greed (although they prefer to wring favours out of their debtors rather than going all-out <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoanShark" title="/pmwiki/pmwiki.php/Main/LoanShark">Loan Shark</a> on them);</li><li> The Scravers are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSyndicate" title="/pmwiki/pmwiki.php/Main/TheSyndicate">The Syndicate</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledInSPACE" title="/pmwiki/pmwiki.php/Main/RecycledInSPACE">IN SPACE!!!</a>, with their hands in about anything they can get into without stepping on other factions' toes, a knack for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdventurerArchaeologist" title="/pmwiki/pmwiki.php/Main/AdventurerArchaeologist">digging up lost tech</a> being among their more legal enterprises.</li><li> And it gets even better with the minor guilds. Some of them are tied to a single location, while others offer highly specialized and unusual skills, ranging from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsteroidMiners" title="/pmwiki/pmwiki.php/Main/AsteroidMiners">Asteroid Miners</a> to professional ghost writers.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeWillUseManualLaborInTheFuture" title="/pmwiki/pmwiki.php/Main/WeWillUseManualLaborInTheFuture">We Will Use Manual Labor in the Future</a>: Played straight in the New Dark Ages, notably averted (unfortunately, for millions of jobless people) in the Second Republic era.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatMeasureIsANonHuman" title="/pmwiki/pmwiki.php/Main/WhatMeasureIsANonHuman">What Measure Is a Non-Human?</a>: Everyone is a racist, which is particularly seen given the difference between al-Malik talk about freedom and equality and their treatment of their vassal alien races.<ul><li> This is almost entirely the fault of the Church and something called the Doctrine of the Unethical Alien. Despite the fact that there is a minor sect of the Church that was founded by the Prophet's one alien disciple, the Pancreator apparently values human souls that bit more.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldHalfFull" title="/pmwiki/pmwiki.php/Main/WorldHalfFull">World Half Full</a>: It's full of exploitation, prejudice, dirt and decay and yet on the other hand firmly on the idealist side of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVersusCynicism" title="/pmwiki/pmwiki.php/Main/SlidingScaleOfIdealismVersusCynicism">Sliding Scale of Idealism vs. Cynicism</a>.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/EclipsePhase">Eclipse Phase</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScienceFictionTabletopGames">Science Fiction Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/FirestormArmada">Firestorm Armada</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/TheFabledLands">The Fabled Lands</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheFantasyTrip">The Fantasy Trip</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Literature/TheFabledLands">The Fabled Lands</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TheFantasyTrip">The Fantasy Trip</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

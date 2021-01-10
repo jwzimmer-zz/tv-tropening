@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Mummy: The Curse (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Mummy: The Curse, released in 2013, is the eighth gameline released for the New World of Darkness, the fourth to be released after White Wolf merged with &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Mummy: The Curse (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Mummy: The Curse, released in 2013, is the eighth gameline released for the New World of Darkness, the fourth to be released after White Wolf merged with &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/untitled3_2735.JPG" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Mummy: The Curse (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/untitled3_2735.JPG" />
+<meta property="og:description" content="Mummy: The Curse, released in 2013, is the eighth gameline released for the New World of Darkness, the fourth to be released after White Wolf merged with CCP, and the first to be released by Onyx Path. In making it, they took the hopefulness of &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/BinocularShot" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/LetsPlay/TwitchPlaysPokemonFireRed" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/MummyTheCurse">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.MummyTheCurse">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=MummyTheCurse&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.MummyTheCurse">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="MummyTheCurse" />
+<input type="hidden" id="article_id" value="381219" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Mummy: The Curse
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Mummy: The Curse"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Characters/MummyTheCurse" class="subpage-link " title="The Characters page">
+<span class="wrapper"><span class="spi characters"></span>Characters</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/MummyTheCurse" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/NightmareFuel/MummyTheCurse" class="subpage-link " title="The NightmareFuel page">
+<span class="wrapper"><span class="spi nightmarefuel"></span>NightmareFuel</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MummyTheCurse" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/MummyTheCurse" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/MummyTheCurse" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/MummyTheCurse" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/MummyTheCurse?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/MummyTheCurse?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/MummyTheCurse?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/MummyTheCurse?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/MummyTheCurse?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/MummyTheCurse?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/MummyTheCurse?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/MummyTheCurse?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/MummyTheCurse?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/MummyTheCurse?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/MummyTheCurse?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/MummyTheCurse?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/MummyTheCurse?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/MummyTheCurse?action=edit">Timeline</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><div class="lazy_load_img_box" style="padding-top:153.71%"><img src="https://static.tvtropes.org/pmwiki/pub/images/untitled3_2735.JPG" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/untitled3_2735.JPG" width="350" height="538"></div></div><div class="acaptionright" style="width:350px;">See how good <em>you</em> look after several millennia.</div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Mummy: The Curse</em>, released in 2013, is the eighth gameline released for the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/NewWorldOfDarkness">New World of Darkness</a>, the fourth to be released after <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/WhiteWolf" title="/pmwiki/pmwiki.php/Creator/WhiteWolf">White Wolf</a> merged with CCP, and the first to be released by Onyx Path. In making it, they took the hopefulness of <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/MummyTheResurrection" title="/pmwiki/pmwiki.php/TabletopGame/MummyTheResurrection">Mummy: The Resurrection</a></em>, their previous mummy game, and twisted it upside down.</p><p>In the beginning there was the city of Irem, heart of a powerful Nameless Empire, based where the Egypt of the Pharaohs would one day arise &mdash; an empire far more mystically advanced than any of the time. You and a select group of people were subject to the greatest feat of magic that has ever been attempted by mortal hands, the Rite of Return. Now, as an Arisen, you walk the line between life and death, which is both a blessing and a curse. On one hand, you have life everlasting. It takes nothing short of a nuclear bomb to destroy you. On the other, you're able to rise only for short periods, your power steadily ebbing away each time. Your friends and family are long since dead and gone, even fading from your memory as the centuries pass.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Your "true" body remains as it was when you underwent the Rite, a preserved corpse, but it's an easy thing for you to adopt a more human guise, shaped by your memory of yourself &mdash; for better and worse.</p><p>The initial plan for <em>Mummy</em> was to do the corebook and three supplements &mdash; <em>Guildhalls of the Deathless</em>, <em>Book of the Deceived</em> and <em>Sothis Ascends</em>. A <a class="twikilink" href="/pmwiki/pmwiki.php/Website/Kickstarter" title="/pmwiki/pmwiki.php/Website/Kickstarter">Kickstarter</a> for a deluxe version of the core added citybooks <em>Cursed Necropolis: DC</em> and <em>Cursed Necropolis: Rio</em>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Defictionalization" title="/pmwiki/pmwiki.php/Main/Defictionalization">propbook</a> <em>Dreams of Avarice</em>, a <em>Ready-Made PCs</em> PDF, a fiction anthology and a novel. The free supplement <em>Lore of the Deceived</em> added some bonus material on the Lost Guild. A Second Edition was announced to be in development in 2019.</p><p>Terminology: as part of the Rite of Return, each mummy made a <em>decree</em>, determining which part of their fivefold soul they were most deeply attuned to &mdash; ab (heart), ba (spirit), ka (essence), ren (name), or sheut (shadow). The <em>judges</em>, 42 in total, are the entities mummies make their decree before during the Rite of Return, and help shape their nature as Arisen. The <em>guilds</em> are the Arisen's social groups, originating in Irem, devoted to the learning of magic. <em>Cults</em> are mortal organizations which support and assist mummies on their journey through eternity. <em>Utterances</em> are the dark miracles of the Arisen, glorious and terrible magics. <em>Affinities</em> are mummies' innate powers, apparently built into the Rite of Return, which manifest as and when needed &mdash; even if the mummy in question wasn't aware of them beforehand.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><hr><h2>This game provides examples of:</h2><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AliensInCardiff" title="/pmwiki/pmwiki.php/Main/AliensInCardiff">Aliens in Cardiff</a>: The opening fiction deals with how far the Arisen have spread by focusing on the cult schism and artifact theft that results in one rising... in Qaarsut, Greenland.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnatomyOfTheSoul" title="/pmwiki/pmwiki.php/Main/AnatomyOfTheSoul">Anatomy of the Soul</a>: Following the ancient Egyptian beliefs about soul-structures &mdash; a soul is composed of the Ab (heart), the Ba (spirit), the Ka (essence), the Ren (name), and the Sheut (shadow).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncientEgypt" title="/pmwiki/pmwiki.php/Main/AncientEgypt">Ancient Egypt</a>: <em>Really</em> ancient Egypt. The Nameless Empire was actually a predecessor of the Egyptian Kingdoms we know.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncientTomb" title="/pmwiki/pmwiki.php/Main/AncientTomb">Ancient Tomb</a>: A Mummy has one by default. Some abilities even make them stronger within it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackFromTheDead" title="/pmwiki/pmwiki.php/Main/BackFromTheDead">Back from the Dead</a>:<ul><li> Each Arisen can come back from the dead under certain circumstances. However, coming back is not the problem. It's doing everything you can with the time you are given before going back to sleep.</li><li> Furthermore, on the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NighInvulnerable" title="/pmwiki/pmwiki.php/Main/NighInvulnerable">extremely rare</a> cases that a Mummy is permanently destroyed, those with the right Iremite rituals can bring them back to the world of the living by helping them to body-jack a living human victim. Only problem is that it's not an easy ritual, and if catastrophically botched? The Arisen is brought back alright... and transformed into a Shuankhsen.<ul><li> The Deceived, however, are not at risk of becoming Shuankhsen, and so are more willing to go body-hopping. The catch is that body-hopping for both Arisen and Deceived causes body dysphoria, the sense your body is somehow fundamentally wrong &mdash; and this only gets compounded when taking over a body of a different gender.</li></ul></li><li> The third tier of the Awaken The Dead Utterance allows an Arisen to bring a dead human back to life. The only drawback is that, unlike the similar <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/HunterTheVigil" title="/pmwiki/pmwiki.php/TabletopGame/HunterTheVigil">Benediction</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent" title="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent">Exploit</a>, such a resurrection is impermanent. The resurrected individual gets 20 hours of life, maximum, and usually a lot less. After that, he or she disintegrates and is <em>utterly</em> extinguished, preventing them from <em>ever</em> being resurrected again by anyone.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeneathTheMask" title="/pmwiki/pmwiki.php/Main/BeneathTheMask">Beneath the Mask</a>: Most of the Mummy guilds. To wit:<ul><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChessmaster" title="/pmwiki/pmwiki.php/Main/TheChessmaster">Maa-</a><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretPolice" title="/pmwiki/pmwiki.php/Main/SecretPolice">Kep</a> don't bother hiding it-at some point, they stopped being the Shan'iatu's middle managers and became guardians of Irem's ideological purity, and that means surveillance. They still are officially just the guys in the background, but they'll cheerfully admit to wanting to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeOverTheWorld" title="/pmwiki/pmwiki.php/Main/TakeOverTheWorld">Take Over the World</a> one day and create a New Iremite Empire. <span class="spoiler" title="you can set spoilers visible by default on your profile">Or at least, half of them do-the others, such as the South American Maa-Kep, have decided the modern world really is a lot better than Irem was, and want to keep it just the way it is.</span></li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSmartGuy" title="/pmwiki/pmwiki.php/Main/TheSmartGuy">Sesha-Hebsu</a> are guardians and crusaders for the truth. <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMasquerade" title="/pmwiki/pmwiki.php/Main/TheMasquerade">And covering it up</a>, since they think that the only people who should be written about are the successes and those truths that agree with Irem's political philosophies.</span></li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighPriest" title="/pmwiki/pmwiki.php/Main/HighPriest">Su-</a><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretCircleOfSecrets" title="/pmwiki/pmwiki.php/Main/SecretCircleOfSecrets">Menet</a> make sure the Judges are worshiped in the modern day and that Irem's knowledge remains alive. <span class="spoiler" title="you can set spoilers visible by default on your profile">And are falling apart, since somewhere along the line they realized how callous the Judges actually are and are only kept in line out of fear, and it's <em>heavily</em> implied their leader became the Heretic. That, and they view justified cruelty as a virtue, since the Judges are much the same.</span></li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PostModernMagick" title="/pmwiki/pmwiki.php/Main/PostModernMagick">Tef-Aabi</a> are fascinated by the modern world, and want to adapt to it as much as possible. <span class="spoiler" title="you can set spoilers visible by default on your profile">And, thanks to not adapting as well as they'd like and low membership, they have been hijacked by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ANaziByAnyOtherName" title="/pmwiki/pmwiki.php/Main/ANaziByAnyOtherName">Flesh Masons</a>, a eugenics movement that wants to breed (and kill) the imperfection out of humanity so as to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanResources" title="/pmwiki/pmwiki.php/Main/HumanResources">create a better power source</a> for their architecture.</span></li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlchemyIsMagic" title="/pmwiki/pmwiki.php/Main/AlchemyIsMagic">Mesen-Nebu</a> don't really have any skeletons in their closets, but don't think that makes them any nicer than the other guilds &mdash; they're egotistical, ruthless power-seekers, albeit <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NobleDemon" title="/pmwiki/pmwiki.php/Main/NobleDemon">honorable ones</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>: The Heretic, an Arisen known to most of the others who claims to have found a way to stop the life-death-revivification cycle, something the other mummies are extremely skeptical about. <span class="spoiler" title="you can set spoilers visible by default on your profile">He's not lying, and in fact is the first example of a successful Apotheosis ever.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlessedWithSuck" title="/pmwiki/pmwiki.php/Main/BlessedWithSuck">Blessed with Suck</a>: The reason the condition of the Arisen is called the <em>Curse</em> is due to the fact that every time they revive, they're downright amnesiac, they're bound to whatever purpose they were revived for (though they can complete this and gain their free will back), and they're on a time limit before the whole thing starts all over. <span class="spoiler" title="you can set spoilers visible by default on your profile">The Heretic made lemonade out of lemons and discovered Apotheosis, which allows the Deathless to avoid the inevitable death, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingForeverIsAwesome" title="/pmwiki/pmwiki.php/Main/LivingForeverIsAwesome">and allowing them to enjoy their immortality</a>. It comes, however, at the cost of being stuck at the lowest level of mystical power.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BrownNote" title="/pmwiki/pmwiki.php/Main/BrownNote">Brown Note</a>: Being in the presence of a mummy's Sekhem causes Sybaris, hallucinations of Duat and a growing understanding of what mortality entails. Only Witnesses are immune, and even then they don't get off unscathed-they just grow obsessive. This is more boon than curse for the mummies themselves, however-moderate or mild Sybaris causes people to be more receptive to cult recruitment and manipulation, and the understanding of mortality comes from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadOracle" title="/pmwiki/pmwiki.php/Main/MadOracle">perceiving the cycle of life</a>, leading to those afflicted with mild Sybaris to develop profound revelations about the nature of the world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CityOfAdventure" title="/pmwiki/pmwiki.php/Main/CityOfAdventure">City of Adventure</a>: Two, actually &mdash; Washington, DC and Rio de Janeiro.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CursedWithAwesome" title="/pmwiki/pmwiki.php/Main/CursedWithAwesome">Cursed With Awesome</a>: Very averted-you'd have to have a complete <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LackOfEmpathy" title="/pmwiki/pmwiki.php/Main/LackOfEmpathy">Lack of Empathy</a> or any connection to retaining your memories to think being Arisen is purely good. Or even mostly good. <span class="spoiler" title="you can set spoilers visible by default on your profile">Apotheosis, on the other hand, is very much a self-inflicted Cursed With Awesome; you are condemned to eventually die, and will never achieve the sheer power of Utterances again... and in return, you're free of the Judges' yoke, your memory comes back and is now perfect, you can make your own Relics, and your waking periods aren't on a timer. The price of freedom is high, but worth every cent.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CutLexLuthorACheck" title="/pmwiki/pmwiki.php/Main/CutLexLuthorACheck">Cut Lex Luthor a Check</a>: Subverted and justified for Last Dynasty Inc-they do want to use Sekhem medicine to improve the world (and get rich in the process), but the only real source not involving <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumanSacrifice" title="/pmwiki/pmwiki.php/Main/HumanSacrifice">Human Sacrifice</a> are Arisen and Relics.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a>: In the old Mummy, you were an immortal Egyptian superhero fighting against evil, greedy occult forces. Here, you overcame so much to be screwed over by your own powers, your purpose is to be pushed around by your cult and the Judges, <span class="spoiler" title="you can set spoilers visible by default on your profile">and pretty much <em>are</em> the servant of evil/amoral, greedy occult forces.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeliberateValuesDissonance" title="/pmwiki/pmwiki.php/Main/DeliberateValuesDissonance">Deliberate Values Dissonance</a>: Arisen have exactly the morality one would expect from entitled noblemen of a time when "death by barbarian" was a very real possibility. Hell, Irem's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SecretPolice" title="/pmwiki/pmwiki.php/Main/SecretPolice">Secret Police</a> is a playable faction, and they're highly respected for their devotion to the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodOldWays" title="/pmwiki/pmwiki.php/Main/GoodOldWays">Good Old Ways</a> by the rest of the Guilds.<ul><li> Interestingly, most Arisen <em>weren't</em> nobles as mortals &mdash; they generally came from the ranks of the middle classes.</li><li> This applies to some of the 42 Judges as well. The crimes they are meant to judge over are not all as serious now as they were in the time of the Empire (speaking out in anger, blaspheming, gossiping, disrespecting authority figures, etc). On the other hand, some of the crimes &mdash; mass murder, etc. &mdash; while still relevant, seem to have been committed in Irem for the sake of progress anyway.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DisproportionateRetribution" title="/pmwiki/pmwiki.php/Main/DisproportionateRetribution">Disproportionate Retribution</a>: Seriously, don't steal the Relics of an Arisen if you want to live. Besides quite possibly reviving a dormant one, they <em>will</em> find you, and you <em>will</em> regret taking their stuff-even leaving aside the fact that only mummies can properly control their power.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDragon" title="/pmwiki/pmwiki.php/Main/TheDragon">The Dragon</a>: Sadikh and Fasad, to Arisen and Shuankhsen, respectively. The former even go into a self-induced <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LotusEaterMachine" title="/pmwiki/pmwiki.php/Main/LotusEaterMachine">Lotus-Eater Machine</a> when their masters are asleep.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a>: The Amkhata are so obviously errors in the natural order that they demoralize mortals who look upon them. <span class="spoiler" title="you can set spoilers visible by default on your profile">Ammut is far more along the lines of "Lovecraftian goddess".</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEmpire" title="/pmwiki/pmwiki.php/Main/TheEmpire">The Empire</a>: Irem was... not a nice place to live if you weren't a citizen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnlightenmentSuperpowers" title="/pmwiki/pmwiki.php/Main/EnlightenmentSuperpowers">Enlightenment Superpowers</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> The upside to Apotheosis. Besides being free of the Judges' control, an Arisen's Memory score becomes their new power stat.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilCounterpart" title="/pmwiki/pmwiki.php/Main/EvilCounterpart">Evil Counterpart</a>: The Shuankhsen, the mummies created in service to Ammut, the Devourer. She wants Sekhem, and they will get it or die trying.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilIsNotAToy" title="/pmwiki/pmwiki.php/Main/EvilIsNotAToy">Evil Is Not a Toy</a>: A cult that tries to abuse their patron's stewardship too many times will quickly find that mummies are quite capable of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactWords" title="/pmwiki/pmwiki.php/Main/ExactWords">Exact Words</a> in their purpose, or sticking around after it's completed, thank you.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FearlessUndead" title="/pmwiki/pmwiki.php/Main/FearlessUndead">Fearless Undead</a>: The Su-Menent have immunity to fear as part and parcel of their "Fated Soul" Guild Affinity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelRealization" title="/pmwiki/pmwiki.php/Main/HeelRealization">Heel Realization</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">What initially motivated the Heretic to seek Apotheosis, according to <em>Dreams of Avarice</em>. He would always be the man who murdered slaves to power the Rite of Return, but he would not inflict such cruelty again.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicWillpower" title="/pmwiki/pmwiki.php/Main/HeroicWillpower">Heroic Willpower</a>: How the Arisen successfully returned from Duat the first time: They were faced with pointed questions about their very right to exist, and answered them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowYourTrueName" title="/pmwiki/pmwiki.php/Main/IKnowYourTrueName">I Know Your True Name</a>: The importance of the true name (see 'Ren' above) is important in Iremite magic. The most powerful beings in their cosmology are creatures that have reclaimed their own true names, so that no other being can exert magical power on them. <span class="spoiler" title="you can set spoilers visible by default on your profile"> This is what happens to Arisen that achieve Apotheosis &mdash; they become invisible to the magical world.</span><ul><li> Name magic was the particular province of the Deceived, and even fallen as they are, having lost much of what they once knew, they still have a certain affinity for it.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImplacableMan" title="/pmwiki/pmwiki.php/Main/ImplacableMan">Implacable Man</a>: Anyone who <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TooDumbToLive" title="/pmwiki/pmwiki.php/Main/TooDumbToLive">steals a Relic from a Mummy</a> will very quickly realize how astoundingly difficult it is to put them down, even temporarily. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Deceived are <em>even tougher</em>, though that's a small comfort to them.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JadeColoredGlasses" title="/pmwiki/pmwiki.php/Main/JadeColoredGlasses">Jade-Colored Glasses</a>: The Arisen are likely to meet the idea of the world actually changing since Irem with snark and derision, assuming they don't just blow you off; there's still a power elite, a bitter underclass, and moral myopia. It's why they're so good at integrating themselves with the world.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">The Heretic is even more cynical, he having come to believe even in his first life that the true nature of law is to force people into stable social positions and engender fear of the state. Given who he is, he qualifies as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KnightInSourArmor" title="/pmwiki/pmwiki.php/Main/KnightInSourArmor">Knight in Sour Armor</a>.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KillItWithFire" title="/pmwiki/pmwiki.php/Main/KillItWithFire">Kill It with Fire</a>: The only real weakness of Mummies is their flammability, a trait they share with several other creatures in the World of Darkness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KneelBeforeZod" title="/pmwiki/pmwiki.php/Main/KneelBeforeZod">Kneel Before Zod</a>: Invoked by the third tier of Word-Warding Bonds; if the mummy succeeds in commanding the target, they must abase themselves before the mummy. For the next week the target cannot take any hostile action against the mmummy, and must obey any command they give so long as it doesn't result in immediate physical harm.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LemonyNarrator" title="/pmwiki/pmwiki.php/Main/LemonyNarrator">Lemony Narrator</a>: The book's authors can get pretty snarky at times.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingForeverIsAwesome" title="/pmwiki/pmwiki.php/Main/LivingForeverIsAwesome">Living Forever Is Awesome</a>: The opinion of mummies who think that the power and the ability/right to kill with impunity is worth the loss of Memory. The Arisen state of being is pretty good if you're <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSociopath" title="/pmwiki/pmwiki.php/Main/TheSociopath">The Sociopath</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile">Or have completed Apotheosis. While you will eventually reach a death cycle that ends in actual death, you're free of <em>menet</em>, immune to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IKnowYourTrueName" title="/pmwiki/pmwiki.php/Main/IKnowYourTrueName">I Know Your True Name</a>, and can finally make your own relics, and all you have to do to retain your power is act like a decent person.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingRelic" title="/pmwiki/pmwiki.php/Main/LivingRelic">Living Relic</a>: The mummies, the great accomplishment of the priest-kings of the Nameless Empire.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovecraftianSuperpower" title="/pmwiki/pmwiki.php/Main/LovecraftianSuperpower">Lovecraftian Superpower</a>: The Ancestry of Forgotten Stars Utterance, from <em>Guildhalls of the Deathless</em>. The core concept is that you're calling upon the power of inhuman creatures that once interbred with humanity... and said creatures appear to have been rather <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Lovecraftian</a>. The highest level transforms its invokers into an avatar of a being called the Herald of Forgotten Stars, which is explicitly described as a crawling chaos, one of Nyarlathotep's epithets, and which is sometimes accompanied by a man who sounds disturbingly like one of Nyarlathotep's or Hastur's avatars.<ul><li> Hell, most of the Utterances are of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CosmicHorrorStory" title="/pmwiki/pmwiki.php/Main/CosmicHorrorStory">Cosmic Horror Story</a> (or perhaps more accurately, given how you're the source, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LovecraftLite" title="/pmwiki/pmwiki.php/Main/LovecraftLite">Lovecraft Lite</a>) bent. Foremost among these is Words of Dead Glory, whose <em>lowest</em> tier invokes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingsDeaderWithZombies" title="/pmwiki/pmwiki.php/Main/EverythingsDeaderWithZombies">Everything's Deader with Zombies</a> and sends <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheVirus" title="/pmwiki/pmwiki.php/Main/TheVirus">highly-infectious</a> <em>nenitu</em> after people the Arisen doesn't feel like protecting, and only gets scarier from there, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Dreams of Dead Gods</a>, which also <em>starts</em> by putting possible allies under <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoreThanMindControl" title="/pmwiki/pmwiki.php/Main/MoreThanMindControl">More Than Mind Control</a> and sends nightmares after enemies until they run off, and oh yeah, <em>can be invoked while the Arisen is still dormant.</em></li><li> Also worthy of note is the highest tier of Words of Dead Fury, which summons up a nightmarish creature from eras past that has a constantly shifting array of eyes and mouths, communicates in an untranslatable alien language of polyphonic murmurs and bellows, rends mortal souls, and devours ghosts.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveIsInTheAir" title="/pmwiki/pmwiki.php/Main/LoveIsInTheAir">Love Is in the Air</a>: Dreams of Dead Gods' love curse. Whoever is targeted by this curse will have a horde of suitors who want to get into their pants. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvenTheGirlsWantHer" title="/pmwiki/pmwiki.php/Main/EvenTheGirlsWantHer">This effect ignores the normal</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvenTheGuysWantHim" title="/pmwiki/pmwiki.php/Main/EvenTheGuysWantHim">sexual orientation of the secondary targets</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadArtist" title="/pmwiki/pmwiki.php/Main/MadArtist">Mad Artist</a>: The Deceived/the Lost Guild, literally. Thanks to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowersViaPossession" title="/pmwiki/pmwiki.php/Main/PowersViaPossession">certain qualities</a> of their existence, each one has a permanent derangement, and they're obsessed with the more lunatic side of creative endeavors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadeOfIron" title="/pmwiki/pmwiki.php/Main/MadeOfIron">Made of Iron</a>: Amkhata, when dealing with anything not an Arisen but still supernatural. Mortals get the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NighInvulnerability" title="/pmwiki/pmwiki.php/Main/NighInvulnerability">Nigh-Invulnerability</a> treatment. Sadikh and Fasad, though, are Made of Iron at all times, and their masters can resurrect them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicalSociety" title="/pmwiki/pmwiki.php/Main/MagicalSociety">Magical Society</a>: The guilds.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a>: Sekhem is explicitly detectable and usable by mundane scientific equipment, and is extremely useful in medicine. In fact, an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AntiVillain" title="/pmwiki/pmwiki.php/Main/AntiVillain">Anti-Villain</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>, Last Dynasty Incorporated, wants to use the stuff to, among other things, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PetTheDog" title="/pmwiki/pmwiki.php/Main/PetTheDog">cure AIDS</a> and develop a healthier form of steroid.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MixAndMatchCritter" title="/pmwiki/pmwiki.php/Main/MixAndMatchCritter">Mix-and-Match Critter</a>: The Amkhata, essentially Sekhem elementals, take the form of these.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoralMyopia" title="/pmwiki/pmwiki.php/Main/MoralMyopia">Moral Myopia</a>: The Deceived <span class="spoiler" title="you can set spoilers visible by default on your profile">or more accurately, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemonicPossession" title="/pmwiki/pmwiki.php/Main/DemonicPossession">temakhs</a>. They hate the Arisen for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RevengeByProxy" title="/pmwiki/pmwiki.php/Main/RevengeByProxy">their masters</a> stealing their chance at godhood... except they were planning to betray the other Shan'iatu first and become rulers over their brothers once ascended. It's entirely possible the other guildmasters found out and were just protecting themselves, or even that their mad scheme backfired and they have nobody to blame but themselves.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mummy" title="/pmwiki/pmwiki.php/Main/Mummy">Mummy</a>: Naturally.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NobleDemon" title="/pmwiki/pmwiki.php/Main/NobleDemon">Noble Demon</a>: When following the concept of Dedwen, the Mesen-Nebu tend to act like this: Their morality resembles a more mystical, slightly more charitable version of Objectivism, and they apply the principle as ruthlessly to themselves as much as anyone else, to the point where they will <em>forgive Relic thieves</em> if they evade the first attempt at punishment and retrieval, since they obviously deserve it more than the Arisen (an exception is made for if the theft woke them up, but in that case they don't really have a choice in the matter).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoNameGiven" title="/pmwiki/pmwiki.php/Main/NoNameGiven">No Name Given</a>: Not the Arisen, but a designation of immortality and divinity in the Nameless Empire's culture. The fact they called themselves the "Nameless Empire" knowing that should tell you how big their heads were.<ul><li> This extended to their deities, the pre-dynastic forms of what would become the Egyptian pantheon: Re, the Nameless Lion; Esit, the Nameless Falcon; Sutek, the Nameless Serpent; Ptah, the Nameless Bull; and Anpu, the Nameless Jackal. The names given to them were not their true names, but titles used by mortals.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PureEnergy" title="/pmwiki/pmwiki.php/Main/PureEnergy">Pure Energy</a>: Sekhem. Stated in developer blogs to have no relation to <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening" title="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening">the Supernal Realms</a>-it's far too old for that.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityWarpingIsNotAToy" title="/pmwiki/pmwiki.php/Main/RealityWarpingIsNotAToy">Reality Warping Is Not a Toy</a>: Each Arisen is tied to an ancient artifact with these powers. Stealing this artifact can result in fluctuations of reality.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RetGone" title="/pmwiki/pmwiki.php/Main/RetGone">Ret-Gone</a>: The Deceived Utterance Forgetting the Name allows them to do this to any human or supernatural, killing them and erasing virtually all memory of them. The third tier of Whispering What Is Known also allows this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ResurrectiveImmortality" title="/pmwiki/pmwiki.php/Main/ResurrectiveImmortality">Resurrective Immortality</a>: The core of the Rite of the Return. Mummies are not invincible, but destroying one is no easy task. Destroying one so thoroughly that it can never rise again is downright Herculean.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RevengeBeforeReason" title="/pmwiki/pmwiki.php/Main/RevengeBeforeReason">Revenge Before Reason</a>: The Lost Guild, to the point where literally the only thing anyone knows about them is that they're obsessed with avenging themselves upon the descendants of the Nameless Empire. <span class="spoiler" title="you can set spoilers visible by default on your profile">It's outright stated that the Shuankhsen, if someone were to cut their ties to Ammut, would still hunt down Arisen to the last mummy-<a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeWhoFightsMonsters" title="/pmwiki/pmwiki.php/Main/HeWhoFightsMonsters">for perfectly understandable reasons</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SatanIsGood" title="/pmwiki/pmwiki.php/Main/SatanIsGood">Satan is Good</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Sutekh, the Iremite version of <a class="createlink" href="/pmwiki/pmwiki.php/UsefulNotes/EgyptianMythology" title="/pmwiki/pmwiki.php/UsefulNotes/EgyptianMythology">Set</a>, is also the god of chaos and taken to be an enemy of the Judges. Even living Iremite culture praised him for being the inventor of free will and personal growth, and in modern times his teachings helped refine Apotheosis.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScaryScorpions" title="/pmwiki/pmwiki.php/Main/ScaryScorpions">Scary Scorpions</a>: A sacred animal and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Psychopomp" title="/pmwiki/pmwiki.php/Main/Psychopomp">Psychopomp</a> in Iremite culture. Many Arisen and death cults are called "scorpion cults" for precisely this reason.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedBadassInACan" title="/pmwiki/pmwiki.php/Main/SealedBadassInACan">Sealed Badass in a Can</a>: An Arisen in <em>menet</em>, hibernation between revivals.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: This gem, from the chapter that describes the use of your cult (sadly rewritten in the final version).<div class="indent"> Well, the mummy just shouts, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">"Slay them, my minions!"</a> and then they chant "<a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000" title="/pmwiki/pmwiki.php/TabletopGame/Warhammer40000">BLOOD FOR THE BLOOD GOD!</a>" in flawless Iremite Egyptian.</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SorcerousOverlord" title="/pmwiki/pmwiki.php/Main/SorcerousOverlord">Sorcerous Overlord</a>: The Shan'iatu, the priest-kings of the Nameless Empire. The Arisen used to be directly under their command, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PosthumousCharacter" title="/pmwiki/pmwiki.php/Main/PosthumousCharacter">though they did not use the Rite of Return on themselves</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile">While it was implied they might have become the Judges of Duat, later books revealed that they actually attempted to betray or control their gods, and got mightily smote in the process.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrongerWithAge" title="/pmwiki/pmwiki.php/Main/StrongerWithAge">Stronger with Age</a>: <em>Inverted</em>, as compared to other White Wolf games. A mummy rises at the peak of their power, but it quickly drops a rank and then starts to level out until it's at its weakest, which is when the mummy needs to go back to rest. The decline can be halted, but it's a difficult &mdash; and, in some cases, unwholesome &mdash; process.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TerrorHero" title="/pmwiki/pmwiki.php/Main/TerrorHero">Terror Hero</a>: Several Affinities rely on the innate terror that mortals feel in the presence of the Arisen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting" title="/pmwiki/pmwiki.php/Main/VoluntaryShapeshifting">Voluntary Shapeshifting</a>: The Whispers to My Body Affinity allows the mummy who knows it to assume any humanoid form they like, and to transform themselves into liquid form. The Deceived Guild Affinity Face of Endless Lies enables the mummy to temporarily assume any humanoid form, so long as it doesn't duplicate a specific person.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhoWantsToLiveForever" title="/pmwiki/pmwiki.php/Main/WhoWantsToLiveForever">Who Wants to Live Forever?</a>: Mummies tend to dislike their deathless state, mostly because of the memory loss and the arbitrary restrictions on their behavior (cannot work to improve their memory, cannot speak out against the judges, cannot declare love for another in the language of Irem, etc). The more dutiful among them deal with it by letting their memories lapse and becoming nigh-mindless servants of the Judges.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">Deceived have a double-dose of this; they're explicitly not immortal, but <em>eternal</em>; it's heavily suggested that if the Earth dies and humanity survives in colonies, they will reincarnate as Martians, as an example. They pay for this by the fact that their <em>menet</em> cycle is an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndIMustScream" title="/pmwiki/pmwiki.php/Main/AndIMustScream">And I Must Scream</a> situation... which many actually <em>prefer</em> to their waking periods, since then they have to deal with the fact that each and every one of them is possessed by the temakh, the insane remnant psyches of the Shan'iatu who once headed their guild. Their nature is such that they cannot attain the independence the Arisen know; their version of Apotheosis is Ascent, which frees them from their temakh but binds them eternally to Fate itself, to serve as its agent... though Fate is simply alien instead of alien and a homicidal <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrawNihilist" title="/pmwiki/pmwiki.php/Main/StrawNihilist">Straw Nihilist</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadArtist" title="/pmwiki/pmwiki.php/Main/MadArtist">Mad Artist</a>, and an Ascended's menet period is just resting happily as part of the cosmos. That the Ascent can be seen as both positive, becoming a willing agent of a higher power, and negative, condemned to eternal service of one kind or another, is entirely intentional.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WindsOfDestinyChange" title="/pmwiki/pmwiki.php/Main/WindsOfDestinyChange">Winds of Destiny, Change</a>: Mummies have plenty of fate-manipulating effects.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WoobieDestroyerOfWorlds" title="/pmwiki/pmwiki.php/Main/WoobieDestroyerOfWorlds">Woobie, Destroyer of Worlds</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">The Shuankhsen were slaves in the Nameless Empire who were used as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EquivalentExchange" title="/pmwiki/pmwiki.php/Main/EquivalentExchange">Equivalent Exchange</a> and test subjects for the developing Rite of Return, and in the process were enslaved again to Ammut. Their souls sustained heavy damage in the process, causing them to lose a lot of their sanity and all their free will. We would hug them, except they would probably try to eat us.</span><ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile">The Deceived, or at least the human part of them. Unlike the Arisen, they are complete slaves to their <em>temakhs</em>, unable to escape. Their <em>menet</em> cycles are dreams of torment at their <em>temakhs's</em> hands. They have their own identities subsumed by the spirit that haunts them, but they are still there. Worse, unlike the Arisen, there's no escape. They are damned to exist as a slave forever.</span></li></ul></li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GeistTheSinEaters">Geist: The Sin-Eaters</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/WhiteWolf">Creator/White Wolf</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent">Demon: The Descent</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Ride/RevengeOfTheMummy">Revenge of the Mummy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MummyMedia">Mummy Media</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MummyTheResurrection">Mummy: The Resurrection</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening">Mage: The Awakening</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Franchise/TheWorldOfDarkness">Franchise/The World of Darkness</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/PrometheanTheCreated">Promethean: The Created</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GeistTheSinEaters">Geist: The Sin-Eaters</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ChroniclesOfDarkness">TabletopGame/Chronicles of Darkness</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent">Demon: The Descent</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening">Mage: The Awakening</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/HorrorTabletopGames">Horror Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/PrometheanTheCreated">Promethean: The Created</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening">Mage: The Awakening</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/PrometheanTheCreated">Promethean: The Created</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GeistTheSinEaters">Geist: The Sin-Eaters</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/DemonTheDescent">Demon: The Descent</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/MageTheAwakening">Mage: The Awakening</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UrbanFantasy">Urban Fantasy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/PrometheanTheCreated">Promethean: The Created</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

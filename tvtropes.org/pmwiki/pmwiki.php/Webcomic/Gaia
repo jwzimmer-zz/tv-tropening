@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Gaia (Webcomic) - TV Tropes</title>
+<meta name="description" content="Gaia is a fantasy webcomic by Novil and Powree, better known as the creators of Sandra and Woo. The story revolves around a fantasy world called Gaia, where &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/Gaia" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Gaia (Webcomic) - TV Tropes" />
+<meta name="twitter:description" content="Gaia is a fantasy webcomic by Novil and Powree, better known as the creators of Sandra and Woo. The story revolves around a fantasy world called Gaia, where &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/gaia-cover-540x82522_8372.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Gaia (Webcomic) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/Gaia" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/gaia-cover-540x82522_8372.jpg" />
+<meta property="og:description" content="Gaia is a fantasy webcomic by Novil and Powree, better known as the creators of Sandra and Woo. The story revolves around a fantasy world called Gaia, where a magical conflict that started at the beginning of the world has lasting repercussions &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/RoguesGallery" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/ComicBook/SquirrelGirl" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Webcomic/Gaia?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Webcomic/Gaia">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Webcomic.Gaia">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Gaia&g=Webcomic">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=Webcomic.Gaia">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Webcomic/Gaia?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Webcomic" />
+<input type="hidden" id="title-hidden" value="Gaia" />
+<input type="hidden" id="article_id" value="336795" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Webcomic/Gaia</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Webcomic / </strong>
+Gaia
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Webcomic",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Webcomic"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Gaia"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Gaia" class="subpage-link curr-subpage" title="The Webcomic page">
+<span class="wrapper"><span class="spi webcomic"></span>Webcomic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WMG/Gaia" class="subpage-link " title="The WMG page">
+<span class="wrapper"><span class="spi wmg"></span>WMG</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Gaia" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Gaia?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Gaia?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Gaia?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Gaia?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Gaia?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Gaia?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Gaia?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Gaia?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/Gaia?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Gaia?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Gaia?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Gaia?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Gaia?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Gaia?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Gaia?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/Gaia?action=edit">Trivia</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:278px;"><div class="lazy_load_img_box" style="padding-top:154.32%"><img src="https://static.tvtropes.org/pmwiki/pub/images/gaia-cover-540x82522_8372.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/gaia-cover-540x82522_8372.jpg" width="278" height="429"></div></div><p></p><div class="indent"><em>"<a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">Will you come along?</a>"</em></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em><a class="urllink" href="http://www.sandraandwoo.com/gaia">Gaia<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> is a fantasy webcomic by Novil and Powree, better known as the creators of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/SandraAndWoo" title="/pmwiki/pmwiki.php/Webcomic/SandraAndWoo">Sandra and Woo</a></em>. The story revolves around a fantasy world called Gaia, where a magical conflict that started at the beginning of the world has lasting repercussions in the present day. In a country called Cania, currently locked in a cold war with one of their neighbors, Midgard, a group of friends are unexpectedly thrust into the middle of a situation that could result in war, or even a threat to life itself.</p><p></p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><h2><em>Gaia</em> contains examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AffablyEvil" title="/pmwiki/pmwiki.php/Main/AffablyEvil">Affably Evil</a>: Eldor.<ul><li> We have a scene <a class="urllink" href="http://www.sandraandwoo.com/gaia/2018/05/25/the-way-back-home-132/">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> where Eldor walks through a small unit of warriors and wizards, complimenting them on their skill (and taste) to "pick something up" from inside San, even asking permission before grabbing inside her.</li><li> Eldor is quite ruthless and stops at nothing to further his own plans, but his manners are generally polite and courteous, and he doesn't seem to derive any pleasure from making people suffer; it's just an unfortunate but necessary consequence of his plans.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlienLunch" title="/pmwiki/pmwiki.php/Main/AlienLunch">Alien Lunch</a>: Ars makes one out of a variety of potion ingredients. Which ends with a small explosion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AmbiguouslyEvil" title="/pmwiki/pmwiki.php/Main/AmbiguouslyEvil">Ambiguously Evil</a>: Eldor, who often seems more cold and ruthless than actively evil.<ul><li> Although he apparently does have an evil plan (which has something to do with immortality, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenAgendaVillain" title="/pmwiki/pmwiki.php/Main/HiddenAgendaVillain">we think</a>), he appears to have virtually zero tension with the heroes, at least at the beginning seeming not even remotely threatened by them.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> His plans are so odd and convoluted that he often winds up indirectly helping the group, for example, he got Lilith arrested and trapped in a tower, but was going to rescue them (only Lilith rescued herself, and they bumped up the time of execution).</li><li> He also is antagonizing the party specifically so their powers will be strong enough for his plans.</li><li> He also claims that he saved Vivi's life.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnArmAndALeg" title="/pmwiki/pmwiki.php/Main/AnArmAndALeg">An Arm and a Leg</a>:<ul><li> Viviana's biggest fear is losing a hand (reasonable for a thief, and probably inspired by <a class="urllink" href="http://www.sandraandwoo.com/gaia/2013/12/03/the-letter-of-jael-bara-007/">this horrific incident from her childhood<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>). A 10% probability that she might lose one of her hands nearly causes her to funk out on the most important heist of her career, and the loss of one of her hands figures prominently in her later nightmare.</li><li> Later she actually loses both her legs <span class="spoiler" title="you can set spoilers visible by default on your profile"> killing the Bahamut</span>. She gets prosthetics, to which she seems to adapt remarkably quickly (probably because there's magic healing involved).</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllThereInTheManual" title="/pmwiki/pmwiki.php/Main/AllThereInTheManual">All There in the Manual</a>: While the characters are introduced normally in the webcomic, the webcomic is accompanied by extra sections explaining the setting.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheAllegedSteed" title="/pmwiki/pmwiki.php/Main/TheAllegedSteed">The Alleged Steed</a>: Viviana's horse <a class="urllink" href="http://www.sandraandwoo.com/gaia/2014/11/25/breaking-all-barriers-023/">Casper<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Vivi, who is not a bold or skilled rider, values him for his gentleness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateCharacterInterpretation" title="/pmwiki/pmwiki.php/Main/AlternateCharacterInterpretation">Alternate Character Interpretation</a>: a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiscussedTrope" title="/pmwiki/pmwiki.php/Main/DiscussedTrope">Discussed Trope</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a> regarding Lillith; while all agree that she's a dangerous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TykeBomb" title="/pmwiki/pmwiki.php/Main/TykeBomb">Tyke Bomb</a>, whether she's an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtraordinarilyEmpoweredGirl" title="/pmwiki/pmwiki.php/Main/ExtraordinarilyEmpoweredGirl">Extraordinarily Empowered Girl</a> (as Ryn suspects) or a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacGuffinGirl" title="/pmwiki/pmwiki.php/Main/MacGuffinGirl">MacGuffin Girl</a> (King Savos calls her a "magical machine") depends upon her degree of free will.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">Arc Words</a>: "Will you come along?"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion" title="/pmwiki/pmwiki.php/Main/ArmorPiercingQuestion">Armor-Piercing Question</a>: King Savos has one for Gaia's chosen, San de Vertis:<div class="indent"><strong>King Savos</strong>: "Has it crossed your mind that you may also be one of Eldor&#146;s magic machines instead of Gaia&#146;s chosen one?"</div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigDamnHeroes" title="/pmwiki/pmwiki.php/Main/BigDamnHeroes">Big Damn Heroes</a>: Ars becomes one when he saves two girls from an assassin during the <span class="spoiler" title="you can set spoilers visible by default on your profile"> Red Hall attack.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakTheHaughty" title="/pmwiki/pmwiki.php/Main/BreakTheHaughty">Break the Haughty</a>: Eldor applies classic brainwashing techniques to <span class="spoiler" title="you can set spoilers visible by default on your profile"> Lilli</span>, challenging her with a seemingly intractable problem then threatening her friends when she's exhausted and vulnerable.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ColorCodedForYourConvenience" title="/pmwiki/pmwiki.php/Main/ColorCodedForYourConvenience">Color-Coded for Your Convenience</a>: Bluestream magic is generally blue, and Redstream red.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ConverseWithTheUnconscious" title="/pmwiki/pmwiki.php/Main/ConverseWithTheUnconscious">Converse with the Unconscious</a>:<ul><li> Unknown: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcWords" title="/pmwiki/pmwiki.php/Main/ArcWords">"Will you come along?"</a></li><li> Various People: "hathitw/ lmost anyone. I&#146;m af/ s nothing we can do for him/ sorry. Ilias, can you hear me?/ ase wake up, Ilias. Have you hea/ d? They caught one of these murder/ ers! How&#146;s he doing? No signs of re/ covery. I brought you flowers, I h/ ope you like them. Look who came f/ visit! Give him half a liter o/ vlar dilution. Yesterday/ owing minor reaction/ <strong>Wake up!</strong>"</li><li> Ilias: "...Yes, I will. wherever you go..."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToSuicide" title="/pmwiki/pmwiki.php/Main/DrivenToSuicide">Driven to Suicide</a>: Several of Eldor's prototype <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacGuffinGirl" title="/pmwiki/pmwiki.php/Main/MacGuffinGirl">MacGuffin Girls</a> over the years <span class="spoiler" title="you can set spoilers visible by default on your profile"> most recently Lilith</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">The End of the World as We Know It</a>: All of the signs and portents point to <span class="spoiler" title="you can set spoilers visible by default on your profile">Lilith</span> being the key to either saving the world or ending it, though as the story progresses it becomes less clear if the powers that be are worried about an actual apocalypse ("the end of the world") so much as the destruction of the relatively stable and peaceful status quo ("as we know it").</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>: Viviana bears more than a passing resemblance to <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/SandraAndWoo" title="/pmwiki/pmwiki.php/Webcomic/SandraAndWoo">Larissa</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactWords" title="/pmwiki/pmwiki.php/Main/ExactWords">Exact Words</a>: Viviana assures Alissa and Ryn that she is not a member of the Shadowdancers... which is true if not entirely accurate: <span class="spoiler" title="you can set spoilers visible by default on your profile"> she's not just "a" member because she's their leader.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExtraordinarilyEmpoweredGirl" title="/pmwiki/pmwiki.php/Main/ExtraordinarilyEmpoweredGirl">Extraordinarily Empowered Girl</a>: Ryn jumps to the conclusion that Eldor has spent decades trying to create a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PersonOfMassDestruction" title="/pmwiki/pmwiki.php/Main/PersonOfMassDestruction">Person of Mass Destruction</a> based on decades of newspaper accounts of the deaths and disappearances of girls and young women <span class="spoiler" title="you can set spoilers visible by default on your profile"> and believes Eldor finally succeeded with Lili</span>. Each girl was conceived in the shadow of the Great Tree during the Greendew Spring Festival and subsequently raised in Oakdale. He may be wrong, but...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceHeelTurn" title="/pmwiki/pmwiki.php/Main/FaceHeelTurn">Face&#150;Heel Turn</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Lili</span> does appear to have gone over to the dark side under the baleful influence of an ancient magical tome.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeOutMakeOut" title="/pmwiki/pmwiki.php/Main/FakeOutMakeOut">Fake-Out Make-Out</a>: Unsurprisingly, <a class="urllink" href="http://www.sandraandwoo.com/gaia/2013/03/26/shadowdancers-092/">Viviana and Ilias end up doing one<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> while <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UndercoverAsLovers" title="/pmwiki/pmwiki.php/Main/UndercoverAsLovers">Undercover as Lovers</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakingTheDead" title="/pmwiki/pmwiki.php/Main/FakingTheDead">Faking the Dead</a>: Viviana stabs herself in the chest (probably using a fake blood bag) in order to throw an opponent off guard and let her escape.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiveManBand" title="/pmwiki/pmwiki.php/Main/FiveManBand">Five-Man Band</a>: Lilith, Sandril, Ilias, Ryn and Alissa, with Viviana becoming the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SixthRanger" title="/pmwiki/pmwiki.php/Main/SixthRanger">Sixth Ranger</a> in "Breaking All Barriers"<ul><li> Broken up into <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BattleCouple" title="/pmwiki/pmwiki.php/Main/BattleCouple">Battle Couples</a> Viviana and Illias and Alissa and Ryn at the end of "Breaking All Barriers" <span class="spoiler" title="you can set spoilers visible by default on your profile"> with Sandril gone missing and Lillith revealed as either a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TykeBomb" title="/pmwiki/pmwiki.php/Main/TykeBomb">Tyke Bomb</a> or a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacGuffinGirl" title="/pmwiki/pmwiki.php/Main/MacGuffinGirl">MacGuffin Girl</a></span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foreshadowing" title="/pmwiki/pmwiki.php/Main/Foreshadowing">Foreshadowing</a>:<ul><li> There's Lili's full name (Lilith), <span class="spoiler" title="you can set spoilers visible by default on your profile"> an explicit prophecy that she will end the world</span>, and her entire character arc has her confronting an ever-escalating series of barriers that she must penetrate to reach her goals.</li><li> There are a lot of references to various hand and arm tropes, mostly involving Vivi. There's her personal interests (gadgets) and chosen career (thief), a nightmare in which losing a hand figures prominently, a childhood incident when she did witness someone losing a hand, an encounter with a villager who has severely injured her forearm with a hedge cutter, and even a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheseHandsHaveKilled" title="/pmwiki/pmwiki.php/Main/TheseHandsHaveKilled">These Hands Have (almost) Killed</a> moment after her attempted assassination of Eldor (she actually did managed to kill Sylas, though she doesn't know it.) There's also the prison official who loses a hand to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalCut" title="/pmwiki/pmwiki.php/Main/PortalCut">Portal Cut</a> in Lili's escape attempt. Not to mention the mysterious symbol on Vivi's hand at the end of <em><a class="urllink" href="http://www.sandraandwoo.com/gaia/2013/10/29/the-tower-in-the-sky-049/">The Tower in the Sky<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>, and later in <a class="urllink" href="http://www.sandraandwoo.com/gaia/2015/05/15/breaking-all-barriers-070/">her next vision in <img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><em><a class="urllink" href="http://www.sandraandwoo.com/gaia/2015/05/15/breaking-all-barriers-070/">Breaking All Barriers<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em>. All of this implies that her hand or hands may be a key to the climax.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodIsNotNice" title="/pmwiki/pmwiki.php/Main/GoodIsNotNice">Good Is Not Nice</a>: Gaia's chosen San de Vertis acts like a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist" title="/pmwiki/pmwiki.php/Main/WellIntentionedExtremist">Well-Intentioned Extremist</a> in public and talks like a power hungry schemer in private.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GutPunch" title="/pmwiki/pmwiki.php/Main/GutPunch">Gut Punch</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> <a class="urllink" href="http://www.sandraandwoo.com/gaia/2012/02/21/the-red-hall-042/">That panel<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></span>. See Wham Episode entry below.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HandicappedBadass" title="/pmwiki/pmwiki.php/Main/HandicappedBadass">Handicapped Badass</a>: Viviana might have lost both legs (replaced with prosthetics), but that won't stop her from personally leading a mission to stop Eldor.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicBSOD" title="/pmwiki/pmwiki.php/Main/HeroicBSOD">Heroic BSoD</a>: Viviana is so shocked after her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyGodWhatHaveIDone" title="/pmwiki/pmwiki.php/Main/MyGodWhatHaveIDone">My God, What Have I Done?</a> moment Illias has to carry her from the scene.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroesWithBadPublicity" title="/pmwiki/pmwiki.php/Main/HeroesWithBadPublicity">Heroes With Bad Publicity</a>: The Shadowdancers are an intentional case: They cultivate the image of a gang of sneak thieves and cat burglars when they're actually the Illeasar national liberation movement in disguise.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HiddenElfVillage" title="/pmwiki/pmwiki.php/Main/HiddenElfVillage">Hidden Elf Village</a>: It's only accessible through <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagiTek" title="/pmwiki/pmwiki.php/Main/MagiTek">Magitek</a> portals and they appear to be up to no good.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoldYourHippogriffs" title="/pmwiki/pmwiki.php/Main/HoldYourHippogriffs">Hold Your Hippogriffs</a>: "Sent back to Gaia" for death, "jump in the void" for "go to hell."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HorsingAround" title="/pmwiki/pmwiki.php/Main/HorsingAround">Horsing Around</a>: Casper may be gentle but he has his limits, as demonstrated when <a class="urllink" href="http://www.sandraandwoo.com/gaia/2015/01/02/breaking-all-barriers-034/">he spooks and bolts in the forest, dumping Viviana.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IHaveYourWife" title="/pmwiki/pmwiki.php/Main/IHaveYourWife">I Have Your Little Brother</a>: Eldor lures Lili and crew to Oakdale and tricks her into fooling with dangerous barrier magic by hiding her younger brother behind a magical barrier.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InterrogationByVandalism" title="/pmwiki/pmwiki.php/Main/InterrogationByVandalism">Interrogation by Vandalism</a>: Viviana intimidates Silas Audin <a class="urllink" href="http://www.sandraandwoo.com/gaia/2015/08/14/breaking-all-barriers-096/">by slashing a painting<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> with an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade" title="/pmwiki/pmwiki.php/Main/AbsurdlySharpBlade">Absurdly Sharp Blade</a> &mdash; which also serves to demonstrate how ridiculously sharp the rainbow knife is before Ilias threatens him with it directly.<div class="indent"><strong>Viviana:</strong> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContrivedClumsiness" title="/pmwiki/pmwiki.php/Main/ContrivedClumsiness">Oops.</a></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IDidntMeanToKillHim" title="/pmwiki/pmwiki.php/Main/IDidntMeanToKillHim">I Didn't Mean to Kill Him</a> with an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AccidentalMurder" title="/pmwiki/pmwiki.php/Main/AccidentalMurder">Accidental Murder</a> thrown in: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Vivi</span> accidentally kills two guards and a innocent bystander with an ancient magical weapon. She can't claim to be innocent because she wielded the weapon with intent, but she had no idea it had powers she couldn't control, which just makes things worse from a certain perspective.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold" title="/pmwiki/pmwiki.php/Main/JerkWithAHeartOfGold">Jerk with a Heart of Gold</a>: Sandril is a dick to most people, but he really does love Lili.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheSonOfABitch" title="/pmwiki/pmwiki.php/Main/KickTheSonOfABitch">Kick the Son of a Bitch</a>: Eldor <a class="urllink" href="http://www.sandraandwoo.com/gaia/2014/07/15/the-letter-of-jael-bara-069/">dispatches of<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a><span class="spoiler" title="you can set spoilers visible by default on your profile"> Delvor</span> in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FateWorseThanDeath" title="/pmwiki/pmwiki.php/Main/FateWorseThanDeath">gruesome way</a>. He was an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AssholeVictim" title="/pmwiki/pmwiki.php/Main/AssholeVictim">Asshole Victim</a>, though. Later turns into a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PetTheDog" title="/pmwiki/pmwiki.php/Main/PetTheDog">Pet the Dog</a> moment for Eldor when he spares the guards.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LingerieScene" title="/pmwiki/pmwiki.php/Main/LingerieScene">Lingerie Scene</a>: Viviana gets a few of these:<ul><li> Viviana is shown shirtless (but wearing a bra) while having some blood washed out of her hair in <a class="urllink" href="http://www.sandraandwoo.com/gaia/2015cp03/03/breaking-all-barriers-050/">the last panel of this page<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. There was some debate whether this was a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JustifiedTrope" title="/pmwiki/pmwiki.php/Main/JustifiedTrope">Justified Trope</a> or not until Novil stated that not showing skin at that point would be as stupid as showing skin without reason.</li><li> Viviana is shown in lingerie in a sex scene <a class="urllink" href="http://www.sandraandwoo.com/gaia/2016/01/05/breaking-all-barriers-136">starting here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> In <a class="urllink" href="http://www.sandraandwoo.com/gaia/2019/10/01/the-last-queen-of-gaia-053/">this scene<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>, Viviana takes her top off to make out with Ilias, only to be interrupted by Lili (who seems to have walked into the bedroom straight through the wall). Wearing just her bra and shorts, Viviana berates Lili for walking in on them, but then gets dressed again.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveTriangle" title="/pmwiki/pmwiki.php/Main/LoveTriangle">Love Triangle</a>: A semi-platonic <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TriangRelations" title="/pmwiki/pmwiki.php/Main/TriangRelations">Type 7</a> between Lili, Ilias and Sandril, later broken when Ilias falls for Vivi.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicKnight" title="/pmwiki/pmwiki.php/Main/MagicKnight">Magic Knight</a>: Ryn is a traditional example with two thirds training as a Fighter and one third as a Wizard. Others like Ilias and Sandril may qualify.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a>: There are cameras, robots, sophisticated security systems, etc, all of which run on magic, plus a lot of mundane items like lightbulbs, notepads and paper bags that modern people take for granted that a preindustrial society would not be able to manufacture and wouldn't be practical to craft by hand.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeaningfulName" title="/pmwiki/pmwiki.php/Main/MeaningfulName">Meaningful Name</a>: The Red Hall arc.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Viviana</span> is subjected to a nightmarish and increasingly surreal experience when she tries to leave Oakdale, which involves being unhorsed, deafened, lost in the woods, and eventually mutilated after chasing herself through the fog, only to discover when she wakes up the next day that it was <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AllJustADream" title="/pmwiki/pmwiki.php/Main/AllJustADream">All Just a Dream</a> except for the part when she fainted and hit her head on a rock.<ul><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Viviana</span> is later subjected to another horrific nightmare where her lover is killed and she dreams again of being mutilated, leading the crew to suspect someone is trying to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Gaslighting" title="/pmwiki/pmwiki.php/Main/Gaslighting">Gaslight</a> her.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MyGodWhatHaveIDone" title="/pmwiki/pmwiki.php/Main/MyGodWhatHaveIDone">My God, What Have I Done?</a>: Viviana after she parries a sword blow with the rainbow knife and the resulting magical backlash dismembers everyone in the room not protected by a magical shield.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast" title="/pmwiki/pmwiki.php/Main/NamesToRunAwayFromReallyFast">Names to Run Away from Really Fast</a>: Bhaal, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodOfEvil" title="/pmwiki/pmwiki.php/Main/GodOfEvil">Demon God</a>. Seemingly subverted with Lili&mdash;her full name is <em>Lilith</em>, but to all appearances she's the nicest person in the comic. <span class="spoiler" title="you can set spoilers visible by default on your profile"> At least until we learn she's destined to destroy the world.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Narm" title="/pmwiki/pmwiki.php/Main/Narm">Narm</a>: Used <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InUniverse" title="/pmwiki/pmwiki.php/Main/InUniverse">In-Universe</a> when Viviana propositions Ilias with a very cheesy <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleEntendre" title="/pmwiki/pmwiki.php/Main/DoubleEntendre">Double Entendre</a>. It is obviously intended to sound just as corny to Ilias as it does to the readership.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OhMyGods" title="/pmwiki/pmwiki.php/Main/OhMyGods">Oh My Gods!</a>: Viviana swears by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodOfEvil" title="/pmwiki/pmwiki.php/Main/GodOfEvil">Bhaal</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrettyButterflies" title="/pmwiki/pmwiki.php/Main/PrettyButterflies">Pretty Butterflies</a>: Introduces a chapter by a butterfly flight acting as a pan.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PrimalScene" title="/pmwiki/pmwiki.php/Main/PrimalScene">Primal Scene</a>: Played with. Vivi deploys a sound cancelling device before sex with Ilias&mdash;only to find out later it wasn't in working order and everyone in the house heard what they were doing, leading to her coming down to breakfast the next morning with a paper bag over her head.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KingIncognito" title="/pmwiki/pmwiki.php/Main/KingIncognito">Queen Incognito</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Viviana</span> is the presumptive Queen of Illeasar, assuming that province regains its independence from Cania. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleSubverted" title="/pmwiki/pmwiki.php/Main/DoubleSubverted">Double Subverted</a> as she actually bears no royal blood; she's just the leader of the resistance and the daughter of two prominent citizens who were also leaders of the resistance, and she has the professed support of the legitimate heir.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RelationshipUpgrade" title="/pmwiki/pmwiki.php/Main/RelationshipUpgrade">Relationship Upgrade</a>: How the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShipTease" title="/pmwiki/pmwiki.php/Main/ShipTease">Ship Tease</a> between Ilias and Viviana finally culminates in "Breaking All Barriers."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RememberTheNewGuy" title="/pmwiki/pmwiki.php/Main/RememberTheNewGuy">Remember the New Guy?</a>: After <span class="spoiler" title="you can set spoilers visible by default on your profile"> the Red Hall attack</span> Ilias asks his mother about his "other friends" (besides Lili, Sandril, Alissa, and Ryn), and she responds that <span class="spoiler" title="you can set spoilers visible by default on your profile">one is dead and the other moved away</span>&mdash;in the lead-up to the attack, however, neither was anywhere to be seen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SchizoTech" title="/pmwiki/pmwiki.php/Main/SchizoTech">Schizo Tech</a>: A swords-and-sorcery fantasy setting that somehow manages to have most of the trappings of a modern industrial society, like paper bags, spiral-bound notebooks, light bulbs and modern clothing. <span class="spoiler" title="you can set spoilers visible by default on your profile"> There's also hidden Elves who display a science-fiction level of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagiTek" title="/pmwiki/pmwiki.php/Main/MagiTek">MagiTek</a></span> Surely a society that can manufacture <a class="urllink" href="http://www.sandraandwoo.com/gaia/2016/01/05/breaking-all-barriers-136/">modern underwire brassieres<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> could also manage firearms or internal combustion engines?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SheCleansUpNicely" title="/pmwiki/pmwiki.php/Main/SheCleansUpNicely">She Cleans Up Nicely</a>: Viviana is quite the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GirlyGirl" title="/pmwiki/pmwiki.php/Main/GirlyGirl">Girly Girl</a> when not on a mission, it appears to be as much misdirection as inclination&mdash;Alissa and Ryn certainly never suspected the cute young woman with a yen for pretty dresses and sun hats was the badass leader of the notorious Shadowdancers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShipTease" title="/pmwiki/pmwiki.php/Main/ShipTease">Ship Tease</a>: Ilias and Viviana, who have gone <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UndercoverAsLovers" title="/pmwiki/pmwiki.php/Main/UndercoverAsLovers">Undercover as Lovers</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeOutMakeOut" title="/pmwiki/pmwiki.php/Main/FakeOutMakeOut">kissed</a>, as well as <a class="urllink" href="http://www.sandraandwoo.com/gaia/2014/11/04/breaking-all-barriers-017/#comments">other moments<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.<ul><li> The ship was formally launched in January 2016, <a class="urllink" href="http://www.sandraandwoo.com/gaia/2016/01/05/breaking-all-barriers-136/">though you will note that Vivi is still teasing Ilias.<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpannerInTheWorks" title="/pmwiki/pmwiki.php/Main/SpannerInTheWorks">Spanner in the Works</a>: Ryn suspects Vivi has the potential to be a spanner in the works for Eldor's plans because she was also conceived in the shadow of the great tree during Greendew's spring festival.<ul><li> Some of Lilith's actions imply that she may be trying to set up a spanner in the works scenario despite her apparent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceHeelTurn" title="/pmwiki/pmwiki.php/Main/FaceHeelTurn">Face&#150;Heel Turn</a> though it could also be part of a deeper <a class="twikilink" href="/pmwiki/pmwiki.php/Main/XanatosGambit" title="/pmwiki/pmwiki.php/Main/XanatosGambit">Xanatos Gambit</a> on her or Eldor's part.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad" title="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad">Spotlight-Stealing Squad</a>: For a while Viviana was getting more face time than the supposed main characters, and polls as by far the most popular character among readers.<ul><li> Subverted when Vivi becomes a main character&mdash;as she was always intended to be, per <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a>&mdash;when she gets trapped with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiveManBand" title="/pmwiki/pmwiki.php/Main/FiveManBand">Five-Man Band</a> in Oakdale.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StealthHiBye" title="/pmwiki/pmwiki.php/Main/StealthHiBye">Stealth Hi/Bye</a>: A masked man pulls the Hi version on Lilith.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StepfordSmiler" title="/pmwiki/pmwiki.php/Main/StepfordSmiler">Stepford Smiler</a>: The citizens of Oakdale are suffering the effects of years of Eldor's meddling. They seem nice enough, and happy enough until you start asking questions that trigger their conditioning.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrangeSyntaxSpeaker" title="/pmwiki/pmwiki.php/Main/StrangeSyntaxSpeaker">Strange-Syntax Speaker</a>: Ars will always speak in third-person, future tense. Most other imps will also talk this way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThirdPersonPerson" title="/pmwiki/pmwiki.php/Main/ThirdPersonPerson">Third-Person Person</a>: Imps speak this way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UncannyVillage" title="/pmwiki/pmwiki.php/Main/UncannyVillage">Uncanny Village</a>: Oakdale seems idyllic... until you try to leave. Or start asking questions about the unusual number of girls and young women who have died, gone insane, or gone missing over the years. Then it flips from an Uncanny Village full of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StepfordSmiler" title="/pmwiki/pmwiki.php/Main/StepfordSmiler">StepfordSmilers</a> to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TownWithADarkSecret" title="/pmwiki/pmwiki.php/Main/TownWithADarkSecret">Town with a Dark Secret</a> full of hostile villagers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheUnfettered" title="/pmwiki/pmwiki.php/Main/TheUnfettered">The Unfettered</a>: Eldor, if what Ryn suspects of him is true: decades (possibly centuries) spent empowering and then murdering girls just to act as prototypes for his ultimate weapon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamEpisode" title="/pmwiki/pmwiki.php/Main/WhamEpisode">Wham Episode</a>: The first chapter. The world and the cast are just been introduced to the audience, the plot revolves around the main characters trying to get their fighter and wizard degrees at the local academy. There are no threats nor good reasons to put them on adventure. And then, during the academy's prom night, <span class="spoiler" title="you can set spoilers visible by default on your profile"> some masked men teleport themselves right into the prom and start a killing spree among the students and the teachers.</span><ul><li> Lili's apparent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FaceHeelTurn" title="/pmwiki/pmwiki.php/Main/FaceHeelTurn">Face&#150;Heel Turn</a> at the end of "Breaking All Barriers".</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhamLine" title="/pmwiki/pmwiki.php/Main/WhamLine">Wham Line</a>:<div class="indent"> <span class="spoiler" title="you can set spoilers visible by default on your profile"> <strong>San de Vertis:</strong> In a few weeks&#146; time, a spell will be cast. A spell that will destroy the world. And Lilith Caillean will cast it!</span></div></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMagic" title="/pmwiki/pmwiki.php/Main/WhiteMagic">White Magic</a> / <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackMagic" title="/pmwiki/pmwiki.php/Main/BlackMagic">Black Magic</a>: The Bluestream is Gaia's magic, while the Redstream is Bhaal's. Purplestream magic (the obvious combination of the two) has been mentioned but not demonstrated.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldTree" title="/pmwiki/pmwiki.php/Main/WorldTree">World Tree</a>: The Great Tree of Greendew is described in the glossary as a massive, divine tree as old as life itself.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WrenchWench" title="/pmwiki/pmwiki.php/Main/WrenchWench">Wrench Wench</a>: Viviana enjoys building <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a> devices.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/XanatosGambit" title="/pmwiki/pmwiki.php/Main/XanatosGambit">Xanatos Gambit</a>: Eldor appears to be running a centuries-long gambit intended to trigger <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt" title="/pmwiki/pmwiki.php/Main/TheEndOfTheWorldAsWeKnowIt">The End of the World as We Know It</a>. His primary tool Lillith may be running a gambit of her own if the way she scattered her friends to the places where they'd most likely function as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpannerInTheWorks" title="/pmwiki/pmwiki.php/Main/SpannerInTheWorks">Spanners in the works</a> was her idea and not his. Finally, Gaia's chosen San de Vertis appears to be running her own gambit with King Savos to take over the world after "beating the evil out of Lillith". By the midpoint of "Monster" a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GambitPileup" title="/pmwiki/pmwiki.php/Main/GambitPileup">Gambit Pileup</a> seems inevitable.</li></ul><p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/ComicStrip/CaptnCrazy">Capt'n Crazy</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/GermanMedia">German Media</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Nichtlustig">Nichtlustig</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Fweeeeetopia">Fweeeeetopia</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyWebcomics">Fantasy Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Webcomic/Galebound">Galebound</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/CardCarryingVillain/Webcomics">Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/Webcomics">ImageSource/Webcomics</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ContrivedClumsiness">Contrived Clumsiness</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

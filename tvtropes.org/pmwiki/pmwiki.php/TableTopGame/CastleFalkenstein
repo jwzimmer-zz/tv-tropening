@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Castle Falkenstein (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="Castle Falkenstein is a Gaslamp Fantasy tabletop RPG published in 1994 by R. Talsorian Games. A handful of supplements followed, and a GURPS adaptation of &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/CastleFalkenstein" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Castle Falkenstein (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="Castle Falkenstein is a Gaslamp Fantasy tabletop RPG published in 1994 by R. Talsorian Games. A handful of supplements followed, and a GURPS adaptation of &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/castle_falkenstein_cover_3303.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Castle Falkenstein (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/CastleFalkenstein" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/castle_falkenstein_cover_3303.jpg" />
+<meta property="og:description" content="Castle Falkenstein is a Gaslamp Fantasy tabletop RPG published in 1994 by R. Talsorian Games. A handful of supplements followed, and a GURPS adaptation of the setting was published in 2000. Fat Goblin Games acquired the license to put out &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/BreakoutCharacter" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/TokyoDrifter" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/CastleFalkenstein?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/CastleFalkenstein">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.CastleFalkenstein">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=CastleFalkenstein&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.CastleFalkenstein">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/CastleFalkenstein?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="CastleFalkenstein" />
+<input type="hidden" id="article_id" value="317483" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/CastleFalkenstein</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+Castle Falkenstein
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Castle Falkenstein"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/CastleFalkenstein" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/CastleFalkenstein" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/CastleFalkenstein" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/CastleFalkenstein?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/CastleFalkenstein?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/CastleFalkenstein?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/CastleFalkenstein?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/CastleFalkenstein?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/CastleFalkenstein?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/CastleFalkenstein?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/CastleFalkenstein?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/CastleFalkenstein?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/CastleFalkenstein?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/CastleFalkenstein?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/CastleFalkenstein?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/CastleFalkenstein?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/CastleFalkenstein?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/CastleFalkenstein?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/CastleFalkenstein?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/CastleFalkenstein?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:256px;"><div class="lazy_load_img_box" style="padding-top:132.81%"><img src="https://static.tvtropes.org/pmwiki/pub/images/castle_falkenstein_cover_3303.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/castle_falkenstein_cover_3303.jpg" width="256" height="340"></div></div><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Castle Falkenstein</em> is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GaslampFantasy" title="/pmwiki/pmwiki.php/Main/GaslampFantasy">Gaslamp Fantasy</a> tabletop RPG published in 1994 by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/RTalsorianGames" title="/pmwiki/pmwiki.php/Creator/RTalsorianGames">R. Talsorian Games</a>. A handful of supplements followed, and a <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a> adaptation of the setting was published in 2000. Fat Goblin Games acquired the license to put out additional supplements in 2016, but it reverted to R. Talisorian after a few years. R. Talsorian announced a 25th-anniversary edition in 2018 for release in 2019, though as of yet nothing has appeared.</p><p>The story is an alternate universe set during the Victorian era, mostly in Europe &mdash; or as it's called in this universe, New Europa. Many fixtures of period fiction, high fantasy, and real history are all present, including high society intrigue, wars between European powers, and the shadowy presence of magicians and faeries.</p><p>Rather than being a straight setting for the 19th century era like <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Victoriana" title="/pmwiki/pmwiki.php/TabletopGame/Victoriana">Victoriana</a>, Castle Falkenstein</em> defines itself with the slogan of "the Victorian Era as it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SlidingScaleLongName" title="/pmwiki/pmwiki.php/Main/SlidingScaleLongName">Should Have Been</a>", in which gallant <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigDamnHeroes" title="/pmwiki/pmwiki.php/Main/BigDamnHeroes">men and women</a> fight the forces of evil, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SteamPunk" title="/pmwiki/pmwiki.php/Main/SteamPunk">steam-powered contraptions</a> fill the skies and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyKitchenSink" title="/pmwiki/pmwiki.php/Main/FantasyKitchenSink">faeries</a> are a regular sight in the cities of Europe. While calling itself a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Steampunk" title="/pmwiki/pmwiki.php/Main/Steampunk">Steampunk</a> setting, the books constantly imply and point out that many of the technologies are thanks to subtle (and unconscious) manipulation of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">sorcery,</a> making it a straight <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GaslampFantasy" title="/pmwiki/pmwiki.php/Main/GaslampFantasy">Gaslamp Fantasy</a> with a heavy dose of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoFistedTales" title="/pmwiki/pmwiki.php/Main/TwoFistedTales">Two-Fisted Tales</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DungeonPunk" title="/pmwiki/pmwiki.php/Main/DungeonPunk">Dungeon Punk</a> for good measure.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>The corebook itself is a whimsical mix of illustrated novel, world book, and game; most of it is glossy, coloured, illustrated and completely avoids mentioning any rules, while telling the story of Tom Olam, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AuthorAvatar" title="/pmwiki/pmwiki.php/Main/AuthorAvatar">game designer</a> plucked magically from Earth to help in the ongoing fight against the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Unseelie</a> and their human collaborator, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDragon" title="/pmwiki/pmwiki.php/Main/TheDragon">Otto von Bismarck</a>; occasional stops are made for more in-depth exposition about life in <em>New Europa</em>.</p><p>The final chapter details the rules; true to form, they're designed to be played in the context of Victorian-era aristocratic life. Therefore, action resolution is through playing cards (which are a wholesome pastime), not dice (which are for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ValuesDissonance" title="/pmwiki/pmwiki.php/Main/ValuesDissonance">uncouth knaves</a>), while characters are detailed using diaries, because Xerox machines for character sheets weren't available in the 1870's (Charles Babbage, however, invented data forms in the 1830s... so some kind of datasheet wasn't entirely out of timeframe).</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>(Not to be confused with <a class="twikilink" href="/pmwiki/pmwiki.php/Film/WarGames" title="/pmwiki/pmwiki.php/Film/WarGames">Falken's Maze</a>.)</p><p></p><hr><h2>Contains examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionDressRip" title="/pmwiki/pmwiki.php/Main/ActionDressRip">Action Dress Rip</a>: An adventuress who finds that she has to defend herself while dressed for Victorian propriety may have to improvise...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionGirl" title="/pmwiki/pmwiki.php/Main/ActionGirl">Action Girl</a>: Marianne from the "novels". The gentlewoman, the Demimondaine and the sorceress for the actual game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnachronismStew" title="/pmwiki/pmwiki.php/Main/AnachronismStew">Anachronism Stew</a>: In part because of the Faeries, who had traveled through several dimensions, some of them in the space age. Mostly because there are enough <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad Scientists</a> to give <a class="twikilink" href="/pmwiki/pmwiki.php/Webcomic/GirlGenius" title="/pmwiki/pmwiki.php/Webcomic/GirlGenius">Agatha Heterodyne</a> a run for her money.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnnoyingArrows" title="/pmwiki/pmwiki.php/Main/AnnoyingArrows">Annoying Arrows</a>: On the Ranged Weapons of the Steam Age table, bows, thrown daggers, and thrown spears are listed having the lowest damage, only inflicting 3 damage on a High success. In comparison, a character with Average Courage and Physique will have 5 Health, which is the damage a shotgun does on a Partial Success.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArabianNightsDays" title="/pmwiki/pmwiki.php/Main/ArabianNightsDays">"Arabian Nights" Days</a>: The <em>Ottoman Empire</em> sourcebook (published by Steve Jackson Games and dual-statted for the <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/GURPS" title="/pmwiki/pmwiki.php/TabletopGame/GURPS">GURPS</a> conversion of the setting) looks, not surprisingly, at the Ottoman Empire in the Falkenstein world &mdash; drawing on history, Arabian fantasy, and authentic Muslim folklore.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant" title="/pmwiki/pmwiki.php/Main/AwakeningTheSleepingGiant">Awakening the Sleeping Giant</a>: NO ONE, not even the Unseelie lords, wants to mess with Russia. It's pointed out that it has enough soldiers and weaponry to crush all the factions in New Europa. Thankfully, its mad emperor is too occupied using all its resources to screw its own people to care what the other nations (and races) are doing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BalanceOfPower" title="/pmwiki/pmwiki.php/Main/BalanceOfPower">Balance of Power</a>: What is stopping World War I from starting early.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BenevolentConspiracy" title="/pmwiki/pmwiki.php/Main/BenevolentConspiracy">Benevolent Conspiracy</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheIlluminati" title="/pmwiki/pmwiki.php/Main/TheIlluminati">The Illuminati</a>, in contrast to their more malevolent rivals in the Golden Dawn.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a>: The Adversary, leader of the Unseelie Court. He's usually at least peripherally involved in all evil doings in New Europa, and most of them in America, too.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBrotherIsWatching" title="/pmwiki/pmwiki.php/Main/BigBrotherIsWatching">Big Brother Is Watching</a>: Russia, Prussia and England.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BombThrowingAnarchist" title="/pmwiki/pmwiki.php/Main/BombThrowingAnarchist">Bomb Throwing Anarchist</a>: The Marxist character type, and members of the World Crime League.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CanonDiscontinuity" title="/pmwiki/pmwiki.php/Main/CanonDiscontinuity">Canon Discontinuity</a>: For Fat Goblin Games, the Steve Jackson books are discontinuity, in large part thanks to copyright issues.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CloakAndDagger" title="/pmwiki/pmwiki.php/Main/CloakAndDagger">Cloak &amp; Dagger</a>: If you want information, you better be ready to get your hands dirty.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolAirship" title="/pmwiki/pmwiki.php/Main/CoolAirship">Cool Airship</a>: Robur the Conqueror's <em>Albatross</em> and the Bayernese aero-warships.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolBoat" title="/pmwiki/pmwiki.php/Main/CoolBoat">Cool Boat</a>: Captain Nemo's <em>Nautilus</em> steals the show, of course, but the governments of Britain and the U.S. also have some neat naval toys.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CoolCar" title="/pmwiki/pmwiki.php/Main/CoolCar">Cool Car</a>: Can we interest you in a steam-powered Mercedes? Or perhaps a Rolls Royce?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CovertGroupWithMundaneFront" title="/pmwiki/pmwiki.php/Main/CovertGroupWithMundaneFront">Covert Group with Mundane Front</a>: Tom pointed out that in his four very active years as a spy for Bayern, he had yet to find a secret organization that <em>doesn't do this</em> in some nation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrapsackWorld" title="/pmwiki/pmwiki.php/Main/CrapsackWorld">Crapsack World</a>: The books don't scruple to remind us how messed and screwed our world and our society is at every opportunity.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyDecadentCourt" title="/pmwiki/pmwiki.php/Main/DeadlyDecadentCourt">Deadly Decadent Court</a>: Russia. France in a more harmless way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathRay" title="/pmwiki/pmwiki.php/Main/DeathRay">Death Ray</a>: No self-respecting Mastermind would lack at least a plan for one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolicalMastermind" title="/pmwiki/pmwiki.php/Main/DiabolicalMastermind">Diabolical Mastermind</a>: All over the place. And referred to as such.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DinosaursAreDragons" title="/pmwiki/pmwiki.php/Main/DinosaursAreDragons">Dinosaurs Are Dragons</a>: Dragons are part of the political scene and are known to be the descendants of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GiantFlyer" title="/pmwiki/pmwiki.php/Main/GiantFlyer">pterosaurs</a> who survived the extinction of the dinosaurs by developing intelligence and magic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DirectLineToTheAuthor" title="/pmwiki/pmwiki.php/Main/DirectLineToTheAuthor">Direct Line to the Author</a>: The <em>Castle Falkenstein</em> books are allegedly sent from New Europa by Tom Olam, an acquaintance of game publisher Mike Pondsmith who mysteriously vanished during a vacation in Europe; Olam sends documents to Pondsmith claiming to have been abducted to a Steam Punk-plus-magic alternate world, in which he wrote the rules to the game using cards because the local nobility were scandalized at the thought of gaming with dice. Some of the books are written by Olam himself, while others are written by residents of New Europa.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica" title="/pmwiki/pmwiki.php/Main/DividedStatesOfAmerica">Divided States of America</a>: There's the United States of America, which is ruled by the Freemasons and essentially stops at the Mississippi; the Republic of Texas, which also includes New Mexico and Arizona; the Free State of Orleans, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Wretched Hive</a> run by piracy and voodoo; the Twenty Nations Confederation, made up of Native Americans and covering everything between the Mississippi and Nevada; and the Bear Flag Empire, which encompasses California, Oregon, and Washington and is ruled by Emperor Norton I in partnership with Kit Carson and Mark Twain.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoubleReverseQuadrupleAgent" title="/pmwiki/pmwiki.php/Main/DoubleReverseQuadrupleAgent">Double Reverse Quadruple Agent</a>: Russia, followed slightly behind by Prussia and England.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DuelToTheDeath" title="/pmwiki/pmwiki.php/Main/DuelToTheDeath">Duel to the Death</a>: Honor and Virtue are really that important in the 19th century.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmperorScientist" title="/pmwiki/pmwiki.php/Main/EmperorScientist">Emperor Scientist</a>: Lord Yoshikazu Tomino, one of the setting's most successful Masterminds, who rules the northern Japanese islands with the aid of his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilGloating" title="/pmwiki/pmwiki.php/Main/EvilGloating">Evil Gloating</a>: A must for any dramatic persona of the Villain category.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFairFolk" title="/pmwiki/pmwiki.php/Main/TheFairFolk">The Fair Folk</a>: The Unseelie, who want nothing more than to wipe out/enslave all of humanity, because that's what they exist for. The Seelie are nicer overall to humans, but you still don't want to piss them off. <span class="spoiler" title="you can set spoilers visible by default on your profile">Although see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaHoudini" title="/pmwiki/pmwiki.php/Main/KarmaHoudini">Karma Houdini</a> below for a rather nasty reveal...</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FemmeFataleSpy" title="/pmwiki/pmwiki.php/Main/FemmeFataleSpy">Femme Fatale Spy</a>: Quite active in the age and one of the ways to play the Demimondaine.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FisherKing" title="/pmwiki/pmwiki.php/Main/FisherKing">Fisher King</a>: New Europa seems to work, at least in some degree, like this. Compare the rulers from Bayern, France and the Bear Flag Empire with Prussia, Russia and the Ottoman Empire and see how their territories exist. Hell, technically speaking, the entire adventure to crown Ludwig was because of this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FromNobodyToNightmare" title="/pmwiki/pmwiki.php/Main/FromNobodyToNightmare">From Nobody to Nightmare</a>: How most of New Europa see Bismarck and Prussia, especially since 20 years before the only true powers were France and England.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GadgeteerGenius" title="/pmwiki/pmwiki.php/Main/GadgeteerGenius">Gadgeteer Genius</a>: It's <em>the</em> hobby for all the gentlemen and gentlewomen of good breeding in New Europa. And even more widespread in America.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GadgetWatches" title="/pmwiki/pmwiki.php/Main/GadgetWatches">Gadget Watches</a>: There are probably a couple of pieces of jewelry and gentlemen's accessories that aren't this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenderRestrictedAbility" title="/pmwiki/pmwiki.php/Main/GenderRestrictedAbility">Gender-Restricted Ability</a>: Played with. While sorcery is not truly gender restricted, women tend to be far stronger, dexterous and numerous than men in magick. This is one of the explanations why women's emancipation happened several centuries earlier in New Europa.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GeometricMagic" title="/pmwiki/pmwiki.php/Main/GeometricMagic">Geometric Magic</a>: Sorcery as science in a nutshell.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GermansLoveDavidHasselhoff" title="/pmwiki/pmwiki.php/Main/GermansLoveDavidHasselhoff">Germans Love David Hasselhoff</a>: In-universe. The Great Game sweeps the drawing rooms and salons of Europa, from the most humble middle class to nobility and is greatly enjoyed (and endorsed) by Kings, Faerie Lords and otherworldly beings alike.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GloveSlap" title="/pmwiki/pmwiki.php/Main/GloveSlap">Glove Slap</a>: If you are not ready to die for your words, then be silent.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodSaveUsFromTheQueen" title="/pmwiki/pmwiki.php/Main/GodSaveUsFromTheQueen">God Save Us from the Queen!</a>: Marie Laveau, the Voodoo Queen of New Orleans and the unofficial Queen of the Free State of Orleans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGoodKing" title="/pmwiki/pmwiki.php/Main/TheGoodKing">The Good King</a>: King Ludwig and Emperor Norton. Queen Victoria means well, but she's an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnwittingPawn" title="/pmwiki/pmwiki.php/Main/UnwittingPawn">Unwitting Pawn</a> of the Steam Lords.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheGoodKingdom" title="/pmwiki/pmwiki.php/Main/TheGoodKingdom">The Good Kingdom</a>: Bayern. It is in fact constantly pointed out how "postcard Disney-like" Bayern actually is compared to the rest of Europa.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GratuitousGerman" title="/pmwiki/pmwiki.php/Main/GratuitousGerman">Gratuitous German</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HalfHumanHybrid" title="/pmwiki/pmwiki.php/Main/HalfHumanHybrid">Half-Human Hybrid</a>: <em>Curious Creatures</em>' Beast Folk encompass things like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurWerewolvesAreDifferent">cursed werewolves</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheIslandOfDoctorMoreau" title="/pmwiki/pmwiki.php/Literature/TheIslandOfDoctorMoreau">Moreau-type creations</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JekyllAndHyde" title="/pmwiki/pmwiki.php/Main/JekyllAndHyde">people following in Dr. Jekyll's footsteps</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HollywoodVoodoo" title="/pmwiki/pmwiki.php/Main/HollywoodVoodoo">Hollywood Voodoo</a>: Marie Laveau is immortal and one of the <em>de facto</em> rulers of Orleans, which is defended by her zombi army. One of her proteges is also a powerful crime boss in San Francisco.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Humanshifting" title="/pmwiki/pmwiki.php/Main/Humanshifting">Humanshifting</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Weredragon" title="/pmwiki/pmwiki.php/Main/Weredragon">Dragons</a> and True Unicorns can both take human form (or human-<em>like</em> form, in the Dragons' case).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HumongousMecha" title="/pmwiki/pmwiki.php/Main/HumongousMecha">Humongous Mecha</a>: Sort of inevitable in this setting, wasn't it? Lord Tomino is currently in the process of conquering Japan with his 100-foot-tall, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GatlingGood" title="/pmwiki/pmwiki.php/Main/GatlingGood">Gatling-armed</a> Giant Steam Automaton.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HypnoRay" title="/pmwiki/pmwiki.php/Main/HypnoRay">Hypno Ray</a>: Dr. Lovelorn used one to take over Washington, D.C.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheIlluminati" title="/pmwiki/pmwiki.php/Main/TheIlluminati">The Illuminati</a>: A force of good and the nemesis of the Unseelie and the World Crime League.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IstanbulNotConstantinople" title="/pmwiki/pmwiki.php/Main/IstanbulNotConstantinople">Istanbul (Not Constantinople)</a>: Most of Europe &mdash; sorry, "Europa" &mdash; has the same names and borders as in our reality, but South America is Antillea, and the Atlantic Ocean is the Atlantean Ocean, among other things.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JadeColoredGlasses" title="/pmwiki/pmwiki.php/Main/JadeColoredGlasses">Jade-Colored Glasses</a>: One of the first and most lasting cultural clashes of Tom with the citizens of New Europa. As far Tom is concerned, all technology will end in dystopia (a rabid dog as he put it) and destruction. He is a firm supporter of the Second Compact, whose purpose is to slow (and in some cases stop altogether) the advancement of technology for the sake of the world.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaHoudini" title="/pmwiki/pmwiki.php/Main/KarmaHoudini">Karma Houdini</a>: If the complementary book "Memoirs of Auberon of Faerie" is anywhere near correct, <em>all</em> the Fae, whether Seelie or Unseelie, are <span class="spoiler" title="you can set spoilers visible by default on your profile"> unrepentant mass murderers, <strong>literally</strong> killing, raping, torturing and bringing two entire dimensions' worth of millions of humans to extinction... and so far they have shown no sense of remorse</span>. It really gives you a new perspective on the witty, charming Fae you met in the ballroom, huh? That said, there are some, such as the Sphinxes, interested in delivering a measure of karma to the Fae... although they're not much better than their enemies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LadyOfWar" title="/pmwiki/pmwiki.php/Main/LadyOfWar">Lady of War</a>: The Adventuress archetype.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LightningGun" title="/pmwiki/pmwiki.php/Main/LightningGun">Lightning Gun</a>: The Lightning Hurler (more formally, the Focussed Electrical Discharge Cannon) in the <em>Steam Age</em> supplement. It fires a lightning bolt as far as the horizon that can burn its target to ashes, including destroying the walls of a fortress.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad Scientist</a>: So abundant that there are periodic tabloids that post monthly news and journals for the new scientific overlord in the making.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagnificent" title="/pmwiki/pmwiki.php/Main/TheMagnificent">The Magnificent</a>: Dwarven Names are like this (as opposed to their personal names, given by their parents). A dwarf who does something no dwarf has done before gets a Name (epithet) indicative of their accomplishment; Rhyme, for creating magical automata, becomes Rhyme Enginemaster.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagocracy" title="/pmwiki/pmwiki.php/Main/TheMagocracy">The Magocracy</a>: The United States is run by the Freemasons, which in this setting is a Sorcerous Order. It's actually written into the Constitution that the President <em>must</em> be a member.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/ManifestDestiny" title="/pmwiki/pmwiki.php/UsefulNotes/ManifestDestiny">Manifest Destiny</a>: The American Freemasons benefit from a magic ritual (cast by the Founding Fathers!) that causes them to grow in magical power as the United States expands. Hence, they are keenly interested in seeing Texas, Orleans, the Twenty Nations Confederation, and the Bear Flag Empire brought into the fold.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MassiveMultiplayerCrossover" title="/pmwiki/pmwiki.php/Main/MassiveMultiplayerCrossover">Massive Multiplayer Crossover</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/SherlockHolmes" title="/pmwiki/pmwiki.php/Franchise/SherlockHolmes">Sherlock Holmes</a> (and assorted sidekicks and nemeses), <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Dracula" title="/pmwiki/pmwiki.php/Literature/Dracula">Dracula</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Frankenstein" title="/pmwiki/pmwiki.php/Literature/Frankenstein">Dr. Frankenstein</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TwentyThousandLeaguesUnderTheSea" title="/pmwiki/pmwiki.php/Literature/TwentyThousandLeaguesUnderTheSea">Captain Nemo</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/AroundTheWorldInEightyDays" title="/pmwiki/pmwiki.php/Literature/AroundTheWorldInEightyDays">Phileas Fogg</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/JohnCarterOfMars" title="/pmwiki/pmwiki.php/Literature/JohnCarterOfMars">John Carter of Mars</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Flashman" title="/pmwiki/pmwiki.php/Literature/Flashman">Flashman</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/ThePrisonerOfZenda" title="/pmwiki/pmwiki.php/Literature/ThePrisonerOfZenda">Rudolf Rassendyll</a> all show up, to say nothing of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawyerFriendlyCameo" title="/pmwiki/pmwiki.php/Main/LawyerFriendlyCameo">Lawyer Friendly Cameos</a> from <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/FuManchu" title="/pmwiki/pmwiki.php/Literature/FuManchu">Fu Manchu</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheWildWildWest" title="/pmwiki/pmwiki.php/Series/TheWildWildWest">Dr. Loveless</a>. And all of them mingle with just about every 19th century historical figure you can think of, from Queen Victoria and Chancellor von Bismarck to Mark Twain and Emperor Norton.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mayincatec" title="/pmwiki/pmwiki.php/Main/Mayincatec">Mayincatec</a>: The blood mages.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MegaCorp" title="/pmwiki/pmwiki.php/Main/MegaCorp">Mega-Corp</a>: The Steam Lords of Britain dream of establishing these...and are working with Bismarck and the Unseelie to make it happen.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ModernMayincatecEmpire" title="/pmwiki/pmwiki.php/Main/ModernMayincatecEmpire">Modern Mayincatec Empire</a>: The Mayans got magical advance notice of the coming of the Spanish, enabling them to preserve a fair degree of autonomy as a Spanish ally and protectorate. The Incas used powerful magic and alien super-technology to annihilate would-be conquerors.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NebulousEvilOrganization" title="/pmwiki/pmwiki.php/Main/NebulousEvilOrganization">Nebulous Evil Organization</a>:<ul><li> The World Crime League, a cross between <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSyndicate" title="/pmwiki/pmwiki.php/Main/TheSyndicate">The Syndicate</a> and a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WeirdTradeUnion" title="/pmwiki/pmwiki.php/Main/WeirdTradeUnion">Weird Trade Union</a> for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolicalMastermind" title="/pmwiki/pmwiki.php/Main/DiabolicalMastermind">Diabolical Masterminds</a>.</li><li> The Phantom Empire, founded by Alexander Hamilton to transform the United States into a monarchy. It's currently embroiled in an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyCivilWar" title="/pmwiki/pmwiki.php/Main/EnemyCivilWar">Enemy Civil War</a> between Boss Tweed's Tammany Hall and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolicalMastermind" title="/pmwiki/pmwiki.php/Main/DiabolicalMastermind">Diabolical Mastermind</a> Dr. Inigio Lovelorn.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed" title="/pmwiki/pmwiki.php/Main/NoCelebritiesWereHarmed">No Celebrities Were Harmed</a>: Every sourcebook has a appendix with scores of real historical figures and how they live in this universe.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneGenderRace" title="/pmwiki/pmwiki.php/Main/OneGenderRace">One-Gender Race</a>: Dwarves are exclusively male. They mate with the females of other Faerie-kind; male offspring are Dwarves, while female offspring are the same kind of Fae as their mother.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWheeledWonder" title="/pmwiki/pmwiki.php/Main/OneWheeledWonder">One-Wheeled Wonder</a>: The <em>Steam Age</em> supplement throws in steam-powered unicycles. Just because.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneWorldOrder" title="/pmwiki/pmwiki.php/Main/OneWorldOrder">One World Order</a>: Bismarck's ultimate goal.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDragonsAreDifferent">Our Dragons Are Different</a>: Magical Dragons that survived the extinction of the dinosaurs many millions of years ago.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDwarvesAreAllTheSame" title="/pmwiki/pmwiki.php/Main/OurDwarvesAreAllTheSame">Our Dwarves Are All the Same</a>: Somewhat <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Averted" title="/pmwiki/pmwiki.php/Main/Averted">Averted</a>; while dwarves have some of the miners/dwarfclan/short temper typical feel, they are completely immune to fire, need other races to reproduce, and you will hardly ever find a "Viking-type dwarf", they being consummate engineers/mad scientists. They are also rather indifferent about their beards - but don't you dare to mock <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BerserkButton" title="/pmwiki/pmwiki.php/Main/BerserkButton">their feet</a>. Or their names.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent" title="/pmwiki/pmwiki.php/Main/OurElvesAreDifferent">Our Elves Are Different</a>: Sentient energy beings.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">Our Vampires Are Different</a>: The main vampires in the setting are a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneGenderRace" title="/pmwiki/pmwiki.php/Main/OneGenderRace">One-Gender Race</a> (all female) of Unseelie Faeries. It wasn't until the <em>Book of Sigils</em> sourcebook that actual undead vampires (called "vampirs") were added. <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Dracula" title="/pmwiki/pmwiki.php/Literature/Dracula">Dracula</a> also exists in this setting, but he's actually not a vampire. He's an Unseelie Dark Lord.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoliceState" title="/pmwiki/pmwiki.php/Main/PoliceState">Police State</a>: Russia could give university courses to Moriarty and the World Crime League about it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PraetorianGuard" title="/pmwiki/pmwiki.php/Main/PraetorianGuard">Praetorian Guard</a>: Tom and Co. are part of this for the "Mad King" Ludwig.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy" title="/pmwiki/pmwiki.php/Main/ProudWarriorRaceGuy">Proud Warrior Race Guy</a>: Prussia and France.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReadingTheEnemysMail" title="/pmwiki/pmwiki.php/Main/ReadingTheEnemysMail">Reading the Enemy's Mail</a>: Half of the job of spies. The other half is fighting, hunting and not getting killed getting them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RenegadeSplinterFaction" title="/pmwiki/pmwiki.php/Main/RenegadeSplinterFaction">Renegade Splinter Faction</a>: The American Lodge of the Freemasons, which is sinister and power-hungry in contrast to their benevolent European counterparts.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RuleOfCool" title="/pmwiki/pmwiki.php/Main/RuleOfCool">Rule of Cool</a>: This setting runs on it. How else to explain the existence of an actual country ruled by Emperor Norton?</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RussianGuySuffersMost" title="/pmwiki/pmwiki.php/Main/RussianGuySuffersMost">Russian Guy Suffers Most</a>: Russia is a straight-out <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Dystopia" title="/pmwiki/pmwiki.php/Main/Dystopia">Dystopia</a>, ruled by a mad tsar and dominated by vicious nature spirits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SelfDeprecation" title="/pmwiki/pmwiki.php/Main/SelfDeprecation">Self-Deprecation</a>: A non-humorous example. There is barely an introduction of a facet from New Europa that doesn't have or end with a cynical jab about how much our world sucks, to the point of almost making Tom a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheQuisling" title="/pmwiki/pmwiki.php/Main/TheQuisling">quisling</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShadowDictator" title="/pmwiki/pmwiki.php/Main/ShadowDictator">Shadow Dictator</a>: Aaron Burr, the President for Life of Orleans, hasn't been seen in public in more than 25 years. Given that he's over a hundred years old at this point and his mistress is Marie Laveau, he's probably undead (if he's even still alive at all).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoePhone" title="/pmwiki/pmwiki.php/Main/ShoePhone">Shoe Phone</a>: Spies (and quite a few other people) in the setting love their period-style concealed gadgets, and there are game rules to cover the topic.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: A big chunk of <em>Six-Guns &amp; Sorcery</em> is dedicated to describing the struggles of the U.S. Secret Service against waves of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiabolicalMastermind" title="/pmwiki/pmwiki.php/Main/DiabolicalMastermind">Diabolical Masterminds</a>, particularly the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheNapoleon" title="/pmwiki/pmwiki.php/Main/TheNapoleon">diminutive lunatic</a> Dr. Inigio Lovelorn. <a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheWildWildWest" title="/pmwiki/pmwiki.php/Series/TheWildWildWest">Sound familiar?</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShroudedInMyth" title="/pmwiki/pmwiki.php/Main/ShroudedInMyth">Shrouded in Myth</a>: Phileas Fogg. He's rumored to be a Faerie Lord, a clockwork automaton, a master thief, and even an alien spy. (That last one is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/PhilipJoseFarmer" title="/pmwiki/pmwiki.php/Creator/PhilipJoseFarmer">Philip Jos&eacute; Farmer</a>'s Wold Newton Universe.)</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SkyPirate" title="/pmwiki/pmwiki.php/Main/SkyPirate">Sky Pirate</a>: All over the place. Robur the Conqueror is the face of the profession in Europe, but they're especially numerous in the United States and the Caribbean, where they're usually <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FormerRegimePersonnel" title="/pmwiki/pmwiki.php/Main/FormerRegimePersonnel">Former Regime Personnel</a> of the Confederacy who took their military airships rogue.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Sourcebook" title="/pmwiki/pmwiki.php/Main/Sourcebook">Sourcebook</a>: Originally 7 in total. The Core book, <em>Comme Il Faut</em>, <em>Steam Age</em>, <em>Memoirs of Auberon</em>, <em>Sixguns and Sorcery</em>, <em>Book of Sigils</em> and the <em>Lost Notebooks of Leonardo</em>. Steve Jackson Games gave us <em>Ottoman Empire</em> and the Core book revised six years later. Fat Goblin Games has offered rules variants, adventures, and the bestiary <em>Curious Creatures</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpyFiction" title="/pmwiki/pmwiki.php/Main/SpyFiction">Spy Fiction</a>: Of the Martini Flavored to the point of intoxication. Justified because all the deals and power plays are done in salons, clubs and high class reunions. It's pointed out that for all their skullduggery, professionalism and double-dealing, the spies can't be any less hammy than the society that spawns them.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Steampunk" title="/pmwiki/pmwiki.php/Main/Steampunk">Steampunk</a>: Pretty much all the technology in the setting is of the brass, rivets and steam variety.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubmarinePirates" title="/pmwiki/pmwiki.php/Main/SubmarinePirates">Submarine Pirates</a>: Captain Nemo, of course. But there are so many of them that most governments with coastlines have their own submarines to defend their shipping from raids.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SummonEverymanHero" title="/pmwiki/pmwiki.php/Main/SummonEverymanHero">Summon Everyman Hero</a>: The <em>Castle Falkenstein</em> backstory tells of Tom Olam, computer game designer, who is summoned into a world of Victorian Steampunk Fantasy by a mighty spell. Although he proves to be of some value, the real prize is the book he brought with him &mdash; he picked it up at a used-book shop cheap, and it holds the secret to Saving The Day.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TakeThat" title="/pmwiki/pmwiki.php/Main/TakeThat">Take That!</a>: In <em>Comme Il Faut</em>, in a sidebar from Tom about how he had always thought of the Victorian obsession with "good taste" as a form of hypocrisy, he notes that part of his increased sympathy for the Victorian way of doing things is that at least it's superior to people "showing up on sleazy talk shows flaunting their addictions, abuses and other failings as though they are virtues".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheseAreThingsManWasNotMeantToKnow" title="/pmwiki/pmwiki.php/Main/TheseAreThingsManWasNotMeantToKnow">These Are Things Man Was Not Meant to Know</a>: Explained word for word why Tom is so against the uncontrolled advancement of technology in new Europa.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TookALevelInBadass" title="/pmwiki/pmwiki.php/Main/TookALevelInBadass">Took a Level in Badass</a>: Several for Tom. From a normal American game designer to one of the best secret agents in New Europa and hero of Bayern. Bonus points for gaining these abilities faster than most Adventurers gain PC levels.<ul><li> In <em>Curious Creatures</em>, Thomas Stubbins goes from having fallen into self-loathing mediocrity after he was left behind by <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/DoctorDolittle" title="/pmwiki/pmwiki.php/Literature/DoctorDolittle">Doctor Dolittle</a> to recruiting the Second Compact to help him recover the doctor's final manuscript to ultimately joining their ranks.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TranslationConvention" title="/pmwiki/pmwiki.php/Main/TranslationConvention">Translation Convention</a>: The spell seems to have given Tom the ability to speak "all tongues" since he can understand old German, Russian, French, Polish from the get-go. That or everybody in New Europa or at least Bayern speaks fluent English with an accent.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Unicorn" title="/pmwiki/pmwiki.php/Main/Unicorn">Unicorn</a>: Covered in <em>Curious Creatures</em>, coming in two types, the True and the False. True Unicorns are available as PC options; they resemble graceful, willowy goats with a single horn in the middle of their forehead, and are intelligent, capable of shifting into human form, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingLieDetector" title="/pmwiki/pmwiki.php/Main/LivingLieDetector">able to detect lies and illusions</a>, able to speak to animals in both forms, able to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Telepathy" title="/pmwiki/pmwiki.php/Main/Telepathy">mindspeak</a> in equine form, and incapable of lying. False Unicorns were created from wild horses by the Adversary in mockery of the legends surrounding True Unicorns, and more closely resemble the classic depiction, horses with a horn in the middle of their forehead which are drawn to women. In their case, however, they seek out women because they live in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AndIMustScream" title="/pmwiki/pmwiki.php/Main/AndIMustScream">constant agony</a> that can only be eased when they hunt or kill human females.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Utopia" title="/pmwiki/pmwiki.php/Main/Utopia">Utopia</a>: The Kingdom of Bayern and the Bear Flag Empire are both presented this way.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WildChild" title="/pmwiki/pmwiki.php/Main/WildChild">Wild Child</a>: A PC option in <em>Curious Creatures</em>, available as both the real-world version and the literary <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RaisedByWolves" title="/pmwiki/pmwiki.php/Main/RaisedByWolves">Raised by Wolves</a> version. The racial associations of these tropes and their relatives such as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JunglePrincess" title="/pmwiki/pmwiki.php/Main/JunglePrincess">Jungle Princess</a> also gets some discussion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheWildHunt" title="/pmwiki/pmwiki.php/Main/TheWildHunt">The Wild Hunt</a>: The Unseelie&#146;s enforcement arm.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WoodenShipsAndIronMen" title="/pmwiki/pmwiki.php/Main/WoodenShipsAndIronMen">Wooden Ships and Iron Men</a>: England in the past. In 1900 they have the greatest navy the world has ever seen and their sailors are second to none.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WorldOfHam" title="/pmwiki/pmwiki.php/Main/WorldOfHam">World of Ham</a>: EVERYTHING IS DONE WITH CLASS. If you can't do it in style, then it really isn't worth doing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Wretched Hive</a>: Orleans (New Orleans in our world). Its government is virtually nonexistent, only those neighborhoods that pay the Maire get police protection, and piracy, gambling, and prostitution are all legal and licensed.</li></ul><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Creator/RTalsorianGames">Creator/R. Talsorian Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Cyberpunk">Cyberpunk</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Deadlands">Deadlands</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/GURPSSettings">TabletopGame/GURPS Settings</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ConspiracyX">Conspiracy X</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/CarWars">Car Wars</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Champions">Champions</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/CarWars">Car Wars</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/CerberusEngineGames">Cerberus Engine Games</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/BurningWheel">Burning Wheel</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FantasyTabletopGames">Fantasy Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Champions">Champions</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+ <div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

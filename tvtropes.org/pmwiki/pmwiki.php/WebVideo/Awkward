@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Awkward. (Web Video) - TV Tropes</title>
+<meta name="description" content="Awkward, known also as The Awkward Compilation, is a self-proclaimed &quot;love letter to pop culture&quot; &mdash; a video series about the trials and tribulations &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/WebVideo/Awkward" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Awkward. (Web Video) - TV Tropes" />
+<meta name="twitter:description" content="Awkward, known also as The Awkward Compilation, is a self-proclaimed &quot;love letter to pop culture&quot; &mdash; a video series about the trials and tribulations &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Awkward. (Web Video) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/WebVideo/Awkward" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Awkward, known also as The Awkward Compilation, is a self-proclaimed &quot;love letter to pop culture&quot; &mdash; a video series about the trials and tribulations of an awkward group of Asian-Canadian university students trying to find their own happy &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/DysfunctionalFamily" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/Hercules2014" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/WebVideo/Awkward?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=WebVideo/Awkward">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=WebVideo.Awkward">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=Awkward&g=WebVideo">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=WebVideo.Awkward">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/WebVideo/Awkward?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="WebVideo" />
+<input type="hidden" id="title-hidden" value="Awkward" />
+<input type="hidden" id="article_id" value="404977" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/WebVideo/Awkward</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Web Video / </strong>
+Awkward.
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WebVideo",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/WebVideo"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Awkward."            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Awesome/Awkward" class="subpage-link " title="The Awesome page">
+<span class="wrapper"><span class="spi awesome"></span>Awesome</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Funny/Awkward" class="subpage-link " title="The Funny page">
+<span class="wrapper"><span class="spi funny"></span>Funny</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Series/Awkward" class="subpage-link " title="The Series page">
+<span class="wrapper"><span class="spi series"></span>Series</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Trivia/Awkward" class="subpage-link " title="The Trivia page">
+<span class="wrapper"><span class="spi trivia"></span>Trivia</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/Awkward" class="subpage-link curr-subpage" title="The WebVideo page">
+<span class="wrapper"><span class="spi webvideo"></span>WebVideo</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/YMMV/Awkward" class="subpage-link " title="The YMMV page">
+<span class="wrapper"><span class="spi ymmv"></span>YMMV</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/Awkward?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/Awkward?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/Awkward?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/Awkward?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/Awkward?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/Awkward?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/Awkward?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/Awkward?action=edit">ImageLinks</option>
+ <option value="/pmwiki/pmwiki.php/Laconic/Awkward?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/Awkward?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/Awkward?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/Awkward?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/Awkward?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/Awkward?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/Awkward?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/WMG/Awkward?action=edit">WMG</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:305px;"><div class="lazy_load_img_box" style="padding-top:61.64%"><img src="https://static.tvtropes.org/pmwiki/pub/images/awkwardcompilation_7799.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/awkwardcompilation_7799.jpg" width="305" height="188"></div></div><div class="acaptionright" style="width:305px;"><span class="font-s">"That's my favourite part, you know."</span> </div><p></p><dl><dd><div class="indent"><em>Sunflowers always look to the sky.</em></div></dd></dl><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p><em>Awkward</em>, known also as <em>The Awkward Compilation</em>, is a self-proclaimed "love letter to pop culture" &mdash; a video series about the trials and tribulations of an awkward group of Asian-Canadian university students trying to find their own happy endings and getting in each others' way in the process. Geeky humour, occasional randomness, and the odd spontaneous musical number ensue. Prepare to <a class="twikilink" href="/pmwiki/pmwiki.php/SugarWiki/FunnyMoments" title="/pmwiki/pmwiki.php/SugarWiki/FunnyMoments">laugh until you pee a little</a>.</p><p>Lester and Alex are housemates and friends. One day Lester walks in on Alex <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADateWithRosiePalms" title="/pmwiki/pmwiki.php/Main/ADateWithRosiePalms">making time with his hand</a> and a video of Lester on the toilet, and it becomes apparent that Alex's feelings for him are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HoYay" title="/pmwiki/pmwiki.php/Main/HoYay">a little more than "friendly"</a>. In fact, a little more like <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StalkerWithACrush" title="/pmwiki/pmwiki.php/Main/StalkerWithACrush">"stalkerish and obsessive"</a>. This makes things rough for everyone involved when Lester meets Steph...</p><p>Meanwhile their friend Kevin has a problem. See, Kevin likes this girl in his class, but he's not really sure how to let her know. After all, they've only met online. Moreover, she already has <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticFalseLead" title="/pmwiki/pmwiki.php/Main/RomanticFalseLead">a romantic interest</a>, and he's a bit of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Jerkass" title="/pmwiki/pmwiki.php/Main/Jerkass">douchebag</a>. Luck is not on his side, but he's not one to quit without trying.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Written, directed by, and starring Lester Calleja and Alex Chung. Also featuring a bunch of people they know, pretty much playing themselves. Takes place predominantly in and around Lester's house and <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/Toronto" title="/pmwiki/pmwiki.php/UsefulNotes/Toronto">York University campus</a>.</p><p>It spans six main segments and two interludes (three if you count the post-series retrospective). The Heroic Melon Collective website provides <a class="urllink" href="http://www.heroicmelon.com/awkward.html">links to each installation<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> and their <a class="twikilink" href="/pmwiki/pmwiki.php/Website/YouTube" title="/pmwiki/pmwiki.php/Website/YouTube">YouTube</a> channel has <a class="urllink" href="https://www.youtube.com/user/HeroicMelon#grid/user/578FC0CD6DD75074">a convenient playlist<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>. Go forth and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArchiveBinge" title="/pmwiki/pmwiki.php/Main/ArchiveBinge">binge</a>. After all, it <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeedsWikiMagicLove" title="/pmwiki/pmwiki.php/Main/NeedsWikiMagicLove">Needs Wiki Magic Love</a>.</p><p>A second season (<em><a class="createlink" href="/pmwiki/pmwiki.php/Main/AwkwardAgain" title="/pmwiki/pmwiki.php/Main/AwkwardAgain">Awkward Again</a></em>) is impending. Check out the first season retrospective/second season teaser <a class="urllink" href="https://www.youtube.com/watch?v=hXN87IQgbas">here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</p><p>Not to be confused with the MTV series <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/Awkward" title="/pmwiki/pmwiki.php/Series/Awkward">Awkward.</a></em></p><hr><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><h2>This series provides examples of:</h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AbortedArc" title="/pmwiki/pmwiki.php/Main/AbortedArc">Aborted Arc</a>: Lester recognizing Ernie's name was supposed to go somewhere, but was left unexplained when his actor bailed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActionGirl" title="/pmwiki/pmwiki.php/Main/ActionGirl">Action Girl</a>: Steph <span class="spoiler" title="you can set spoilers visible by default on your profile"> hands Alex's ass to him</span> in Awkward 6. Of course <span class="spoiler" title="you can set spoilers visible by default on your profile"> he's already done a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a> at this point, but better late than never, right?</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlmostKiss" title="/pmwiki/pmwiki.php/Main/AlmostKiss">Almost Kiss</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Lester and Alex</span> in Awkward 5. It's uncomfortable for them, unlucky bystander Kevin, the viewer...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlwaysSomeoneBetter" title="/pmwiki/pmwiki.php/Main/AlwaysSomeoneBetter">Always Someone Better</a>: Jermaine, for Lester. It's why Jermaine hangs around with him.<dl><dd><div class="indent"><strong>Jermaine:</strong> I win all the games, get all the girls, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">do all the dishes</a>... I'll always beat you. You'll never be able to surpass my level of&mdash; YOU SUCK AT LIFE.</div><div class="indent"><strong>Jermaine:</strong> Lester's such a great friend. I'm better than him at everything. Man, what would I do without him?</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassBoast" title="/pmwiki/pmwiki.php/Main/BadassBoast">Badass Boast</a>: Lester can beat <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZelda" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZelda">the running man</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Except he can't.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeCarefulWhatYouWishFor" title="/pmwiki/pmwiki.php/Main/BeCarefulWhatYouWishFor">Be Careful What You Wish For</a>: Basically Kevin's reaction when <span class="spoiler" title="you can set spoilers visible by default on your profile"> Lester starts hitting on Alex.</span><dl><dd><div class="indent"><strong>Alex:</strong> Kevin! <span class="spoiler" title="you can set spoilers visible by default on your profile"> There's something wrong with Lester!</span></div><div class="indent"><strong>Kevin:</strong> Isn't this what you've always wanted?</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes" title="/pmwiki/pmwiki.php/Main/BewareTheNiceOnes">Beware the Nice Ones</a>: Lester will put up with a lot, but when Alex interferes with his relationship with Steph...</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlandNameProduct" title="/pmwiki/pmwiki.php/Main/BlandNameProduct">Bland-Name Product</a>: Usually averted, with the exception of <a class="twikilink" href="/pmwiki/pmwiki.php/Website/Facebook" title="/pmwiki/pmwiki.php/Website/Facebook">Facenovel</a>, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">carry-over</a> from cinematographer Philbert's previous work <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="urllink" href="https://www.youtube.com/watch?v=kR80206V78o">Book Of A Million Faces<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> that places them in the same universe. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShrugOfGod" title="/pmwiki/pmwiki.php/Main/ShrugOfGod">Probably.</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlatantLies" title="/pmwiki/pmwiki.php/Main/BlatantLies">Blatant Lies</a>: A lot of what Alex says. "Makin' a video. For school. Yeah, it's a documentary about, um... kitchen life."<ul><li> Lester is not immune either.<div class="indent"><strong>Lester:</strong> Why don't you just sleep with Alex?</div><div class="indent"><strong>Kevin:</strong> Really? He's not gonna do anything funny or creepy, is he?</div><div class="indent"><strong>Lester:</strong> *<a class="twikilink" href="/pmwiki/pmwiki.php/Main/Beat" title="/pmwiki/pmwiki.php/Main/Beat">Beat</a>* ABSOLUTELY NOT.</div></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BookEnds" title="/pmwiki/pmwiki.php/Main/BookEnds">Book-Ends</a>: The first half of Awkward 1 and the last scene of Awkward 6 include the same dialogue at the same table, with the roles and context changed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreadEggsMilkSquick" title="/pmwiki/pmwiki.php/Main/BreadEggsMilkSquick">Bread, Eggs, Milk, Squick</a>: "Teacher said, uh, make variety with camera angles. Like I wanna make a high shot, y'know, low shot... cumshot..."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakTheCutie" title="/pmwiki/pmwiki.php/Main/BreakTheCutie">Break the Cutie</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Alex</span> isn't your typical "cutie", but he's thoroughly woobified after <span class="spoiler" title="you can set spoilers visible by default on your profile"> his fight with Lester</span> at the end of Awkward 5 nonetheless. <span class="spoiler" title="you can set spoilers visible by default on your profile"> He gets better.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt-Monkey</a>: Alex, to the point that it's a vicious cycle <em>and</em> he's addicted to it. Woah.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CatapultNightmare" title="/pmwiki/pmwiki.php/Main/CatapultNightmare">Catapult Nightmare</a>: Alex wakes up screaming... minus the 'waking up' part. Kevin is appropriately freaked out. Lester likewise wakes up screaming after dreaming of Alex watching him sleep while muttering creepily. Kevin is again freaked out, but this time it's mutual.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CaughtWithYourPantsDown" title="/pmwiki/pmwiki.php/Main/CaughtWithYourPantsDown">Caught with Your Pants Down</a>: Lester walking in on Alex is what kicks off everything. Flipped with Alex walking in on Lester at the start of the Christmas installment, though it's much milder and immediately dismissed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusRetcon" title="/pmwiki/pmwiki.php/Main/CerebusRetcon">Cerebus Retcon</a>: Alex reading <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Twilight" title="/pmwiki/pmwiki.php/Literature/Twilight">Twilight</a></em> was supposed to be a one-off joke, but it ended up becoming integral to his characterization.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CerebusSyndrome" title="/pmwiki/pmwiki.php/Main/CerebusSyndrome">Cerebus Syndrome</a>: What starts as pure grossout humour turns very dramatic by Awkward 5.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChekhovsGun" title="/pmwiki/pmwiki.php/Main/ChekhovsGun">Chekhov's Gun</a>: My Sassy Girl can be seen next to the video camera on Alex's shelf in Awkward 2.<ul><li> Dexter holds a <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Pokemon" title="/pmwiki/pmwiki.php/Franchise/Pokemon">Pokeball</a> while doing tai chi. He later uses it to <span class="spoiler" title="you can set spoilers visible by default on your profile"> take out Jermaine</span>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChristmasSpecial" title="/pmwiki/pmwiki.php/Main/ChristmasSpecial">Christmas Special</a>: Awkward Christmas.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CrazyPrepared" title="/pmwiki/pmwiki.php/Main/CrazyPrepared">Crazy-Prepared</a>: Real life example: The dress Alex wears during the Miss Brighteyes bit? It's his. Apparently he owns it in case he should ever require a dress. Fair enough.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CriticalPsychoanalysisFailure" title="/pmwiki/pmwiki.php/Main/CriticalPsychoanalysisFailure">Critical Psychoanalysis Failure</a>: Alex's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomoeroticDream" title="/pmwiki/pmwiki.php/Main/HomoeroticDream">Homoerotic Dream</a> is enough to make Henry throw in the towel.<dl><dd><div class="indent"><strong>Alex:</strong> Woah woah woah wait! I thought you said you'd help me.</div><div class="indent"><strong>Henry:</strong> You know what? I thought so too, buuut it turns out I was wrong.</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CursedWithAwesome" title="/pmwiki/pmwiki.php/Main/CursedWithAwesome">Cursed With Awesome</a>: Karen's "different". Enough so to <span class="spoiler" title="you can set spoilers visible by default on your profile"> get her dumped</span>, but Kevin digs it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepartmentOfRedundancyDepartment" title="/pmwiki/pmwiki.php/Main/DepartmentOfRedundancyDepartment">Department of Redundancy Department</a>: "It's 2AM in the fucking morning!"</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DescriptionCut" title="/pmwiki/pmwiki.php/Main/DescriptionCut">Description Cut</a>: "I was reading a <em>very</em> intellectual book." Cut to Lester reading <a class="twikilink" href="/pmwiki/pmwiki.php/Manga/TheLegendOfZelda" title="/pmwiki/pmwiki.php/Manga/TheLegendOfZelda">The Legend of Zelda</a> manga.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeusExMachina" title="/pmwiki/pmwiki.php/Main/DeusExMachina">Deus ex Machina</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Kevin and Dexter's sudden appearances during the showdown against Jermaine.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DiggingYourselfDeeper" title="/pmwiki/pmwiki.php/Main/DiggingYourselfDeeper">Digging Yourself Deeper</a>: Lester upon first meeting Steph &mdash; "He's very green!" &mdash; luckily he manages to stop before he digs himself too deep.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoesThisRemindYouOfAnything" title="/pmwiki/pmwiki.php/Main/DoesThisRemindYouOfAnything">Does This Remind You of Anything?</a>: "I like it, it's all white and bubbly." And about half of everything Alex says.<dl><dd><div class="indent"><strong>Alex:</strong> You know it's all about finding the right key. The one that fits... just right. The one that you insert deep into the <em>back door</em>...</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DoggedNiceGuy" title="/pmwiki/pmwiki.php/Main/DoggedNiceGuy">Dogged Nice Guy</a>: Kevin.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DrivenToSuicide" title="/pmwiki/pmwiki.php/Main/DrivenToSuicide">Driven to Suicide</a>: Alex, in Awkward Origins. The scene is straight out of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Titanic1997" title="/pmwiki/pmwiki.php/Film/Titanic1997">Titanic (1997)</a></em>.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/DyeingForYourArt" title="/pmwiki/pmwiki.php/Main/DyeingForYourArt">Dyeing for Your Art</a>: Jermaine got his hair cut before filming specifically to look like a douche. He had to keep it that way for two months.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EarlyBirdCameo" title="/pmwiki/pmwiki.php/Main/EarlyBirdCameo">Early-Bird Cameo</a>: Literally &mdash; Sigfried the duck can be seen beside Lester's VCR in Awkward 1.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilLaugh" title="/pmwiki/pmwiki.php/Main/EvilLaugh">Evil Laugh</a>: Jermaine has a particularly douchey one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FakeVideoCameraView" title="/pmwiki/pmwiki.php/Main/FakeVideoCameraView">Fake Video Camera View</a>: Alex's hidden cameras, such as the Hero Cam a.k.a. <span class="spoiler" title="you can set spoilers visible by default on your profile"> the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda" title="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda">Link</a> plush doll</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FiveManBand" title="/pmwiki/pmwiki.php/Main/FiveManBand">Five-Man Band</a>: Although they never assemble as a group proper, the character types are strongly evident.<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a>: Lester</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheLancer" title="/pmwiki/pmwiki.php/Main/TheLancer">The Lancer</a>: Alex, leaning toward <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TokenEvilTeammate" title="/pmwiki/pmwiki.php/Main/TokenEvilTeammate">Token Evil Teammate</a></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheSmartGuy" title="/pmwiki/pmwiki.php/Main/TheSmartGuy">The Smart Guy</a>: Kevin</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChick" title="/pmwiki/pmwiki.php/Main/TheChick">The Chick</a>: Steph</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Mentors" title="/pmwiki/pmwiki.php/Main/Mentors">The Mentor</a>: Dexter</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FreudianCouch" title="/pmwiki/pmwiki.php/Main/FreudianCouch">Freudian Couch</a>: Seen in Alex's "therapy" sessions.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GroinAttack" title="/pmwiki/pmwiki.php/Main/GroinAttack">Groin Attack</a>: Awkward 2 has two in quick succession; first Alex on Lester as part of a staged fight &mdash; "How could I forget? It's like a cat tried to suck my dick." &mdash; then Henry takes a run at Kevin in a truly eyewatering <img src="/images/article-hreficon-ymmv.png" class="ymmv1 rounded" title="This example contains a YMMV entry. It should be moved to the YMMV tab."><a class="twikilink" href="/pmwiki/pmwiki.php/SugarWiki/MomentOfAwesome" title="/pmwiki/pmwiki.php/SugarWiki/MomentOfAwesome">Moment of Awesome</a>.<dl><dd><div class="indent"><strong>Henry:</strong> I'LL SHOW YOU GLASSES FUCK MOTHERFUCKER! <strong>*KICK*</strong> YEAAAAHH!!!</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeelFaceTurn" title="/pmwiki/pmwiki.php/Main/HeelFaceTurn">Heel&#150;Face Turn</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> Alex, just in time for a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigDamnHeroes" title="/pmwiki/pmwiki.php/Main/BigDamnHeroes">Big Damn Heroes</a> moment.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HomoeroticDream" title="/pmwiki/pmwiki.php/Main/HomoeroticDream">Homoerotic Dream</a>: How Awkward 4 opens... homoerotic hip hop dancing. Considering it's Alex's dream, it's not surprising in the least.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ImStandingRightHere" title="/pmwiki/pmwiki.php/Main/ImStandingRightHere">I'm Standing Right Here</a><dl><dd><div class="indent"><strong>Kevin:</strong> You said he doesn't talk when he eats.</div><div class="indent"><strong>Alex:</strong> Hey, I'm right here, you know.</div><div class="indent"><strong>Lester:</strong> He's insecure.</div><div class="indent"><strong>Alex:</strong> Hey, I just said I'm right here!</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IronicEchoCut" title="/pmwiki/pmwiki.php/Main/IronicEchoCut">Ironic Echo Cut</a>: Not precisely, but pretty close with<dl><dd><div class="indent"><strong>Kevin:</strong> It's a surprise.</div><div class="indent"><strong>Lester:</strong> I fucking hate surprises. *<a class="twikilink" href="/pmwiki/pmwiki.php/Main/Beat" title="/pmwiki/pmwiki.php/Main/Beat">Beat</a>* I'm kidding.</div><div class="indent"><em>[soon thereafter]</em></div><div class="indent"><strong>Kevin:</strong> It's a surprise.</div><div class="indent"><strong>Alex:</strong> Lester <em>hates</em> surprises.</div><div class="indent"><strong>Lester:</strong> Yeah, I do.</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KickTheDog" title="/pmwiki/pmwiki.php/Main/KickTheDog">Kick the Dog</a>: Alex telling Lester to give up on Steph because "everybody knows you're just going to mess it up like last time".<ul><li> We only hear the story secondhand, but apparently <span class="spoiler" title="you can set spoilers visible by default on your profile"> Ernie dumps Karen, calling her "worthless".</span> What a dick!</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadedDoubleEntendre" title="/pmwiki/pmwiki.php/Main/LampshadedDoubleEntendre">Lampshaded Double Entendre</a>: In Awkward 1, "Little Bow Wow... yeah, I hate that little guy." "He's not all little, if you know what I mean." And later in Awkward 4, "I'm gonna go all <a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/Watchmen" title="/pmwiki/pmwiki.php/ComicBook/Watchmen">Doctor Manhattan</a> on everybody and just walk around naked with my dong hanging out and explode people &mdash; if you know what I mean."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Leitmotif" title="/pmwiki/pmwiki.php/Main/Leitmotif">Leitmotif</a>: Not a particular song, but Steph's scenes tend to be accompanied by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RecycledSoundtrack" title="/pmwiki/pmwiki.php/Main/RecycledSoundtrack">songs from Taiyou no Uta</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LetUsNeverSpeakOfThisAgain" title="/pmwiki/pmwiki.php/Main/LetUsNeverSpeakOfThisAgain">Let Us Never Speak of This Again</a>: How Lester tries to bring things to a close in Awkward 1. It doesn't exactly work.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveDodecahedron" title="/pmwiki/pmwiki.php/Main/LoveDodecahedron">Love Dodecahedron</a>: Alex lusts after Lester, who wants none of it. Lester likes Steph, and maybe it's mutual. And <span class="spoiler" title="you can set spoilers visible by default on your profile"> Jermaine thinks he and Steph have something going on... but she doesn't even know who he is.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoveTriangle" title="/pmwiki/pmwiki.php/Main/LoveTriangle">Love Triangle</a>: Kevin, Karen, and Ernie have a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TriangRelations" title="/pmwiki/pmwiki.php/Main/TriangRelations">type 4</a> situation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">Mood Whiplash</a>: The series swings back and forth between funny and serious throughout, but Awkward 5 in particular jumps from one to the other and back again so fast you'll need a neck brace.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MomentKiller" title="/pmwiki/pmwiki.php/Main/MomentKiller">Moment Killer</a>: Alex. It's entirely intentional, and Lester does <em>not</em> take it well.<dl><dd><div class="indent"><strong>Lester:</strong> I have a confession to make.</div><div class="indent"><strong>Steph:</strong> Tell me.</div><div class="indent"><strong>Lester:</strong> I, um... I have butterflies.</div><div class="indent"><strong>Alex:</strong> (bursting in) Lester! Wanna watch a movie?</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NoodleImplements" title="/pmwiki/pmwiki.php/Main/NoodleImplements">Noodle Implements</a>: Kevin fumbles and spills a box marked "KAREN". Its contents: <span class="spoiler" title="you can set spoilers visible by default on your profile"> fruit and condoms</span>. It's probably best not to wonder.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PerverseSexualLust" title="/pmwiki/pmwiki.php/Main/PerverseSexualLust">Perverse Sexual Lust</a>: Lester and his <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/FinalFantasyVII" title="/pmwiki/pmwiki.php/VideoGame/FinalFantasyVII">Tifa</a> action figure. Ahem.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/POVSequel" title="/pmwiki/pmwiki.php/Main/POVSequel">P.O.V. Sequel</a>: Sort of. Awkward 4 has two scenes from Awkward 3 redone from the perspective of a character who was out of the room at the time, witnessing the previously shown scene on surveilance, and Awkward 5 has a scene from Awkward 2 from the perspective of a character the audience didn't even know was there.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerTrio" title="/pmwiki/pmwiki.php/Main/PowerTrio">Power Trio</a>: Lester, Alex, and Kevin. Especially evident toward the end.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RaceForYourLove" title="/pmwiki/pmwiki.php/Main/RaceForYourLove">Race for Your Love</a>: Lester, in one of the final scenes of Awkward 6.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLifeWritesThePlot" title="/pmwiki/pmwiki.php/Main/RealLifeWritesThePlot">Real Life Writes the Plot</a>: Henry and Ernie's departure from the project following Awkward 4 resulted in their characters' disappearances and the appearance of some <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySimilarSubstitute" title="/pmwiki/pmwiki.php/Main/SuspiciouslySimilarSubstitute">similar character types</a> &mdash; Henry (the therapist) is replaced with Dexter (the sage), and Ernie (the douche) with Jermaine (the mega-douche).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealMenWearPink" title="/pmwiki/pmwiki.php/Main/RealMenWearPink">Real Men Wear Pink</a>: Lester's favourite movie is Korean <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticComedy" title="/pmwiki/pmwiki.php/Main/RomanticComedy">Romantic Comedy</a> <em>My Sassy Girl</em>.<dl><dd><div class="indent"><strong>Lester:</strong> Aww, isn't that the cutest fucking thing you've ever seen?</div></dd></dl></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RomanticFalseLead" title="/pmwiki/pmwiki.php/Main/RomanticFalseLead">Romantic False Lead</a>: Ernie, who Kevin describes as "a cockblocking bastard of a man".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SeinfeldianConversation" title="/pmwiki/pmwiki.php/Main/SeinfeldianConversation">Seinfeldian Conversation</a>: The 'who's your favourite <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/SailorMoon" title="/pmwiki/pmwiki.php/Anime/SailorMoon">Sailor Scout</a>?' conversation.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SingleTargetSexuality" title="/pmwiki/pmwiki.php/Main/SingleTargetSexuality">Single-Target Sexuality</a>: Alex is a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DepravedHomosexual" title="/pmwiki/pmwiki.php/Main/DepravedHomosexual">Depraved Lestersexual</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>: In spades, like the scores of references to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Batman" title="/pmwiki/pmwiki.php/Franchise/Batman">Batman</a></em>, <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/AceAttorney" title="/pmwiki/pmwiki.php/Franchise/AceAttorney">Ace Attorney</a></em>, and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Videogame/TheLegendOfZelda" title="/pmwiki/pmwiki.php/Videogame/TheLegendOfZelda">The Legend of Zelda</a></em>, trademark favourite series of Alex, Kevin, and Lester respectively.<ul><li> Kevin acts out scenes as <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/AceAttorney" title="/pmwiki/pmwiki.php/Franchise/AceAttorney">Phoenix Wright</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Manga/DeathNote" title="/pmwiki/pmwiki.php/Manga/DeathNote">L</a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SingleIssuePsychology" title="/pmwiki/pmwiki.php/Main/SingleIssuePsychology">Single-Issue Psychology</a>: Flashbacks show Alex lost it after <span class="spoiler" title="you can set spoilers visible by default on your profile"> being rejected one too many times.</span> Possibly justified in that <span class="spoiler" title="you can set spoilers visible by default on your profile"> he was shot down for not being enough like <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Twilight" title="/pmwiki/pmwiki.php/Literature/Twilight">Edward</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StalkerWithACrush" title="/pmwiki/pmwiki.php/Main/StalkerWithACrush">Stalker with a Crush</a>: Alex, Alex, ALEX.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySimilarSubstitute" title="/pmwiki/pmwiki.php/Main/SuspiciouslySimilarSubstitute">Suspiciously Similar Substitute</a>: Dexter for Henry, Jermaine for Ernie. See <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealLifeWritesThePlot" title="/pmwiki/pmwiki.php/Main/RealLifeWritesThePlot">Real Life Writes the Plot</a>, above.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial" title="/pmwiki/pmwiki.php/Main/SuspiciouslySpecificDenial">Suspiciously Specific Denial</a><dl><dd><div class="indent"><strong>Lester:</strong> Home so soon?</div><div class="indent"><strong>Alex:</strong> I didn't come from anywhere suspicious.</div></dd></dl></li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheDanza" title="/pmwiki/pmwiki.php/Main/TheDanza">The Danza</a>: Every character has their actor's name. How much of this is a case of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AsHimself" title="/pmwiki/pmwiki.php/Main/AsHimself">As Himself</a> depends on the character, ranging from 'well kind of' to '<a class="twikilink" href="/pmwiki/pmwiki.php/Main/InNameOnly" title="/pmwiki/pmwiki.php/Main/InNameOnly">In Name Only</a>'.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereAreNoGirlsOnTheInternet" title="/pmwiki/pmwiki.php/Main/ThereAreNoGirlsOnTheInternet">There Are No Girls on the Internet</a>: Kevin admits he hasn't even seen a picture of the female classmate he met online. Alex and Lester immediately question whether she actually exists.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists" title="/pmwiki/pmwiki.php/Main/ThereAreNoTherapists">There Are No Therapists</a>: Played straight or averted, depending on how legit you consider Henry.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThrowItIn" title="/pmwiki/pmwiki.php/Main/ThrowItIn">Throw It In!</a>: Kevin's 'permanent laxative' ramblings were intended to be a blooper, but got included to explain why the scene went nowhere after Ernie left the project and had to be written out. More generally, the entire post-credits kitchen handycam scene from Awkward 1 was entirely adlibbed, pieced together from around 10 minutes of footage, and nearly left on the cutting room floor for being too gross.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TitleDrop" title="/pmwiki/pmwiki.php/Main/TitleDrop">Title Drop</a>: The last word in the series proper, courtesy of the ever observant Kevin.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToplessnessFromTheBack" title="/pmwiki/pmwiki.php/Main/ToplessnessFromTheBack">Toplessness from the Back</a>: Alex attempts something along these lines during the Miss Brighteyes number.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnderTheMistletoe" title="/pmwiki/pmwiki.php/Main/UnderTheMistletoe">Under the Mistletoe</a>: Alex attempts this with Lester, using... mistletoe <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ADateWithRosiePalms" title="/pmwiki/pmwiki.php/Main/ADateWithRosiePalms">lotion</a>. It's a no go.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UnsettlingGenderReveal" title="/pmwiki/pmwiki.php/Main/UnsettlingGenderReveal">Unsettling Gender Reveal</a>: One of Alex's Internet blind dates in the Awkward 4 flashback is a guy who apparently expected Alex to be short for Alexandra.</li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatCouldHaveBeen" title="/pmwiki/pmwiki.php/Main/WhatCouldHaveBeen">What Could Have Been</a>: Discussed. Kevin refers to a fixation on "what could have been" as Saved Game Syndrome.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhatWouldXDo" title="/pmwiki/pmwiki.php/Main/WhatWouldXDo">What Would X Do?</a><dl><dd><div class="indent"><strong>Lester:</strong> When times get tough and I don't know what to do, I think to myself... what would <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda" title="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda">Link</a> do?</div></dd></dl></li><li> <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WriteWhoYouKnow" title="/pmwiki/pmwiki.php/Main/WriteWhoYouKnow">Write Who You Know</a>: With the exceptions of Alex and Jermaine, almost all of the characters are to some degree based on the person playing them. Especially notable is the case of Steph, whose character was inspired by her long before she had the role.</li></ul>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/AshensAndTheQuestForTheGameChild">Ashens and the Quest for the Game Child</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WebVideo">Web Video</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/WebVideo/Badman">Badman</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

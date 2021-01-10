@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>TORG (Tabletop Game) - TV Tropes</title>
+<meta name="description" content="TORG is a tabletop role-playing game with a truly multiversal background originally published by West End Games from 1990 to about 1995; a revised and &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/TORG" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="TORG (Tabletop Game) - TV Tropes" />
+<meta name="twitter:description" content="TORG is a tabletop role-playing game with a truly multiversal background originally published by West End Games from 1990 to about 1995; a revised and &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="TORG (Tabletop Game) - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/TORG" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="TORG is a tabletop role-playing game with a truly multiversal background originally published by West End Games from 1990 to about 1995; a revised and expanded rulebook came out in 2005. It's a multi-genre ruleset with multiple genres at the same &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+ <a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/AccidentalDanceCraze" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Theatre/TheFirebird" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/TabletopGame/TORG?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=TabletopGame/TORG">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=TabletopGame.TORG">
+<i class="fa fa-history"></i> History</a></li><li class="link-reviews"><a href="/pmwiki/review_add.php?tt=TORG&g=TabletopGame">
+<i class="fa fa-star-half-o"></i> Add Review</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-discussion more_list_item"><a href="/pmwiki/remarks.php?trope=TabletopGame.TORG">
+<i class="fa fa-comment"></i> Discussion</a></li><li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/TabletopGame/TORG?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="TabletopGame" />
+<input type="hidden" id="title-hidden" value="TORG" />
+<input type="hidden" id="article_id" value="368192" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/TORG</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+<strong>Tabletop Game / </strong>
+TORG
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TabletopGame",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TabletopGame"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "TORG"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TORG" class="subpage-link curr-subpage" title="The TabletopGame page">
+<span class="wrapper"><span class="spi tabletopgame"></span>TabletopGame</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/TORG?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/TORG?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/TORG?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/TORG?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/TORG?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/TORG?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/TORG?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/TORG?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/TORG?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/TORG?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/TORG?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/TORG?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/TORG?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/TORG?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/TORG?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/TORG?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/TORG?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/TORG?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p><em>TORG</em> is a tabletop role-playing game with a truly <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMultiverse" title="/pmwiki/pmwiki.php/Main/TheMultiverse">multiversal</a> background originally published by West End Games from 1990 to about 1995; a revised and expanded rulebook came out in 2005. It's a multi-genre ruleset with multiple genres at the same time; the default campaign setting is an invasion of Earth (called Core Earth in the rules) by multiple different 'realities' in search of 'Possibility Energy.' Players take the role of Storm Knights, deliberately larger-than-life heroes engaged in fighting the invasion of Earth, to prevent it being conquered by several invading dimensions (called cosms), each with its own separate reality; cosms largely correspond with popular roleplaying genres.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>Among those cosms are:</p><p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;Cosms in <em>TORG</em>&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;"><ul><li> Core Earth &mdash; "Our" Earth, the base reality. Given the dramatic nature of the game, however, Core Earth has slightly better technology than the real world as well as some basic access to magic and miracles.</li><li> Living Land &mdash; A primitive, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LostWorld" title="/pmwiki/pmwiki.php/Main/LostWorld">Lost World</a>-style jungle covering large swaths of the United States' East and West coasts plus a small piece of Canada. The dominant species are humanoid dinosaurs called edeinos. Technology and magic are almost nonexistent, but the inhabitants have access to powerful miracles.</li><li> Aysle &mdash; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Fantasy" title="/pmwiki/pmwiki.php/Main/Fantasy">A magical, low-technology realm</a> that covers most of the United Kingdom and parts of Scandinavia. The realm is similar to traditional <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons" title="/pmwiki/pmwiki.php/TabletopGame/DungeonsAndDragons">Dungeons &amp; Dragons</a></em> settings, but with slightly less powerful magic and somewhat better technology.</li><li> The Cyberpapacy &mdash; Covering France and Quebec, this is an interesting realm combining a repressive, medieval theocracy (that wields real miracles) with cyberpunk technology and attitudes.</li><li> Nippon Tech &mdash; An ultracapitalist nightmare society covering most of Japan where lies and betrayal are as common as breathing, and where martial artists, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayfulHacker" title="/pmwiki/pmwiki.php/Main/PlayfulHacker">computer hackers</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Yakuza" title="/pmwiki/pmwiki.php/Main/Yakuza">yakuza</a> fight to bring down the corporate-controlled government.</li><li> The New Nile Empire &mdash; Based in North Africa, this realm combines a restored Ancient Egypt with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TwoFistedTales" title="/pmwiki/pmwiki.php/Main/TwoFistedTales">pulp sensibilities</a>. 1930s technology works side-by-side with Egyptian magical astronomy and "weird science" powers and gizmos, while costumed Mystery Men patrol the alleyways of Cairo.</li><li> Orrorsh &mdash; A <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GothicHorror" title="/pmwiki/pmwiki.php/Main/GothicHorror">Gothic Horror</a> realm with a touch of <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/HPLovecraft" title="/pmwiki/pmwiki.php/Creator/HPLovecraft">Lovecraft</a> set in Indonesia where the realm's Victorians consider it their White Man's Burden to protect the natives from the unspeakable monsters roaming the countryside. The greatest enemy in Orrorsh, however, is the enemy within: the realm will attempt to seduce Storm Knights to the side of Wickedness.</li><li> Tharkold &mdash; The nightmare world that invades Los Angeles; best described as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberPunk" title="/pmwiki/pmwiki.php/Main/CyberPunk">CyberPunk</a> version of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Hellraiser" title="/pmwiki/pmwiki.php/Franchise/Hellraiser">Hellraiser</a></em> with a bit of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Terminator" title="/pmwiki/pmwiki.php/Franchise/Terminator">Terminator</a></em> thrown in for fun.</li></ul></div><p>In 2010, the rights to TORG were bought by German company Ulisses Spiele, publishers of <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TheDarkEye" title="/pmwiki/pmwiki.php/TabletopGame/TheDarkEye">The Dark Eye</a></em>, as part of a selloff of West End Games' RPG properties, and by 2014 they'd made most of the books, save the original boxed set and two novels from the first trilogy, available to buy on PDF. In 2015, they announced they'd be releasing a new version, <em>TORG Eternity</em>, as their first English-language RPG, overhauling the mechanics and setting, and including all of the original cosms, albeit tweaked to a lesser or greater extent. A <a class="urllink" href="https://www.kickstarter.com/projects/1216685848/torg-eternity">Kickstarter<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> for the <em>Eternity</em> corebook ran in June 2017, smashing through its initial $8000 goal in a matter of minutes, and eventually reaching over $350,000.</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;Cosms in <em>TORG Eternity</em>&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;"><ul><li> Core Earth &mdash; The world as seen in Western action movies, featuring badass heroes and rare and mysterious magic and miracles.</li><li> Living Land &mdash; The overall shape of the cosm has changed, and it now also includes part of the Yucatan Peninsula.</li><li> Aysle &mdash; Much the same, at least on the surface.</li><li> The Cyberpapacy &mdash; Now covering France, Spain and Portugal.</li><li> Pan-Pacifica &mdash; The old Nippon Tech, now covering most of Japan, Taiwan, North and South Korea, and part of China. Tweaked to more closely resemble Hong Kong cinema, a world of intrigue, determination and vengeance.</li><li> New Nile Empire &mdash; Slightly smaller, having had the extent of its western border reduced.</li><li> Orrorsh &mdash; Now covering India, Nepal, Bhutan, Bangladesh, Sri Lanka, and parts of Pakistan and Myanmar.</li><li> Tharkold &mdash; The realm proper now covers part of western Russia. Much of northern Russia, however, is now covered by the Blasted Land, a post-apocalyptic mix of Core Earth and Tharkold, the result of a nuclear strike against Tharkold's first invasion attempt.</li></ul></div><p></p><hr><h2>Tropes that apply to <em>TORG</em></h2><p></p><ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationAmalgamation" title="/pmwiki/pmwiki.php/Main/AdaptationAmalgamation">Adaptation Amalgamation</a>: <em>Eternity</em> integrates material originally from The Land Below into its version of the Living Land.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationDyeJob" title="/pmwiki/pmwiki.php/Main/AdaptationDyeJob">Adaptation Dye-Job</a>: Pella Ardinay is strawberry blonde in original Torg and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HairOfGoldHeartOfGold" title="/pmwiki/pmwiki.php/Main/HairOfGoldHeartOfGold">golden blonde</a> in <em>Eternity</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalBadass" title="/pmwiki/pmwiki.php/Main/AdaptationalBadass">Adaptational Badass</a>: One of the stated goals for <em>Eternity</em> was that Baruk Kaah and the edeinos would not be the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ButtMonkey" title="/pmwiki/pmwiki.php/Main/ButtMonkey">Butt Monkeys</a> they wound up becoming in original Torg.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalEarlyAppearance" title="/pmwiki/pmwiki.php/Main/AdaptationalEarlyAppearance">Adaptational Early Appearance</a>: The Tharkold invasion of Russia is successful in <em>Eternity</em>, though it experiences its own setbacks.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptationalHeroism" title="/pmwiki/pmwiki.php/Main/AdaptationalHeroism">Adaptational Heroism</a>:<ul><li> The Delphi Council in original Torg were a bunch of largely clueless opportunists using the Possibility Wars to make a power play. In <em>Eternity</em>, they have a better grasp of how to properly fight the High Lords and co-ordinate Storm Knight actions against them.</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> The Nippon Tech yakuza were little more than goons in the employ of Kanawa. The yakuza of Pan-Pacifica actively oppose Kanawa, as do the Chinese and Korean crime syndicates.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdaptedOut" title="/pmwiki/pmwiki.php/Main/AdaptedOut">Adapted Out</a>:<ul><li> Several World Laws from original Torg were either dropped or downgraded to minor laws in <em>Eternity</em>, among them Aysle's Law of Observation, Core Earth's Law of Prodigy, the Cyberpapacy's Law of Ordeal, the Nile Empire's Law of Morality, and Nippon Tech's Law of Profit.</li><li> With the more dire situation in <em>Eternity</em>, Dennis Quartermain and his inept power grab shenanigans are a poor fit.</li><li> In the first edition, the Nile Empire had ten Overgovernors. While there were still ten prior to the invasion of Core Earth in <em>Eternity</em>, Dr. Mobius decided that six would be a more auspicious number. So he had the excess Overgovernors <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadlyEuphemism" title="/pmwiki/pmwiki.php/Main/DeadlyEuphemism">"retired"</a>.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> It's strongly implied in the Gamemaster's Section of <em>Eternity</em> that the Akashans are not going to be making an appearance later, at least not in force.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AlternateContinuity" title="/pmwiki/pmwiki.php/Main/AlternateContinuity">Alternate Continuity</a>: <em>Eternity</em> to the original game.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AncientAstronauts" title="/pmwiki/pmwiki.php/Main/AncientAstronauts">Ancient Astronauts</a>: The Akashans.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArmorAndMagicDontMix" title="/pmwiki/pmwiki.php/Main/ArmorAndMagicDontMix">Armor and Magic Don't Mix</a>: Not actually the case with Torg's magic system. However, it gets alluded to in the Aysle adventure from the Day One collection. The text recommends awarding Possibilities to the player with the character who got transformed into a wizard by the axiom wash should he choose to deliberately play by this trope.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking" title="/pmwiki/pmwiki.php/Main/ArsonMurderAndJaywalking">Arson, Murder, and Jaywalking</a>: Some of the heretical offenses which can cause your Piety Score to drop in the Cyberpapacy include stealing Church property, assaulting clergy, and typing in all caps.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtifactOfDoom" title="/pmwiki/pmwiki.php/Main/ArtifactOfDoom">Artifact of Doom</a>: The High Lords get their power from sentient "possibility engines" called Darkness Devices. They don't get much more Doomy than being pieces of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpacetimeEater" title="/pmwiki/pmwiki.php/Main/SpacetimeEater">Spacetime Eater</a>, the Nameless One, who made them as a way to trick the various realities into weakening its imprisonment &mdash; if it gets free in one set of realities, they're toast.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BackFromTheDead" title="/pmwiki/pmwiki.php/Main/BackFromTheDead">Back from the Dead</a>: A villain in the Nile Empire can never be truly counted as dead unless you've recovered the corpse. But even if you do, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ActuallyADoombot" title="/pmwiki/pmwiki.php/Main/ActuallyADoombot">it's still not guaranteed</a> ("The Law of Inevitable Return").</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadassBystander" title="/pmwiki/pmwiki.php/Main/BadassBystander">Badass Bystander</a>: The Day One collection for <em>Eternity</em> consists of seven adventures (one for each realm) which take place <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">on the first day of the invasion</a>. The characters included for play with each scenario are regular folks going about their business when the maelstrom bridges hit the ground. They include teachers, office workers, priests, bus drivers, tour guides, and similar unassuming types, with the occasional cop or ex-soldier thrown in. The one exception is the Tharkold scenario, where characters are Russian soldiers tasked with collecting data from a research station at the Moscow maelstrom bridge before it gets nuked.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BearsAreBadNews" title="/pmwiki/pmwiki.php/Main/BearsAreBadNews">Bears Are Bad News</a>: Specifically bears in the Blasted Land, which are often fused with armor plating and Occultech implants.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BeneathTheEarth" title="/pmwiki/pmwiki.php/Main/BeneathTheEarth">Beneath the Earth</a>: In the original game, there was a "sub-cosm" called the Land Below that connected to both the Living Land and New Nile Empire, and had aspects of both realms in its makeup. Basically it was for everyone who wants to run Hollow Earth adventures. While other sub-cosms had their axioms and world laws described in the Infiniverse Updates, none received the same level of detail as the Land Below. When it was reintroduced in <em>Eternity</em>, the Land Below was presented as effectively being a particularly large and stable Wonder, operating on the axioms and laws of the Living Land (albeit with a slight tweak to the Law of Wonders allowing Nile Empire Pulp Powers to work there).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing" title="/pmwiki/pmwiki.php/Main/BitchInSheepsClothing">Bitch in Sheep's Clothing</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> In the public eye, Reiko Kanawa is a beloved celebrity who helps keep her brother's ruthlessness reigned in. The truth of the matter is that Ryuchi is just the face of the company while Reiko is the true power</span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlackAndWhiteMorality" title="/pmwiki/pmwiki.php/Main/BlackAndWhiteMorality">Black-and-White Morality</a>: In the original game's Nile Empire, the Law of Morality makes it so that everyone and everything (yes, even the animals) is either Good or Evil. <em>Eternity</em> replaces it with the Law of Heroism that causes heroes to rise in response to evil &mdash; but also allows villains to match those heroes and even <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheBadGuyWins" title="/pmwiki/pmwiki.php/Main/TheBadGuyWins">win</a>, if they're smart and lucky.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BoltOfDivineRetribution" title="/pmwiki/pmwiki.php/Main/BoltOfDivineRetribution">Bolt of Divine Retribution</a>: The Lightning Strike miracle in <em>Eternity</em> requires the invoker to castigate the target for an entire round. The next round delivers an attack with a base damage roughly equivalent to that of a cannon.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BreakTheCutie" title="/pmwiki/pmwiki.php/Main/BreakTheCutie">Break the Cutie</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile">Pella Ardinay did not walk away from Ulthorion's possession in <em>Eternity</em> without some severe mental scarring &mdash; she's become obsessed with his destruction to self-defeating extremes.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CardCarryingVillain" title="/pmwiki/pmwiki.php/Main/CardCarryingVillain">Card-Carrying Villain</a>: The Nile Empire is full of them, with Dr. Mobius the biggest one of all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromHitPoints" title="/pmwiki/pmwiki.php/Main/CastFromHitPoints">Cast From Hit Points</a>: The Overcharge Perk allows the character to take an extra die roll to add to the final total when using a psionic skill, but at the cost of taking a wound which cannot be soaked.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CastFromStamina" title="/pmwiki/pmwiki.php/Main/CastFromStamina">Cast from Stamina</a>: The Aysle Law of Magic as revised in <em>Eternity</em> allows a spellcaster to gain a one shot bonus to a magic skill by taking Shock damage. Ki Power Perks are also powered with Shock.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CensorSteam" title="/pmwiki/pmwiki.php/Main/CensorSteam">Censor Steam</a>: In Issue 30 of Infiniverse, a team of pulp villains <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FourElementEnsemble" title="/pmwiki/pmwiki.php/Main/FourElementEnsemble">themed on the four elements</a> were featured in a dispatch. Air was a woman whose costume consisted solely of cloud wisps over her naughty bits.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChunkySalsaRule" title="/pmwiki/pmwiki.php/Main/ChunkySalsaRule">Chunky Salsa Rule</a>: In original Torg, the bonus generated for an attack would be applied to both the combat skill being used and (assuming a successful hit was scored) the attack's damage. This could be particularly disadvantageous to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FragileSpeedster" title="/pmwiki/pmwiki.php/Main/FragileSpeedster">Fragile Speedster</a>, since a high enough bonus to barely land a successful hit could all but guarantee a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneHitKill" title="/pmwiki/pmwiki.php/Main/OneHitKill">One-Hit Kill</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChurchPolice" title="/pmwiki/pmwiki.php/Main/ChurchPolice">Church Police</a>: Naturally, the Cyberpapacy has such an organization.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ClarkKenting" title="/pmwiki/pmwiki.php/Main/ClarkKenting">Clark Kenting</a>: The Nile Empire's Law of Heroism has an associated minor law called the Law of Masks. Whenever someone wears a mask as part of their hero or villain identity, it will be impossible to determine that person's true identity, even if it's a domino mask or some other distinctive feature is unconcealed.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive" title="/pmwiki/pmwiki.php/Main/CorruptCorporateExecutive">Corrupt Corporate Executive</a>: 3327/Ryuchi Kanawa. <span class="spoiler" title="you can set spoilers visible by default on your profile">Hands this role off to his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IronLady" title="/pmwiki/pmwiki.php/Main/IronLady">Iron Lady</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MadScientist" title="/pmwiki/pmwiki.php/Main/MadScientist">Mad Scientist</a> sister Reiko in Eternity.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SharkPool" title="/pmwiki/pmwiki.php/Main/SharkPool">Crocodile Pool</a>: Dr. Mobius has one for occasions whenever a minion is insolent enough to question his intents.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul" title="/pmwiki/pmwiki.php/Main/CyberneticsEatYourSoul">Cybernetics Eat Your Soul</a>: Characters with cyberware run the risk of succumbing to bouts of cyberpsychosis. Occultech implants that haven't been exorcised properly can do this more literally. However, unlike settings such as <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Rifts" title="/pmwiki/pmwiki.php/TabletopGame/Rifts">Rifts</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Shadowrun" title="/pmwiki/pmwiki.php/TabletopGame/Shadowrun">Shadowrun</a>, having cybernetics does not adversely affect a character's ability to wield arcane energies.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CyberPunk" title="/pmwiki/pmwiki.php/Main/CyberPunk">Cyberpunk</a>: The Cyberpapacy. Tharkold and Nippon Tech (which has occasionally been described as cyberpunk without the cyberware), too.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DarkerAndEdgier" title="/pmwiki/pmwiki.php/Main/DarkerAndEdgier">Darker and Edgier</a>: The situation in <em>Eternity</em> is more desperate than in the original &mdash; Tharkold successfully invades Russia, Orrosh takes over India, and the Gaunt Man is an active player, rather than being trapped in a reality storm. Played with, in that the Darkness Devices are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness" title="/pmwiki/pmwiki.php/Main/ContractualGenreBlindness">letting rebellions happen</a> as part of their nature to provoke disorder, the Delphi Council are the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a>, and Core Earth has a World Law that manufactures Storm Knights with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EntropyAndChaosMagic" title="/pmwiki/pmwiki.php/Main/EntropyAndChaosMagic">far finer control over reality</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist" title="/pmwiki/pmwiki.php/Main/DeathIsASlapOnTheWrist">Death Is a Slap on the Wrist</a>: If an Orrorshan Horror is not killed by its <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DeadForReal" title="/pmwiki/pmwiki.php/Main/DeadForReal">True Death</a>, its corrupt soul just goes to the Waiting Village until it gets recycled into a new Horror.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DownerBeginning" title="/pmwiki/pmwiki.php/Main/DownerBeginning">Downer Beginning</a>: <span class="spoiler" title="you can set spoilers visible by default on your profile"> The Pan Pacifica adventure included in the Day One collection ends with the characters on the roof of a Kanawa installation surrounded by Infected. Things look up when a VTOL craft lands and unloads several security troops. However, their commander orders that the characters be shot, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FateWorseThanDeath" title="/pmwiki/pmwiki.php/Main/FateWorseThanDeath">aside from one to be kept for study and questioning</a>. It's possible to not get killed or captured <em>immediately</em>, but that requires both the presence of mind to have stolen disguises (while being chased by an angry super-zombie, remember) and a really high check, and <em>still</em> leaves the characters on a helicopter full of heavily-armed hostiles who will no doubt soon realize the deception.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyCivilWar" title="/pmwiki/pmwiki.php/Main/EnemyCivilWar">Enemy Civil War</a>:<ul><li> In original Torg, the High Lords put as much effort in screwing over other High Lords as they did in expanding their own realms. With the Gaunt Man still around in <em>Eternity</em>, should any such tomfoolery occur, it'll likely be more discreet.</li><li> A significant minority of ravagons believe that the Gaunt Man's claims of divinity are false.</li><li> Six months into the Possibility Wars as presented in <em>Eternity</em>, <span class="spoiler" title="you can set spoilers visible by default on your profile">Kranod falls victim to a coup led by Volkov and Thratchen, with Jezrael landing the killing blow to claim his Dukedom. The three of them then vie for the favor of the Darkness Device Malgest so as to become the new High Lord of Tharkold.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards" title="/pmwiki/pmwiki.php/Main/EvenEvilHasStandards">Even Evil Has Standards</a>: In the first edition supplement featuring the Gaunt Man telling his story, he mentioned a moment when he felt sickened when the cult worshiping <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">The Nameless One</a> he was a part of decided to sacrifice two people they'd kidnapped &mdash; because the cult leader talked about it pleasing The Nameless One, and the Gaunt Man had just undergone a ritual that made him aware that the Nameless One wasn't even aware of their existence. He even spelled out that if the cult leader had said they'd sacrificed the two victims for fun he would have approved of it.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EverythingsBetterWithDinosaurs" title="/pmwiki/pmwiki.php/Main/EverythingsBetterWithDinosaurs">Everything's Better with Dinosaurs</a>: The Living Land.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilKnockoff" title="/pmwiki/pmwiki.php/Main/EvilKnockoff">Evil Knockoff</a>: The Warrior of the Dark is a doppleganger of Tolwyn Tancred.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExplosiveLeash" title="/pmwiki/pmwiki.php/Main/ExplosiveLeash">Explosive Leash</a>: The technodemons of Tharkold use these to keep their Race thralls in line. Some thralls are so heavily conditioned that, even if being in a realm with a lower tech axiom causes the collar to cease functioning, they'll still meekly return to their masters.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Expy" title="/pmwiki/pmwiki.php/Main/Expy">Expy</a>: <img src="/images/article-hreficon-trivia.png" class="trivia1 rounded" title="This example contains a TRIVIA entry. It should be moved to the TRIVIA tab."><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> is that <em>Eternity</em> sample character Anishaa Nayar is essentially an Indian <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TombRaider" title="/pmwiki/pmwiki.php/Franchise/TombRaider">Lara Croft</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasticNuke" title="/pmwiki/pmwiki.php/Main/FantasticNuke">Fantastic Nuke</a>: Dr. Mobius' signature "reality bombs", which force a temporary axiom wash to his rules in a place he hasn't established a stelae network yet.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FantasyKitchenSink" title="/pmwiki/pmwiki.php/Main/FantasyKitchenSink">Fantasy Kitchen Sink</a>: Pretty much the point of TORG, which is about various realities invading each other. So, indeed, we can have a monster from a horror reality meet up with heroes from a technocratic reality, and so forth. In a twist, stuff from one "paradigm" tends to malfunction in others, so don't expect ray guns to work in a stone age world.<ul><li> During a Reddit Q&amp;A conducted during the <em>Torg Eternity</em> Kickstarter, someone asked what Torg was and got the following response. "Imagine a role-playing game with an adventuring party consisting of <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/DieHard" title="/pmwiki/pmwiki.php/Franchise/DieHard">John McClane</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/HarryPotter" title="/pmwiki/pmwiki.php/Literature/HarryPotter">Harry Potter</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Dracula" title="/pmwiki/pmwiki.php/Literature/Dracula">Van Helsing</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/CaptainAmerica" title="/pmwiki/pmwiki.php/ComicBook/CaptainAmerica">Captain America</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TombRaider" title="/pmwiki/pmwiki.php/Franchise/TombRaider">Lara Croft</a>, and <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/JackieChan" title="/pmwiki/pmwiki.php/Creator/JackieChan">Jackie Chan</a>. One week they travel to New York to race against <a class="twikilink" href="/pmwiki/pmwiki.php/Film/RaidersOfTheLostArk" title="/pmwiki/pmwiki.php/Film/RaidersOfTheLostArk">Belloq</a> to find treasures in <a class="twikilink" href="/pmwiki/pmwiki.php/Series/LandOfTheLost1974" title="/pmwiki/pmwiki.php/Series/LandOfTheLost1974">Land of the Lost</a>. The next week they go to Cairo to fight ninjas in the world of <a class="twikilink" href="/pmwiki/pmwiki.php/Film/RaidersOfTheLostArk" title="/pmwiki/pmwiki.php/Film/RaidersOfTheLostArk">Raiders of the Lost Ark</a>. The following week they go to France and fight the Spanish Inquisition in <a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheMatrix" title="/pmwiki/pmwiki.php/Film/TheMatrix">The Matrix</a>. And all three of those settings are in the same world. That's Torg."</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FisherKingdom" title="/pmwiki/pmwiki.php/Main/FisherKingdom">Fisher Kingdom</a>: There are several parallel Earths invading "the real world"; each one has a tendency to warp the new inhabitants to the new rules of that domain. Player characters have the ability to resist this effect to some degree.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FlatWorld" title="/pmwiki/pmwiki.php/Main/FlatWorld">Flat World</a>: The <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HighFantasy" title="/pmwiki/pmwiki.php/Main/HighFantasy">High Fantasy</a> realm of Aysle, an Earth-sized discworld with life on both sides and a hole in the center through which a small sun rises and sets.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ForTheEvulz" title="/pmwiki/pmwiki.php/Main/ForTheEvulz">For the Evulz</a>: A promo for the Orrorsh sourcebook crowdfunding has this to say regarding The Gaunt Man: "Villains usually think of themselves as the heroes of their own stories, but not The Gaunt Man. He has chosen to be the villain of his own tale. Villains have power. Villains cause fear, rather than feeling it themselves. This is The Gaunt Man's sole, grand vanity: he is never satisfied with being the lesser evil."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunWithAcronyms" title="/pmwiki/pmwiki.php/Main/FunWithAcronyms">Fun with Acronyms</a>: TORG stands for "The/That Other Roleplaying Game". Also, the Gaunt Man <span class="notelabel" onclick="togglenote('note05wte');"><sup>note&nbsp;</sup></span><span id="note05wte" class="inlinefolder" isnote="true" onclick="togglenote('note05wte');" style="cursor:pointer;font-size:smaller;display:none;"> It's explained in-game that the "Torg" is the leader of all the High Lords. Being the most powerful High Lord, the Gaunt Man declared himself Torg. </span>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FunctionalMagic" title="/pmwiki/pmwiki.php/Main/FunctionalMagic">Functional Magic</a>:<ul><li> Magic is a combination of force magic and rule magic, arcane energy that can be manipulated in accordance with certain rules. Its capabilities rely on the Magic axiom.</li><li> Miracles are theurgy, calling on higher powers. Their capabilities rely on the Spirit axiom.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameMaster" title="/pmwiki/pmwiki.php/Main/GameMaster">Game Master</a>: The "leader" (although he spends most of the war offstage in the original game) of the invading armies is the Gaunt Man. Also, there is a game mechanic (the Drama Deck) for players to introduce subplots into the storyline, although almost no one ever plays the Martyr card.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreSavvy" title="/pmwiki/pmwiki.php/Main/GenreSavvy">Genre Savvy</a>: A subtle example in the Pan Pacifica Day One adventure. One of the pre-generated characters is a science fiction writer whose special Storm Knight power is extra possibility points&mdash;the author in the party has more chances to affect the "narrative", get it? This is further enhanced with her maxed out reality skill.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodGuise" title="/pmwiki/pmwiki.php/Main/GodGuise">God Guise</a>: The Gaunt Man convinced the ravagons to become his servants by claiming to be the latest Irishanti prophet. He further solidified his claim by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CurbStompBattle" title="/pmwiki/pmwiki.php/Main/CurbStompBattle">easily defeating</a> one of their most powerful warlords with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PunchedAcrossTheRoom" title="/pmwiki/pmwiki.php/Main/PunchedAcrossTheRoom">a single pimp slap</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBrotherIsWatching" title="/pmwiki/pmwiki.php/Main/BigBrotherIsWatching">GodNet Is Watching</a>: In <em>Eternity</em>, every conceivable object (as well as a few inconceivable ones) in the Cyberpapacy is connected to the GodNet. Those surprisingly inexpensive cybereyes the Church bequeathed to you monitor your every action unless you have the connection hacked (which is a heretical offense). Be careful what you say, because the toaster might be listening in. The GodNet sees all and knows all.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GodSaveUsFromTheQueen" title="/pmwiki/pmwiki.php/Main/GodSaveUsFromTheQueen">God Save Us from the Queen!</a>: Pella Ardinay during the time she was possessed by Uthorion.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HappyFunBall" title="/pmwiki/pmwiki.php/Main/HappyFunBall">Happy Fun Ball</a>: "Conjure The Bouncing Hordes Of Doom", found in the supplement "Pixaud's Practical Grimoire". The material component for the spell was a rubber ball with arcane symbols carved into the surface. When the caster tossed the ball while saying "<a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Pokemon" title="/pmwiki/pmwiki.php/Franchise/Pokemon">I invoke you</a>", the ball would split into six armed and armored Munchkins with Speedball's bouncing powers and resistance to kinetic damage, combined with Wolverine's skills with blades AND a gremlin's sheer nastiness.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HesBack" title="/pmwiki/pmwiki.php/Main/HesBack">He's Back</a>: The Gaunt Man in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin" title="/pmwiki/pmwiki.php/Main/ExactlyWhatItSaysOnTheTin">the appropriately-titled</a> <em>The Gaunt Man Returns</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HornyVikings" title="/pmwiki/pmwiki.php/Main/HornyVikings">Horny Vikings</a>: The Vikings of Aysle play this straight, much to the annoyance of Core Earth Scandinavians.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HopelessBossFight" title="/pmwiki/pmwiki.php/Main/HopelessBossFight">Hopeless Boss Fight</a>: The yokai in the Pan Pacifica Day One adventure is impossible to beat, fitting the cosm's generally darker tone. The instructions note that if the characters <em>do</em> manage to hurt it, a wave of jiangshi should immediately show up to make the fight more obviously unwinnable. Basically, the yokai's there to keep the party moving, induce a sense of dread, and maybe provide some chances for characters to trigger their Storm Knight powers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InTheHood" title="/pmwiki/pmwiki.php/Main/InTheHood">In the Hood</a>: Dr. Mobius is never seen without one.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/IronicEcho" title="/pmwiki/pmwiki.php/Main/IronicEcho">Ironic Echo</a>: Each adventure in the Day One collection ends with the arrival of a VTOL craft. In most, it carries Quinn Sebastian, who offers the Storm Knights the opportunity to join the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Delphi Council</a>. <span class="spoiler" title="you can set spoilers visible by default on your profile"> But in the Pan Pacifica adventure, it carries a Kanawa security team, whose leader orders that the Storm Knights be executed, except for one, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StrappedToAnOperatingTable" title="/pmwiki/pmwiki.php/Main/StrappedToAnOperatingTable">who he wants captured for study</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KiManipulation" title="/pmwiki/pmwiki.php/Main/KiManipulation">Ki Manipulation</a>: Pan-Pacifica's world laws make it possible for warriors to channel their internal energy into powerful fighting techniques.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KingIncognito" title="/pmwiki/pmwiki.php/Main/KingIncognito">King Incognito</a>: One of the Overgovernors of the Nile Empire is actually Dr. Mobius without his hood. Thanks to the Law of Masks, almost no one realizes that this is the case.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KlingonPromotion" title="/pmwiki/pmwiki.php/Main/KlingonPromotion">Klingon Promotion</a>: When Volkov had the Moscow maelstrom bridge nuked, this killed one of the seven Dukes of Tharkold. This in turn earned him the right to become the new Duke.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LargeHam" title="/pmwiki/pmwiki.php/Main/LargeHam">Large Ham</a>: Both pulp heroes and villains of the Nile Empire are like this to some degree. Though none can quite match Dr. Mobius.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LivingGasbag" title="/pmwiki/pmwiki.php/Main/LivingGasbag">Living Gasbag</a>: The stalengers of first edition's Living Land are floating, gas-filled beings with manipulative tentacles.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LizardFolk" title="/pmwiki/pmwiki.php/Main/LizardFolk">Lizard Folk</a>: The edeinos of the Living Land, and the ravagons, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WingedHumanoid" title="/pmwiki/pmwiki.php/Main/WingedHumanoid">pterodactyl-like race</a> who have become unwitting dupes of the Gaunt Man.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoadBearingBoss" title="/pmwiki/pmwiki.php/Main/LoadBearingBoss">Load-Bearing Boss</a>: In the Aysle adventure from the Day One collection, defeating Antenoch results in the temple collapsing.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LuredIntoATrap" title="/pmwiki/pmwiki.php/Main/LuredIntoATrap">Lured into a Trap</a>: In Issue 10 of Infiniverse, there was a dispatch in which the heroes investigate a rumor that Dr. Mobius has created a time machine. Should they actually locate it, the "time machine" proves to be a disintegration chamber to dispose of unwitting heroes by their own hands.<ul><li> The time machine "trap" was created because at least one reader pointed out that although it was stated in the Nile Empire Sourcebook that time machines were allowed by weird science, West End Games didn't want to deal with the ramifications.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheMagicGoesAway" title="/pmwiki/pmwiki.php/Main/TheMagicGoesAway">The Magic Goes Away</a>: The Magic Axiom of Tharkold has been in decline and is barely high enough for the technodemons to physically manifest.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MagicIsAMonsterMagnet" title="/pmwiki/pmwiki.php/Main/MagicIsAMonsterMagnet">Magic Is a Monster Magnet</a>:<ul><li> In the Cyberpapacy, rolling a Mishap on a magic skill runs the risk of accidentally summoning a demon.</li><li> In Tharkold, casting a spell attracts attention from any nearby technodemons.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Magitek" title="/pmwiki/pmwiki.php/Main/Magitek">Magitek</a>: The weird science gadgets of the Nile Empire run on distilled Possibility Energy.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheManInFrontOfTheMan" title="/pmwiki/pmwiki.php/Main/TheManInFrontOfTheMan">The Man in Front of the Man</a>: The Darkness Devices feign subservience towards their respective High Lords, all the while being the ones calling the shots.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MeleeATrois" title="/pmwiki/pmwiki.php/Main/MeleeATrois">M&ecirc;l&eacute;e &agrave; Trois</a>: Thrakmoss and his Whitespear Clan are equally hostile towards Core Earth forces and Baruk Kaah.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Metaplot" title="/pmwiki/pmwiki.php/Main/Metaplot">Metaplot</a>:<ul><li> Unusually for its time, the original game's metaplot was primarily driven by the original novel trilogy, and by the Infiniverse newsletters, which had things take place in response to player feedback.</li><li> <em>Eternity</em> takes a more traditional approach, with sourcebooks advancing the timeline. However, Infiniverse <a class="urllink" href="http://www.ulisses-us.com/infiniverse/">has come back in the form of a wiki<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MonsterProtectionRacket" title="/pmwiki/pmwiki.php/Main/MonsterProtectionRacket">Monster Protection Racket</a>:<ul><li> There are some who find the Kanawa Corporation's efficient handing of Infection outbreaks to be highly suspicious. <span class="spoiler" title="you can set spoilers visible by default on your profile"> As well they should; Reiko negotiated with the Gaunt Man and Gokuraku, offering them entrance and all the Possibilities they could harvest so long as they attacked to her exact specifications.</span> Notably, Kanawa is much more militant and controlling in areas which initially refused their help, like South Korea&mdash;<a class="twikilink" href="/pmwiki/pmwiki.php/Main/BlatantLies" title="/pmwiki/pmwiki.php/Main/BlatantLies">all to keep people safe, of course</a>.</li><li> <span class="spoiler" title="you can set spoilers visible by default on your profile"> Malraux has a cadre of broken witches who he uses to summon demons, which are let loose in areas where the people are considered insufficiently pious.</span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MustMakeAmends" title="/pmwiki/pmwiki.php/Main/MustMakeAmends">Must Make Amends</a>: A major reason why the elves in <em>Eternity</em> fight against the High Lords dates back to Uthorion's original invasion of Aysle. <span class="spoiler" title="you can set spoilers visible by default on your profile"> Faced with extermination, they made <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DealWithTheDevil" title="/pmwiki/pmwiki.php/Main/DealWithTheDevil">an ill-advised deal with the Gaunt Man</a>. This action resulted in the Akashans being wiped out when their cosm was invaded by Orrorsh.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NayTheist" title="/pmwiki/pmwiki.php/Main/NayTheist">Nay-Theist</a>: The dwarves of Aysle don't hold the gods of their cosm in very high regard. This is particularly reflected in their story of the creation of Aysle, where the Creators come across as rather buffoonish and, once done with their work, get bored and wander off.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NeedleInAStackOfNeedles" title="/pmwiki/pmwiki.php/Main/NeedleInAStackOfNeedles">Needle in a Stack of Needles</a>: The stelae used to anchor the Nippon Tech reality look like Bank of Japan automated teller machines. In Pan-Pacifica, they look like cell signal towers, and in the Nile Empire, they look like obelisks &mdash; <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvokedTrope" title="/pmwiki/pmwiki.php/Main/InvokedTrope">just like every other one Dr. Mobius erects</a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NephariousPharaoh" title="/pmwiki/pmwiki.php/Main/NephariousPharaoh">Nepharious Pharaoh</a>: Dr. Mobius, ruler of the Nile Empire and supervillain par excellence.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NukeEm" title="/pmwiki/pmwiki.php/Main/NukeEm">Nuke 'em</a>: In <em>Eternity</em>, Russia tries nuking Tharkold's maelstrom bridge, rather than sabotaging it beforehand as in the original game. The result is the Blasted Land.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PhonyNewscast" title="/pmwiki/pmwiki.php/Main/PhonyNewscast">Phony Newscast</a>: During the Kickstarter for <em>Eternity</em>, a Twitter account called Near Now News gave an in-universe recounting of the events from the opening weeks of the Possibility Wars through tweets. An archive of these tweets <a class="urllink" href="https://storify.com/USNAGames">can be found here<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PsychicPowers" title="/pmwiki/pmwiki.php/Main/PsychicPowers">Psychic Powers</a>: Available in the original game, albeit requiring a specific combination of axioms. <em>Eternity</em> simplifies things, making them dependent only on the Social axiom.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PuffOfLogic" title="/pmwiki/pmwiki.php/Main/PuffOfLogic">Puff of Logic</a>: The fantasy world of Aysle in first edition, where the local laws of reality stated that <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YourMindMakesItReal" title="/pmwiki/pmwiki.php/Main/YourMindMakesItReal">Your Mind Makes It Real</a> to the extent that real people could cross a sufficiently convincing illusionary bridge.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/QuarantineWithExtremePrejudice" title="/pmwiki/pmwiki.php/Main/QuarantineWithExtremePrejudice">Quarantine with Extreme Prejudice</a>: The Kanawa Corporation is accused of resorting to this in dealing with Infection outbreaks, something which they deny.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityBleed" title="/pmwiki/pmwiki.php/Main/RealityBleed">Reality Bleed</a>: Part of the very concept.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RingOfFire" title="/pmwiki/pmwiki.php/Main/RingOfFire">Ring of Fire</a>: Has a mechanic that generates a Ring of Fire that goes up to 11. The game is based around variant realities, and when two "possibility-rated" characters (read: PCs and important villains) from different realities face off, they can invoke a 'reality storm' that separates them from any other interference so that they can get down to the business of forcefully shoving their realities down each other's throats.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SamusIsAGirl" title="/pmwiki/pmwiki.php/Main/SamusIsAGirl">Samus Is a Girl</a>: The <em>Eternity</em> sample character Tworek is often mistaken for a male thanks to a combination of her rarely being out of her <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PoweredArmor" title="/pmwiki/pmwiki.php/Main/PoweredArmor">Dragon Armor</a> and her stocky dwarvish build.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScarsAreForever" title="/pmwiki/pmwiki.php/Main/ScarsAreForever">Scars Are Forever</a>: While the Living Land's Law of Life greatly accelerates natural healing, the process always leaves scars.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SealedEvilInACan" title="/pmwiki/pmwiki.php/Main/SealedEvilInACan">Sealed Evil in a Can</a>: For part of the original game's metaplot, the Gaunt Man was trapped in a reality storm.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SettingUpdate" title="/pmwiki/pmwiki.php/Main/SettingUpdate">Setting Update</a>: Much of the then futuristic technology of the Cyberpapacy and Nippon Tech in original Torg can look positively quaint nowadays. <em>Eternity</em> takes into account the ways computer and Internet technology have developed since then.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShoutOut" title="/pmwiki/pmwiki.php/Main/ShoutOut">Shout-Out</a>:<ul><li> The origin story for Dr. Mobius where loyalists transported his mummy to an island in the Pacific likely alludes to the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TalesOfTheGoldMonkey" title="/pmwiki/pmwiki.php/Series/TalesOfTheGoldMonkey">Tales of the Gold Monkey</a></em> episode "Trunk from the Past".</li><li> In Issue 38 of Infiniverse, a rumor was included which stated that Dr. Mobius had built a weird science space capsule. His intent was to launch a trio of Storm Knights into orbit with <a class="twikilink" href="/pmwiki/pmwiki.php/Series/MysteryScienceTheater3000" title="/pmwiki/pmwiki.php/Series/MysteryScienceTheater3000">a large quantity of B-movies for the purpose of monitoring their mental state</a>.</li><li> In the <em>When Cosms Collide</em> campaign, during the scene which takes place in a facsimile of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/AliBabaAndTheFortyThieves" title="/pmwiki/pmwiki.php/Literature/AliBabaAndTheFortyThieves">Ali Baba and the Forty Thieves</a></em>, one of the possible encounters is with <a class="twikilink" href="/pmwiki/pmwiki.php/Film/RaidersOfTheLostArk" title="/pmwiki/pmwiki.php/Film/RaidersOfTheLostArk">"Very Dangerous" Asps</a>.</li><li> The Cyberpapacy version of the Drama Deck has a card that causes reality skill tests to be Favored on the turn it's drawn. Its title: <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheMatrix" title="/pmwiki/pmwiki.php/Franchise/TheMatrix">"There is no spoon"</a>.</li><li> One of the gangs in the original "Living Land" was called the Links, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LawyerFriendlyCameo" title="/pmwiki/pmwiki.php/Main/LawyerFriendlyCameo">not explicitly stated but discernably meant</a> to be talking about <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda" title="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda">a certain video game hero</a>.</li><li> The module "The God Box" has an extremely involved one for <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/LandOfTheLost1974" title="/pmwiki/pmwiki.php/Series/LandOfTheLost1974">Land of the Lost (1974)</a></em>. A father, son, and daughter family (Spencer, Wesley and Kathy Marshall) were on a river rafting trip when they were pulled down a waterfall into the Land Below and surrounded by prehistoric horrors. Chakan, one of the natives who befriended the family, gets the Storm Knights involved in saving them after they're kidnapped by other less welcoming natives. <span class="notelabel" onclick="togglenote('note12vuj');"><sup>note&nbsp;</sup></span><span id="note12vuj" class="inlinefolder" isnote="true" onclick="togglenote('note12vuj');" style="cursor:pointer;font-size:smaller;display:none;"> The family from the show was the Marshalls; Spencer Milligan, Wesley Eure, and Kathy Coleman were the actors who played the family on the show; the family was on a river rafting trip when they went down a waterfall and through a portal into a world full of prehistoric monsters; Cha-ka was the name of the first local the family befriended after ending up the Land of the Lost; when the Storm Knights find the kids, they're identified by having the same hairstyles and shirts the kids on the show did. </span></li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SignificantAnagram" title="/pmwiki/pmwiki.php/Main/SignificantAnagram">Significant Anagram</a>: "Orrorsh" is an anagram of "horrors".</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SocialDarwinist" title="/pmwiki/pmwiki.php/Main/SocialDarwinist">Social Darwinist</a>:<ul><li> Technodemons are a mixture of types 1, 5, and 6. The Law of Domination is the primary factor in determining the pecking order in a pride (with humans stuck at the bottom).</li><li> Ravagons are a mixture of types 2 and 3. The ability to wield Possibility Energy is considered paramount. As a result, Ord ravagons never survive to adulthood, effectively making all ravagons Stormers.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SparedByTheAdaptation" title="/pmwiki/pmwiki.php/Main/SparedByTheAdaptation">Spared by the Adaptation</a>: Jonathan Wells is not assassinated during the opening months of the Possibility Wars in <em>Eternity</em>.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheStarscream" title="/pmwiki/pmwiki.php/Main/TheStarscream">The Starscream</a>: The technodemon Thratchen is this to the Gaunt Man in first edition. Jezrael is this to the Tharkold High Lord Kranod (she <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DragonAscendant" title="/pmwiki/pmwiki.php/Main/DragonAscendant">succeeds</a> in the first edition's metaplot and is about to in <em>Eternity</em>).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AStormIsComing" title="/pmwiki/pmwiki.php/Main/AStormIsComing">A Storm Is Coming</a>: Earth is invaded by a coalition of armies from various cosms with the capability to bring their own differing natural laws (read: genre conventions) into the territory they occupy. The borders between two reality zones are marked by "reality storms", leading to one of the game's slogans: "The Storm Has a Name."</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TailorMadePrison" title="/pmwiki/pmwiki.php/Main/TailorMadePrison">Tailor-Made Prison</a>: The <em>Eternity</em> campaign <em>The God Box</em> centers around trying to prevent an edeinos optant from using a Mayan artifact to capture and imprison the goddess Lanala.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThemeNaming" title="/pmwiki/pmwiki.php/Main/ThemeNaming">Theme Naming</a>: The various divisions of the <em>Eternity</em> Delphi Council have names that allude to Ancient Greece. Archimedes Division performs research, Homer Division is involved with spreading tales of Storm Knight accomplishments, Marathon Division handles inter-realm communication, and so on.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ThrillerOnTheExpress" title="/pmwiki/pmwiki.php/Main/ThrillerOnTheExpress">Thriller on the Express</a>: The players ride the Orient Express in the "Forever City" module, having to deal with a small army of Cyberpapacy warriors, and other less malicious troublemakers.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TookALevelInBadass" title="/pmwiki/pmwiki.php/Main/TookALevelInBadass">Took a Level in Badass</a>: The High Lords were all made equally competent in <em>Eternity</em> via this - the Cyberpope is a lot more familiar and canny with his tech and the social effects it has, Ulthorion is still in control of his Darkness Device, and Ryuchi Kanawa <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/SubvertedTrope" title="/pmwiki/pmwiki.php/Main/SubvertedTrope">has been retconned into being his sister's second in command</a>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/UpToEleven" title="/pmwiki/pmwiki.php/Main/UpToEleven">Up to Eleven</a>: The different "Axioms" of each dimension have a number showing what's possible in that dimension's territory regarding that Axiom. The scale goes far beyond what any of the included worlds are actually capable of, though (For instance, Aysle, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SwordsAndSorcery" title="/pmwiki/pmwiki.php/Main/SwordsAndSorcery">Swords and Sorcery</a> world, has the highest Magic Axiom at 24, but the scale, and list of examples of what's possible, goes all the way up to 30).</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">Villain with Good Publicity</a>: Both Jean Marleux and the Kanawa Corporation have fooled their territories into thinking they aren't invaders in <em>Eternity.</em> In reality, they made the very crisis they saved their zones from.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WhiteMansBurden" title="/pmwiki/pmwiki.php/Main/WhiteMansBurden">White Man's Burden</a>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayedWith" title="/pmwiki/pmwiki.php/Main/PlayedWith">Played With</a> in Orrorsh, which takes over our world's Indonesia in the original game. It's a world hunted by Lovecraftian Horrors, and fighting them off (or at least keeping the knowledge about them secret) is said burden. Noted in game was the irony that despite the invading Victorians' sense of superiority, they were quite a bit *less* technologically advanced than the native Indonesians.<ul><li> Actually the real irony was the fact that while the Victorians were motivated by a genuine desire to help Core Earth fight back against the invasion, they didn't understand the mechanics of reality invasion well enough to know that THEIR PRESENCE actually aided the invasion.</li></ul></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WretchedHive" title="/pmwiki/pmwiki.php/Main/WretchedHive">Wretched Hive</a>: The Cairo of the Nile Empire is dominated by gangsters and pulp villains, who operate openly and unhindered.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/YouHaveOutlivedYourUsefulness" title="/pmwiki/pmwiki.php/Main/YouHaveOutlivedYourUsefulness">You Have Outlived Your Usefulness</a>: Ultimately, it's the Darkness Devices who call the shots. If a High Lord proves unable to harvest sufficient Possibility Energy, the Darkness Device will ditch that High Lord once a suitable replacement has been scouted. In original Torg, Baruk Kaah and Uthorion find this out the hard way, <span class="spoiler" title="you can set spoilers visible by default on your profile">as has Kranod in <em>Eternity</em>.</span></li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZergRush" title="/pmwiki/pmwiki.php/Main/ZergRush">Zerg Rush</a>: Thanks to the low Social Axiom of the Living Land, the combat tactics of the edeinos aren't very sophisticated and consist largely of this.</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ZombieApocalypse" title="/pmwiki/pmwiki.php/Main/ZombieApocalypse">Zombie Apocalypse</a>: In <em>Eternity</em>, the Kanawa Corporation made one to provide a crisis to invoke a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity" title="/pmwiki/pmwiki.php/Main/VillainWithGoodPublicity">Villain with Good Publicity</a> status. It's not that numerous (most people killed by it just die after going mad), but about a third trigger the gospog genome inside the Contagion and become contagious <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChineseVampire" title="/pmwiki/pmwiki.php/Main/ChineseVampire">jiangshi</a>.</li></ul>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Torchbearer">Torchbearer</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopRPG">Tabletop RPG</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Traveller">Traveller</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/Torchbearer">Torchbearer</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TabletopGames">Tabletop Games</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/ATouchOfEvil">A Touch of Evil</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TimeWatch">TimeWatch</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Website/Kickstarter">Website/Kickstarter</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/TabletopGame/TrogdorTheBoardGame">Trogdor!! The Board Game</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>
