@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Virtue/Vice Codification - TV Tropes</title>
+<meta name="description" content="The Virtue/Vice Codification trope as used in popular culture. Some authors see the concepts of good and evil in morality as too abstract or poorly defined." />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/VirtueViceCodification" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Virtue/Vice Codification - TV Tropes" />
+<meta name="twitter:description" content="The Virtue/Vice Codification trope as used in popular culture. Some authors see the concepts of good and evil in morality as too abstract or poorly defined." />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_1ultima_iv_avatar_4_2492.jpg" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Virtue/Vice Codification - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Main/VirtueViceCodification" />
+<meta property="og:image" content="https://static.tvtropes.org/pmwiki/pub/images/rsz_1ultima_iv_avatar_4_2492.jpg" />
+<meta property="og:description" content="Some authors see the concepts of good and evil in morality as too abstract or poorly defined. One way to deal with this problem that has been used many times is to simply divide the abstract concepts into the separate moral qualities that seem to &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+ <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/ScamReligion" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Film/VisitingHours" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Main/VirtueViceCodification?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Main/VirtueViceCodification">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Main.VirtueViceCodification">
+<i class="fa fa-history"></i> History</a></li><li class="link-discussion"><a href="/pmwiki/remarks.php?trope=Main.VirtueViceCodification">
+<i class="fa fa-comment"></i> Discussion</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Main/VirtueViceCodification?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Main" />
+<input type="hidden" id="title-hidden" value="VirtueViceCodification" />
+<input type="hidden" id="article_id" value="400349" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Main/VirtueViceCodification</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+Virtue/Vice Codification
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tropes",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Virtue\/Vice Codification"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VirtueViceCodification" class="subpage-link curr-subpage" title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Analysis/VirtueViceCodification" class="subpage-link " title="The Analysis page">
+<span class="wrapper"><span class="spi analysis"></span>Analysis</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Characters/VirtueViceCodification?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/VirtueViceCodification?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/VirtueViceCodification?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/VirtueViceCodification?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/VirtueViceCodification?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/VirtueViceCodification?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/VirtueViceCodification?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/Laconic/VirtueViceCodification?action=edit">Laconic</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/VirtueViceCodification?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/VirtueViceCodification?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/VirtueViceCodification?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/VirtueViceCodification?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/VirtueViceCodification?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/VirtueViceCodification?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/VirtueViceCodification?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/VirtueViceCodification?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/VirtueViceCodification?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p></p><div class="quoteright" style="width:350px;"><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/UltimaIV" title="/pmwiki/pmwiki.php/VideoGame/UltimaIV"><div class="lazy_load_img_box" style="padding-top:62.57%"><img src="https://static.tvtropes.org/pmwiki/pub/images/rsz_1ultima_iv_avatar_4_2492.jpg" class="embeddedimage" border="0" alt="https://static.tvtropes.org/pmwiki/pub/images/rsz_1ultima_iv_avatar_4_2492.jpg" width="350" height="219"></div></a></div>
+<div class="acaptionright" style="width:350px;">Whew! Only 7 more to go...</div>
+<div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>Some authors see the concepts of good and evil in morality as too abstract or poorly defined. One way to deal with this problem that has been used many times is to simply divide the abstract concepts into the separate moral qualities that seem to make up "goodness" and "evil". What results from this process is a system of virtues and vices.
+</p><p>A virtue is a positive moral quality. Individual virtues are treated as only <em>aspects</em> of goodness, and no virtue alone is enough to form a good character. Similarly, each virtue has a corresponding vice which represents either the diametric opposite of the virtue or its complete absence. Also, extrapolating any single virtue to its extreme at the expense of all others also usually leads to subversion; virtues in a system are dependent on one another and must be weighed against each other in order to function as intended.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>Virtue systems often appear in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="/pmwiki/pmwiki.php/Main/ReligionTropes">religion</a>, where the virtues usually are regarded as downright sacred, and often roads to rewards in the afterlife. One classical system of religious virtues from history is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenHeavenlyVirtues" title="/pmwiki/pmwiki.php/Main/SevenHeavenlyVirtues">Seven Heavenly Virtues</a> and their counterparts the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenDeadlySins" title="/pmwiki/pmwiki.php/Main/SevenDeadlySins">Seven Deadly Sins</a>, both sprung from Christianity.
+</p><p>This is the trope for works that define or otherwise deal with such a system, religious or otherwise, in order to form a moral narrative.
+</p><p>Since the focus of virtues lies on inspiring us to do the right thing in the here and now, even when it comes to seemingly minor everyday decisions, the virtue-centric hero is usually a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SmallStepsHero" title="/pmwiki/pmwiki.php/Main/SmallStepsHero">Small Steps Hero</a>.
+</p><p>When featured in video or tabletop games, virtue systems often takes the form of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/KarmaMeter" title="/pmwiki/pmwiki.php/Main/KarmaMeter">scorekeeping scales</a> that represent a protagonist's prowess in a certain virtue. The player's actions in the game will add to or subtract from the player's virtue scores. These scores themselves may be anywhere from fully visible to completely hidden to the player, but they are sure to have some kind of effect on the gameplay. Sometimes they affect whether <a class="twikilink" href="/pmwiki/pmwiki.php/Main/NonPlayerCharacter" title="/pmwiki/pmwiki.php/Main/NonPlayerCharacter">NPCs</a> react positively or negatively towards the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PlayerCharacter" title="/pmwiki/pmwiki.php/Main/PlayerCharacter">Player Character</a>, for instance. Character trackers of this kind are particularly common in computer-based role-playing games, especially of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WesternRPG" title="/pmwiki/pmwiki.php/Main/WesternRPG">western origin</a>.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p>See <a class="twikilink" href="/pmwiki/pmwiki.php/Analysis/VirtueViceCodification" title="/pmwiki/pmwiki.php/Analysis/VirtueViceCodification">the Analysis subpage</a> for a more detailed examination of both existing and hypothetical examples of such systems. For virtues commonly found in unsympathetic characters, see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EvilVirtues" title="/pmwiki/pmwiki.php/Main/EvilVirtues">Evil Virtues</a>. For the narrative pattern where virtues or vices are allegorically associated with characters or other in-story entities, see <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmbodimentOfVirtue" title="/pmwiki/pmwiki.php/Main/EmbodimentOfVirtue">Embodiment of Virtue</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EmbodimentOfVice" title="/pmwiki/pmwiki.php/Main/EmbodimentOfVice">Embodiment of Vice</a>, respectively.
+</p><p></p><hr><h2>Examples:</h2>
+<p></p><div class="folderlabel" onclick="toggleAllFolders();">&nbsp;&nbsp;&nbsp;&nbsp;open/close all folders&nbsp; </div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;Anime &amp; Manga&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;">
+<ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Manga/KarakuridoujiUltimo" title="/pmwiki/pmwiki.php/Manga/KarakuridoujiUltimo">Karakuridouji Ultimo</a></em>, there are fifty Douji representing positive traits. Ultimo and the Six Perfects of Buddhism are the strongest of them, fighting against the Douji based on negative traits (including the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenDeadlySins" title="/pmwiki/pmwiki.php/Main/SevenDeadlySins">Seven Deadly Sins</a>).
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;Literature&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/Discworld" title="/pmwiki/pmwiki.php/Literature/Discworld">Discworld</a></em>:
+<ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/GoingPostal" title="/pmwiki/pmwiki.php/Literature/GoingPostal">Going Postal</a></em>, the (now) Eight Virtues are Fortitude, Patience, Chastity, Charity, Hope, Silence, Tubso and Bissonomy. Few people practice Tubso and Bissonomy in the busy modern world, because no-one remembers what they are.
+</li><li> Possibly in reference to <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/AnneOfGreenGables" title="/pmwiki/pmwiki.php/Literature/AnneOfGreenGables">Anne of Green Gables</a></em> (below), the Carter family in Lancre named their daughters after virtues they failed to live up to, including Charity (a miser), Hope (a depressive), and Chastity (currently making good money as a lady of the night). Out of misguided adherence to the theme, their sons were named after various vices they also failed to live up (down?) to. Anger Carter is a very gentle fellow, while Bestiality Carter is known for being very kind and respectful with animals.
+</li></ul></li><li> The <em>Psychomachia</em> (The Battle for the Soul of Man), by the Latin poet Prudentius, was written to depict the battle between the virtues and vices for the souls of mankind. Faith fights [Paganism], Chastity fights Lust, Patience <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SheatheYourSword" title="/pmwiki/pmwiki.php/Main/SheatheYourSword">'fights'</a> Wrath, and so on.
+</li><li> <em>The Allegory of Love</em> by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/CSLewis" title="/pmwiki/pmwiki.php/Creator/CSLewis">C. S. Lewis</a> references many of the virtues listed in <em>Psychomachia</em>. Among them are: Orthodoxy, Humility, Patience, and Self-Control in opposition to, respectively: Discord, Pride, Wrath, and Luxury.
+</li><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/AnneOfGreenGables" title="/pmwiki/pmwiki.php/Literature/AnneOfGreenGables">Anne of Green Gables</a></em> books contain a passing reference to a woman who named her three daughters Faith, Hope, and Charity: "Faith didn't believe in anything, Hope was a born pessimist, and Charity was a miser."
+</li><li> The three houses <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent" title="/pmwiki/pmwiki.php/Main/OurVampiresAreDifferent">the White Court</a> in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheDresdenFiles" title="/pmwiki/pmwiki.php/Literature/TheDresdenFiles">The Dresden Files</a></em> are psychic vampires that feed on various negative emotions but are injured at best, killed at worst, by feeding on one who is ripe with the virtue countering that negative emotion. Even trying to mentally attack the person is damn near impossible. So, those of House Raith feeds on lust but are scared and burned by those who know true and genuine love. Those of House Skavis feed on despair and are hurt by hope. Those of House Marvola feed on fear and are injured by those with genuine courage about them. Two of the three are also embodied by the swords wielded by the Knights of the Cross: Fidelacchius (faith), Esperacchius (hope), and Amoracchius (love).
+</li><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/RoseOfTheProphet" title="/pmwiki/pmwiki.php/Literature/RoseOfTheProphet">Rose of the Prophet</a></em> trilogy takes place on the world of Sularin, which (metaphorically speaking) takes the form of a 20-sided jewel (an icosahedron) ruled over by 21 gods- Sul, the light of truth at its centre, and twenty lesser gods who reflect aspects of Sul. Each of the twelve vertices of the icosahedral jewel represents a divine philosopy, with Good at the top surrounded by five virtues (Law, Mercy, Faith, Charity, and Patience) and Evil at the bottom surrounded by five vices (Chaos, Intolerance, Reality, Greed, and Impatience). Each of the twenty gods, representing one facet of the jewel, embodies the three vertices their facet has at each of its corners- the five good gods all obviously radiate from the Good facet and the five evil ones likewise from evil, with Promenthas being the god of Goodness, Charity and Faith, while his opposite Astafas is the god of Evil, Greed and Reality. The 10 facets around the middle are the neutral gods, with their facets containing one vice and two virtues or vice versa, depending on their position. It's interesting the way these combinations of traits can result in entirely opposing philosophies- Kharmani the god of Faith, Mercy and Greed and Benario the god of Faith, Chaos and Greed (making them neighbours on the jewel) are respectively the god of Wealth and the god of <em>Thieves.</em> Notably, the main conflict of the series is between two of the <em>neutral</em> gods rather than the good and evil ones- the heroic Akhran the Wanderer (god of Chaos, Impatience and Faith) and the scheming Quar (God of Reality, Greed and Law).
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder2');">&nbsp;&nbsp;&nbsp;&nbsp;Live Action TV&nbsp;</div><div id="folder2" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/WMACMasters" title="/pmwiki/pmwiki.php/Series/WMACMasters">WMAC Masters</a></em> (the first known series to be produced by <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/FourKidsEntertainment" title="/pmwiki/pmwiki.php/Creator/FourKidsEntertainment">4Kids Entertainment</a><span class="notelabel" onclick="togglenote('note0oo89');"><sup>note&nbsp;</sup></span><span id="note0oo89" class="inlinefolder" isnote="true" onclick="togglenote('note0oo89');" style="cursor:pointer;font-size:smaller;display:none;">This was an original live-action series that predates (even the original Japanese version of) the <a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Pokemon" title="/pmwiki/pmwiki.php/Anime/Pokemon">Pok&eacute;mon anime</a></span>) has the six points of the Dragon Star: Respect, Honor, Wisdom<span class="notelabel" onclick="togglenote('note1p7bp');"><sup>note&nbsp;</sup></span><span id="note1p7bp" class="inlinefolder" isnote="true" onclick="togglenote('note1p7bp');" style="cursor:pointer;font-size:smaller;display:none;">An earlier episode had "Loyalty" as the third point before it was retconned to the current one.</span>, Confidence, Compassion, Forgiveness, Discipline, and Courage.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder3');">&nbsp;&nbsp;&nbsp;&nbsp;Pinball&nbsp;</div><div id="folder3" class="folder" isfolder="true" style="display:block;">
+<ul><li> Parodied in Bally's <em><a class="twikilink" href="/pmwiki/pmwiki.php/Pinball/DrDude" title="/pmwiki/pmwiki.php/Pinball/DrDude">Dr. Dude</a></em> with the Elements of Coolness: a Magnetic Personality, the Heart of Rock 'n Roll, and the Gift of Gab. The player must get three samples of each to enable multiball.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder4');">&nbsp;&nbsp;&nbsp;&nbsp;Religion&nbsp;</div><div id="folder4" class="folder" isfolder="true" style="display:block;">
+<ul><li> The precursor to the seven heavenly virtues are <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheCardinalVirtues" title="/pmwiki/pmwiki.php/Main/TheCardinalVirtues">The Cardinal Virtues</a>, first penned by Plato and Aristotle, and the Theological virtues, taken from the New Testament of <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheBible" title="/pmwiki/pmwiki.php/Literature/TheBible">The Bible</a>. They are as follows:
+<div class="indent"> <strong>Cardinal</strong>: Prudence, Justice, Temperance, and Courage.
+</div><div class="indent"> <strong>Theological</strong>: Faith, Hope, and Love (also called Charity).
+</div></li><li> Buddhism teaches the Noble Eightfold Path, consisting of: Right view, Right intention, Right speech, Right action, Right livelihood, Right effort, Right mindfulness, and Right concentration.
+</li><li> The Anishinaabe people (also known as the Odawa, Ojibwe, and Algonkins) of North America have the Seven Teachings, also known as the Teachings of the Seven Grandfathers. They are: Wisdom, Love, Respect, Bravery, Honesty, Humility, and Truth.
+</li><li> This is also related to the "Fruits of the Spirit", also from the New Testament: love, joy, peace, patience, kindness, generosity, faithfulness, gentleness, and self-control. They are so named because the belief is that the Spirit will grow (like a fruit) these qualities in you.
+</li><li> The Charge of the Goddess names the eight virtues as wisdom, beauty, strength, power, mirth, reverence, compassion and humility.
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/TheTalmud" title="/pmwiki/pmwiki.php/Literature/TheTalmud">The Talmud</a> includes various lists of virtues:
+<ul><li> In Mishnah Sotah 9:15, Rabbi Pinhas ben Yair lists the following virtues, the cultivation of each one leading in turn to the next: heedfulness, cleanliness, purity, abstinence, holiness, humility, shunning of sin, and saintliness.<span class="notelabel" onclick="togglenote('note25p4s');"><sup>note&nbsp;</sup></span><span id="note25p4s" class="inlinefolder" isnote="true" onclick="togglenote('note25p4s');" style="cursor:pointer;font-size:smaller;display:none;">The end result of cultivating all these is the gift of divine inspiration ("the holy spirit"), which in turn brings about the future resurrection of the dead.</span>
+</li><li> In Mishnah Avot 1:2, Simon the Just states: "The world rests upon three things: Torah, service to God, and showing loving-kindness."
+</li><li> In Mishnah Avot 1:18, Rabbi Simeon ben Gamaliel states: "The world rests on three things: justice, truth, and peace."
+</li></ul></li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder5');">&nbsp;&nbsp;&nbsp;&nbsp;Tabletop Games&nbsp;</div><div id="folder5" class="folder" isfolder="true" style="display:block;">
+<ul><li> In <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Chaosium" title="/pmwiki/pmwiki.php/Creator/Chaosium">Chaosium</a>'s <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Pendragon" title="/pmwiki/pmwiki.php/TabletopGame/Pendragon">Pendragon</a></em>, traits included Chaste/Lustful, Energetic, Forgiving, Generous, Honest, Just, Merciful, Modest/Proud, Pious/Worldly, Prudent/Reckless, Temperate/Indulgent, Trusting, and Valorous. Some of the traits were considered virtues by specific cultures:
+<ul><li> Christian: Chaste, Forgiving, Merciful, Modest, Temperate.
+</li><li> Pagan: Energetic, Generous, Honest, Lustful, Proud.
+</li><li> Wotanic: Generous, Indulgent, Proud, Reckless, Worldly.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Exalted" title="/pmwiki/pmwiki.php/TabletopGame/Exalted">Exalted</a></em> provides Four Virtues which structure the moral merits and failings of all sapient characters. They are Compassion, Valor, Conviction, and Temperance.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/LegendsOfTheWulin" title="/pmwiki/pmwiki.php/TabletopGame/LegendsOfTheWulin">Legends of the Wulin</a></em> has some mechanics revolving the <em>Xia</em> (Chivalrous) and Selfish virtues. The Xia virtues are <em>Kuan</em> (Benevolence), <em>Ba</em> (Force), <em>Xin</em> (Honor), <em>Zhong</em> (Loyalty), and <em>Yi</em> (Righteousness), while the Selfish virtues are <em>Bao</em> (Ferocity), <em>Si</em> (Individualism), <em>Chan</em> (Obsession), <em>Chou</em> (Revenge), and <em>Hen</em> (Ruthlessness). There are also certain virtues that can be developed from philosophical study, such as the Confucian <em>Xiao</em> (Filial Piety) and the Mohist <em>Ren</em> ("Universal Care," which is a combination of ascetism and compassion).
+</li><li> Characters in <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness" title="/pmwiki/pmwiki.php/TabletopGame/TheWorldOfDarkness">The World of Darkness</a></em> choose one of seven Virtues and one of seven Vices. Indulging a Vice in a way that harms or victimizes another gives back one point of that character's Willpower. On the other hand, fulfilling a Virtue at some cost to the character gives the character back all of their spent Willpower.
+</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/TabletopGame/Scion" title="/pmwiki/pmwiki.php/TabletopGame/Scion">Scion</a></em>, each Scion has four Virtues based on what Pantheon they come from, taken from a list of twelve (Conviction, Courage, Duty, Endurance, Expression, Harmony, Intellect, Loyalty, Order, Piety, Valor, and Vengeance), while Titanspawn have a set of four vices called Dark Virtues (Ambition, Malice, Rapacity, and Zealotry), though free-willed Titanspawn can have the normal Virtues instead, and unintelligent Titanspawn usually have no Virtues at all, Dark or otherwise. Virtues can add bonus dice to rolls if you play to them, require a roll against Willpower to act against them, and badly failing a roll to act against them instead causes an extreme version of a Virtue to take over (e.g., Courage becomes Berserker Fury, Endurance becomes Self-Destruction, and Malice becomes All-Consuming Hatred).
+<ul><li> Second edition changes things up a bit: instead of four from a list of twelve, each pantheon has two Virtues unique to them. Titans keep their set of four, though Ambition, Malice, and Zealotry are swapped out for Dominance, Submission, and Fecundity.
+</li></ul></li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder6');">&nbsp;&nbsp;&nbsp;&nbsp; Toys&nbsp;</div><div id="folder6" class="folder" isfolder="true" style="display:block;">
+<ul><li> Bionicle has the famous Three Virtues - Unity, Duty, and Destiny - which are actually not bad virtues to live by. There are also the Matoran Principles from the Mata Nui Online Game II, each the direct opposite of a Rahkshi power (the villains from that year). They are -
+<p></p><ul><li> Purity, practiced by Matoran of Water, which is opposed by Poison;
+</li><li> Prosperity, practiced by Matoran of Earth, opposed by Hunger;
+</li><li> Faith, practiced by Matoran of Air, opposed by Fragmentation;
+</li><li> Courage, practiced by Matoran of Fire, opposed by Fear;
+</li><li> Peace, practiced by Matoran of Ice, opposed by Anger; and
+</li><li> Creation, practiced by Matoran of Stone, opposed by Disintegration (complete and total erasure).
+</li></ul></li></ul><p></p></div>
+<div class="folderlabel" onclick="togglefolder('folder7');">&nbsp;&nbsp;&nbsp;&nbsp;Video Games&nbsp;</div><div id="folder7" class="folder" isfolder="true" style="display:block;">
+<ul><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Ultima" title="/pmwiki/pmwiki.php/VideoGame/Ultima">Ultima</a></em> series
+<ul><li> The original Eight Virtues which the Avatar must follow: Honesty, Compassion, Valor, Justice, Sacrifice, Honor, Spirituality, and Humility. In turn, these are taken from Three Principles: Truth, Love, and Courage.
+</li><li> There are eight sins or vices that are the opposite of the eight Virtues. While the Virtues are represented by seven shrines throughout the land <span class="spoiler" title="you can set spoilers visible by default on your profile">and the eighth in the Ethereal Void</span>, the Vices are represented by seven dungeons <span class="spoiler" title="you can set spoilers visible by default on your profile">and the eighth in the vast underworld.</span>
+</li><li> Honesty / Deceit, Compassion / Despise, Valor / Destard, Justice / Wrong, Sacrifice / Covetous, Honor / Shame, Spirituality / Hythloth, Humility / The Great Stygian Abyss
+</li><li> The people of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParallelUniverse" title="/pmwiki/pmwiki.php/Main/ParallelUniverse">Killorn Keep</a> in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/UltimaUnderworld" title="/pmwiki/pmwiki.php/VideoGame/UltimaUnderworld">Ultima Underworld</a> II</em> observe a dystopian set of virtues: sobriety, punctuality, obedience, vigilance, conformity, efficiency, silence, diligence.
+</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/UltimaVIIPartII" title="/pmwiki/pmwiki.php/VideoGame/UltimaVIIPartII">Ultima VII part 2: Serpent Isle</a></em>, the (now extinct and vanished, respectively) followers of Chaos and Order each had a set of virtues: Tolerance, Enthusiasm, and Emotion for Chaos, and Ethicality, Discipline, and Logic for Order. Interestingly, these are not considered opposites to each other, but instead complement each other in Balance, which is considered optimal. (Logic and Emotion creates Rationality, etc., making the virtues of Balance.) Conversely, embracing one while rejecting the other causes imbalance and becomes "anti-virtues", or Banes: Emotion without Logic is Insanity, and Discipline without Enthusiasm becomes Apathy.
+</li><li> <em>Ultima VI</em> introduces two other virtue models: the Gargish virtues of Direction, Feeling, Persistence, Balance, Achievement, Precision, Order, and Singularity, based on the Principles of Control, Passion, and Diligence; and Mandrake the Gypsy King's principles of Drunkenness, Sensuality, Harmony, Lust, Laziness, Dance, Indulgence, and Happiness, based on the Principles of Wine, Women, and Song. While the latter is very much tongue-in-cheek, it nonetheless maintains the same structure as the original virtues.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Videogame/KingdomOfLoathing" title="/pmwiki/pmwiki.php/Videogame/KingdomOfLoathing">Kingdom of Loathing</a></em> &mdash; The Ultimate Legendary Epic Weapon of the Turtle Tamers is the Flail of the Seven Aspects, representing seven good traits of turtles: Strength, Wisdom, Protection, Tenacity, Fortitude, Valor, and Patience. It can attack seven times in one round.
+</li><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/DragonAge" title="/pmwiki/pmwiki.php/Franchise/DragonAge">Dragon Age</a></em> has five negative emotions: Pride, Desire, Sloth, Hunger, and Rage, each associated with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurDemonsAreDifferent">type of demon</a> and condemned by the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChurch" title="/pmwiki/pmwiki.php/Main/TheChurch">Chantry</a>. Likewise, there are five positive emotions, Fortitude/Valor, Compassion, Justice, Faith, and Hope, each associated with a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OurSpiritsAreDifferent" title="/pmwiki/pmwiki.php/Main/OurSpiritsAreDifferent">benevolent spirit type</a>.
+</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/WorldOfWarcraft" title="/pmwiki/pmwiki.php/VideoGame/WorldOfWarcraft">World of Warcraft</a></em>, the Pandaren in Mists of Pandaria practice the virtues of Faith, Hope, Courage, Peace, Patience, and Love.
+<ul><li> As such, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">sha</a> are made manifest from negative emotions, such as Doubt, Despair, Fear, Anger, Violence, Hatred, and <span class="spoiler" title="you can set spoilers visible by default on your profile">Pride</span>.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheToneRebellion" title="/pmwiki/pmwiki.php/VideoGame/TheToneRebellion">The Tone Rebellion</a></em> has 6 to 14 "Mystic Locations" and twice that many artefacts (depending on the world size). Each location tells a story about some great achievement or virtuous deed, like standing between armies to stop a war. Returning artefacts to correct locations gives virtue glyphs. The glyphs improve player's armies or production and are eventually used to banish the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EldritchAbomination" title="/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritch Abomination</a>, who spreads the opposite of those virtues.
+<ul><li> The vices brought by Leviathan are:
+<ul><li> lies,
+</li><li> fury,
+</li><li> slavery,
+</li><li> fear,
+</li><li> intolerance,
+</li><li> pain,
+</li><li> cruelty,
+</li><li> betrayal,
+</li><li> doubt,
+</li><li> hoarding,
+</li><li> conceit,
+</li><li> contempt,
+</li><li> apathy,
+</li><li> gluttony.
+</li></ul></li><li> The virtues, per glyph descriptions, are:
+<ul><li> trusting your own nature;
+</li><li> resisting resentment and anger;
+</li><li> freedom;
+</li><li> acceptance to face adversity;
+</li><li> wisdom to let others follow their ways;
+</li><li> drawing strength from the wonder of life (always present);
+</li><li> striving for peace (always present);
+</li><li> control over your own obligations;
+</li><li> faith;
+</li><li> relying on each other (always present);
+</li><li> remaining humble (always present);
+</li><li> mindfulness of the rights of others;
+</li><li> compassion;
+</li><li> release from your needs and desires by striving for the good of others.
+</li></ul></li></ul></li><li><em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheOuterWorlds" title="/pmwiki/pmwiki.php/VideoGame/TheOuterWorlds">The Outer Worlds</a></em>: The Order of Scientific Inquiry follows six virtues.
+<ul><li>Survival of the Fittest: Nature abhors equality. The strong survive and the weak perish for the betterment of the whole.
+</li><li>Determinism: We are all molecular machines. The body is a collection of atoms. The mind is a consequence of chemical reactions. Our lives are therefore predestined along a path that is only visible in retrospect.
+</li><li>Empiricism: The only real knowledge is that which we can observe, quantify, and measure for ourselves. Scientific experimentation is the only way to understand the elaborate blueprint of the universe.
+</li><li>Stoicism: Reason, not emotion, is the seat of morality. Wisdom means accepting the vicissitudes of life with grace and dignity.
+</li><li>Teleological Order: All things have a reason for existing, and a purpose to fulfill. The purpose of humanity is to eventually unlock and solve the Universal Equation.
+</li><li>Patronage of Science: The purpose of humanity is realized through scientific achievement. Advancements in science and technology bring humanity closer to fulfilling its role in the cosmos.
+</li></ul></li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder8');">&nbsp;&nbsp;&nbsp;&nbsp;Western Animation&nbsp;</div><div id="folder8" class="folder" isfolder="true" style="display:block;">
+<ul><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/ThunderCats" title="/pmwiki/pmwiki.php/WesternAnimation/ThunderCats">Thunder Cats</a></em> had the Code of Thundera: Justice, Truth, Honor and Loyalty.
+</li><li> A central theme of <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/MyLittlePonyFriendshipIsMagic" title="/pmwiki/pmwiki.php/WesternAnimation/MyLittlePonyFriendshipIsMagic">My Little Pony: Friendship Is Magic</a></em> seems to be a simple model of virtue ethics, where six different elements constitute the whole of Harmony, and one of the core narrative functions of each main character is to exemplify one of these ideals. Being social virtues, many of these are often de-emphasized or completely overlooked in other contexts, due to the traditional tendency of virtue ethics to place the emphasis on individual excellence of character.
+<ul><li> Kindness is a classic virtue, often referred to in other contexts as <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure" title="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure">compassion</a>, and closely related to forgiveness and understanding. Also called Compassion by Princess Celestia. Personified by Fluttershy.
+</li><li> Honesty, another classic virtue. Can be interpreted in truthfulness in word, but also as <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure" title="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure">integrity</a> of character, and fidelity and reliability in deed. Also called Integrity by Princess Celestia. Personified by Applejack.
+</li><li> Generosity, in other contexts often referred to as <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure" title="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure">charity</a> or self-sacrifice. Also called Charity by Princess Celestia. Personified by Rarity, who only tends to display her sincere affinity for it when the need is most dire. The similarity between her name and "charity" seems likely to be intentional.
+</li><li> Loyalty. A classic social virtue. In some ways related to the traditional value of honor, it can be interpreted both as <a class="twikilink" href="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure" title="/pmwiki/pmwiki.php/Recap/MyLittlePonyFriendshipIsMagicS3E13MagicalMysteryCure">devotion</a> to one's country and to one's friends. Also called Devotion by Princess Celestia. Personified by Rainbow Dash.
+</li><li> Laughter. A highly unorthodox virtue. Hardly found in any other context in quite the same form, it nevertheless shares several traits with hope and mirth, both of which appear in some virtue-ethical models. Also called Optimism by Princess Celestia. Personified by Pinkie Pie.
+</li><li> Magic/Friendship. The central theme of the show. This virtue can be regarded as a mixture of all of the others, as well as a constituent in and of itself of the whole of Harmony. It is the strength of unity that arises from harmonious, joyful relationships with others. A similar notion, albeit with less emphasis on the emotional dimension, in different contexts is that of solidarity. Also called Leadership by Princess Celestia. Personified by Twilight Sparkle.
+</li></ul></li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder9');">&nbsp;&nbsp;&nbsp;&nbsp;Real Life&nbsp;</div><div id="folder9" class="folder" isfolder="true" style="display:block;">
+<ul><li> Seven separate virtues make up the Bushido code: Rectitude, Courage, Benevolence, Respect, Honesty, Honor, and Loyalty.
+</li><li> For traditional Japanese society, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PillarsOfMoralCharacter" title="/pmwiki/pmwiki.php/Main/PillarsOfMoralCharacter">Pillars of Moral Character</a>: On (Reciprocacy), Gimu (Piety), Giri (Duty), and Ninjo (Compassion).
+</li><li> The United States Army endorses seven basic values within its ranks, with an acronym of LDRSHIP: Loyalty, Duty, Respect, Selfless Service, Honor, Integrity, and Personal Courage.
+</li><li> Knights of the Middle Ages often followed Knightly Virtues based on the heavenly and Cardinal virtues.
+</li><li> Kwanzaa, a celebration of Afro-American/African culture in the US has seven principles:
+<ul><li> Umoja (Unity): To strive for and to maintain unity in the family, community, nation, and race.
+</li><li> Kujichagulia (Self-Determination): To define ourselves, name ourselves, create for ourselves, and speak for ourselves.
+</li><li> Ujima (Collective Work and Responsibility): To build and maintain our community together and make our brothers' and sisters' problems our problems, and to solve them together.
+</li><li> Ujamaa (Cooperative Economics): To build and maintain our own stores, shops, and other businesses and to profit from them together.
+</li><li> Nia (Purpose): To make our collective vocation the building and developing of our community in order to restore our people to their traditional greatness.
+</li><li> Kuumba (Creativity): To do always as much as we can, in the way we can, in order to leave our community more beautiful and beneficial than we inherited it.
+</li><li> Imani (Faith): To believe with all our heart in our people, our parents, our teachers, our leaders, and the righteousness and victory of our struggle.
+</li></ul></li><li> The Boy Scout Law (American Version): "A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent." Similar versions are used in other countries, expressing generally the same morals.
+</li><li> The Seven Cardinal Virtues of a DeMolay: Filial Love, Respect for Sacred Things, Courtesy, Comradeship, Fidelity, Cleaness, and Patriotism.
+</li><li> Ben Franklin drew out a list of thirteen virtues, in the order he deemed easiest to learn: temperance, silence, order, resolution, frugality, industry, sincerity, justice, moderation, cleanliness, tranquility, chastity, and - this last added after his lack was pointed out to him - humility.
+</li><li> According to the Soviet "Moral Code of the Builder of Communism", the Communist virtues are the following:
+<ul><li> Conviction to the Communist cause and patriotism;
+</li><li> Honest work for the good of the society;
+</li><li> Care for communal wealth;
+</li><li> Sense of duty to the society;
+</li><li> Collectivism and mutual help;
+</li><li> Humanism and mutual respect;
+</li><li> Honesty and truthfulness;
+</li><li> Respect to family members;
+</li><li> Intolerance for injustice, parasitism, dishonesty and careerism;
+</li><li> Fraternal solidarity with workers of all nations.
+</li></ul></li><li> The three virtues of <a class="urllink" href="http://kw.pm.org/talks/0204-modules/slide013.html">programming:<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> Laziness, Impatience, and Hubris. <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SevenDeadlySins" title="/pmwiki/pmwiki.php/Main/SevenDeadlySins">Wait...</a>
+</li></ul></div>
+<p></p><hr>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Unicorn">Unicorn</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Motifs">Motifs</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WorldTree">World Tree</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/UnwantedFalseFaith">Unwanted False Faith</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ReligionTropes">Religion Tropes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/VowOfCelibacy">Vow of Celibacy</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TreacheryIsASpecialKindOfEvil">Treachery Is a Special Kind of Evil</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/EveryoneHasStandards">Everyone Has Standards</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WantsAPrizeForBasicDecency">Wants a Prize for Basic Decency</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ViolenceReallyIsTheAnswer">Violence Really Is the Answer</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MoralityTropes">Morality Tropes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/WartsAndAll">Warts and All</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/UltimaIV">Ultima IV</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/ImageSource/VideoGamesMToZ">ImageSource/Video Games (M to Z)</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoGame/UltimaVI">Ultima VI</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['unknown']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

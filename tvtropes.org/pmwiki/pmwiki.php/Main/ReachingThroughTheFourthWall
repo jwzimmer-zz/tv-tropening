@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Reaching Through the Fourth Wall - TV Tropes</title>
+<meta name="description" content="The Reaching Through the Fourth Wall trope as used in popular culture. Animation and live-action techniques occasionally get mixed together. Sometimes, ideas &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/ReachingThroughTheFourthWall" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Reaching Through the Fourth Wall - TV Tropes" />
+<meta name="twitter:description" content="The Reaching Through the Fourth Wall trope as used in popular culture. Animation and live-action techniques occasionally get mixed together. Sometimes, ideas &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Reaching Through the Fourth Wall - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Main/ReachingThroughTheFourthWall" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="Animation and live-action techniques occasionally get mixed together. Sometimes, ideas that only exist as an intangible entity may cross a boundary, by some story device, to become actual live-action physical objects, people, animals, places, or &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/TwinkleInTheEye" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/WebAnimation/MoayMewMew" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Main/ReachingThroughTheFourthWall?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Main/ReachingThroughTheFourthWall">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Main.ReachingThroughTheFourthWall">
+<i class="fa fa-history"></i> History</a></li><li class="link-discussion"><a href="/pmwiki/remarks.php?trope=Main.ReachingThroughTheFourthWall">
+<i class="fa fa-comment"></i> Discussion</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Main/ReachingThroughTheFourthWall?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Main" />
+<input type="hidden" id="title-hidden" value="ReachingThroughTheFourthWall" />
+<input type="hidden" id="article_id" value="784759" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Main/ReachingThroughTheFourthWall</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+Reaching Through the Fourth Wall
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tropes",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Reaching Through the Fourth Wall"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ReachingThroughTheFourthWall" class="subpage-link curr-subpage" title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/ReachingThroughTheFourthWall" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/ReachingThroughTheFourthWall?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/ReachingThroughTheFourthWall?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/ReachingThroughTheFourthWall?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/ReachingThroughTheFourthWall?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/ReachingThroughTheFourthWall?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/ReachingThroughTheFourthWall?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/ReachingThroughTheFourthWall?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/ReachingThroughTheFourthWall?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/ReachingThroughTheFourthWall?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/ReachingThroughTheFourthWall?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/ReachingThroughTheFourthWall?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/ReachingThroughTheFourthWall?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/ReachingThroughTheFourthWall?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/ReachingThroughTheFourthWall?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/ReachingThroughTheFourthWall?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/ReachingThroughTheFourthWall?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/ReachingThroughTheFourthWall?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p>Animation and live-action techniques occasionally get <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RogerRabbitEffect" title="/pmwiki/pmwiki.php/Main/RogerRabbitEffect">mixed together</a>. Sometimes, ideas that only exist as an intangible entity may cross a boundary, by some story device, to become actual live-action physical objects, people, animals, places, or events. The results of this may include <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TelevisionPortal" title="/pmwiki/pmwiki.php/Main/TelevisionPortal">people or objects popping out of media on television sets or computer monitors</a>, or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalBook" title="/pmwiki/pmwiki.php/Main/PortalBook">popping off the pages of printed media</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PortalPicture" title="/pmwiki/pmwiki.php/Main/PortalPicture">picture frames</a>. The previously animated objects with then undergo an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArtShift" title="/pmwiki/pmwiki.php/Main/ArtShift">Art Shift</a> and become live action objects. Animated characters will also be portrayed by live action actors. This will often occur to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RefugeeFromTVLand" title="/pmwiki/pmwiki.php/Main/RefugeeFromTVLand">Refugee from TV Land</a> and will also be used in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealWorldEpisode" title="/pmwiki/pmwiki.php/Main/RealWorldEpisode">Real World Episode</a>.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>On the topic of video games, one of the concepts of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InteractiveMovie" title="/pmwiki/pmwiki.php/Main/InteractiveMovie">FMV games</a> was bringing live-action into a video game. This usually meant blending the mediums of CGI and live-action. With games involving an inventory system, depending on how the objects in the game were depicted, this meant that an object may start as only a picture, or it may start out as a real object that is "given" to your player character, placed in your inventory, and you carry it around. Later, a live-action FMV character later in the game may ask for that object, and reach towards the "player" for that object. When the character pulls their hand back, suddenly, a real-life representation of that object is now in the character's hands, and the picture of the item has disappeared from the player's inventory. <span class="notelabel" onclick="togglenote('note0slqc');"><sup>note&nbsp;</sup></span><span id="note0slqc" class="inlinefolder" isnote="true" onclick="togglenote('note0slqc');" style="cursor:pointer;font-size:smaller;display:none;">(Or vice-versa, you, the player, can interact with a live-action object within the game, turning it into something that becomes part of the CGI scenery.)</span>
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><p>A variant of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFourthWallWillNotProtectYou" title="/pmwiki/pmwiki.php/Main/TheFourthWallWillNotProtectYou">The Fourth Wall Will Not Protect You</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MediumBlending" title="/pmwiki/pmwiki.php/Main/MediumBlending">Medium Blending</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToonTransformation" title="/pmwiki/pmwiki.php/Main/ToonTransformation">Toon Transformation</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Defictionalization" title="/pmwiki/pmwiki.php/Main/Defictionalization">Defictionalization</a>, <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TelevisionPortal" title="/pmwiki/pmwiki.php/Main/TelevisionPortal">Television Portal</a>, and the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RogerRabbitEffect" title="/pmwiki/pmwiki.php/Main/RogerRabbitEffect">Roger Rabbit Effect</a> as this trope blurs the line between non-physical ideas and reality.
+</p><p>Although this is a wide-encompassing-example trope, please note that this is not for objects and characters that come from purely live-action fiction based in one singular universe, as they already are, for all intents and purposes, real-life physical entities. (i.e. <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/StarTrek" title="/pmwiki/pmwiki.php/Franchise/StarTrek">Star Trek</a></em>, the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/MarvelCinematicUniverse" title="/pmwiki/pmwiki.php/Franchise/MarvelCinematicUniverse">Marvel Cinematic Universe</a>, Live-Action <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Anime" title="/pmwiki/pmwiki.php/Main/Anime">Anime</a> adaptations, etc.) This trope is also not a direct copy of the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RogerRabbitEffect" title="/pmwiki/pmwiki.php/Main/RogerRabbitEffect">Roger Rabbit Effect</a>, as the interacting elements involved are still animated, cartoonish, and separate; plus the characters within already exist in that world. It also does not involve live-action characters interacting with a CGI environment through chroma-key. The characters, objects, or concepts must be kept in separate non-physical realities or concepts at first, then move across the story-device boundary and become physical non-animated characters or objects to apply. This trope is also <strong>not about characters or objects being transported into</strong> a fictional location, animated or live-action, that just happens to actually exist and has always existed, without the use a plot device.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><p></p><h2>Examples:</h2>
+<p></p><div class="folderlabel" onclick="toggleAllFolders();">&nbsp;&nbsp;&nbsp;&nbsp;open/close all folders&nbsp; </div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder0');">&nbsp;&nbsp;&nbsp;&nbsp;Anime &amp; Manga&nbsp;</div><div id="folder0" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/DigimonTamers" title="/pmwiki/pmwiki.php/Anime/DigimonTamers">Digimon Tamers</a></em> plays with this, with references to the TV show only included in the English Dub. In the fictional universe of this season, Digimon is a franchise much like in our universe. There are cards, TV anime, and other memorabilia. Takato Matsuki (OG: Matsuda), Henry Wong (OG: Jian-Liang Lee), and Rika Nonaka (OG: Ruki Makino), all child fans of the franchise, all fatefully discover a strange blue card among their card collections, which turns their Digimon Card scanners into real Digivices, much like the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ShowWithinAShow" title="/pmwiki/pmwiki.php/Main/ShowWithinAShow">Show Within a Show</a> Digivices, and brings their partner Digimon from the Digital World into the real world of the fictional universe. Although, as said before, this is a played-with trope, as the Digital World has always existed, from the activation of the first-ever computer (the Atanasoff-Berry Computer), and the Digimon franchise within the show branched off of that.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/DigimonFrontier" title="/pmwiki/pmwiki.php/Anime/DigimonFrontier">Digimon Frontier</a></em> also plays with this, similar to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheFourthWallWillNotProtectYou" title="/pmwiki/pmwiki.php/Main/TheFourthWallWillNotProtectYou">The Fourth Wall Will Not Protect You</a>, where the final villain, <span class="spoiler" title="you can set spoilers visible by default on your profile">Lucemon Shadowlord Mode/Larva</span>, broadcasts a message to all electronic devices in the world: <strong>"You Must Follow Me Or Be Destroyed."</strong> <span class="spoiler" title="you can set spoilers visible by default on your profile"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/ExplainExplainOhCrap" title="/pmwiki/pmwiki.php/Main/ExplainExplainOhCrap">Wait, aren't you already watching the show on an electronic de... vi...</a></span>
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder1');">&nbsp;&nbsp;&nbsp;&nbsp;Fan Works&nbsp;</div><div id="folder1" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="urllink" href="https://is.gd/5pRNvU">The Fourth Wall Job<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> by Gray Cardinal begins with the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/Leverage" title="/pmwiki/pmwiki.php/Series/Leverage">Leverage</a></em> team &mdash; all of whom have seen one or another of the TV series featuring <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/CarmenSandiego" title="/pmwiki/pmwiki.php/Franchise/CarmenSandiego">Carmen Sandiego</a> &mdash; being recruited to find the computer used by the live-action Player in the <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/WhereOnEarthIsCarmenSandiego" title="/pmwiki/pmwiki.php/WesternAnimation/WhereOnEarthIsCarmenSandiego">1990s animated series</a>. Once they've found it, however, Carmen herself turns up to collect the prize:
+<div class="indent"><strong>Elliot:</strong> You're not animated. <br><strong>Carmen:</strong> Never confuse the interface with the reality behind it.
+</div></li><li> Exploited and deconstructed in oniongirl's <em><a class="urllink" href="https://is.gd/WHkP3l">Bats and Wizards<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a></em> duology; in the first story, Nita and Kit from Diane Duane's <a class="twikilink" href="/pmwiki/pmwiki.php/Literature/YoungWizards" title="/pmwiki/pmwiki.php/Literature/YoungWizards">Young Wizards</a> series follow the trail of an escaped ecological threat across universes into Gotham City &mdash; except that they don't realize till they get home again that they've been hanging out with "fictional" <a class="twikilink" href="/pmwiki/pmwiki.php/Characters/Batman" title="/pmwiki/pmwiki.php/Characters/Batman">Batman</a> characters Robin, Batgirl, and Black Canary. In the sequel, the Bat-crew from the prior adventure make the reverse journey, seeking Nita's and Kit's help against one of Poison Ivy's plant toxins... and are greeted in Times Square by a gigantic movie poster promoting Christian Bale's latest Batman movie.
+<div class="indent"><strong>Kit:</strong> Do you think they're going to remember? <br><strong>Tom:</strong> Tell you what, why don't you test it? Travel to a universe where <strong>we're</strong> fictional, and then come back and see what you remember.
+</div></li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder2');">&nbsp;&nbsp;&nbsp;&nbsp;Films &mdash; Live-Action&nbsp;</div><div id="folder2" class="folder" isfolder="true" style="display:block;">
+<ul><li> In the decades from the late-1930s to 1960, films attempted to draw viewers in with the facsimile of smells ostensibly passing through the silver screen into the real world. It was only tried successfully exactly <em><strong>once</strong></em>, in the film <em>Scent of Mystery</em>. The apparatus involved has been known as "Smell-o-Vision" in obscure pop culture, which pumped in scents directed by cues from the film's soundtrack.
+<ul><li> More recently, <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/RugratsGoWild" title="/pmwiki/pmwiki.php/WesternAnimation/RugratsGoWild">Rugrats Go Wild!</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/SpyKidsAllTheTimeInTheWorld" title="/pmwiki/pmwiki.php/Film/SpyKidsAllTheTimeInTheWorld">Spy Kids: All the Time in the World</a></em> attempted this by giving each theatergoer a scratch-and-sniff card, with instructions to scratch a certain number or symbol on the card when it appeared in the film.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/InSearchOfDrSeuss" title="/pmwiki/pmwiki.php/Film/InSearchOfDrSeuss">In Search of Dr. Seuss</a></em>: Kathy Lane, the newspaper reporter, opens a "book of imagination" in Seuss' study, and the magic inside causes the quirky idiosyncrasies, objects, characters, and places present in Dr. Seuss' work to become physical reality. (Some individuals become real, or in the case of some of the different Dr. Seuss animal characters, becoming human.) Some of the food even becomes "real" in a sense. Although one can see they are still non-edible props. <span class="notelabel" onclick="togglenote('note1hix7');"><sup>note&nbsp;</sup></span><span id="note1hix7" class="inlinefolder" isnote="true" onclick="togglenote('note1hix7');" style="cursor:pointer;font-size:smaller;display:none;">(Such as those in the "Hunches in Bunches" segment, although there is a bit of noticeable continuity, showing the dishes full before the following early biography of <a class="twikilink" href="/pmwiki/pmwiki.php/Creator/DrSeuss" title="/pmwiki/pmwiki.php/Creator/DrSeuss">Dr. Seuss</a> and reading of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Literature/McElligotsPool" title="/pmwiki/pmwiki.php/Literature/McElligotsPool">McElligot's Pool</a></em>, and then empty of food afterwards.)</span> This is subverted, however, with the Goose/Moose Juice in the "Hunches in Bunches" segment (On the production level of physicality, they appear to be premixed fruit-flavored drinks like Tang.), and where the yolks of the green eggs turn into lime Jello in closeup in the "Green Eggs and Ham" segment.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheAdventuresOfRockyAndBullwinkle" title="/pmwiki/pmwiki.php/Film/TheAdventuresOfRockyAndBullwinkle">The Adventures of Rocky &amp; Bullwinkle</a></em>: Boris Badenov, Natasha Fatale, and Fearless Leader all turn into real-life humans when accidentally pulled out of a TV by a Hollywood film executive. Rocky and Bullwinkle, however, stay as animated 3D models.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/CoolWorld" title="/pmwiki/pmwiki.php/Film/CoolWorld">Cool World</a></em> is kind of the poor man's perverted <em>Roger Rabbit</em>, where the world depicted in a comic comes to life. One particular cartoon character wants to become a physical living flesh-and-blood person <span class="spoiler" title="you can set spoilers visible by default on your profile">and succeeds by having sex with a real person to do it.</span>
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/Enchanted" title="/pmwiki/pmwiki.php/Film/Enchanted">Enchanted</a></em> does this when the villain pushes main character Giselle into a well, which turns her live-action and transports her to New York City. During her stay in the real world, the film <a class="twikilink" href="/pmwiki/pmwiki.php/Main/RealityEnsues" title="/pmwiki/pmwiki.php/Main/RealityEnsues">deconstructs the tropes associated with fairy tales.</a> Prince Edward and Pip, a chipmunk friend of Giselle's, also become a live-action human and animalistic chipmunk, respectively, later in the film.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder3');">&nbsp;&nbsp;&nbsp;&nbsp;Live-Action TV&nbsp;</div><div id="folder3" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/Beetleborgs" title="/pmwiki/pmwiki.php/Series/Beetleborgs">Beetleborgs</a></em>: The main trio of child characters wish for their comic hero characters to become real-life. Unfortunately, this also realizes the villain characters as well.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder4');">&nbsp;&nbsp;&nbsp;&nbsp;Video Games&nbsp;</div><div id="folder4" class="folder" isfolder="true" style="display:block;">
+<h2>Systems</h2>
+<ul><li> Some of the aspects found in <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/TheFifthGenerationOfConsoleVideoGames" title="/pmwiki/pmwiki.php/UsefulNotes/TheFifthGenerationOfConsoleVideoGames">The Fifth Generation of Console Video Games</a> can fall into this trope, to experience in real-life what the characters on-screen do:
+<ul><li> Rumble Feature: Motors with an offset weight attached, to produce vibrations similar to collisions, impacts, or blows.
+</li><li> Force Feedback: Motors that push back against movement, to produce realistic recoil or resistance similar to weapons fire and vehicle movement vibration. Also includes aspects of the rumble feature. Usually found on steering wheel controllers and joysticks.
+</li><li> Sound Feedback: One system, the Aura InterACTor vest, was a bulky backpack bass speaker that plugged into your game system, so, as advertised, you could feel the kicks, punches, impacts, and recoil of video game actions on your body.
+</li></ul></li><li> This was slightly expanded on with the <a class="twikilink" href="/pmwiki/pmwiki.php/UsefulNotes/NintendoWii" title="/pmwiki/pmwiki.php/UsefulNotes/NintendoWii">Nintendo Wii</a>, where several games made use of the wireless WiiMote to produce sound separate from the console, display, or connected sound system.
+</li><li> The Terebikko (brought to the United States as the "<a class="twikilink" href="/pmwiki/pmwiki.php/Creator/Mattel" title="/pmwiki/pmwiki.php/Creator/Mattel">Mattel</a>&#149; See 'n Say Video Phone") was a telephone-shaped educational system that used VHS tapes as its main media source. Characters on screen would "call" the child playing the game through the telephone, requiring them to listen to an educational question, and answer by making a choice on one of the 4 colored buttons.
+</li></ul><p></p><h2>Games</h2>
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/BravelyDefault" title="/pmwiki/pmwiki.php/VideoGame/BravelyDefault">Bravely Default</a></em> plays with this trope. <span class="spoiler" title="you can set spoilers visible by default on your profile">The main villain of the first game plans to gain enough power to break into the Celestial Realm. When you fight him, a rift opens up in the background to reveal the Celestial Realm, and at this point the 3DS front camera activates and shows you, the player, as an inhabitant of the realm. This means that this trope was the villain's plan all along. It also applies in reverse, as it is heavily implied that you are an active character in the story, as the guiding force that saved Tiz and later Yew, and as one that controls time through Bravely Second and New Game+ mechanics.</span>
+</li><li> The <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Myst" title="/pmwiki/pmwiki.php/VideoGame/Myst">Myst</a> series:
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Myst" title="/pmwiki/pmwiki.php/VideoGame/Myst">Myst</a></em>: Three examples occur within the game:
+<ul><li> The colored pages that you collect for each respective book, depending on which brother you believe, are simply digital constructs <span class="notelabel" onclick="togglenote('note2y4w6');"><sup>note&nbsp;</sup></span><span id="note2y4w6" class="inlinefolder" isnote="true" onclick="togglenote('note2y4w6');" style="cursor:pointer;font-size:smaller;display:none;">(in terms of game metaphysicality) first as 3D CGI objects, then as an animated icon representing your hand holding the respective page</span>, until you <span class="spoiler" title="you can set spoilers visible by default on your profile">free one of them</span>, at which point the pages become real physical objects, <span class="spoiler" title="you can set spoilers visible by default on your profile">and the brother you freed is now actively tearing them out of the book... in which <em>you</em> are now trapped</span>.
+</li><li> The <span class="spoiler" title="you can set spoilers visible by default on your profile">white</span> page that you find in the <span class="spoiler" title="you can set spoilers visible by default on your profile">Marker Switch Vault</span> starts out in the same exact ways, until you go to <span class="spoiler" title="you can set spoilers visible by default on your profile">D'ni and, when he beckons for it, give it to Atrus to repair his Myst linking book</span>, at which point the page becomes a real physical object in his hand, which he places <span class="spoiler" title="you can set spoilers visible by default on your profile">inside the Myst book</span>.
+</li><li> In a subversion, after you <span class="spoiler" title="you can set spoilers visible by default on your profile">free Atrus</span>, you, the player, can click on the very-real <span class="spoiler" title="you can set spoilers visible by default on your profile">and now-repaired linking book on Atrus's desk and use it to return to Myst</span>.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/RivenTheSequelToMyst" title="/pmwiki/pmwiki.php/VideoGame/RivenTheSequelToMyst">Riven: The Sequel to Myst</a></em>
+<ul><li> Most of the reaching-across-the-fourth-wall interaction comes from the Trap/Prison book that Atrus gives to you to capture Gehn, his father, and the swapping of it between characters.
+</li><li> At the start of the game, Atrus hands you a (backstory) journal and the aforementioned prison book. When you link to Riven and are caught in the cage trap, one of Gehn's guards notices you in there, reaches between the bars, and wrestles it away from you. The book is then taken by a rebel who ambushes the guard and frees you.
+</li><li> In <span class="spoiler" title="you can set spoilers visible by default on your profile">Tay, the Moiety Rebel Age</span>, one of the rebels gives you back your book, along with Catherine's journal, and they appear in your inventory when you pick them up.
+</li><li> When you finally meet Gehn, he's quite a bit more polite and amicable, but still reaches in-between the bars of the cage you are trapped in (for his own security), and draws out a physical version of the book from your inventory, whereby the prison book inventory icon promptly vanishes until you get both back by <span class="spoiler" title="you can set spoilers visible by default on your profile">tricking Gehn into using the book</span>.
+</li><li> In fact, you can even interact with the live-action version of the book, <span class="spoiler" title="you can set spoilers visible by default on your profile">to link into it, when Gehn offers it to you to test its authenticity as a real linking book back to D'ni.</span>
+</li><li> Catherine also reaches into your inventory when you free her, looking inside the book to check that <span class="spoiler" title="you can set spoilers visible by default on your profile">Gehn is indeed captured</span>.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/MystIIIExile" title="/pmwiki/pmwiki.php/VideoGame/MystIIIExile">Myst III: Exile</a></em>
+<ul><li> Atrus, at the beginning of the game, hands you a(nother backstory) journal, which appears in your inventory.
+</li><li> When <span class="spoiler" title="you can set spoilers visible by default on your profile">Saavedro</span> forces you to make a choice at the end of the game, one of your choices is to <span class="spoiler" title="you can set spoilers visible by default on your profile">trap him in-between two ice shields</span>. If you do this and confront him afterwards, as an attempt to bargain, he will <span class="spoiler" title="you can set spoilers visible by default on your profile">give up the Releeshahn book to you</span>, placing it in your inventory.
+</li><li> A more bizarre version of this trope has to do with the tapestries you find in the final world. When you first encounter <span class="spoiler" title="you can set spoilers visible by default on your profile">Saavedro</span>, before you arrived, he had torn one of the tapestries off the wall, as evidenced by the CGI leftover tatters left hanging in one of the rooms, and is now wearing it as a new piece of clothing in live-action.
+</li></ul></li></ul></li><li> Late in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Rhem" title="/pmwiki/pmwiki.php/VideoGame/Rhem">Rhem</a> 2</em>, after the player falls down a trapdoor into a prison cell, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LadyInRed" title="/pmwiki/pmwiki.php/Main/LadyInRed">woman in a long red coat</a> reaches into your inventory through a barred window, takes the swipe card to your rail car, then hands you a gold token and lets you out of the cell. At the endgame, she returns the card in exchange for the artifact you were sent to take a picture of. This exchange is given through a CG wooden panel, but the Lady in Red picks up the artifact and holds it against her chest as a flat live action disc.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Obsidian" title="/pmwiki/pmwiki.php/VideoGame/Obsidian">Obsidian</a></em> plays around with this, in that this particular live-action element is depicted on a screen in a technology-generated world on <em>your</em> computer screen (<a class="twikilink" href="/pmwiki/pmwiki.php/Main/MindScrew" title="/pmwiki/pmwiki.php/Main/MindScrew">Mind Screw</a> which only adds to how twisted this game already is). In the Bureau Realm, one of the Vidbots <span class="notelabel" onclick="togglenote('note3wt2f');"><sup>note&nbsp;</sup></span><span id="note3wt2f" class="inlinefolder" isnote="true" onclick="togglenote('note3wt2f');" style="cursor:pointer;font-size:smaller;display:none;">(robotic AI CRT screens, displaying human faces, that embody a particular aspect of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VastBureaucracy" title="/pmwiki/pmwiki.php/Main/VastBureaucracy">cubicle-office/bureaucracy culture</a>)</span>, the Chief-of-the-Bureau Vidbot, to be exact, dons a pair of CG reading glasses, which become live-action on the actor portraying the Chief Vidbot's face, and shortly takes them off, once again becoming CG.
+</li><li> The <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Skylanders" title="/pmwiki/pmwiki.php/VideoGame/Skylanders">Skylanders</a></em> games feature an example of this as <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Kayfabe" title="/pmwiki/pmwiki.php/Main/Kayfabe">Kayfabe</a>. According to the original backstory, the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ToysToLifeGame" title="/pmwiki/pmwiki.php/Main/ToysToLifeGame">figures you need to play the game</a> are actually living Skylanders that have been transformed into static figures and sent into our world by <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Kaos</a>, and the player is bringing them back in their world as living creatures. This is also reflected between the ending of the first game and the beginning of the second one: after being defeated, Kaos has turned himself into a figure and sent into our world, but since he himself is a Portal Master he manages to get back on his own by hijacking a demo station for the first game.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/XMen1993" title="/pmwiki/pmwiki.php/VideoGame/XMen1993">X-Men (1993)</a></em>, in the level "Mojo's Future Crunch", requires you to "reset the computer" to erase a virus. To do this, you need to <span class="spoiler" title="you can set spoilers visible by default on your profile">soft reset your Sega Genesis/Megadrive to proceed. (A quick press of the reset button, not a long press.)</span> However, this is not specified anywhere in the game and can lead to a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuideDangIt" title="/pmwiki/pmwiki.php/Main/GuideDangIt">Guide Dang It!</a> moment.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder5');">&nbsp;&nbsp;&nbsp;&nbsp;Web Animation&nbsp;</div><div id="folder5" class="folder" isfolder="true" style="display:block;">
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WebAnimation/HomestarRunner" title="/pmwiki/pmwiki.php/WebAnimation/HomestarRunner">Homestar Runner</a></em>:
+<ul><li> The Strong Bad Email "virus" pulls one of these, when Strong Bad's Compy 386 gets almost 400,000 viruses at once, causing the H*R universe to deteriorate slowly into madness. When multiple in-animation windows of old-design Homestar pop up saying "Making. Out. With. Marzipan. Is. Totally. Awesome!", one physical browser window (that you have to click the "X" on the menu bar to close) also pops up in front of the animation, with the same old-design Homestar saying the same phrase.
+</li><li> Played with in-universe in the 2018 Halloween Special <a class="urllink" href="https://www.youtube.com/watch?v=f7wstO5elGo">"Mr. Poofers Must Die!"<img src="https://static.tvtropes.org/pmwiki/pub/external_link.gif" height="12" width="12" style="border:none;"></a> No matter what any story any of the characters tell, it is <em><strong>strongly</strong></em> implied that Mr. Poofers (who is a dog character that only exists within the story) is sending some metaphysical force to their real world to prevent them from killing him off, instead turning their intended story into a harmless comedic farce.
+<div class="indent"><strong>Strong Bad:</strong> <em>[voiceover]</em> [Old Man Rootbeer] took dead aim [with a flame thrower] on Mr. ... <em>[he shows signs of starting to struggle to speak]</em> Poofers... <br><strong>Strong Bad:</strong> Dead aim, you see! And then... <em>[greatly struggling]</em> ...he... pulled... the tr&mdash; <em>trrrri&mdash;</em> <em><strong>TRRRRRRRRRRRRR&mdash;</strong></em>... <br><em><a class="twikilink" href="/pmwiki/pmwiki.php/Main/MoodWhiplash" title="/pmwiki/pmwiki.php/Main/MoodWhiplash">[Sudden cut to a trolley with Old Man Rootbeer riding, smiling widely.] </a></em> <br><strong>Strong Bad:</strong> <em>[voiceover, singing]</em> ...trolley 'round the block and then he gave it a ding! <br><em>[Cut to another view of the trolley, with Mr. Poofers now riding it too.]</em> <br><strong>Strong Bad:</strong> Mr. Poofers hopped aboard and they began to sing! How could we ever, how come we never? <br><em>[Cut back to the main characters. As they sing, the words appear above them.]</em> <br><strong>Everyone:</strong> <em>[singing]</em> Why can't we slice that pie? <br><em>[Strong Bad collapses. Everyone else heavily huffs in fatigue.]</em> <br><strong>Strong Bad:</strong> Awwwww! It's no use! Mr. Poofers is too powerful! <br></div>
+</li></ul></li></ul></div><p></p><div class="folderlabel" onclick="togglefolder('folder6');">&nbsp;&nbsp;&nbsp;&nbsp;Western Animation&nbsp;</div><div id="folder6" class="folder" isfolder="true" style="display:block;">
+<ul><li> For one instant in <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/FamilyGuy" title="/pmwiki/pmwiki.php/WesternAnimation/FamilyGuy">Family Guy</a></em>, because of their universe-hopping device, Stewie and Brian become a real human baby and animalistic dog in live-action.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/SpongeBobSquarePants" title="/pmwiki/pmwiki.php/WesternAnimation/SpongeBobSquarePants">SpongeBob SquarePants</a></em>: Parodied in "Pressure," where Sandy dares the sea creatures to go above water after they mock her for being a mammal. SpongeBob, Patrick, and Mr. Krabs are represented on land as a real-life kitchen sponge, starfish, and crab, respectively, while Squidward is a more awkward large-eyed sculpture of an octopus. When she goes above water, Sandy is represented by a squirrel puppet.
+</li><li> A gag in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/SonicBoom" title="/pmwiki/pmwiki.php/WesternAnimation/SonicBoom">Sonic Boom</a></em> episode "Just a Guy" involves Sonic's communicator going off while he's in his "happier place", causing Sonic to wake up. Unfortunately, he wakes up one too many times and the scene cuts to a live-action shot of a man in Sonic cosplay taking out the garbage.
+</li></ul></div>
+<p></p><div class="folderlabel" onclick="togglefolder('folder7');">&nbsp;&nbsp;&nbsp;&nbsp;Real Life&nbsp;</div><div id="folder7" class="folder" isfolder="true" style="display:block;">
+<ul><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Cosplay" title="/pmwiki/pmwiki.php/Main/Cosplay">Cosplayers</a> do this a lot of the time, with subjective varying degrees of success, as their desire to closely match the look (or realistic aesthetic) of the costume of a character and their accompanying props also may require different real-life fabrics, materials, and objects.
+</li><li> In a way, consumer and 3D printers do this. Printing takes the image or model from the information inside your computer and produces a physical hard copy of the image on paper, or in the case of 3D, it builds the object layer-by-layer.
+</li></ul></div>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ThePlayerIsTheMostImportantResource">The Player Is the Most Important Resource</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/FourthWall">Fourth Wall</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ReadingAheadInTheScript">Reading Ahead in the Script</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/NoticingTheFourthWall">Noticing the Fourth Wall</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MetafictionDemandedThisIndex">Metafiction Demanded This Index</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ScoldingTheFourthWallBreaker">Scolding the Fourth Wall Breaker</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/RadioSong">Radio Song</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/MetaConcepts">Meta-Concepts</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Realism">Realism</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="proper_player_insert_div" class="outer_ads_by_salon_wrapper">
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+ <li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title"></h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+</p>
+<div class="rating-row" data-video-id="">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+ <input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope"> / </div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media"> / </div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['videogame']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>

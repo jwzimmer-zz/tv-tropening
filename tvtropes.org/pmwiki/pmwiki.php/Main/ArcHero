@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Arc Hero - TV Tropes</title>
+<meta name="description" content="The Arc Hero trope as used in popular culture. How do you top the first outing? You have to add something unique to the sequel, or else why would anyone buy &hellip;" />
+<link rel="canonical" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/ArcHero" />
+<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tvtropes" />
+<meta name="twitter:owner" content="@tvtropes" />
+<meta name="twitter:title" content="Arc Hero - TV Tropes" />
+<meta name="twitter:description" content="The Arc Hero trope as used in popular culture. How do you top the first outing? You have to add something unique to the sequel, or else why would anyone buy &hellip;" />
+<meta name="twitter:image:src" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:site_name" content="TV Tropes" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/tvtropes" />
+<meta property="og:title" content="Arc Hero - TV Tropes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tvtropes.org/pmwiki/pmwiki.php/Main/ArcHero" />
+<meta property="og:image" content="https://static.tvtropes.org/logo_blue_small.png" />
+<meta property="og:description" content="How do you top the first outing? You have to add something unique to the sequel, or else why would anyone buy it? Sometimes this means introducing a new obstacle in the Arc Villain, but you could also introduce a new partner. That's where the Arc &hellip;" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" type="image/png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" type="image/png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" type="image/png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" type="image/png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" type="image/png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" type="image/png">
+<link rel="icon" sizes="16x16" href="/img/icons/favicon-16x16.png" type="image/png">
+<link rel="icon" sizes="32x32" href="/img/icons/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="96x96" href="/img/icons/favicon-96x96.png" type="image/png">
+<link rel="icon" sizes="192x192" href="/img/icons/favicon-192x192.png" type="image/png">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+                var propertag = {};
+                propertag.cmd = [];
+								var propervideotag = [];
+            </script>
+<link rel="stylesheet" href="/design/assets/bundle.css?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7" />
+<script>
+                function object(objectId) {
+                    if (document.getElementById && document.getElementById(objectId)) {
+                        return document.getElementById(objectId);
+                    } else if (document.all && document.all(objectId)) {
+                        return document.all(objectId);
+                    } else if (document.layers && document.layers[objectId]) {
+                        return document.layers[objectId];
+                    } else {
+                        return false;
+                    }
+                }
+
+                // JAVASCRIPT COOKIES CODE: for getting and setting user viewing preferences
+                var cookies = {
+                    create: function (name, value, days2expire, path) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days2expire * 24 * 60 * 60 * 1000));
+                        var expires = date.toUTCString();
+                        document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+                    },
+										createWithExpire: function(name, value, expires, path) {
+												document.cookie = name + '=' + value + ';' + 'expires=' + expires + ';' + 'path=' + path + ';';
+										},
+                    read: function (name) {
+                        var cookie_value = "",
+                            current_cookie = "",
+                            name_expr = name + "=",
+                            all_cookies = document.cookie.split(';'),
+                            n = all_cookies.length;
+
+                        for (var i = 0; i < n; i++) {
+                            current_cookie = all_cookies[i].trim();
+                            if (current_cookie.indexOf(name_expr) === 0) {
+                                cookie_value = current_cookie.substring(name_expr.length, current_cookie.length);
+                                break;
+                            }
+                        }
+                        return cookie_value;
+                    },
+                    update: function (name, val) {
+                        this.create(name, val, 300, "/");
+                    },
+                    remove: function (name) {
+                        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+                    }
+                };
+
+                function updateUserPrefs() {
+                    //GENERAL: detect and set browser, if not cookied (will be treated like a user-preference and added to the #user-pref element)
+                    if( !cookies.read('user-browser') ){
+                        var broswer = '';
+
+                        if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) ){
+                            browser = 'iOS';
+                        } else if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'opera';
+                        } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                            browser = 'MSIE';
+                        } else if (/Navigator[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'netscape';
+                        } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'chrome';
+                        } else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'safari';
+                            /Version[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+                            browserVersion = new Number(RegExp.$1);
+                        } else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                            browser = 'firefox';
+                        } else {
+                            browser = 'internet_explorer';
+                        }
+                        cookies.create('user-browser',browser,1,'/');
+                        document.getElementById('user-prefs').classList.add('browser-' + browser);
+                    } else {
+                        document.getElementById('user-prefs').classList.add('browser-' + cookies.read('user-browser'));
+                    }
+
+                    //update user preference settings
+                    if (cookies.read('wide-load') !== '') document.getElementById('user-prefs').classList.add('wide-load');
+                    if (cookies.read('night-vision') !== '') document.getElementById('user-prefs').classList.add('night-vision');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('user-prefs').classList.add('sticky-header');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('user-prefs').classList.add('show-spoilers');
+                    if (cookies.read('folders-open') !== '') document.getElementById('user-prefs').classList.add('folders-open');
+                    if (cookies.read('lefthand-sidebar') !== '') document.getElementById('user-prefs').classList.add('lefthand-sidebar');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('user-prefs').classList.add('highlight-links');
+                    if (cookies.read('forum-gingerbread') !== '') document.getElementById('user-prefs').classList.add('forum-gingerbread');
+                    if (cookies.read('shared-avatars') !== '') document.getElementById('user-prefs').classList.add('shared-avatars');
+                    if (cookies.read('new-search') !== '') document.getElementById('user-prefs').classList.add('new-search');
+                    if (cookies.read('stop-auto-play-video') !== '') document.getElementById('user-prefs').classList.add('stop-auto-play-video');
+
+                    //desktop view on mobile
+                    if (cookies.read('desktop-on-mobile') !== ''){
+                        document.getElementById('user-prefs').classList.add('desktop-on-mobile');
+
+                        var viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1000');
+                    }
+
+                }
+
+                function updateDesktopPrefs() {
+                    if (cookies.read('wide-load') !== '') document.getElementById('sidebar-toggle-wideload').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('sidebar-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('sidebar-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('sidebar-toggle-showspoilers').classList.add('active');
+
+                }
+
+                function updateMobilePrefs() {
+                    if (cookies.read('show-spoilers') !== '') document.getElementById('mobile-toggle-showspoilers').classList.add('active');
+                    if (cookies.read('night-vision') !== '') document.getElementById('mobile-toggle-nightvision').classList.add('active');
+                    if (cookies.read('sticky-header') !== '') document.getElementById('mobile-toggle-stickyheader').classList.add('active');
+                    if (cookies.read('highlight-links') !== '') document.getElementById('mobile-toggle-highlightlinks').classList.add('active');
+
+                }
+
+
+                if (document.cookie.indexOf("scroll0=") < 0) {
+                    // do nothing
+                } else {
+                    console.log('ads removed by scroll.com');
+                    var adsRemovedWith = 'scroll';
+                    var style = document.createElement('style');
+                    style.innerHTML = '#header-ad, .proper-ad-unit, .square_ad, .sb-ad-unit { display: none !important; } ';
+                    document.head.appendChild(style);
+                }
+            </script>
+<script type="text/javascript">
+
+                var tvtropes_config = {
+                    astri_stream_enabled : "",
+                    is_logged_in         : "",
+                    handle               : "",
+                    get_astri_stream     : "",
+										revnum               : "61acae6dced8ebb8defa29cde07b1ab8e1d61ca7",
+										img_domain           : "https://static.tvtropes.org",
+										adblock              : "1",
+										adblock_url          : "propermessage.io",
+										proper_video_url     : "https://player.propervideo.io/new_rtp/main.js",
+										proper_video_host_url: "https://player.propervideo.io",
+										pause_editing        : "0",
+										pause_editing_msg    : "",
+										pause_site_changes   : ""
+                };
+            </script>
+<script type="text/javascript">
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						  ga('create', 'UA-3821842-1', 'auto');
+						  ga('send', 'pageview');
+
+						</script>
+</head>
+<body class="">
+<i id="user-prefs"></i>
+<script>updateUserPrefs();</script>
+<div id="fb-root"></div>
+<div id="modal-box"></div>
+<header id="main-header-bar" class="headroom-element ">
+<div id="main-header-bar-inner">
+<span id="header-spacer-left" class="header-spacer"></span>
+<a href="#mobile-menu" id="main-mobile-toggle" class="mobile-menu-toggle-button tablet-on"><span></span><span></span><span></span></a>
+<a href="/" id="main-header-logoButton" class="no-dev"></a>
+<span id="header-spacer-right" class="header-spacer"></span>
+<nav id="main-header-nav" class="tablet-off">
+<a href="/pmwiki/pmwiki.php/Main/Tropes">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media">Media</a>
+<a href="/pmwiki/browse.php" class="nav-browse">Browse</a>
+<a href="/pmwiki/index_report.php">Indexes</a>
+<a href="/pmwiki/topics.php">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="nav-browse">Videos</a>
+</nav>
+<div id="main-header-bar-right">
+<div id="signup-login-box" class="font-xs mobile-off">
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="signup">Join</a>
+<a href="/pmwiki/login.php" class="hover-underline bold" data-modal-target="login">Login</a>
+</div>
+<div id="signup-login-mobileToggle" class="mobile-on inline">
+<a href="/pmwiki/login.php" data-modal-target="login"><i class="fa fa-user"></i></a>
+</div>
+<div id="search-box">
+<form class="search" action="/pmwiki/search_result.php">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+<a href="#close-search" class="mobile-on mobile-search-toggle close-x"><i class="fa fa-close"></i></a>
+</div>
+<div id="random-box">
+<a href="/pmwiki/pmwiki.php/Main/GaiasLament" class="button-random-trope" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random trope');"></a>
+<a href="/pmwiki/pmwiki.php/Music/U2" class="button-random-media" rel="nofollow" onclick="ga('send', 'event', 'button', 'click', 'random media');"></a>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="tablet-on"><div class="mobile-menu-options">
+<div class="nav-wrapper">
+<a href="/pmwiki/pmwiki.php/Main/Tropes" class="xl">Tropes</a>
+<a href="/pmwiki/pmwiki.php/Main/Media" class="xl">Media</a>
+<a href="/pmwiki/browse.php" class="xl">Browse</a>
+<a href="/pmwiki/index_report.php" class="xl">Indexes</a>
+<a href="/pmwiki/topics.php" class="xl">Forums</a>
+<a href="/pmwiki/recent_videos.php" class="xl">Videos</a>
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="#tools" data-click-toggle="active">Tools <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/cutlist.php">Cut List</a>
+<a href="/pmwiki/changes.php">New Edits</a>
+<a href="/pmwiki/recent_edit_reasons.php">Edit Reasons</a>
+<a href="/pmwiki/launches.php">Launches</a>
+<a href="/pmwiki/img_list.php">Images List</a>
+<a href="/pmwiki/crown_activity.php">Crowner Activity</a>
+<a href="/pmwiki/no_types.php">Un-typed Pages</a>
+<a href="/pmwiki/page_type_audit.php">Recent Page Type Changes</a>
+</div>
+<a href="#hq" data-click-toggle="active">Tropes HQ <i class="fa fa-chevron-down"></i></a>
+<div class="tools-dropdown mobile-dropdown-linkList">
+<a href="/pmwiki/about.php">About Us</a>
+<a href="/pmwiki/contact.php">Contact Us</a>
+<a href="mailto:advertising@proper.io">Advertise</a>
+<a href="/pmwiki/dmca.php">DMCA Notice</a>
+<a href="/pmwiki/privacypolicy.php">Privacy Policy</a>
+</div>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a>
+<div class="toggle-switches">
+<ul class="mobile-menu display-toggles">
+<li>Show Spoilers <div id="mobile-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="mobile-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="mobile-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Highlight Links <div id="mobile-toggle-highlightlinks" class="display-toggle highlight-links"></div></li>
+</ul>
+<script>updateMobilePrefs();</script>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="homepage-introBox-mobile" class="mobile-on">
+<a href="/"><img src="/images/logo-white-big.png" class="logo-small" /></a>
+<form class="search" action="/pmwiki/search_result.php" style="margin:10px -5px -6px -5px;">
+<input type="text" name="q" class="search-box" placeholder="Search" value="" required>
+<input type="submit" class="submit-button" value="&#xf002;" />
+<input type="hidden" name="search_type" value="article">
+<input type="hidden" name="page_type" value="all">
+<input type="hidden" name="cx" value="partner-pub-6610802604051523:amzitfn8e7v">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input name="siteurl" type="hidden" value="">
+<input name="ref" type="hidden" value="">
+<input name="ss" type="hidden" value="">
+</form>
+</div>
+<div id="header-ad-wrapper" class="ad">
+<div id="header-ad">
+<div class="ad-size-970x90 atf_banner">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_1'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_1'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div id="main-container">
+<div id="action-bar-top" class="action-bar mobile-off">
+<div class="action-bar-right">
+<p>Follow TV Tropes</p>
+<a href="https://www.facebook.com/TVTropes" class="button-fb">
+<i class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/TVTropes" class="button-tw">
+<i class="fa fa-twitter"></i></a>
+<a href="https://www.reddit.com/r/TVTropes" class="button-re">
+<i class="fa fa-reddit-alien"></i></a>
+</div>
+<nav class="actions-wrapper" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul id="top_main_list" class="page-actions">
+<li class="link-edit">
+<a rel="nofollow" class="article-edit-button" data-modal-target="login" href="/pmwiki/pmwiki.php/Main/ArcHero?action=edit">
+<i class="fa fa-pencil"></i> Edit Page</a></li><li class="link-related"><a href="/pmwiki/relatedsearch.php?term=Main/ArcHero">
+<i class="fa fa-share-alt"></i> Related</a></li><li class="link-history"><a href="/pmwiki/article_history.php?article=Main.ArcHero">
+<i class="fa fa-history"></i> History</a></li><li class="link-discussion"><a href="/pmwiki/remarks.php?trope=Main.ArcHero">
+<i class="fa fa-comment"></i> Discussion</a></li> </ul>
+<button id="top_more_button" onclick="toggle_more_menu('top');" type="button" class="nav__dropdown-toggle">More</button>
+<ul id="top_more_list" class="more_menu hidden_more_list">
+<li class="link-todo tuck-always more_list_item"><a href="#todo" data-modal-target="login"><i class="fa fa-check-circle"></i> To Do</a></li><li class="link-pageSource tuck-always more_list_item"><a href="/pmwiki/pmwiki.php/Main/ArcHero?action=source" target="_blank" rel="nofollow" data-modal-target="login"><i class="fa fa-code"></i> Page Source</a></li> </ul>
+</nav>
+<div class="WikiWordModalStub"></div>
+<div class="ImgUploadModalStub" data-page-type="Article"></div>
+<div class="login-alert" style="display: none;">
+You need to <a href="/pmwiki/login.php" style="color:#21A0E8">login</a> to do this. <a href="/pmwiki/login.php?tab=register_account" style="color:#21A0E8">Get Known</a> if you don't have an account
+</div>
+</div>
+<div id="main-content" class="page-Article ">
+<article id="main-entry" class="with-sidebar">
+
+<input type="hidden" id="groupname-hidden" value="Main" />
+<input type="hidden" id="title-hidden" value="ArcHero" />
+<input type="hidden" id="article_id" value="556367" />
+<input type="hidden" id="logged_in" value="false" />
+<p id="current_url" class="hidden">http://tvtropes.org/pmwiki/pmwiki.php/Main/ArcHero</p>
+<meta itemprop="datePublished" content="" />
+<meta itemprop="articleSection" content="" />
+<meta itemprop="image" content="">
+<a href="#watch" class="watch-button " data-modal-target="login">Follow<span>ing</span></a>
+<h1 itemprop="headline" class="entry-title">
+Arc Hero
+</h1>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "tvtropes.org",
+                "item": "https://tvtropes.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tropes",
+                "item": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Arc Hero"            }]
+        }
+    </script>
+<a href="#mobile-actions-toggle" id="mobile-actionbar-toggle" class="mobile-actionbar-toggle mobile-on" data-click-toggle="active">
+<p class="tiny-off">Go To</p><span></span><span></span><span></span><i class="fa fa-pencil"></i></a>
+<nav id="mobile-actions-bar" class="mobile-actions-wrapper mobile-on"></nav>
+<div id="editLockModal" class="modal fade hidden-until-active">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title">Edit Locked</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="body">
+<div class="danger troper_locked_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="body-options" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="subpage-links">
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ArcHero" class="subpage-link curr-subpage" title="The Main page">
+<span class="wrapper"><span class="spi main-page"></span>Main</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Laconic/ArcHero" class="subpage-link " title="The Laconic page">
+<span class="wrapper"><span class="spi laconic-icon"></span>Laconic</span></a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoExamples/ArcHero" class="subpage-link video-examples-tab  " title="Video Examples">
+<img src="/images/play-button-logo.png" alt="play" class="">
+<span class="wrapper">VideoExamples</span>
+</a>
+</li>
+<li class="create-subpage dropdown">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="wrapper">Create New <i class="fa fa-plus-circle"></i></span>
+</a>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="">- Create New -</option>
+<option value="/pmwiki/pmwiki.php/Analysis/ArcHero?action=edit">Analysis</option>
+<option value="/pmwiki/pmwiki.php/Characters/ArcHero?action=edit">Characters</option>
+<option value="/pmwiki/pmwiki.php/FanficRecs/ArcHero?action=edit">FanficRecs</option>
+<option value="/pmwiki/pmwiki.php/FanWorks/ArcHero?action=edit">FanWorks</option>
+<option value="/pmwiki/pmwiki.php/Fridge/ArcHero?action=edit">Fridge</option>
+<option value="/pmwiki/pmwiki.php/Haiku/ArcHero?action=edit">Haiku</option>
+<option value="/pmwiki/pmwiki.php/Headscratchers/ArcHero?action=edit">Headscratchers</option>
+<option value="/pmwiki/pmwiki.php/ImageLinks/ArcHero?action=edit">ImageLinks</option>
+<option value="/pmwiki/pmwiki.php/PlayingWith/ArcHero?action=edit">PlayingWith</option>
+<option value="/pmwiki/pmwiki.php/Quotes/ArcHero?action=edit">Quotes</option>
+<option value="/pmwiki/pmwiki.php/Recap/ArcHero?action=edit">Recap</option>
+<option value="/pmwiki/pmwiki.php/ReferencedBy/ArcHero?action=edit">ReferencedBy</option>
+<option value="/pmwiki/pmwiki.php/Synopsis/ArcHero?action=edit">Synopsis</option>
+<option value="/pmwiki/pmwiki.php/Timeline/ArcHero?action=edit">Timeline</option>
+<option value="/pmwiki/pmwiki.php/Trivia/ArcHero?action=edit">Trivia</option>
+<option value="/pmwiki/pmwiki.php/WMG/ArcHero?action=edit">WMG</option>
+<option value="/pmwiki/pmwiki.php/YMMV/ArcHero?action=edit">YMMV</option>
+</select>
+</li>
+</ul>
+</nav>
+<div id="main-article" class="article-content retro-folders">
+<p>How do you top the first outing? You have to add something unique to the sequel, or else why would anyone buy it? Sometimes this means introducing a new obstacle in the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a>, but you could also introduce a new partner. That's where the Arc Hero comes in.
+</p><p>Basically if you start with the adventures of Alice, in the sequel you follow the adventures of Alice and Bob. Then in the third the main characters are Alice and Charley. And so on.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_1"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_1'); })</script></div></div><p>You don't want to write out the characters you already built your series off of, but what's <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a> without a new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Foil" title="/pmwiki/pmwiki.php/Main/Foil">Foil</a> to keep things interesting? Not every new cast member counts. They should get a good amount of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterFocus" title="/pmwiki/pmwiki.php/Main/CharacterFocus">Character Focus</a> and have a real impact. A new sidekick you have to learn to work with, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SixthRanger" title="/pmwiki/pmwiki.php/Main/SixthRanger">Sixth Ranger</a> with history with the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a>, a new Rival that changes how you look at things. Any of them can work.
+</p><p>In Videogames, an Arc Hero <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration" title="/pmwiki/pmwiki.php/Main/GameplayAndStoryIntegration">might also something to do with new gameplay mechanics</a>. Sometimes even if the new mechanic is just multiplayer.
+</p><p>Compare the shorter <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DayInTheLimelight" title="/pmwiki/pmwiki.php/Main/DayInTheLimelight">Day in the Limelight</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad" title="/pmwiki/pmwiki.php/Main/SpotlightStealingSquad">Spotlight-Stealing Squad</a> when they completely overshadow the main guy. The Arc Hero is usually a supporting cast member to whoever <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a> is. If the Arc Hero becomes <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a> outright it may overlap with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ChangingOfTheGuard" title="/pmwiki/pmwiki.php/Main/ChangingOfTheGuard">Changing of the Guard</a> or <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ContrastingSequelMainCharacter" title="/pmwiki/pmwiki.php/Main/ContrastingSequelMainCharacter">Contrasting Sequel Main Character</a>. Doing this too often can result in <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LoadsAndLoadsOfCharacters" title="/pmwiki/pmwiki.php/Main/LoadsAndLoadsOfCharacters">Loads and Loads of Characters</a>, and old favorites who used to carry the plot getting <a class="twikilink" href="/pmwiki/pmwiki.php/Main/DemotedToExtra" title="/pmwiki/pmwiki.php/Main/DemotedToExtra">Demoted to Extra</a>.
+</p><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_2"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_2'); })</script></div></div><hr><p></p><h2><strong>Examples:</strong></h2>
+<p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/AnimeAndManga" title="/pmwiki/pmwiki.php/Main/AnimeAndManga">Anime &amp; Manga</a></span>
+</p><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/DragonBall" title="/pmwiki/pmwiki.php/Franchise/DragonBall">Dragon Ball</a></em>: The first three arcs in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/DragonBallZ" title="/pmwiki/pmwiki.php/Anime/DragonBallZ">Dragon Ball Z</a></em> focused on a new hero or anti hero, mostly because of Goku's extended absences, but he would still come back in time to be the main hero of the final fight.
+<ul><li> The Saiyan Saga heavily featured previous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Piccolo as the first point of contact with Raditz, the co-founding of the Z fighters with Goku to oppose him, the kidnapping, training, and character development he goes through with Gohan, leading the charge against Nappa and ending in a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicSacrifice" title="/pmwiki/pmwiki.php/Main/HeroicSacrifice">Heroic Sacrifice</a> just in time for Goku to return and take center stage in the final battle.
+</li><li> The Namek/Frieza Saga heavily featured previous <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Vegeta whose relationship with Frieza's Army, the Ginyu Force, and Frieza himself gave context to the battles, as well as his transition from villain to free agent to joining to Z Fighters to even have a chance at beating Frieza. He is also killed in action just in time for Goku to take center stage in the final battle, but not before pouring his heart out to the main hero.
+</li><div class="proper-ad-unit mobile-ad square_ad"><h6 class="ad-caption">Advertisement:</h6><div id="proper-ad-tvtropes_mobile_ad_3"><script>propertag.cmd.push(function() { proper_display('tvtropes_mobile_ad_3'); })</script></div></div><li> The Android Saga overall is about newcomer Future Trunks arriving to warn the others of the Android threat, his strenuous relationship with his father Vegeta in contrast to his hero worship of Goku on full display, and another version of him's time machine being the conduit that Cell came to their Universe.
+<ul><li> The sub Cell Games Arc looked like it was going to be about Goku, who takes center stage in the final battle, but he makes a conscious decision to pass the fight onto Gohan.
+</li></ul></li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/DragonBallSuper" title="/pmwiki/pmwiki.php/Anime/DragonBallSuper">Dragon Ball Super</a></em>, The Future Trunks saga's arc hero is...well, Future Trunks. Unusually for <em>Dragon Ball</em>, he is actually <span class="spoiler" title="you can set spoilers visible by default on your profile"> the one who kills Merged Zamasu, not Goku, although technically Zen'o is the one who kills Infinite Zamasu.</span>
+</li><li> The Universe Survival saga of <em>Super</em> has two: Android 17, who was a relatively minor character <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PutOnABus" title="/pmwiki/pmwiki.php/Main/PutOnABus">Put on a Bus</a> after the Android Saga but is a major focus here, getting a lot of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/CharacterDevelopment" title="/pmwiki/pmwiki.php/Main/CharacterDevelopment">Character Development</a> and eliminations, as well as <span class="spoiler" title="you can set spoilers visible by default on your profile"> winning the tournament.</span> The other is, of all people, <span class="spoiler" title="you can set spoilers visible by default on your profile"> <em>Frieza</em>, in an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/EnemyMine" title="/pmwiki/pmwiki.php/Main/EnemyMine">Enemy Mine</a> situation. Although he's still evil by the end of the arc, he does soften significantly, gaining <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VillainRespect" title="/pmwiki/pmwiki.php/Main/VillainRespect">Villain Respect</a> for Goku, as well as deliberately ringing himself out to take out Jiren in the process.</span>
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/Pokemon" title="/pmwiki/pmwiki.php/Anime/Pokemon">Pok&eacute;mon</a></em>: While Ash is the show's constant protagonist, each new region after Johto switches up the team he travels with &mdash; after Misty and Brock in <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonRedAndBlue" title="/pmwiki/pmwiki.php/VideoGame/PokemonRedAndBlue">Kanto</a> and <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonGoldAndSilver" title="/pmwiki/pmwiki.php/VideoGame/PokemonGoldAndSilver">Johto</a>, it's May, Max, and Brock in <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonRubyAndSapphire" title="/pmwiki/pmwiki.php/VideoGame/PokemonRubyAndSapphire">Hoenn</a>, Brock and Dawn in <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonDiamondAndPearl" title="/pmwiki/pmwiki.php/VideoGame/PokemonDiamondAndPearl">Sinnoh</a>, Iris and Cilan in <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonBlackAndWhite" title="/pmwiki/pmwiki.php/VideoGame/PokemonBlackAndWhite">Unova</a>, Clemont, Bonnie, and Serena in <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonXAndY" title="/pmwiki/pmwiki.php/VideoGame/PokemonXAndY">Kalos</a>, Lillie, Kiawe, Mallow, Lana, and Sophocles in <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonSunAndMoon" title="/pmwiki/pmwiki.php/VideoGame/PokemonSunAndMoon">Alola</a>, and Go in multiple regions (including <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/PokemonSwordAndShield" title="/pmwiki/pmwiki.php/VideoGame/PokemonSwordAndShield">Galar</a>). Each new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/Deuteragonist" title="/pmwiki/pmwiki.php/Main/Deuteragonist">Deuteragonist</a> has their own arc, personality, and motivations, and more relationships with the natives of each region.
+<ul><li> The Mega Evolution specials are a set of episodes taking place concurrently with the anime's XY season, featuring Alain. <span class="spoiler" title="you can set spoilers visible by default on your profile">It veers very close to becoming a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ProtagonistJourneyToVillain" title="/pmwiki/pmwiki.php/Main/ProtagonistJourneyToVillain">Protagonist Journey to Villain</a>.</span>
+</li></ul></li><li> Done in every sequel arc of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Anime/SailorMoon" title="/pmwiki/pmwiki.php/Anime/SailorMoon">Sailor Moon</a></em>.
+<ul><li> In the second arc, we're introduced to Chibiusa, Usagi and Mamoru's daughter from the future who also becomes a Sailor Guardian by the end of the story. We also get to know the mysterious Sailor Pluto.
+</li><li> In the third arc,expands the idea of Sailor Pluto into an entire Outer Senshi team, bringing Haruka (Uranus) and Michiru (Neptune) as the focus of many episodes, and Hotaru (Saturn) as the ultimate <a class="twikilink" href="/pmwiki/pmwiki.php/Main/McGuffin" title="/pmwiki/pmwiki.php/Main/McGuffin">McGuffin</a>.
+</li><li> On the fourth story arc, Chibiusa befriends a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WingedUnicorn" title="/pmwiki/pmwiki.php/Main/WingedUnicorn">Winged Unicorn</a> named Pegasus which becomes central to the plot to the point of being the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/McGuffin" title="/pmwiki/pmwiki.php/Main/McGuffin">McGuffin</a> all along.
+</li><li> The fifth and final arc introduces us to the Sailor Starlights and Chibi-Chibi who the main mysteries from the storyline surround.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/LightNovel/SwordArtOnline" title="/pmwiki/pmwiki.php/LightNovel/SwordArtOnline">Sword Art Online</a></em> has this dynamic in all of its arcs, usually with Kirito forming an <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AdventureDuo" title="/pmwiki/pmwiki.php/Main/AdventureDuo">Adventure Duo</a> with someone else in each new virtual world he explores: Asuna in the Aincrad arc, Leafa in the Fairy Dance arc, Sinon in the Phantom Bullet arc, and Eugeo in the first half of the Alicization arc. The only exception is the Mother's Rosario arc, which focuses on Asuna and Yuuki. The same goes for the side stories; Silica serves as Kirito's companion in the Black Swordsman arc, while Lisbeth is this during the Warmth of the Heart arc.
+</li><li> This serves as the basis for the East Blue Saga in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Manga/OnePiece" title="/pmwiki/pmwiki.php/Manga/OnePiece">One Piece</a></em>, with each arc in the saga focused on each new member of Luffy's crew getting a particular amount of focus and having their backstory revealed as they join.
+<ul><li> Romance Dawn/Morgan Arc: Roronoa Zoro. Koby also serves as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuestStarPartyMember" title="/pmwiki/pmwiki.php/Main/GuestStarPartyMember">temporary ally</a> working with the two.
+</li><li> Buggy Arc: Nami, although her backstory and motivations aren't revealed just yet, and she decides to only temporary team up with Luffy, leaving early on two arcs later.
+</li><li> Kuro Arc: Usopp. The setting takes place in Usopp's hometown making things personal for him, with him actively working to prevent a band of pirates from invading it and killing everyone living there.
+</li><li> Baratie Arc: Sanji.
+</li><li> Arlong Arc: Nami again, now with her origins revealed as she joins the crew full-time.
+</li><li> Baroque Works Saga: Nefeltari Vivi, who, despite only working with the crew for this lengthy arc, serves as the driving force of it, with her working to prevent a civil war in her nation caused by the titular organization.
+<ul><li> Drum Island Arc: Tony Tony Chopper. Taking place in between two of the arcs from the above Saga, it's the only one where the main antagonist has nothing to do with the Baroque Works organization, and as a result sees Vivi's role downplayed. Chopper instead takes the spotlight showing the mistreatment he's faced in the past and eventually finding a place to belong with the crew.
+</li></ul></li><li> Water 7 Saga: Nico Robin and Franky.
+</li><li> Thriller Bark Saga: Brook.
+</li></ul></li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/Film" title="/pmwiki/pmwiki.php/Main/Film">Film</a></span>
+</p><ul><li> In the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/DieHard" title="/pmwiki/pmwiki.php/Franchise/DieHard">Die Hard</a></em> series John McClane is the hero, but each film gives him a different main ally providing him backup and/or assistance.
+<ul><li> Al Powell in <a class="twikilink" href="/pmwiki/pmwiki.php/Film/DieHard" title="/pmwiki/pmwiki.php/Film/DieHard">the original film</a>.
+</li><li> Played around with in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/DieHard2" title="/pmwiki/pmwiki.php/Film/DieHard2">Die Hard 2</a></em>, as unlike the other movies, there isn't one set character aiding John. Al shows up early on to give John some information over the phone, but otherwise isn't involved. Leslie Barnes and Marvin the Janitor are the most common characters aiding McClane in the second film, with their roles being switched back and forth depending on the situation.
+</li><li> Zeus Carver in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/DieHardWithAVengeance" title="/pmwiki/pmwiki.php/Film/DieHardWithAVengeance">Die Hard with a Vengeance</a></em>.
+</li><li> Matt Farrell in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/LiveFreeOrDieHard" title="/pmwiki/pmwiki.php/Film/LiveFreeOrDieHard">Live Free or Die Hard</a></em>.
+</li><li> John's own son Jack in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/AGoodDayToDieHard" title="/pmwiki/pmwiki.php/Film/AGoodDayToDieHard">A Good Day to Die Hard</a></em>.
+</li></ul></li><li> The constant protagonist of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/TheLibrarian" title="/pmwiki/pmwiki.php/Film/TheLibrarian">The Librarian</a></em> series (including <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheLibrarians2014" title="/pmwiki/pmwiki.php/Series/TheLibrarians2014">The Librarians 2014</a></em>) is Dr. Flynn Carsen (played by Noah Wyle), accompanied in succession by:
+<ul><li> Nicole Noone in the first film,
+</li><li> Emily Davenport in the second,
+</li><li> Simone Renoir in the third, and
+</li><li> Eve, Cassandra, Stone, Jenkins, and Ezekiel in <em><a class="twikilink" href="/pmwiki/pmwiki.php/Series/TheLibrarians2014" title="/pmwiki/pmwiki.php/Series/TheLibrarians2014">The Librarians 2014</a></em>.
+</li></ul></li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/VideoGames" title="/pmwiki/pmwiki.php/Main/VideoGames">Video Games</a></span>
+</p><ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Creator/SonicTeam" title="/pmwiki/pmwiki.php/Creator/SonicTeam">Sonic Team</a></em> has done this throughout the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicTheHedgehog" title="/pmwiki/pmwiki.php/VideoGame/SonicTheHedgehog">Sonic the Hedgehog</a></em> franchise, to the point you could almost subtitle them based on the Arc Hero.
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicTheHedgehog2" title="/pmwiki/pmwiki.php/VideoGame/SonicTheHedgehog2">Sonic the Hedgehog 2</a></em>: Sonic and Tails, plot-wise a new sidekick, gameplay introducing two player mode.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Sonic3AndKnuckles" title="/pmwiki/pmwiki.php/VideoGame/Sonic3AndKnuckles">Sonic 3 &amp; Knuckles</a></em>: Sonic and Knuckles, plot-wise a new rival, gameplay introducing characters with different abilities.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicAdventure2" title="/pmwiki/pmwiki.php/VideoGame/SonicAdventure2">Sonic Adventure 2</a></em>: Sonic and Shadow, plot-wise another new rival who was directly related to Space Colony Ark and Gerald Robotnik's experiments. Also introducing the idea of seeing the plot from different perspectives with Hero Mode and Dark Mode.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicHeroes" title="/pmwiki/pmwiki.php/VideoGame/SonicHeroes">Sonic Heroes</a></em>: Sonic and Tails and Knuckles. Plotwise the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerOfFriendship" title="/pmwiki/pmwiki.php/Main/PowerOfFriendship">Power of Friendship</a> on full display and gameplay wise the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/StanceSystem" title="/pmwiki/pmwiki.php/Main/StanceSystem">Stance System</a> of changing the leader on the fly.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicRush" title="/pmwiki/pmwiki.php/VideoGame/SonicRush">Sonic Rush</a></em>: Sonic and Blaze, who had a direct relationship with new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Eggman Nega.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicTheHedgehog2006" title="/pmwiki/pmwiki.php/VideoGame/SonicTheHedgehog2006">Sonic the Hedgehog (2006)</a></em>: Sonic and Silver, who came to stop Sonic from becoming the Iblis Trigger and creating his <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BadFuture" title="/pmwiki/pmwiki.php/Main/BadFuture">Bad Future</a>.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicUnleashed" title="/pmwiki/pmwiki.php/VideoGame/SonicUnleashed">Sonic Unleashed</a></em>: Sonic and Chip, a new sidekick also directly related to the new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a>. Gameplay was more about the contrast between default Sonic and his new werewolf-like form.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicColors" title="/pmwiki/pmwiki.php/VideoGame/SonicColors">Sonic Colors</a></em>: Sonic and Yacker, or the Wisps generally, a new power-up system.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicGenerations" title="/pmwiki/pmwiki.php/VideoGame/SonicGenerations">Sonic Generations</a></em>: Sonic and Sonic bringing it full circle for the anniversary, combining new gameplay with classic gameplay.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SonicForces" title="/pmwiki/pmwiki.php/VideoGame/SonicForces">Sonic Forces</a></em>: Sonic and Avatar, giving fans a chance to make a customizable self-insert, who has a personal beef with new antagonist Infinite (who Eggman 'modified' as well, making the custom character thing meta.) The Avatar represents a third style of gadget and Wisp-based gameplay separate from modern or classic Sonic.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/BatmanArkhamCity" title="/pmwiki/pmwiki.php/VideoGame/BatmanArkhamCity">Batman: Arkham City</a></em>, the sequel to <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/BatmanArkhamAsylum" title="/pmwiki/pmwiki.php/VideoGame/BatmanArkhamAsylum">Batman: Arkham Asylum</a></em>, did this, making a point of putting the other main playable character, <a class="twikilink" href="/pmwiki/pmwiki.php/ComicBook/Catwoman" title="/pmwiki/pmwiki.php/ComicBook/Catwoman">Catwoman</a>, whose story affects the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Batman" title="/pmwiki/pmwiki.php/Franchise/Batman">Batman</a> part of the story. She plays similarly, but not the same, giving it a unique challenge. There's also a bunch of DLC characters for challenge maps, but they're far closer to pallet swaps for Batman, and don't have a playable role in the story.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DonkeyKong" title="/pmwiki/pmwiki.php/VideoGame/DonkeyKong">Donkey Kong</a></em> made Mario famous. <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/MarioBros" title="/pmwiki/pmwiki.php/VideoGame/MarioBros">Mario Bros.</a></em> gave him a brother named Luigi for two player mode. <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/SuperMarioBros" title="/pmwiki/pmwiki.php/Franchise/SuperMarioBros">The rest is history.</a>
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld">Super Mario World</a></em> introduced the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/PowerUpMount" title="/pmwiki/pmwiki.php/Main/PowerUpMount">Power Up Mount</a> with Yoshi who Mario had to help save Dinosaur Land.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld2YoshisIsland" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioWorld2YoshisIsland">Super Mario World 2: Yoshi's Island</a></em>: In addition to letting Yoshi be <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a> and basing most of the game around his abilities, it also introduced Baby Mario who directly tied into the plot, some power-ups, and the unique take on the health meter.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/LuigisMansion" title="/pmwiki/pmwiki.php/VideoGame/LuigisMansion">Luigi's Mansion</a></em>: Similarly made Luigi <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a> for once, but introduced Prof. E. Gadd who had already been on the case in the haunted mansion and provides story justification for new gameplay gadgets like the vacuum and even the next game's water cannon.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioSunshine" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioSunshine">Super Mario Sunshine</a></em>: Introduced FLUDD as Mario's assistant to help take care of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Shadow Mario's paint, and personified the water cannon gameplay additions and power-ups.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioGalaxy" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioGalaxy">Super Mario Galaxy</a></em>: Brought Rosalina and Luma as the force opposing Bowser throughout the galaxy, and personifying/granting Mario the new gameplay mechanics of everything from his all-purpose Spin Move, to shooting Star Bits, to the Launch Stars and other environment features throughout the levels. <a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioGalaxy2" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioGalaxy2">The sequel</a> also brought Lubba as the pilot of Starship Mario, the new world map/<a class="twikilink" href="/pmwiki/pmwiki.php/Main/HubLevel" title="/pmwiki/pmwiki.php/Main/HubLevel">Hub Level</a> hybrid system.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SuperMarioOdyssey" title="/pmwiki/pmwiki.php/VideoGame/SuperMarioOdyssey">Super Mario Odyssey</a></em>: Brought Cappy, personifying the new costume and capture mechanics.
+</li></ul></li><li> On the <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/DonkeyKong" title="/pmwiki/pmwiki.php/Franchise/DonkeyKong">Donkey Kong</a> side of things.
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DonkeyKongCountry2DiddysKongQuest" title="/pmwiki/pmwiki.php/VideoGame/DonkeyKongCountry2DiddysKongQuest">Donkey Kong Country 2: Diddy's Kong Quest</a></em> made Diddy <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a>, and introduced Dixie his girlfriend to personify to new gliding mechanics.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DonkeyKongCountry3DixieKongsDoubleTrouble" title="/pmwiki/pmwiki.php/VideoGame/DonkeyKongCountry3DixieKongsDoubleTrouble">Donkey Kong Country 3: Dixie Kong's Double Trouble!</a></em> followed the formula by making Dixie <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">The Hero</a>, and introducing Kiddy her cousin to personify the new power-based mechanics.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/GanbareGoemon" title="/pmwiki/pmwiki.php/VideoGame/GanbareGoemon">Ganbare Goemon</a> 2</em> introduced Ebisumaru, who would be Goemon's sidekick and comic relief for the entire series afterward.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/Halo" title="/pmwiki/pmwiki.php/Franchise/Halo">Halo</a></em>: Master Chief is the star of the show, but sometimes there's a second protagonist:
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Halo2" title="/pmwiki/pmwiki.php/VideoGame/Halo2">Halo 2</a></em> did this with the Arbiter, whose plot starts out being separate from the Master Chief's, but then they come together at the end of the game. The Arbiter is also the second player character in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Halo3" title="/pmwiki/pmwiki.php/VideoGame/Halo3">Halo 3</a></em>.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Halo5Guardians" title="/pmwiki/pmwiki.php/VideoGame/Halo5Guardians">Halo 5: Guardians</a></em> does this with Jameson Locke and Fireteam Osiris; not coincidentally, <em>Halo 5</em> is also the second game of a saga. Unlike <em>Halo 2</em> however, which had you playing as the Arbiter be a plot twist, all of <em>5</em>'s promotional material was very clear about the game having two protagonists, focusing on their contrasting personalities and ideals. The cover art has them glaring at each other, and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/LampshadeHanging" title="/pmwiki/pmwiki.php/Main/LampshadeHanging">a lampshade is hung</a> about the fact that, since Locke and his team are hunting the Chief and <em>his</em> team, the former are going to be hated by everyone.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/JazzJackrabbit" title="/pmwiki/pmwiki.php/VideoGame/JazzJackrabbit">Jazz Jackrabbit</a> 2</em> introduced Jazz's brother Spaz.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheKingOfFighters" title="/pmwiki/pmwiki.php/VideoGame/TheKingOfFighters">The King of Fighters</a></em> manages this within each major story arc in the series.
+<ul><li> While the '94 had Kyo be the main protagonist, The proper Orochi Trilogy ('95-'97) gave some measure of focus on both Kyo and <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheRival" title="/pmwiki/pmwiki.php/Main/TheRival">his rival</a>, Iori.
+</li><li> The NESTS Trilogy ('99-'01) gave focus to both Kyo and K'.
+</li><li> The Ash trilogy ('03, XI, XIII) gave focus to Kyo and new protagonist/antagonist Ash Crimson.
+</li></ul></li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Dishonored2" title="/pmwiki/pmwiki.php/VideoGame/Dishonored2">Dishonored 2</a></em> is doing this, having two main playable characters. Playing with the trope, the second was little more than a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/MacGuffin" title="/pmwiki/pmwiki.php/Main/MacGuffin">MacGuffin</a> in the first game.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/HalfLife2" title="/pmwiki/pmwiki.php/VideoGame/HalfLife2">Half-Life 2</a></em> did this with Alyx Vance, who plays a major role in the franchise and is rather beloved by fans, with few detractors.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/MetalGearSolid2" title="/pmwiki/pmwiki.php/VideoGame/MetalGearSolid2">Metal Gear Solid 2</a></em> did this infamously. Solid Snake was playable for the heavily-advertised prologue chapter. Then you switched to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ReplacementScrappy" title="/pmwiki/pmwiki.php/Main/ReplacementScrappy">Raiden</a> for the real game, <span class="spoiler" title="you can set spoilers visible by default on your profile">with Snake acting as a part of your mission control.</span>
+</li><li> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/InvertedTrope" title="/pmwiki/pmwiki.php/Main/InvertedTrope">Inverted</a> with <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TalesOfXillia" title="/pmwiki/pmwiki.php/VideoGame/TalesOfXillia">Tales of Xillia</a></em> and <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TalesOfXillia2" title="/pmwiki/pmwiki.php/VideoGame/TalesOfXillia2">Tales of Xillia 2</a></em>; the original game allows the player to choose between playing Jude, a medical student who gets swept up in a demigod's plan to save the world from <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ScienceIsBad" title="/pmwiki/pmwiki.php/Main/ScienceIsBad">evil technology</a>, or Milla, the demigod in question, with the decision affecting a few missions and cut scenes but ultimately not changing the game much. In <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TalesOfXillia2" title="/pmwiki/pmwiki.php/VideoGame/TalesOfXillia2">Tales of Xillia 2</a></em>, on the other hand, the player can only play as Ludger, a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GunsAkimbo" title="/pmwiki/pmwiki.php/Main/GunsAkimbo">Guns Akimbo</a>-wielding... cook.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/EpicMickey2ThePowerOfTwo" title="/pmwiki/pmwiki.php/VideoGame/EpicMickey2ThePowerOfTwo">Epic Mickey 2: The Power of Two</a></em> has Mickey and Oswald playable, while <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/EpicMickey" title="/pmwiki/pmwiki.php/VideoGame/EpicMickey">Epic Mickey</a></em> only has Mickey. The title is one of the more blatant uses of the trope, managing to not only emphasis that there's now two, but that it's the second game, by using "two" twice.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SenranKagura" title="/pmwiki/pmwiki.php/VideoGame/SenranKagura">Senran Kagura</a></em>: Shinovi Versus introduced 2 more teams as counterparts for the initial two: for the good guys' side (Hanzo academy) there's Gessen Girls High and for the bad guys (Homura's Crimson Squad) there's the (second gen) Hebijo Academy. Both of the new groups look down on the old ones for getting soft on each other (in the prev game the two initial groups grew to respect each other greatly) which serves to highlight the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GreyAndGreyMorality" title="/pmwiki/pmwiki.php/Main/GreyAndGreyMorality">Grey-and-Grey Morality</a> in the game's lore and paint the two new groups as zealots of their own philosophies.
+</li><li> In many Disney world in most of the <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/KingdomHearts" title="/pmwiki/pmwiki.php/Franchise/KingdomHearts">Kingdom Hearts</a></em> series, the player character, whether it be the main trio of Sora, Donald and Goofy, or one of the protagonists in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/KingdomHeartsBirthBySleep" title="/pmwiki/pmwiki.php/VideoGame/KingdomHeartsBirthBySleep">Kingdom Hearts: Birth by Sleep</a></em>, are joined by one (or two in <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/KingdomHeartsIII" title="/pmwiki/pmwiki.php/VideoGame/KingdomHeartsIII">Kingdom Hearts III</a></em>) <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GuestStarPartyMember" title="/pmwiki/pmwiki.php/Main/GuestStarPartyMember">Guest-Star Party Member</a> appropriate to the film, such as <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Aladdin" title="/pmwiki/pmwiki.php/WesternAnimation/Aladdin">Aladdin</a> in Agrabah, <a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/PiratesOfTheCaribbean" title="/pmwiki/pmwiki.php/Franchise/PiratesOfTheCaribbean">Jack Sparrow</a> in the Caribbean, and <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/Mulan" title="/pmwiki/pmwiki.php/WesternAnimation/Mulan">Mulan</a> in the Land of Dragons. With very rare exceptions, none of these party members can be used outside of their worlds.
+</li><li> Similar to above, <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/SlyCooperThievesInTime" title="/pmwiki/pmwiki.php/VideoGame/SlyCooperThievesInTime">Sly Cooper: Thieves in Time</a></em> has one of Sly's ancestors as a player character in each timezone.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda" title="/pmwiki/pmwiki.php/Franchise/TheLegendOfZelda">The Legend of Zelda</a></em>: Since <em>Ocarina</em>, the new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/FairyCompanion" title="/pmwiki/pmwiki.php/Main/FairyCompanion">Fairy Companion</a> tends to be the main supporting character for each game, partially due to having to be the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/VoiceForTheVoiceless" title="/pmwiki/pmwiki.php/Main/VoiceForTheVoiceless">Voice for the Voiceless</a> since Link is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/HeroicMime" title="/pmwiki/pmwiki.php/Main/HeroicMime">Heroic Mime</a>.
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaOcarinaOfTime" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaOcarinaOfTime">The Legend of Zelda: Ocarina of Time</a></em> added Navi to personify the new Z-Targeting system. She was the fairy for 'the boy without a fairy' and his guide as he fulfilled his destiny. Tatl in the direct followup <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaMajorasMask" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaMajorasMask">The Legend of Zelda: Majora's Mask</a></em> didn't add anything gameplay wise, but was friends with <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Skull Kid and the sister of his fairy companion Tael.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaTheWindWaker" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaTheWindWaker">The Legend of Zelda: The Wind Waker</a></em>: The King of Red Lions gave character to the sailing mechanics as a talking boat. Getting deeper into the plot, it's revealed he's actually the King of Hyrule trying to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheChooserOfTheOne" title="/pmwiki/pmwiki.php/Main/TheChooserOfTheOne">awaken and reunite this era's Link and Zelda with their Triforce pieces</a> to end Ganon and bury old Hyrule once and for all.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaTheMinishCap" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaTheMinishCap">The Minish Cap</a></em>: Ezlo, the titular Minish Cap, was the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/APupilOfMineUntilHeTurnedToEvil" title="/pmwiki/pmwiki.php/Main/APupilOfMineUntilHeTurnedToEvil">former mentor</a> of <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Vaati and was the character tied to the growing and shrinking mechanics.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaTwilightPrincess" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaTwilightPrincess">The Legend of Zelda: Twilight Princess</a></em>: Midna, the titular Twilight Princess, partners with Link and commands his new wolf form, as well as managing teleportation and a few other new twilight abilities. Link's story to save his friends ends about a third through the game, with the rest about her quest to reclaim her throne from Usurper King Zant.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaSkywardSword" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaSkywardSword">The Legend of Zelda: Skyward Sword</a></em>: Fi, the titular Skyward Sword, personified the new one-to-one motion controls, and various new abilities of the Goddess/Master Sword. She's Link's guide to become Hylia's chosen hero and is the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GoodCounterpart" title="/pmwiki/pmwiki.php/Main/GoodCounterpart">Good Counterpart</a> to <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Ghirahim.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaALinkBetweenWorlds" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaALinkBetweenWorlds">The Legend of Zelda: A Link Between Worlds</a></em>: Ravio and Hilda as alternate universe counterparts of Link and Zelda, to fight against <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Yuga. Hilda is the traditional guide character. Ravio personifies the new gameplay philosophy of having access to all items early for sequence breaking as a shopkeeper who gives item tutorials.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaBreathOfTheWild" title="/pmwiki/pmwiki.php/VideoGame/TheLegendOfZeldaBreathOfTheWild">The Legend of Zelda: Breath of the Wild</a></em>: The Champions in general, and Zelda herself in particular. The story revealed in flashbacks show how Zelda grew into a worthy bearer of the Triforce of Wisdom.
+</li></ul></li><li> This occurs in the <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/DisneysMagicalQuest" title="/pmwiki/pmwiki.php/VideoGame/DisneysMagicalQuest">Disney's Magical Quest</a></em> trilogy. In the first game, <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/MickeyMouse" title="/pmwiki/pmwiki.php/WesternAnimation/MickeyMouse">Mickey Mouse</a> sets out on his own. In the second, he's now accompanied by <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/MinnieMouse" title="/pmwiki/pmwiki.php/WesternAnimation/MinnieMouse">Minnie Mouse</a> (who was also retroactively added to the GBA edition of the first game). In the third and final game, Mickey teams up with <a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/DonaldDuck" title="/pmwiki/pmwiki.php/WesternAnimation/DonaldDuck">Donald Duck</a>.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Uncharted" title="/pmwiki/pmwiki.php/VideoGame/Uncharted">Uncharted</a></em>
+<ul><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Uncharted3DrakesDeception" title="/pmwiki/pmwiki.php/VideoGame/Uncharted3DrakesDeception">Uncharted 3: Drake's Deception</a></em>: Nate's mentor Sully takes center stage in this game with it showing his backstory and how he and Nate met, showcasing how much of a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ParentalSubstitute" title="/pmwiki/pmwiki.php/Main/ParentalSubstitute">surrogate father</a> he is. Sully also has a personal connection to the game's main villain in this one, with her being his ex-lover.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/VideoGame/Uncharted4AThiefsEnd" title="/pmwiki/pmwiki.php/VideoGame/Uncharted4AThiefsEnd">Uncharted 4: A Thief's End</a></em>: Nate's long-lost brother Sam, who reunites with him early on in the game and convinces him to come out of retirement for <a class="twikilink" href="/pmwiki/pmwiki.php/Main/OneLastJob" title="/pmwiki/pmwiki.php/Main/OneLastJob">One Last Job</a>.
+</li></ul></li></ul><p><span class="asscaps"><a class="twikilink" href="/pmwiki/pmwiki.php/Main/WesternAnimation" title="/pmwiki/pmwiki.php/Main/WesternAnimation">Western Animation</a></span>
+</p><ul><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TheBatman" title="/pmwiki/pmwiki.php/WesternAnimation/TheBatman">The Batman</a></em>, each season has a story arc focusing on one particular ally of Batman. In order, season 1 is Bennett, season 2 is Yin, season 3 is Batgirl, season 4 is Robin, and season 5 is the Justice League.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/SouthPark" title="/pmwiki/pmwiki.php/WesternAnimation/SouthPark">South Park</a></em> has a truly bizarre version that could only have been a parody in the episode "<a class="twikilink" href="/pmwiki/pmwiki.php/Recap/SouthParkS4E16TheWackyMolestationAdventure" title="/pmwiki/pmwiki.php/Recap/SouthParkS4E16TheWackyMolestationAdventure">The Wacky Molestation Adventure</a>". After a standard first half following the boys on a comedic setup (Cartman convinces every kid in town to accuse their parents of molesting them so the police will take them away, resulting in a town bereft of adults), the second half abruptly transitions to two new characters, Mark and Linda. They <a class="twikilink" href="/pmwiki/pmwiki.php/Main/GenreRefugee" title="/pmwiki/pmwiki.php/Main/GenreRefugee">look and act like the main characters of a standard horror thriller film</a>, with the second half of the episode playing out as a very abridged version of <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/ChildrenOfTheCorn1984" title="/pmwiki/pmwiki.php/Film/ChildrenOfTheCorn1984"> Children of the Corn (1984)</a></em> or <em><a class="twikilink" href="/pmwiki/pmwiki.php/Film/LogansRun" title="/pmwiki/pmwiki.php/Film/LogansRun">Logan's Run</a></em> as Mark and Linda explore the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/AfterTheEnd" title="/pmwiki/pmwiki.php/Main/AfterTheEnd">After the End</a> setting of South Park as the absence of adults has caused a collapse into anarchy among the child residents. Mark has a relatively detailed backstory (recently married, doesn't want children, on his way to a job interview in Breckenridge), solves the whole conflict, and even has a coherent <a class="twikilink" href="/pmwiki/pmwiki.php/Main/JerkToNiceGuyPlot" title="/pmwiki/pmwiki.php/Main/JerkToNiceGuyPlot">Jerk-to-Nice-Guy Plot</a> character arc. After he gets the job and the two presumably move to Breckenridge, they're never seen again.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/DuckTales2017" title="/pmwiki/pmwiki.php/WesternAnimation/DuckTales2017">DuckTales (2017)</a></em>: <a class="twikilink" href="/pmwiki/pmwiki.php/Main/WordOfGod" title="/pmwiki/pmwiki.php/Main/WordOfGod">Word of God</a> stated that the show's seasons will revolve around a character beside <a class="twikilink" href="/pmwiki/pmwiki.php/Main/TheHero" title="/pmwiki/pmwiki.php/Main/TheHero">Uncle Scrooge</a>. Season 1 focuses on Dewey, and Season 2 revolves around Louie.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/StarWarsRebels" title="/pmwiki/pmwiki.php/WesternAnimation/StarWarsRebels">Star Wars Rebels</a></em>: Season 2 adds Ashoka Tano to the cast as a <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigGood" title="/pmwiki/pmwiki.php/Main/BigGood">Big Good</a> type figure leading Kanan and Ezra to contrast the new <a class="twikilink" href="/pmwiki/pmwiki.php/Main/BigBad" title="/pmwiki/pmwiki.php/Main/BigBad">Big Bad</a> <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a> Darth Vader leading the Inquisitors. She also has history with him as his former apprentice.
+</li><li> In <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TeenTitans" title="/pmwiki/pmwiki.php/WesternAnimation/TeenTitans">Teen Titans</a></em>, each season has a story arc focusing on one specific Titan. In order, season 1 is Robin, season 2 is Terra, season 3 is Cyborg, season 4 is Raven, and season 5 is Beast Boy. Starfire gets screwed over.
+</li><li> <em><a class="twikilink" href="/pmwiki/pmwiki.php/WesternAnimation/TangledTheSeries" title="/pmwiki/pmwiki.php/WesternAnimation/TangledTheSeries">Tangled: The Series</a></em>
+<ul><li> Season 1 had Varian, who was essential in helping Rapunzel make breakthroughs in the mystery surrounding the black rocks and about her mysterious new hair, <span class="spoiler" title="you can set spoilers visible by default on your profile">but it becomes subverted when Rapunzel is unable to help him free his father during Zhan Tiri's storm, and turns into the <a class="twikilink" href="/pmwiki/pmwiki.php/Main/ArcVillain" title="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a>.</span>
+</li><li> Season 2 has Adira, a warrior from the Dark Kingdom who goes against King Edmund's wishes to help Rapunzel make her way there, believing that the Sundrop is the only thing that can neutralize the threat of the Moonstone, the source of the Black Rocks.
+</li></ul></li></ul><hr>
+</div>
+<div class="lazy-video-script">
+<a id="VideoExamples"></a>
+<div>&nbsp;</div>
+<div class="video-examples has-thumbnails">
+<div class="video-examples-header">
+<a href="#feedback" class="font-s float-right text-blue" data-modal-target="login">Feedback</a>
+<h3 class="bold">Video Example(s):</h3>
+</div>
+<div class="video-examples-featured">
+<a href="#video-link" data-video-id="geups4" data-video-descrip="Jack Skellington is Sora's ally in every appearance of Halloween Town in the series." data-video-title="Jack Skellington" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/geups4_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/geups4.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.00" data-video-rating-count="5" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link featured-widget-vid">
+<div class="featured-widget-vid-iframe">
+<video id='featured-video-player' class='video-js vjs-default-skin vjs-16-9' controls data-setup='{"ga": {"eventsToTrack": ["error"]}}'>
+</video>
+</div>
+</a>
+<h2 class="bold font-l">Jack Skellington</h2>
+<p class="_pmvv-vidbox-descTxt">
+Jack Skellington is Sora's ally in every appearance of Halloween Town in the series. </p>
+</div>
+<div class="video-examples-thumbs">
+<a href="#video-link" data-video-id="5yja8f" data-video-descrip="Peter Pan is Sora's ally in Neverland." data-video-title="Peter Pan" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/5yja8f_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5yja8f.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="" data-video-rating-count="" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5yja8f.jpg">
+<p><span class="bold">Peter Pan</span></p>
+</a>
+<a href="#video-link" data-video-id="4zw9kf" data-video-descrip="Tarzan is Sora's ally in Deep Jungle." data-video-title="Tarzan" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/4zw9kf_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/4zw9kf.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="" data-video-rating-count="" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/4zw9kf.jpg">
+<p><span class="bold">Tarzan</span></p>
+</a>
+<a href="#video-link" data-video-id="q8fyl7" data-video-descrip="Beast is Sora's ally in Hollow Bastion in Kingdom Hearts and Beast's Castle in Kingdom Hearts II." data-video-title="Beast" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/q8fyl7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q8fyl7.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="" data-video-rating-count="" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q8fyl7.jpg">
+<p><span class="bold">Beast</span></p>
+</a>
+<a href="#video-link" data-video-id="31zsag" data-video-descrip="Is Sora and the gang's ally in Agrabah in the first three Kingdom Hearts games." data-video-title="Aladdin" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/31zsag_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/31zsag.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="" data-video-rating-count="" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/31zsag.jpg">
+<p><span class="bold">Aladdin</span></p>
+</a>
+<a href="#video-link" data-video-id="r1npqy" data-video-descrip="Ariel is Sora and the gang's ally whenever they visit Atlantica." data-video-title="Ariel" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/r1npqy_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/r1npqy.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="" data-video-rating-count="" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/r1npqy.jpg">
+<p><span class="bold">Ariel</span></p>
+</a>
+</div>
+</div>
+</div>
+<div class="square_ad footer-article-ad main_2" data-isolated="0"></div>
+<div class="section-links" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<div class="titles">
+<div><h3 class="text-center text-uppercase">Previous</h3></div>
+<div><h3 class="text-center text-uppercase">Index</h3></div>
+<div><h3 class="text-center text-uppercase">Next</h3></div>
+</div>
+<div class="links">
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ApronMatron">Apron Matron</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice">Characters as Device</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheArchmage">The Archmage</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/AnimatedArmor">Animated Armor</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/VideoSource/KingdomHearts">VideoSource/Kingdom Hearts</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/ArcVillain">Arc Villain</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheAntiNihilist">The Anti-Nihilist</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/Heroes">Heroes</a>
+</li>
+<li>
+<a href="/pmwiki/pmwiki.php/Main/TheAtoner">The Atoner</a>
+</li>
+</ul>
+</div>
+</div>
+</article>
+<div id="main-content-sidebar"><div class="sidebar-item display-options">
+<ul class="sidebar display-toggles">
+<li>Show Spoilers <div id="sidebar-toggle-showspoilers" class="display-toggle show-spoilers"></div></li>
+<li>Night Vision <div id="sidebar-toggle-nightvision" class="display-toggle night-vision"></div></li>
+<li>Sticky Header <div id="sidebar-toggle-stickyheader" class="display-toggle sticky-header"></div></li>
+<li>Wide Load <div id="sidebar-toggle-wideload" class="display-toggle wide-load"></div></li>
+</ul>
+<script>updateDesktopPrefs();</script>
+</div>
+<div class="sidebar-item ad sb-ad-unit">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_2'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_2'); });</script> </div>
+</div></div>
+<div class="sidebar-item quick-links" itemtype="http://schema.org/SiteNavigationElement">
+<p class="sidebar-item-title" data-title="Important Links">Important Links</p>
+<div class="padded">
+<a href="/pmwiki/query.php?type=att">Ask The Tropers</a>
+<a href="/pmwiki/query.php?type=tf">Trope Finder</a>
+<a href="/pmwiki/query.php?type=ykts">You Know That Show...</a>
+<a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a>
+<a href="/pmwiki/review_activity.php">Reviews</a>
+<a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a>
+<a href="/pmwiki/ad-free-subscribe.php">Go Ad Free!</a> </div>
+</div>
+<div class="sidebar-item sb-ad-unit">
+<div class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_3'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_3'); });</script> </div>
+</div> </div>
+</div>
+</div>
+<div class="sidebar-item">
+<p class="sidebar-item-title" data-title="Crucial Browsing">Crucial Browsing</p>
+<ul class="padded font-s" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><a href="javascript:void(0);" data-click-toggle="active">Genre</a>
+<ul>
+<li><a href='/pmwiki/pmwiki.php/Main/ActionAdventureTropes' title='Main/ActionAdventureTropes'>Action Adventure</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ComedyTropes' title='Main/ComedyTropes'>Comedy</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CommercialsTropes' title='Main/CommercialsTropes'>Commercials</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/CrimeAndPunishmentTropes' title='Main/CrimeAndPunishmentTropes'>Crime &amp; Punishment</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/DramaTropes' title='Main/DramaTropes'>Drama</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/HorrorTropes' title='Main/HorrorTropes'>Horror</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/LoveTropes' title='Main/LoveTropes'>Love</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/NewsTropes' title='Main/NewsTropes'>News</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/ProfessionalWrestling' title='Main/ProfessionalWrestling'>Professional Wrestling</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SpeculativeFictionTropes' title='Main/SpeculativeFictionTropes'>Speculative Fiction</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/SportsStoryTropes' title='Main/SportsStoryTropes'>Sports Story</a></li>
+<li><a href='/pmwiki/pmwiki.php/Main/WarTropes' title='Main/WarTropes'>War</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Media</a>
+ <ul>
+<li><a href="/pmwiki/pmwiki.php/Main/Media" title="Main/Media">All Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AnimationTropes" title="Main/AnimationTropes">Animation (Western)</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Anime" title="Main/Anime">Anime</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ComicBookTropes" title="Main/ComicBookTropes">Comic Book</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FanFic" title="FanFic/FanFics">Fan Fics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Film" title="Main/Film">Film</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/GameTropes" title="Main/GameTropes">Game</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Literature" title="Main/Literature">Literature</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MusicAndSoundEffects" title="Main/MusicAndSoundEffects">Music And Sound Effects</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NewMediaTropes" title="Main/NewMediaTropes">New Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PrintMediaTropes" title="Main/PrintMediaTropes">Print Media</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Radio" title="Main/Radio">Radio</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SequentialArt" title="Main/SequentialArt">Sequential Art</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TabletopGames" title="Main/TabletopGames">Tabletop Games</a></li>
+<li><a href="/pmwiki/pmwiki.php/UsefulNotes/Television" title="Main/Television">Television</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Theater" title="Main/Theater">Theater</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/VideogameTropes" title="Main/VideogameTropes">Videogame</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Webcomics" title="Main/Webcomics">Webcomics</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Narrative</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/UniversalTropes" title="Main/UniversalTropes">Universal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/AppliedPhlebotinum" title="Main/AppliedPhlebotinum">Applied Phlebotinum</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharacterizationTropes" title="Main/CharacterizationTropes">Characterization</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Characters" title="Main/Characters">Characters</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CharactersAsDevice" title="Main/CharactersAsDevice">Characters As Device</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Dialogue" title="Main/Dialogue">Dialogue</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Motifs" title="Main/Motifs">Motifs</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/NarrativeDevices" title="Main/NarrativeDevices">Narrative Devices</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Paratext" title="Main/Paratext">Paratext</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Plots" title="Main/Plots">Plots</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Settings" title="Main/Settings">Settings</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Spectacle" title="Main/Spectacle">Spectacle</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Other Categories</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BritishTellyTropes" title="Main/BritishTellyTropes">British Telly</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TheContributors" title="Main/TheContributors">The Contributors</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CreatorSpeak" title="Main/CreatorSpeak">Creator Speak</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Creators" title="Main/Creators">Creators</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DerivativeWorks" title="Main/DerivativeWorks">Derivative Works</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LanguageTropes" title="Main/LanguageTropes">Language</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/LawsAndFormulas" title="Main/LawsAndFormulas">Laws And Formulas</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ShowBusiness" title="Main/ShowBusiness">Show Business</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SplitPersonalityTropes" title="Main/SplitPersonalityTropes">Split Personality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/StockRoom" title="Main/StockRoom">Stock Room</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TropeTropes" title="Main/TropeTropes">Trope</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Tropes" title="Main/Tropes">Tropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthAndLies" title="Main/TruthAndLies">Truth And Lies</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/TruthInTelevision" title="Main/TruthInTelevision">Truth In Television</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" data-click-toggle="active">Topical Tropes</a>
+<ul>
+<li><a href="/pmwiki/pmwiki.php/Main/BetrayalTropes" title="Main/BetrayalTropes">Betrayal</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CensorshipTropes" title="Main/CensorshipTropes">Censorship</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/CombatTropes" title="Main/CombatTropes">Combat</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/DeathTropes" title="Main/DeathTropes">Death</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FamilyTropes" title="Main/FamilyTropes">Family</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FateAndProphecyTropes" title="Main/FateAndProphecyTropes">Fate And Prophecy</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/FoodTropes" title="Main/FoodTropes">Food</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/HolidayTropes" title="Main/HolidayTropes">Holiday</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MemoryTropes" title="Main/MemoryTropes">Memory</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoneyTropes" title="Main/MoneyTropes">Money</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/MoralityTropes" title="Main/MoralityTropes">Morality</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/PoliticsTropes" title="Main/PoliticsTropes">Politics</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/ReligionTropes" title="Main/ReligionTropes">Religion</a></li>
+<li><a href="/pmwiki/pmwiki.php/Main/SchoolTropes" title="Main/SchoolTropes">School</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sidebar-item showcase">
+<p class="sidebar-item-title" data-title="Community&nbsp;Showcase">Community Showcase <a href="/pmwiki/showcase.php" class="bubble float-right hover-blue">More</a></p>
+<p class="community-showcase">
+<a href="https://sharetv.com/shows/echo_chamber" target="_blank" onclick="trackOutboundLink('https://sharetv.com/shows/echo_chamber');">
+<img data-src="/images/communityShowcase-echochamber.jpg" class="lazy-image" alt=""></a>
+<a href="/pmwiki/pmwiki.php/Webcomic/TwistedTropes">
+<img data-src="/img/howlandsc-side.jpg" class="lazy-image" alt=""></a>
+</p>
+</div>
+<div id="stick-cont" class="sidebar-item sb-ad-unit">
+<div id="stick-bar" class="sidebar-section">
+<div class="square_ad ad-size-300x600 ad-section text-center">
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_ad_4'> <script>propertag.cmd.push(function() { proper_display('tvtropes_ad_4'); });</script> </div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="action-bar-bottom" class="action-bar tablet-off">
+<a href="#top-of-page" class="scroll-to-top dead-button" onclick="$('html, body').animate({scrollTop : 0},500);">Top</a>
+</div>
+</div>
+<div class='proper-ad-unit ad-sticky'>
+<div id='proper-ad-tvtropes_sticky_ad'> <script>propertag.cmd.push(function() { proper_display('tvtropes_sticky_ad'); });</script> </div>
+</div>
+<div class='proper-ad-unit '>
+<div id='proper-ad-tvtropes_oop'> <script>propertag.cmd.push(function() { proper_display('tvtropes_oop'); });</script> </div>
+</div>
+<footer id="main-footer">
+<div id="main-footer-inner">
+<div class="footer-left">
+<a href="/" class="img-link"><img data-src="/img/tvtropes-footer-logo.png" alt="TV Tropes" class="lazy-image" title="TV Tropes" /></a>
+<form action="index.html" id="cse-search-box-mobile" class="navbar-form newsletter-signup validate modal-replies" name="" role="" data-ajax-get="/ajax/subscribe_email.php">
+<button class="btn-submit newsletter-signup-submit-button" type="submit" id="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
+<input id="subscription-email" type="text" class="form-control" name="q" size="31" placeholder="Subscribe" value="" validate-type="email">
+</form>
+<ul class="social-buttons">
+<li><a class="btn fb" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);" href="https://www.facebook.com/tvtropes"><i class="fa fa-facebook"></i></a></li>
+<li><a class="btn tw" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);" href="https://www.twitter.com/tvtropes"><i class="fa fa-twitter"></i></a> </li>
+<li><a class="btn rd" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-reddit']);" href="https://www.reddit.com/r/tvtropes"><i class="fa fa-reddit-alien"></i></a></li>
+</ul>
+</div>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">TVTropes</h4></li>
+<li><a href="/pmwiki/pmwiki.php/Main/Administrivia">About TVTropes</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheGoalsOfTVTropes">TVTropes Goals</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TheTropingCode">Troping Code</a></li>
+<li><a href="/pmwiki/pmwiki.php/Administrivia/TVTropesCustoms">TVTropes Customs</a></li>
+<li><a href="/pmwiki/pmwiki.php/JustForFun/TropesOfLegend">Tropes of Legend</a></li>
+<li><a href="/pmwiki/ad-free-subscribe.php">Go Ad-Free</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Community</h4></li>
+<li><a href="/pmwiki/query.php?type=att">Ask The Tropers</a></li>
+<li><a href="/pmwiki/tlp_activity.php">Trope Launch Pad</a></li>
+<li><a href="/pmwiki/query.php?type=tf">Trope Finder</a></li>
+<li><a href="/pmwiki/query.php?type=ykts">You Know That Show</a></li>
+<li><a href="/pmwiki/lbs.php" data-modal-target="login">Live Blogs</a></li>
+<li><a href="/pmwiki/review_activity.php">Reviews</a></li>
+<li><a href="/pmwiki/topics.php">Forum</a></li>
+</ul>
+<hr />
+<ul class="footer-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li><h4 class="footer-menu-header">Tropes HQ</h4></li>
+<li><a href="/pmwiki/about.php">About Us</a></li>
+<li><a href="/pmwiki/contact.php">Contact Us</a></li>
+<li><a href="/pmwiki/dmca.php">DMCA Notice</a></li>
+<li><a href="/pmwiki/privacypolicy.php">Privacy Policy</a></li>
+</ul>
+</div>
+<div id="desktop-on-mobile-toggle" class="text-center gutter-top gutter-bottom tablet-on">
+<a href="/pmwiki/switchDeviceCss.php?mobileVersion=1" rel="nofollow">Switch to <span class="txt-desktop">Desktop</span><span class="txt-mobile">Mobile</span> Version</a>
+</div>
+<div class="legal">
+<p>TVTropes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. <br>Permissions beyond the scope of this license may be available from <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:thestaff@tvtropes.org" rel="cc:morePermissions"> thestaff@tvtropes.org</a>.</p>
+<br>
+<div class="privacy_wrapper">
+</div>
+</div>
+</footer>
+<style>
+      div.fc-ccpa-root {
+        position: absolute !important;
+        bottom: 93px !important;
+        margin: auto !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link p{
+        outline: none !important;
+        text-decoration: underline !important;
+        font-size: .7em !important;
+        font-family: sans-serif !important;
+      }
+      .fc-ccpa-root .fc-dns-dialog .fc-dns-link .fc-button-background {
+        background: none !important;
+      }
+    </style>
+<div id="_pm_videoViewer" class="full-screen">
+<a href="#close" class="close" id="_pm_videoViewer-close"></a>
+<div class="_pmvv-body">
+<div class="_pmvv-vidbox">
+<video id='overlay-video-player-box' data-video-id="geups4" class='video-js vjs-default-skin vjs-16-9'>
+</video>
+<div class="_pmvv-vidbox-desc">
+<h1 id="overlay-title">Jack Skellington</h1>
+<p id="overlay-descrip" class="_pmvv-vidbox-descTxt">
+Jack Skellington is Sora's ally in every appearance of Halloween Town in the series.	</p>
+<div class="rating-row" data-video-id="geups4">
+<input type="hidden" name="is_logged_in" value="0">
+<p>How well does it match the trope?</p>
+<div id="star-rating-group">
+<div class="trope-rate">
+<input type="radio" id="lamp5" name="rate" value="5" />
+<label for="lamp5" title="Absolutely"></label>
+<input type="radio" id="lamp4" name="rate" value="4" />
+<label for="lamp4" title="Yes"></label>
+<input type="radio" id="lamp3" name="rate" value="3" />
+<label for="lamp3" title="Kind of"></label>
+<input type="radio" id="lamp2" name="rate" value="2" />
+<label for="lamp2" title="Not really"></label>
+<input type="radio" id="lamp1" name="rate" value="1" />
+<label for="lamp1" title="No"></label>
+</div>
+<div id="star-rating-total">
+4 (5 votes)
+</div>
+</div>
+</div>
+<div class="example-media-row">
+<div class="example-overlay">
+<p>Example of:</p>
+<div id="overlay-trope">Main / ArcHero</div>
+</div>
+<div class="media-sources-overlay example-overlay">
+<p>Media sources:</p>
+<div id="overlay-media">Main / ArcHero</div>
+</div>
+</div>
+<p class="_pmvv-vidbox-stats text-right font-s" style="padding-top:8px; border-top: solid 1px rgba(255,255,255,0.2)">
+
+<a href="#video-feedback" class="float-right" data-modal-target="login">Report</a>
+</p>
+</div>
+</div>
+</div>
+<div class="_pmvv-foot">
+<div class="_pmvv-foot-scrollwrapper">
+<a href="#video-link" data-video-id="geups4" data-vimeo-id="387208098" data-video-descrip="Jack Skellington is Sora's ally in every appearance of Halloween Town in the series." data-video-title="Jack Skellington" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/geups4_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/geups4.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="4.00" data-video-rating-count="5" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/geups4.jpg">
+<p><span class="bold">Jack Skellington</span></p>
+</a>
+<a href="#video-link" data-video-id="5yja8f" data-vimeo-id="387208910" data-video-descrip="Peter Pan is Sora's ally in Neverland." data-video-title="Peter Pan" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/5yja8f_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5yja8f.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/5yja8f.jpg">
+<p><span class="bold">Peter Pan</span></p>
+</a>
+<a href="#video-link" data-video-id="4zw9kf" data-vimeo-id="387209864" data-video-descrip="Tarzan is Sora's ally in Deep Jungle." data-video-title="Tarzan" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/4zw9kf_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/4zw9kf.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/4zw9kf.jpg">
+<p><span class="bold">Tarzan</span></p>
+</a>
+<a href="#video-link" data-video-id="q8fyl7" data-vimeo-id="387207336" data-video-descrip="Beast is Sora's ally in Hollow Bastion in Kingdom Hearts and Beast's Castle in Kingdom Hearts II." data-video-title="Beast" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/q8fyl7_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q8fyl7.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/q8fyl7.jpg">
+<p><span class="bold">Beast</span></p>
+</a>
+<a href="#video-link" data-video-id="31zsag" data-vimeo-id="387205957" data-video-descrip="Is Sora and the gang's ally in Agrabah in the first three Kingdom Hearts games." data-video-title="Aladdin" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/31zsag_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/31zsag.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="" data-video-rating-count="" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/31zsag.jpg">
+<p><span class="bold">Aladdin</span></p>
+</a>
+<a href="#video-link" data-video-id="r1npqy" data-vimeo-id="387206760" data-video-descrip="Ariel is Sora and the gang's ally whenever they visit Atlantica." data-video-title="Ariel" data-video-url="https://d1w6li7s85ibls.cloudfront.net/qvbr/r1npqy_640x360p_qvbr.mp4" data-video-thumbnail="https://static.tvtropes.org/trope_videos_transcoded/images/sd/r1npqy.jpg" data-video-trope="Main/ArcHero" data-video-tropename="Arc Hero" data-video-approval="APPROVED" data-video-troper-rating="" data-video-average-rating="5.00" data-video-rating-count="2" data-video-media-sources="VideoGame/KingdomHeartsI" class="video-launch-link video-overlay-link video-background-image lazy-image" data-src="https://static.tvtropes.org/trope_videos_transcoded/images/sd/r1npqy.jpg">
+<p><span class="bold">Ariel</span></p>
+</a>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+        window.special_ops =  {
+            member : 'no',
+            isolated : 0,
+            tags : ['videogame']
+        };
+    </script>
+<script type="text/javascript">
+
+        var cleanCreativeEnabled = "";
+        var donation = "";
+        var live_ads = "1";
+        var img_domain = "https://static.tvtropes.org";
+        var snoozed = cookies.read('snoozedabm');
+        var snoozable = "";
+
+        if (adsRemovedWith) {
+            live_ads = 0;
+        }
+
+        var elem = document.createElement('script');
+        elem.async = true;
+
+        elem.src = '/design/assets/bundle.js?rev=61acae6dced8ebb8defa29cde07b1ab8e1d61ca7';
+
+        elem.onload = function() {
+                                 }
+        document.getElementsByTagName('head')[0].appendChild(elem);
+
+    </script>
+<script type="text/javascript">
+      function send_analytics_event(user_type, donation){
+          // if(user_type == 'uncached' || user_type == 'cached'){
+          //   ga('send', 'event', 'caching', 'load', user_type, {'nonInteraction': 1});
+          //   return;
+          // }
+          var event_name = user_type;
+
+          if(donation == 'true'){
+              event_name += "_donation"
+          }else if(typeof(valid_user) == 'undefined'){
+              event_name += "_blocked"
+          }else if(valid_user == true){
+              event_name += "_unblocked";
+          }else{
+              event_name = "_unknown"
+          }
+          ga('send', 'event', 'ads', 'load', event_name, {'nonInteraction': 1});
+      }
+
+    
+    send_analytics_event("guest", "false");
+      </script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "35128827" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/35128827/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=35128827&amp;cv=3.6.0&amp;cj=1">
+</noscript>
+
+</body>
+</html>
