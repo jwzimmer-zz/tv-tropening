@@ -41,19 +41,30 @@ def foldercont(foldername):
     allfiles = os.listdir(foldername)
     return allfiles
 
+
+
 def compare_folders():
     attemptfiles = foldercont("tvtropes.org-attempt/pmwiki/pmwiki.php/Literature")
-    files = foldercont("tvtropes.org/pmwiki/pmwiki.php/Literature")
+    files = foldercont("tvtropes.org-plain/pmwiki/pmwiki.php/Literature")
+    thirdfiles = foldercont("tvtropes.org-third/pmwiki/pmwiki.php/Literature")
+    for f in thirdfiles:
+        delete_extras("tvtropes.org-third/pmwiki/pmwiki.php/Literature/" + f)
+    thirdfiles = foldercont("tvtropes.org-third/pmwiki/pmwiki.php/Literature")
     different_files = []
+    filelist = []
     for f in attemptfiles:
-        if f not in files:
+        if f not in files and f not in thirdfiles:
             different_files.append(f)
-            print("In attempt only: ",f)
+            filelist += ["In attempt only: tvtropes.org-attempt/pmwiki/pmwiki.php/Literature",f]
     for f in files:
-        if f not in attemptfiles:
+        if f not in attemptfiles and f not in thirdfiles:
             different_files.append(f)
-            print("In plain only: ",f)
-    write_json(different_files, "difference_in_Lit_wget_results.json")
+            filelist += ["In plain only: tvtropes.org-plain/pmwiki/pmwiki.php/Literature",f]
+    for f in thirdfiles:
+        if f not in files and f not in attemptfiles:
+            different_files.append(f)
+            filelist += ["In third only: tvtropes.org-third/pmwiki/pmwiki.php/Literature",f]
+    write_json(filelist, "difference_in_paths_3_Lit_wget_results_and.json")
     return different_files
 
 compare_folders()
