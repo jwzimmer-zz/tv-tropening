@@ -21,6 +21,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LinearRegression
+import random
 
 
 # === === Helper functions === ===
@@ -118,20 +119,205 @@ def wordscores(n=7):
     # saved in characterspace_03-02-2021.py
     return None
  
-def svdweightchart(df1,svd,d="1stD"):
+def svdweightchart(df1,svd,d="1stD",side="by_mag",big=True):
     n=min(10,len(df1.columns))
     lincombos3d = pd.DataFrame()
-    lincombos3d["Attribute"] = [x for x in df1.columns]
+    lincombos3d["Attribute"] = [x for x in df1.columns if "<->" in x]
     lincombos3d["1stD"] = svd.components_[0]
     lincombos3d["2ndD"] = svd.components_[1]
     lincombos3d["3rdD"] = svd.components_[2]
-    sorteddf = lincombos3d.sort_values(by=d)
-    top_n_top = sorteddf.iloc[0:n]
-    top_n_bottom = sorteddf.iloc[-n:].iloc[::-1]
-    plotguy = pd.concat([top_n_top,top_n_bottom])
+    if side=="by_mag":
+        lincombos3d["mag_1stD"] = lincombos3d.apply(lambda row: abs(row["1stD"]), axis = 1)
+        lincombos3d["mag_2ndD"] = lincombos3d.apply(lambda row: abs(row["2ndD"]), axis = 1)
+        lincombos3d["mag_3rdD"] = lincombos3d.apply(lambda row: abs(row["3rdD"]), axis = 1)
+        sorteddf = lincombos3d.sort_values(by="mag_"+d)
+        if big:
+            plotguy = sorteddf.iloc[-2*n:].iloc[::-1]
+        else:
+            plotguy = sorteddf.iloc[0:2*n]
+    if side=="half_n_half":
+        sorteddf = lincombos3d.sort_values(by=d)
+        top_n_top = sorteddf.iloc[0:n]
+        top_n_bottom = sorteddf.iloc[-n:].iloc[::-1]
+        plotguy = pd.concat([top_n_top,top_n_bottom])
+    if side=="neg":
+        plotguy = sorteddf.iloc[0:2*n]
+    if side=="pos":
+        plotguy = sorteddf.iloc[-2*n:].iloc[::-1]
     #print(plotguy)
     sns.barplot(plotguy[d],plotguy["Attribute"])
     return lincombos3d
+
+def chart(data,n=15,title="Percent of explained variance",chart="bar"):
+    # evr is the list of the explained variance
+        # pass in evr,chart="pie" to get a pie chart showing the explained variance for all dimensions
+        # pass in evr,chart="bar",n=#,title="str" to get a bar chart of the first n dimensions' explained variance
+        # pass in evr,chart="cumbar", etc., to get cumulative explained variance
+    # ssv is the singular values
+    #colors = [] #dunno how to set nice colors
+    if chart == "bar":
+        mydf = pd.DataFrame()
+        mydf[title]=data[:n]
+        plt.bar(range(n),mydf[title])
+    if chart == "pie":
+        plt.pie(data)
+    # to get a cumulative bar chart of the evr
+    if chart == "cumbar":
+        mydf = pd.DataFrame()
+        cumevr = [data[:i+1].sum() for i in range(n)]
+        mydf[title]=cumevr
+        plt.bar(range(n),mydf[title])
+    return None
+
+def work_chardf(df,svd,work,c1=0,c2=1,c3=2):
+    # e.g. df=c.df, work="NCIS"
+    workdf = df.loc[df['work'] == work]
+    attrs = pd.DataFrame()
+    attrs["Trait"] = [x for x in workdf.columns if "<->" in x]
+    attrs["1stD"] = svd.components_[c1]
+    attrs["2ndD"] = svd.components_[c2]
+    attrs["3rdD"] = svd.components_[c3]
+    # want to multiply each character's trait score 
+    # by the weight for that trait in each dimension
+    bychar = {}
+    for j in range(workdf.shape[0]):
+        dims = {}
+        for dim in ["1stD","2ndD","3rdD"]:
+            char_dimsum = 0
+            for i in range(attrs[dim].shape[0]):
+                weight = attrs[dim].iloc[i]
+                trait = attrs["Trait"].iloc[i]
+                score = workdf[trait].iloc[j]
+                char_dimsum += weight*score
+            title = dim + "_lc_sum"
+            dims[title] = char_dimsum
+        bychar[workdf["name"].iloc[j]] = dims
+    chardf = pd.DataFrame().from_dict(bychar)
+    chardf = chardf.transpose()
+    return chardf
+
+def work_chart(chardf,ang1=30,ang2=30,fontsize=10):
+    fig = plt.figure()
+    ax = fig.add_subplot(projection='3d')
+    #ax.scatter(chardf["1stD_lc_sum"], chardf["2ndD_lc_sum"], chardf["3rdD_lc_sum"])
+    for i in range(len(chardf.index)): #plot each point + it's index as text above
+        x,y,z = chardf["1stD_lc_sum"].iloc[i], chardf["2ndD_lc_sum"].iloc[i], chardf["3rdD_lc_sum"].iloc[i]
+        ax.scatter(x,y,z)
+        ax.text(x,y,z,  '%s' % (chardf.index[i]), size=fontsize, zorder=1,color='k') 
+    ax.view_init(ang1,ang2)
+    ax.set_xlabel('1st Dim LC')
+    ax.set_ylabel('2nd Dim LC')
+    ax.set_zlabel('3rd Dim LC')
+    plt.show()
+    return chardf
+
+def flat_work_chart(chardf,work,fontsize=10,c1=0,c2=1,c3=2):
+    #expects chardf to be the df output by work_chardf
+    #make 3 flat versions, 2d each
+    fig = plt.figure()
+    ax = fig.add_subplot()
+    plt.subplot(2, 2, 1)
+    for i in range(len(chardf.index)): #plot each point + it's index as text above
+        x,y,z = chardf["1stD_lc_sum"].iloc[i], chardf["2ndD_lc_sum"].iloc[i], chardf["3rdD_lc_sum"].iloc[i]
+        plt.scatter(x,y)
+    plt.title(work)
+    plt.xlabel('1st')
+    plt.ylabel('2nd')
+    plt.subplot(2, 2, 2)
+    for i in range(len(chardf.index)): #plot each point + it's index as text above
+        x,y,z = chardf["1stD_lc_sum"].iloc[i], chardf["2ndD_lc_sum"].iloc[i], chardf["3rdD_lc_sum"].iloc[i]
+        plt.scatter(x,z)
+        if (i-1)%2:
+            plt.text(x,z,  '%s' % (chardf.index[i]), size=fontsize, zorder=1,color='k')
+    plt.xlabel('1st')
+    plt.ylabel('3rd')
+    plt.subplot(2, 2, 3)
+    for i in range(len(chardf.index)): #plot each point + it's index as text above
+        x,y,z = chardf["1stD_lc_sum"].iloc[i], chardf["2ndD_lc_sum"].iloc[i], chardf["3rdD_lc_sum"].iloc[i]
+        plt.scatter(y,z)
+        if (i)%2:
+            plt.text(y,z,  '%s' % (chardf.index[i]), size=fontsize, zorder=1,color='k')
+    plt.xlabel('2nd')
+    plt.ylabel('3rd')
+    plt.show()
+    return chardf
+
+def single_flat_work_chart(chardf,work,fontsize=8,c1=0,c2=1,c3=2):
+    #expects chardf to be the df output by work_chardf
+    #make 1 flat version, 2d each with 3rd d color
+    fig = plt.figure()
+    ax = fig.add_subplot()
+    xlist = []
+    ylist = []
+    zlist = []
+    for i in range(len(chardf.index)): #plot each point + it's index as text above
+        x,y,z = chardf["1stD_lc_sum"].iloc[i], chardf["2ndD_lc_sum"].iloc[i], chardf["3rdD_lc_sum"].iloc[i]*100
+        xlist.append(x)
+        ylist.append(y)
+        zlist.append(z)
+        plt.text(x,y,  '%s' % (chardf.index[i]), size=fontsize)
+    plt.scatter(xlist,ylist,c=zlist)
+    plt.title(work)
+    plt.xlabel('1st')
+    plt.ylabel('2nd')
+    plt.show()
+    return chardf
+
+def svdweigh_picktraits(df1,svd,weights,d=8):
+    # expects c.df, svdmodel, weights = e.g. evr (list)
+    lincombos = pd.DataFrame()
+    lincombos["Attribute"] = [x for x in df1.columns if "<->" in x]
+    for i in range(d):
+        thisdim = "Dim "+str(i)
+        lincombos[thisdim] = svd.components_[i]
+        mag = "Mag of "+thisdim
+        lincombos[mag] = lincombos.apply(lambda row: abs(row[thisdim]), axis = 1)
+    n=len(svd.components_[0])
+    # columns to drop
+    dropcols = []
+    keepcols = []
+    for i in range(d):
+        f = int(weights[i]*n)
+        sorteddf = lincombos.sort_values(by="Mag of Dim "+str(i))
+        plotguy = sorteddf.iloc[0:].iloc[::-1]
+        dimitraits = plotguy["Attribute"].tolist()[:f]
+        #print(f,keepcols)
+        keepcols += dimitraits
+    dropcols += [x for x in df1.columns if x not in keepcols]
+    return lincombos, keepcols, dropcols
+    
+def runSVD(df1, n=None, i=1000, dropcols = ['unnamed.1','name','work'], verbose=False, chart=False):
+    if len(dropcols) > 0:
+        for x in dropcols:
+            df1 = df1.drop(x,axis=1)
+    if n==None:
+        n=df1.shape[1]-1
+    X = df1.to_numpy()
+    # could do some double-checking b/w sklearn and np.linalg?
+    # X_svd = SVD(X)
+    svd = TruncatedSVD(n_components=n, n_iter=i, random_state=42)
+    svd.fit(X)
+    X_svd2 = svd.transform(X)
+    if chart:
+        f=plt.figure(1)
+        plt.matshow(X_svd2)
+        f.show()
+    evr = svd.explained_variance_ratio_
+    evrs = svd.explained_variance_ratio_.sum()
+    ssv = svd.singular_values_
+    if verbose:
+        print("Exp var ratio: ",evr)
+        print("Exp var ratio sum:  ",evrs)
+        print(ssv)
+    return X_svd2,svd,evr,evrs,ssv,df1
+
+def linear_reg(df1,features,predicted_trait,verbose=True,chart=True):
+    # saved in "characterspace_03-02-2021.py"
+    return None
+
+def normalize_scores_realign(score):
+    new_score = 100-score
+    return new_score
 
 # ==== generate the character data ====
 class CharData():
@@ -141,8 +327,9 @@ class CharData():
                  renameBAPtraits=True,
                  dropcolsfromnandstd=True,
                  verbose=True,
-                 selectminratings=True,
+                 selectminratings=False,
                  drophardsoft=True,
+                 realignanchors=True,
                  normscores=True,
                  normfn=normalize_scores,
                  path="characters-aggregated/characters-aggregated.ods"):
@@ -179,7 +366,23 @@ class CharData():
             self.df.rename(columns=self.coldict, inplace=True)
             if verbose:
                 x1 = Counter([x for x in self.df.columns])
-                print("The 5 most common columns after renaming: ",x1.most_common(5))
+                print("The 5 most common columns after renaming BAP: ",x1.most_common(5))
+        if realignanchors:
+            self.anchordict,self.flipped = self.realign_anchors()
+            if drophardsoft:
+                self.flipped = [x for x in self.flipped if x!="hard<->soft"]
+            if verbose:
+                print("Before realigning, scores")
+                print(self.df.head(30))
+            self.df = normalize(self.df, self.flipped, normalize_scores_realign)
+            self.df.rename(columns=self.anchordict, inplace=True)
+            if verbose:
+                print("After realigning, scores")
+                print(self.df.head(30))
+            if verbose:
+                x1 = Counter([x for x in self.df.columns])
+                print("The 5 most common columns after realigning: ",x1.most_common(5))
+                print("Self.df shape: ",self.df.shape)
         if dropcolsfromnandstd:
             self.df_n = dropxtracols(self.df_n,self.coldict)
             self.df_std  = dropxtracols(self.df_std,self.coldict)
@@ -237,47 +440,41 @@ class CharData():
             print(newchars.head())
         return newchars
     
-    def runSVD(self, df1, n=None, i=1000, verbose=False, chart=False):
-        df1 = df1.drop('unnamed.1',axis=1)
-        df1 = df1.drop('name',axis=1)
-        if n==None:
-            n=df1.shape[1]-1
-        X = df1.to_numpy()
-        # could do some double-checking b/w sklearn and np.linalg?
-        # X_svd = SVD(X)
-        svd = TruncatedSVD(n_components=n, n_iter=i, random_state=42)
-        svd.fit(X)
-        X_svd2 = svd.transform(X)
-        if chart:
-            f=plt.figure(1)
-            plt.matshow(X_svd2)
-            f.show()
-        evr = svd.explained_variance_ratio_
-        evrs = svd.explained_variance_ratio_.sum()
-        ssv = svd.singular_values_
-        if verbose:
-            print("Exp var ratio: ",evr)
-            print("Exp var ratio sum:  ",evrs)
-            print(ssv)
-        return X_svd2,svd,evr,evrs,ssv
-    
-    def linear_reg(self,df,features,predicted_trait,verbose=True,chart=True):
-        # saved in "characterspace_03-02-2021.py"
-        return None
-    
     def find_shared_anchor_words(self):
         # saved in "characterspace_03-02-2021.py"
         return None
     
-    def realign_anchors(self,method="ourweights"):
-        left=get_json("leftanchorwords03-14-21.json")
-        right=get_json("rightanchorwords03-14-21.json")
-        anchorwords = left+right
+    def realign_anchors(self,method="myweights",csvfile="03-30-21-flipped-200d.csv"):
+        # 25d twitter: "032921-flipped.csv"
+        # 200d twitter: "03-30-21-flipped-200d.csv"
+        # 300d wikipedia: "03-31-21-wiki-300d.csv"
+        # return a dict of old col name : new column name for renaming self.df
+        anchordict = {}
+        flipped = []
         #if method == "wordscores": #(Dodds' meaning word scores) saved in "characterspace_03-02-2021.py"
         if method == "ourweights":
             # read in Phil's realignment info
-            pass           
-        return None
+            flip = pd.read_csv(csvfile)
+            onlyf = flip.loc[flip['flipped'] == True]
+            for i in range(flip.shape[0]):
+                oldname = list(flip.iloc[i])[1].split("'")
+                newname = list(flip.iloc[i])[2].split("'")
+                if oldname!=newname:
+                    flipped.append(oldname[1]+"<->"+oldname[3])
+                anchordict[oldname[1]+"<->"+oldname[3]]=newname[1]+"<->"+newname[3]
+            if len(flipped) != onlyf.shape[0]:
+                print("unexpected length in realign_anchors fn")
+        if method == "myweights":
+            thing = pd.read_csv("collist.csv")
+            realigned = thing["Realigned"]
+            original = thing["unnamed.1"]
+            for i in range(realigned.shape[0]-2):
+                o = original.iloc[i]
+                r = realigned.iloc[i]
+                anchordict[o] = r
+                if o != r:
+                    flipped.append(o)
+        return anchordict,flipped
 
             
 # saved in "characterspace_03-02-2021.py"
@@ -285,7 +482,7 @@ class CharData():
 # most_extreme_features_in_1st_svd_dimension = [] #to do: fill in list
 
 c = CharData()
-#X_svd, svdmodel, evr, evrs, ssv = c.runSVD(c.df,verbose=True,chart=True)
+X_svd, svdmodel, evr, evrs, ssv, svddf = runSVD(c.df,verbose=True,chart=False)
 
 
 
