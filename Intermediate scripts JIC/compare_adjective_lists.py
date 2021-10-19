@@ -110,6 +110,29 @@ table_2_bipolar = ["silent","talkative","timid","bold","compliant","assertive","
 table_2_bi = set(table_2_bipolar)
 overlap_names = adj_list.intersection(table_2_bi)
 
+# https://darkwing.uoregon.edu/~sanjay/pubs/bigfive.pdf
+table_1_neopir_facets = ["sociable","forceful","energetic","adventurous","enthusiastic","outgoing","forgiving","not demanding","warm","not stubborn","not show-off","sympathetic",
+                         "efficient","organized","not careless","thorough","not lazy","not impulsive","tense","irritable","not contented","shy","moody","not self-confident","curious",
+                         "imaginative","artistic","wide interests","excitable","unconventional"]
+table_1_neo = set(table_1_neopir_facets)
+# also from John 1990
+table2_10psychologists = ["quiet","reserved","shy","silent","withdrawn","retiring","talkative","assertive","active","energetic","outgoing","outspoken","dominant","forceful","enthusiastic","show-off","sociable","spunky","adventurous","noisy","bossy","fault-finding","cold","unfriendly","quarrelsome","hard-hearted","unkind","cruel","stern","thankless","stingy",
+                          "sympathetic","kind","appreciative","affectionate","soft-hearted","warm","generous","trusting","helpful","forgiving","pleasant","good-natured","friendly","cooperative","gentle","unselfish","praising","sensitive","careless","disorderly","frivolous","irresponsible","slipshot","undependable","forgetful","organized","thorough","planful",
+                          "efficient","responsible","reliable","dependable","conscientious","precise","practical","deliberate","painstaking","cautious","stable","calm","contented","unemotional","tense","anxious","nervous","moody","worrying","touchy","fearful","high-strung","self-pitying","temperamental","unstable","self-punishing","despondent","emotional","commonplace","narrow interests",
+                          "simple","shallow","unintelligent","wide interests","imaginative","intelligent","original","insightful","curious","sophisticated","artistic","clever","inventive","sharp-witted","ingenious","witty","resourceful","wise","logical","civilized","foresighted","polished","dignified"]
+table2_10psy = set(table2_10psychologists)
+
+# the measurement of meaning osgood, suci, tannenbaum 1957
+# table 1 page 37
+table1_pg37 = ["good","bad","large","small","beautiful","ugly","yellow","blue","hard","soft","sweet","sour","strong","weak","clean","dirty","high","low","calm","agitated","tasty","distasteful","valuable","worthless","red","green","young","old","cruel","kind","loud","soft","deep","shallow","pleasant","unpleasant","black","white","bitter","sweet","happy","sad","sharp","dull","empty","full",
+               "ferocious","peaceful","heavy","light","wet","dry","sacred","profane","relaxed","tense","brave","cowardly","long","short","rich","poor","clear","hazy","hot","cold","thick","thin","nice","awful","bright","dark","bass","treble","angular","rounded","fragrant","foul","honest","dishonest","active","passive","rough","smooth","fresh","stale","fast","slow","fair","unfair","rugged","delicate",
+               "near","far","pungent","bland","healthy","sick","wide","narrow"]
+table1_pg37 = set(table1_pg37)
+# table 6 page 67 "solomon study"
+table6_pg67 = ["pleasant","unpleasant","repeated","varied","smooth","rough","active","passive","beautiful","ugly","definite","uncertain","low","high","powerful","weak","steady","fluttering","soft","loud","full","empty","good","bad","rumbling","whining","solid","hollow","clear","hazy","calming","exciting","pleasing","annoying","large","small","clean","dirty","resting","busy","dull","sharp","deep","shallow",
+               "gliding","scraping","familiar","strange","soft","hard","heavy","light","wet","dry","safe","dangerous","concentrated","diffuse","pushing","pulling","labored","easy","dark","bright","even","uneven","loose","tight","relaxed","tense","colorful","colorless","hot","cold","rich","thin","obvious","subtle","wide","narrow","deliberate","careless","happy","sad","gentle","violent","mild","intense",
+               "rounded","angular","slow","fast","rugged","delicate","simple","complex","green","red","masculine","feminine"]
+table6_pg67 = set(table6_pg67)
 
 def make_venn_diagram(set1,set2,label1,label2,n):
     overlap = set1.intersection(set2)
@@ -124,7 +147,7 @@ def make_venn_diagram(set1,set2,label1,label2,n):
               set_labels=[label1, label2])
     # adjust labels from counts to names
     v.get_label_by_id('10').set_text("\n".join(list(set1)[:n]))
-    v.get_label_by_id('01').set_text("\n".join(list(set2)[:n]))
+    #v.get_label_by_id('01').set_text("\n".join(list(set2)[:n]))
     v.get_label_by_id('11').set_text("\n".join(list(overlap)[:n]))
     
     df = pd.DataFrame(data=[set1,overlap,set2])
@@ -135,8 +158,10 @@ def make_venn_diagram(set1,set2,label1,label2,n):
     print(df.to_markdown())
     return df
 
+all_other = table_2_bi.union(table_1_neo).union(table2_10psy).union(table1_pg37).union(table6_pg67)
+print(len(all_other))
 #call like, e.g. 
-#make_venn_diagram(adj_list,table_2_bi,"Character Adjectives","Goldberg FFM Adj",5)
+make_venn_diagram(adj_list,all_other,"Character Adjectives","Adjectives from FFM and MoM",5)
     
 
 
